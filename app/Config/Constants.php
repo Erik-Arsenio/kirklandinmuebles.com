@@ -92,3 +92,20 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+/*
+|--------------------------------------------------------------------------
+| Custom Project Constants
+|--------------------------------------------------------------------------
+|
+| Defining some necessary constants to be used across the system
+|
+*/
+
+// Set base URL according to SSL availability
+$baseUrl = !empty($_SERVER['HTTPS']) ? 'https://kirklandinmuebles.com/' : 'http://kirklandinmuebles.com/';
+defined('BASE_URL') || define('BASE_URL', $baseUrl);
+
+// Define CDN/static content domain
+$staticUrl = !empty($_SERVER['HTTPS']) ? 'https://cdn.kirklandinmuebles.com/' : 'http://cdn.kirklandinmuebles.com/';
+defined('STATIC_URL') || define('STATIC_URL', $staticUrl);
