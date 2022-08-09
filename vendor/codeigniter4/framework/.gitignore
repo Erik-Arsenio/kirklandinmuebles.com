@@ -64,8 +64,6 @@ writable/debugbar/*
 
 php_errors.log
 
-public/assets/pdf/deliveries/*
-
 #-------------------------
 # User Guide Temp Files
 #-------------------------
@@ -85,7 +83,7 @@ phpunit
 #-------------------------
 # Composer
 #-------------------------
-#vendor/
+vendor/
 
 #-------------------------
 # IDE / Development Files
@@ -122,7 +120,6 @@ nb-configuration.xml
 
 # Visual Studio Code
 .vscode/
-*.code-workspace
 
 /results/
 /phpunit*.xml
