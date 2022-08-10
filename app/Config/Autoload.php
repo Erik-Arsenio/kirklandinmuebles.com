@@ -83,5 +83,11 @@ class Autoload extends AutoloadConfig
      *
      * @var array<int, string>
      */
-    public $files = [];
+    public $files = [
+        SYSTEMPATH . 'Helpers/text_helper.php',
+        SYSTEMPATH . 'Helpers/number_helper.php',
+        SYSTEMPATH . 'Helpers/form_helper.php',
+        SYSTEMPATH . 'Helpers/date_helper.php',
+        APPPATH . 'Helpers/utility_helper.php',
+    ];
 }
