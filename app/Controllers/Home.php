@@ -4,15 +4,15 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
-    {
-        // Set data index
+	public function index()
+	{
+		// Set data index
 		$dataIndex = [
 			'sectionContact' => view('templates/contact'),
 			'sectionReviews' => view('templates/reviews')
 		];
-        
-        // Set data template
+
+		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
 			'content' => view('home/index', $dataIndex)
@@ -20,5 +20,5 @@ class Home extends BaseController
 
 		// Output the view
 		echo view('templates/public', $data);
-    }
+	}
 }

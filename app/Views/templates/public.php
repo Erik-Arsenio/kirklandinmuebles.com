@@ -44,10 +44,10 @@
 						<div class="nav-item dropdown">
 							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 							<div class="dropdown-menu rounded-0 m-0">
-								<a href="<?= base_url('investment-lakuun') ?>" class="dropdown-item" target="_blank">Lakuun</a>
-								<a href="<?= base_url('investment-anthia') ?>" class="dropdown-item" target="_blank">Anthia</a>
-								<a href="<?= base_url('investment-marela-celestun') ?>" class="dropdown-item" target="_blank">Marela Celestún</a>
-								<a href="<?= base_url('investment-marela-beach') ?>" class="dropdown-item" target="_blank">Marela Beach</a>
+								<a href="<?= base_url('investments/lakuun') ?>" class="dropdown-item" target="_blank">Lakuun</a>
+								<a href="<?= base_url('investments/anthia') ?>" class="dropdown-item" target="_blank">Anthia</a>
+								<a href="<?= base_url('investments/marela_celestun') ?>" class="dropdown-item" target="_blank">Marela Celestún</a>
+								<a href="<?= base_url('investments/marela_beach') ?>" class="dropdown-item" target="_blank">Marela Beach</a>
 							</div>
 						</div>
 					</div>
