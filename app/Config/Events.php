@@ -46,3 +46,6 @@ Events::on('pre_system', static function () {
         Services::toolbar()->respond();
     }
 });
+
+// Binding class static methods as event callbacks
+Events::on("post_controller_constructor", "Hooks::after_controller_constructor");

@@ -2,38 +2,38 @@
 
 namespace App\Controllers;
 
-class Investments extends BaseController
+class Properties extends BaseController
 {
-	public function index($investmentName)
-	{
-		// Set data template
-		$data = [
-			'title' => 'Kirkland Inmuebles',
-			'content' => view('investments/' . $investmentName)
-		];
-
-		// Output the view
-		echo view('templates/public', $data);
-	}
-
 	public function listing()
 	{
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('investments/listing/index')
+			'content' => view('properties/listing/index')
 		];
 
 		// Output the view
 		echo view('templates/private', $data);
 	}
 
-	public function amenities()
+	public function characteristics()
 	{
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('investments/amenities/index')
+			'content' => view('properties/characteristics/index')
+		];
+
+		// Output the view
+		echo view('templates/private', $data);
+	}
+
+	public function types()
+	{
+		// Set data template
+		$data = [
+			'title' => 'Kirkland Inmuebles',
+			'content' => view('properties/types/index')
 		];
 
 		// Output the view

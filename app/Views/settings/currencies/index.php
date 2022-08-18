@@ -1,0 +1,1 @@
+<h5><?= lang('Globals.currencies') ?></h5>
