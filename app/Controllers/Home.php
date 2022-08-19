@@ -15,7 +15,8 @@ class Home extends BaseController
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('home/index', $dataIndex)
+			'content' => view('home/index', $dataIndex),
+			'js' => load_js(['js/app-home'])
 		];
 
 		// Output the view

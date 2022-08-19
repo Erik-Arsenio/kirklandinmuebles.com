@@ -111,15 +111,17 @@
 		<a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><span class='mdi mdi-arrow-up mdi-24px'></span></a>
 	</div>
 
-	<!-- JavaScript Libraries -->
+	<!-- Global JavaScript Libraries -->
 	<?= load_js([
 		'js/jquery-3.6.0.min',
 		'bootstrap/js/bootstrap.bundle.min',
 		'lib/wow/wow.min',
 		'lib/easing/easing.min',
-		'js/main',
-		'js/app-home'
+		'js/main'
 	]) ?>
+
+	<!-- Custom JavaScript Libraries -->
+	<?= isset($js) ? $js : null ?>
 </body>
 
 </html>

@@ -9,7 +9,8 @@ class Investments extends BaseController
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('investments/' . $investmentName)
+			'content' => view('investments/' . $investmentName),
+			'js' => load_js(['js/app-' . $investmentName])
 		];
 
 		// Output the view
