@@ -1,43 +1,43 @@
 <!-- Header Start -->
-<div class="container-fluid header bg-white p-0 mt-4">
+<div class="container-xxl bg-white p-0 mt-4">
 	<div class="row g-0 align-items-center flex-column-reverse flex-md-row">
 		<div class="col-md-6 p-5 mt-0 mt-xxl-5">
 			<p class="animated slideInLeft display-6 fw-bold mb-4">Terrenos residenciales y lotes patrimoniales.</p>
 			<p class="animated slideInLeft display-6 fw-bold mb-4">Inversión en desarrollos residenciales.</p>
 			<p class="animated slideInLeft h4 mb-4 pb-2">Invierte en lotes y terrenos residenciales con alta plusvalía</p>
 		</div>
-		<div class="col-md-6 animated fadeInRight pe-md-5">
-			<div class="carousel slide text-center" data-bs-ride="true" data-bs-touch="false" id="carouselHome">
+		<div class="col-md-6 pe-md-5">
+			<div class="carousel slide text-center animated fadeInRight" data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_beach">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" loading="lazy" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" alt="">
+						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" loading="lazy" alt="">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
@@ -88,18 +88,18 @@
 	</div>
 	<div class="row row-cols-1 row-cols-lg-3 g-4">
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-			<div class="card property-item  border-5 h-100 shadow">
+			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="investments_anthia.html">
+					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/anthia">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/anthia/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/anthia/02.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/02.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/anthia/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselAnthia" data-bs-slide="prev">
@@ -112,43 +112,43 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body  btn-investments" title="Click para ir a la página" data-href="investments_anthia.html">
+				<div class="card-body  btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/anthia">
 					<h4 class="card-text text-center" name="project_heading">Lotes patrimoniales de inversión</h4>
 					<h6 class="card-text text-center" name="project_description">Desarrollo de terrenos de inversión semi-urbanizados.</h6>
 				</div>
-				<div class="card-footer  btn-investments" title="Click para ir a la página" data-href="investments_anthia.html">
-					<small class="flex-fill text-center text-muted py-2"><span class="text-success"><i class="fa fa-map-marker-alt me-2"></i></span><span name="city_name">Mérida, </span><span name="municipality_name">Hunucmá</span></small>
+				<div class="card-footer  btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/anthia">
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><span name="city_name">Mérida, </span><span name="municipality_name">Hunucmá</span></small>
 				</div>
 			</div>
 		</div>
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="investments_lakuun.html">
+					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/lakuun">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/13.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/14.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/14.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/15.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/15.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselLakuun" data-bs-slide="prev">
@@ -161,28 +161,28 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href="investments_lakuun.html">
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/lakuun">
 					<h4 class="card-text text-center" name="project_heading">Lotes residenciales premium</h4>
 					<h6 class="card-text text-center" name="project_description">Desarrollo residencial inspirado en exclusividad, balance y elegancia.</>
 				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="investments_lakuun.html">
-					<small class="flex-fill text-center text-muted py-2"><span class="text-success"><i class="fa fa-map-marker-alt me-2"></i></span><span name="city_name">Mérida, </span><span name="municipality_name">Komchen</span></small>
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/lakuun">
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><span name="city_name">Mérida, </span><span name="municipality_name">Komchen</span></small>
 				</div>
 			</div>
 		</div>
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item  border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-bs-ride="true" data-href="investments_marela_celestun.html">
+					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-bs-ride="true" data-href="http://kirklandinmuebles.com/investments/marela_celestun">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_celestun/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaCelestun" data-bs-slide="prev">
@@ -195,73 +195,73 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href="investments_marela_celestun.html">
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_celestun">
 					<h4 class="card-text text-center" name="project_heading">Lotes patrimoniales en la Playa</h4>
 					<h6 class="card-title text-center" name="project_description">Terrenos semi-urbanizados en la hermosa playa de Celestún</h6>
 				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="investments_anthia.html">
-					<small class="flex-fill text-center text-muted py-2"><span class="text-success"><i class="fa fa-map-marker-alt me-2"></i></span><span name="city_name">Mérida, </span> <span name="municipality_name">Celestúm</span></small>
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_celestun">
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><span name="city_name">Mérida, </span> <span name="municipality_name">Celestúm</span></small>
 				</div>
 			</div>
 		</div>
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item  border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden">
-					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="investments_marela_beach.html">
+					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_beach">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/05.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/05.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/10.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/10.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/11.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/11.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/12.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/12.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/14.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/14.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/19.jpg' ?>" class="card-img-top img-fluid" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/19.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaBeach" data-bs-slide="prev">
@@ -274,12 +274,12 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href="investments_marela_beach.html">
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_beach">
 					<h4 class="card-text text-center" name="project_heading">Lotes residenciales en la playa</h4>
 					<h6 class="card-title text-center" name="project_description">Terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</h6>
 				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="investments_marela_beach.html">
-					<small class="flex-fill text-center text-muted py-2"><span class="text-success"><i class="fa fa-map-marker-alt me-2"></i></span><span name="city_name">Mérida, </span><span name="municipality_name">Celestúm</span></small>
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_beach">
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><span name="city_name">Mérida, </span><span name="municipality_name">Celestúm</span></small>
 				</div>
 			</div>
 		</div>
