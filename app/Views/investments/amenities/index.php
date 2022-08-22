@@ -1,1 +1,0 @@
-<h5><?= lang('Globals.amenities') ?></h5>

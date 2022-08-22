@@ -36,9 +36,9 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('investments/listing', 'Investments::listing');
-$routes->get('investments/amenities', 'Investments::amenities');
-$routes->get('investments/(:any)', 'Investments::index/$1');
+$routes->get('projects/listing', 'Projects::listing');
+$routes->get('projects/amenities', 'Projects::amenities');
+$routes->get('projects/(:any)', 'Projects::index/$1');
 $routes->get('properties/listing', 'Properties::listing');
 $routes->get('properties/characteristics', 'Properties::characteristics');
 $routes->get('properties/types', 'Properties::types');
