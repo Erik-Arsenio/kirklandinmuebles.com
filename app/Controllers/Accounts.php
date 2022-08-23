@@ -24,7 +24,7 @@ class Accounts extends BaseController
 
 			// Verify login authenticity and proceed accordingly
 			if ($auth) {
-				return redirect()->to(site_url('investments/listing'));
+				return redirect()->to(site_url('projects/listing'));
 			} else {
 				session()->setFlashdata('msgError', lang('Globals.error_1'));
 			}

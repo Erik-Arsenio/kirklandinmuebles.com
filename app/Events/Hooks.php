@@ -17,7 +17,7 @@ class Hooks
 						$router->controllerName() == '\App\Controllers\Accounts'
 						&& in_array($router->methodName(), ['sign_in'])
 					) {
-						header("Location: " . site_url('investments/listing'));
+						header("Location: " . site_url('projects/listing'));
 						die();
 					}
 					break;

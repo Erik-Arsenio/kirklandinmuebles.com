@@ -58,13 +58,13 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav me-auto mb-2 mb-md-0">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle<?php if (url_is('investments*')) echo ' active'; ?>" href="#" data-bs-toggle="dropdown" aria-expanded="false"><?= lang('Globals.investments') ?></a>
+						<a class="nav-link dropdown-toggle<?php if (url_is('projects*')) echo ' active'; ?>" href="#" data-bs-toggle="dropdown" aria-expanded="false"><?= lang('Globals.projects') ?></a>
 						<ul class="dropdown-menu">
 							<li>
-								<a class="dropdown-item" href="<?= base_url('investments/listing') ?>"><?= lang('Globals.listing') ?></a>
+								<a class="dropdown-item" href="<?= base_url('projects/listing') ?>"><?= lang('Globals.listing') ?></a>
 							</li>
 							<li>
-								<a class="dropdown-item" href="<?= base_url('investments/amenities') ?>"><?= lang('Globals.amenities') ?></a>
+								<a class="dropdown-item" href="<?= base_url('projects/amenities') ?>"><?= lang('Globals.amenities') ?></a>
 							</li>
 						</ul>
 					</li>
@@ -108,7 +108,8 @@
 	<!-- JavaScript Libraries -->
 	<?= load_js([
 		'js/jquery-3.6.0.min',
-		'bootstrap/js/bootstrap.bundle.min'
+		'bootstrap/js/bootstrap.bundle.min',
+		'js/main'
 	]) ?>
 </body>
 
