@@ -108,7 +108,8 @@
 	<!-- JavaScript Libraries -->
 	<?= load_js([
 		'js/jquery-3.6.0.min',
-		'bootstrap/js/bootstrap.bundle.min'
+		'bootstrap/js/bootstrap.bundle.min',
+		'js/main'
 	]) ?>
 </body>
 

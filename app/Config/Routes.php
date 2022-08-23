@@ -38,6 +38,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('projects/listing', 'Projects::listing');
 $routes->get('projects/amenities', 'Projects::amenities');
+$routes->get('projects/load_form_add_edit_amenity/(:any)', 'Projects::load_form_add_edit_amenity/$1');
 $routes->get('investments/(:any)', 'Projects::index/$1');
 $routes->get('properties/listing', 'Properties::listing');
 $routes->get('properties/characteristics', 'Properties::characteristics');

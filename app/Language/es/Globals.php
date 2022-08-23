@@ -35,6 +35,7 @@ return [
 	'save' => 'Guardar',
 	'close' => 'Cerrar',
 	'projects' => 'Proyectos',
+	'name' => 'Nombre',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
 	'error_1' => 'Los datos de autenticación son incorrectos.',
