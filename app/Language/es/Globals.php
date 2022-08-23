@@ -38,6 +38,9 @@ return [
 	'name' => 'Nombre',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
+	'text_3' => 'No existen registros para mostrar.',
 	'error_1' => 'Los datos de autenticación son incorrectos.',
-	'error_2' => 'No tiene permisos para acceder a esta área, contacte al administrador del sistema.'
+	'error_2' => 'No tiene permisos para acceder a esta área, contacte al administrador del sistema.',
+	'error_3' => 'Ocurrió un error inesperado, por favor espere un momento y vuelva a intentarlo.',
+	'confirm_1' => 'Los datos fueron guardados satisfactoriamente.'
 ];
