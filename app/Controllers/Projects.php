@@ -51,10 +51,15 @@ class Projects extends BaseController
 
 	public function amenities()
 	{
+		// Set data view
+		$dataView = [
+			'getAmenities' => $this->projects->getAmenities()
+		];
+
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('projects/amenities/index')
+			'content' => view('projects/amenities/index', $dataView)
 		];
 
 		// Output the view
@@ -75,6 +80,43 @@ class Projects extends BaseController
 			];
 
 			echo view('projects/amenities/form_add_edit', $dataView);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
+
+	public function add_edit_amenity()
+	{
+		// Globals
+		$formPost = $this->request->getPost();
+		$getLanguages = $this->settings->getLanguages();
+
+		// Post request submitted
+		if (!empty($formPost)) {
+			$this->validation->reset();
+
+			// Set validation rules
+			foreach ($getLanguages as $language) {
+				$validationRules["project_amenity_name_{$language->language_abr}"] = [
+					'label' => lang('Globals.name') . ' (' . $language->language_name . ')',
+					'rules' => 'required'
+				];
+			}
+
+			if ($this->validate($validationRules)) {
+				$response = $this->projects->addEditAmenity($formPost);
+
+				if ($response) {
+					session()->setFlashdata('msgConfirm', lang('Globals.confirm_1'));
+				} else {
+					session()->setFlashdata('msgError', lang('Globals.error_3'));
+				}
+
+				echo 0;
+			} else {
+				// Validation failes, reload the form
+				$this->load_form_add_edit_amenity($formPost['project_amenity_id']);
+			}
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}
