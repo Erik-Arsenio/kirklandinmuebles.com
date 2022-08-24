@@ -30,7 +30,7 @@ class Projects extends BaseController
 		$data = [
 			'title' => 'Kirkland Inmuebles',
 			'content' => view('projects/' . $projectName, $dataIndex),
-			'js' => load_js(['js/app-' . $projectName])
+			'js' => load_js(['js/app-properties'])
 		];
 
 		// Output the view
