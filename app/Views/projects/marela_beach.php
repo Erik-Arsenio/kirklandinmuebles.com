@@ -17,31 +17,31 @@
                         <img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
