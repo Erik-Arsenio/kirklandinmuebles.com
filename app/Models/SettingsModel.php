@@ -172,7 +172,7 @@ class SettingsModel extends Model
 	 **/
 	public function getCities($cityId = null, $stateId = null)
 	{
-		$builder = $this->db->table('t_city');
+		$builder = $this->db->table('v1_city');
 		$builder->orderBy('city_name ASC');
 		if (!empty($cityId)) {
 			$builder->where('city_id', $cityId);
@@ -182,6 +182,32 @@ class SettingsModel extends Model
 				$builder->where('state_id', $stateId);
 			}
 			return $builder->get()->getResult();
+		}
+	}
+
+	/**
+	 * Add/Edit a city record
+	 * @param array $formPost
+	 *
+	 * @return bool
+	 **/
+	public function addEditCity($formPost)
+	{
+		// Globals
+		$builder = $this->db->table('t_city');
+
+		// Build array of values
+		$valuesCity = [
+			'city_name' => trim(strip_tags($formPost['city_name'])),
+			'state_id' => $formPost['state_id']
+		];
+
+		// Insert/Update record accordingly
+		if (!empty($formPost['city_id'])) {
+			$builder->where('city_id', $formPost['city_id']);
+			return $builder->update($valuesCity);
+		} else {
+			return $builder->insert($valuesCity);
 		}
 	}
 

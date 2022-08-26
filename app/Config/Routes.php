@@ -36,6 +36,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->add('sign-in', 'Accounts::sign_in');
+$routes->add('logout', 'Accounts::logout');
 $routes->get('projects/listing', 'Projects::listing');
 $routes->get('projects/amenities', 'Projects::amenities');
 $routes->get('projects/load_form_add_edit_amenity/(:any)', 'Projects::load_form_add_edit_amenity/$1');
@@ -45,10 +47,10 @@ $routes->get('properties/listing', 'Properties::listing');
 $routes->get('properties/characteristics', 'Properties::characteristics');
 $routes->get('properties/load_form_add_edit_characteristic/(:any)', 'Properties::load_form_add_edit_characteristic/$1');
 $routes->post('properties/add_edit_characteristic', 'Properties::add_edit_characteristic');
-$routes->get('settings/municipalities', 'Settings::municipalities');
 $routes->get('settings/cities', 'Settings::cities');
-$routes->add('sign-in', 'Accounts::sign_in');
-$routes->add('logout', 'Accounts::logout');
+$routes->get('settings/load_form_add_edit_city/(:any)', 'Settings::load_form_add_edit_city/$1');
+$routes->post('settings/add_edit_city', 'Settings::add_edit_city');
+$routes->get('settings/municipalities', 'Settings::municipalities');
 
 /*
  * --------------------------------------------------------------------

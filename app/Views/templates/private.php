@@ -83,10 +83,10 @@
 						<a class="nav-link dropdown-toggle<?php if (url_is('settings*')) echo ' active'; ?>" href="#" data-bs-toggle="dropdown" aria-expanded="false"><?= lang('Globals.settings') ?></a>
 						<ul class="dropdown-menu">
 							<li>
-								<a class="dropdown-item" href="<?= base_url('settings/municipalities') ?>"><?= lang('Globals.municipalities') ?></a>
+								<a class="dropdown-item" href="<?= base_url('settings/cities') ?>"><?= lang('Globals.cities') ?></a>
 							</li>
 							<li>
-								<a class="dropdown-item" href="<?= base_url('settings/cities') ?>"><?= lang('Globals.cities') ?></a>
+								<a class="dropdown-item" href="<?= base_url('settings/municipalities') ?>"><?= lang('Globals.municipalities') ?></a>
 							</li>
 						</ul>
 					</li>
