@@ -90,7 +90,7 @@
 <div class="container-xxl py-1">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Características</h1>
+            <h1 class="fw-bold text-decoration-underline">Comodidades</h1>
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
