@@ -186,7 +186,7 @@
 <div class="container-xxl py-5 d-none">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Características</h1>
+            <h1 class="fw-bold text-decoration-underline">Comodidades</h1>
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
@@ -203,7 +203,7 @@
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                 <ul>
                     <li class="h4">Alberca de adultos</li>
-                    <li class="h4">Alberca  de niños</li>
+                    <li class="h4">Alberca de niños</li>
                     <li class="h4">Área de hamacas y camastros</li>
                     <li class="h4">Área de palapas  con sombrillas y camastros</li>
                     <li class="h4">Baños con vestidores</li>
