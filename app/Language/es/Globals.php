@@ -37,6 +37,7 @@ return [
 	'projects' => 'Proyectos',
 	'name' => 'Nombre',
 	'state' => 'Estado',
+	'city' => 'Ciudad',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
 	'text_3' => 'No existen registros para mostrar.',
