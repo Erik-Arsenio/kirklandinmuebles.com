@@ -212,6 +212,54 @@ class SettingsModel extends Model
 	}
 
 	/**
+	 * List/Get municipalities available and filter them if apply
+	 * @param int $municipalityId
+	 * @param int $cityId
+	 *
+	 * @return object
+	 **/
+	public function getMunicipalities($municipalityId = null, $cityId = null)
+	{
+		$builder = $this->db->table('v1_municipality');
+		$builder->orderBy('municipality_name ASC');
+		if (!empty($municipalityId)) {
+			$builder->where('municipality_id', $municipalityId);
+			return $builder->get()->getRow();
+		} else {
+			if (!empty($cityId)) {
+				$builder->where('city_id', $cityId);
+			}
+			return $builder->get()->getResult();
+		}
+	}
+
+	/**
+	 * Add/Edit a municipality record
+	 * @param array $formPost
+	 *
+	 * @return bool
+	 **/
+	public function addEditMunicipality($formPost)
+	{
+		// Globals
+		$builder = $this->db->table('t_municipality');
+
+		// Build array of values
+		$valuesMunicipality = [
+			'municipality_name' => trim(strip_tags($formPost['municipality_name'])),
+			'city_id' => $formPost['city_id']
+		];
+
+		// Insert/Update record accordingly
+		if (!empty($formPost['municipality_id'])) {
+			$builder->where('municipality_id', $formPost['municipality_id']);
+			return $builder->update($valuesMunicipality);
+		} else {
+			return $builder->insert($valuesMunicipality);
+		}
+	}
+
+	/**
 	 * List/Get states available and filter them if apply
 	 * @param int $stateId
 	 *

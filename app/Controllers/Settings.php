@@ -93,13 +93,77 @@ class Settings extends BaseController
 
 	public function municipalities()
 	{
+		// Set data view
+		$dataView = [
+			'getMunicipalities' => $this->settings->getMunicipalities()
+		];
+
 		// Set data template
 		$data = [
 			'title' => 'Kirkland Inmuebles',
-			'content' => view('settings/municipalities/index')
+			'content' => view('settings/municipalities/index', $dataView)
 		];
 
 		// Output the view
 		echo view('templates/private', $data);
+	}
+
+	public function load_form_add_edit_municipality($municipalityId = null)
+	{
+		// Check for an AJAX request
+		if ($this->request->isAJAX()) {
+			// Globals
+			$municipality = !empty($municipalityId) ? $this->settings->getMunicipalities($municipalityId) : null;
+
+			// Set data form Add/Edit
+			$dataView = [
+				'municipality' => $municipality,
+				'getCities' => $this->settings->getCities()
+			];
+
+			echo view('settings/municipalities/form_add_edit', $dataView);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
+
+	public function add_edit_municipality()
+	{
+		// Globals
+		$formPost = $this->request->getPost();
+
+		// Post request submitted
+		if (!empty($formPost)) {
+			$this->validation->reset();
+
+			// Set validation rules
+			$validationRules = $this->validate([
+				'city_id' => [
+					'label' => lang('Globals.city'),
+					'rules' => 'required|is_natural_no_zero'
+				],
+				'municipality_name' => [
+					'label' => lang('Globals.name'),
+					'rules' => 'required'
+				]
+			]);
+
+			if ($validationRules) {
+				$response = $this->settings->addEditMunicipality($formPost);
+
+				if ($response) {
+					session()->setFlashdata('msgConfirm', lang('Globals.confirm_1'));
+				} else {
+					session()->setFlashdata('msgError', lang('Globals.error_3'));
+				}
+
+				echo 0;
+			} else {
+				// Validation failes, reload the form
+				$this->load_form_add_edit_municipality($formPost['municipality_id']);
+			}
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
 	}
 }
