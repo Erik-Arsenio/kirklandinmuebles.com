@@ -90,7 +90,7 @@
 <div class="container-xxl py-1">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Comodidades</h1>
+            <h1 class="fw-bold text-decoration-underline">Características</h1>
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
@@ -99,18 +99,20 @@
                     <li class="h4">Lotes con superficies desde 208m<sup>2</sup> (8x26)</li>
                     <li class="h4">Calles blancas</li>
                     <li class="h4">Malecón ecológico interno</li>
-                    <li class="h4">Lotes semi urbanizados con energía eléctrica a pié del desarrollo</li>
+                    <!-- <li class="h4">Lotes semi urbanizados con energía eléctrica a pié del desarrollo</li> -->
                     <li class="h4">Mojoneras de concreto</li>
+                    <li class="h4">Entrada distintiva</li>
+                    <li class="h4">Excelente geometría y orientación</li>
                 </ul>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                 <ul>
-                    <li class="h4">Entrada distintiva</li>
-                    <li class="h4">Energía elérctrica dentro del desarrollo</li>
+                    <li class="h4">Energía elérctrica dentro del desarrollo a pie de lote</li>
                     <li class="h4">Vías de acceso rápido y amplias</li>
-                    <li class="h4">Desde $576,160 MXN</li>
-                    <li class="h4">Excelente geometría y orientación</li>
+                    <li class="h4">Desde 576.160,00 MXN</li>
                     <li class="h4">A 5 minutos de Celestún y a 45 de Mérida</li>
+                    <li class="h4">Club de playa privada</li>
+                    <li class="h4">Casa club</li>
                 </ul>
             </div>
         </div>
@@ -152,23 +154,23 @@
             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
                 <div class="card border-5 h-100 shadow px-0" >
                     <div class="card-header text-center" >
-                        <p class="h2">Precio por m<small><sup>2</sup></small></p>
+                        <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
                         <p class="h2 text-success">Lote tipo</p>
                     </div>
                     <div class="card-body">
                         <div class="row text-center">
                             <div class="col-6">
-                                <p class="h5">Precio por m<small><sup>2</sup></small> desde</p>
-                                <p class="h2 text-success">$2,770  <span class="h6">MXN</p>
+                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                <p class="h4 text-success">2.770,00 <span class="h4">MXN</p>
                             </div>
                             <div class="col-6">
-                                <p class="h5">Financiamiento hasta</p>
-                                <p class="h2 text-success">60 <span class="h2">MSI</p>
+                                <p class="h6">Financiamiento hasta</p>
+                                <p class="h4 text-success">60 <span class="h4">MSI</p>
                             </div>
                         </div>
                         <div class="row text-center">
-                            <p class="h5" >Enganche de</p>
-                            <p class="h2 text-success">10%</h6>
+                            <p class="h6">Enganche de</p>
+                            <p class="h4 text-success">10%</h6>
                         </div>
                     </div>
                     <div class="card-footer">
@@ -186,7 +188,7 @@
 <div class="container-xxl py-5 d-none">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Comodidades</h1>
+            <h1 class="fw-bold text-decoration-underline">Características</h1>
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
@@ -1312,6 +1314,11 @@
                         title="260 m2" data-stroke-width="1.2"></path>
                     </g>
                 </svg>
+                <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                    <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
+                    <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
+                    <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                </div>
             </div>
         </div>
     </div>
