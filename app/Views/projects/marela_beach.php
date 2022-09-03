@@ -73,6 +73,7 @@
                 <p class="h4"><span class='mdi mdi-finance mdi-24px text-success me-3'></span>Financiamiento directamente con la empresa</p>
                 <p class="h4"><span class='mdi mdi-handshake mdi-24px text-success me-3'></span>No revisamos buró de crédito</p>
                 <p class="h4"><span class='mdi mdi-account-check-outline mdi-24px text-success me-3'></span>Terrenos en propiedad privada</p>
+                <p class="h4"><span class='mdi mdi-car-clock mdi-24px text-success me-3'></span>Solo a 45 minutos de Mérida</p>
             </div>
         </div>
     </div>
@@ -83,7 +84,7 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Comodidades</h1>
+            <h1 class="fw-bold text-decoration-underline">Características</h1>
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
@@ -108,7 +109,7 @@
             </div>
             <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
                 <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span>Club de playa</p>
-                <p class="h4"><span class='mdi mdi-car-clock mdi-24px text-success me-3'></span>Solo a 45 minutos de Mérida</p>
+                
             </div>
         </div>
     </div>
@@ -179,26 +180,27 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-2">
+        <div class="row row-cols-1 row-cols-lg-3">
             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
                 <div class="card border-5 h-100 shadow px-0" >
                     <div class="card-header text-center" >
-                        <p class="h2 text-success">Lote tipo</p>
+                        <p class="h2 text-success">Lote Frente al mar</p>
                     </div>
                     <div class="card-body">
                         <div class="row text-center">
                             <div class="col-6">
-                                <p class="h5">Precio por m<small><sup>2</sup></small></p>
-                                <p class="h2 text-success">$5,065  <span class="h6">MXN</p>
+                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                <p class="h4 text-success">13.580,00  <span class="h4">MXN</span></p>
                             </div>
                             <div class="col-6">
-                                <p class="h5">Financiamiento hasta</p>
-                                <p class="h2 text-success">48 <span class="h2">MSI</p>
+                                <p class="h6">Financiamiento hasta</p>
+                                <p class="h4 text-success">24 <span class="h4">MSI</span></p>
                             </div>
                         </div>
                         <div class="row text-center">
-                            <p class="h5" >Enganche de</p>
-                            <p class="h2 text-success">10%</h6>
+                            <p class="h6" >Enganche de</p>
+                            <p class="h4 text-success">20%</h6>
+
                         </div>
                     </div>
                     <div class="card-footer">
@@ -209,23 +211,48 @@
             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
                 <div class="card border-5 h-100 shadow px-0" >
                     <div class="card-header text-center" >
-                        <p class="h2 text-success">Lote Frente al mar</p>
+                        <p class="h2 text-success">Lote segunda fila</p>
                     </div>
                     <div class="card-body">
                         <div class="row text-center">
                             <div class="col-6">
-                                <p class="h5">Precio total por Lote</p>
-                                <p class="h2 text-success">$3,5  <span class="h6">MDP</p>
+                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                <p class="h4 text-success">5.065,00  <span class="h4">MXN</span></p>
                             </div>
                             <div class="col-6">
-                                <p class="h5">Financiamiento hasta</p>
-                                <p class="h2 text-success">24 <span class="h2">MSI</p>
+                                <p class="h6">Financiamiento hasta</p>
+                                <p class="h4 text-success">48 <span class="h4">MSI</span></p>
                             </div>
                         </div>
                         <div class="row text-center">
-                            <p class="h5" >Enganche de</p>
-                            <p class="h2 text-success">20%</h6>
-
+                            <p class="h6" >Enganche de</p>
+                            <p class="h4 text-success">10%</h6>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-title text-center h4">Entrega Diciembre 2025 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+                <div class="card border-5 h-100 shadow px-0" >
+                    <div class="card-header text-center" >
+                        <p class="h2 text-success">Lote segunda fila plus</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                <p class="h4 text-success">5.620,00  <span class="h4">MXN</span></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="h6">Financiamiento hasta</p>
+                                <p class="h4 text-success">48 <span class="h4">MSI</span></p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <p class="h6" >Enganche de</p>
+                            <p class="h4 text-success">10%</h6>
                         </div>
                     </div>
                     <div class="card-footer">
@@ -1261,8 +1288,12 @@
                         <polygon class="st5" fill="transparent" points="243.1,468.4 284.2,469 284.1,553.2 355,553.3 354.8,792.1 238.4,792 	"/>
                     </g>
                 </svg>
+                <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-1">
+                    <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
+                    <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
+                    <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                </div>
             </div>
-            <!-- </picture> -->
         </div>
     </div>
 </div>
