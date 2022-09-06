@@ -7,17 +7,19 @@ use App\Models\ProjectsModel;
 
 class Projects extends BaseController
 {
-	protected $validation;
 	protected $settings;
 	protected $projects;
+	protected $validation;
+	protected $pager;
 
 	public function __construct()
 	{
 		$this->settings = new SettingsModel();
 		$this->projects = new ProjectsModel();
 		$this->validation = \Config\Services::validation();
+		$this->pager = \Config\Services::pager();
 	}
-	
+
 	public function index($projectName)
 	{
 		// Set data index
@@ -39,14 +41,33 @@ class Projects extends BaseController
 
 	public function listing()
 	{
-		// Set data template
-		$data = [
-			'title' => 'Kirkland Inmuebles',
-			'content' => view('projects/listing/index')
-		];
+		// Globals
+		$getEntries = intval($this->request->getGet('et')) ?: $this->pager->getPerPage();
+		$getPage = intval($this->request->getGet('page')) ?: 1;
+		$getSort = is_null($this->request->getGet('sr')) ? 'project_name ASC' : str_replace('+', ' ', $this->request->getGet('sr'));
 
-		// Output the view
-		echo view('templates/private', $data);
+		if (is_int($getEntries) && is_int($getPage)) {
+			// Get total of items returned by the query (filters applied)
+			$totalRows = count($this->projects->getProjects(null, 0, 0, $getSort));
+
+			// Set data index
+			$dataView = [
+				'footer' => $this->template_footer($getPage, $getEntries, $totalRows),
+				'getSort' => $getSort,
+				'getTransactions' => $this->projects->getProjects(null, $getEntries, ($getPage - 1) * $getEntries, $getSort)
+			];
+
+			// Set data template
+			$data = [
+				'title' => 'Kirkland Inmuebles',
+				'content' => view('projects/listing/index', $dataView)
+			];
+
+			// Output the view
+			echo view('templates/private', $data);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
 	}
 
 	public function amenities()
@@ -120,5 +141,19 @@ class Projects extends BaseController
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}
+	}
+
+	protected function template_footer($getPage, $getEntries, $totalRows)
+	{
+		$this->pager->makeLinks($getPage, $getEntries, $totalRows);
+
+		$dataFooter = [
+			'itemEnd' => $getPage * $getEntries < $totalRows ? $getPage * $getEntries : $totalRows,
+			'itemStart' => ($getPage * $getEntries) - $getEntries + 1,
+			'totalRows' => $totalRows,
+			'pager' => $getEntries < $totalRows ? $this->pager : null
+		];
+
+		return view('templates/private_footer', $dataFooter);
 	}
 }

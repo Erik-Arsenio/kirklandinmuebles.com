@@ -15,6 +15,27 @@ class ProjectsModel extends Model
 	}
 
 	/**
+	 * List/Get projects available, apply sorting and limit accordingly and conditions if any
+	 * @param int $projectId
+	 * @param int $getEntries
+	 * @param int $getPage
+	 * @param string $getSort
+	 *
+	 * @return object
+	 **/
+	public function getProjects($projectId = null, $getEntries = 0, $getPage = 0, $getSort = 'project_name ASC')
+	{
+		$builder = $this->db->table('t_project');
+		$builder->orderBy($getSort);
+		if (!empty($projectId)) {
+			$builder->where('project_id', $projectId);
+			return $builder->get()->getRow();
+		} else {
+			return $builder->get($getEntries ?: null, $getPage ?: 0)->getResult();
+		}
+	}
+
+	/**
 	 * List/Get amenities available, apply sorting
 	 * @param int $projectAmenityId
 	 * @param string $getSort
