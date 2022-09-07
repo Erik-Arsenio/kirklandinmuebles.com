@@ -42,6 +42,7 @@ $routes->get('projects/listing', 'Projects::listing');
 $routes->get('projects/amenities', 'Projects::amenities');
 $routes->get('projects/load_form_add_edit_amenity/(:any)', 'Projects::load_form_add_edit_amenity/$1');
 $routes->post('projects/add_edit_amenity', 'Projects::add_edit_amenity');
+$routes->get('projects/load_form_add_edit_listing/(:any)', 'Projects::load_form_add_edit_listing/$1');
 $routes->get('investments/(:any)', 'Projects::index/$1');
 $routes->get('properties/listing', 'Properties::listing');
 $routes->get('properties/characteristics', 'Properties::characteristics');
@@ -53,6 +54,7 @@ $routes->post('settings/add_edit_city', 'Settings::add_edit_city');
 $routes->get('settings/municipalities', 'Settings::municipalities');
 $routes->get('settings/load_form_add_edit_municipality/(:any)', 'Settings::load_form_add_edit_municipality/$1');
 $routes->post('settings/add_edit_municipality', 'Settings::add_edit_municipality');
+$routes->get('settings/dropdown_cities/(:num)', 'Settings::dropdown_cities/$1');
 
 /*
  * --------------------------------------------------------------------

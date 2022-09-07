@@ -48,13 +48,14 @@ class Projects extends BaseController
 
 		if (is_int($getEntries) && is_int($getPage)) {
 			// Get total of items returned by the query (filters applied)
-			$totalRows = count($this->projects->getProjects(null, 0, 0, $getSort));
+			$listProjects = $this->projects->getProjects(null, 0, 0, $getSort);
+			$totalRows = count($listProjects);
 
 			// Set data index
 			$dataView = [
-				'footer' => $this->template_footer($getPage, $getEntries, $totalRows),
+				'footer' => view_cell('\App\Libraries\Cell::footer', ['get_page' => $getPage, 'get_entries' => $getEntries, 'total_rows' => $totalRows]),
 				'getSort' => $getSort,
-				'getTransactions' => $this->projects->getProjects(null, $getEntries, ($getPage - 1) * $getEntries, $getSort)
+				'getProjects' => array_slice($listProjects, ($getPage - 1) * $getEntries, $getEntries)
 			];
 
 			// Set data template
@@ -64,7 +65,29 @@ class Projects extends BaseController
 			];
 
 			// Output the view
-			echo view('templates/private', $data);
+			return view('templates/private', $data);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
+
+	public function load_form_add_edit_listing($projectId = null)
+	{
+		// Check for an AJAX request
+		if ($this->request->isAJAX()) {
+			// Globals
+			$project = !empty($projectId) ? $this->projects->getProjects($projectId) : null;
+
+			// Set data form Add/Edit
+			$dataView = [
+				'project' => $project,
+				'getStates' => $this->settings->getStates(),
+				'getCities' => !empty($project) ? $this->settings->getCities(null, $project->state_id) : null,
+				'getMunicipalities' => !empty($project) ? $this->settings->getMunicipalities(null, $project->city_id) : null,
+				'getAmenities' => $this->projects->getAmenities()
+			];
+
+			echo view('projects/listing/form_add_edit', $dataView);
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}
@@ -141,19 +164,5 @@ class Projects extends BaseController
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}
-	}
-
-	protected function template_footer($getPage, $getEntries, $totalRows)
-	{
-		$this->pager->makeLinks($getPage, $getEntries, $totalRows);
-
-		$dataFooter = [
-			'itemEnd' => $getPage * $getEntries < $totalRows ? $getPage * $getEntries : $totalRows,
-			'itemStart' => ($getPage * $getEntries) - $getEntries + 1,
-			'totalRows' => $totalRows,
-			'pager' => $getEntries < $totalRows ? $this->pager : null
-		];
-
-		return view('templates/private_footer', $dataFooter);
 	}
 }
