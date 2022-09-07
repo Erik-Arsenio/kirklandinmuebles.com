@@ -19,9 +19,9 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/02.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
@@ -34,21 +34,21 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/07.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/09.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/10.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/11.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/12.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div>
+                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
                 <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
-                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" loading="lazy">
+                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_celestun/11.jpg' ?>" loading="lazy">
                 </div>
             </div>
         </div>

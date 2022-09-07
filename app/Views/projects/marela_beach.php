@@ -40,9 +40,9 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div>
+                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -190,7 +190,7 @@
                         <div class="row text-center">
                             <div class="col-6">
                                 <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                <p class="h4 text-success">13.580,00  <span class="h4">MXN</span></p>
+                                <p class="h4 text-success">13,580  <span class="h4">MXN</span></p>
                             </div>
                             <div class="col-6">
                                 <p class="h6">Financiamiento hasta</p>
@@ -217,7 +217,7 @@
                         <div class="row text-center">
                             <div class="col-6">
                                 <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                <p class="h4 text-success">5.065,00  <span class="h4">MXN</span></p>
+                                <p class="h4 text-success">5,065  <span class="h4">MXN</span></p>
                             </div>
                             <div class="col-6">
                                 <p class="h6">Financiamiento hasta</p>
@@ -243,7 +243,7 @@
                         <div class="row text-center">
                             <div class="col-6">
                                 <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                <p class="h4 text-success">5.620,00  <span class="h4">MXN</span></p>
+                                <p class="h4 text-success">5,620  <span class="h4">MXN</span></p>
                             </div>
                             <div class="col-6">
                                 <p class="h6">Financiamiento hasta</p>
