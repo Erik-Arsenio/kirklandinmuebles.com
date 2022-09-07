@@ -55,6 +55,7 @@ $routes->get('settings/municipalities', 'Settings::municipalities');
 $routes->get('settings/load_form_add_edit_municipality/(:any)', 'Settings::load_form_add_edit_municipality/$1');
 $routes->post('settings/add_edit_municipality', 'Settings::add_edit_municipality');
 $routes->get('settings/dropdown_cities/(:num)', 'Settings::dropdown_cities/$1');
+$routes->get('settings/dropdown_municipalities/(:num)', 'Settings::dropdown_municipalities/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -15,87 +15,23 @@ class SettingsModel extends Model
 	}
 
 	/**
-	 * List currencies available, apply sorting and limit accordingly and conditions if any
-	 * @param bool $global
+	 * List currencies available, apply sorting
 	 * @param array $currencies
 	 * @param string $getSort
 	 *
 	 * @return object
 	 **/
-	public function getCurrencies($global = true, $currencies = [], $getSort = 'currency_iso ASC')
+	public function getCurrencies($currencies = [], $getSort = 'currency_iso ASC')
 	{
-		$builder = $this->db->table('v1_currency');
+		$builder = $this->db->table('t_currency');
 
 		if (is_array($currencies) && count($currencies) > 0) {
 			$builder->whereIn('currency_id', $currencies);
-		}
-		else {
-			$builder->where('currency_global', $global);
 		}
 
 		$builder->orderBy($getSort);
 
 		return $builder->get()->getResult();
-	}
-
-	/**
-	 * Get a currency record if any
-	 * @param mixed $reference
-	 *
-	 * @return mixed
-	 **/
-	public function getCurrency($reference)
-	{
-		$builder = $this->db->table('v1_currency');
-		$builder->where(is_numeric($reference) ? 'currency_id' : 'currency_iso', strtoupper($reference));
-		return $builder->get()->getRow();
-	}
-
-	/**
-	 * Add/Edit a currency record
-	 * @param array $formPost
-	 *
-	 * @return bool
-	 **/
-	public function addEditCurrency($formPost)
-	{
-		// Globals
-		$builderCurrency = $this->db->table('t_currency');
-		$builderQuote = $this->db->table('t_quote');
-
-		// Build currency array of values
-		$valuesCurrency = [
-			'currency_name_EN' => trim(strip_tags($formPost['currency_name_EN'])),
-			'currency_name_ES' => trim(strip_tags($formPost['currency_name_ES'])),
-			'currency_iso' => trim(strtoupper($formPost['currency_iso'])),
-			'currency_fee' => trim($formPost['currency_fee']) ?: null
-		];
-
-		// Clean null values from previous array
-		$valuesCurrency = array_filter($valuesCurrency, fn ($value) => !is_null($value) && $value !== '');
-
-		// Start transactions
-		$this->db->transStart();
-
-		// Insert/Update record accordingly
-		if (!empty($formPost['currency_id'])) {
-			$builderCurrency->where('currency_id', $formPost['currency_id']);
-			$builderCurrency->update($valuesCurrency);
-		} else {
-			$builderCurrency->insert($valuesCurrency);
-
-			// Build quote array of values
-			$valuesQuote = [
-				'currency_from' => 1,
-				'currency_to' => $this->db->insertID()
-			];
-			$builderQuote->insert($valuesQuote);
-		}
-
-		// End transactions
-		$this->db->transComplete();
-
-		return $this->db->transStatus();
 	}
 
 	/**

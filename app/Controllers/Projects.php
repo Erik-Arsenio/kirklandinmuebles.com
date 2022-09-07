@@ -84,6 +84,7 @@ class Projects extends BaseController
 				'getStates' => $this->settings->getStates(),
 				'getCities' => !empty($project) ? $this->settings->getCities(null, $project->state_id) : null,
 				'getMunicipalities' => !empty($project) ? $this->settings->getMunicipalities(null, $project->city_id) : null,
+				'getCurrencies' => $this->settings->getCurrencies(),
 				'getAmenities' => $this->projects->getAmenities()
 			];
 
