@@ -71,23 +71,105 @@ class Projects extends BaseController
 		}
 	}
 
-	public function load_form_add_edit_listing($projectId = null)
+	public function load_form_add_edit_listing($projectId = null, $formPost = null)
 	{
 		// Check for an AJAX request
 		if ($this->request->isAJAX()) {
 			// Globals
 			$project = !empty($projectId) ? $this->projects->getProjects($projectId) : null;
+			$listProjectAmenities = [];
+
+			// Get some values when editing
+			if (!empty($project)) {
+				$listProjectAmenities = array_column($this->projects->getProjectAmenities($projectId), 'project_amenity_id');
+			}
 
 			// Set data form Add/Edit
 			$dataView = [
 				'project' => $project,
+				'formPost' => $formPost,
+				'listProjectAmenities' => $listProjectAmenities,
 				'getStates' => $this->settings->getStates(),
 				'getCities' => !empty($project) ? $this->settings->getCities(null, $project->state_id) : null,
 				'getMunicipalities' => !empty($project) ? $this->settings->getMunicipalities(null, $project->city_id) : null,
-				'getAmenities' => $this->projects->getAmenities()
+				'getCurrencies' => $this->settings->getCurrencies(),
+				'getAmenities' => $this->projects->getAmenities(),
+				'projectAmenityNameField' => "project_amenity_name_" . strtoupper(service('request')->getLocale())
 			];
 
 			echo view('projects/listing/form_add_edit', $dataView);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
+
+	public function add_edit_listing()
+	{
+		// Globals
+		$formPost = $this->request->getPost();
+
+		// Post request submitted
+		if (!empty($formPost)) {
+			$this->validation->reset();
+
+			// Set validation rules
+			$validationRules = $this->validate([
+				'project_name' => [
+					'label' => lang('Globals.name'),
+					'rules' => 'required|alpha_numeric_space'
+				],
+				'project_amenity_id.*' => [
+					'label' => lang('Globals.amenities'),
+					'rules' => 'required'
+				],
+				'state_id' => [
+					'label' => lang('Globals.state'),
+					'rules' => 'required|is_natural_no_zero'
+				],
+				'city_id' => [
+					'label' => lang('Globals.city'),
+					'rules' => 'required|is_natural_no_zero'
+				],
+				'municipality_id' => [
+					'label' => lang('Globals.municipality'),
+					'rules' => 'permit_empty|is_natural_no_zero'
+				],
+				'project_financing_month' => [
+					'label' => lang('Globals.financing'),
+					'rules' => 'permit_empty|is_natural_no_zero'
+				],
+				'project_lot_min_sq' => [
+					'label' => lang('Globals.lot') . " " . lang('Globals.area') . " Min",
+					'rules' => 'permit_empty|greater_than[0]'
+				],
+				'project_lot_max_sq' => [
+					'label' => lang('Globals.lot') . " " . lang('Globals.area') . " Max",
+					'rules' => 'permit_empty|greater_than[0]'
+				],
+				'project_lot_min_price_sq' => [
+					'label' => lang('Globals.lot') . " " . lang('Globals.price') . " Min",
+					'rules' => 'permit_empty|greater_than[0]'
+				],
+				'project_lot_max_price_sq' => [
+					'label' => lang('Globals.lot') . " " . lang('Globals.price') . " Max",
+					'rules' => 'permit_empty|greater_than[0]'
+				],
+			]);
+
+			if ($validationRules) {
+				$response = $this->projects->addEditListing($formPost);
+
+				if ($response) {
+					session()->setFlashdata('msgConfirm', lang('Globals.confirm_1'));
+				} else {
+					session()->setFlashdata('msgError', lang('Globals.error_3'));
+				}
+
+				echo 0;
+			} else {
+				// Validation failes, reload the form
+				$this->load_form_add_edit_listing($formPost['project_id'], $formPost);
+			}
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}

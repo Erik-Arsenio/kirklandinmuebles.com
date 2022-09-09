@@ -181,4 +181,19 @@ class Settings extends BaseController
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
 		}
 	}
+
+	public function dropdown_municipalities($citiId)
+	{
+		// Check for an AJAX request
+		if ($this->request->isAJAX() && !empty($citiId)) {
+			// Set data view
+			$dataView = [
+				'getMunicipalities' => $this->settings->getMunicipalities(null, $citiId)
+			];
+
+			echo view('settings/dropdown_municipalities', $dataView);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
 }
