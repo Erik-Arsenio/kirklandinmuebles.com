@@ -6,6 +6,15 @@
 		<?= service('validation')->showError('project_name') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
+		<label for="project_amenity_id" class="form-label"><?= lang('Globals.amenities') ?><span class="text-danger ms-1">*</span></label>
+		<select name="project_amenity_id[]" class="form-select" id="project_amenity_id" style="max-height: 38px;" multiple>
+			<?php foreach ($getAmenities as $amenity) : ?>
+				<option value="<?= $amenity->project_amenity_id ?>" <?php if (!empty($formPost) && isset($formPost['project_amenity_id']) && in_array($amenity->project_amenity_id, $formPost['project_amenity_id'])) echo ' selected'; elseif (!empty($project) && in_array($amenity->project_amenity_id, $listProjectAmenities)) echo ' selected'; ?>><?= $amenity->$projectAmenityNameField ?></option>
+			<?php endforeach; ?>
+		</select>
+		<?= service('validation')->showError('project_amenity_id.*') ?>
+	</div>
+	<div class="col-lg-4 mb-3">
 		<label for="state_id" class="form-label"><?= lang('Globals.state') ?><span class="text-danger ms-1">*</span></label>
 		<select name="state_id" class="form-select select-linked" id="state_id" data-target="#city_id" data-uri="<?= base_url('settings/dropdown_cities') ?>">
 			<option value=""><?= lang('Globals.select') ?></option>
@@ -59,18 +68,24 @@
 		<?= service('validation')->showError('project_offer') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
-		<label for="project_lot_min_sq" class="form-label"><?= lang('Globals.lot') . " (Min/Max m<sup>2</sup>)" ?></label>
+		<label for="project_financing_month" class="form-label"><?= lang('Globals.financing') . " (" . lang('Globals.months') . ")" ?></label>
+		<input type="number" name="project_financing_month" class="form-control" id="project_financing_month" maxlength="3" min="1" value="<?php if (set_value('project_financing_month') != null) echo set_value('project_financing_month');
+																												elseif (!empty($project)) echo $project->project_financing_month; ?>">
+		<?= service('validation')->showError('project_financing_month') ?>
+	</div>
+	<div class="col-lg-4 mb-3">
+		<label for="project_lot_min_sq" class="form-label"><?= lang('Globals.lot') . " " . lang('Globals.area') . " (Min/Max m<sup>2</sup>)" ?></label>
 		<div class="input-group">
-			<input type="text" name="project_lot_max_sq" class="form-control" id="project_lot_max_sq" maxlength="5" value="<?php if (set_value('project_lot_max_sq') != null) echo set_value('project_lot_max_sq');
-																															elseif (!empty($project)) echo $project->project_lot_max_sq; ?>">
 			<input type="text" name="project_lot_min_sq" class="form-control" id="project_lot_min_sq" maxlength="5" value="<?php if (set_value('project_lot_min_sq') != null) echo set_value('project_lot_min_sq');
 																															elseif (!empty($project)) echo $project->project_lot_min_sq; ?>">
+			<input type="text" name="project_lot_max_sq" class="form-control" id="project_lot_max_sq" maxlength="5" value="<?php if (set_value('project_lot_max_sq') != null) echo set_value('project_lot_max_sq');
+																															elseif (!empty($project)) echo $project->project_lot_max_sq; ?>">
 		</div>
 		<?= service('validation')->showError('project_lot_min_sq') ?>
 		<?= service('validation')->showError('project_lot_max_sq') ?>
 	</div>
-	<div class="col-lg-4 mb-3">
-		<label for="project_lot_min_price_sq" class="form-label"><?= lang('Globals.lot') . " (Min/Max " . lang('Globals.price') . "/m<sup>2</sup>)" ?></label>
+	<div class="col-lg-8 mb-3">
+		<label for="project_lot_min_price_sq" class="form-label"><?= lang('Globals.lot') . " " . lang('Globals.price') . " (Min/Max m<sup>2</sup>)" ?></label>
 		<div class="input-group">
 			<input type="text" name="project_lot_min_price_sq" class="form-control" id="project_lot_min_price_sq" maxlength="5" value="<?php if (set_value('project_lot_min_price_sq') != null) echo set_value('project_lot_min_price_sq');
 																																		elseif (!empty($project)) echo $project->project_lot_min_price_sq; ?>">
