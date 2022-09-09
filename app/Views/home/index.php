@@ -36,9 +36,7 @@
 					<div class="carousel-item">
 						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" loading="lazy" alt="">
 					</div>
-					<div class="carousel-item">
-						<img class="img-fluid btn-investments" src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" loading="lazy" alt="">
-					</div>
+
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
