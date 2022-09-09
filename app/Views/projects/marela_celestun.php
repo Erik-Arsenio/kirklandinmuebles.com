@@ -8,10 +8,9 @@
             </div>
             <h1 class="display-6 animated fadeIn fw-bold my-4">Lotes patrimoniales en la playa</h1>
             <p class="text-center animated fadeIn h4 mb-4 pb-2">Desarrollo de terrenos semi-urbanizados en la hermosa playa de Celestún</p>
-            <!-- <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a> -->
         </div>
         <div class="col-md-6 animated fadeIn pe-md-5">
-            <div class="carousel slide animated fadeInRight text-center" data-bs-ride="false" data-bs-touch="false" id="carouselHome">
+            <div class="carousel slide animated fadeInRight text-center" data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
@@ -19,9 +18,6 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/02.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
@@ -34,21 +30,12 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/07.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_celestun/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/09.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_celestun/10.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_celestun/11.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_celestun/12.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,7 +86,6 @@
                     <li class="h4">Lotes con superficies desde 208m<sup>2</sup> (8x26)</li>
                     <li class="h4">Calles blancas</li>
                     <li class="h4">Malecón ecológico interno</li>
-                    <!-- <li class="h4">Lotes semi urbanizados con energía eléctrica a pié del desarrollo</li> -->
                     <li class="h4">Mojoneras de concreto</li>
                     <li class="h4">Entrada distintiva</li>
                     <li class="h4">Excelente geometría y orientación</li>
@@ -154,14 +140,13 @@
             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
                 <div class="card border-5 h-100 shadow px-0" >
                     <div class="card-header text-center" >
-                        <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
                         <p class="h2 text-success">Lote tipo</p>
                     </div>
                     <div class="card-body">
                         <div class="row text-center">
                             <div class="col-6">
                                 <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                <p class="h4 text-success">2.770,00 <span class="h4">MXN</p>
+                                <p class="h4 text-success">2,770 <span class="h4">MXN</p>
                             </div>
                             <div class="col-6">
                                 <p class="h6">Financiamiento hasta</p>
@@ -248,6 +233,7 @@
                         </image>
                     </g>
                     <g id="Rosa_nautica">
+                        <text class="fw-bolder fs-4" x="630" y="40">Para más información, pase el mouse sobre el mapa</text>
                         <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
                         <g transform="matrix(0.08 0.1 -0.1 0.08 1800 100)">
                             <g style="transform: rotate(35deg); transform: scale(2, 2)" vector-effect="non-scaling-stroke"   >

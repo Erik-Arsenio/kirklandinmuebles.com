@@ -8,10 +8,9 @@
             </div>
             <h1 class="display-6 animated fadeInLeft fw-bold my-4">Lotes residenciales en la playa</h1>
             <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</p>
-            <!-- <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a> -->
         </div>
         <div class="col-md-6 pe-md-5">
-            <div class="carousel slide text-center  animated fadeInRight " data-bs-ride="false" data-bs-touch="false" id="carouselHome">
+            <div class="carousel slide text-center  animated fadeInRight " data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
             <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
@@ -40,9 +39,6 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
-                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,9 +135,6 @@
 <!-- Caracteristicas Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <!-- <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Características</h1>
-        </div> -->
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                 <ul>
@@ -379,6 +372,7 @@
                     </g>
                     <g id="Rosa_nautica">
                         <rect class="st0" width="1000" height="900"/>
+                        <text class="fw-bolder fs-6" x="330" y="40">Para más información, pase el mouse sobre el mapa</text>
                         <g vector-effect="non-scaling-stroke">
                             <g transform="matrix(0.15 0 0 0.15 8.21 1.46)">
                                 <path vector-effect="non-scaling-stroke" d="M6792.3,386.5l-153.2,77.8l-7.1-75.1l-1.9-0.2l-23.4,71.6l-132.1-109.3l-2.3,1.9
@@ -1333,11 +1327,11 @@
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselmodal" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
+                                        <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                                         </button>
                                         <button class="carousel-control-next" type="button" data-bs-target="#carouselmodal" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
+                                        <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                                         </button>
                                     </div>
                                 </div>
