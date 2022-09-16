@@ -99,6 +99,30 @@
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/anthia/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/05.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/09.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/10.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/anthia/12.jpg' ?>" class="card-img-top img-fluid" alt="...">
+							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselAnthia" data-bs-slide="prev">
 							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -128,25 +152,58 @@
 								<img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/02.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/05.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/06.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/13.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/14.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/lakuun/15.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/15.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/16.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/19.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/20.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/21.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/22.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/23.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/lakuun/24.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselLakuun" data-bs-slide="prev">
@@ -177,10 +234,25 @@
 								<img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_celestun/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/02.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_celestun/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/05.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/06.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/07.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/09.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_celestun/11.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaCelestun" data-bs-slide="prev">
@@ -207,60 +279,33 @@
 				<div class="position-relative overflow-hidden">
 					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href="http://kirklandinmuebles.com/investments/marela_beach">
 						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/03.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/05.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/10.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/11.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/12.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/14.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/18.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/19.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
-							</div>
+						<div class="carousel-item active">
+							<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="...">
+						</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaBeach" data-bs-slide="prev">
 							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
