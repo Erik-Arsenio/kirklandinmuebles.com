@@ -15,6 +15,41 @@ class PropertiesModel extends Model
 	}
 
 	/**
+	 * List/Get projects available, apply sorting and limit accordingly and conditions if any
+	 * @param int $propertyId
+	 * @param int $getEntries
+	 * @param int $getPage
+	 * @param string $getSort
+	 *
+	 * @return mixed
+	 **/
+	public function getProperties($propertyId = null, $getEntries = 0, $getPage = 0, $getSort = 'property_name ASC')
+	{
+		$builder = $this->db->table('v1_property');
+		$builder->orderBy($getSort);
+		if (!empty($propertyId)) {
+			$builder->where('property_id', $propertyId);
+			return $builder->get()->getRow();
+		} else {
+			return $builder->get($getEntries ?: null, $getPage ?: 0)->getResult();
+		}
+	}
+
+	/**
+	 * Get property characteristics available
+	 * @param int $propertyId
+	 *
+	 * @return mixed
+	 **/
+	public function getPropertyCharacteristics($propertyId)
+	{
+		$builder = $this->db->table('t_property__characteristic');
+		$builder->where('property_id', $propertyId);
+
+		return $builder->get()->getResult();
+	}
+
+	/**
 	 * List/Get characteristics available, apply sorting
 	 * @param int $propertyCharacteristicId
 	 * @param string $getSort

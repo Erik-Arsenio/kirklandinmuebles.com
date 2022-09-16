@@ -60,7 +60,7 @@ class Projects extends BaseController
 
 			// Set data template
 			$data = [
-				'title' => 'Kirkland Inmuebles',
+				'title' => lang('Globals.projects_list'),
 				'content' => view('projects/listing/index', $dataView)
 			];
 
