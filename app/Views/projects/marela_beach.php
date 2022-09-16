@@ -272,8 +272,13 @@
         </div>
         <div class="container-xxl wow slideInLeft lots d-none" id="image_site">
             <div class="mapsvg-scrollpane text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                version="1.1" x="0px" y="0px" viewBox="0 0 1100 900" xml:space="preserve" preserveAspectRatio="xMidYMid meet" loading="lazy">
+                <div class="row">
+                    <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="150px">
+                </div>
+                <div class="row mt-2">
+                    <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1100 900" xml:space="preserve" preserveAspectRatio="xMidYMid meet" loading="lazy">
                     <style type="text/css">.st0{display:none;}
                         .st1{display:inline;}
                         .st2{clip-path:url(#SVGID_00000096055857039932680780000005662549106975740036_);}
@@ -370,47 +375,6 @@
 
                         </image>
                     </g>
-                    <g id="Rosa_nautica">
-                        <rect class="st0" width="1000" height="900"/>
-                        <text class="fw-bolder fs-6" x="330" y="40">Para más información, pase el mouse sobre el mapa</text>
-                        <g vector-effect="non-scaling-stroke">
-                            <g transform="matrix(0.15 0 0 0.15 8.21 1.46)">
-                                <path vector-effect="non-scaling-stroke" d="M6792.3,386.5l-153.2,77.8l-7.1-75.1l-1.9-0.2l-23.4,71.6l-132.1-109.3l-2.3,1.9
-                                    l77.6,152.9l-75.5,7.1l-0.2,1.9l71.8,23.4l-109.5,132.4l1.9,2.3l153.3-77.8l7.1,75.1l1.9,0.2l23.4-71.7l132.1,109.3l2.4-1.9
-                                    l-77.6-152.8l75.4-7.1l0.2-1.9l-71.8-23.4l109.5-132.4L6792.3,386.5L6792.3,386.5z M6780.4,396l-162.9,130.3l5.6-50.4l16.3-8.3
-                                    L6780.4,396L6780.4,396z M6747,543.6l-74-8.2l10.4-12.5L6747,543.6L6747,543.6z M6629.1,398.4l-8.2,73.9l-12.5-10.4L6629.1,398.4
-                                    L6629.1,398.4z M6669.1,537.3l8.4,16.6l71.4,140.6l-130.3-162.9L6669.1,537.3L6669.1,537.3z M6481.8,365.1L6612.1,528l-50.4-5.6
-                                    l-8.4-16.6L6481.8,365.1L6481.8,365.1z M6613.1,533.4l-5.6,50.4l-16.3,8.3l-141,71.6L6613.1,533.4L6613.1,533.4z M6622.4,597.7
-                                    l-20.7,63.5l8.2-73.9L6622.4,597.7L6622.4,597.7z M6557.7,524.3l-10.4,12.5l-63.7-20.8L6557.7,524.3L6557.7,524.3z"/>
-                            </g>
-                            <g transform="matrix(0.15 0 0 0.15 8.21 -294.33)">
-                                <path vector-effect="non-scaling-stroke" d="M6843.5,2322.7c-3,0.2-4.6,5-4.7,14.2l-0.3,17l-2,0l-19.8-28.9l-0.1,8.6
-                                    c-0.1,4.2,0,7.4,0.3,9.5c0.5,4.6,1.9,7,4,7.3l0,2.1l-11.7-0.2l0-2.1c3-0.4,4.6-5.9,4.7-16.4l0.1-8.4c0-1.2-0.2-2.1-0.6-2.5
-                                    c-0.4-0.4-1.4-0.7-3-0.7l0-2.2l8.9,0.1l16.6,24.2l0.1-6.8c0.2-9.7-1.2-14.7-4.2-15.1l0-2.1l11.8,0.2L6843.5,2322.7z"/>
-                            </g>
-                            <path vector-effect="non-scaling-stroke" d="M1027.8,112c-0.1,0.5-0.3,0.9-0.6,1.4c-0.3,0.4-0.7,0.7-1.2,0.9
-                                c-0.4,0.2-0.9,0.2-1.3,0.1c-0.6-0.1-1.2-0.4-1.5-0.9c-0.4-0.5-0.5-1.1-0.5-1.7c0.1-0.7,0.4-1.3,1.1-1.8c0.6-0.5,1.3-0.7,2-0.6
-                                c0.8,0.1,1.5,0.5,1.8,1.3C1027.8,111.1,1027.9,111.5,1027.8,112L1027.8,112z M1027,112.6c0.1-0.4,0-0.9-0.1-1.3
-                                c-0.1-0.4-0.4-0.8-0.7-1c-0.3-0.2-0.6-0.4-0.9-0.4c-0.5-0.1-0.8,0.1-1.2,0.3c-0.3,0.3-0.5,0.6-0.5,1.1c-0.1,0.6,0,1.2,0.3,1.7
-                                c0.3,0.6,0.8,0.9,1.4,1c0.4,0.1,0.8-0.1,1.1-0.3C1026.7,113.4,1026.9,113,1027,112.6L1027,112.6z"/>
-                            <g transform="matrix(0.15 0 0 0.15 8.21 294.17)">
-                                <path vector-effect="non-scaling-stroke" d="M6419-1251.1c-0.1,2.9-1.5,5.3-4.3,7.3c-2.5,1.8-5.2,2.7-8.2,2.6
-                                    c-2.2-0.1-4.8-0.7-7.7-2l0.3-9.6l2.8,0.1c-0.1,2.5,0.4,4.5,1.6,6.2c1.2,1.8,2.8,2.7,4.8,2.7c1.6,0.1,2.9-0.4,3.9-1.3
-                                    c1-0.9,1.5-2.1,1.6-3.7c0.1-1.6-0.7-3.2-2.1-4.7c-0.6-0.6-2.1-1.8-4.5-3.5c-2.1-1.5-3.6-2.7-4.6-3.6c-0.7-0.7-1.3-1.5-1.7-2.5
-                                    c-0.4-0.9-0.6-1.8-0.5-2.8c0.1-2.7,1.4-5,4-6.7c2.3-1.6,4.8-2.3,7.6-2.2c1.5,0.1,3.6,0.6,6.3,1.6l-0.3,8.5l-2.9-0.1
-                                    c-0.1-2.2-0.6-3.9-1.5-5.2c-1-1.4-2.4-2.2-4-2.2c-1.2,0-2.2,0.3-3.1,1c-0.8,0.7-1.3,1.7-1.3,2.9c-0.1,1.5,0.8,3.1,2.5,4.8
-                                    c0.7,0.6,2.2,1.8,4.7,3.6c2.2,1.6,3.7,2.8,4.4,3.5C6418.3-1254.8,6419-1253,6419-1251.1L6419-1251.1z"/>
-                            </g>
-                            <g transform="matrix(0.15 0 0 0.15 -289.11 1.46)">
-                                <path vector-effect="non-scaling-stroke" d="M8455,307.5c-1.9,0-3.7,2.2-5.4,6.5l-9.9,24.8l-2.3,0l-6.8-20.7
-                                    c-1.2,2.6-2.3,5.2-3.2,7.7l-5.1,13l-2.2,0l-8.4-24.7c-1.1-3.2-2.1-5.2-3-5.9c-0.5-0.4-1.1-0.6-1.9-0.7l0-2.1l9.6,0l0,2.2
-                                    c-0.6,0-0.9,0.1-0.9,0.3c0,0.1,0,0.2,0.1,0.3l7.3,22.6l3.5-10c1.2-2.9,1.8-5.7,1.8-8.4c0-3.1-1.4-4.8-4.1-4.9l0-2.1l9.8,0l0,2.2
-                                    c-0.7,0-1.1,0.1-1.1,0.3c0,0.1,0,0.2,0.1,0.4l7.4,22.6l4.5-12.3c1.5-3.8,2.3-6.5,2.3-8.1c0-1.1-0.3-1.9-0.8-2.3
-                                    c-0.5-0.3-1.5-0.5-3.2-0.6l0-2.2l12.1,0V307.5z"/>
-                            </g>
-                        </g>
-                    </g>
-
                     <g id="TEXTO_copia">
                         <g>
                             <g>
@@ -866,423 +830,422 @@
                             </g>
                         </g>
                     </g>
-
                     <g id="Marela_Total">
-                    <rect x="461.79" y="570.95"
-                        transform="matrix(0.0154 -0.9999 0.9999 0.0154 153.1353 887.285)"
-                        class="[object SVGAnimatedString]" width="130.58" height="89.87"
-                        title="Club de playa" id="club" style="stroke-width: 1.41935px; stroke: rgba(255, 255, 255, 0.50); fill: rgba(255, 255, 255, 0.16);"
-                        data-stroke-width="1.2" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" aria-label="Lote - L-15">
-                    </rect>
-                    <path class="[object SVGAnimatedString] mapsvg-region"
-                        d="M 242.83 468.13 L 283.94 468.73 C 283.33 447.38 282.46999999999997 432.06 302.26 428.12 L 304.15999999999997 297.37 L 245.33999999999997 296.5 L 242.83 468.13 Z"
-                        title="678.8 m2" id="L-1"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;" data-stroke-width="1.2">
-                    </path>
-                    <rect x="372.2" y="349.65" transform="matrix(0.0154 -0.9999 0.9999 0.0154 66.2271 796.4282)"
-                        class="[object SVGAnimatedString] mapsvg-region" width="130.58" height="29.87"
-                        title="280 m2" id="L-6" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></rect>
-                    <rect x="461.79" y="350.95"
-                        transform="matrix(0.0154 -0.9999 0.9999 0.0154 153.1353 887.285)"
-                        class="[object SVGAnimatedString] mapsvg-region" width="130.58" height="29.87"
-                        title="280 m2" id="L-9" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></rect>
-                    <rect x="380.68" y="676.23"
-                        transform="matrix(1.951015e-03 -1 1 1.951015e-03 -322.4715 1111.4836)"
-                        class="[object SVGAnimatedString] mapsvg-region" width="29.83" height="82.12"
-                        title="176 m2" id="L-67" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></rect>
-                    <path class="[object SVGAnimatedString] mapsvg-region"
-                        d="M354.52,761.96l-0.02-29.81l82.12,0.11l-0.01,19.85c-0.17,3.62,0.06,6.96,0.78,9.97L354.52,761.96z"
-                        title="176 m2" id="L-66" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        d="M 355.80052821128453 794.501056422569 L 355.84052821128455 764.5910564225691 L 438.71052821128455 764.7210564225691 C 441.60052821128454 773.981056422569 448.2505282112846 778.861056422569 458.39052821128456 779.6910564225691 L 458.41052821128454 794.6310564225691 L 355.80052821128453 794.501056422569 Z"
-                        title="204.39 m2" id="L-65"
-                        style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgb(255, 255, 255);"
-                        data-stroke-width="1.2"></path>
-                    <path class="[object SVGAnimatedString] mapsvg-region"
-                        d="M552.26,792.09l0.03-29.84l-75.4-0.08c-3.2,9.33-9.76,14.35-19.82,14.89l0.02,14.94L552.26,792.09z"
-                        title="188.39 m2" id="L-64"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;" data-stroke-width="1.2">
-                    </path>
-                    <path class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        d="M552.32,732.39l-74.65-0.11c0.2,13.16,0.25,25.31-0.78,29.89l75.4,0.08L552.32,732.39z"
-                        title="160 m2" id="L-63"
-                        style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgb(255, 255, 255);"
-                        data-stroke-width="1.2"></path>
-                    <rect x="369.76" y="817.08"
-                        transform="matrix(1.422296e-03 -1 1 1.422296e-03 -422.7627 1240.7043)"
-                        class="[object SVGAnimatedString] mapsvg-region" width="80.2" height="29.91"
-                        title="172 m2" id="L-35" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></rect>
-                    <path undefined="undefined"
-                        d="M 722.0499877929688 303.3800048828125 L 692.2000122070312 303 L 690.280029296875 433.57000732421875 L 720.030029296875 434.010009765625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" id="L-15"
-                        style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 244, 244, 0.43);"
-                        title="280 m2" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 692.2000122070312 303 L 662.3300170898438 302.57000732421875 L 660.4099731445312 433.1099853515625 L 690.280029296875 433.57000732421875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-14" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 810.0800170898438 449.42999267578125 L 736.989990234375 434.260009765625 L 730.9500122070312 463.44000244140625 L 803.989990234375 478.7099914550781 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        id="L-16"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 797.8800048828125 507.9100036621094 L 803.989990234375 478.7099914550781 L 730.9500122070312 463.44000244140625 L 724.8099975585938 492.75 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.32); stroke-width: 1.41935px;"
-                        title="160 m2" id="L-17" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 791.8400268554688 537.0900268554688 L 797.8800048828125 507.9100036621094 L 724.8099975585938 492.75 L 718.719970703125 521.97998046875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        id="L-18"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 785.75 566.3699951171875 L 791.8400268554688 537.0900268554688 L 718.719970703125 521.97998046875 L 712.6300048828125 551.1199951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.29); stroke-width: 1.41935px;"
-                        title="160 m2" id="L-19" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 779.6400146484375 595.5700073242188 L 785.75 566.3699951171875 L 712.6300048828125 551.1199951171875 L 706.6199951171875 580.3699951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 254, 254, 0.4); stroke-width: 1.41935px;"
-                        title="160 m2" id="L-20" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 773.52001953125 624.77001953125 L 779.6400146484375 595.5700073242188 L 706.6199951171875 580.3699951171875 L 700.5 609.5700073242188 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
-                        id="L-21" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 767.510009765625 654.02001953125 L 773.52001953125 624.77001953125 L 700.5 609.5700073242188 L 694.3900146484375 638.77001953125 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        id="L-22"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.35); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 761.3900146484375 683.219970703125 L 767.510009765625 654.02001953125 L 694.3900146484375 638.77001953125 L 688.2999877929688 668.0499877929688 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        id="L-23"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.28); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 755.2999877929688 712.5 L 761.3900146484375 683.219970703125 L 688.2999877929688 668.0499877929688 L 682.260009765625 697.22998046875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
-                        id="L-24"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 749.1900024414062 741.7000122070312 L 755.2999877929688 712.5 L 682.260009765625 697.22998046875 L 676.1699829101562 726.510009765625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-25"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.33); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 743.1500244140625 770.8800048828125 L 749.1900024414062 741.7000122070312 L 676.1699829101562 726.510009765625 L 670.0599975585938 755.7100219726562 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-26"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.27); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 737.0599975585938 800.1599731445312 L 743.1500244140625 770.8800048828125 L 670.0599975585938 755.7100219726562 L 663.9400024414062 784.9099731445312 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.32); stroke-width: 1.41935px;"
-                        title="160 m2" id="L-27" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 730.9500122070312 829.3599853515625 L 737.0599975585938 800.1599731445312 L 663.9400024414062 784.9099731445312 L 657.9299926757812 814.1599731445312 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.34); stroke-width: 1.41935px;"
-                        title="160 m2" id="L-28" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 724.9199829101562 858.5800170898438 L 730.9500122070312 829.3599853515625 L 657.9299926757812 814.1599731445312 L 651.8200073242188 843.3599853515625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-29"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.15); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 722.010009765625 872.5599975585938 L 724.9199829101562 858.5800170898438 L 651.8200073242188 843.3599853515625 L 645.760009765625 872.469970703125 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 245, 245, 0.35); stroke-width: 1.41935px;"
-                        title="117.81 m2" id="L-30" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 236.97000122070312 871.9299926757812 L 275.4700012207031 871.97998046875 L 275.5899963378906 791.760009765625 L 238.16000366210938 791.7100219726562 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="218.89 m2"
-                        id="L-31"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.3); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 305.3800048828125 872.02001953125 L 275.4700012207031 871.97998046875 L 275.5899963378906 791.760009765625 L 305.4200134277344 791.8200073242188 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
-                        title="172 m2" id="L-32" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 335.2099914550781 872.0700073242188 L 335.32000732421875 791.8499755859375 L 305.4200134277344 791.8200073242188 L 305.3800048828125 872.02001953125 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="172 m2"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.31); stroke-width: 1.41935px;"
-                        id="L-33" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 365.010009765625 872.0599975585938 L 365.05999755859375 791.5700073242188 L 335.32000732421875 791.8499755859375 L 335.2099914550781 872.0700073242188 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
-                        title="172 m2" id="L-34" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 394.8399963378906 872.1199951171875 L 394.9599914550781 791.9199829101562 L 365.05999755859375 791.5700073242188 L 365.010009765625 872.0599975585938 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="172 m2" id="L-35"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 454.5799865722656 872.2100219726562 L 454.69000244140625 791.989990234375 L 424.8599853515625 791.9600219726562 L 424.75 872.1500244140625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="172 m2" id="L-37"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 251, 251, 0.46); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 484.4100036621094 872.27001953125 L 484.510009765625 792.02001953125 L 454.69000244140625 791.989990234375 L 454.5799865722656 872.2100219726562 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.36); stroke-width: 1.41935px;"
-                        title="172 m2" id="L-38" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 514.3200073242188 872.2999877929688 L 514.3900146484375 792.0499877929688 L 484.510009765625 792.02001953125 L 484.4100036621094 872.27001953125 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
-                        title="172 m2" id="L-39" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 544.1199951171875 872.280029296875 L 544.239990234375 792.0800170898438 L 514.3900146484375 792.0499877929688 L 514.3200073242188 872.2999877929688 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="172 m2"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
-                        id="L-40" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 573.9500122070312 872.3400268554688 L 574.0700073242188 792.1300048828125 L 544.239990234375 792.0800170898438 L 544.1199951171875 872.280029296875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
-                        title="172 m2" id="L-41" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 603.8599853515625 872.3800048828125 L 620.5900268554688 792.2000122070312 L 574.0700073242188 792.1300048828125 L 573.9500122070312 872.3400268554688 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 254, 254, 0.31); stroke-width: 1.41935px;"
-                        title="219.82 m2" id="L-42" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 620.5900268554688 792.2000122070312 L 626.739990234375 762.3300170898438 L 552.2899780273438 762.25 L 552.260009765625 792.0900268554688 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="153.10 m2"
-                        id="L-43"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.44); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 626.739990234375 762.3300170898438 L 633 732.510009765625 L 552.3200073242188 732.3900146484375 L 552.2899780273438 762.25 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="166.34 m2" id="L-44"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.25); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 633 732.510009765625 L 639.1699829101562 702.7100219726562 L 552.3599853515625 702.5700073242188 L 552.3200073242188 732.3900146484375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.51); stroke-width: 1.41935px;"
-                        title="179.59 m2" id="L-45" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 639.1699829101562 702.7100219726562 L 645.4099731445312 672.8099975585938 L 552.3900146484375 672.719970703125 L 552.3599853515625 702.5700073242188 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.47); stroke-width: 1.41935px;"
-                        title="192.83 m2" id="L-46" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 645.4099731445312 672.8099975585938 L 651.6599731445312 642.97998046875 L 567.3599853515625 642.8699951171875 L 567.3300170898438 672.7000122070312 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
-                        title="174.07 m2" id="L-47" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 651.6599731445312 642.97998046875 L 657.8200073242188 613.1099853515625 L 567.4000244140625 613.010009765625 L 567.3599853515625 642.8699951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="187.31 m2"
-                        id="L-48"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 657.8200073242188 613.1099853515625 L 664.0700073242188 583.2899780273438 L 567.4299926757812 583.1799926757812 L 567.4000244140625 613.010009765625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="200.55 m2"
-                        id="L-49"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 664.0700073242188 583.2899780273438 L 670.25 553.489990234375 L 567.469970703125 553.3300170898438 L 567.4299926757812 583.1799926757812 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="213.79 m2"
-                        id="L-50"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 670.25 553.489990234375 L 638.27001953125 553.4199829101562 L 639.4199829101562 473.8800048828125 L 686.6900024414062 474.54998779296875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="225.70 m2"
-                        id="L-51"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 638.27001953125 553.4199829101562 L 639.4199829101562 473.8800048828125 L 607.719970703125 473.3999938964844 L 606.5399780273438 553.3699951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.46); stroke-width: 1.41935px;"
-                        title="181.69 m2" id="L-52" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 606.5399780273438 553.3699951171875 L 607.719970703125 473.3999938964844 L 576.030029296875 472.9200134277344 L 574.8099975585938 553.3099975585938 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="182.65 m2"
-                        id="L-53"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.49); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 576.030029296875 472.9200134277344 L 544.260009765625 472.4599914550781 L 543.1099853515625 553.280029296875 L 574.8099975585938 553.3099975585938 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="183.61 m2"
-                        id="L-54"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.44); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 544.260009765625 472.4599914550781 L 512.5900268554688 472.05999755859375 L 511.45001220703125 553.22998046875 L 543.1099853515625 553.280029296875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(251, 251, 251, 0.38); stroke-width: 1.41935px;"
-                        title="184.56 m2" id="L-55" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 512.5900268554688 472.05999755859375 L 478 471.54998779296875 L 477.8999938964844 553.1699829101562 L 511.45001220703125 553.22998046875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="199.06 m2"
-                        id="L-56"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 254, 254, 0.51); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 567.469970703125 553.3300170898438 L 567.4299926757812 583.1799926757812 L 477.8599853515625 583.0800170898438 L 477.8999938964844 553.1699829101562 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 242, 242, 0.44); stroke-width: 1.41935px;"
-                        title="192 m2" id="L-57" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 567.4299926757812 583.1799926757812 L 477.8599853515625 583.0800170898438 L 477.80999755859375 612.9099731445312 L 567.4000244140625 613.010009765625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="192 m2" id="L-58"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.34); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 567.4000244140625 613.010009765625 L 477.80999755859375 612.9099731445312 L 477.75 642.739990234375 L 567.3599853515625 642.8699951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 246, 246, 0.42); stroke-width: 1.41935px;"
-                        title="192 m2" id="L-59" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 567.3300170898438 672.7000122070312 L 567.3599853515625 642.8699951171875 L 477.75 642.739990234375 L 477.7900085449219 672.6199951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="192 m2" id="L-60"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.47); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 552.3900146484375 672.719970703125 L 552.3599853515625 702.5700073242188 L 477.7300109863281 702.4500122070312 L 477.7900085449219 672.6199951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-61"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.26); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 552.3599853515625 706.4262737571722 L 552.3200073242188 736.246281081391 L 477.6700134277344 736.1362957298285 L 477.7300109863281 706.3062786399847 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="160 m2" id="L-62"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.45); stroke-width: 1.41935px;"></path>
-                    <path undefined="undefined"
-                        d="M 356.4881307750705 702.3200073242188 L 356.54812833366424 672.489990234375 L 438.64813443717986 672.530029296875 L 438.608125892258 702.4299926757812 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-68"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.52); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 358.47626155014103 674.4181234508518 L 358.5062603294379 644.5181600719455 L 440.6262554466254 644.628145423508 L 440.57626765365666 674.4581625133518 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-69"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.53); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 354.6499938964844 642.5900268554688 L 354.7099914550781 612.760009765625 L 436.760009765625 612.8900146484375 L 436.7699890136719 642.7000122070312 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-70"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.49); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 354.7099914550781 612.760009765625 L 354.7699890136719 582.9299926757812 L 436.7900085449219 582.989990234375 L 436.760009765625 612.8900146484375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
-                        id="L-71" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 354.7699890136719 582.9299926757812 L 354.7300109863281 553.0499877929688 L 436.8500061035156 553.1599731445312 L 436.7900085449219 582.989990234375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2"
-                        id="L-72"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 436.94000244140625 470.9599914550781 L 405.25 470.4800109863281 L 405.1199951171875 553.0999755859375 L 436.8500061035156 553.1599731445312 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.54); stroke-width: 1.41935px;"
-                        title="187.79 m2" id="L-73" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 405.25 470.4800109863281 L 373.54998779296875 470 L 373.3900146484375 553.0399780273438 L 405.1199951171875 553.0999755859375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="188.75 m2"
-                        id="L-74"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 249, 249, 0.41); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 373.3900146484375 553.0399780273438 L 343.5899963378906 553.0599975585938 L 343.67999267578125 469.5400085449219 L 373.54998779296875 470 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="178.52 m2"
-                        id="L-75"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 343.5899963378906 553.0599975585938 L 343.67999267578125 469.5400085449219 L 313.8399963378906 469.1600036621094 L 313.760009765625 553 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="179.37 m2"
-                        id="L-76"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 283.8500061035156 552.969970703125 L 283.94000244140625 468.7300109863281 L 313.8399963378906 469.1600036621094 L 313.760009765625 553 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="180.22 m2"
-                        id="L-77"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(246, 246, 246, 0.39); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 304.1600036621094 297.3699951171875 L 334.010009765625 297.7900085449219 L 332.0899963378906 428.32000732421875 L 302.260009765625 428.1199951171875 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke-width: 1.41935px;" title="280 m2" id="L-2"
-                        data-stroke-width="1.2">
-                    </path>
-                    <path undefined="undefined"
-                        d="M 363.8800048828125 298.2099914550781 L 334.010009765625 297.7900085449219 L 332.0899963378906 428.32000732421875 L 361.9599914550781 428.7799987792969 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(249, 240, 240, 0.33); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-3" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 393.6499938964844 298.6099853515625 L 363.8800048828125 298.2099914550781 L 361.9599914550781 428.7799987792969 L 391.8299865722656 429.239990234375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-4" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 423.5199890136719 299.07000732421875 L 393.6499938964844 298.6099853515625 L 391.8299865722656 429.239990234375 L 421.6000061035156 429.6400146484375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
-                        style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-5" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 513.0999755859375 300.3699951171875 L 483.2300109863281 299.9200134277344 L 481.3399963378906 430.55999755859375 L 511.19000244140625 430.95001220703125 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.33); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-8" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 483.2300109863281 299.9200134277344 L 453.3900146484375 299.5299987792969 L 452.97601318359375 327.6844177246094 L 451.4700012207031 430.1000061035156 L 481.3399963378906 430.55999755859375 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-7"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.53); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 572.739990234375 301.239990234375 L 542.969970703125 300.8299865722656 L 541.0599975585938 431.3999938964844 L 570.9000244140625 431.7900085449219 Z"
-                        class="[object SVGAnimatedString] mapsvg-region"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
-                        title="280 m2" id="L-10" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 602.6099853515625 301.70001220703125 L 572.739990234375 301.239990234375 L 570.9000244140625 431.7900085449219 L 600.7000122070312 432.2699890136719 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="280 m2"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 254, 254, 0.4); stroke-width: 1.41935px;"
-                        id="L-11" data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 632.4600219726562 302.0799865722656 L 602.6099853515625 301.70001220703125 L 600.7000122070312 432.2699890136719 L 630.5700073242188 432.7300109863281 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-12"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 249, 249, 0.48); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
-                    <path undefined="undefined"
-                        d="M 662.3300170898438 302.57000732421875 L 632.4600219726562 302.0799865722656 L 630.5700073242188 432.7300109863281 L 660.4099731445312 433.1099853515625 Z"
-                        class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-13"
-                        style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
-                        data-stroke-width="1.2"></path>
+                        <rect x="461.79" y="570.95"
+                            transform="matrix(0.0154 -0.9999 0.9999 0.0154 153.1353 887.285)"
+                            class="[object SVGAnimatedString]" width="130.58" height="89.87"
+                            title="Club de playa" id="club" style="stroke-width: 1.41935px; stroke: rgba(255, 255, 255, 0.50); fill: rgba(255, 255, 255, 0.16);"
+                            data-stroke-width="1.2" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" aria-label="Lote - L-15">
+                        </rect>
+                        <path class="[object SVGAnimatedString] mapsvg-region"
+                            d="M 242.83 468.13 L 283.94 468.73 C 283.33 447.38 282.46999999999997 432.06 302.26 428.12 L 304.15999999999997 297.37 L 245.33999999999997 296.5 L 242.83 468.13 Z"
+                            title="678.8 m2" id="L-1"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;" data-stroke-width="1.2">
+                        </path>
+                        <rect x="372.2" y="349.65" transform="matrix(0.0154 -0.9999 0.9999 0.0154 66.2271 796.4282)"
+                            class="[object SVGAnimatedString] mapsvg-region" width="130.58" height="29.87"
+                            title="280 m2" id="L-6" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></rect>
+                        <rect x="461.79" y="350.95"
+                            transform="matrix(0.0154 -0.9999 0.9999 0.0154 153.1353 887.285)"
+                            class="[object SVGAnimatedString] mapsvg-region" width="130.58" height="29.87"
+                            title="280 m2" id="L-9" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></rect>
+                        <rect x="380.68" y="676.23"
+                            transform="matrix(1.951015e-03 -1 1 1.951015e-03 -322.4715 1111.4836)"
+                            class="[object SVGAnimatedString] mapsvg-region" width="29.83" height="82.12"
+                            title="176 m2" id="L-67" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></rect>
+                        <path class="[object SVGAnimatedString] mapsvg-region"
+                            d="M354.52,761.96l-0.02-29.81l82.12,0.11l-0.01,19.85c-0.17,3.62,0.06,6.96,0.78,9.97L354.52,761.96z"
+                            title="176 m2" id="L-66" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            d="M 355.80052821128453 794.501056422569 L 355.84052821128455 764.5910564225691 L 438.71052821128455 764.7210564225691 C 441.60052821128454 773.981056422569 448.2505282112846 778.861056422569 458.39052821128456 779.6910564225691 L 458.41052821128454 794.6310564225691 L 355.80052821128453 794.501056422569 Z"
+                            title="204.39 m2" id="L-65"
+                            style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgb(255, 255, 255);"
+                            data-stroke-width="1.2"></path>
+                        <path class="[object SVGAnimatedString] mapsvg-region"
+                            d="M552.26,792.09l0.03-29.84l-75.4-0.08c-3.2,9.33-9.76,14.35-19.82,14.89l0.02,14.94L552.26,792.09z"
+                            title="188.39 m2" id="L-64"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;" data-stroke-width="1.2">
+                        </path>
+                        <path class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            d="M552.32,732.39l-74.65-0.11c0.2,13.16,0.25,25.31-0.78,29.89l75.4,0.08L552.32,732.39z"
+                            title="160 m2" id="L-63"
+                            style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgb(255, 255, 255);"
+                            data-stroke-width="1.2"></path>
+                        <rect x="369.76" y="817.08"
+                            transform="matrix(1.422296e-03 -1 1 1.422296e-03 -422.7627 1240.7043)"
+                            class="[object SVGAnimatedString] mapsvg-region" width="80.2" height="29.91"
+                            title="172 m2" id="L-35" style="fill: rgba(60, 219, 34, 0.16); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></rect>
+                        <path undefined="undefined"
+                            d="M 722.0499877929688 303.3800048828125 L 692.2000122070312 303 L 690.280029296875 433.57000732421875 L 720.030029296875 434.010009765625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" id="L-15"
+                            style="stroke-width: 1.41935px; fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 244, 244, 0.43);"
+                            title="280 m2" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 692.2000122070312 303 L 662.3300170898438 302.57000732421875 L 660.4099731445312 433.1099853515625 L 690.280029296875 433.57000732421875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-14" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 810.0800170898438 449.42999267578125 L 736.989990234375 434.260009765625 L 730.9500122070312 463.44000244140625 L 803.989990234375 478.7099914550781 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            id="L-16"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 797.8800048828125 507.9100036621094 L 803.989990234375 478.7099914550781 L 730.9500122070312 463.44000244140625 L 724.8099975585938 492.75 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.32); stroke-width: 1.41935px;"
+                            title="160 m2" id="L-17" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 791.8400268554688 537.0900268554688 L 797.8800048828125 507.9100036621094 L 724.8099975585938 492.75 L 718.719970703125 521.97998046875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            id="L-18"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 785.75 566.3699951171875 L 791.8400268554688 537.0900268554688 L 718.719970703125 521.97998046875 L 712.6300048828125 551.1199951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.29); stroke-width: 1.41935px;"
+                            title="160 m2" id="L-19" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 779.6400146484375 595.5700073242188 L 785.75 566.3699951171875 L 712.6300048828125 551.1199951171875 L 706.6199951171875 580.3699951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 254, 254, 0.4); stroke-width: 1.41935px;"
+                            title="160 m2" id="L-20" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 773.52001953125 624.77001953125 L 779.6400146484375 595.5700073242188 L 706.6199951171875 580.3699951171875 L 700.5 609.5700073242188 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
+                            id="L-21" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 767.510009765625 654.02001953125 L 773.52001953125 624.77001953125 L 700.5 609.5700073242188 L 694.3900146484375 638.77001953125 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            id="L-22"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.35); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 761.3900146484375 683.219970703125 L 767.510009765625 654.02001953125 L 694.3900146484375 638.77001953125 L 688.2999877929688 668.0499877929688 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            id="L-23"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.28); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 755.2999877929688 712.5 L 761.3900146484375 683.219970703125 L 688.2999877929688 668.0499877929688 L 682.260009765625 697.22998046875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2"
+                            id="L-24"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 749.1900024414062 741.7000122070312 L 755.2999877929688 712.5 L 682.260009765625 697.22998046875 L 676.1699829101562 726.510009765625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-25"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.33); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 743.1500244140625 770.8800048828125 L 749.1900024414062 741.7000122070312 L 676.1699829101562 726.510009765625 L 670.0599975585938 755.7100219726562 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-26"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.27); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 737.0599975585938 800.1599731445312 L 743.1500244140625 770.8800048828125 L 670.0599975585938 755.7100219726562 L 663.9400024414062 784.9099731445312 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.32); stroke-width: 1.41935px;"
+                            title="160 m2" id="L-27" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 730.9500122070312 829.3599853515625 L 737.0599975585938 800.1599731445312 L 663.9400024414062 784.9099731445312 L 657.9299926757812 814.1599731445312 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.34); stroke-width: 1.41935px;"
+                            title="160 m2" id="L-28" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 724.9199829101562 858.5800170898438 L 730.9500122070312 829.3599853515625 L 657.9299926757812 814.1599731445312 L 651.8200073242188 843.3599853515625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-29"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.15); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 722.010009765625 872.5599975585938 L 724.9199829101562 858.5800170898438 L 651.8200073242188 843.3599853515625 L 645.760009765625 872.469970703125 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 245, 245, 0.35); stroke-width: 1.41935px;"
+                            title="117.81 m2" id="L-30" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 236.97000122070312 871.9299926757812 L 275.4700012207031 871.97998046875 L 275.5899963378906 791.760009765625 L 238.16000366210938 791.7100219726562 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="218.89 m2"
+                            id="L-31"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.3); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 305.3800048828125 872.02001953125 L 275.4700012207031 871.97998046875 L 275.5899963378906 791.760009765625 L 305.4200134277344 791.8200073242188 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
+                            title="172 m2" id="L-32" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 335.2099914550781 872.0700073242188 L 335.32000732421875 791.8499755859375 L 305.4200134277344 791.8200073242188 L 305.3800048828125 872.02001953125 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="172 m2"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.31); stroke-width: 1.41935px;"
+                            id="L-33" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 365.010009765625 872.0599975585938 L 365.05999755859375 791.5700073242188 L 335.32000732421875 791.8499755859375 L 335.2099914550781 872.0700073242188 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
+                            title="172 m2" id="L-34" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 394.8399963378906 872.1199951171875 L 394.9599914550781 791.9199829101562 L 365.05999755859375 791.5700073242188 L 365.010009765625 872.0599975585938 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="172 m2" id="L-35"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 454.5799865722656 872.2100219726562 L 454.69000244140625 791.989990234375 L 424.8599853515625 791.9600219726562 L 424.75 872.1500244140625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="172 m2" id="L-37"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 251, 251, 0.46); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 484.4100036621094 872.27001953125 L 484.510009765625 792.02001953125 L 454.69000244140625 791.989990234375 L 454.5799865722656 872.2100219726562 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.36); stroke-width: 1.41935px;"
+                            title="172 m2" id="L-38" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 514.3200073242188 872.2999877929688 L 514.3900146484375 792.0499877929688 L 484.510009765625 792.02001953125 L 484.4100036621094 872.27001953125 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
+                            title="172 m2" id="L-39" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 544.1199951171875 872.280029296875 L 544.239990234375 792.0800170898438 L 514.3900146484375 792.0499877929688 L 514.3200073242188 872.2999877929688 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="172 m2"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
+                            id="L-40" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 573.9500122070312 872.3400268554688 L 574.0700073242188 792.1300048828125 L 544.239990234375 792.0800170898438 L 544.1199951171875 872.280029296875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
+                            title="172 m2" id="L-41" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 603.8599853515625 872.3800048828125 L 620.5900268554688 792.2000122070312 L 574.0700073242188 792.1300048828125 L 573.9500122070312 872.3400268554688 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 254, 254, 0.31); stroke-width: 1.41935px;"
+                            title="219.82 m2" id="L-42" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 620.5900268554688 792.2000122070312 L 626.739990234375 762.3300170898438 L 552.2899780273438 762.25 L 552.260009765625 792.0900268554688 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="153.10 m2"
+                            id="L-43"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.44); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 626.739990234375 762.3300170898438 L 633 732.510009765625 L 552.3200073242188 732.3900146484375 L 552.2899780273438 762.25 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="166.34 m2" id="L-44"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.25); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 633 732.510009765625 L 639.1699829101562 702.7100219726562 L 552.3599853515625 702.5700073242188 L 552.3200073242188 732.3900146484375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.51); stroke-width: 1.41935px;"
+                            title="179.59 m2" id="L-45" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 639.1699829101562 702.7100219726562 L 645.4099731445312 672.8099975585938 L 552.3900146484375 672.719970703125 L 552.3599853515625 702.5700073242188 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.47); stroke-width: 1.41935px;"
+                            title="192.83 m2" id="L-46" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 645.4099731445312 672.8099975585938 L 651.6599731445312 642.97998046875 L 567.3599853515625 642.8699951171875 L 567.3300170898438 672.7000122070312 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
+                            title="174.07 m2" id="L-47" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 651.6599731445312 642.97998046875 L 657.8200073242188 613.1099853515625 L 567.4000244140625 613.010009765625 L 567.3599853515625 642.8699951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="187.31 m2"
+                            id="L-48"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 657.8200073242188 613.1099853515625 L 664.0700073242188 583.2899780273438 L 567.4299926757812 583.1799926757812 L 567.4000244140625 613.010009765625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="200.55 m2"
+                            id="L-49"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 664.0700073242188 583.2899780273438 L 670.25 553.489990234375 L 567.469970703125 553.3300170898438 L 567.4299926757812 583.1799926757812 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="213.79 m2"
+                            id="L-50"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 670.25 553.489990234375 L 638.27001953125 553.4199829101562 L 639.4199829101562 473.8800048828125 L 686.6900024414062 474.54998779296875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="225.70 m2"
+                            id="L-51"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 638.27001953125 553.4199829101562 L 639.4199829101562 473.8800048828125 L 607.719970703125 473.3999938964844 L 606.5399780273438 553.3699951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.46); stroke-width: 1.41935px;"
+                            title="181.69 m2" id="L-52" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 606.5399780273438 553.3699951171875 L 607.719970703125 473.3999938964844 L 576.030029296875 472.9200134277344 L 574.8099975585938 553.3099975585938 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="182.65 m2"
+                            id="L-53"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.49); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 576.030029296875 472.9200134277344 L 544.260009765625 472.4599914550781 L 543.1099853515625 553.280029296875 L 574.8099975585938 553.3099975585938 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="183.61 m2"
+                            id="L-54"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.44); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 544.260009765625 472.4599914550781 L 512.5900268554688 472.05999755859375 L 511.45001220703125 553.22998046875 L 543.1099853515625 553.280029296875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(251, 251, 251, 0.38); stroke-width: 1.41935px;"
+                            title="184.56 m2" id="L-55" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 512.5900268554688 472.05999755859375 L 478 471.54998779296875 L 477.8999938964844 553.1699829101562 L 511.45001220703125 553.22998046875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="199.06 m2"
+                            id="L-56"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 254, 254, 0.51); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 567.469970703125 553.3300170898438 L 567.4299926757812 583.1799926757812 L 477.8599853515625 583.0800170898438 L 477.8999938964844 553.1699829101562 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(254, 242, 242, 0.44); stroke-width: 1.41935px;"
+                            title="192 m2" id="L-57" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 567.4299926757812 583.1799926757812 L 477.8599853515625 583.0800170898438 L 477.80999755859375 612.9099731445312 L 567.4000244140625 613.010009765625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="192 m2" id="L-58"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.34); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 567.4000244140625 613.010009765625 L 477.80999755859375 612.9099731445312 L 477.75 642.739990234375 L 567.3599853515625 642.8699951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 246, 246, 0.42); stroke-width: 1.41935px;"
+                            title="192 m2" id="L-59" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 567.3300170898438 672.7000122070312 L 567.3599853515625 642.8699951171875 L 477.75 642.739990234375 L 477.7900085449219 672.6199951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="192 m2" id="L-60"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.47); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 552.3900146484375 672.719970703125 L 552.3599853515625 702.5700073242188 L 477.7300109863281 702.4500122070312 L 477.7900085449219 672.6199951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="160 m2" id="L-61"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.26); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 552.3599853515625 706.4262737571722 L 552.3200073242188 736.246281081391 L 477.6700134277344 736.1362957298285 L 477.7300109863281 706.3062786399847 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="160 m2" id="L-62"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.45); stroke-width: 1.41935px;"></path>
+                        <path undefined="undefined"
+                            d="M 356.4881307750705 702.3200073242188 L 356.54812833366424 672.489990234375 L 438.64813443717986 672.530029296875 L 438.608125892258 702.4299926757812 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-68"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.52); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 358.47626155014103 674.4181234508518 L 358.5062603294379 644.5181600719455 L 440.6262554466254 644.628145423508 L 440.57626765365666 674.4581625133518 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-69"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.53); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 354.6499938964844 642.5900268554688 L 354.7099914550781 612.760009765625 L 436.760009765625 612.8900146484375 L 436.7699890136719 642.7000122070312 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2" id="L-70"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.49); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 354.7099914550781 612.760009765625 L 354.7699890136719 582.9299926757812 L 436.7900085449219 582.989990234375 L 436.760009765625 612.8900146484375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.41); stroke-width: 1.41935px;"
+                            id="L-71" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 354.7699890136719 582.9299926757812 L 354.7300109863281 553.0499877929688 L 436.8500061035156 553.1599731445312 L 436.7900085449219 582.989990234375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="176 m2"
+                            id="L-72"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 436.94000244140625 470.9599914550781 L 405.25 470.4800109863281 L 405.1199951171875 553.0999755859375 L 436.8500061035156 553.1599731445312 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.54); stroke-width: 1.41935px;"
+                            title="187.79 m2" id="L-73" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 405.25 470.4800109863281 L 373.54998779296875 470 L 373.3900146484375 553.0399780273438 L 405.1199951171875 553.0999755859375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="188.75 m2"
+                            id="L-74"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 249, 249, 0.41); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 373.3900146484375 553.0399780273438 L 343.5899963378906 553.0599975585938 L 343.67999267578125 469.5400085449219 L 373.54998779296875 470 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="178.52 m2"
+                            id="L-75"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.4); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 343.5899963378906 553.0599975585938 L 343.67999267578125 469.5400085449219 L 313.8399963378906 469.1600036621094 L 313.760009765625 553 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="179.37 m2"
+                            id="L-76"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.43); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 283.8500061035156 552.969970703125 L 283.94000244140625 468.7300109863281 L 313.8399963378906 469.1600036621094 L 313.760009765625 553 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled" title="180.22 m2"
+                            id="L-77"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(246, 246, 246, 0.39); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 304.1600036621094 297.3699951171875 L 334.010009765625 297.7900085449219 L 332.0899963378906 428.32000732421875 L 302.260009765625 428.1199951171875 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke-width: 1.41935px;" title="280 m2" id="L-2"
+                            data-stroke-width="1.2">
+                        </path>
+                        <path undefined="undefined"
+                            d="M 363.8800048828125 298.2099914550781 L 334.010009765625 297.7900085449219 L 332.0899963378906 428.32000732421875 L 361.9599914550781 428.7799987792969 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(249, 240, 240, 0.33); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-3" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 393.6499938964844 298.6099853515625 L 363.8800048828125 298.2099914550781 L 361.9599914550781 428.7799987792969 L 391.8299865722656 429.239990234375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-4" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 423.5199890136719 299.07000732421875 L 393.6499938964844 298.6099853515625 L 391.8299865722656 429.239990234375 L 421.6000061035156 429.6400146484375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region mapsvg-disabled"
+                            style="fill: rgba(228, 22, 66, 0.52); stroke: rgba(255, 255, 255, 0.39); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-5" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 513.0999755859375 300.3699951171875 L 483.2300109863281 299.9200134277344 L 481.3399963378906 430.55999755859375 L 511.19000244140625 430.95001220703125 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.33); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-8" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 483.2300109863281 299.9200134277344 L 453.3900146484375 299.5299987792969 L 452.97601318359375 327.6844177246094 L 451.4700012207031 430.1000061035156 L 481.3399963378906 430.55999755859375 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-7"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.53); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 572.739990234375 301.239990234375 L 542.969970703125 300.8299865722656 L 541.0599975585938 431.3999938964844 L 570.9000244140625 431.7900085449219 Z"
+                            class="[object SVGAnimatedString] mapsvg-region"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.48); stroke-width: 1.41935px;"
+                            title="280 m2" id="L-10" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 602.6099853515625 301.70001220703125 L 572.739990234375 301.239990234375 L 570.9000244140625 431.7900085449219 L 600.7000122070312 432.2699890136719 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="280 m2"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 254, 254, 0.4); stroke-width: 1.41935px;"
+                            id="L-11" data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 632.4600219726562 302.0799865722656 L 602.6099853515625 301.70001220703125 L 600.7000122070312 432.2699890136719 L 630.5700073242188 432.7300109863281 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-12"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 249, 249, 0.48); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
+                        <path undefined="undefined"
+                            d="M 662.3300170898438 302.57000732421875 L 632.4600219726562 302.0799865722656 L 630.5700073242188 432.7300109863281 L 660.4099731445312 433.1099853515625 Z"
+                            class="[object SVGAnimatedString] mapsvg-region" title="280 m2" id="L-13"
+                            style="fill: rgba(60, 219, 34, 0.16); stroke: rgba(255, 255, 255, 0.42); stroke-width: 1.41935px;"
+                            data-stroke-width="1.2"></path>
                     </g>
                     <g id="Area_Verde" class="st4" title="Áreas verdes"  style="stroke-width: 1.41935px; stroke: rgba(255, 255, 255, 0.50); fill: rgba(255, 255, 255, 0.16);"
                     data-stroke-width="1.2" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true">
                         <polygon class="st5" fill="transparent" points="243.1,468.4 284.2,469 284.1,553.2 355,553.3 354.8,792.1 238.4,792 	"/>
                     </g>
                 </svg>
-                <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-1">
+                <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                     <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
                     <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
                     <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
