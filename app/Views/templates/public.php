@@ -33,7 +33,7 @@
 		<div class="container-fluid nav-bar bg-transparent">
 			<nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4 shadow-lg">
 				<a href="<?= base_url() ?>" class="navbar-brand d-flex align-items-center text-center">
-					<h2 class="m-0 text-success">Kirkland Inmuebles</h2>
+					<img class="img-fluid h-100" src="<?= STATIC_URL . 'img/logo_kirkland.svg' ?>" alt="Kirkland Inmobiliaria">
 				</a>
 				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 					<span class="navbar-toggler-icon"></span>
