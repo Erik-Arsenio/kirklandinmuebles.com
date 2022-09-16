@@ -46,6 +46,8 @@ $routes->get('projects/load_form_add_edit_amenity/(:any)', 'Projects::load_form_
 $routes->post('projects/add_edit_amenity', 'Projects::add_edit_amenity');
 $routes->get('investments/(:any)', 'Projects::index/$1');
 $routes->get('properties/listing', 'Properties::listing');
+$routes->get('properties/load_form_add_edit_listing/(:any)', 'Properties::load_form_add_edit_listing/$1');
+$routes->post('properties/add_edit_listing', 'Properties::add_edit_listing');
 $routes->get('properties/characteristics', 'Properties::characteristics');
 $routes->get('properties/load_form_add_edit_characteristic/(:any)', 'Properties::load_form_add_edit_characteristic/$1');
 $routes->post('properties/add_edit_characteristic', 'Properties::add_edit_characteristic');
