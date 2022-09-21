@@ -89,7 +89,7 @@
                     <li class="h4">Lotes con consuperficies desde 160m<sup>2</sup></li>
                     <li class="h4">Calles blancas de arena</li>
                     <li class="h4">Caseta de vigilancia con estela distintiva</li>
-                    <li class="h4">Lotes delimitadores con mojoneras</li>
+                    <li class="h4">Lotes delimitadores por mojoneras</li>
                     <li class="h4">Desarrollo amigable con el medio ambiente</li>
                 </ul>
             </div>
@@ -139,7 +139,7 @@
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                 <ul>
                     <li class="h4">Spot icónico</li>
-                    <li class="h4">Caseta con acceso restringido y estela de acceso</li>
+                    <li class="h4">Caseta con acceso restringido y estela distintiva</li>
                     <li class="h4">Recepción</li>
                     <li class="h4">Lobby</li>
                     <li class="h4">Barra de servicios y área de 40 comensales</li>

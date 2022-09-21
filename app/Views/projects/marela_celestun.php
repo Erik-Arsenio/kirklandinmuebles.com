@@ -93,7 +93,7 @@
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                 <ul>
-                    <li class="h4">Energía elérctrica dentro del desarrollo a pie de lote</li>
+                    <li class="h4">Energía elérctrica sobre carretera</li>
                     <li class="h4">Vías de acceso rápido y amplias</li>
                     <li class="h4">Desde 576.160,00 MXN</li>
                     <li class="h4">A 5 minutos de Celestún y a 45 de Mérida</li>

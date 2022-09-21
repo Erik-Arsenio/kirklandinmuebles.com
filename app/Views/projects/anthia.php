@@ -7,7 +7,7 @@
                 <h6>HUNUCMÁ</h6>
             </div>
             <h1 class="display-6 animated slideInLeft fw-bold my-4">Lotes patrimoniales de inversión</h1>
-            <p class="text-center animated slideInLeft h4 mb-4 pb-2">Desarrollo de terrenos de inversión semiurbanizados, rodeado de desarrollos de inversión a 25 minutos de la playa</p>
+            <p class="text-center animated slideInLeft h4 mb-4 pb-2">Desarrollo de terrenos de inversión semiurbanizados, rodeado de desarrollos de inversión a 25 minutos de las playas de Sisal, pueblo mágico y playas Platinum</p>
         </div>
         <div class="col-md-6 pe-md-5">
             <div class="carousel slide text-center  animated fadeInRight" data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
@@ -104,6 +104,7 @@
                     <li class="h4"> A 25 minutos de la playa Sisal</li>
                     <li class="h4">A 5 minutos del pueblo de Hunucmá</li>
                     <li class="h4">A 25 minutos de Mérida</li>
+                    <li class="h4">A 8 minutos del nuevo Central Busines Park</li>
                 </ul>
             </div>
         </div>
