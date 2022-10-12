@@ -93,4 +93,23 @@ class PropertiesModel extends Model
 			return $builder->insert($valuesCharacteristic);
 		}
 	}
+
+	/**
+	 * List/Get types available, apply sorting
+	 * @param int $propertyTypeId
+	 * @param string $getSort
+	 *
+	 * @return object
+	 **/
+	public function getTypes($propertyTypeId = null, $getSort = 'property_type_id ASC')
+	{
+		$builder = $this->db->table('t_property_type');
+		$builder->orderBy($getSort);
+		if (!empty($propertyTypeId)) {
+			$builder->where('property_type_id', $propertyTypeId);
+			return $builder->get()->getRow();
+		} else {
+			return $builder->get()->getResult();
+		}
+	}
 }

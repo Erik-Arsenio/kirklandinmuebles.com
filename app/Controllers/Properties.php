@@ -59,6 +59,7 @@ class Properties extends BaseController
 			// Globals
 			$property = !empty($propertyId) ? $this->properties->getProperties($propertyId) : null;
 			$propertyCharacteristicNameField = "property_characteristic_name_" . strtoupper(service('request')->getLocale());
+			$propertyTypeNameField = "property_type_name_" . strtoupper(service('request')->getLocale());
 			$listPropertyCharacteristics = [];
 
 			// Get some values when editing
@@ -68,7 +69,7 @@ class Properties extends BaseController
 
 			// Set data form Add/Edit
 			$dataView = [
-				'project' => $property,
+				'property' => $property,
 				'formPost' => $formPost,
 				'listPropertyCharacteristics' => $listPropertyCharacteristics,
 				'getStates' => $this->settings->getStates(),
@@ -76,7 +77,9 @@ class Properties extends BaseController
 				'getMunicipalities' => !empty($property) ? $this->settings->getMunicipalities(null, $property->city_id) : null,
 				'getCurrencies' => $this->settings->getCurrencies(),
 				'getCharacteristics' => $this->properties->getCharacteristics(null, "{$propertyCharacteristicNameField} ASC"),
-				'propertyCharacteristicNameField' => $propertyCharacteristicNameField
+				'propertyCharacteristicNameField' => $propertyCharacteristicNameField,
+				'getTypes' => $this->properties->getTypes(null, "{$propertyTypeNameField} ASC"),
+				'propertyTypeNameField' => $propertyTypeNameField
 			];
 
 			echo view('properties/listing/form_add_edit', $dataView);

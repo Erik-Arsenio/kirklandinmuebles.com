@@ -6,6 +6,17 @@
 		<?= service('validation')->showError('property_name') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
+		<label for="property_type_id" class="form-label"><?= lang('Globals.type') ?><span class="text-danger ms-1">*</span></label>
+		<select name="property_type_id" class="form-select" id="property_type_id">
+			<option value=""><?= lang('Globals.select') ?></option>
+			<?php foreach ($getTypes as $type) : ?>
+				<option value="<?= $type->property_type_id ?>" <?php if (set_value('property_type_id') == $type->property_type_id) echo ' selected';
+														elseif (!empty($property) && $property->property_type_id == $type->property_type_id) echo ' selected'; ?>><?= $type->$propertyTypeNameField ?></option>
+			<?php endforeach; ?>
+		</select>
+		<?= service('validation')->showError('property_type_id') ?>
+	</div>
+	<div class="col-lg-4 mb-3">
 		<label for="property_characteristic_id" class="form-label"><?= lang('Globals.characteristics') ?><span class="text-danger ms-1">*</span></label>
 		<select name="property_characteristic_id[]" class="form-select" id="property_characteristic_id" style="max-height: 38px;" multiple>
 			<?php foreach ($getCharacteristics as $characteristic) : ?>

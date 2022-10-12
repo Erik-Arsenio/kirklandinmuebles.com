@@ -25,6 +25,7 @@ return [
 	'listing' => 'Listado',
 	'characteristics' => 'Características',
 	'types' => 'Tipos',
+	'type' => 'Tipo',
 	'settings' => 'Ajustes',
 	'currencies' => 'Monedas',
 	'municipalities' => 'Municipios',
