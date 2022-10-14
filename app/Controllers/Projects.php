@@ -31,7 +31,7 @@ class Projects extends BaseController
 
 		// Set data template
 		$data = [
-			'title' => 'Kirkland Inmuebles',
+			'title' => 'Kirkland Inmobiliaria',
 			'content' => view('projects/' . $projectName, $dataIndex),
 			'js' => load_js(['js/app-properties'])
 		];
