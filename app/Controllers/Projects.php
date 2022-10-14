@@ -20,12 +20,13 @@ class Projects extends BaseController
 		$this->pager = \Config\Services::pager();
 	}
 
-	public function index($projectName)
+	public function index($projectName, $projectStage = null)
 	{
 		// Set data index
 		$dataIndex = [
 			'sectionContact' => view('templates/contact'),
-			'sectionReviews' => view('templates/reviews')
+			'sectionReviews' => view('templates/reviews'),
+			'projectStage' => $projectStage
 		];
 
 		// Set data template
