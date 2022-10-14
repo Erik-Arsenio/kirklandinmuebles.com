@@ -61,6 +61,8 @@ return [
 	'address' => 'Dirección',
 	'availability_date' => 'Fecha de disponibilidad',
 	'down_payment' => 'Enganche',
+	'category' => 'Categoría',
+	'stage' => 'Etapa',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
 	'text_3' => 'No existen registros para mostrar.',

@@ -60,6 +60,8 @@ class Properties extends BaseController
 			$property = !empty($propertyId) ? $this->properties->getProperties($propertyId) : null;
 			$propertyCharacteristicNameField = "property_characteristic_name_" . strtoupper(service('request')->getLocale());
 			$propertyTypeNameField = "property_type_name_" . strtoupper(service('request')->getLocale());
+			$propertyCategoryNameField = "property_category_name_" . strtoupper(service('request')->getLocale());
+			$propertyStageNameField = "property_stage_name_" . strtoupper(service('request')->getLocale());
 			$listPropertyCharacteristics = [];
 
 			// Get some values when editing
@@ -79,7 +81,11 @@ class Properties extends BaseController
 				'getCharacteristics' => $this->properties->getCharacteristics(null, "{$propertyCharacteristicNameField} ASC"),
 				'propertyCharacteristicNameField' => $propertyCharacteristicNameField,
 				'getTypes' => $this->properties->getTypes(null, "{$propertyTypeNameField} ASC"),
-				'propertyTypeNameField' => $propertyTypeNameField
+				'propertyTypeNameField' => $propertyTypeNameField,
+				'getCategories' => $this->properties->getCategories(null, "{$propertyCategoryNameField} ASC"),
+				'propertyCategoryNameField' => $propertyCategoryNameField,
+				'getStages' => $this->properties->getStages(null, "{$propertyStageNameField} ASC"),
+				'propertyStageNameField' => $propertyStageNameField
 			];
 
 			echo view('properties/listing/form_add_edit', $dataView);

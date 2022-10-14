@@ -112,4 +112,42 @@ class PropertiesModel extends Model
 			return $builder->get()->getResult();
 		}
 	}
+
+	/**
+	 * List/Get categories available, apply sorting
+	 * @param int $propertyCategoryId
+	 * @param string $getSort
+	 *
+	 * @return object
+	 **/
+	public function getCategories($propertyCategoryId = null, $getSort = 'property_category_id ASC')
+	{
+		$builder = $this->db->table('t_property_category');
+		$builder->orderBy($getSort);
+		if (!empty($propertyCategoryId)) {
+			$builder->where('property_category_id', $propertyCategoryId);
+			return $builder->get()->getRow();
+		} else {
+			return $builder->get()->getResult();
+		}
+	}
+
+	/**
+	 * List/Get stages available, apply sorting
+	 * @param int $propertyStageId
+	 * @param string $getSort
+	 *
+	 * @return object
+	 **/
+	public function getStages($propertyStageId = null, $getSort = 'property_stage_id ASC')
+	{
+		$builder = $this->db->table('t_property_stage');
+		$builder->orderBy($getSort);
+		if (!empty($propertyStageId)) {
+			$builder->where('property_stage_id', $propertyStageId);
+			return $builder->get()->getRow();
+		} else {
+			return $builder->get()->getResult();
+		}
+	}
 }

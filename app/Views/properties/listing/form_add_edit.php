@@ -26,7 +26,29 @@
 		<?= service('validation')->showError('property_characteristic_id.*') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
-		<label for="state_id" class="form-label"><?= lang('Globals.state') ?><span class="text-danger ms-1">*</span></label>
+		<label for="property_category_id" class="form-label"><?= lang('Globals.category') ?></label>
+		<select name="property_category_id" class="form-select" id="property_category_id">
+			<option value=""><?= lang('Globals.select') ?></option>
+			<?php foreach ($getCategories as $category) : ?>
+				<option value="<?= $category->property_category_id ?>" <?php if (set_value('property_category_id') == $category->property_category_id) echo ' selected';
+														elseif (!empty($property) && $property->property_category_id == $category->property_category_id) echo ' selected'; ?>><?= $category->$propertyCategoryNameField ?></option>
+			<?php endforeach; ?>
+		</select>
+		<?= service('validation')->showError('property_category_id') ?>
+	</div>
+	<div class="col-lg-4 mb-3">
+		<label for="property_stage_id" class="form-label"><?= lang('Globals.stage') ?></label>
+		<select name="property_stage_id" class="form-select" id="property_stage_id">
+			<option value=""><?= lang('Globals.select') ?></option>
+			<?php foreach ($getStages as $stage) : ?>
+				<option value="<?= $stage->property_stage_id ?>" <?php if (set_value('property_stage_id') == $stage->property_stage_id) echo ' selected';
+														elseif (!empty($property) && $property->property_stage_id == $stage->property_stage_id) echo ' selected'; ?>><?= $stage->$propertyStageNameField ?></option>
+			<?php endforeach; ?>
+		</select>
+		<?= service('validation')->showError('property_stage_id') ?>
+	</div>
+	<div class="col-lg-4 mb-3">
+		<label for="state_id" class="form-label"><?= lang('Globals.state') ?></label>
 		<select name="state_id" class="form-select select-linked" id="state_id" data-target="#city_id" data-uri="<?= base_url('settings/dropdown_cities') ?>">
 			<option value=""><?= lang('Globals.select') ?></option>
 			<?php foreach ($getStates as $state) : ?>
@@ -37,7 +59,7 @@
 		<?= service('validation')->showError('state_id') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
-		<label for="city_id" class="form-label"><?= lang('Globals.city') ?><span class="text-danger ms-1">*</span></label>
+		<label for="city_id" class="form-label"><?= lang('Globals.city') ?></label>
 		<select name="city_id" class="form-select select-linked" id="city_id" data-target="#municipality_id" data-uri="<?= base_url('settings/dropdown_municipalities') ?>" <?php if (empty($getCities)) echo ' disabled'; ?>>
 			<?php if (!empty($getCities)) : ?>
 				<?php foreach ($getCities as $city) : ?>
