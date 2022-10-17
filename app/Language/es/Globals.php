@@ -63,6 +63,7 @@ return [
 	'down_payment' => 'Enganche',
 	'category' => 'Categoría',
 	'stage' => 'Etapa',
+	'quantity' => 'Cantidad',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
 	'text_3' => 'No existen registros para mostrar.',
