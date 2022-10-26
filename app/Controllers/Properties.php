@@ -4,11 +4,13 @@ namespace App\Controllers;
 
 use App\Models\SettingsModel;
 use App\Models\PropertiesModel;
+use App\Models\ProjectsModel;
 
 class Properties extends BaseController
 {
 	protected $settings;
 	protected $properties;
+	protected $projects;
 	protected $validation;
 	protected $pager;
 
@@ -16,6 +18,7 @@ class Properties extends BaseController
 	{
 		$this->settings = new SettingsModel();
 		$this->properties = new PropertiesModel();
+		$this->projects = new ProjectsModel();
 		$this->validation = \Config\Services::validation();
 		$this->pager = \Config\Services::pager();
 	}
@@ -74,6 +77,7 @@ class Properties extends BaseController
 				'property' => $property,
 				'formPost' => $formPost,
 				'listPropertyCharacteristics' => $listPropertyCharacteristics,
+				'getProjects' => $this->projects->getProjects(),
 				'getStates' => $this->settings->getStates(),
 				'getCities' => !empty($property) ? $this->settings->getCities(null, $property->state_id) : null,
 				'getMunicipalities' => !empty($property) ? $this->settings->getMunicipalities(null, $property->city_id) : null,
