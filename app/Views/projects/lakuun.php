@@ -828,9 +828,7 @@
                                 <g id="area_selection_1">
                                     <path data-id="A-12" class="st2 " d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" />
                                     <path data-id="A-11" class="st2 " d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
-                                    <!-- <a href="javascript:void(0);" class="input-button input-button-clear" data-modal-id="A-10" data-toggle="modal" data-target="#modal-img"> -->
-                                        <path data-id="A-10" class="st2 " d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
-                                    <!-- </a> -->
+                                    <path data-id="A-10" class="st2 " d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
                                     <path data-id="A-09" class="st2 " d="M130.4,274.5l6-16.7l55.7,2.9l-6.3,17l-11.2-0.8" />
                                     <path data-id="A-08" class="st2 " d="M130,274.5l56,2.7l-6.7,17.9l-55.8-2.9l2.3-6.2l2-5.5" />
                                     <path data-id="A-07" class="st2 " d="M123.5,292.1l55.8,2.9l-6.3,17l-55.7-3L123.5,292.1z" />
@@ -4151,9 +4149,7 @@
                                         <rect class="cls-50" x="788.22" y="854.85" width="27.04" height="27.04"></rect>
                                     </g>
                                     <g id="area_selection_2">
-                                        <a href="javascript:void(0);" class="input-button input-button-clear" data-modal-id="B-140" data-toggle="modal" data-target="#modal-img">
-                                            <rect class="st2 " x="724.76" y="822.15" width="23.26" height="65.94" title="299.46 m2" data-id="B-140"></rect>
-                                        </a>
+                                        <rect class="st2 " x="724.76" y="822.15" width="23.26" height="65.94" title="299.46 m2" data-id="B-140"></rect>
                                         <rect class="st2 " x="702.83" y="822.15" width="21.93" height="65.94" title="299.41 m2" data-id="B-141"></rect>
                                         <rect class="st2 " x="679.57" y="822.15" width="23.26" height="65.94" title="299.36 m2" data-id="B-142"></rect>
                                         <rect class="st2 " x="657.08" y="822.15" width="22.5" height="65.94" title="299.31 m2" data-id="B-143"></rect>
