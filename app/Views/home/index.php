@@ -5,24 +5,30 @@
 			<p class="animated slideInLeft display-6 fw-bold mb-4">Terrenos residenciales y lotes patrimoniales.</p>
 			<p class="animated slideInLeft display-6 fw-bold mb-4">Inversión en desarrollos residenciales.</p>
 			<p class="animated slideInLeft h4 mb-4 pb-2">Invierte en lotes y terrenos residenciales con alta plusvalía</p>
+			<div class="m-4 text-center">
+				<!-- Button trigger modal -->
+				<a type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" data-bs-toggle="modal" data-bs-target="#contactModal">
+					Quiero que me contacten
+				</a>
+			</div>
 		</div>
 		<div class="col-md-6 pe-md-5">
-			<div class="carousel slide text-center animated fadeInRight" data-bs-ride="false" data-bs-touch="false" id="carouselHome">
+			<div class="carousel slide carousel-fade text-center animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" id="carouselHome">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/05.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/05.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/06.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/01.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/06.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/07.jpg' ?>" alt="">
