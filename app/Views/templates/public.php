@@ -117,7 +117,8 @@
 		'bootstrap/js/bootstrap.bundle.min',
 		'lib/wow/wow.min',
 		'lib/easing/easing.min',
-		'js/main'
+		'js/main',
+		'js/contact'
 	]) ?>
 
 	<!-- Custom JavaScript Libraries -->
