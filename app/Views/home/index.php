@@ -7,7 +7,7 @@
 			<p class="animated slideInLeft h4 mb-4 pb-2">Invierte en lotes y terrenos residenciales con alta plusvalía</p>
 			<div class="m-4 text-center">
 				<!-- Button trigger modal -->
-				<a type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" data-bs-toggle="modal" data-bs-target="#contactModal">
+				<a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
 					Quiero que me contacten
 				</a>
 			</div>
