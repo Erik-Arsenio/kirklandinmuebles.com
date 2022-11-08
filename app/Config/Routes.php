@@ -60,6 +60,11 @@ $routes->post('settings/add_edit_municipality', 'Settings::add_edit_municipality
 $routes->get('settings/dropdown_cities/(:num)', 'Settings::dropdown_cities/$1');
 $routes->get('settings/dropdown_municipalities/(:num)', 'Settings::dropdown_municipalities/$1');
 
+$routes->get('templates/contactForm', 'EmailController::index');
+// $routes->get('contact', 'EmailController::index',['as'=>'contactForm']);
+$routes->post('templates/contactForm', 'EmailController::send',['as'=>'send.email']);
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
