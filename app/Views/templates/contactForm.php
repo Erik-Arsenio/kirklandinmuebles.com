@@ -37,7 +37,7 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text text-success mdi mdi-whatsapp mdi-18px"><span class=''></span></span>
-                                    <input type="tel" onkeypress="return event.charCode>=48 && event.charCode<=57 || event.charCode == 32" class="form-control" name="phone" id="phone" placeholder="Número de WhatsApp" aria-label="phone" aria-describedby="phone" value="<?= old('phone') ?>">
+                                    <input type="tel" onkeypress="return event.charCode>=48 && event.charCode<=57 || event.charCode == 32 || event.charCode == 43" class="form-control" name="phone" id="phone" placeholder="Número de WhatsApp" aria-label="phone" aria-describedby="phone" value="<?= old('phone') ?>">
                                 </div>
                                 <span class="text-danger small">
                                     <?= session('errors.phone') ?>
