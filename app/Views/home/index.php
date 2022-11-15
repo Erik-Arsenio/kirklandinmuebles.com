@@ -6,7 +6,6 @@
 			<p class="animated slideInLeft display-6 fw-bold mb-4">Inversión en desarrollos residenciales.</p>
 			<p class="animated slideInLeft h4 mb-4 pb-2">Invierte en lotes y terrenos residenciales con alta plusvalía</p>
 			<div class="m-4 text-center">
-				<!-- Button trigger modal -->
 				<a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
 					Quiero que me contacten
 				</a>
