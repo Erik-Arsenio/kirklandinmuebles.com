@@ -10,6 +10,7 @@ return [
 	'home' => 'Inicio',
 	'investments' => 'Desarrollos',
 	'contact_us' => 'Contáctenos',
+	'contact' => 'Contacto',
 	'news' => 'Noticias',
 	'send' => 'Enviar',
 	'your_email' => 'Su correo',
