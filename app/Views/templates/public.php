@@ -40,16 +40,17 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<div class="navbar-nav ms-auto">
-						<a href="<?= base_url() ?>" class="nav-item nav-link active"><?= lang('Globals.home') ?></a>
+						<a href="<?= base_url() ?>" class="nav-item nav-link <?= (url_is('/')) ? ' active' : '' ?>"><?= lang('Globals.home') ?></a>
 						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
+							<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 							<div class="dropdown-menu rounded-0 m-0">
-								<a href="<?= base_url('investments/lakuun') ?>" class="dropdown-item" target="_blank">Lakuun</a>
-								<a href="<?= base_url('investments/anthia') ?>" class="dropdown-item" target="_blank">Anthia</a>
-								<a href="<?= base_url('investments/marela_celestun') ?>" class="dropdown-item" target="_blank">Marela Celestún</a>
-								<a href="<?= base_url('investments/marela_beach') ?>" class="dropdown-item" target="_blank">Marela Beach</a>
+								<a href="<?= base_url('investments/lakuun') ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">Lakuun</a>
+								<a href="<?= base_url('investments/anthia') ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
+								<a href="<?= base_url('investments/marela_celestun') ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">Marela Celestún</a>
+								<a href="<?= base_url('investments/marela_beach') ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">Marela Beach</a>
 							</div>
 						</div>
+						<a href="<?= base_url('templates/contactForm') ?>" class="nav-item nav-link <?= (url_is('templates/contactForm')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.contact') ?></a>
 					</div>
 				</div>
 			</nav>
@@ -57,6 +58,7 @@
 		<!-- Navbar End -->
 
 		<!-- Content Start -->
+		
 		<?= $content ?>
 		<!-- Content End -->
 
@@ -68,7 +70,7 @@
 						<h5 class="text-white mb-4"><?= lang('Globals.contact_us') ?></h5>
 						<p class="mb-2"><span class='mdi mdi-home-map-marker mdi-24px me-3'></span></i>Mérida, Yucatán, México.</p>
 						<p class="mb-2"><span class='mdi mdi-phone mdi-24px me-3'></span>+52 999 449 7599</p>
-						<p class="mb-2"><span class='mdi mdi-email-outline mdi-24px me-3'></span>carmenphasesorainmobiliaria@gmail.com</p>
+						<p class="mb-2"><span class='mdi mdi-email-outline mdi-24px me-3'></span>carmen@kirklandinmobiliaria.com</p>
 						<div class="d-flex pt-2">
 							<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-twitter mdi-24px'></span></a>
 							<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-facebook mdi-24px'></span></a>
@@ -90,7 +92,7 @@
 				<div class="copyright">
 					<div class="row">
 						<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-							&copy; <a class="border-bottom" href="#">kirklandinmuebles.com</a>, <?= lang('Globals.text_2') ?>.
+							&copy; <a class="border-bottom" href="<?= base_url() ?>">kirklandinmobiliaria.com</a>, <?= lang('Globals.text_2') ?>.
 							<?= lang('Globals.designed_by') ?> <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
 						</div>
 						<div class="col-md-6 text-center text-md-end">
