@@ -41,9 +41,9 @@ class SettingsModel extends Model
 	 *
 	 * @return mixed
 	 **/
-	public function getCountries($reference = null, $searchByPhonePrefix = false)
+	public function getCountries($reference = null, $searchByPhonePrefix = false, $countryNameField = "country_name_")
 	{
-		$countryNameField = "country_name_" . strtoupper(service('request')->getLocale());
+		// $countryNameField = "country_name_" . strtoupper(service('request')->getLocale());
 		$builder = $this->db->table('t_country');
 		$builder->orderBy($countryNameField);
 		if (!empty($reference)) {
