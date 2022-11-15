@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\SettingsModel;
 // use CodeIgniter\Validation\Validation;
 // use Config\Services;
 
@@ -10,40 +11,54 @@ use App\Controllers\BaseController;
 class EmailController extends BaseController
 {
     protected $helpers = ['form'];
+    protected $settings;
+
+    public function __construct()
+    {
+        helper(['url','form']);
+        $this->settings = new SettingsModel();
+    }
+
 	public function index()
 	{
-
+        $projects = array('Anthia', 'Lakuun', 'Marela Beach', 'Marela Celestun');
+        // $getSort = 'country_phone_prefix ASC';
+        // $builder = $this->settings->getCountries(null, true, 'country_phone_prefix ASC');
+        // $phone_prefix = array_column($builder, 'country_phone_prefix');
+        // $country_phone_prefix = array_unique($phone_prefix); // Filter unique values for phone_prefix
+        // var_dump($builder);
+        $dataContact = [
+            'projects' => $projects,
+            // 'country_phone_prefix' => $country_phone_prefix
+        ];
 		$data = [
-			'title' => 'Kirkland Inmobiliaria',
-            'content' => view('templates/contactForm'),
-			'js' => load_js(['js/app-home'])
+			'title' => 'Contacto',
+            'content' => view('templates/contactForm', $dataContact),
+			'js' => load_js(['js/app-home']),
 		];
 
 		// Output the view
 		echo view('templates/public', $data);
 	}
 
-    public function __construct()
-    {
-        helper(['url','form']);
-    }
-
+    
     public function send(){
         // Validate form
-        $validation = service('validation');
+        $validation = \Config\Services::validation();
         $validation->setRules([
             'name'=>'required|min_length[4]',
             'last_name'=>'required|min_length[4]',
-            'phone'=>'required|min_length[12]',
-            'email'=>'required|valid_email'
+            // 'country_phone_prefix' => 'required',
+            'phone'=>'required|alpha_numeric_punct|min_length[8]|max_length[22]',
+            'email'=>'required|valid_email',
+            'message'=>'permit_empty',
+            'project[]'=>'permit_empty'
+            
         ]);
-        $data = [
-			'title' => 'Kirkland Inmobiliaria',
-            'content' => view('templates/contactForm'),
-			'js' => load_js(['js/app-home'])
-		];
         if (!$validation->withRequest($this->request)->run()){
+            // dd($this->request->getPost());
             // dd($validation->getErrors());
+            // return redirect()->back()->withInput()->with('errors',$validation->getErrors());
             return redirect()->to('templates/contactForm')->withInput()->with('errors',$validation->getErrors());
         } else {
             if($this->isOnline()){
@@ -51,6 +66,7 @@ class EmailController extends BaseController
                 $to = "erikgonzalez55@gmail.com";
                 $name = $this->request->getVar('name');
                 $last_name = $this->request->getVar('last_name');
+                // $phone_prefix = $this->request->getVar('country_phone_prefix');
                 $phone = $this->request->getVar('phone');
                 $mail = $this->request->getVar('email');
                 $subject = 'Quiero que me contacten';
@@ -60,11 +76,11 @@ class EmailController extends BaseController
                     $message = $message.'<br><br>'.'<b>Mis dudas e inquietudes son:</b> '.'<br>'.$doubts;
                 }
 
-                if (isset($_POST['projects']) && is_array($_POST['projects'])) {
+                if (isset($_POST['project']) && is_array($_POST['project'])) {
                     $selected_projects = '';
-                    $num_projects = count($_POST['projects']);
+                    $num_projects = count($_POST['project']);
                     $current = 0;
-                    foreach ($_POST['projects'] as $key => $value) {
+                    foreach ($_POST['project'] as $key => $value) {
                         if ($current != $num_projects-1)
                             $selected_projects .= $value.', ';
                         else
@@ -82,9 +98,10 @@ class EmailController extends BaseController
                 // $new_message = $view->setVar('message', $message)->render('email/email_template');
 
 
-                $email->setTo('contact@kirklandinmobiliaria.com');
-                // $email->setCC('contact@kirklandinmobiliaria.com');
-                $email->setCC('erikgonzalez55@kirklandinmobiliaria.com');
+                $email->setTo('carmen@kirklandinmobiliaria.com');
+                $email->setCC('contact@kirklandinmobiliaria.com');
+                $email->setBCC('carmenphasesorainmobiliaria@gmail.com');
+                $email->setBCC('erikgonzalez55@kirklandinmobiliaria.com');
                 $email->setFrom($this->request->getVar('email'), $this->request->getVar('name'));
                 $email->setSubject($subject);
                 $email->setMessage($message);
