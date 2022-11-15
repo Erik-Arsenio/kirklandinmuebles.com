@@ -98,9 +98,10 @@ class EmailController extends BaseController
                 // $new_message = $view->setVar('message', $message)->render('email/email_template');
 
 
+                // $email->setTo($to);
                 $email->setTo('carmen@kirklandinmobiliaria.com');
                 $email->setCC('contact@kirklandinmobiliaria.com');
-                $email->setBCC('carmenphasesorainmobiliaria@gmail.com');
+                // $email->setBCC('carmenphasesorainmobiliaria@gmail.com');
                 $email->setBCC('erikgonzalez55@kirklandinmobiliaria.com');
                 $email->setFrom($this->request->getVar('email'), $this->request->getVar('name'));
                 $email->setSubject($subject);
@@ -125,9 +126,13 @@ class EmailController extends BaseController
 
     public function isOnLine($site = "https://youtube.com")
     {
-        if(@fopen($site,"r")){
+        $onLine = @fopen($site,"r");
+
+        if($onLine){
+            @fclose($onLine);
             return true;
         }else{
+            @fclose($onLine);
             return false;
         }
     }
