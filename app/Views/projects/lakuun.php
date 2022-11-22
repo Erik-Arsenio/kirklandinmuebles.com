@@ -1,4 +1,3 @@
-
 <!-- Header Start -->
 <div class="container-fluid header bg-white p-0 mt-4 mb-5">
     <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
@@ -9,8 +8,16 @@
             </div>
             <h1 class="display-6 animated fadeInLeft fw-bold my-4">Lotes residenciales premium</h1>
             <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
+            <div class="m-4 text-center">
+                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
+                    Quiero que me contacten
+                </a>
+            </div>
         </div>
         <div class="col-md-6 pe-md-5">
+            <div class="text-center mx-auto">
+                <p class="fw-bold small mb-0">Click para zoom</p>
+            </div>
             <div class="carousel slide animated fadeInRight text-center" data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -109,7 +116,7 @@
                 <p class="h5 mb-4">El desarrollo premium ofrece un alto índice de calidad de vida y se encuentra rodeado de:</p>
                 <p class="h4"><span class='mdi mdi-hospital-box-outline mdi-24px text-success me-1'></span>Servicios médicos de vanguardia</p>
                 <p class="h4"><span class='mdi mdi-school-outline mdi-24px text-success me-1'></span>Escuelas y universidades de la más alta calidad educativa y deportiva</p>
-                <p class="h4"><span class='mdi mdi-beach mdi-24px text-success me-1'></span></i>Playas hermosas cercanas</p>
+                <p class="h4"><span class='mdi mdi-beach mdi-24px text-success me-1'></span></i>Muy cerca de la hermosa playa Progreso</p>
             </div>
         </div>
     </div>
@@ -235,29 +242,33 @@
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item border border-success my-4">
                     <h2 class="accordion-header border-bottom border-success" id="headingOne">
-                        <button class="accordion-button <?php if ($projectStage == 1) { echo "";} else {echo "collapsed";} ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
-                        <div class="container table-responsive-md">
-                            <table class="table table-sm table-borderless caption-top">
-                                <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
-                                <thead>
-                                    <tr>
-                                        <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                        <th scope="col" class="h5 text-center">Total de lotes</th>
-                                        <th scope="col" class="h5 text-center">Disponibles</th>
-                                        <th scope="col" class="h5 text-center">Fecha de entrega</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <!-- <th class="h2"></th> -->
-                                        <td class="display-4 fw-bold text-center">241</td>
-                                        <td class="display-4 fw-bold text-center" id="available-1"></td>
-                                        <td class="display-4 fw-bold text-center">2024</td>
-                                    </tr>
+                        <button class="accordion-button <?php if ($projectStage == 1) {
+                                                            echo "";
+                                                        } else {
+                                                            echo "collapsed";
+                                                        } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
+                            <div class="container table-responsive-md">
+                                <table class="table table-sm table-borderless caption-top">
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
+                                    <thead>
+                                        <tr>
+                                            <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
+                                            <th scope="col" class="h5 text-center">Total de lotes</th>
+                                            <th scope="col" class="h5 text-center">Disponibles</th>
+                                            <th scope="col" class="h5 text-center">Fecha de entrega</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <!-- <th class="h2"></th> -->
+                                            <td class="display-4 fw-bold text-center">241</td>
+                                            <td class="display-4 fw-bold text-center" id="available-1"></td>
+                                            <td class="display-4 fw-bold text-center">2024</td>
+                                        </tr>
 
-                                </tbody>
-                            </table>                              
-                        </div>
+                                    </tbody>
+                                </table>
+                            </div>
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 1) { echo "show";} else {echo "";} ?>" aria-labelledby="headingOne">
@@ -267,7 +278,16 @@
                                 <div class="container">
                                     <div class="row g-0 gx-5 align-items-center">
                                         <div class="col-lg-12">
-                                            <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                                            <div class="text-center mx-auto mb-5">
+                                                <p class="fw-bold small mb-2">Click para descargar</p>
+                                                <a href="<?= STATIC_URL . 'img/lakuun/brochure_lakuun_etapa-1.pdf' ?>" class="btn btn-sm btn-outline-success text-decoration-none gx-5" type="button" download>
+                                                    <span class='mdi mdi-file-pdf-box mdi-18px text-danger me-1'></span>Brochure Lakuun Etapa-1</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0 gx-5 align-items-center">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mx-auto mb-1 wow slideInLeft" data-wow-delay="0.1s">
                                                 <h3 class="fw-bold text-decoration-underline">PRECIOS DE LOTES</h3>
                                             </div>
                                         </div>
@@ -282,7 +302,7 @@
                                                     <div class="row text-center">
                                                         <div class="col-6">
                                                             <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                            <p class="h4 text-success">2,850 <span class="h4">MXN</span></p>
+                                                            <p class="h4 text-success">2,450 <span class="h4">MXN</span></p>
                                                         </div>
                                                         <div class="col-6">
                                                             <p class="h6">Financiamiento hasta</p>
@@ -314,7 +334,7 @@
                             <div class="row mt-2">
                                 <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
                             </div>
-                            <svg version="1.1" x="0px" y="0px" viewBox="30 100 1000 700" style="enable-background:new 0 0 900 900;" >
+                            <svg version="1.1" x="0px" y="0px" viewBox="30 100 1000 700" style="enable-background:new 0 0 900 900;">
                                 <style type="text/css">
                                     .st0 {
                                         fill: rgba(136, 194, 117);
@@ -1106,14 +1126,23 @@
                             </div>
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 2) { echo "show";} else {echo "";} ?>" aria-labelledby="headingTwo">
+                    <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 2) { echo "show";} else { echo "";} ?>" aria-labelledby="headingTwo">
                         <div class="accordion-body">
                             <!-- Price Start -->
                             <div class="container-xxl py-1">
                                 <div class="container">
                                     <div class="row g-0 gx-5 align-items-center">
                                         <div class="col-lg-12">
-                                            <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                                            <div class="text-center mx-auto mb-5">
+                                                <p class="fw-bold small mb-2">Click para descargar</p>
+                                                <a href="<?= STATIC_URL . 'img/lakuun/brochure_lakuun_etapa-2.pdf' ?>" class="btn btn-sm btn-outline-success text-decoration-none gx-5" type="button" download>
+                                                    <span class='mdi mdi-file-pdf-box mdi-18px text-danger me-1'></span>Brochure Lakuun Etapa-2</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-0 gx-5 align-items-center">
+                                        <div class="col-lg-12">
+                                            <div class="text-center mx-auto mb-1 wow slideInLeft" data-wow-delay="0.1s">
                                                 <h3 class="fw-bold text-decoration-underline">PRECIOS DE LOTES</h3>
                                             </div>
                                         </div>
@@ -4438,9 +4467,9 @@
 
 
 <div class="modal fade bd-example-modal-xl mt-5 mt-lg-0" id="modalLote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="padding-top: 4em;">
-        <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-            <div id="modalLotContent" class="modal-content">
-                <!-- <script type="text/javascript">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div id="modalLotContent" class="modal-content">
+            <!-- <script type="text/javascript">
                     // $(document).ready(function() {
 
                         var redireccion = 3;
@@ -4990,47 +5019,47 @@
                         padding: 5px;
                     }
                 </style> -->
-                <input type="hidden" id="rt" value="../">
+            <input type="hidden" id="rt" value="../">
 
-                <div class="modal-content bd-0 rounded-0">
-                    <div class="modal-body pd-0">
-                        <div class="row no-gutters">
-                            <div class="col-lg-4" >
-                                <div class="card  shadow-sm">
-                                    <div class="card-header">
-                                        
-                                        <!-- <h5 class="text-muted mb-2">Desarrollo:</h5>
+            <div class="modal-content bd-0 rounded-0">
+                <div class="modal-body pd-0">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4">
+                            <div class="card  shadow-sm">
+                                <div class="card-header">
+
+                                    <!-- <h5 class="text-muted mb-2">Desarrollo:</h5>
                                         <h4 class="text-success px-2 mb-3">Marela beach</h4> -->
 
-                                        <h5 class="fw-bold mb-4">Lote: <span class="fw-normal h5 px-2" id="property_name"></span></h5>
-                                        
-                                        <h5 class="fw-bold mb-4">Tipo: <span class="fw-normal h5 px-2" id="category_name"></span></h5>
+                                    <h5 class="fw-bold mb-4">Lote: <span class="fw-normal h5 px-2" id="property_name"></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Estatus: <span class="fw-normal h5 px-2" id="status_name"></span></h5>
+                                    <h5 class="fw-bold mb-4">Tipo: <span class="fw-normal h5 px-2" id="category_name"></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Área: <span class="fw-normal h5 px-2" id="property_area"></span><span class="fw-normal h5">m<sup>2</sup></span></h5>
+                                    <h5 class="fw-bold mb-4">Estatus: <span class="fw-normal h5 px-2" id="status_name"></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Precio por m<sup>2</sup>: <span class="fw-normal h5 px-2" id="property_price_m2"></span></h5>
+                                    <h5 class="fw-bold mb-4">Área: <span class="fw-normal h5 px-2" id="property_area"></span><span class="fw-normal h5">m<sup>2</sup></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Precio de Lista: <span class="fw-normal h5 px-2" id="property_price_final"></span></h5>
+                                    <h5 class="fw-bold mb-4">Precio por m<sup>2</sup>: <span class="fw-normal h5 px-2" id="property_price_m2"></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Financiamiento: <span class="fw-normal h5 px-2" id="property_financing"></span></h5>
+                                    <h5 class="fw-bold mb-4">Precio de Lista: <span class="fw-normal h5 px-2" id="property_price_final"></span></h5>
 
-                                        <h5 class="fw-bold mb-4">Enganche: <span class="fw-normal h5 px-2" id="property_hitch"></span></h5>
-                                        <!-- <h4 class="text-success tx-light px-2 mb-3"></h4> -->
-                                        <!-- <a href="../ad/Desarrollo/Chepinas/chepina_10542_2022_07_14_20_02_39.pdf" target="_blank" class="btn btn-primary btn-with-icon">
+                                    <h5 class="fw-bold mb-4">Financiamiento: <span class="fw-normal h5 px-2" id="property_financing"></span></h5>
+
+                                    <h5 class="fw-bold mb-4">Enganche: <span class="fw-normal h5 px-2" id="property_hitch"></span></h5>
+                                    <!-- <h4 class="text-success tx-light px-2 mb-3"></h4> -->
+                                    <!-- <a href="../ad/Desarrollo/Chepinas/chepina_10542_2022_07_14_20_02_39.pdf" target="_blank" class="btn btn-primary btn-with-icon">
                                             <div class="ht-40 justify-content-between">
                                                 <span class="pd-x-15">Plano Ilustrativo </span>
                                                 <span class="icon wd-40"><i class="fa fa-download"></i></span>
                                             </div>
                                         </a> -->
-                                    </div>
                                 </div>
-                            </div><!-- col-4 -->
-                            <div class="col-lg-8">
-                                <div class="card shadow-sm mt-3 mt-lg-0">
-                                    <form method="post" id="formulario_apartado" action="">
-                                        <!-- <input type="hidden" name="id_unidad" value="10542" id="id_unidad">
+                            </div>
+                        </div><!-- col-4 -->
+                        <div class="col-lg-8">
+                            <div class="card shadow-sm mt-3 mt-lg-0">
+                                <form method="post" id="formulario_apartado" action="">
+                                    <!-- <input type="hidden" name="id_unidad" value="10542" id="id_unidad">
                                         <input type="hidden" name="id_plan" value="112" id="id_plan" class="limpiador">
                                         <input type="hidden" name="id_cliente" value="">
                                         <input type="hidden" name="rd" id="rd" value="">
@@ -5062,198 +5091,198 @@
                                         <input type="hidden" name="moneda_banco_oculto" id="moneda_banco_oculto">
                                         <input type="hidden" name="tipo_moneda_convertir" id="tipo_moneda_convertir"> -->
 
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between mb-3">
-                                                <h2 class="fw-bold text-muted mb-2">Cotización</h5>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <h2 class="fw-bold text-muted mb-2">Cotización</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <!-- <span aria-hidden="true" class="tx-50">×</span> -->
+                                                    <!-- <span aria-hidden="true" class="tx-50">×</span> -->
                                                 </button>
-                                            </div>
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <label class="col-sm-3 mg-t-20 form-control-label">Plazo de Financiamiento: <span class="text-danger">*</span></label>
-                                                    <div class="col-sm-7 mg-t-20 ">
-                                                        <select class="form-control select2 seleccionar_plan validar_botones" id="select_plan" data-placeholder="Seleccione un Plazo">
-                                                            <option value="0">Seleccione un Plazo</option>
-                                                            <option value="12">12 Meses</option>
-                                                            <option value="24">24 Meses</option>
-                                                            <!-- <option value="36">36 Meses</option>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <label class="col-sm-3 mg-t-20 form-control-label">Plazo de Financiamiento: <span class="text-danger">*</span></label>
+                                                <div class="col-sm-7 mg-t-20 ">
+                                                    <select class="form-control select2 seleccionar_plan validar_botones" id="select_plan" data-placeholder="Seleccione un Plazo">
+                                                        <option value="0">Seleccione un Plazo</option>
+                                                        <option value="12">12 Meses</option>
+                                                        <option value="24">24 Meses</option>
+                                                        <!-- <option value="36">36 Meses</option>
                                                             <option value="48">48 Meses</option>
                                                             <option value="60">60 Meses</option> -->
-                                                            <option value="1">CONTADO..</option>
-                                                        </select>
-                                                    </div>
-                                                    <!-- col -->
-                                                    <div class="col-sm-2">
-                                                
-                                                    </div>
-                                                    <!-- col -->
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
+                                                        <option value="1">CONTADO..</option>
+                                                    </select>
+                                                </div>
+                                                <!-- col -->
+                                                <div class="col-sm-2">
 
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <label class="col-sm-3 mt-1  form-control-label">Descuento m<sup>2</sup>: <span class="text-danger">*</span></label>
+                                                </div>
+                                                <!-- col -->
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
 
-                                                    <div class="col-sm-3 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">%</span>
-                                                            <input type="text" id="porcentaje_descuento" class="form-control limpiador" readonly="" placeholder="Porcentaje">
-                                                        </div>
-                                                    </div>
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <label class="col-sm-3 mt-1  form-control-label">Descuento m<sup>2</sup>: <span class="text-danger">*</span></label>
 
-                                                    <label class="col-sm-1 mt-1 form-control-label">&nbsp; =</label>
-
-                                                    <div class="col-sm-5 mt-1 mt-sm-1 ">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">$</span>
-                                                            <input type="text" class="form-control limpiador" id="cant_descuento" readonly="" placeholder="Valor">
-                                                            <span class="input-group-text">MXN</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-
-                                                    <label class="col-sm-3 mt-1 form-control-label">Enganche: <span class="text-danger">*</span></label>
-
-                                                    <div class="col-sm-3 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">%</span>
-                                                            <input type="text" id="porcentaje_enganche" class="form-control Calculos limpiador" placeholder="Porcentaje">
-                                                        </div>
-                                                    </div>
-
-                                                    <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
-
-                                                    <div class="col-sm-5 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">$</span>
-                                                            <input type="text" id="cantidad_enganche" class="form-control Calculos limpiador" placeholder="Valor">
-                                                            <span class="input-group-text">MXN</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-
-                                                    <label class="col-sm-3 mt-1 form-control-label">Total a Financiar: <span class="text-danger">*</span></label>
-
-                                                    <div class="col-sm-3 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">%</span>
-                                                            <input type="text" id="porcentaje_financiar" class="form-control limpiador" readonly="" placeholder="Porcentaje">
-                                                        </div>
-                                                    </div>
-
-                                                    <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
-
-                                                    <div class="col-sm-5 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">$</span>
-                                                            <input type="text" id="cantidad_financiar" class="form-control limpiador" readonly="" placeholder="Valor">
-                                                            <span class="input-group-text">MXN</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3 pr-3">
-
-                                                    <label class="col-sm-3 mt-1 form-control-label">Mensualidades: <span class="text-danger">*</span></label>
-
-                                                    <div class="col-sm-3 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">#</span>
-                                                            <input type="text" id="num_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidades">
-                                                        </div>
-                                                    </div>
-
-                                                    <label class="col-sm-1 mt-1 form-control-label">&nbsp;de</label>
-
-                                                    <div class="col-sm-5 mt-1 mt-sm-1">
-                                                        <div class="input-group">
-                                                            <span class="input-group-text">$</span>
-                                                            <input type="text" id="cant_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidad">
-                                                            <span class="input-group-text">MXN</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <div class="col-sm-4 mt-1 mt-sm-1">
-                                                        <input type="text" class="form-control limpiador validar_botones" id="nombre_cliente_web" name="nombre_cliente_web" placeholder="Nombre(s)">
-                                                    </div>
-                                                    <div class="col-sm-4 mt-1 mt-sm-1">
-                                                        <input type="text" class="form-control limpiador validar_botones" id="apellido_p_cliente_web" name="apellido_p_cliente_web" placeholder="Apellido Paterno">
-                                                    </div>
-                                                    <div class="col-sm-4 mt-1 mt-sm-1">
-                                                        <input type="text" class="form-control limpiador" name="apellido_m_cliente_web" placeholder="Apellido Materno">
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <div class="col-sm-6 mt-1 mt-sm-1">
-                                                        <input type="text" class="form-control limpiador" name="telefono_cliente_web" placeholder="Número de teléfono">
-                                                    </div>
-                                                    <div class="col-sm-6 mt-1 mt-sm-1">
-                                                        <input type="text" class="form-control limpiador validar_botones" id="correo_cliente_web" name="correo_cliente_web" placeholder="Correo electrónico">
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <div class="col-sm-12 mt-10 mt-sm-0">
-                                                        <textarea rows="3" class="form-control" name="comentario_cliente_web" placeholder="Escribe un comentario"></textarea>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- form-group -->
-
-                                            <input type="hidden" readonly="" id="porcentaje_contraentrega" value="0">
-                                            <input type="hidden" readonly="" id="cantidad_entrega" value="0.00">
-                                            <input type="hidden" class="form-control limpiador" id="couta_apartura" value="2,000.00">
-                                            <input type="hidden" id="escrituracion" value="0.00">
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                                                        <button class="btn btn-success  active bd-0  ml-5" id="pdf" disabled="disabled">Descargar Cotización </button>
+                                                <div class="col-sm-3 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">%</span>
+                                                        <input type="text" id="porcentaje_descuento" class="form-control limpiador" readonly="" placeholder="Porcentaje">
                                                     </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="form-group mb-2">
-                                                <div class="row mx-1 pl-3  pr-3">
-                                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                                                        Kirkland Inmobiliaria utilizará sus datos personales recabados, puedes consultar el aviso de privacidad
-                                                        integral a través de este link <a href="#" class="text-primary" target="_blank">kirklandinmuebles.com/avisodeprivacidad </a>
+                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp; =</label>
+
+                                                <div class="col-sm-5 mt-1 mt-sm-1 ">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">$</span>
+                                                        <input type="text" class="form-control limpiador" id="cant_descuento" readonly="" placeholder="Valor">
+                                                        <span class="input-group-text">MXN</span>
                                                     </div>
                                                 </div>
-                                            </div>
 
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+
+                                                <label class="col-sm-3 mt-1 form-control-label">Enganche: <span class="text-danger">*</span></label>
+
+                                                <div class="col-sm-3 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">%</span>
+                                                        <input type="text" id="porcentaje_enganche" class="form-control Calculos limpiador" placeholder="Porcentaje">
+                                                    </div>
+                                                </div>
+
+                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
+
+                                                <div class="col-sm-5 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">$</span>
+                                                        <input type="text" id="cantidad_enganche" class="form-control Calculos limpiador" placeholder="Valor">
+                                                        <span class="input-group-text">MXN</span>
+                                                    </div>
+                                                </div>
+
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+
+                                                <label class="col-sm-3 mt-1 form-control-label">Total a Financiar: <span class="text-danger">*</span></label>
+
+                                                <div class="col-sm-3 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">%</span>
+                                                        <input type="text" id="porcentaje_financiar" class="form-control limpiador" readonly="" placeholder="Porcentaje">
+                                                    </div>
+                                                </div>
+
+                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
+
+                                                <div class="col-sm-5 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">$</span>
+                                                        <input type="text" id="cantidad_financiar" class="form-control limpiador" readonly="" placeholder="Valor">
+                                                        <span class="input-group-text">MXN</span>
+                                                    </div>
+                                                </div>
+
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3 pr-3">
+
+                                                <label class="col-sm-3 mt-1 form-control-label">Mensualidades: <span class="text-danger">*</span></label>
+
+                                                <div class="col-sm-3 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">#</span>
+                                                        <input type="text" id="num_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidades">
+                                                    </div>
+                                                </div>
+
+                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;de</label>
+
+                                                <div class="col-sm-5 mt-1 mt-sm-1">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">$</span>
+                                                        <input type="text" id="cant_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidad">
+                                                        <span class="input-group-text">MXN</span>
+                                                    </div>
+                                                </div>
+
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <div class="col-sm-4 mt-1 mt-sm-1">
+                                                    <input type="text" class="form-control limpiador validar_botones" id="nombre_cliente_web" name="nombre_cliente_web" placeholder="Nombre(s)">
+                                                </div>
+                                                <div class="col-sm-4 mt-1 mt-sm-1">
+                                                    <input type="text" class="form-control limpiador validar_botones" id="apellido_p_cliente_web" name="apellido_p_cliente_web" placeholder="Apellido Paterno">
+                                                </div>
+                                                <div class="col-sm-4 mt-1 mt-sm-1">
+                                                    <input type="text" class="form-control limpiador" name="apellido_m_cliente_web" placeholder="Apellido Materno">
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <div class="col-sm-6 mt-1 mt-sm-1">
+                                                    <input type="text" class="form-control limpiador" name="telefono_cliente_web" placeholder="Número de teléfono">
+                                                </div>
+                                                <div class="col-sm-6 mt-1 mt-sm-1">
+                                                    <input type="text" class="form-control limpiador validar_botones" id="correo_cliente_web" name="correo_cliente_web" placeholder="Correo electrónico">
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <div class="col-sm-12 mt-10 mt-sm-0">
+                                                    <textarea rows="3" class="form-control" name="comentario_cliente_web" placeholder="Escribe un comentario"></textarea>
+                                                </div>
+                                            </div><!-- row -->
+                                        </div><!-- form-group -->
+
+                                        <input type="hidden" readonly="" id="porcentaje_contraentrega" value="0">
+                                        <input type="hidden" readonly="" id="cantidad_entrega" value="0.00">
+                                        <input type="hidden" class="form-control limpiador" id="couta_apartura" value="2,000.00">
+                                        <input type="hidden" id="escrituracion" value="0.00">
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                                    <button class="btn btn-success  active bd-0  ml-5" id="pdf" disabled="disabled">Descargar Cotización </button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </form>
-                                </div>
-                            </div><!-- col-8 -->
-                        </div><!-- row -->
-                    </div><!-- modal-body -->
-                </div><!-- modal-content -->
-            </div>
+
+                                        <div class="form-group mb-2">
+                                            <div class="row mx-1 pl-3  pr-3">
+                                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                                    Kirkland Inmobiliaria utilizará sus datos personales recabados, puedes consultar el aviso de privacidad
+                                                    integral a través de este link <a href="#" class="text-primary" target="_blank">kirklandinmuebles.com/avisodeprivacidad </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- col-8 -->
+                    </div><!-- row -->
+                </div><!-- modal-body -->
+            </div><!-- modal-content -->
         </div>
     </div>
+</div>
 
 <!-- Contact Us Section -->
 <?= $sectionContact ?>
