@@ -244,7 +244,7 @@
                                                 <div class="row text-center">
                                                     <div class="col-6">
                                                         <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                        <p class="h4 text-success">2,770 <span class="h4">MXN</p>
+                                                        <p class="h4 text-success">3,400 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
                                                         <p class="h6">Financiamiento hasta</p>
