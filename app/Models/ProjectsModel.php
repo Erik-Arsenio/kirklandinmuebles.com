@@ -97,6 +97,27 @@ class ProjectsModel extends Model
 		return $this->db->transStatus();
 	}
 
+	public function deleteListing($formPost )
+	{
+		// Globals
+		$builderListing = $this->db->table('t_project');
+		// $builderProjectAmenity = $this->db->table('t_project__project_amenity');
+
+		// Start transactions
+		$this->db->transStart();
+
+		if (!empty($formPost['project_id'])) {
+			$builderListing->where('project_id',  $formPost['project_id']);
+			$builderListing->update($formPost);
+		}
+
+		// End transactions
+		$this->db->transComplete();
+
+		return $this->db->transStatus();
+	
+	}
+
 	/**
 	 * Get project amenities available
 	 * @param int $projectId

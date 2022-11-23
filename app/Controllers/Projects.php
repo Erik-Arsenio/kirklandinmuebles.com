@@ -56,7 +56,8 @@ class Projects extends BaseController
 			$dataView = [
 				'footer' => view_cell('\App\Libraries\Cell::footer', ['get_page' => $getPage, 'get_entries' => $getEntries, 'total_rows' => $totalRows]),
 				'getSort' => $getSort,
-				'getProjects' => array_slice($listProjects, ($getPage - 1) * $getEntries, $getEntries)
+				'getProjects' => array_slice($listProjects, ($getPage - 1) * $getEntries, $getEntries),
+				'statusNameField' => "status_name_" . strtoupper(service('request')->getLocale())
 			];
 
 			// Set data template
@@ -79,6 +80,7 @@ class Projects extends BaseController
 			// Globals
 			$project = !empty($projectId) ? $this->projects->getProjects($projectId) : null;
 			$listProjectAmenities = [];
+			
 
 			// Get some values when editing
 			if (!empty($project)) {
@@ -97,7 +99,7 @@ class Projects extends BaseController
 				'getAmenities' => $this->projects->getAmenities(),
 				'projectAmenityNameField' => "project_amenity_name_" . strtoupper(service('request')->getLocale())
 			];
-
+			// dd($dataView);
 			echo view('projects/listing/form_add_edit', $dataView);
 		} else {
 			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
@@ -108,7 +110,6 @@ class Projects extends BaseController
 	{
 		// Globals
 		$formPost = $this->request->getPost();
-
 		// Post request submitted
 		if (!empty($formPost)) {
 			$this->validation->reset();
@@ -176,6 +177,72 @@ class Projects extends BaseController
 		}
 	}
 
+	public function load_form_delete_listing($projectId = null, $formPost = null)
+	{
+		dd($this->request->isAJAX());
+		// Check for an AJAX request
+		if ($this->request->isAJAX()) {
+			// Globals
+			$project = !empty($projectId) ? $this->projects->getProjects($projectId) : null;
+			$listProjectAmenities = [];
+
+			dd($project);
+			// Get some values when editing
+			if (!empty($project)) {
+				$listProjectAmenities = array_column($this->projects->getProjectAmenities($projectId), 'project_amenity_id');
+			}
+
+			// Set data form Add/Edit
+			$dataView = [
+				'project' => $project,
+				'formPost' => $formPost,
+				'listProjectAmenities' => $listProjectAmenities,
+				'getStates' => $this->settings->getStates(),
+				'getCities' => !empty($project) ? $this->settings->getCities(null, $project->state_id) : null,
+				'getMunicipalities' => !empty($project) ? $this->settings->getMunicipalities(null, $project->city_id) : null,
+				'getCurrencies' => $this->settings->getCurrencies(),
+				'getAmenities' => $this->projects->getAmenities(),
+				'projectAmenityNameField' => "project_amenity_name_" . strtoupper(service('request')->getLocale())
+			];
+			dd($dataView);
+			echo view('projects/listing/form_add_edit', $dataView);
+		} else {
+			throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+		}
+	}
+
+	public function delete_listing()
+	{
+		$formPost = $this->request->getPost();
+
+		if ($formPost['status_id'] == 1) {
+			$status_id = 2;
+		} else {
+			$status_id = 1;
+		}
+		$formPost = [
+			'project_id' => $formPost['project_id'],
+			'status_id' => intval($status_id)
+		];
+
+		if (!empty($formPost)) {
+			$response = $this->projects->deleteListing($formPost);
+			
+			if ($response) {
+				// dd($formPost);
+				if ($formPost['status_id'] == 1) {
+					session()->setFlashdata('msgConfirm', lang('Globals.confirm_3'));
+				} else {
+					session()->setFlashdata('msgConfirm', lang('Globals.confirm_2'));
+				}
+			} else {
+				session()->setFlashdata('msgError', lang('Globals.error_3'));
+			}
+
+			echo 0;
+		}
+	}
+
 	public function amenities()
 	{
 		// Set data view
@@ -185,7 +252,7 @@ class Projects extends BaseController
 
 		// Set data template
 		$data = [
-			'title' => 'Kirkland Inmuebles',
+			'title' => 'Kirkland Inmobiliaria',
 			'content' => view('projects/amenities/index', $dataView)
 		];
 
