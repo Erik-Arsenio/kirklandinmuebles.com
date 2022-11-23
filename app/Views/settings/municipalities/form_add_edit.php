@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-12 mb-3">
 		<label for="city_id" class="form-label"><?= lang('Globals.city') ?></label>
-		<select name="city_id" class="form-select" id="city_id">
+		<select name="city_id" class="selectpicker form-control" id="city_id">
 			<?php foreach ($getCities as $city) : ?>
 				<option value="<?= $city->city_id ?>"<?php if (set_value('city_id') == $city->city_id) echo ' selected'; elseif (!empty($municipality) && $municipality->city_id == $city->city_id) echo ' selected'; ?>><?= "{$city->city_name}, {$city->state_name}" ?></option>
 			<?php endforeach; ?>

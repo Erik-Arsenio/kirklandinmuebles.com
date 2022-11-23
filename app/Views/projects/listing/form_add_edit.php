@@ -7,16 +7,17 @@
 	</div>
 	<div class="col-lg-4 mb-3">
 		<label for="project_amenity_id" class="form-label"><?= lang('Globals.amenities') ?><span class="text-danger ms-1">*</span></label>
-		<select name="project_amenity_id[]" class="form-select" id="project_amenity_id" style="max-height: 38px;" multiple>
-			<?php foreach ($getAmenities as $amenity) : ?>
-				<option value="<?= $amenity->project_amenity_id ?>" <?php if (!empty($formPost) && isset($formPost['project_amenity_id']) && in_array($amenity->project_amenity_id, $formPost['project_amenity_id'])) echo ' selected'; elseif (!empty($project) && in_array($amenity->project_amenity_id, $listProjectAmenities)) echo ' selected'; ?>><?= $amenity->$projectAmenityNameField ?></option>
-			<?php endforeach; ?>
-		</select>
+			<!-- <select name="project_amenity_id[]" class="selectpicker form-control" id="project_amenity_id" style="max-height: 38px;" multiple> -->
+			<select name="project_amenity_id[]" class="selectpicker form-control " title="Seleccione" data-size="auto" data-selected-text-format="count > 2" id="project_amenity_id" multiple>
+				<?php foreach ($getAmenities as $amenity) : ?>
+					<option value="<?= $amenity->project_amenity_id ?>" <?php if (!empty($formPost) && isset($formPost['project_amenity_id']) && in_array($amenity->project_amenity_id, $formPost['project_amenity_id'])) echo ' selected'; elseif (!empty($project) && in_array($amenity->project_amenity_id, $listProjectAmenities)) echo ' selected'; ?>><?= $amenity->$projectAmenityNameField ?></option>
+				<?php endforeach; ?>
+			</select>
 		<?= service('validation')->showError('project_amenity_id.*') ?>
 	</div>
 	<div class="col-lg-4 mb-3">
 		<label for="state_id" class="form-label"><?= lang('Globals.state') ?><span class="text-danger ms-1">*</span></label>
-		<select name="state_id" class="form-select select-linked" id="state_id" data-target="#city_id" data-uri="<?= base_url('settings/dropdown_cities') ?>">
+		<select name="state_id" class="selectpicker form-control show-tick show-menu-arrow select-linked" title="Seleccione" data-size="auto"  id="state_id" data-target="#city_id" data-uri="<?= base_url('settings/dropdown_cities') ?>">
 			<option value=""><?= lang('Globals.select') ?></option>
 			<?php foreach ($getStates as $state) : ?>
 				<option value="<?= $state->state_id ?>" <?php if (set_value('state_id') == $state->state_id) echo ' selected';
@@ -27,7 +28,7 @@
 	</div>
 	<div class="col-lg-4 mb-3">
 		<label for="city_id" class="form-label"><?= lang('Globals.city') ?><span class="text-danger ms-1">*</span></label>
-		<select name="city_id" class="form-select select-linked" id="city_id" data-target="#municipality_id" data-uri="<?= base_url('settings/dropdown_municipalities') ?>" <?php if (empty($getCities)) echo ' disabled'; ?>>
+		<select name="city_id" class="selectpicker form-control show-tick select-linked" title="Seleccione" id="city_id" data-target="#municipality_id" data-uri="<?= base_url('settings/dropdown_municipalities') ?>" <?php if (empty($getCities)) echo ' disabled'; ?>>
 			<?php if (!empty($getCities)) : ?>
 				<?php foreach ($getCities as $city) : ?>
 					<option value="<?= $city->city_id ?>" <?php if (set_value('city_id') == $city->city_id) echo ' selected';
@@ -39,11 +40,11 @@
 	</div>
 	<div class="col-lg-4 mb-3">
 		<label for="municipality_id" class="form-label"><?= lang('Globals.municipality') ?></label>
-		<select name="municipality_id" class="form-select" id="municipality_id" <?php if (empty($getMunicipalities)) echo ' disabled'; ?>>
+		<select name="municipality_id" class="selectpicker form-control show-tick" title="Seleccione" id="municipality_id" <?php if (empty($getMunicipalities)) echo ' disabled'; ?>>
 			<?php if (!empty($getMunicipalities)) : ?>
 				<?php foreach ($getMunicipalities as $municipality) : ?>
 					<option value="<?= $municipality->municipality_id ?>" <?php if (set_value('municipality_id') == $municipality->municipality_id) echo ' selected';
-																			elseif (!empty($project) && !empty($project->municipality_id) && $project->municipality_id == $municipality->municipality_id) echo ' selected'; ?>><?= $municipality->city_name ?></option>
+																			elseif (!empty($project) && !empty($project->municipality_id) && $project->municipality_id == $municipality->municipality_id) echo ' selected'; ?>><?= $municipality->municipality_name ?></option>
 				<?php endforeach; ?>
 			<?php endif; ?>
 		</select>
