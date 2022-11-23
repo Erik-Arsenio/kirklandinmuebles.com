@@ -63,6 +63,7 @@ $routes->get('settings/dropdown_municipalities/(:num)', 'Settings::dropdown_muni
 $routes->get('templates/contactForm', 'EmailController::index');
 // $routes->get('contact', 'EmailController::index',['as'=>'contactForm']);
 $routes->post('templates/contactForm', 'EmailController::send',['as'=>'send.email']);
+$routes->post('projects/delete_listing', 'Projects::delete_listing');
 
 
 /*
