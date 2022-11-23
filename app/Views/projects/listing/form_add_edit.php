@@ -92,7 +92,7 @@
 																																		elseif (!empty($project)) echo $project->project_lot_min_price_sq; ?>">
 			<input type="text" name="project_lot_max_price_sq" class="form-control" id="project_lot_max_price_sq" maxlength="5" value="<?php if (set_value('project_lot_max_price_sq') != null) echo set_value('project_lot_max_price_sq');
 																																		elseif (!empty($project)) echo $project->project_lot_max_price_sq; ?>">
-			<select name="currency_id" class="form-select" id="currency_id">
+			<select name="currency_id" class="selectpicker form-control show-tick" id="currency_id">
 				<?php foreach ($getCurrencies as $currency) : ?>
 					<option value="<?= $currency->currency_id ?>" <?php if (set_value('currency_id') == $currency->currency_id) echo ' selected';
 																	elseif (!empty($project) && $project->currency_id == $currency->currency_id) echo ' selected'; ?>><?= $currency->currency_iso ?></option>
