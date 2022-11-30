@@ -1,24 +1,34 @@
 <!-- Header Start -->
 <div class="container-fluid header bg-white p-0 mt-4 mb-5">
-    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-        <div class="col-md-6 p-5 mt-0 mt-xxl-5">
-            <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
-                <h1>Lakuun</h1>
+    <div class="row g-0 align-items-center flex-md-row">
+        <div class="col-md-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
+            <div class="animated fadeInLeft bg-success text-white rounded-5 pb-2">
+                <h3>Lakuun</h3>
                 <h6>KOMCHÉN I YUCATÁN</h6>
             </div>
-            <h1 class="display-6 animated fadeInLeft fw-bold my-4">Lotes residenciales premium</h1>
-            <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
-            <div class="m-4 text-center">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
-                    Quiero que me contacten
+            <p class="h2 animated fadeIn fw-bold my-2">Lotes residenciales premium</p>
+            <p class="h4 animated fadeIn mb-4 py-1">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
+            <div class="text-promo" id="promo_lakuun" style="min-height: 9em">
+                <!-- <p class="fs-3 fst-italic fw-bold text-promo">"Experimenta un nuevo estilo de vida en TIERRA DORADA"</p> -->
+            </div>
+            <div class="m-2">
+                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                    <span class="fadeinout">Quiero que me contacten</span>
                 </a>
+                <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
+                <audio autoplay loop preload="auto" >
+                    <source src="" type="audio/mpeg">
+                    <source src="" type="audio/ogg">
+                    El Navegador NO SOPORTA AUDIO.
+                </audio>
+                </span> -->
             </div>
         </div>
         <div class="col-md-6 pe-md-5">
             <div class="text-center mx-auto">
-                <p class="fw-bold small mb-0">Click para zoom</p>
+                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
             </div>
-            <div class="carousel slide animated fadeInRight text-center" data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
+            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel"  data-bs-pause="hover" data-bs-interval="8000" data-bs-touch="true" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
@@ -29,33 +39,33 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/05.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/14.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
@@ -65,27 +75,27 @@
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/16.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/19.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/20.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/21.jpg' ?>" class="card-img-top img-fluid" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="<?= STATIC_URL . 'img/lakuun/22.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
+                    </div> -->
+                    <!-- <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/lakuun/23.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -96,23 +106,55 @@
                     <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                 </button>
             </div>
+            <div class="m-2 text-center mt-3">
+                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                    <span class="fadeinout">Quiero que me contacten</span>
+                </a>
+                <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
+                <audio autoplay loop preload="auto" >
+                    <source src="" type="audio/mpeg">
+                    <source src="" type="audio/ogg">
+                    El Navegador NO SOPORTA AUDIO.
+                </audio>
+                </span> -->
+            </div>
         </div>
     </div>
 </div>
 <!-- Header End -->
 
-<!-- About Start -->
+<!-- Location Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>">
+                    <div class="text-center mx-auto">
+                        <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                    </div>
+                    <div class="carousel slide animated fadeInLeft text-center" data-bs-ride="carousel" data-bs-touch="true" id="carouselLocation" title="Click para zoom" style="z-index: 100">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/lakuun/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselLocation" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselLocation" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"><?= lang('Globals.next') ?></span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                 <h2 class="mb-3">¿Por qué comprar un lote residencial en Lakuun?</h2>
-                <p class="h5 mb-4">Nuestros lotes residenciales se encuentran estratégicamente ubicados al norte de la ciudad de Mérida ( a tan solo 10 minutos) cercano a las principales plazas comerciales como Galerías Mérida, Plaza la Isla, Centro de Convenciones Siglo XXI y Universidades</p>
+                <p class="h5 mb-4">Nuestros lotes residenciales se encuentran estratégicamente ubicados al norte de la ciudad de Mérida (a tan solo 10 minutos) cercano a las principales plazas comerciales como Galerías Mérida, Plaza la Isla, Centro de Convenciones Siglo XXI y Universidades</p>
                 <p class="h5 mb-4">El desarrollo premium ofrece un alto índice de calidad de vida y se encuentra rodeado de:</p>
                 <p class="h4"><span class='mdi mdi-hospital-box-outline mdi-24px text-success me-1'></span>Servicios médicos de vanguardia</p>
                 <p class="h4"><span class='mdi mdi-school-outline mdi-24px text-success me-1'></span>Escuelas y universidades de la más alta calidad educativa y deportiva</p>
@@ -121,7 +163,7 @@
         </div>
     </div>
 </div>
-<!-- About End -->
+<!-- Location End -->
 
 <!-- Caracteristicas Start -->
 <div class="container-xxl py-5">
@@ -212,7 +254,25 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>">
+                    <div class="text-center mx-auto">
+                        <p class="fw-bold small mb-0 not_mobile d-none">Click para ver detalles</p>
+                    </div>
+                    <div class="carousel slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-touch="true" id="carouselAmenities" title="Click para ver detalles" style="z-index: 100">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/lakuun/31.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/lakuun/32.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/lakuun/33.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
@@ -271,7 +331,11 @@
                             </div>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 1) { echo "show";} else {echo "";} ?>" aria-labelledby="headingOne">
+                    <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 1) {
+                                                                                    echo "show";
+                                                                                } else {
+                                                                                    echo "";
+                                                                                } ?>" aria-labelledby="headingOne">
                         <div class="accordion-body">
                             <!-- Price Start -->
                             <div class="container-xxl py-1">
@@ -306,7 +370,7 @@
                                                         </div>
                                                         <div class="col-6">
                                                             <p class="h6">Financiamiento hasta</p>
-                                                            <p class="h4 text-success">80 <span class="h4">MSI</span></p>
+                                                            <p class="h4 text-success">60 <span class="h4">MSI</span></p>
                                                         </div>
                                                     </div>
                                                     <div class="row text-center">
@@ -1101,7 +1165,11 @@
                 </div>
                 <div class="accordion-item border border-success my-4">
                     <h2 class="accordion-header border-bottom border-success" id="headingTwo">
-                        <button class="accordion-button <?php if ($projectStage == 2) { echo "";} else {echo "collapsed";} ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para ver detalles y mapa">
+                        <button class="accordion-button <?php if ($projectStage == 2) {
+                                                            echo "";
+                                                        } else {
+                                                            echo "collapsed";
+                                                        } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
                                     <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-2</caption>
@@ -1126,7 +1194,11 @@
                             </div>
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 2) { echo "show";} else { echo "";} ?>" aria-labelledby="headingTwo">
+                    <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 2) {
+                                                                                    echo "show";
+                                                                                } else {
+                                                                                    echo "";
+                                                                                } ?>" aria-labelledby="headingTwo">
                         <div class="accordion-body">
                             <!-- Price Start -->
                             <div class="container-xxl py-1">
@@ -4409,24 +4481,27 @@
 </div>
 <!-- Property List End -->
 
+<div class="data">
+    <input type="hidden" name="data_propertie" id="data_propertie" value='<?= $dataProject ?>'>
+</div>
 
 <!-- Modal -->
-<div class="modal fade" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
+<div class="modal fade mt-5" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
-        <div class="modal-content">
+        <div class="modal-content mt-5">
             <div class="modal-header py-0 border-bottom-0">
                 <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link px-lg-5 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Fotos</button>
+                        <button class="nav-link px-2 px-lg-5 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Fotos</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link px-lg-5" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" disabled>Videos</button>
+                        <button class="nav-link px-2 px-lg-5" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" disabled>Videos</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link px-lg-5" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" disabled>360</button>
+                        <button class="nav-link px-2 px-lg-5" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" disabled>360</button>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link px-lg-5" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Planos</button>
+                    <li class="nav-item d-none" role="presentation">
+                        <button class="nav-link px-2 px-lg-5" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Planos</button>
                     </li>
                 </ul>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

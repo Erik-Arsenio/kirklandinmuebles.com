@@ -1,6 +1,6 @@
 <!-- Testimonial Start -->
-<div class="container-xxl py-5">
-	<div class="container">
+<div class="container-xxl py-1">
+	<div class="container bg-light rounded py-2">
 		<div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
 			<!-- <h1 class="mb-3">Nuestros Clientes dicen!</h1> -->
 			<h5>Ser inversionista es una manera diferente de ver el mundo.</h5>

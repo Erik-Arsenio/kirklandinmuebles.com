@@ -66,12 +66,12 @@
 		<div class="container-fluid bg-dark text-white-50 footer mt-5 wow fadeIn" data-wow-delay="0.1s">
 			<div class="container py-3">
 				<div class="row g-4">
-					<div class="col-lg-6 col-md-6">
+					<div class="col-lg-6 col-md-6 ">
 						<h5 class="text-white mb-4"><?= lang('Globals.contact_us') ?></h5>
 						<p class="mb-2"><span class='mdi mdi-home-map-marker mdi-24px me-3'></span></i>Mérida, Yucatán, México.</p>
-						<p class="mb-2"><span class='mdi mdi-phone mdi-24px me-3'></span>+52 999 449 7599</p>
-						<p class="mb-2"><span class='mdi mdi-email-outline mdi-24px me-3'></span>carmen@kirklandinmobiliaria.com</p>
-						<div class="d-flex pt-2">
+						<!-- <p class="mb-2"><span class='mdi mdi-phone mdi-24px me-3'></span>+52 999 449 7599</p>
+						<p class="mb-2"><span class='mdi mdi-email-outline mdi-24px me-3'></span>carmen@kirklandinmobiliaria.com</p> -->
+						<div class="d-flex pt-2 d-none">
 							<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-twitter mdi-24px'></span></a>
 							<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-facebook mdi-24px'></span></a>
 							<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-youtube mdi-24px'></span></a>
