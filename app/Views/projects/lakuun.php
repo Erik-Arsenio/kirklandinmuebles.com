@@ -8,7 +8,7 @@
             </div>
             <p class="h2 animated fadeIn fw-bold my-2">Lotes residenciales premium</p>
             <p class="h4 animated fadeIn mb-4 py-1">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
-            <div class="text-promo" id="promo_lakuun" style="min-height: 9em">
+            <div class="text-promo" id="promo" style="min-height: 9em">
                 <!-- <p class="fs-3 fst-italic fw-bold text-promo">"Experimenta un nuevo estilo de vida en TIERRA DORADA"</p> -->
             </div>
             <div class="m-2">

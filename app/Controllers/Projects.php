@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Models\SettingsModel;
 use App\Models\ProjectsModel;
+use Goutte\Client;
+use Symfony\Component\HttpClient\HttpClient;
 
 class Projects extends BaseController
 {
@@ -20,18 +22,114 @@ class Projects extends BaseController
 		$this->pager = \Config\Services::pager();
 	}
 
-	public function index($projectName, $projectStage = null)
+	public function index($projectName, $projectStage = null )
 	{
+
+		//  Para webscraping de los projects.
+
+			// if ($projectName == 'lakuun') {
+			// 	require '../vendor/autoload.php';
+			// 	$client = new Client();
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-lakuun-etapa-2/');
+			// 	$line = $crawler->filter('#script-mapsvg-15039')->text();
+			// 	$content = stristr( $line, '"id":15039,"version":"6.0.0","data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'lakuun-2_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+		
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-lakuun-1/');
+			// 	$line = $crawler->filter('#script-mapsvg-14933')->text();
+			// 	$content = stristr( $line, '"id":14933,"version":"6.0.0","data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'lakuun-1_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+
+			// } elseif ($projectName == 'marela_beach') {
+			// 	require '../vendor/autoload.php';
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-marela-beach/');
+			// 	$line = $crawler->filter('#script-mapsvg-15202')->text();
+			// 	$content = stristr( $line, '"id":15202,"version":"6.0.0","data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'marela_beach_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+
+			// } elseif ($projectName == 'marela_celestun') {
+			// 	require '../vendor/autoload.php';
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-marela');
+			// 	$line = $crawler->filter('#script-mapsvg-14664')->text();
+			// 	$content = stristr( $line, '"id":14664,"version":"6.0.0","data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'marela_celestun_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+
+			// } elseif ($projectName == 'anthia') {
+			// 	require '../vendor/autoload.php';
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-anthia-2');
+			// 	$line = $crawler->filter('#script-mapsvg-14941')->text();
+			// 	$content = stristr( $line, '"id":14941,"version":"6.0.0","data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'anthia-2_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+		
+			// 	$client = new Client(HttpClient::create(['timeout' => 60]));
+			// 	$crawler = $client->request('GET', 'https://www.desarrollosacd.com/master-plan-anthia-3');
+			// 	$line = $crawler->filter('#script-mapsvg-15216')->text();
+			// 	$content = stristr( $line, '"data_regions":' );
+			// 	$dataUpdate = stristr( $content, ',"schema":', true );
+			// 	$fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'anthia-3_update.json', "w+");
+			// 	if ($fp == false) {
+			// 		die("No se ha podido crear el archivo.");
+			// 	} else {
+			// 		fwrite($fp, '{'.$dataUpdate.'}}');
+			// 	}
+			// 	fclose($fp);
+			// }
+
+		//  Para webscraping de los projects.
+
+		$dataProject = @file_get_contents( FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName .'.json');
+
 		// Set data index
 		$dataIndex = [
 			'sectionContact' => view('templates/contact'),
 			'sectionReviews' => view('templates/reviews'),
-			'projectStage' => $projectStage
+			'projectStage' => $projectStage,
+			'dataProject' =>  $dataProject
 		];
 
 		// Set data template
 		$data = [
-			'title' => 'Kirkland Inmobiliaria',
+			'title' => ucwords($projectName,'_'),
 			'content' => view('projects/' . $projectName, $dataIndex),
 			'js' => load_js(['js/app-properties'])
 		];

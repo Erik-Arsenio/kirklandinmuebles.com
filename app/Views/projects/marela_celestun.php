@@ -1808,6 +1808,9 @@
 </div>
 <!-- Property List End -->
 
+<div class="data">
+    <input type="hidden" name="data_propertie" id="data_propertie" value='<?= $dataProject ?>'>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
