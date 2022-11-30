@@ -2,6 +2,10 @@
 <div class="container-fluid header bg-white p-0 mt-4 mb-5">
     <div class="row g-0 align-items-center flex-md-row">
         <div class="col-md-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
+            <?php
+                $DateAndTime = date('m/d/Y');  
+                echo "Actualizado $DateAndTime.";
+            ?>
             <div class="animated fadeInLeft bg-success text-white rounded-5 pb-2">
                 <h3>Lakuun</h3>
                 <h6>KOMCHÉN I YUCATÁN</h6>
@@ -370,7 +374,7 @@
                                                         </div>
                                                         <div class="col-6">
                                                             <p class="h6">Financiamiento hasta</p>
-                                                            <p class="h4 text-success">60 <span class="h4">MSI</span></p>
+                                                            <p class="h4 text-success">80 <span class="h4">MSI</span></p>
                                                         </div>
                                                     </div>
                                                     <div class="row text-center">
