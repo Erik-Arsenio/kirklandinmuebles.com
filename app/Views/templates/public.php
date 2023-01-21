@@ -64,7 +64,7 @@
 
 		<!-- Footer Start -->
 		<div class="container-fluid bg-dark text-white-50 footer mt-5 wow fadeIn" data-wow-delay="0.1s">
-			<div class="container py-3">
+			<div class="container py-3 d-none">
 				<div class="row g-4">
 					<div class="col-lg-6 col-md-6 ">
 						<h5 class="text-white mb-4"><?= lang('Globals.contact_us') ?></h5>
@@ -91,11 +91,11 @@
 			<div class="container">
 				<div class="copyright">
 					<div class="row">
-						<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+						<div class="col-md-8 text-center text-md-start mb-3 mb-md-0">
 							&copy; <a class="border-bottom" href="<?= base_url() ?>">kirklandinmobiliaria.com</a>, <?= lang('Globals.text_2') ?>.
 							<?= lang('Globals.designed_by') ?> <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
 						</div>
-						<div class="col-md-6 text-center text-md-end">
+						<div class="col-md-4 text-center text-md-end">
 							<div class="footer-menu d-none">
 								<a href="">Home</a>
 								<a href="">Cookies</a>
