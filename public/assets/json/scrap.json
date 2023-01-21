@@ -1,0 +1,30 @@
+{
+    "url_json": "FCPATH . 'assets' . DIRECTORY_SEPARATOR . 'json' . DIRECTORY_SEPARATOR ",
+    "project":[
+        {
+            "project_name": "lakuun",
+            "project_id": [{"id": 14933},{"id": 15039 }],
+            "numbers_stage": 2,
+            "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/master-plan-lakuun-"}, { "url_scrap":"https://www.desarrollosacd.com/master-plan-lakuun-etapa-"}]
+        },
+        {
+            "project_name": "marela_beach",
+            "project_id": [{"id": 15202}],
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/marela-beach"}]
+        },
+        {
+            "project_name": "marela_celestun",
+            "project_id": [{"id": 14664}],
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/master-plan-marela"}]
+        },
+        {
+            "project_name": "anthia",
+            "project_id": [{"id": 14484 },{"id": 14941 },{"id": 15217 }],
+            "numbers_stage": 3,
+            "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/master-plan-anthia-"},{ "url_scrap":"https://www.desarrollosacd.com/master-plan-anthia-"}, { "url_scrap":"https://www.desarrollosacd.com/master-plan-anthia-"}]
+        }
+    ]
+
+}
