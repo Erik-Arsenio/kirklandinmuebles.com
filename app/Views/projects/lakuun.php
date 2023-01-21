@@ -1,126 +1,82 @@
 <!-- Header Start -->
 <div class="container-fluid header bg-white p-0 mt-4 mb-5">
     <div class="row g-0 align-items-center flex-md-row">
-        <div class="col-md-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
-            <?php
-                $DateAndTime = date('m/d/Y');  
-                echo "Actualizado $DateAndTime.";
-            ?>
+        <div class="col-lg-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
             <div class="animated fadeInLeft bg-success text-white rounded-5 pb-2">
                 <h3>Lakuun</h3>
                 <h6>KOMCHÉN I YUCATÁN</h6>
             </div>
             <p class="h2 animated fadeIn fw-bold my-2">Lotes residenciales premium</p>
-            <p class="h4 animated fadeIn mb-4 py-1">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
-            <div class="text-promo" id="promo" style="min-height: 9em">
-                <!-- <p class="fs-3 fst-italic fw-bold text-promo">"Experimenta un nuevo estilo de vida en TIERRA DORADA"</p> -->
+            <p class="h4 animated fadeIn mb-2 py-1">Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa</p>
+            <div class="text-center mt-lg-1 promo not_mobile d-none" id="" style="min-height: 9em">
             </div>
             <div class="m-2">
                 <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
-                <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
-                <audio autoplay loop preload="auto" >
-                    <source src="" type="audio/mpeg">
-                    <source src="" type="audio/ogg">
-                    El Navegador NO SOPORTA AUDIO.
-                </audio>
-                </span> -->
             </div>
         </div>
-        <div class="col-md-6 pe-md-5">
+        <div class="col-lg-6 pe-lg-5">
             <div class="text-center mx-auto">
                 <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
             </div>
-            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel"  data-bs-pause="hover" data-bs-interval="8000" data-bs-touch="true" id="carouselHome" title="Click para zoom">
+            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselHome">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid" alt="Entrada a Lakuun">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/02.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/02.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Vive en Tierra Dorada">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/05.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/05.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Características">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/14.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/06.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Etapas y amenidades">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/15.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Master Plan">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/16.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/08.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Amenidades de Lakuun">
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/19.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/20.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/21.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/lakuun/16.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Entrada Casa Club">
                     </div>
-                    <!-- <div class="carousel-item" data-bs-interval="10000">
-                        <img src="<?= STATIC_URL . 'img/lakuun/22.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
-                    <!-- <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/lakuun/23.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div> -->
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Amenidades Casa Club">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/22.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Área Grill">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/23.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Área infantil">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/24.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Pet park">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/25.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Área deportiva con ciclovías">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?= STATIC_URL . 'img/lakuun/26.jpg' ?>" class="card-img-top img-fluid" alt="Área deportiva">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                     <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                     <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                 </button>
+            </div>
+            <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 7em">
             </div>
             <div class="m-2 text-center mt-3">
                 <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
-                <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
-                <audio autoplay loop preload="auto" >
-                    <source src="" type="audio/mpeg">
-                    <source src="" type="audio/ogg">
-                    El Navegador NO SOPORTA AUDIO.
-                </audio>
-                </span> -->
             </div>
         </div>
     </div>
@@ -133,11 +89,9 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                    <div class="text-center mx-auto">
-                        <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
-                    </div>
-                    <div class="carousel slide animated fadeInLeft text-center" data-bs-ride="carousel" data-bs-touch="true" id="carouselLocation" title="Click para zoom" style="z-index: 100">
-                        <div class="carousel-inner">
+                    <div class="carousel carousel-fade slide animated fadeInLeft text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselLocation" style="z-index: 100">
+                        <p class="small fw-bolder text-center mb-0 pb-0 not_mobile d-none">Click para zoom</p>
+                        <div class="carousel-inner" >
                             <div class="carousel-item active">
                                 <img src="<?= STATIC_URL . 'img/lakuun/03.jpg' ?>" class="card-img-top img-fluid" alt="...">
                             </div>
@@ -146,11 +100,11 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselLocation" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                             <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselLocation" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                             <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                         </button>
                     </div>
@@ -158,7 +112,7 @@
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                 <h2 class="mb-3">¿Por qué comprar un lote residencial en Lakuun?</h2>
-                <p class="h5 mb-4">Nuestros lotes residenciales se encuentran estratégicamente ubicados al norte de la ciudad de Mérida (a tan solo 10 minutos) cercano a las principales plazas comerciales como Galerías Mérida, Plaza la Isla, Centro de Convenciones Siglo XXI y Universidades</p>
+                <p class="h5 mb-4">Nuestros lotes residenciales se encuentran estratégicamente ubicados al norte de la ciudad de Mérida (a tan solo 10 minutos) cercano a las principales plazas comerciales como Galerías Mérida, Plaza la Isla, Plaza Harbor, Centro de Convenciones Siglo XXI y Universidades</p>
                 <p class="h5 mb-4">El desarrollo premium ofrece un alto índice de calidad de vida y se encuentra rodeado de:</p>
                 <p class="h4"><span class='mdi mdi-hospital-box-outline mdi-24px text-success me-1'></span>Servicios médicos de vanguardia</p>
                 <p class="h4"><span class='mdi mdi-school-outline mdi-24px text-success me-1'></span>Escuelas y universidades de la más alta calidad educativa y deportiva</p>
@@ -175,23 +129,23 @@
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
             <h1 class="fw-bold text-decoration-underline">Características</h1>
         </div>
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
+        <div class="row g-0 g-lg-5 align-items-center">
+            <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
                 <ul>
                     <li class="h4">Barda perimetral</li>
                     <li class="h4">Caseta de vigilancia</li>
                     <li class="h4">Entrada distintiva</li>
                     <li class="h4">Canchas</li>
-                    <li class="h4">Ciclovia</li>
+                    <li class="h4">Ciclovía</li>
                 </ul>
             </div>
-            <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
+            <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
                 <ul>
                     <li class="h4">Jardines de lectura</li>
                     <li class="h4">Área de picnic</li>
                     <li class="h4">Pista de jogging</li>
                     <li class="h4">Área de recreación infantil</li>
-                    <li class="h4">Pet friendly</li>
+                    <li class="h4">Pet park</li>
                 </ul>
             </div>
             <div class="text-center wow slideInLeft mt-0" data-wow-delay="0.1s">
@@ -214,7 +168,40 @@
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
                     <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>">
+                        <!-- <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>"> -->
+                        <div class="text-center mx-auto">
+                            <p class="fw-bold small mb-0 not_mobile d-none">Click para ver detalles</p>
+                        </div>
+                        <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenitiesCasaClub" style="z-index: 100">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/16.jpg' ?>" class="card-img-top img-fluid" alt="Entrada Casa Club">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/12.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Amenidades Casa Club">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Interior Casa Club">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/18.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Interior Casa Club">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/19.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Interior Casa Club">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/lakuun/20.jpg' ?>" class="card-img-top img-fluid" alt="Casa Club">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAmenitiesCasaClub" data-bs-slide="prev">
+                                <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
+                                <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselAmenitiesCasaClub" data-bs-slide="next">
+                                <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
+                                <span class="visually-hidden"><?= lang('Globals.next') ?></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,35 +209,37 @@
     </div>
     <!-- Club End -->
 
-    <!-- Caracteristicas Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <!-- <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Características</h1>
-        </div> -->
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
-                    <ul>
-                        <li class="h4">Entrada distintiva</li>
-                        <li class="h4">Canal de nado</li>
-                        <li class="h4">Motor lobby</li>
-                        <li class="h4">Alberca</li>
-                        <li class="h4">Gimnasio</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                    <ul>
-                        <li class="h4">Oficinas</li>
-                        <li class="h4">Salón de eventos</li>
-                        <li class="h4">Área grill</li>
-                        <li class="h4">Sala de juntas</li>
-                    </ul>
-                </div>
+</div>
+
+<!-- Caracteristicas Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
+        <h1 class="fw-bold text-decoration-underline">Características</h1>
+    </div> -->
+        <div class="row g-0 g-lg-5 align-items-center">
+            <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
+                <ul>
+                    <li class="h4">Entrada distintiva</li>
+                    <li class="h4">Canal de nado</li>
+                    <li class="h4">Motor lobby</li>
+                    <li class="h4">Alberca</li>
+                    <li class="h4">Gimnasio</li>
+                </ul>
+            </div>
+            <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
+                <ul>
+                    <li class="h4">Oficinas/coworking</li>
+                    <li class="h4">Salón de eventos</li>
+                    <li class="h4">Área grill</li>
+                    <li class="h4">Sala de juntas</li>
+                    <li class="h4">Área infantil</li>
+                </ul>
             </div>
         </div>
     </div>
-    <!-- Caracteristicas  End -->
 </div>
+<!-- Caracteristicas  End -->
 
 <!-- About Start -->
 <div class="container-xxl py-5">
@@ -261,21 +250,26 @@
                     <div class="text-center mx-auto">
                         <p class="fw-bold small mb-0 not_mobile d-none">Click para ver detalles</p>
                     </div>
-                    <div class="carousel slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-touch="true" id="carouselAmenities" title="Click para ver detalles" style="z-index: 100">
+                    <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/lakuun/07.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                                <img src="<?= STATIC_URL . 'img/lakuun/09.jpg' ?>" class="card-img-top img-fluid" alt="Amenidades Etapa 1: Recreativa">
                             </div>
                             <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/lakuun/31.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                                <img src="<?= STATIC_URL . 'img/lakuun/10.jpg' ?>" class="card-img-top img-fluid" loading="lazy" alt="Amenidades Etapa 2: Familar">
                             </div>
                             <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/lakuun/32.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/lakuun/33.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                                <img src="<?= STATIC_URL . 'img/lakuun/11.jpg' ?>" class="card-img-top img-fluid" alt="Amenidades Etapa 2: Deportiva">
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAmenities" data-bs-slide="prev">
+                            <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
+                            <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAmenities" data-bs-slide="next">
+                            <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
+                            <span class="visually-hidden"><?= lang('Globals.next') ?></span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -296,7 +290,7 @@
     <div class="container">
         <div class="text-center mb-1 wow slideInLeft" data-wow-delay="0.1s">
             <h1 class="fw-bold">Disponiblidad de lotes residenciales.</h1>
-            <h5 class="my-2 fw-lighter text-decoration-underline">(Click en Etapa para ver detalles y mapa)</h5>
+            <h5 class="my-2 fw-lighter text-decoration-underline small">(Click en Etapa para ver detalles y mapa)</h5>
         </div>
         <div class="loader-container text-center mb-2">
             <span class="mdi mdi-vanish mdi-spin"></span>
@@ -306,20 +300,21 @@
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item border border-success my-4">
                     <h2 class="accordion-header border-bottom border-success" id="headingOne">
-                        <button class="accordion-button <?php if ($projectStage == 1) {
-                                                            echo "";
-                                                        } else {
-                                                            echo "collapsed";
-                                                        } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
+                        <button class="accordion-button px-4 <?php if ($projectStage == 1) {
+                                                                    echo "";
+                                                                } else {
+                                                                    echo "collapsed";
+                                                                } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
+                                <!-- <div class="row "> -->
                                 <table class="table table-sm table-borderless caption-top">
                                     <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                            <th scope="col" class="h5 text-center">Total de lotes</th>
-                                            <th scope="col" class="h5 text-center">Disponibles</th>
-                                            <th scope="col" class="h5 text-center">Fecha de entrega</th>
+                                            <th scope="col" class="h5 available-title text-center">Total de lotes</th>
+                                            <th scope="col" class="h5 available-title text-center">Disponibles</th>
+                                            <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -332,7 +327,9 @@
 
                                     </tbody>
                                 </table>
+                                <!-- </div> -->
                             </div>
+                    
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 1) {
@@ -342,9 +339,9 @@
                                                                                 } ?>" aria-labelledby="headingOne">
                         <div class="accordion-body">
                             <!-- Price Start -->
-                            <div class="container-xxl py-1">
-                                <div class="container">
-                                    <div class="row g-0 gx-5 align-items-center">
+                            <div class="container-xxl py-1 px-0">
+                                <!-- <div class="container"> -->
+                                <!-- <div class="row g-0 gx-5 align-items-center">
                                         <div class="col-lg-12">
                                             <div class="text-center mx-auto mb-5">
                                                 <p class="fw-bold small mb-2">Click para descargar</p>
@@ -352,814 +349,831 @@
                                                     <span class='mdi mdi-file-pdf-box mdi-18px text-danger me-1'></span>Brochure Lakuun Etapa-1</a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row g-0 gx-5 align-items-center">
-                                        <div class="col-lg-12">
-                                            <div class="text-center mx-auto mb-1 wow slideInLeft" data-wow-delay="0.1s">
-                                                <h3 class="fw-bold text-decoration-underline">PRECIOS DE LOTES</h3>
+                                    </div> -->
+                                <div class="row row-cols-1 row-cols-lg-1">
+                                    <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                        <div class="card border-3 h-100 shadow px-0">
+                                            <div class="card-header text-center">
+                                                <h4 class="fw-bold text-success mb-0 price-header">PRECIO DE LOTES</h4>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="row row-cols-1 row-cols-lg-1">
-                                        <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                            <div class="card border-5 h-100 shadow px-0">
-                                                <div class="card-header text-center">
-                                                    <p class="h4 text-success">Lote estandar</p>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="row text-center">
-                                                        <div class="col-6">
-                                                            <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                            <p class="h4 text-success">2,450 <span class="h4">MXN</span></p>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <p class="h6">Financiamiento hasta</p>
-                                                            <p class="h4 text-success">80 <span class="h4">MSI</span></p>
-                                                        </div>
+                                            <div class="card-body pb-0">
+                                                <div class="row d-flex justify-content-center ">
+                                                    <div class="col-12 col-lg-6 table-responsive-sm ">
+                                                        <table class="table table-sm table-bordered border-2 text-left">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Desde</td>
+                                                                    <td class="h5 available-title text-left">300 m<small><sup>2</sup></small></td>
+                                                                </tr>
+                                                            <tr>
+                                                                    <td class="h5 available-title text-left">Precio (MXN) por m<small><sup>2</sup></small> desde</td>
+                                                                    <td class="h5 available-title text-left">$2,450.00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title  text-left">Enganche del</td>
+                                                                    <td class="h5 available-title  text-left">10%</td>
+                                                                    </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title  text-left">Financiamento hasta</td>
+                                                                    <td class="h5 available-title  text-left">80 meses</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title  text-left">Mensualidades (MXN) desde</td>
+                                                                    <td class="h5 available-title  text-left">$8,268.80</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                    <div class="row text-center">
-                                                        <p class="h6">Enganche de</p>
-                                                        <p class="h4 text-success">10%</h6>
-
-                                                    </div>
                                                 </div>
-                                                <!-- <div class="card-footer">
-                                                    <p class="card-title text-center h4">Entrega 2025 </p>
-                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- </div> -->
                             </div>
                             <!-- Price End -->
                             <div class="loader-container text-center mb-2">
                                 <span class="mdi mdi-vanish mdi-spin"></span>
                                 Loading image...
                             </div>
-                            <div class="row">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="100px" style="transform: rotate(-90deg);">
+                            <div class="d-flex justify-content-center">
+                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                             </div>
                             <div class="row mt-2">
-                                <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
+                                <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
                             </div>
-                            <svg version="1.1" x="0px" y="0px" viewBox="30 100 1000 700" style="enable-background:new 0 0 900 900;">
-                                <style type="text/css">
-                                    .st0 {
-                                        fill: rgba(136, 194, 117);
-                                        stroke: rgba(23, 149, 83);
-                                        stroke-width: 1.97368px;
-                                    }
+                            <div id="tiger-container" class="container mapsvg-scrollpane text-center" style="max-width: 900px; min-height: 300px;  ">
+                                <!-- <div  id="tiger-container" class="container mapsvg-scrollpane text-center"  style="width: 800px; height: 900px; margin-left: 2em ;"> -->
 
-                                    .st1 {
-                                        font-family: Calibri;
-                                        font-size: 11px;
-                                        fill: rgba(255, 255, 255);
-                                    }
+                                <!-- <div class="controls">
+                                    <button id="zoom-in">Zoom in</button>
+                                    <button id="zoom-out">Zoom out</button>
+                                    <button id="reset">Reset</button>
+                                </div> -->
+                                <!-- <svg  id="stage-01" viewBox="-10 100 1000 700" style="enable-background:new 0 0 900 900;"> -->
+                                <svg id="stage-01" viewBox="-10 100 1000 700" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;">
+                                    <!-- <g id="g4" class="svg-pan-zoom_viewport"> -->
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: rgba(136, 194, 117);
+                                            stroke: rgba(23, 149, 83);
+                                            stroke-width: 1.97368px;
+                                        }
 
-                                    .st2 {
-                                        fill: rgba(0, 0, 0, 0.1);
-                                    }
+                                        .st1 {
+                                            font-family: Calibri;
+                                            font-size: 11px;
+                                            fill: rgba(255, 255, 255);
+                                        }
 
-                                    .st4 {
-                                        font-size: 7px;
-                                        font-family: 'Calibri-Bold';
-                                    }
-                                </style>
-                                <image style="overflow:visible;enable-background:new    ;" width="4596" height="4237" xlink:href="<?= STATIC_URL . 'img/lakuun/56CFF67B.jpg' ?>" transform="matrix(0.1892 0 0 0.1892 -7.661545e-02 60.0748)">
-                                </image>
-                                <g id="stage_1">
-                                    <path id="A-12" class="st0 mapsvg-region" d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" style="fill: rgba(47, 172, 102); stroke: rgba(23, 149, 83); stroke-width: 1.97368px;" data-stroke-width="1.2" />
-                                    <path id="A-11" class="st0 mapsvg-region" d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
-                                    <path id="A-10" class="st0 mapsvg-region" d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
-                                    <path id="A-09" class="st0 mapsvg-region" d="M130.4,274.5l6-16.7l55.7,2.9l-6.3,17l-11.2-0.8" />
-                                    <path id="A-08" class="st0 mapsvg-region" d="M130,274.5l56,2.7l-6.7,17.9l-55.8-2.9l2.3-6.2l2-5.5" />
-                                    <path id="A-07" class="st0 mapsvg-region" d="M123.5,292.1l55.8,2.9l-6.3,17l-55.7-3L123.5,292.1z" />
-                                    <path id="A-06" class="st0 mapsvg-region" d="M173,312.1l-6.2,17.1l-56-3l6.5-17.1L173,312.1z" />
-                                    <path id="A-05" class="st0 mapsvg-region" d="M111,326.2l55.8,3l-6.3,17.1l-56.2-2.7L111,326.2z" />
-                                    <path id="A-04" class="st0 mapsvg-region" d="M104.4,343.6l56.2,2.7l-6.7,17.9l-56-3L104.4,343.6z" />
-                                    <path id="A-03" class="st0 mapsvg-region" d="M154,364.2l-6.2,16.7L92,377.7l6.2-16.7L154,364.2z" />
-                                    <path id="A-02" class="st0 mapsvg-region" d="M147.4,381l-6.3,17.1l-56.2-3l6.7-17.4L147.4,381z" />
-                                    <path id="A-01" class="st0 mapsvg-region" d="M85.4,395.1l56.2,2.9l-6.2,17l-56.3-3L85.4,395.1z" />
-                                    <path id="A-90" class="st0 mapsvg-region" d="M192.2,102.6l-7.5,21.4l-23.3,61.4l20.2,0.8l30.7-82.1L192.2,102.6z" />
-                                    <path id="A-91" class="st0 mapsvg-region" d="M252,105.1l22.2,0.9l-30.3,82.7l-22.3-1.1L252,105.1z" />
-                                    <path id="A-94" class="st0 mapsvg-region" d="M296.5,107.2l-22.3-1.2l-30.3,82.7l22.7,1.2L296.5,107.2z" />
-                                    <path id="A-20" class="st0 mapsvg-region" d="M228.9,226.3l56,3l6.7-17.9l-50.8-2.7l-2.8,1.2l-2.3,1.2l-1.7,1.7l-0.7,1.4L228.9,226.3z" />
-                                    <path id="A-19" class="st0 mapsvg-region" d="M284.5,228.7l-6.7,17.1l-55.5-3l6.3-17.3L284.5,228.7z" />
-                                    <path id="A-18" class="st0 mapsvg-region" d="M222.4,243.3l55.3,3l-6.3,17.4l-56-2.9L222.4,243.3z" />
-                                    <path id="A-17" class="st0 mapsvg-region" d="M271.5,263.6l-6.5,17.1l-55.5-3.3l6.2-16.7L271.5,263.6z" />
-                                    <path id="A-16" class="st0 mapsvg-region" d="M265,280.8l-6.3,16.5l-55.3-2.9l6-16.8L265,280.8z" />
-                                    <path id="A-15" class="st0 mapsvg-region" d="M203.5,294.3l-6.5,17.9l55.3,2.6l6.5-17.6L203.5,294.3z" />
-                                    <path id="A-14" class="st0 mapsvg-region" d="M197,312.2l55.3,2.6l-6.3,17.4l-55.3-2.9L197,312.2z" />
-                                    <path id="A-13" class="st0 mapsvg-region" d="M190.7,329.3l55.3,2.9l-6.2,17.6l-55.5-3.6L190.7,329.3z" />
-                                    <path id="A-27" class="st0 mapsvg-region" d="M291.2,211.1l-6.7,17.9l54.8,2.3l3.3-8.9l-0.8-3.8L340,216l-1.7-1.5l-3.5-1.1l-1.5-0.5L291.2,211.1z" />
-                                    <path id="A-26" class="st0 mapsvg-region" d="M284.5,229.8l54.7,2.3l-6.5,17.6l-55-2.7L284.5,229.8z" />
-                                    <path id="A-25" class="st0 mapsvg-region" d="M326.2,266.1L333,249l-55-2.7l-6.3,17.3L326.2,266.1z" />
-                                    <path id="A-24" class="st0 mapsvg-region" d="M319.9,283.3l6.3-17.1l-54.7-2.6l-6.5,17.1L319.9,283.3z" />
-                                    <path id="A-23" class="st0 mapsvg-region" d="M313.5,300.1l6.3-16.8l-54.7-2.6l-6.3,16.5L313.5,300.1z" />
-                                    <path id="A-22" class="st0 mapsvg-region" d="M306.9,317.5l6.7-17.4l-54.7-2.7l-6.5,17.6L306.9,317.5z" />
-                                    <path id="A-21" class="st0 mapsvg-region" d="M252,314.8l54.7,2.7l-6.2,17.3l-54.7-2.6L252,314.8z" />
-                                    <path id="A-33" class="st0 mapsvg-region" d="M362,233.6l5-13.2l2.3-2l2.5-1.2l2.7-0.3l3.3-0.3l40.2,2.1l-6.3,17.6L362,233.6z" />
-                                    <path id="A-32" class="st0 mapsvg-region" d="M362,233.6l49.5,2.7l-6.8,17.6l-49.2-2.4L362,233.6z" />
-                                    <path id="A-31" class="st0 mapsvg-region" d="M404.4,253.9l-6.2,17.1l-49-2.3l6-17.4L404.4,253.9z" />
-                                    <path id="A-30" class="st0 mapsvg-region" d="M342.9,285.4l48.8,2.6l6.7-17l-49-2.3L342.9,285.4z" />
-                                    <path id="A-29" class="st0 mapsvg-region" d="M391.7,288l-6.5,17.6l-48.7-2.6l6.3-17.6L391.7,288z" />
-                                    <path id="A-28" class="st0 mapsvg-region" d="M336.5,303l48.8,2.6l-6.8,17l-30.8-1.5l-0.5-2.7l-1.5-2.6l-1.7-1.8l-2.5-1.5l-2.3-0.8l-2.5-0.3l-2,0.3l-1.5,0.6L336.5,303z" />
-                                    <path id="A-39" class="st0 mapsvg-region" d="M417.7,218.7l-6.3,17.6l46.8,2.3l3.2-8.6l-0.3-2.7l-1.2-2.4l-2-2l-2.2-1.2l-1.5-1.1L417.7,218.7z" />
-                                    <path id="A-38" class="st0 mapsvg-region" d="M411.5,236.3l-7,17.6l47.7,2l6.2-17.3L411.5,236.3z" />
-                                    <path id="A-37" class="st0 mapsvg-region" d="M404.4,253.9l-6.2,17.1l47.7,2.3l6.2-17.4L404.4,253.9z" />
-                                    <path id="A-36" class="st0 mapsvg-region" d="M398.4,271.1l47.7,2.3l-6.5,17.3l-47.8-2.6L398.4,271.1z" />
-                                    <path id="A-35" class="st0 mapsvg-region" d="M391.7,288l47.8,2.6l-6.5,17.3l-47.8-2.4L391.7,288z" />
-                                    <path id="A-34" class="st0 mapsvg-region" d="M385.2,305.5L433,308l-6.3,17l-3.2-0.2l-1.3-0.9l-2.7-1.2l-2.2-0.3l-2.2-0.2l-1.8,0.6l-2.3,0.9l-0.8,0.6l-7.5-0.3l-2.3-0.8l-2.5-0.2l-1.3,0.3l-0.3,0.5l-17.8-1.2L385.2,305.5z" />
-                                    <path id="A-95" class="st0 mapsvg-region" d="M448.5,115.5L418,198.7l18.9,0.8l31-83.2L448.5,115.5z" />
-                                    <path id="A-96" class="st0 mapsvg-region" d="M468,115.7l18.9,0.5l-31,84.3l-18.9-1.7L468,115.7z" />
-                                    <path id="A-97" class="st0 mapsvg-region" d="M486.9,116.4l18.4,1.2L476,195.1l-1.5,2.4l-2.3,2l-2,0.6l-1.7,0.5l-1.2,0.2l-11.4-0.3L486.9,116.4z" />
-                                    <path id="A-98" class="st0 mapsvg-region" d="M505.2,117.8l18.4,1.2l-19.3,52.6l-19.1-1.7L505.2,117.8z" />
-                                    <path id="A-99" class="st0 mapsvg-region" d="M523.6,119l19.1,0.9l-19.8,52.4l-18.6-0.8L523.6,119z" />
-                                    <path id="A-100" class="st0 mapsvg-region" d="M542.6,120.1l18.1,0.9l-19.3,52.3l-18.4-1.1L542.6,120.1z" />
-                                    <path id="A-101" class="st0 mapsvg-region" d="M579.4,121.9l-18.8-0.9l-19.3,52.3l18.8,0.8L579.4,121.9z" />
-                                    <path id="A-102" class="st0 mapsvg-region" d="M579.4,122l18.8,0.9l-19.4,52l-18.6-0.9L579.4,122z" />
-                                    <path id="A-103" class="st0 mapsvg-region" d="M598.2,123.1l-19.3,51.8l18.4,0.8l19.8-52.1L598.2,123.1z" />
-                                    <path id="A-104" class="st0 mapsvg-region" d="M616,176.6l-18.8-0.8l19.8-52.1l18.3,0.6L616,176.6z" />
-                                    <path id="A-105" class="st0 mapsvg-region" d="M616,176.6l18.8,0.6l19.1-52.3l-18.4-0.6L616,176.6z" />
-                                    <path id="A-106" class="st0 mapsvg-region" d="M673,125.8l-19.1-0.9l-19.1,52.3l18.9,0.9L673,125.8z" />
-                                    <path id="A-107" class="st0 mapsvg-region" d="M653.5,178.4l18.3,0.5l19.6-52.1l-18.4-0.9L653.5,178.4z" />
-                                    <path id="A-108" class="st0 mapsvg-region" d="M691.2,126.9l-19.6,52l18.9,0.9l19.6-52.1L691.2,126.9z" />
-                                    <path id="A-109" class="st0 mapsvg-region" d="M710.5,127.8l18.3,0.9l-19.4,52.1l-18.6-0.9L710.5,127.8z" />
-                                    <path id="A-110" class="st0 mapsvg-region" d="M708.7,180.8l18.4,0.6l19.1-51.5l-18.1-1.2L708.7,180.8z" />
-                                    <path id="A-111" class="st0 mapsvg-region" d="M727.8,181.4l18.8,0.8l19.3-52l-18.8-0.3L727.8,181.4z" />
-                                    <path id="A-112" class="st0 mapsvg-region" d="M746.5,182.3l18.8,0.8l19.3-51.7l-18.8-1.2L746.5,182.3z" />
-                                    <path id="A-113" class="st0 mapsvg-region" d="M765,183.1l4.2,1.2l7.2,2.6l4.5,3l3.4,3.8l2.3,5.9l1,5.6l0.3,1.5l16.3-42.7l-0.8-1.5l-0.7-1.4l-1.8-0.3l-2.2-1.4l-1.2-1.5l-0.7-2.1V154l0.2-1.5l0.5-1.1l0.5-0.6l-9.4-19.2l-4.2-0.2L765,183.1z" />
-                                    <path id="A-114" class="st0 mapsvg-region" d="M785.5,214.5l-9.5,26.2l-23.2-1.2l4.8-13.2l13-0.8l3.3-0.8l2.8-2.3l3-2.9l5.2-5.5L785.5,214.5z" />
-                                    <path id="A-115" class="st0 mapsvg-region" d="M753,239.5l-6.3,17l23.3,0.9l6.3-16.8L753,239.5z" />
-                                    <path id="A-116" class="st0 mapsvg-region" d="M746.5,256.6l23.3,0.9l-6.5,17.4l-23.2-1.2L746.5,256.6z" />
-                                    <path id="A-117" class="st0 mapsvg-region" d="M740,273.7l-6.3,17.1l23.5,1.2l6.2-17L740,273.7z" />
-                                    <path id="A-118" class="st0 mapsvg-region" d="M733.7,290.8l23.3,1.2l-6.3,17.3l-23.5-0.9L733.7,290.8z" />
-                                    <path id="A-119" class="st0 mapsvg-region" d="M750.7,309.2l-6.5,17.4l-23.3-1.4l6.3-17.1L750.7,309.2z" />
-                                    <path id="A-120" class="st0 mapsvg-region" d="M721,325.4l-6.5,17.3l23.7,0.9l6.2-17L721,325.4z" />
-                                    <path id="A-121" class="st0 mapsvg-region" d="M714.5,342.7l-6.3,17.1l23.7,1.1l6.3-17.1L714.5,342.7z" />
-                                    <path id="A-122" class="st0 mapsvg-region" d="M708.2,359.6l-6.2,17l23.5,0.9l6.3-17L708.2,359.6z" />
-                                    <path id="A-123" class="st0 mapsvg-region" d="M702,376.6l23.5,0.9l-6.3,17.7l-23.7-1.2L702,376.6z" />
-                                    <path id="A-124" class="st0 mapsvg-region" d="M695.5,394.2l23.5,1.2l-6.5,17.4l-23.8-1.1L695.5,394.2z" />
-                                    <path id="A-125" class="st0 mapsvg-region" d="M688.9,411.6l23.7,1.1l-6.3,17.3l-23.8-1.2L688.9,411.6z" />
-                                    <path id="A-126" class="st0 mapsvg-region" d="M682.5,428.7l23.8,1.2l-6.3,17l-23.7-1.4L682.5,428.7z" />
-                                    <path id="A-127" class="st0 mapsvg-region" d="M676.4,445.6l-6.3,17.1l24,0.8l6-16.7L676.4,445.6z" />
-                                    <path id="A-89" class="st0 mapsvg-region" d="M689.2,200.5l-7.3,19.5l52.2,2.6l3-7.7l0.2-2.7l-0.8-2.6l-1.2-2.3l-1.5-1.8l-2.2-1.5l-3.3-1.7L689.2,200.5z" />
-                                    <path id="A-88" class="st0 mapsvg-region" d="M682,220.1l52.2,2.6l-6.7,17.9l-52.3-2.9L682,220.1z" />
-                                    <path id="A-87" class="st0 mapsvg-region" d="M675.4,237.5l-6.3,17.1l52.5,2.3l6-16.5L675.4,237.5z" />
-                                    <path id="A-86" class="st0 mapsvg-region" d="M669.2,254.8l52.3,2.3l-6.3,17.3l-52.3-2.6L669.2,254.8z" />
-                                    <path id="A-85" class="st0 mapsvg-region" d="M662.9,271.8l-6.5,17.4l52.5,2.4l6.5-17.3L662.9,271.8z" />
-                                    <path id="A-84" class="st0 mapsvg-region" d="M656.5,289.2L650,306l52.8,2.4l6.2-16.7L656.5,289.2z" />
-                                    <path id="A-83" class="st0 mapsvg-region" d="M650,305.8l52.7,2.4l-6.8,18.2l-52.5-2.9L650,305.8z" />
-                                    <path id="A-82" class="st0 mapsvg-region" d="M643.7,323.4l52.3,2.9l-6,16.5l-52.7-2.6L643.7,323.4z" />
-                                    <path id="A-81" class="st0 mapsvg-region" d="M637.4,340.4L690,343l-6.3,17.4l-53-2.7L637.4,340.4z" />
-                                    <path id="A-80" class="st0 mapsvg-region" d="M630.9,357.7l52.8,2.6l-6.5,17.4l-52.8-2.7L630.9,357.7z" />
-                                    <path id="A-79" class="st0 mapsvg-region" d="M624.4,374.9l-6.2,17.1l52.7,2.4l6.3-16.8L624.4,374.9z" />
-                                    <path id="A-243" class="st0 mapsvg-region" d="M556.8,741.5l0.2,32.9l18.6-0.6l19.6-52h-12.2l-0.8,3l-0.8,2.6l-1.7,3.9l-3,3.8l-3.5,3l-4,1.8l-4,1.4l-6,0.5L556.8,741.5z" />
-                                    <path id="A-242" class="st0 mapsvg-region" d="M528.3,722.1l0.3,52.3h28.4l-0.2-32.9l-2.9-0.3l-3.5-1.2l-3-1.8l-3.5-2.6l-3.5-4.1l-2.9-3.5l-1.8-2.6l-1-1.7l-1.3-1.5l-2-0.3L528.3,722.1z" />
-                                    <path id="A-216" class="st0 mapsvg-region" d="M510.8,721.8l17.4,0.3l0.3,52.3h-17.8V721.8z" />
-                                    <path id="A-217" class="st0 mapsvg-region" d="M493,722l17.8-0.2v52.6h-18L493,722z" />
-                                    <path id="A-218" class="st0 mapsvg-region" d="M474.9,721.7l18,0.3l-0.2,52.4l-18-0.2L474.9,721.7z" />
-                                    <path id="A-78" class="st0 mapsvg-region" d="M618.4,392.1l-6.5,17.4l52.8,2.3l6.3-17.1L618.4,392.1z" />
-                                    <path id="A-77" class="st0 mapsvg-region" d="M605.5,426.3l6.3-17l52.8,2.3l-6.5,17L605.5,426.3z" />
-                                    <path id="A-76" class="st0 mapsvg-region" d="M605.5,426.3l-6.5,17.4l53.2,2.3l6.2-17.3L605.5,426.3z" />
-                                    <path id="A-75" class="st0 mapsvg-region" d="M599.2,443.6l-6.5,17.4l47.2,3.3l3-0.9l1.2-0.6l1.3-1.1l1.5-1.5l0.7-1.4l0.3-0.8l4.3-12.3L599.2,443.6z" />
-                                    <path id="A-60" class="st0 mapsvg-region" d="M545.4,440.4l54,2.4l-6.7,18.2l-42.8-2.9l-2.8-0.9l-1.5-1.5l-0.8-0.8l-0.7-1.4l-0.7-1.7l-0.2-1.7V449v-1.5l0.2-1.5L545.4,440.4z" />
-                                    <path id="A-61" class="st0 mapsvg-region" d="M551.7,423.3l-6.3,17.1l54,2.4l6.2-16.4L551.7,423.3z" />
-                                    <path id="A-62" class="st0 mapsvg-region" d="M605.5,426.3l6.3-17l-54-2.9l-6.2,16.7L605.5,426.3z" />
-                                    <path id="A-63" class="st0 mapsvg-region" d="M618.5,391.3l-6.7,18l-54-2.9l6.7-17.7L618.5,391.3z" />
-                                    <path id="A-64" class="st0 mapsvg-region" d="M624.7,374.2l-6.2,17.1l-54.2-2.6l6-17.1L624.7,374.2z" />
-                                    <path id="A-65" class="st0 mapsvg-region" d="M570.5,371.6l54.3,2.6l6.7-17.6l-31-1.4l-23.8-1.1L570.5,371.6z" />
-                                    <path id="A-66" class="st0 mapsvg-region" d="M637.4,339.9l-6,16.7l-54.8-2.6l6.3-16.8L637.4,339.9z" />
-                                    <path id="A-67" class="st0 mapsvg-region" d="M637.4,339.9l6.7-17.6l-54.8-2.6l-6.3,17.4L637.4,339.9z" />
-                                    <path id="A-68" class="st0 mapsvg-region" d="M650.4,305.1l-6.3,17.4l-54.8-2.6l6.3-17.3L650.4,305.1z" />
-                                    <path id="A-69" class="st0 mapsvg-region" d="M650.4,305.1L657,288l-55.3-2.4l-6.2,17L650.4,305.1z" />
-                                    <path id="A-70" class="st0 mapsvg-region" d="M663.2,271l-6.3,17.1l-55.3-2.4l6.3-17.3L663.2,271z" />
-                                    <path id="A-71" class="st0 mapsvg-region" d="M669.7,253.7l-6.5,17.3l-55.2-2.6l6.3-17.3L669.7,253.7z" />
-                                    <path id="A-72" class="st0 mapsvg-region" d="M675.5,236.9l-6,16.8l-55.3-2.7l6.2-17L675.5,236.9z" />
-                                    <path id="A-73" class="st0 mapsvg-region" d="M681.9,219.6l-6.7,17.6l-55-2.9l6.5-17.4L681.9,219.6z" />
-                                    <path id="A-74" class="st0 mapsvg-region" d="M689.2,200.5l-7,18.6l-55.3-2.7l2.7-7.1l1.2-2.1l2.2-2.6l1.7-1.5l2.7-1.7l3.2-1.1l2.2-0.6l2.5-0.6l0.8-0.8L689.2,200.5z" />
-                                    <path id="A-49" class="st0 mapsvg-region" d="M491.5,367.8l-6.5,17.7l37.3,1.7l1.3-1.7l1.2-1.1l1.7-1.1l2.7-0.9l3-0.2l2,0.3l2,0.9l1.3,0.9l1.2,1.1l0.8,1.2l0.8,1.4l6.7-17.9L491.5,367.8z" />
-                                    <path id="A-50" class="st0 mapsvg-region" d="M553.7,353.1l-6.5,17.3l-55.7-2.6l6-16.8L553.7,353.1z" />
-                                    <path id="A-51" class="st0 mapsvg-region" d="M560.2,335.7l-6.5,17.4l-56.3-2.1l6.7-17.9L560.2,335.7z" />
-                                    <path id="A-52" class="st0 mapsvg-region" d="M510.5,316l-6.5,17.1l56,2.6l6.5-17.3L510.5,316z" />
-                                    <path id="A-53" class="st0 mapsvg-region" d="M516.8,299l-6.2,17l56.2,2.4l6.2-17L516.8,299z" />
-                                    <path id="A-54" class="st0 mapsvg-region" d="M523,281.6l-6.2,17.4l56.2,2.6l6.7-17.3L523,281.6z" />
-                                    <path id="A-55" class="st0 mapsvg-region" d="M529.3,264.8l-6.3,16.8l56.5,2.6l6.5-16.8L529.3,264.8z" />
-                                    <path id="A-56" class="st0 mapsvg-region" d="M535.8,247.2l-6.5,17.6l56.7,2.6l6.3-17.6L535.8,247.2z" />
-                                    <path id="A-57" class="st0 mapsvg-region" d="M535.8,247.4l56.5,2.6l6.5-17l-56.8-2.4L535.8,247.4z" />
-                                    <path id="A-58" class="st0 mapsvg-region" d="M605.2,216l-6.5,17l-56.8-2.4l6.5-17.1L605.2,216z" />
-                                    <path id="A-59" class="st0 mapsvg-region" d="M555.3,194.5l-7,18.9l56.8,2.6l2.2-6.2l0.2-2.1l-0.7-2.6l-1-2.3l-2.3-2.7l-2.2-1.4l-1.2-0.8l-3.3-1.7L555.3,194.5z" />
-                                    <path id="A-48" class="st0 mapsvg-region" d="M555.3,194.5l-7.2,19.7l-57-2.6l4.2-11.1l2-2.9l2.3-2.3l3.3-1.7l3-0.5l4.7,0.2l1-0.2l0.2-0.8L555.3,194.5z" />
-                                    <path id="A-47" class="st0 mapsvg-region" d="M548.2,214.2l-6.5,17.1l-56.5-2.6l6.2-17.1L548.2,214.2z" />
-                                    <path id="A-46" class="st0 mapsvg-region" d="M535.7,247.7l6-16.2l-56.5-2.6l-6,16.5L535.7,247.7z" />
-                                    <path id="A-45" class="st0 mapsvg-region" d="M529,265.7l6.7-18l-56.5-2.3l-6.3,17.9L529,265.7z" />
-                                    <path id="A-44" class="st0 mapsvg-region" d="M529,265.7l-6.3,17l-56.2-2.6l6-16.8L529,265.7z" />
-                                    <path id="A-43" class="st0 mapsvg-region" d="M522.8,282.5l-6.2,17.4l-56.2-2.7l6.3-17.3L522.8,282.5z" />
-                                    <path id="A-42" class="st0 mapsvg-region" d="M516.5,299.9l-6.2,17.1l-56.3-2.7l6.3-17L516.5,299.9z" />
-                                    <path id="A-41" class="st0 mapsvg-region" d="M510.3,316.9l-6.5,17.4l-55.8-2.9l6-17.3L510.3,316.9z" />
-                                    <path id="A-40" class="st0 mapsvg-region" d="M503.7,334.3l-6.3,16.8l-5.3,0.3l-1.2-2.3l-1.8-2l-2.2-1.4l-3-0.8h-3.2l-2.3,0.6l-2.3,1.4l-1.8,1.5l-1,1.8l-31.3-1.4l6.2-17.4L503.7,334.3z" />
-                                    <path id="A-128" class="st0 mapsvg-region" d="M526.7,564.8l54.2,0.2v18.5l-54.2-0.2V564.8z" />
-                                    <path id="A-129" class="st0 mapsvg-region" d="M581,583.6l0.2,17.4l-54.2-0.3v-17.1H581z" />
-                                    <path id="A-130" class="st0 mapsvg-region" d="M581,601l0.2,17.6l-54.3-0.3v-17.6L581,601z" />
-                                    <path id="A-131" class="st0 mapsvg-region" d="M581,635.9l0.2-17.4l-54.3-0.3v17.4L581,635.9z" />
-                                    <path id="A-132" class="st0 mapsvg-region" d="M580.8,635.7v17.7l-53.8-0.2l-0.2-17.7L580.8,635.7z" />
-                                    <path id="A-133" class="st0 mapsvg-region" d="M581.2,670.7l-0.2-17.3l-53.8-0.2v17.4H581.2z" />
-                                    <path id="A-134" class="st0 mapsvg-region" d="M581.2,670.7l-0.2,17.7l-54.2-0.3l0.2-17.4H581.2z" />
-                                    <path id="A-135" class="st0 mapsvg-region" d="M526.8,688l54.2,0.3V717l-1.2-4.5l-1.5-2.3l-2.7-2.3l-2.5-1.4l-4-0.9l-3-0.3h-33.7l-2-0.6l-1.2-0.8l-1.3-1.5l-0.5-0.9l-0.3-1.5v-12H526.8z" />
-                                    <path id="A-219" class="st0 mapsvg-region" d="M475.1,721.7h-18v52.6l17.6,0.2L475.1,721.7z" />
-                                    <path id="A-220" class="st0 mapsvg-region" d="M457.3,721.7l-19.6,0.2l0.3,52.6l19.1-0.2L457.3,721.7z" />
-                                    <path id="A-221" class="st0 mapsvg-region" d="M437.8,721.8L418,722l-0.2,52.4l20,0.2L437.8,721.8L437.8,721.8z" />
-                                    <path id="A-223" class="st0 mapsvg-region" d="M418,721.8l-20.1-0.3l0.2,52.7l19.8,0.3L418,721.8z" />
-                                    <path id="A-224" class="st0 mapsvg-region" d="M398.1,722v52.4l-19.8-0.2v-52.6L398.1,722z" />
-                                    <path id="A-225" class="st0 mapsvg-region" d="M358.5,722l20.1,0.2l-0.2,52.4h-20V722z" />
-                                    <path id="A-226" class="st0 mapsvg-region" d="M358.8,722.1l-0.3,52.4l-19.6-0.2v-52.3H358.8z" />
-                                    <path id="A-227" class="st0 mapsvg-region" d="M338.3,721.8l0.7,52.6l-20.5,0.2l0.3-52.6L338.3,721.8z" />
-                                    <path id="A-228" class="st0 mapsvg-region" d="M299.4,721.5l19.5,0.3l0.3,52.6h-20.1L299.4,721.5z" />
-                                    <path id="A-229" class="st0 mapsvg-region" d="M279.3,722h20.1v52.1h-20.3L279.3,722z" />
-                                    <path id="A-230" class="st0 mapsvg-region" d="M259.5,721.8h19.5v52.3l-19.6,0.3L259.5,721.8z" />
-                                    <path id="A-231" class="st0 mapsvg-region" d="M259.5,722l0.3,52.3h-20l-0.2-52.4L259.5,722z" />
-                                    <path id="A-232" class="st0 mapsvg-region" d="M219.9,722l20.1,0.2v52.4h-20.1L219.9,722z" />
-                                    <path id="A-233" class="st0 mapsvg-region" d="M219.7,722l0.5,52.6l-19.8-0.2l-0.2-52.4H219.7z" />
-                                    <path id="A-234" class="st0 mapsvg-region" d="M200.1,722.1l0.2,52.3l-20.3,0.3l0.2-53L200.1,722.1z" />
-                                    <path id="A-235" class="st0 mapsvg-region" d="M160.8,774.1l19.1,0.3v-53h-19.3L160.8,774.1z" />
-                                    <path id="A-236" class="st0 mapsvg-region" d="M160.3,721.8l0.2,52.4l-19.8,0.2v-52.6H160.3z" />
-                                    <path id="A-237" class="st0 mapsvg-region" d="M141.4,774.5h-20.6V722l20-0.2L141.4,774.5z" />
-                                    <path id="A-238" class="st0 mapsvg-region" d="M120.4,722v52.6h-20l-0.2-52.9L120.4,722z" />
-                                    <path id="A-240" class="st0 mapsvg-region" d="M82.6,721.8l17.4-0.2l0.2,52.9l-18,0.2L82.6,721.8z" />
-                                    <path id="A-241" class="st0 mapsvg-region" d="M83,721.7H64.5l0.2,53.2l17.6-0.2L83,721.7z" />
-                                    <path id="A-137" class="st0 mapsvg-region" d="M452,682.9v18.2l46-0.3l2.2-0.3l1.8-1.4l1.7-1.4l1.2-2.3l0.7-2.1v-10.6L452,682.9z" />
-                                    <path id="A-138" class="st0 mapsvg-region" d="M505.3,665v17.9l-53.2-0.2v-17.6L505.3,665z" />
-                                    <path id="A-139" class="st0 mapsvg-region" d="M505.3,648v17l-53.2,0.3l-0.2-17.6L505.3,648z" />
-                                    <path id="A-140" class="st0 mapsvg-region" d="M452.2,630.3l-0.3,17.4l53.3,0.2l0.2-17.6H452.2z" />
-                                    <path id="A-141" class="st0 mapsvg-region" d="M505.5,613v17.3h-53.2l-0.2-17.4L505.5,613z" />
-                                    <path id="A-142" class="st0 mapsvg-region" d="M505.5,595.6V613l-53.3-0.2v-17.4L505.5,595.6z" />
-                                    <path id="A-143" class="st0 mapsvg-region" d="M452.2,578.3v17.3l53.3,0.2V578L452.2,578.3z" />
-                                    <path id="A-144" class="st0 mapsvg-region" d="M452,560.4v17.7l53.3-0.5v-17.3L452,560.4z" />
-                                    <path id="A-145" class="st0 mapsvg-region" d="M452,542.2v17.6l53.3,0.2l-0.2-17.6L452,542.2z" />
-                                    <path id="A-156" class="st0 mapsvg-region" d="M397.9,507.5l54.7-0.2v18.9l-54.7-0.3V507.5z" />
-                                    <path id="A-155" class="st0 mapsvg-region" d="M452.2,543l0.2-16.7l-54.7-0.3v16.8L452.2,543z" />
-                                    <path id="A-154" class="st0 mapsvg-region" d="M452.2,543l-0.2,17.4h-54.2v-17.6L452.2,543z" />
-                                    <path id="A-153" class="st0 mapsvg-region" d="M452.2,560.6v17.7l-54.3-0.2v-17.7L452.2,560.6z" />
-                                    <path id="A-152" class="st0 mapsvg-region" d="M452.2,595.6v-17.4l-54.3-0.2v17.6H452.2z" />
-                                    <path id="A-151" class="st0 mapsvg-region" d="M452.2,595.7L452.2,595.7v17.1l-54.3,0.2v-17.3H452.2z" />
-                                    <path id="A-150" class="st0 mapsvg-region" d="M451.4,612.9l0.2,17.4l-54.3,0.3v-17.7H451.4z" />
-                                    <path id="A-149" class="st0 mapsvg-region" d="M452.5,630.4l-0.3,17.4l-54,0.2v-17.3L452.5,630.4z" />
-                                    <path id="A-148" class="st0 mapsvg-region" d="M452,647.7v17.7l-54.2,0.2V648L452,647.7z" />
-                                    <path id="A-147" class="st0 mapsvg-region" d="M398,665.4v18.2l54.2-0.2v-18.2L398,665.4z" />
-                                    <path id="A-146" class="st0 mapsvg-region" d="M452.2,683.6l-0.2,17.6l-46.5-0.5l-1.7-0.6l-1.7-1.2l-1.8-1.7l-1.2-1.8l-0.8-2.3l-0.3-1.8v-7.6L452.2,683.6z" />
-                                    <path id="A-169" class="st0 mapsvg-region" d="M323.5,472.7l53.5-0.2V491l-53.7-0.2L323.5,472.7z" />
-                                    <path id="A-168" class="st0 mapsvg-region" d="M376.9,490.9l0.2,17.7l-53.7-0.2v-17.6H376.9z" />
-                                    <path id="A-167" class="st0 mapsvg-region" d="M376.9,508.6v17.7l-53.2-0.6l-0.3-17.3L376.9,508.6z" />
-                                    <path id="A-166" class="st0 mapsvg-region" d="M377,543.6v-17.3l-53.2-0.6l-0.3,17.9H377z" />
-                                    <path id="A-165" class="st0 mapsvg-region" d="M377,543.6v17.3h-53.7v-17.3H377z" />
-                                    <path id="A-164" class="st0 mapsvg-region" d="M377,578.5v-17.6h-53.7l-0.2,17.6H377z" />
-                                    <path id="A-163" class="st0 mapsvg-region" d="M377,578.3v17.6l-53.5,0.2l-0.3-17.4L377,578.3z" />
-                                    <path id="A-162" class="st0 mapsvg-region" d="M323.5,595.7l53.5,0.2V613l-53.7,0.2L323.5,595.7z" />
-                                    <path id="A-161" class="st0 mapsvg-region" d="M376.9,630.4V613l-53.7,0.2v17.4L376.9,630.4z" />
-                                    <path id="A-160" class="st0 mapsvg-region" d="M377,648.3v-17.9l-53.7,0.2v17.6L377,648.3z" />
-                                    <path id="A-159" class="st0 mapsvg-region" d="M377,665.7v-17.4l-53.7-0.2v17.7H377V665.7z" />
-                                    <path id="A-158" class="st0 mapsvg-region" d="M377,683.3v-17.6h-53.7v17.6H377z" />
-                                    <path id="A-157" class="st0 mapsvg-region" d="M323.4,683.3H377v10.6l-0.7,2.6l-0.8,1.4l-1.2,1.4l-2,1.2l-1.5,0.5l-1.8,0.5h-45.5v-18H323.4z" />
-                                    <path id="A-183" class="st0 mapsvg-region" d="M269.4,455h54.5l-0.3,17.7l-54,0.2V455H269.4z" />
-                                    <path id="A-182" class="st0 mapsvg-region" d="M269.5,472.8l54-0.2l-0.2,18.2l-54.2,0.2L269.5,472.8z" />
-                                    <path id="A-181" class="st0 mapsvg-region" d="M269.7,508.5l53.7-0.2v-17.6l-54.2,0.2L269.7,508.5z" />
-                                    <path id="A-180" class="st0 mapsvg-region" d="M269.5,526.2l54.3-0.6l-0.3-17.3l-53.7,0.2L269.5,526.2z" />
-                                    <path id="A-179" class="st0 mapsvg-region" d="M323.5,543.6l0.2-17.9l-54.3,0.6v17.1L323.5,543.6z" />
-                                    <path id="A-178" class="st0 mapsvg-region" d="M269.5,543.6h54.2l-0.2,17.4l-54-0.2L269.5,543.6L269.5,543.6z" />
-                                    <path id="A-177" class="st0 mapsvg-region" d="M269.5,578.3v-17.4l54,0.2l-0.2,17.6L269.5,578.3z" />
-                                    <path id="A-176" class="st0 mapsvg-region" d="M269.5,595l54.2,0.2l-0.3-17.3l-53.8-0.3V595z" />
-                                    <path id="A-175" class="st0 mapsvg-region" d="M269.5,595.6l54.2,0.2l-0.3,17.4h-53.8V595.6z" />
-                                    <path id="A-174" class="st0 mapsvg-region" d="M269.5,613.2h53.7v17.4l-53.8,0.2v-17.6H269.5z" />
-                                    <path id="A-173" class="st0 mapsvg-region" d="M269.5,647.9v-17.1l53.8-0.2v17.6L269.5,647.9z" />
-                                    <path id="A-172" class="st0 mapsvg-region" d="M269.7,648l53.7,0.2v17.7h-53.8L269.7,648z" />
-                                    <path id="A-171" class="st0 mapsvg-region" d="M323.4,665.7v17.6l-53.8-0.3v-17.3H323.4z" />
-                                    <path id="A-170" class="st0 mapsvg-region" d="M323.4,683.3v18.2l-45-0.2l-2-0.6l-1.7-0.9l-1.2-0.8l-1.2-1.1l-0.7-0.9l-0.7-1.2l-0.7-1.2l-0.5-0.9l-0.3-1.4V683L323.4,683.3z" />
-                                    <path id="A-195" class="st0 mapsvg-region" d="M194.7,489.5l54.3,0.3V508l-54.3-0.2V489.5z" />
-                                    <path id="A-194" class="st0 mapsvg-region" d="M249,526.2v-18l-54.3-0.2l-0.2,18.2H249z" />
-                                    <path id="A-193" class="st0 mapsvg-region" d="M249,542.9v-16.7h-54.5V543L249,542.9z" />
-                                    <path id="A-192" class="st0 mapsvg-region" d="M249,542.9v17.9l-54.3-0.3V543L249,542.9z" />
-                                    <path id="A-191" class="st0 mapsvg-region" d="M249,578.2v-17.6l-54.3-0.3v17.6L249,578.2z" />
-                                    <path id="A-190" class="st0 mapsvg-region" d="M249,595.4v-17.3l-54.3-0.2v17.4H249z" />
-                                    <path id="A-189" class="st0 mapsvg-region" d="M249.2,612.9l-0.2-17.4l-54.3-0.2v17.4L249.2,612.9z" />
-                                    <path id="A-188" class="st0 mapsvg-region" d="M249.2,612.7l-0.2,17.9l-54.3-0.3v-17.6L249.2,612.7L249.2,612.7z" />
-                                    <path id="A-187" class="st0 mapsvg-region" d="M194.7,630.3l54.3,0.3V648l-54.2-0.2L194.7,630.3z" />
-                                    <path id="A-186" class="st0 mapsvg-region" d="M194.9,647.7l0.2,17.4l54.2-0.2v-17L194.9,647.7z" />
-                                    <path id="A-185" class="st0 mapsvg-region" d="M195,665v18l53.8-0.2v-18L195,665z" />
-                                    <path id="A-184" class="st0 mapsvg-region" d="M249,682.9v8.8l-0.3,2.3l-1.3,2.4l-2.2,2.3l-1.5,0.9l-2.7,0.8l-45.7,0.3l-0.2-17.4L249,682.9z" />
-                                    <path id="A-196" class="st0 mapsvg-region" d="M195.4,682.3l-0.2,18.2l-45.7,0.2l-2.7-0.6l-1.5-1.1l-1.2-0.8l-0.7-0.8l-0.8-1.1l-0.5-0.9l-0.5-1.2l-0.3-1.7v-10.3H195.4z" />
-                                    <path id="A-197" class="st0 mapsvg-region" d="M195,664.1l0.3,18l-54,0.2v-18H195V664.1z" />
-                                    <path id="A-198" class="st0 mapsvg-region" d="M194.9,646.8l0.2,17.4h-53.5v-17.4H194.9z" />
-                                    <path id="A-199" class="st0 mapsvg-region" d="M141.5,629.4l53.3-0.2v17.6h-53.3V629.4z" />
-                                    <path id="A-200" class="st0 mapsvg-region" d="M141.9,612l52.8,0.8l0.2,16.7l-53.3,0.2L141.9,612z" />
-                                    <path id="A-201" class="st0 mapsvg-region" d="M141.5,594.8l0.2,17.1l52.8,0.8v-18.3L141.5,594.8z" />
-                                    <path id="A-202" class="st0 mapsvg-region" d="M194.9,577.2v17.1l-53.3,0.5v-17.7L194.9,577.2z" />
-                                    <path id="A-203" class="st0 mapsvg-region" d="M141.5,559.5h53.2v17.7l-53.2-0.2V559.5z" />
-                                    <path id="A-204" class="st0 mapsvg-region" d="M141.5,542.2v17.1h53.2v-17.4L141.5,542.2z" />
-                                    <path id="A-205" class="st0 mapsvg-region" d="M194.7,542.2h-53.2l0.2-17.1h52.8L194.7,542.2z" />
-                                    <path id="A-215" class="st0 mapsvg-region" d="M64.5,524.8l2,0.5l2.2,0.2l1.5-0.5l2-0.8l46.8,0.2v18.5l-54.5-0.2V524.8z" />
-                                    <path id="A-214" class="st0 mapsvg-region" d="M64.5,542.7l54.5,0.2v17.4l-54.5-0.2V542.7z" />
-                                    <path id="A-213" class="st0 mapsvg-region" d="M64.5,560l54.5,0.2v17.7l-54.3-0.3L64.5,560z" />
-                                    <path id="A-212" class="st0 mapsvg-region" d="M64,577.4l54.3,0.5v17.3L63.9,595L64,577.4z" />
-                                    <path id="A-211" class="st0 mapsvg-region" d="M64.5,594.8l54.5,0.3v17.7l-54.5-0.5V594.8z" />
-                                    <path id="A-210" class="st0 mapsvg-region" d="M64.5,612.4l54.3,0.5V630l-54.5-0.2L64.5,612.4z" />
-                                    <path id="A-209" class="st0 mapsvg-region" d="M64.5,629.8l54.5,0.3v17.4l-54.5,0.2V629.8z" />
-                                    <path id="A-208" class="st0 mapsvg-region" d="M119,647.4l0.2,17.9l-54.7-0.2v-17.6L119,647.4z" />
-                                    <path id="A-207" class="st0 mapsvg-region" d="M119,664.8v17.6l-54.3,0.2L64.5,665L119,664.8z" />
-                                    <path id="A-206" class="st0 mapsvg-region" d="M119,682.7v9.2l-0.5,2.3l-1,1.8l-1.2,1.4l-2.2,1.4l-1.8,0.6l-48,0.2l0.2-16.8H119z" />
-                                    <rect class="cls-48" x="700" y="650" width="27.04" height="27.04"></rect>
-                                    <rect class="cls-49" x="700" y="685" width="27.04" height="27.04"></rect>
-                                    <rect class="cls-50" x="700" y="720" width="27.04" height="27.04"></rect>
-                                </g>
-                                <g id="Capa_3">
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 96.0001 408)" class="st1">A-01</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 102.4547 392)" class="st1">A-02</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 108.9091 375)" class="st1">A-03</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 115.3637 358)" class="st1">A-04</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 121.8183 341)" class="st1">A-05</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 128.2728 324)" class="st1">A-06</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 134.7274 306)" class="st1">A-07</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 141.1818 288)" class="st1">A-08</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 147.6364 270)" class="st1">A-09</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 154.091 254)" class="st1">A-10</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 160.5455 238)" class="st1">A-11</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 167.0001 221)" class="st1">A-12</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 200.0001 342)" class="st1">A-13</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 206.8573 324)" class="st1">A-14</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 213.7143 306)" class="st1">A-15</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 220.5715 290)" class="st1">A-16</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 227.4287 275)" class="st1">A-17</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 234.2858 256)" class="st1">A-18</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 241.1428 238)" class="st1">A-19</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 248 223)" class="st1">A-20</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 268 328)" class="st1">A-21</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 273.3335 309)" class="st1">A-22</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 278.6667 293)" class="st1">A-23</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 284 276)" class="st1">A-24</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 289.3335 260)" class="st1">A-25</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 294.6667 242)" class="st1">A-26</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 300 224)" class="st1">A-27</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 348 316)" class="st1">A-28</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 354 298)" class="st1">A-29</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 360 280)" class="st1">A-30</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 366 264)" class="st1">A-31</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 372 246)" class="st1">A-32</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 378 230)" class="st1">A-33</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 396 318)" class="st1">A-34</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 402 300)" class="st1">A-35</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 408 284)" class="st1">A-36</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 416 266)" class="st1">A-37</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 420 248)" class="st1">A-38</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 424 232)" class="st1">A-39</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 460 344)" class="st1">A-40</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 466 326.725)" class="st1">A-41</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 472 309.4498)" class="st1">A-42</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 479 292.1747)" class="st1">A-43</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 486 274.8997)" class="st1">A-44</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 492 257.6246)" class="st1">A-45</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 498 240.3497)" class="st1">A-46</text>
-                                    <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 504.9743 222.8961)" class="st1 st3">A-47</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 510.5999 205.7996)" class="st1">A-48</text>
-                                    <text transform="matrix(1 0 0 1 540 577)" class="st1">A-128</text>
-                                    <text transform="matrix(1 0 0 1 540 595)" class="st1">A-129</text>
-                                    <text transform="matrix(1 0 0 1 540 613)" class="st1">A-130</text>
-                                    <text transform="matrix(1 0 0 1 540 629)" class="st1">A-131</text>
-                                    <text transform="matrix(1 0 0 1 540 647)" class="st1">A-132</text>
-                                    <text transform="matrix(1 0 0 1 540 665)" class="st1">A-133</text>
-                                    <text transform="matrix(1 0 0 1 540 683)" class="st1">A-134</text>
-                                    <text transform="matrix(1 0 0 1 540 701)" class="st1">A-135</text>
-                                    <text transform="matrix(1 0 0 1 466 556)" class="st1">A-145</text>
-                                    <text transform="matrix(1 0 0 1 466 573.5)" class="st1">A-144</text>
-                                    <text transform="matrix(1 0 0 1 466 591)" class="st1">A-143</text>
-                                    <text transform="matrix(1 0 0 1 466 608.5)" class="st1">A-142</text>
-                                    <text transform="matrix(1 0 0 1 466 626)" class="st1">A-141</text>
-                                    <text transform="matrix(1 0 0 1 466 643.5)" class="st1">A-140</text>
-                                    <text transform="matrix(1 0 0 1 466 661)" class="st1">A-139</text>
-                                    <text transform="matrix(1 0 0 1 466 678.5)" class="st1">A-138</text>
-                                    <text transform="matrix(1 0 0 1 466 696)" class="st1">A-137</text>
-                                    <text transform="matrix(1 0 0 1 412 520)" class="st1">A-156</text>
-                                    <text transform="matrix(1 0 0 1 412 537.6)" class="st1">A-155</text>
-                                    <text transform="matrix(1 0 0 1 412 555.2)" class="st1">A-154</text>
-                                    <text transform="matrix(1 0 0 1 412 572.8)" class="st1">A-153</text>
-                                    <text transform="matrix(1 0 0 1 412 590.4)" class="st1">A-152</text>
-                                    <text transform="matrix(1 0 0 1 412 608)" class="st1">A-151</text>
-                                    <text transform="matrix(1 0 0 1 412 625.6)" class="st1">A-150</text>
-                                    <text transform="matrix(1 0 0 1 412 643.2)" class="st1">A-149</text>
-                                    <text transform="matrix(1 0 0 1 412 660.8)" class="st1">A-148</text>
-                                    <text transform="matrix(1 0 0 1 412 678.4)" class="st1">A-147</text>
-                                    <text transform="matrix(1 0 0 1 412 696)" class="st1">A-146</text>
-                                    <text transform="matrix(1 0 0 1 336 485)" class="st1">A-169</text>
-                                    <text transform="matrix(1 0 0 1 336 502.5833)" class="st1">A-168</text>
-                                    <text transform="matrix(1 0 0 1 336 520.1666)" class="st1">A-167</text>
-                                    <text transform="matrix(1 0 0 1 336 537.75)" class="st1">A-166</text>
-                                    <text transform="matrix(1 0 0 1 336 555.3334)" class="st1">A-165</text>
-                                    <text transform="matrix(1 0 0 1 336 572.9166)" class="st1">A-164</text>
-                                    <text transform="matrix(1 0 0 1 336 590.5)" class="st1">A-163</text>
-                                    <text transform="matrix(1 0 0 1 336 608.0834)" class="st1">A-162</text>
-                                    <text transform="matrix(1 0 0 1 336 625.6666)" class="st1">A-161</text>
-                                    <text transform="matrix(1 0 0 1 336 643.25)" class="st1">A-160</text>
-                                    <text transform="matrix(1 0 0 1 336 660.8334)" class="st1">A-159</text>
-                                    <text transform="matrix(1 0 0 1 336 678.4166)" class="st1">A-158</text>
-                                    <text transform="matrix(1 0 0 1 336 696)" class="st1">A-157</text>
-                                    <text transform="matrix(1 0 0 1 284 467)" class="st1">A-183</text>
-                                    <text transform="matrix(1 0 0 1 284 484.6154)" class="st1">A-182</text>
-                                    <text transform="matrix(1 0 0 1 284 502.2308)" class="st1">A-181</text>
-                                    <text transform="matrix(1 0 0 1 284 519.8462)" class="st1">A-180</text>
-                                    <text transform="matrix(1 0 0 1 284 537.4615)" class="st1">A-179</text>
-                                    <text transform="matrix(1 0 0 1 284 555.0769)" class="st1">A-178</text>
-                                    <text transform="matrix(1 0 0 1 284 572.6923)" class="st1">A-177</text>
-                                    <text transform="matrix(1 0 0 1 284 590.3077)" class="st1">A-176</text>
-                                    <text transform="matrix(1 0 0 1 284 607.9231)" class="st1">A-175</text>
-                                    <text transform="matrix(1 0 0 1 284 625.5385)" class="st1">A-174</text>
-                                    <text transform="matrix(1 0 0 1 284 643.1538)" class="st1">A-173</text>
-                                    <text transform="matrix(1 0 0 1 284 660.7692)" class="st1">A-172</text>
-                                    <text transform="matrix(1 0 0 1 284 678.3846)" class="st1">A-171</text>
-                                    <text transform="matrix(1 0 0 1 284 696)" class="st1">A-170</text>
-                                    <text transform="matrix(1 0 0 1 208 503)" class="st1">A-195</text>
-                                    <text transform="matrix(1 0 0 1 208 520.5454)" class="st1">A-194</text>
-                                    <text transform="matrix(1 0 0 1 208 538.0909)" class="st1">A-193</text>
-                                    <text transform="matrix(1 0 0 1 208 555.6364)" class="st1">A-192</text>
-                                    <text transform="matrix(1 0 0 1 208 573.1818)" class="st1">A-191</text>
-                                    <text transform="matrix(1 0 0 1 208 590.7273)" class="st1">A-190</text>
-                                    <text transform="matrix(1 0 0 1 208 608.2727)" class="st1">A-189</text>
-                                    <text transform="matrix(1 0 0 1 208 625.8182)" class="st1">A-188</text>
-                                    <text transform="matrix(1 0 0 1 208 643.3636)" class="st1">A-187</text>
-                                    <text transform="matrix(1 0 0 1 208 660.9091)" class="st1">A-186</text>
-                                    <text transform="matrix(1 0 0 1 208 678.4546)" class="st1">A-185</text>
-                                    <text transform="matrix(1 0 0 1 208 696)" class="st1">A-184</text>
-                                    <text transform="matrix(1 0 0 1 154 538)" class="st1">A-205</text>
-                                    <text transform="matrix(1 0 0 1 154 555.5555)" class="st1">A-204</text>
-                                    <text transform="matrix(1 0 0 1 154 573.1111)" class="st1">A-203</text>
-                                    <text transform="matrix(1 0 0 1 154 590.6666)" class="st1">A-202</text>
-                                    <text transform="matrix(1 0 0 1 154 608.2222)" class="st1">A-201</text>
-                                    <text transform="matrix(1 0 0 1 154 625.7778)" class="st1">A-200</text>
-                                    <text transform="matrix(1 0 0 1 154 643.3334)" class="st1">A-199</text>
-                                    <text transform="matrix(1 0 0 1 154 660.8889)" class="st1">A-198</text>
-                                    <text transform="matrix(1 0 0 1 154 678.4445)" class="st1">A-197</text>
-                                    <text transform="matrix(1 0 0 1 154 696)" class="st1">A-196</text>
-                                    <text transform="matrix(1 0 0 1 78 538)" class="st1">A-215</text>
-                                    <text transform="matrix(1 0 0 1 78 555.5555)" class="st1">A-214</text>
-                                    <text transform="matrix(1 0 0 1 78 573.1111)" class="st1">A-213</text>
-                                    <text transform="matrix(1 0 0 1 78 590.6666)" class="st1">A-212</text>
-                                    <text transform="matrix(1 0 0 1 78 608.2222)" class="st1">A-211</text>
-                                    <text transform="matrix(1 0 0 1 78 625.7778)" class="st1">A-210</text>
-                                    <text transform="matrix(1 0 0 1 78 643.3334)" class="st1">A-209</text>
-                                    <text transform="matrix(1 0 0 1 78 660.8889)" class="st1">A-208</text>
-                                    <text transform="matrix(1 0 0 1 78 678.4445)" class="st1">A-207</text>
-                                    <text transform="matrix(1 0 0 1 78 696)" class="st1">A-206</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 572 771)" class="st1">A-236</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 546 767)" class="st1">A-242</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 524 767)" class="st1">A-216</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 506 767)" class="st1">A-217</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 488 767)" class="st1">A-218</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 470 767)" class="st1">A-219</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 452 767)" class="st1">A-220</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 432 767)" class="st1">A-221</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 412 767)" class="st1">A-223</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 394 767)" class="st1">A-224</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 374 767)" class="st1">A-225</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 354 767)" class="st1">A-226</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 334 767)" class="st1">A-227</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 314 767)" class="st1">A-228</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 294 767)" class="st1">A-229</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 274 767)" class="st1">A-230</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 254 767)" class="st1">A-231</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 234 767)" class="st1">A-232</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 214 767)" class="st1">A-233</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 194 767)" class="st1">A-234</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 174 767)" class="st1">A-235</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 154 767)" class="st1">A-236</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 134 767)" class="st1">A-237</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 114 767)" class="st1">A-238</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 96 767)" class="st1">A-240</text>
-                                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 78 767)" class="st1">A-241</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 514.9999 345.7599)" class="st1">A-51</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 508 362.8799)" class="st1">A-50</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 501 380)" class="st1">A-49</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 520.9999 328.6399)" class="st1">A-52</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 526.9999 311.52)" class="st1">A-53</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 533.9999 294.3995)" class="st1">A-54</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 540.9999 277.2795)" class="st1">A-55</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 546.9999 260.1597)" class="st1">A-56</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 552.9999 243.0394)" class="st1">A-57</text>
-                                    <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 559.9737 225.7406)" class="st1 st3">A-58</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 565.5999 208.7996)" class="st1">A-59</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 592.9999 351)" class="st1">A-66</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 598.9999 333.725)" class="st1">A-67</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 604.9999 316.4498)" class="st1">A-68</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 611.9999 299.1747)" class="st1">A-69</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 618.9999 281.8997)" class="st1">A-70</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 624.9999 264.6246)" class="st1">A-71</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 630.9999 247.3497)" class="st1">A-72</text>
-                                    <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 637.9743 229.8961)" class="st1 st3">A-73</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 643.5999 212.7996)" class="st1">A-74</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 647.9999 352.7599)" class="st1">A-81</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 640.9999 369.8799)" class="st1">A-80</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 633.9999 387)" class="st1">A-79</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 653.9999 335.6399)" class="st1">A-82</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 622.9999 419.7599)" class="st1">A-77</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 615.9999 436.8799)" class="st1">A-76</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 608.9999 454)" class="st1">A-75</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 628.9999 402.6399)" class="st1">A-78</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 587.9999 366.8799)" class="st1">A-65</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 580.9999 384)" class="st1">A-64</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 569.9999 416.7599)" class="st1">A-62</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 562.9999 433.8799)" class="st1">A-61</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 555.9999 451)" class="st1">A-60</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 575.9999 399.6399)" class="st1">A-63</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 659.9999 318.52)" class="st1">A-83</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 666.9999 301.3995)" class="st1">A-84</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 673.9999 284.2795)" class="st1">A-85</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 679.9999 267.1597)" class="st1">A-86</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 685.9999 250.0394)" class="st1">A-87</text>
-                                    <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 692.9737 232.7406)" class="st1 st3">A-88</text>
-                                    <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 698.5999 215.7996)" class="st1">A-89</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 187.2465 157.6526)" class="st1">A-90</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 248.2465 160.6526)" class="st1">A-91</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 270.2465 160.6526)" class="st1">A-92</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 462.2465 170.1526)" class="st1">A-96</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 479.2465 171.6526)" class="st1">A-97</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 504.2465 160.2952)" class="st1">A-98</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 521.2465 159.6526)" class="st1">A-99</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 540.2465 160.9387)" class="st1">A-100</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 558.2465 161.5813)" class="st1">A-101</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 576.2465 162.2239)" class="st1">A-102</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 614.2465 163.51)" class="st1">A-104</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 632.2465 164.1526)" class="st1">A-105</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 651.2465 164.7952)" class="st1">A-106</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 671.2465 165.4387)" class="st1">A-107</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 690.2465 166.0813)" class="st1">A-108</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 725.2465 166.7239)" class="st1">A-110</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 746.2465 167.3665)" class="st1">A-111</text>
-                                    <text transform="matrix(0.3681 -0.9298 0.9298 0.3681 781.6599 181.7174)" class="st1">A-113</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 763.2465 168.6526)" class="st1">A-112</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 708.2465 168.01)" class="st1">A-109</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 595.2465 162.8665)" class="st1">A-103</text>
-                                    <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 443.2465 168.6526)" class="st1">A-95 </text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 706.6445 371.2744)" class="st1 st4">A-122</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 700.3107 389.0099)" class="st1 st4">A-123</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 712.9791 354.5395)" class="st1 st4">A-121</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 687.6406 422.8549)" class="st1 st4">A-125</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 681.3049 439.5901)" class="st1 st4">A-126</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 674.9717 455.3257)" class="st1 st4">A-127</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 693.9757 406.1202)" class="st1 st4">A-124</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 719.3137 337.8044)" class="st1 st4">A-120</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 725.6494 320.0689)" class="st1 st4">A-119</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 731.9846 301.3339)" class="st1 st4">A-118</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 738.3192 285.599)" class="st1 st4">A-117</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 744.6533 267.8635)" class="st1 st4">A-116</text>
-                                    <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 750.9764 251.9636)" class="st1 st4">A-115</text>
-                                    <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 757.3232 236.3932)" class="st1 st4">A-114</text>
-                                    <text class="cls-46" transform="translate(740 670)">Premium</text>
-                                    <text class="cls-46" transform="translate(740 705)">Plus</text>
-                                    <text class="cls-46" transform="translate(740 740)">Estandar </text>
-                                </g>
-                                <g id="area_selection_1">
-                                    <path data-id="A-12" class="st2 " d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" />
-                                    <path data-id="A-11" class="st2 " d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
-                                    <path data-id="A-10" class="st2 " d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
-                                    <path data-id="A-09" class="st2 " d="M130.4,274.5l6-16.7l55.7,2.9l-6.3,17l-11.2-0.8" />
-                                    <path data-id="A-08" class="st2 " d="M130,274.5l56,2.7l-6.7,17.9l-55.8-2.9l2.3-6.2l2-5.5" />
-                                    <path data-id="A-07" class="st2 " d="M123.5,292.1l55.8,2.9l-6.3,17l-55.7-3L123.5,292.1z" />
-                                    <path data-id="A-06" class="st2 " d="M173,312.1l-6.2,17.1l-56-3l6.5-17.1L173,312.1z" />
-                                    <path data-id="A-05" class="st2 " d="M111,326.2l55.8,3l-6.3,17.1l-56.2-2.7L111,326.2z" />
-                                    <path data-id="A-04" class="st2 " d="M104.4,343.6l56.2,2.7l-6.7,17.9l-56-3L104.4,343.6z" />
-                                    <path data-id="A-03" class="st2 " d="M154,364.2l-6.2,16.7L92,377.7l6.2-16.7L154,364.2z" />
-                                    <path data-id="A-02" class="st2 " d="M147.4,381l-6.3,17.1l-56.2-3l6.7-17.4L147.4,381z" />
-                                    <path data-id="A-01" class="st2 " d="M85.4,395.1l56.2,2.9l-6.2,17l-56.3-3L85.4,395.1z" />
-                                    <path data-id="A-90" class="st2 " d="M192.2,102.6l-7.5,21.4l-23.3,61.4l20.2,0.8l30.7-82.1L192.2,102.6z" />
-                                    <path data-id="A-91" class="st2 " d="M252,105.1l22.2,0.9l-30.3,82.7l-22.3-1.1L252,105.1z" />
-                                    <path data-id="A-94" class="st2 " d="M296.5,107.2l-22.3-1.2l-30.3,82.7l22.7,1.2L296.5,107.2z" />
-                                    <path data-id="A-20" class="st2 " d="M228.9,226.3l56,3l6.7-17.9l-50.8-2.7l-2.8,1.2l-2.3,1.2l-1.7,1.7l-0.7,1.4L228.9,226.3z" />
-                                    <path data-id="A-19" class="st2 " d="M284.5,228.7l-6.7,17.1l-55.5-3l6.3-17.3L284.5,228.7z" />
-                                    <path data-id="A-18" class="st2 " d="M222.4,243.3l55.3,3l-6.3,17.4l-56-2.9L222.4,243.3z" />
-                                    <path data-id="A-17" class="st2 " d="M271.5,263.6l-6.5,17.1l-55.5-3.3l6.2-16.7L271.5,263.6z" />
-                                    <path data-id="A-16" class="st2 " d="M265,280.8l-6.3,16.5l-55.3-2.9l6-16.8L265,280.8z" />
-                                    <path data-id="A-15" class="st2 " d="M203.5,294.3l-6.5,17.9l55.3,2.6l6.5-17.6L203.5,294.3z" />
-                                    <path data-id="A-14" class="st2 " d="M197,312.2l55.3,2.6l-6.3,17.4l-55.3-2.9L197,312.2z" />
-                                    <path data-id="A-13" class="st2 " d="M190.7,329.3l55.3,2.9l-6.2,17.6l-55.5-3.6L190.7,329.3z" />
-                                    <path data-id="A-27" class="st2 " d="M291.2,211.1l-6.7,17.9l54.8,2.3l3.3-8.9l-0.8-3.8L340,216l-1.7-1.5l-3.5-1.1l-1.5-0.5L291.2,211.1z" />
-                                    <path data-id="A-26" class="st2 " d="M284.5,229.8l54.7,2.3l-6.5,17.6l-55-2.7L284.5,229.8z" />
-                                    <path data-id="A-25" class="st2 " d="M326.2,266.1L333,249l-55-2.7l-6.3,17.3L326.2,266.1z" />
-                                    <path data-id="A-24" class="st2 " d="M319.9,283.3l6.3-17.1l-54.7-2.6l-6.5,17.1L319.9,283.3z" />
-                                    <path data-id="A-23" class="st2 " d="M313.5,300.1l6.3-16.8l-54.7-2.6l-6.3,16.5L313.5,300.1z" />
-                                    <path data-id="A-22" class="st2 " d="M306.9,317.5l6.7-17.4l-54.7-2.7l-6.5,17.6L306.9,317.5z" />
-                                    <path data-id="A-21" class="st2 " d="M252,314.8l54.7,2.7l-6.2,17.3l-54.7-2.6L252,314.8z" />
-                                    <path data-id="A-33" class="st2 " d="M362,233.6l5-13.2l2.3-2l2.5-1.2l2.7-0.3l3.3-0.3l40.2,2.1l-6.3,17.6L362,233.6z" />
-                                    <path data-id="A-32" class="st2 " d="M362,233.6l49.5,2.7l-6.8,17.6l-49.2-2.4L362,233.6z" />
-                                    <path data-id="A-31" class="st2 " d="M404.4,253.9l-6.2,17.1l-49-2.3l6-17.4L404.4,253.9z" />
-                                    <path data-id="A-30" class="st2 " d="M342.9,285.4l48.8,2.6l6.7-17l-49-2.3L342.9,285.4z" />
-                                    <path data-id="A-29" class="st2 " d="M391.7,288l-6.5,17.6l-48.7-2.6l6.3-17.6L391.7,288z" />
-                                    <path data-id="A-28" class="st2 " d="M336.5,303l48.8,2.6l-6.8,17l-30.8-1.5l-0.5-2.7l-1.5-2.6l-1.7-1.8l-2.5-1.5l-2.3-0.8l-2.5-0.3l-2,0.3l-1.5,0.6L336.5,303z" />
-                                    <path data-id="A-39" class="st2 " d="M417.7,218.7l-6.3,17.6l46.8,2.3l3.2-8.6l-0.3-2.7l-1.2-2.4l-2-2l-2.2-1.2l-1.5-1.1L417.7,218.7z" />
-                                    <path data-id="A-38" class="st2 " d="M411.5,236.3l-7,17.6l47.7,2l6.2-17.3L411.5,236.3z" />
-                                    <path data-id="A-37" class="st2 " d="M404.4,253.9l-6.2,17.1l47.7,2.3l6.2-17.4L404.4,253.9z" />
-                                    <path data-id="A-36" class="st2 " d="M398.4,271.1l47.7,2.3l-6.5,17.3l-47.8-2.6L398.4,271.1z" />
-                                    <path data-id="A-35" class="st2 " d="M391.7,288l47.8,2.6l-6.5,17.3l-47.8-2.4L391.7,288z" />
-                                    <path data-id="A-34" class="st2 " d="M385.2,305.5L433,308l-6.3,17l-3.2-0.2l-1.3-0.9l-2.7-1.2l-2.2-0.3l-2.2-0.2l-1.8,0.6l-2.3,0.9l-0.8,0.6l-7.5-0.3l-2.3-0.8l-2.5-0.2l-1.3,0.3l-0.3,0.5l-17.8-1.2L385.2,305.5z" />
-                                    <path data-id="A-95" class="st2 " d="M448.5,115.5L418,198.7l18.9,0.8l31-83.2L448.5,115.5z" />
-                                    <path data-id="A-96" class="st2 " d="M468,115.7l18.9,0.5l-31,84.3l-18.9-1.7L468,115.7z" />
-                                    <path data-id="A-97" class="st2 " d="M486.9,116.4l18.4,1.2L476,195.1l-1.5,2.4l-2.3,2l-2,0.6l-1.7,0.5l-1.2,0.2l-11.4-0.3L486.9,116.4z" />
-                                    <path data-id="A-98" class="st2 " d="M505.2,117.8l18.4,1.2l-19.3,52.6l-19.1-1.7L505.2,117.8z" />
-                                    <path data-id="A-99" class="st2 " d="M523.6,119l19.1,0.9l-19.8,52.4l-18.6-0.8L523.6,119z" />
-                                    <path data-id="A-100" class="st2 " d="M542.6,120.1l18.1,0.9l-19.3,52.3l-18.4-1.1L542.6,120.1z" />
-                                    <path data-id="A-101" class="st2 " d="M579.4,121.9l-18.8-0.9l-19.3,52.3l18.8,0.8L579.4,121.9z" />
-                                    <path data-id="A-102" class="st2 " d="M579.4,122l18.8,0.9l-19.4,52l-18.6-0.9L579.4,122z" />
-                                    <path data-id="A-103" class="st2 " d="M598.2,123.1l-19.3,51.8l18.4,0.8l19.8-52.1L598.2,123.1z" />
-                                    <path data-id="A-104" class="st2 " d="M616,176.6l-18.8-0.8l19.8-52.1l18.3,0.6L616,176.6z" />
-                                    <path data-id="A-105" class="st2 " d="M616,176.6l18.8,0.6l19.1-52.3l-18.4-0.6L616,176.6z" />
-                                    <path data-id="A-106" class="st2 " d="M673,125.8l-19.1-0.9l-19.1,52.3l18.9,0.9L673,125.8z" />
-                                    <path data-id="A-107" class="st2 " d="M653.5,178.4l18.3,0.5l19.6-52.1l-18.4-0.9L653.5,178.4z" />
-                                    <path data-id="A-108" class="st2 " d="M691.2,126.9l-19.6,52l18.9,0.9l19.6-52.1L691.2,126.9z" />
-                                    <path data-id="A-109" class="st2 " d="M710.5,127.8l18.3,0.9l-19.4,52.1l-18.6-0.9L710.5,127.8z" />
-                                    <path data-id="A-110" class="st2 " d="M708.7,180.8l18.4,0.6l19.1-51.5l-18.1-1.2L708.7,180.8z" />
-                                    <path data-id="A-111" class="st2 " d="M727.8,181.4l18.8,0.8l19.3-52l-18.8-0.3L727.8,181.4z" />
-                                    <path data-id="A-112" class="st2 " d="M746.5,182.3l18.8,0.8l19.3-51.7l-18.8-1.2L746.5,182.3z" />
-                                    <path data-id="A-113" class="st2 " d="M765,183.1l4.2,1.2l7.2,2.6l4.5,3l3.4,3.8l2.3,5.9l1,5.6l0.3,1.5l16.3-42.7l-0.8-1.5l-0.7-1.4l-1.8-0.3l-2.2-1.4l-1.2-1.5l-0.7-2.1V154l0.2-1.5l0.5-1.1l0.5-0.6l-9.4-19.2l-4.2-0.2L765,183.1z" />
-                                    <path data-id="A-114" class="st2 " d="M785.5,214.5l-9.5,26.2l-23.2-1.2l4.8-13.2l13-0.8l3.3-0.8l2.8-2.3l3-2.9l5.2-5.5L785.5,214.5z" />
-                                    <path data-id="A-115" class="st2 " d="M753,239.5l-6.3,17l23.3,0.9l6.3-16.8L753,239.5z" />
-                                    <path data-id="A-116" class="st2 " d="M746.5,256.6l23.3,0.9l-6.5,17.4l-23.2-1.2L746.5,256.6z" />
-                                    <path data-id="A-117" class="st2 " d="M740,273.7l-6.3,17.1l23.5,1.2l6.2-17L740,273.7z" />
-                                    <path data-id="A-118" class="st2 " d="M733.7,290.8l23.3,1.2l-6.3,17.3l-23.5-0.9L733.7,290.8z" />
-                                    <path data-id="A-119" class="st2 " d="M750.7,309.2l-6.5,17.4l-23.3-1.4l6.3-17.1L750.7,309.2z" />
-                                    <path data-id="A-120" class="st2 " d="M721,325.4l-6.5,17.3l23.7,0.9l6.2-17L721,325.4z" />
-                                    <path data-id="A-121" class="st2 " d="M714.5,342.7l-6.3,17.1l23.7,1.1l6.3-17.1L714.5,342.7z" />
-                                    <path data-id="A-122" class="st2 " d="M708.2,359.6l-6.2,17l23.5,0.9l6.3-17L708.2,359.6z" />
-                                    <path data-id="A-123" class="st2 " d="M702,376.6l23.5,0.9l-6.3,17.7l-23.7-1.2L702,376.6z" />
-                                    <path data-id="A-124" class="st2 " d="M695.5,394.2l23.5,1.2l-6.5,17.4l-23.8-1.1L695.5,394.2z" />
-                                    <path data-id="A-125" class="st2 " d="M688.9,411.6l23.7,1.1l-6.3,17.3l-23.8-1.2L688.9,411.6z" />
-                                    <path data-id="A-126" class="st2 " d="M682.5,428.7l23.8,1.2l-6.3,17l-23.7-1.4L682.5,428.7z" />
-                                    <path data-id="A-127" class="st2 " d="M676.4,445.6l-6.3,17.1l24,0.8l6-16.7L676.4,445.6z" />
-                                    <path data-id="A-89" class="st2 " d="M689.2,200.5l-7.3,19.5l52.2,2.6l3-7.7l0.2-2.7l-0.8-2.6l-1.2-2.3l-1.5-1.8l-2.2-1.5l-3.3-1.7L689.2,200.5z" />
-                                    <path data-id="A-88" class="st2 " d="M682,220.1l52.2,2.6l-6.7,17.9l-52.3-2.9L682,220.1z" />
-                                    <path data-id="A-87" class="st2 " d="M675.4,237.5l-6.3,17.1l52.5,2.3l6-16.5L675.4,237.5z" />
-                                    <path data-id="A-86" class="st2 " d="M669.2,254.8l52.3,2.3l-6.3,17.3l-52.3-2.6L669.2,254.8z" />
-                                    <path data-id="A-85" class="st2 " d="M662.9,271.8l-6.5,17.4l52.5,2.4l6.5-17.3L662.9,271.8z" />
-                                    <path data-id="A-84" class="st2 " d="M656.5,289.2L650,306l52.8,2.4l6.2-16.7L656.5,289.2z" />
-                                    <path data-id="A-83" class="st2 " d="M650,305.8l52.7,2.4l-6.8,18.2l-52.5-2.9L650,305.8z" />
-                                    <path data-id="A-82" class="st2 " d="M643.7,323.4l52.3,2.9l-6,16.5l-52.7-2.6L643.7,323.4z" />
-                                    <path data-id="A-81" class="st2 " d="M637.4,340.4L690,343l-6.3,17.4l-53-2.7L637.4,340.4z" />
-                                    <path data-id="A-80" class="st2 " d="M630.9,357.7l52.8,2.6l-6.5,17.4l-52.8-2.7L630.9,357.7z" />
-                                    <path data-id="A-79" class="st2 " d="M624.4,374.9l-6.2,17.1l52.7,2.4l6.3-16.8L624.4,374.9z" />
-                                    <path data-id="A-243" class="st2 " d="M556.8,741.5l0.2,32.9l18.6-0.6l19.6-52h-12.2l-0.8,3l-0.8,2.6l-1.7,3.9l-3,3.8l-3.5,3l-4,1.8l-4,1.4l-6,0.5L556.8,741.5z" />
-                                    <path data-id="A-242" class="st2 " d="M528.3,722.1l0.3,52.3h28.4l-0.2-32.9l-2.9-0.3l-3.5-1.2l-3-1.8l-3.5-2.6l-3.5-4.1l-2.9-3.5l-1.8-2.6l-1-1.7l-1.3-1.5l-2-0.3L528.3,722.1z" />
-                                    <path data-id="A-216" class="st2 " d="M510.8,721.8l17.4,0.3l0.3,52.3h-17.8V721.8z" />
-                                    <path data-id="A-217" class="st2 " d="M493,722l17.8-0.2v52.6h-18L493,722z" />
-                                    <path data-id="A-218" class="st2 " d="M474.9,721.7l18,0.3l-0.2,52.4l-18-0.2L474.9,721.7z" />
-                                    <path data-id="A-78" class="st2 " d="M618.4,392.1l-6.5,17.4l52.8,2.3l6.3-17.1L618.4,392.1z" />
-                                    <path data-id="A-77" class="st2 " d="M605.5,426.3l6.3-17l52.8,2.3l-6.5,17L605.5,426.3z" />
-                                    <path data-id="A-76" class="st2 " d="M605.5,426.3l-6.5,17.4l53.2,2.3l6.2-17.3L605.5,426.3z" />
-                                    <path data-id="A-75" class="st2 " d="M599.2,443.6l-6.5,17.4l47.2,3.3l3-0.9l1.2-0.6l1.3-1.1l1.5-1.5l0.7-1.4l0.3-0.8l4.3-12.3L599.2,443.6z" />
-                                    <path data-id="A-60" class="st2 " d="M545.4,440.4l54,2.4l-6.7,18.2l-42.8-2.9l-2.8-0.9l-1.5-1.5l-0.8-0.8l-0.7-1.4l-0.7-1.7l-0.2-1.7V449v-1.5l0.2-1.5L545.4,440.4z" />
-                                    <path data-id="A-61" class="st2 " d="M551.7,423.3l-6.3,17.1l54,2.4l6.2-16.4L551.7,423.3z" />
-                                    <path data-id="A-62" class="st2 " d="M605.5,426.3l6.3-17l-54-2.9l-6.2,16.7L605.5,426.3z" />
-                                    <path data-id="A-63" class="st2 " d="M618.5,391.3l-6.7,18l-54-2.9l6.7-17.7L618.5,391.3z" />
-                                    <path data-id="A-64" class="st2 " d="M624.7,374.2l-6.2,17.1l-54.2-2.6l6-17.1L624.7,374.2z" />
-                                    <path data-id="A-65" class="st2 " d="M570.5,371.6l54.3,2.6l6.7-17.6l-31-1.4l-23.8-1.1L570.5,371.6z" />
-                                    <path data-id="A-66" class="st2 " d="M637.4,339.9l-6,16.7l-54.8-2.6l6.3-16.8L637.4,339.9z" />
-                                    <path data-id="A-67" class="st2 " d="M637.4,339.9l6.7-17.6l-54.8-2.6l-6.3,17.4L637.4,339.9z" />
-                                    <path data-id="A-68" class="st2 " d="M650.4,305.1l-6.3,17.4l-54.8-2.6l6.3-17.3L650.4,305.1z" />
-                                    <path data-id="A-69" class="st2 " d="M650.4,305.1L657,288l-55.3-2.4l-6.2,17L650.4,305.1z" />
-                                    <path data-id="A-70" class="st2 " d="M663.2,271l-6.3,17.1l-55.3-2.4l6.3-17.3L663.2,271z" />
-                                    <path data-id="A-71" class="st2 " d="M669.7,253.7l-6.5,17.3l-55.2-2.6l6.3-17.3L669.7,253.7z" />
-                                    <path data-id="A-72" class="st2 " d="M675.5,236.9l-6,16.8l-55.3-2.7l6.2-17L675.5,236.9z" />
-                                    <path data-id="A-73" class="st2 " d="M681.9,219.6l-6.7,17.6l-55-2.9l6.5-17.4L681.9,219.6z" />
-                                    <path data-id="A-74" class="st2 " d="M689.2,200.5l-7,18.6l-55.3-2.7l2.7-7.1l1.2-2.1l2.2-2.6l1.7-1.5l2.7-1.7l3.2-1.1l2.2-0.6l2.5-0.6l0.8-0.8L689.2,200.5z" />
-                                    <path data-id="A-49" class="st2 " d="M491.5,367.8l-6.5,17.7l37.3,1.7l1.3-1.7l1.2-1.1l1.7-1.1l2.7-0.9l3-0.2l2,0.3l2,0.9l1.3,0.9l1.2,1.1l0.8,1.2l0.8,1.4l6.7-17.9L491.5,367.8z" />
-                                    <path data-id="A-50" class="st2 " d="M553.7,353.1l-6.5,17.3l-55.7-2.6l6-16.8L553.7,353.1z" />
-                                    <path data-id="A-51" class="st2 " d="M560.2,335.7l-6.5,17.4l-56.3-2.1l6.7-17.9L560.2,335.7z" />
-                                    <path data-id="A-52" class="st2 " d="M510.5,316l-6.5,17.1l56,2.6l6.5-17.3L510.5,316z" />
-                                    <path data-id="A-53" class="st2 " d="M516.8,299l-6.2,17l56.2,2.4l6.2-17L516.8,299z" />
-                                    <path data-id="A-54" class="st2 " d="M523,281.6l-6.2,17.4l56.2,2.6l6.7-17.3L523,281.6z" />
-                                    <path data-id="A-55" class="st2 " d="M529.3,264.8l-6.3,16.8l56.5,2.6l6.5-16.8L529.3,264.8z" />
-                                    <path data-id="A-56" class="st2 " d="M535.8,247.2l-6.5,17.6l56.7,2.6l6.3-17.6L535.8,247.2z" />
-                                    <path data-id="A-57" class="st2 " d="M535.8,247.4l56.5,2.6l6.5-17l-56.8-2.4L535.8,247.4z" />
-                                    <path data-id="A-58" class="st2 " d="M605.2,216l-6.5,17l-56.8-2.4l6.5-17.1L605.2,216z" />
-                                    <path data-id="A-59" class="st2 " d="M555.3,194.5l-7,18.9l56.8,2.6l2.2-6.2l0.2-2.1l-0.7-2.6l-1-2.3l-2.3-2.7l-2.2-1.4l-1.2-0.8l-3.3-1.7L555.3,194.5z" />
-                                    <path data-id="A-48" class="st2 " d="M555.3,194.5l-7.2,19.7l-57-2.6l4.2-11.1l2-2.9l2.3-2.3l3.3-1.7l3-0.5l4.7,0.2l1-0.2l0.2-0.8L555.3,194.5z" />
-                                    <path data-id="A-47" class="st2 " d="M548.2,214.2l-6.5,17.1l-56.5-2.6l6.2-17.1L548.2,214.2z" />
-                                    <path data-id="A-46" class="st2 " d="M535.7,247.7l6-16.2l-56.5-2.6l-6,16.5L535.7,247.7z" />
-                                    <path data-id="A-45" class="st2 " d="M529,265.7l6.7-18l-56.5-2.3l-6.3,17.9L529,265.7z" />
-                                    <path data-id="A-44" class="st2 " d="M529,265.7l-6.3,17l-56.2-2.6l6-16.8L529,265.7z" />
-                                    <path data-id="A-43" class="st2 " d="M522.8,282.5l-6.2,17.4l-56.2-2.7l6.3-17.3L522.8,282.5z" />
-                                    <path data-id="A-42" class="st2 " d="M516.5,299.9l-6.2,17.1l-56.3-2.7l6.3-17L516.5,299.9z" />
-                                    <path data-id="A-41" class="st2 " d="M510.3,316.9l-6.5,17.4l-55.8-2.9l6-17.3L510.3,316.9z" />
-                                    <path data-id="A-40" class="st2 " d="M503.7,334.3l-6.3,16.8l-5.3,0.3l-1.2-2.3l-1.8-2l-2.2-1.4l-3-0.8h-3.2l-2.3,0.6l-2.3,1.4l-1.8,1.5l-1,1.8l-31.3-1.4l6.2-17.4L503.7,334.3z" />
-                                    <path data-id="A-128" class="st2 " d="M526.7,564.8l54.2,0.2v18.5l-54.2-0.2V564.8z" />
-                                    <path data-id="A-129" class="st2 " d="M581,583.6l0.2,17.4l-54.2-0.3v-17.1H581z" />
-                                    <path data-id="A-130" class="st2 " d="M581,601l0.2,17.6l-54.3-0.3v-17.6L581,601z" />
-                                    <path data-id="A-131" class="st2 " d="M581,635.9l0.2-17.4l-54.3-0.3v17.4L581,635.9z" />
-                                    <path data-id="A-132" class="st2 " d="M580.8,635.7v17.7l-53.8-0.2l-0.2-17.7L580.8,635.7z" />
-                                    <path data-id="A-133" class="st2 " d="M581.2,670.7l-0.2-17.3l-53.8-0.2v17.4H581.2z" />
-                                    <path data-id="A-134" class="st2 " d="M581.2,670.7l-0.2,17.7l-54.2-0.3l0.2-17.4H581.2z" />
-                                    <path data-id="A-135" class="st2 " d="M526.8,688l54.2,0.3V717l-1.2-4.5l-1.5-2.3l-2.7-2.3l-2.5-1.4l-4-0.9l-3-0.3h-33.7l-2-0.6l-1.2-0.8l-1.3-1.5l-0.5-0.9l-0.3-1.5v-12H526.8z" />
-                                    <path data-id="A-219" class="st2 " d="M475.1,721.7h-18v52.6l17.6,0.2L475.1,721.7z" />
-                                    <path data-id="A-220" class="st2 " d="M457.3,721.7l-19.6,0.2l0.3,52.6l19.1-0.2L457.3,721.7z" />
-                                    <path data-id="A-221" class="st2 " d="M437.8,721.8L418,722l-0.2,52.4l20,0.2L437.8,721.8L437.8,721.8z" />
-                                    <path data-id="A-223" class="st2 " d="M418,721.8l-20.1-0.3l0.2,52.7l19.8,0.3L418,721.8z" />
-                                    <path data-id="A-224" class="st2 " d="M398.1,722v52.4l-19.8-0.2v-52.6L398.1,722z" />
-                                    <path data-id="A-225" class="st2 " d="M358.5,722l20.1,0.2l-0.2,52.4h-20V722z" />
-                                    <path data-id="A-226" class="st2 " d="M358.8,722.1l-0.3,52.4l-19.6-0.2v-52.3H358.8z" />
-                                    <path data-id="A-227" class="st2 " d="M338.3,721.8l0.7,52.6l-20.5,0.2l0.3-52.6L338.3,721.8z" />
-                                    <path data-id="A-228" class="st2 " d="M299.4,721.5l19.5,0.3l0.3,52.6h-20.1L299.4,721.5z" />
-                                    <path data-id="A-229" class="st2 " d="M279.3,722h20.1v52.1h-20.3L279.3,722z" />
-                                    <path data-id="A-230" class="st2 " d="M259.5,721.8h19.5v52.3l-19.6,0.3L259.5,721.8z" />
-                                    <path data-id="A-231" class="st2 " d="M259.5,722l0.3,52.3h-20l-0.2-52.4L259.5,722z" />
-                                    <path data-id="A-232" class="st2 " d="M219.9,722l20.1,0.2v52.4h-20.1L219.9,722z" />
-                                    <path data-id="A-233" class="st2 " d="M219.7,722l0.5,52.6l-19.8-0.2l-0.2-52.4H219.7z" />
-                                    <path data-id="A-234" class="st2 " d="M200.1,722.1l0.2,52.3l-20.3,0.3l0.2-53L200.1,722.1z" />
-                                    <path data-id="A-235" class="st2 " d="M160.8,774.1l19.1,0.3v-53h-19.3L160.8,774.1z" />
-                                    <path data-id="A-236" class="st2 " d="M160.3,721.8l0.2,52.4l-19.8,0.2v-52.6H160.3z" />
-                                    <path data-id="A-237" class="st2 " d="M141.4,774.5h-20.6V722l20-0.2L141.4,774.5z" />
-                                    <path data-id="A-238" class="st2 " d="M120.4,722v52.6h-20l-0.2-52.9L120.4,722z" />
-                                    <path data-id="A-240" class="st2 " d="M82.6,721.8l17.4-0.2l0.2,52.9l-18,0.2L82.6,721.8z" />
-                                    <path data-id="A-241" class="st2 " d="M83,721.7H64.5l0.2,53.2l17.6-0.2L83,721.7z" />
-                                    <path data-id="A-137" class="st2 " d="M452,682.9v18.2l46-0.3l2.2-0.3l1.8-1.4l1.7-1.4l1.2-2.3l0.7-2.1v-10.6L452,682.9z" />
-                                    <path data-id="A-138" class="st2 " d="M505.3,665v17.9l-53.2-0.2v-17.6L505.3,665z" />
-                                    <path data-id="A-139" class="st2 " d="M505.3,648v17l-53.2,0.3l-0.2-17.6L505.3,648z" />
-                                    <path data-id="A-140" class="st2 " d="M452.2,630.3l-0.3,17.4l53.3,0.2l0.2-17.6H452.2z" />
-                                    <path data-id="A-141" class="st2 " d="M505.5,613v17.3h-53.2l-0.2-17.4L505.5,613z" />
-                                    <path data-id="A-142" class="st2 " d="M505.5,595.6V613l-53.3-0.2v-17.4L505.5,595.6z" />
-                                    <path data-id="A-143" class="st2 " d="M452.2,578.3v17.3l53.3,0.2V578L452.2,578.3z" />
-                                    <path data-id="A-144" class="st2 " d="M452,560.4v17.7l53.3-0.5v-17.3L452,560.4z" />
-                                    <path data-id="A-145" class="st2 " d="M452,542.2v17.6l53.3,0.2l-0.2-17.6L452,542.2z" />
-                                    <path data-id="A-156" class="st2 " d="M397.9,507.5l54.7-0.2v18.9l-54.7-0.3V507.5z" />
-                                    <path data-id="A-155" class="st2 " d="M452.2,543l0.2-16.7l-54.7-0.3v16.8L452.2,543z" />
-                                    <path data-id="A-154" class="st2 " d="M452.2,543l-0.2,17.4h-54.2v-17.6L452.2,543z" />
-                                    <path data-id="A-153" class="st2 " d="M452.2,560.6v17.7l-54.3-0.2v-17.7L452.2,560.6z" />
-                                    <path data-id="A-152" class="st2 " d="M452.2,595.6v-17.4l-54.3-0.2v17.6H452.2z" />
-                                    <path data-id="A-151" class="st2 " d="M452.2,595.7L452.2,595.7v17.1l-54.3,0.2v-17.3H452.2z" />
-                                    <path data-id="A-150" class="st2 " d="M451.4,612.9l0.2,17.4l-54.3,0.3v-17.7H451.4z" />
-                                    <path data-id="A-149" class="st2 " d="M452.5,630.4l-0.3,17.4l-54,0.2v-17.3L452.5,630.4z" />
-                                    <path data-id="A-148" class="st2 " d="M452,647.7v17.7l-54.2,0.2V648L452,647.7z" />
-                                    <path data-id="A-147" class="st2 " d="M398,665.4v18.2l54.2-0.2v-18.2L398,665.4z" />
-                                    <path data-id="A-146" class="st2 " d="M452.2,683.6l-0.2,17.6l-46.5-0.5l-1.7-0.6l-1.7-1.2l-1.8-1.7l-1.2-1.8l-0.8-2.3l-0.3-1.8v-7.6L452.2,683.6z" />
-                                    <path data-id="A-169" class="st2 " d="M323.5,472.7l53.5-0.2V491l-53.7-0.2L323.5,472.7z" />
-                                    <path data-id="A-168" class="st2 " d="M376.9,490.9l0.2,17.7l-53.7-0.2v-17.6H376.9z" />
-                                    <path data-id="A-167" class="st2 " d="M376.9,508.6v17.7l-53.2-0.6l-0.3-17.3L376.9,508.6z" />
-                                    <path data-id="A-166" class="st2 " d="M377,543.6v-17.3l-53.2-0.6l-0.3,17.9H377z" />
-                                    <path data-id="A-165" class="st2 " d="M377,543.6v17.3h-53.7v-17.3H377z" />
-                                    <path data-id="A-164" class="st2 " d="M377,578.5v-17.6h-53.7l-0.2,17.6H377z" />
-                                    <path data-id="A-163" class="st2 " d="M377,578.3v17.6l-53.5,0.2l-0.3-17.4L377,578.3z" />
-                                    <path data-id="A-162" class="st2 " d="M323.5,595.7l53.5,0.2V613l-53.7,0.2L323.5,595.7z" />
-                                    <path data-id="A-161" class="st2 " d="M376.9,630.4V613l-53.7,0.2v17.4L376.9,630.4z" />
-                                    <path data-id="A-160" class="st2 " d="M377,648.3v-17.9l-53.7,0.2v17.6L377,648.3z" />
-                                    <path data-id="A-159" class="st2 " d="M377,665.7v-17.4l-53.7-0.2v17.7H377V665.7z" />
-                                    <path data-id="A-158" class="st2 " d="M377,683.3v-17.6h-53.7v17.6H377z" />
-                                    <path data-id="A-157" class="st2 " d="M323.4,683.3H377v10.6l-0.7,2.6l-0.8,1.4l-1.2,1.4l-2,1.2l-1.5,0.5l-1.8,0.5h-45.5v-18H323.4z" />
-                                    <path data-id="A-183" class="st2 " d="M269.4,455h54.5l-0.3,17.7l-54,0.2V455H269.4z" />
-                                    <path data-id="A-182" class="st2 " d="M269.5,472.8l54-0.2l-0.2,18.2l-54.2,0.2L269.5,472.8z" />
-                                    <path data-id="A-181" class="st2 " d="M269.7,508.5l53.7-0.2v-17.6l-54.2,0.2L269.7,508.5z" />
-                                    <path data-id="A-180" class="st2 " d="M269.5,526.2l54.3-0.6l-0.3-17.3l-53.7,0.2L269.5,526.2z" />
-                                    <path data-id="A-179" class="st2 " d="M323.5,543.6l0.2-17.9l-54.3,0.6v17.1L323.5,543.6z" />
-                                    <path data-id="A-178" class="st2 " d="M269.5,543.6h54.2l-0.2,17.4l-54-0.2L269.5,543.6L269.5,543.6z" />
-                                    <path data-id="A-177" class="st2 " d="M269.5,578.3v-17.4l54,0.2l-0.2,17.6L269.5,578.3z" />
-                                    <path data-id="A-176" class="st2 " d="M269.5,595l54.2,0.2l-0.3-17.3l-53.8-0.3V595z" />
-                                    <path data-id="A-175" class="st2 " d="M269.5,595.6l54.2,0.2l-0.3,17.4h-53.8V595.6z" />
-                                    <path data-id="A-174" class="st2 " d="M269.5,613.2h53.7v17.4l-53.8,0.2v-17.6H269.5z" />
-                                    <path data-id="A-173" class="st2 " d="M269.5,647.9v-17.1l53.8-0.2v17.6L269.5,647.9z" />
-                                    <path data-id="A-172" class="st2 " d="M269.7,648l53.7,0.2v17.7h-53.8L269.7,648z" />
-                                    <path data-id="A-171" class="st2 " d="M323.4,665.7v17.6l-53.8-0.3v-17.3H323.4z" />
-                                    <path data-id="A-170" class="st2 " d="M323.4,683.3v18.2l-45-0.2l-2-0.6l-1.7-0.9l-1.2-0.8l-1.2-1.1l-0.7-0.9l-0.7-1.2l-0.7-1.2l-0.5-0.9l-0.3-1.4V683L323.4,683.3z" />
-                                    <path data-id="A-195" class="st2 " d="M194.7,489.5l54.3,0.3V508l-54.3-0.2V489.5z" />
-                                    <path data-id="A-194" class="st2 " d="M249,526.2v-18l-54.3-0.2l-0.2,18.2H249z" />
-                                    <path data-id="A-193" class="st2 " d="M249,542.9v-16.7h-54.5V543L249,542.9z" />
-                                    <path data-id="A-192" class="st2 " d="M249,542.9v17.9l-54.3-0.3V543L249,542.9z" />
-                                    <path data-id="A-191" class="st2 " d="M249,578.2v-17.6l-54.3-0.3v17.6L249,578.2z" />
-                                    <path data-id="A-190" class="st2 " d="M249,595.4v-17.3l-54.3-0.2v17.4H249z" />
-                                    <path data-id="A-189" class="st2 " d="M249.2,612.9l-0.2-17.4l-54.3-0.2v17.4L249.2,612.9z" />
-                                    <path data-id="A-188" class="st2 " d="M249.2,612.7l-0.2,17.9l-54.3-0.3v-17.6L249.2,612.7L249.2,612.7z" />
-                                    <path data-id="A-187" class="st2 " d="M194.7,630.3l54.3,0.3V648l-54.2-0.2L194.7,630.3z" />
-                                    <path data-id="A-186" class="st2 " d="M194.9,647.7l0.2,17.4l54.2-0.2v-17L194.9,647.7z" />
-                                    <path data-id="A-185" class="st2 " d="M195,665v18l53.8-0.2v-18L195,665z" />
-                                    <path data-id="A-184" class="st2 " d="M249,682.9v8.8l-0.3,2.3l-1.3,2.4l-2.2,2.3l-1.5,0.9l-2.7,0.8l-45.7,0.3l-0.2-17.4L249,682.9z" />
-                                    <path data-id="A-196" class="st2 " d="M195.4,682.3l-0.2,18.2l-45.7,0.2l-2.7-0.6l-1.5-1.1l-1.2-0.8l-0.7-0.8l-0.8-1.1l-0.5-0.9l-0.5-1.2l-0.3-1.7v-10.3H195.4z" />
-                                    <path data-id="A-197" class="st2 " d="M195,664.1l0.3,18l-54,0.2v-18H195V664.1z" />
-                                    <path data-id="A-198" class="st2 " d="M194.9,646.8l0.2,17.4h-53.5v-17.4H194.9z" />
-                                    <path data-id="A-199" class="st2 " d="M141.5,629.4l53.3-0.2v17.6h-53.3V629.4z" />
-                                    <path data-id="A-200" class="st2 " d="M141.9,612l52.8,0.8l0.2,16.7l-53.3,0.2L141.9,612z" />
-                                    <path data-id="A-201" class="st2 " d="M141.5,594.8l0.2,17.1l52.8,0.8v-18.3L141.5,594.8z" />
-                                    <path data-id="A-202" class="st2 " d="M194.9,577.2v17.1l-53.3,0.5v-17.7L194.9,577.2z" />
-                                    <path data-id="A-203" class="st2 " d="M141.5,559.5h53.2v17.7l-53.2-0.2V559.5z" />
-                                    <path data-id="A-204" class="st2 " d="M141.5,542.2v17.1h53.2v-17.4L141.5,542.2z" />
-                                    <path data-id="A-205" class="st2 " d="M194.7,542.2h-53.2l0.2-17.1h52.8L194.7,542.2z" />
-                                    <path data-id="A-215" class="st2 " d="M64.5,524.8l2,0.5l2.2,0.2l1.5-0.5l2-0.8l46.8,0.2v18.5l-54.5-0.2V524.8z" />
-                                    <path data-id="A-214" class="st2 " d="M64.5,542.7l54.5,0.2v17.4l-54.5-0.2V542.7z" />
-                                    <path data-id="A-213" class="st2 " d="M64.5,560l54.5,0.2v17.7l-54.3-0.3L64.5,560z" />
-                                    <path data-id="A-212" class="st2 " d="M64,577.4l54.3,0.5v17.3L63.9,595L64,577.4z" />
-                                    <path data-id="A-211" class="st2 " d="M64.5,594.8l54.5,0.3v17.7l-54.5-0.5V594.8z" />
-                                    <path data-id="A-210" class="st2 " d="M64.5,612.4l54.3,0.5V630l-54.5-0.2L64.5,612.4z" />
-                                    <path data-id="A-209" class="st2 " d="M64.5,629.8l54.5,0.3v17.4l-54.5,0.2V629.8z" />
-                                    <path data-id="A-208" class="st2 " d="M119,647.4l0.2,17.9l-54.7-0.2v-17.6L119,647.4z" />
-                                    <path data-id="A-207" class="st2 " d="M119,664.8v17.6l-54.3,0.2L64.5,665L119,664.8z" />
-                                    <path data-id="A-206" class="st2 " d="M119,682.7v9.2l-0.5,2.3l-1,1.8l-1.2,1.4l-2.2,1.4l-1.8,0.6l-48,0.2l0.2-16.8H119z" />
-                                </g>
-                                <g>
-                                    <path id="Casa_Club" class="st2" d="M400.7,384.4l2.9-5.7l9.8-19.1l16,11.6l-2.4,18.3l52.1,46.1l21.9,24.8l-20,24.8l-14.3-8.5
-                                        l-28.4-18.1l-26.6-14.1l-30.5-12l-31.6-7.8l-31.4-6.7l-29-4.9l4.6-44.6c24.2-0.9,24.2-0.9,24.2-0.9l8.2-0.8L400.7,384.4z" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="Casa Club" />
-                                    <polygon id="Entrada_distintiva" class="st2" points="592.3,494.9 619,491 637.3,555.1 612,560 " data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="Entrada_distintiva" />
-                                </g>
-                            </svg>
-                            <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                                        .st2 {
+                                            fill: rgba(0, 0, 0, 0.1);
+                                        }
+
+                                        .st4 {
+                                            font-size: 7px;
+                                            font-family: 'Calibri-Bold';
+                                        }
+                                    </style>
+                                    <!-- <g transform="matrix(0.1892 0 0 0.1892 -7.661545e-02 60.0748)">  -->
+                                    <image style="overflow:visible;enable-background:new    ;" width="4596" height="4237" xlink:href="<?= STATIC_URL . 'img/lakuun/56CFF67B.jpg' ?>" transform="matrix(0.1892 0 0 0.1892 -7.661545e-02 60.0748)">
+                                    </image>
+                                    <!-- </g> -->
+                                    <g id="stage_1">
+                                        <path id="A-12" class="st0 mapsvg-region" d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" style="fill: rgba(47, 172, 102); stroke: rgba(23, 149, 83); stroke-width: 1.97368px;" data-stroke-width="1.2" />
+                                        <path id="A-11" class="st0 mapsvg-region" d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
+                                        <path id="A-10" class="st0 mapsvg-region" d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
+                                        <path id="A-09" class="st0 mapsvg-region" d="M130.4,274.5l6-16.7l55.7,2.9l-6.3,17l-11.2-0.8" />
+                                        <path id="A-08" class="st0 mapsvg-region" d="M130,274.5l56,2.7l-6.7,17.9l-55.8-2.9l2.3-6.2l2-5.5" />
+                                        <path id="A-07" class="st0 mapsvg-region" d="M123.5,292.1l55.8,2.9l-6.3,17l-55.7-3L123.5,292.1z" />
+                                        <path id="A-06" class="st0 mapsvg-region" d="M173,312.1l-6.2,17.1l-56-3l6.5-17.1L173,312.1z" />
+                                        <path id="A-05" class="st0 mapsvg-region" d="M111,326.2l55.8,3l-6.3,17.1l-56.2-2.7L111,326.2z" />
+                                        <path id="A-04" class="st0 mapsvg-region" d="M104.4,343.6l56.2,2.7l-6.7,17.9l-56-3L104.4,343.6z" />
+                                        <path id="A-03" class="st0 mapsvg-region" d="M154,364.2l-6.2,16.7L92,377.7l6.2-16.7L154,364.2z" />
+                                        <path id="A-02" class="st0 mapsvg-region" d="M147.4,381l-6.3,17.1l-56.2-3l6.7-17.4L147.4,381z" />
+                                        <path id="A-01" class="st0 mapsvg-region" d="M85.4,395.1l56.2,2.9l-6.2,17l-56.3-3L85.4,395.1z" />
+                                        <path id="A-90" class="st0 mapsvg-region" d="M192.2,102.6l-7.5,21.4l-23.3,61.4l20.2,0.8l30.7-82.1L192.2,102.6z" />
+                                        <path id="A-91" class="st0 mapsvg-region" d="M252,105.1l22.2,0.9l-30.3,82.7l-22.3-1.1L252,105.1z" />
+                                        <path id="A-94" class="st0 mapsvg-region" d="M296.5,107.2l-22.3-1.2l-30.3,82.7l22.7,1.2L296.5,107.2z" />
+                                        <path id="A-20" class="st0 mapsvg-region" d="M228.9,226.3l56,3l6.7-17.9l-50.8-2.7l-2.8,1.2l-2.3,1.2l-1.7,1.7l-0.7,1.4L228.9,226.3z" />
+                                        <path id="A-19" class="st0 mapsvg-region" d="M284.5,228.7l-6.7,17.1l-55.5-3l6.3-17.3L284.5,228.7z" />
+                                        <path id="A-18" class="st0 mapsvg-region" d="M222.4,243.3l55.3,3l-6.3,17.4l-56-2.9L222.4,243.3z" />
+                                        <path id="A-17" class="st0 mapsvg-region" d="M271.5,263.6l-6.5,17.1l-55.5-3.3l6.2-16.7L271.5,263.6z" />
+                                        <path id="A-16" class="st0 mapsvg-region" d="M265,280.8l-6.3,16.5l-55.3-2.9l6-16.8L265,280.8z" />
+                                        <path id="A-15" class="st0 mapsvg-region" d="M203.5,294.3l-6.5,17.9l55.3,2.6l6.5-17.6L203.5,294.3z" />
+                                        <path id="A-14" class="st0 mapsvg-region" d="M197,312.2l55.3,2.6l-6.3,17.4l-55.3-2.9L197,312.2z" />
+                                        <path id="A-13" class="st0 mapsvg-region" d="M190.7,329.3l55.3,2.9l-6.2,17.6l-55.5-3.6L190.7,329.3z" />
+                                        <path id="A-27" class="st0 mapsvg-region" d="M291.2,211.1l-6.7,17.9l54.8,2.3l3.3-8.9l-0.8-3.8L340,216l-1.7-1.5l-3.5-1.1l-1.5-0.5L291.2,211.1z" />
+                                        <path id="A-26" class="st0 mapsvg-region" d="M284.5,229.8l54.7,2.3l-6.5,17.6l-55-2.7L284.5,229.8z" />
+                                        <path id="A-25" class="st0 mapsvg-region" d="M326.2,266.1L333,249l-55-2.7l-6.3,17.3L326.2,266.1z" />
+                                        <path id="A-24" class="st0 mapsvg-region" d="M319.9,283.3l6.3-17.1l-54.7-2.6l-6.5,17.1L319.9,283.3z" />
+                                        <path id="A-23" class="st0 mapsvg-region" d="M313.5,300.1l6.3-16.8l-54.7-2.6l-6.3,16.5L313.5,300.1z" />
+                                        <path id="A-22" class="st0 mapsvg-region" d="M306.9,317.5l6.7-17.4l-54.7-2.7l-6.5,17.6L306.9,317.5z" />
+                                        <path id="A-21" class="st0 mapsvg-region" d="M252,314.8l54.7,2.7l-6.2,17.3l-54.7-2.6L252,314.8z" />
+                                        <path id="A-33" class="st0 mapsvg-region" d="M362,233.6l5-13.2l2.3-2l2.5-1.2l2.7-0.3l3.3-0.3l40.2,2.1l-6.3,17.6L362,233.6z" />
+                                        <path id="A-32" class="st0 mapsvg-region" d="M362,233.6l49.5,2.7l-6.8,17.6l-49.2-2.4L362,233.6z" />
+                                        <path id="A-31" class="st0 mapsvg-region" d="M404.4,253.9l-6.2,17.1l-49-2.3l6-17.4L404.4,253.9z" />
+                                        <path id="A-30" class="st0 mapsvg-region" d="M342.9,285.4l48.8,2.6l6.7-17l-49-2.3L342.9,285.4z" />
+                                        <path id="A-29" class="st0 mapsvg-region" d="M391.7,288l-6.5,17.6l-48.7-2.6l6.3-17.6L391.7,288z" />
+                                        <path id="A-28" class="st0 mapsvg-region" d="M336.5,303l48.8,2.6l-6.8,17l-30.8-1.5l-0.5-2.7l-1.5-2.6l-1.7-1.8l-2.5-1.5l-2.3-0.8l-2.5-0.3l-2,0.3l-1.5,0.6L336.5,303z" />
+                                        <path id="A-39" class="st0 mapsvg-region" d="M417.7,218.7l-6.3,17.6l46.8,2.3l3.2-8.6l-0.3-2.7l-1.2-2.4l-2-2l-2.2-1.2l-1.5-1.1L417.7,218.7z" />
+                                        <path id="A-38" class="st0 mapsvg-region" d="M411.5,236.3l-7,17.6l47.7,2l6.2-17.3L411.5,236.3z" />
+                                        <path id="A-37" class="st0 mapsvg-region" d="M404.4,253.9l-6.2,17.1l47.7,2.3l6.2-17.4L404.4,253.9z" />
+                                        <path id="A-36" class="st0 mapsvg-region" d="M398.4,271.1l47.7,2.3l-6.5,17.3l-47.8-2.6L398.4,271.1z" />
+                                        <path id="A-35" class="st0 mapsvg-region" d="M391.7,288l47.8,2.6l-6.5,17.3l-47.8-2.4L391.7,288z" />
+                                        <path id="A-34" class="st0 mapsvg-region" d="M385.2,305.5L433,308l-6.3,17l-3.2-0.2l-1.3-0.9l-2.7-1.2l-2.2-0.3l-2.2-0.2l-1.8,0.6l-2.3,0.9l-0.8,0.6l-7.5-0.3l-2.3-0.8l-2.5-0.2l-1.3,0.3l-0.3,0.5l-17.8-1.2L385.2,305.5z" />
+                                        <path id="A-95" class="st0 mapsvg-region" d="M448.5,115.5L418,198.7l18.9,0.8l31-83.2L448.5,115.5z" />
+                                        <path id="A-96" class="st0 mapsvg-region" d="M468,115.7l18.9,0.5l-31,84.3l-18.9-1.7L468,115.7z" />
+                                        <path id="A-97" class="st0 mapsvg-region" d="M486.9,116.4l18.4,1.2L476,195.1l-1.5,2.4l-2.3,2l-2,0.6l-1.7,0.5l-1.2,0.2l-11.4-0.3L486.9,116.4z" />
+                                        <path id="A-98" class="st0 mapsvg-region" d="M505.2,117.8l18.4,1.2l-19.3,52.6l-19.1-1.7L505.2,117.8z" />
+                                        <path id="A-99" class="st0 mapsvg-region" d="M523.6,119l19.1,0.9l-19.8,52.4l-18.6-0.8L523.6,119z" />
+                                        <path id="A-100" class="st0 mapsvg-region" d="M542.6,120.1l18.1,0.9l-19.3,52.3l-18.4-1.1L542.6,120.1z" />
+                                        <path id="A-101" class="st0 mapsvg-region" d="M579.4,121.9l-18.8-0.9l-19.3,52.3l18.8,0.8L579.4,121.9z" />
+                                        <path id="A-102" class="st0 mapsvg-region" d="M579.4,122l18.8,0.9l-19.4,52l-18.6-0.9L579.4,122z" />
+                                        <path id="A-103" class="st0 mapsvg-region" d="M598.2,123.1l-19.3,51.8l18.4,0.8l19.8-52.1L598.2,123.1z" />
+                                        <path id="A-104" class="st0 mapsvg-region" d="M616,176.6l-18.8-0.8l19.8-52.1l18.3,0.6L616,176.6z" />
+                                        <path id="A-105" class="st0 mapsvg-region" d="M616,176.6l18.8,0.6l19.1-52.3l-18.4-0.6L616,176.6z" />
+                                        <path id="A-106" class="st0 mapsvg-region" d="M673,125.8l-19.1-0.9l-19.1,52.3l18.9,0.9L673,125.8z" />
+                                        <path id="A-107" class="st0 mapsvg-region" d="M653.5,178.4l18.3,0.5l19.6-52.1l-18.4-0.9L653.5,178.4z" />
+                                        <path id="A-108" class="st0 mapsvg-region" d="M691.2,126.9l-19.6,52l18.9,0.9l19.6-52.1L691.2,126.9z" />
+                                        <path id="A-109" class="st0 mapsvg-region" d="M710.5,127.8l18.3,0.9l-19.4,52.1l-18.6-0.9L710.5,127.8z" />
+                                        <path id="A-110" class="st0 mapsvg-region" d="M708.7,180.8l18.4,0.6l19.1-51.5l-18.1-1.2L708.7,180.8z" />
+                                        <path id="A-111" class="st0 mapsvg-region" d="M727.8,181.4l18.8,0.8l19.3-52l-18.8-0.3L727.8,181.4z" />
+                                        <path id="A-112" class="st0 mapsvg-region" d="M746.5,182.3l18.8,0.8l19.3-51.7l-18.8-1.2L746.5,182.3z" />
+                                        <path id="A-113" class="st0 mapsvg-region" d="M765,183.1l4.2,1.2l7.2,2.6l4.5,3l3.4,3.8l2.3,5.9l1,5.6l0.3,1.5l16.3-42.7l-0.8-1.5l-0.7-1.4l-1.8-0.3l-2.2-1.4l-1.2-1.5l-0.7-2.1V154l0.2-1.5l0.5-1.1l0.5-0.6l-9.4-19.2l-4.2-0.2L765,183.1z" />
+                                        <path id="A-114" class="st0 mapsvg-region" d="M785.5,214.5l-9.5,26.2l-23.2-1.2l4.8-13.2l13-0.8l3.3-0.8l2.8-2.3l3-2.9l5.2-5.5L785.5,214.5z" />
+                                        <path id="A-115" class="st0 mapsvg-region" d="M753,239.5l-6.3,17l23.3,0.9l6.3-16.8L753,239.5z" />
+                                        <path id="A-116" class="st0 mapsvg-region" d="M746.5,256.6l23.3,0.9l-6.5,17.4l-23.2-1.2L746.5,256.6z" />
+                                        <path id="A-117" class="st0 mapsvg-region" d="M740,273.7l-6.3,17.1l23.5,1.2l6.2-17L740,273.7z" />
+                                        <path id="A-118" class="st0 mapsvg-region" d="M733.7,290.8l23.3,1.2l-6.3,17.3l-23.5-0.9L733.7,290.8z" />
+                                        <path id="A-119" class="st0 mapsvg-region" d="M750.7,309.2l-6.5,17.4l-23.3-1.4l6.3-17.1L750.7,309.2z" />
+                                        <path id="A-120" class="st0 mapsvg-region" d="M721,325.4l-6.5,17.3l23.7,0.9l6.2-17L721,325.4z" />
+                                        <path id="A-121" class="st0 mapsvg-region" d="M714.5,342.7l-6.3,17.1l23.7,1.1l6.3-17.1L714.5,342.7z" />
+                                        <path id="A-122" class="st0 mapsvg-region" d="M708.2,359.6l-6.2,17l23.5,0.9l6.3-17L708.2,359.6z" />
+                                        <path id="A-123" class="st0 mapsvg-region" d="M702,376.6l23.5,0.9l-6.3,17.7l-23.7-1.2L702,376.6z" />
+                                        <path id="A-124" class="st0 mapsvg-region" d="M695.5,394.2l23.5,1.2l-6.5,17.4l-23.8-1.1L695.5,394.2z" />
+                                        <path id="A-125" class="st0 mapsvg-region" d="M688.9,411.6l23.7,1.1l-6.3,17.3l-23.8-1.2L688.9,411.6z" />
+                                        <path id="A-126" class="st0 mapsvg-region" d="M682.5,428.7l23.8,1.2l-6.3,17l-23.7-1.4L682.5,428.7z" />
+                                        <path id="A-127" class="st0 mapsvg-region" d="M676.4,445.6l-6.3,17.1l24,0.8l6-16.7L676.4,445.6z" />
+                                        <path id="A-89" class="st0 mapsvg-region" d="M689.2,200.5l-7.3,19.5l52.2,2.6l3-7.7l0.2-2.7l-0.8-2.6l-1.2-2.3l-1.5-1.8l-2.2-1.5l-3.3-1.7L689.2,200.5z" />
+                                        <path id="A-88" class="st0 mapsvg-region" d="M682,220.1l52.2,2.6l-6.7,17.9l-52.3-2.9L682,220.1z" />
+                                        <path id="A-87" class="st0 mapsvg-region" d="M675.4,237.5l-6.3,17.1l52.5,2.3l6-16.5L675.4,237.5z" />
+                                        <path id="A-86" class="st0 mapsvg-region" d="M669.2,254.8l52.3,2.3l-6.3,17.3l-52.3-2.6L669.2,254.8z" />
+                                        <path id="A-85" class="st0 mapsvg-region" d="M662.9,271.8l-6.5,17.4l52.5,2.4l6.5-17.3L662.9,271.8z" />
+                                        <path id="A-84" class="st0 mapsvg-region" d="M656.5,289.2L650,306l52.8,2.4l6.2-16.7L656.5,289.2z" />
+                                        <path id="A-83" class="st0 mapsvg-region" d="M650,305.8l52.7,2.4l-6.8,18.2l-52.5-2.9L650,305.8z" />
+                                        <path id="A-82" class="st0 mapsvg-region" d="M643.7,323.4l52.3,2.9l-6,16.5l-52.7-2.6L643.7,323.4z" />
+                                        <path id="A-81" class="st0 mapsvg-region" d="M637.4,340.4L690,343l-6.3,17.4l-53-2.7L637.4,340.4z" />
+                                        <path id="A-80" class="st0 mapsvg-region" d="M630.9,357.7l52.8,2.6l-6.5,17.4l-52.8-2.7L630.9,357.7z" />
+                                        <path id="A-79" class="st0 mapsvg-region" d="M624.4,374.9l-6.2,17.1l52.7,2.4l6.3-16.8L624.4,374.9z" />
+                                        <path id="A-243" class="st0 mapsvg-region" d="M556.8,741.5l0.2,32.9l18.6-0.6l19.6-52h-12.2l-0.8,3l-0.8,2.6l-1.7,3.9l-3,3.8l-3.5,3l-4,1.8l-4,1.4l-6,0.5L556.8,741.5z" />
+                                        <path id="A-242" class="st0 mapsvg-region" d="M528.3,722.1l0.3,52.3h28.4l-0.2-32.9l-2.9-0.3l-3.5-1.2l-3-1.8l-3.5-2.6l-3.5-4.1l-2.9-3.5l-1.8-2.6l-1-1.7l-1.3-1.5l-2-0.3L528.3,722.1z" />
+                                        <path id="A-216" class="st0 mapsvg-region" d="M510.8,721.8l17.4,0.3l0.3,52.3h-17.8V721.8z" />
+                                        <path id="A-217" class="st0 mapsvg-region" d="M493,722l17.8-0.2v52.6h-18L493,722z" />
+                                        <path id="A-218" class="st0 mapsvg-region" d="M474.9,721.7l18,0.3l-0.2,52.4l-18-0.2L474.9,721.7z" />
+                                        <path id="A-78" class="st0 mapsvg-region" d="M618.4,392.1l-6.5,17.4l52.8,2.3l6.3-17.1L618.4,392.1z" />
+                                        <path id="A-77" class="st0 mapsvg-region" d="M605.5,426.3l6.3-17l52.8,2.3l-6.5,17L605.5,426.3z" />
+                                        <path id="A-76" class="st0 mapsvg-region" d="M605.5,426.3l-6.5,17.4l53.2,2.3l6.2-17.3L605.5,426.3z" />
+                                        <path id="A-75" class="st0 mapsvg-region" d="M599.2,443.6l-6.5,17.4l47.2,3.3l3-0.9l1.2-0.6l1.3-1.1l1.5-1.5l0.7-1.4l0.3-0.8l4.3-12.3L599.2,443.6z" />
+                                        <path id="A-60" class="st0 mapsvg-region" d="M545.4,440.4l54,2.4l-6.7,18.2l-42.8-2.9l-2.8-0.9l-1.5-1.5l-0.8-0.8l-0.7-1.4l-0.7-1.7l-0.2-1.7V449v-1.5l0.2-1.5L545.4,440.4z" />
+                                        <path id="A-61" class="st0 mapsvg-region" d="M551.7,423.3l-6.3,17.1l54,2.4l6.2-16.4L551.7,423.3z" />
+                                        <path id="A-62" class="st0 mapsvg-region" d="M605.5,426.3l6.3-17l-54-2.9l-6.2,16.7L605.5,426.3z" />
+                                        <path id="A-63" class="st0 mapsvg-region" d="M618.5,391.3l-6.7,18l-54-2.9l6.7-17.7L618.5,391.3z" />
+                                        <path id="A-64" class="st0 mapsvg-region" d="M624.7,374.2l-6.2,17.1l-54.2-2.6l6-17.1L624.7,374.2z" />
+                                        <path id="A-65" class="st0 mapsvg-region" d="M570.5,371.6l54.3,2.6l6.7-17.6l-31-1.4l-23.8-1.1L570.5,371.6z" />
+                                        <path id="A-66" class="st0 mapsvg-region" d="M637.4,339.9l-6,16.7l-54.8-2.6l6.3-16.8L637.4,339.9z" />
+                                        <path id="A-67" class="st0 mapsvg-region" d="M637.4,339.9l6.7-17.6l-54.8-2.6l-6.3,17.4L637.4,339.9z" />
+                                        <path id="A-68" class="st0 mapsvg-region" d="M650.4,305.1l-6.3,17.4l-54.8-2.6l6.3-17.3L650.4,305.1z" />
+                                        <path id="A-69" class="st0 mapsvg-region" d="M650.4,305.1L657,288l-55.3-2.4l-6.2,17L650.4,305.1z" />
+                                        <path id="A-70" class="st0 mapsvg-region" d="M663.2,271l-6.3,17.1l-55.3-2.4l6.3-17.3L663.2,271z" />
+                                        <path id="A-71" class="st0 mapsvg-region" d="M669.7,253.7l-6.5,17.3l-55.2-2.6l6.3-17.3L669.7,253.7z" />
+                                        <path id="A-72" class="st0 mapsvg-region" d="M675.5,236.9l-6,16.8l-55.3-2.7l6.2-17L675.5,236.9z" />
+                                        <path id="A-73" class="st0 mapsvg-region" d="M681.9,219.6l-6.7,17.6l-55-2.9l6.5-17.4L681.9,219.6z" />
+                                        <path id="A-74" class="st0 mapsvg-region" d="M689.2,200.5l-7,18.6l-55.3-2.7l2.7-7.1l1.2-2.1l2.2-2.6l1.7-1.5l2.7-1.7l3.2-1.1l2.2-0.6l2.5-0.6l0.8-0.8L689.2,200.5z" />
+                                        <path id="A-49" class="st0 mapsvg-region" d="M491.5,367.8l-6.5,17.7l37.3,1.7l1.3-1.7l1.2-1.1l1.7-1.1l2.7-0.9l3-0.2l2,0.3l2,0.9l1.3,0.9l1.2,1.1l0.8,1.2l0.8,1.4l6.7-17.9L491.5,367.8z" />
+                                        <path id="A-50" class="st0 mapsvg-region" d="M553.7,353.1l-6.5,17.3l-55.7-2.6l6-16.8L553.7,353.1z" />
+                                        <path id="A-51" class="st0 mapsvg-region" d="M560.2,335.7l-6.5,17.4l-56.3-2.1l6.7-17.9L560.2,335.7z" />
+                                        <path id="A-52" class="st0 mapsvg-region" d="M510.5,316l-6.5,17.1l56,2.6l6.5-17.3L510.5,316z" />
+                                        <path id="A-53" class="st0 mapsvg-region" d="M516.8,299l-6.2,17l56.2,2.4l6.2-17L516.8,299z" />
+                                        <path id="A-54" class="st0 mapsvg-region" d="M523,281.6l-6.2,17.4l56.2,2.6l6.7-17.3L523,281.6z" />
+                                        <path id="A-55" class="st0 mapsvg-region" d="M529.3,264.8l-6.3,16.8l56.5,2.6l6.5-16.8L529.3,264.8z" />
+                                        <path id="A-56" class="st0 mapsvg-region" d="M535.8,247.2l-6.5,17.6l56.7,2.6l6.3-17.6L535.8,247.2z" />
+                                        <path id="A-57" class="st0 mapsvg-region" d="M535.8,247.4l56.5,2.6l6.5-17l-56.8-2.4L535.8,247.4z" />
+                                        <path id="A-58" class="st0 mapsvg-region" d="M605.2,216l-6.5,17l-56.8-2.4l6.5-17.1L605.2,216z" />
+                                        <path id="A-59" class="st0 mapsvg-region" d="M555.3,194.5l-7,18.9l56.8,2.6l2.2-6.2l0.2-2.1l-0.7-2.6l-1-2.3l-2.3-2.7l-2.2-1.4l-1.2-0.8l-3.3-1.7L555.3,194.5z" />
+                                        <path id="A-48" class="st0 mapsvg-region" d="M555.3,194.5l-7.2,19.7l-57-2.6l4.2-11.1l2-2.9l2.3-2.3l3.3-1.7l3-0.5l4.7,0.2l1-0.2l0.2-0.8L555.3,194.5z" />
+                                        <path id="A-47" class="st0 mapsvg-region" d="M548.2,214.2l-6.5,17.1l-56.5-2.6l6.2-17.1L548.2,214.2z" />
+                                        <path id="A-46" class="st0 mapsvg-region" d="M535.7,247.7l6-16.2l-56.5-2.6l-6,16.5L535.7,247.7z" />
+                                        <path id="A-45" class="st0 mapsvg-region" d="M529,265.7l6.7-18l-56.5-2.3l-6.3,17.9L529,265.7z" />
+                                        <path id="A-44" class="st0 mapsvg-region" d="M529,265.7l-6.3,17l-56.2-2.6l6-16.8L529,265.7z" />
+                                        <path id="A-43" class="st0 mapsvg-region" d="M522.8,282.5l-6.2,17.4l-56.2-2.7l6.3-17.3L522.8,282.5z" />
+                                        <path id="A-42" class="st0 mapsvg-region" d="M516.5,299.9l-6.2,17.1l-56.3-2.7l6.3-17L516.5,299.9z" />
+                                        <path id="A-41" class="st0 mapsvg-region" d="M510.3,316.9l-6.5,17.4l-55.8-2.9l6-17.3L510.3,316.9z" />
+                                        <path id="A-40" class="st0 mapsvg-region" d="M503.7,334.3l-6.3,16.8l-5.3,0.3l-1.2-2.3l-1.8-2l-2.2-1.4l-3-0.8h-3.2l-2.3,0.6l-2.3,1.4l-1.8,1.5l-1,1.8l-31.3-1.4l6.2-17.4L503.7,334.3z" />
+                                        <path id="A-128" class="st0 mapsvg-region" d="M526.7,564.8l54.2,0.2v18.5l-54.2-0.2V564.8z" />
+                                        <path id="A-129" class="st0 mapsvg-region" d="M581,583.6l0.2,17.4l-54.2-0.3v-17.1H581z" />
+                                        <path id="A-130" class="st0 mapsvg-region" d="M581,601l0.2,17.6l-54.3-0.3v-17.6L581,601z" />
+                                        <path id="A-131" class="st0 mapsvg-region" d="M581,635.9l0.2-17.4l-54.3-0.3v17.4L581,635.9z" />
+                                        <path id="A-132" class="st0 mapsvg-region" d="M580.8,635.7v17.7l-53.8-0.2l-0.2-17.7L580.8,635.7z" />
+                                        <path id="A-133" class="st0 mapsvg-region" d="M581.2,670.7l-0.2-17.3l-53.8-0.2v17.4H581.2z" />
+                                        <path id="A-134" class="st0 mapsvg-region" d="M581.2,670.7l-0.2,17.7l-54.2-0.3l0.2-17.4H581.2z" />
+                                        <path id="A-135" class="st0 mapsvg-region" d="M526.8,688l54.2,0.3V717l-1.2-4.5l-1.5-2.3l-2.7-2.3l-2.5-1.4l-4-0.9l-3-0.3h-33.7l-2-0.6l-1.2-0.8l-1.3-1.5l-0.5-0.9l-0.3-1.5v-12H526.8z" />
+                                        <path id="A-219" class="st0 mapsvg-region" d="M475.1,721.7h-18v52.6l17.6,0.2L475.1,721.7z" />
+                                        <path id="A-220" class="st0 mapsvg-region" d="M457.3,721.7l-19.6,0.2l0.3,52.6l19.1-0.2L457.3,721.7z" />
+                                        <path id="A-221" class="st0 mapsvg-region" d="M437.8,721.8L418,722l-0.2,52.4l20,0.2L437.8,721.8L437.8,721.8z" />
+                                        <path id="A-223" class="st0 mapsvg-region" d="M418,721.8l-20.1-0.3l0.2,52.7l19.8,0.3L418,721.8z" />
+                                        <path id="A-224" class="st0 mapsvg-region" d="M398.1,722v52.4l-19.8-0.2v-52.6L398.1,722z" />
+                                        <path id="A-225" class="st0 mapsvg-region" d="M358.5,722l20.1,0.2l-0.2,52.4h-20V722z" />
+                                        <path id="A-226" class="st0 mapsvg-region" d="M358.8,722.1l-0.3,52.4l-19.6-0.2v-52.3H358.8z" />
+                                        <path id="A-227" class="st0 mapsvg-region" d="M338.3,721.8l0.7,52.6l-20.5,0.2l0.3-52.6L338.3,721.8z" />
+                                        <path id="A-228" class="st0 mapsvg-region" d="M299.4,721.5l19.5,0.3l0.3,52.6h-20.1L299.4,721.5z" />
+                                        <path id="A-229" class="st0 mapsvg-region" d="M279.3,722h20.1v52.1h-20.3L279.3,722z" />
+                                        <path id="A-230" class="st0 mapsvg-region" d="M259.5,721.8h19.5v52.3l-19.6,0.3L259.5,721.8z" />
+                                        <path id="A-231" class="st0 mapsvg-region" d="M259.5,722l0.3,52.3h-20l-0.2-52.4L259.5,722z" />
+                                        <path id="A-232" class="st0 mapsvg-region" d="M219.9,722l20.1,0.2v52.4h-20.1L219.9,722z" />
+                                        <path id="A-233" class="st0 mapsvg-region" d="M219.7,722l0.5,52.6l-19.8-0.2l-0.2-52.4H219.7z" />
+                                        <path id="A-234" class="st0 mapsvg-region" d="M200.1,722.1l0.2,52.3l-20.3,0.3l0.2-53L200.1,722.1z" />
+                                        <path id="A-235" class="st0 mapsvg-region" d="M160.8,774.1l19.1,0.3v-53h-19.3L160.8,774.1z" />
+                                        <path id="A-236" class="st0 mapsvg-region" d="M160.3,721.8l0.2,52.4l-19.8,0.2v-52.6H160.3z" />
+                                        <path id="A-237" class="st0 mapsvg-region" d="M141.4,774.5h-20.6V722l20-0.2L141.4,774.5z" />
+                                        <path id="A-238" class="st0 mapsvg-region" d="M120.4,722v52.6h-20l-0.2-52.9L120.4,722z" />
+                                        <path id="A-240" class="st0 mapsvg-region" d="M82.6,721.8l17.4-0.2l0.2,52.9l-18,0.2L82.6,721.8z" />
+                                        <path id="A-241" class="st0 mapsvg-region" d="M83,721.7H64.5l0.2,53.2l17.6-0.2L83,721.7z" />
+                                        <path id="A-137" class="st0 mapsvg-region" d="M452,682.9v18.2l46-0.3l2.2-0.3l1.8-1.4l1.7-1.4l1.2-2.3l0.7-2.1v-10.6L452,682.9z" />
+                                        <path id="A-138" class="st0 mapsvg-region" d="M505.3,665v17.9l-53.2-0.2v-17.6L505.3,665z" />
+                                        <path id="A-139" class="st0 mapsvg-region" d="M505.3,648v17l-53.2,0.3l-0.2-17.6L505.3,648z" />
+                                        <path id="A-140" class="st0 mapsvg-region" d="M452.2,630.3l-0.3,17.4l53.3,0.2l0.2-17.6H452.2z" />
+                                        <path id="A-141" class="st0 mapsvg-region" d="M505.5,613v17.3h-53.2l-0.2-17.4L505.5,613z" />
+                                        <path id="A-142" class="st0 mapsvg-region" d="M505.5,595.6V613l-53.3-0.2v-17.4L505.5,595.6z" />
+                                        <path id="A-143" class="st0 mapsvg-region" d="M452.2,578.3v17.3l53.3,0.2V578L452.2,578.3z" />
+                                        <path id="A-144" class="st0 mapsvg-region" d="M452,560.4v17.7l53.3-0.5v-17.3L452,560.4z" />
+                                        <path id="A-145" class="st0 mapsvg-region" d="M452,542.2v17.6l53.3,0.2l-0.2-17.6L452,542.2z" />
+                                        <path id="A-156" class="st0 mapsvg-region" d="M397.9,507.5l54.7-0.2v18.9l-54.7-0.3V507.5z" />
+                                        <path id="A-155" class="st0 mapsvg-region" d="M452.2,543l0.2-16.7l-54.7-0.3v16.8L452.2,543z" />
+                                        <path id="A-154" class="st0 mapsvg-region" d="M452.2,543l-0.2,17.4h-54.2v-17.6L452.2,543z" />
+                                        <path id="A-153" class="st0 mapsvg-region" d="M452.2,560.6v17.7l-54.3-0.2v-17.7L452.2,560.6z" />
+                                        <path id="A-152" class="st0 mapsvg-region" d="M452.2,595.6v-17.4l-54.3-0.2v17.6H452.2z" />
+                                        <path id="A-151" class="st0 mapsvg-region" d="M452.2,595.7L452.2,595.7v17.1l-54.3,0.2v-17.3H452.2z" />
+                                        <path id="A-150" class="st0 mapsvg-region" d="M451.4,612.9l0.2,17.4l-54.3,0.3v-17.7H451.4z" />
+                                        <path id="A-149" class="st0 mapsvg-region" d="M452.5,630.4l-0.3,17.4l-54,0.2v-17.3L452.5,630.4z" />
+                                        <path id="A-148" class="st0 mapsvg-region" d="M452,647.7v17.7l-54.2,0.2V648L452,647.7z" />
+                                        <path id="A-147" class="st0 mapsvg-region" d="M398,665.4v18.2l54.2-0.2v-18.2L398,665.4z" />
+                                        <path id="A-146" class="st0 mapsvg-region" d="M452.2,683.6l-0.2,17.6l-46.5-0.5l-1.7-0.6l-1.7-1.2l-1.8-1.7l-1.2-1.8l-0.8-2.3l-0.3-1.8v-7.6L452.2,683.6z" />
+                                        <path id="A-169" class="st0 mapsvg-region" d="M323.5,472.7l53.5-0.2V491l-53.7-0.2L323.5,472.7z" />
+                                        <path id="A-168" class="st0 mapsvg-region" d="M376.9,490.9l0.2,17.7l-53.7-0.2v-17.6H376.9z" />
+                                        <path id="A-167" class="st0 mapsvg-region" d="M376.9,508.6v17.7l-53.2-0.6l-0.3-17.3L376.9,508.6z" />
+                                        <path id="A-166" class="st0 mapsvg-region" d="M377,543.6v-17.3l-53.2-0.6l-0.3,17.9H377z" />
+                                        <path id="A-165" class="st0 mapsvg-region" d="M377,543.6v17.3h-53.7v-17.3H377z" />
+                                        <path id="A-164" class="st0 mapsvg-region" d="M377,578.5v-17.6h-53.7l-0.2,17.6H377z" />
+                                        <path id="A-163" class="st0 mapsvg-region" d="M377,578.3v17.6l-53.5,0.2l-0.3-17.4L377,578.3z" />
+                                        <path id="A-162" class="st0 mapsvg-region" d="M323.5,595.7l53.5,0.2V613l-53.7,0.2L323.5,595.7z" />
+                                        <path id="A-161" class="st0 mapsvg-region" d="M376.9,630.4V613l-53.7,0.2v17.4L376.9,630.4z" />
+                                        <path id="A-160" class="st0 mapsvg-region" d="M377,648.3v-17.9l-53.7,0.2v17.6L377,648.3z" />
+                                        <path id="A-159" class="st0 mapsvg-region" d="M377,665.7v-17.4l-53.7-0.2v17.7H377V665.7z" />
+                                        <path id="A-158" class="st0 mapsvg-region" d="M377,683.3v-17.6h-53.7v17.6H377z" />
+                                        <path id="A-157" class="st0 mapsvg-region" d="M323.4,683.3H377v10.6l-0.7,2.6l-0.8,1.4l-1.2,1.4l-2,1.2l-1.5,0.5l-1.8,0.5h-45.5v-18H323.4z" />
+                                        <path id="A-183" class="st0 mapsvg-region" d="M269.4,455h54.5l-0.3,17.7l-54,0.2V455H269.4z" />
+                                        <path id="A-182" class="st0 mapsvg-region" d="M269.5,472.8l54-0.2l-0.2,18.2l-54.2,0.2L269.5,472.8z" />
+                                        <path id="A-181" class="st0 mapsvg-region" d="M269.7,508.5l53.7-0.2v-17.6l-54.2,0.2L269.7,508.5z" />
+                                        <path id="A-180" class="st0 mapsvg-region" d="M269.5,526.2l54.3-0.6l-0.3-17.3l-53.7,0.2L269.5,526.2z" />
+                                        <path id="A-179" class="st0 mapsvg-region" d="M323.5,543.6l0.2-17.9l-54.3,0.6v17.1L323.5,543.6z" />
+                                        <path id="A-178" class="st0 mapsvg-region" d="M269.5,543.6h54.2l-0.2,17.4l-54-0.2L269.5,543.6L269.5,543.6z" />
+                                        <path id="A-177" class="st0 mapsvg-region" d="M269.5,578.3v-17.4l54,0.2l-0.2,17.6L269.5,578.3z" />
+                                        <path id="A-176" class="st0 mapsvg-region" d="M269.5,595l54.2,0.2l-0.3-17.3l-53.8-0.3V595z" />
+                                        <path id="A-175" class="st0 mapsvg-region" d="M269.5,595.6l54.2,0.2l-0.3,17.4h-53.8V595.6z" />
+                                        <path id="A-174" class="st0 mapsvg-region" d="M269.5,613.2h53.7v17.4l-53.8,0.2v-17.6H269.5z" />
+                                        <path id="A-173" class="st0 mapsvg-region" d="M269.5,647.9v-17.1l53.8-0.2v17.6L269.5,647.9z" />
+                                        <path id="A-172" class="st0 mapsvg-region" d="M269.7,648l53.7,0.2v17.7h-53.8L269.7,648z" />
+                                        <path id="A-171" class="st0 mapsvg-region" d="M323.4,665.7v17.6l-53.8-0.3v-17.3H323.4z" />
+                                        <path id="A-170" class="st0 mapsvg-region" d="M323.4,683.3v18.2l-45-0.2l-2-0.6l-1.7-0.9l-1.2-0.8l-1.2-1.1l-0.7-0.9l-0.7-1.2l-0.7-1.2l-0.5-0.9l-0.3-1.4V683L323.4,683.3z" />
+                                        <path id="A-195" class="st0 mapsvg-region" d="M194.7,489.5l54.3,0.3V508l-54.3-0.2V489.5z" />
+                                        <path id="A-194" class="st0 mapsvg-region" d="M249,526.2v-18l-54.3-0.2l-0.2,18.2H249z" />
+                                        <path id="A-193" class="st0 mapsvg-region" d="M249,542.9v-16.7h-54.5V543L249,542.9z" />
+                                        <path id="A-192" class="st0 mapsvg-region" d="M249,542.9v17.9l-54.3-0.3V543L249,542.9z" />
+                                        <path id="A-191" class="st0 mapsvg-region" d="M249,578.2v-17.6l-54.3-0.3v17.6L249,578.2z" />
+                                        <path id="A-190" class="st0 mapsvg-region" d="M249,595.4v-17.3l-54.3-0.2v17.4H249z" />
+                                        <path id="A-189" class="st0 mapsvg-region" d="M249.2,612.9l-0.2-17.4l-54.3-0.2v17.4L249.2,612.9z" />
+                                        <path id="A-188" class="st0 mapsvg-region" d="M249.2,612.7l-0.2,17.9l-54.3-0.3v-17.6L249.2,612.7L249.2,612.7z" />
+                                        <path id="A-187" class="st0 mapsvg-region" d="M194.7,630.3l54.3,0.3V648l-54.2-0.2L194.7,630.3z" />
+                                        <path id="A-186" class="st0 mapsvg-region" d="M194.9,647.7l0.2,17.4l54.2-0.2v-17L194.9,647.7z" />
+                                        <path id="A-185" class="st0 mapsvg-region" d="M195,665v18l53.8-0.2v-18L195,665z" />
+                                        <path id="A-184" class="st0 mapsvg-region" d="M249,682.9v8.8l-0.3,2.3l-1.3,2.4l-2.2,2.3l-1.5,0.9l-2.7,0.8l-45.7,0.3l-0.2-17.4L249,682.9z" />
+                                        <path id="A-196" class="st0 mapsvg-region" d="M195.4,682.3l-0.2,18.2l-45.7,0.2l-2.7-0.6l-1.5-1.1l-1.2-0.8l-0.7-0.8l-0.8-1.1l-0.5-0.9l-0.5-1.2l-0.3-1.7v-10.3H195.4z" />
+                                        <path id="A-197" class="st0 mapsvg-region" d="M195,664.1l0.3,18l-54,0.2v-18H195V664.1z" />
+                                        <path id="A-198" class="st0 mapsvg-region" d="M194.9,646.8l0.2,17.4h-53.5v-17.4H194.9z" />
+                                        <path id="A-199" class="st0 mapsvg-region" d="M141.5,629.4l53.3-0.2v17.6h-53.3V629.4z" />
+                                        <path id="A-200" class="st0 mapsvg-region" d="M141.9,612l52.8,0.8l0.2,16.7l-53.3,0.2L141.9,612z" />
+                                        <path id="A-201" class="st0 mapsvg-region" d="M141.5,594.8l0.2,17.1l52.8,0.8v-18.3L141.5,594.8z" />
+                                        <path id="A-202" class="st0 mapsvg-region" d="M194.9,577.2v17.1l-53.3,0.5v-17.7L194.9,577.2z" />
+                                        <path id="A-203" class="st0 mapsvg-region" d="M141.5,559.5h53.2v17.7l-53.2-0.2V559.5z" />
+                                        <path id="A-204" class="st0 mapsvg-region" d="M141.5,542.2v17.1h53.2v-17.4L141.5,542.2z" />
+                                        <path id="A-205" class="st0 mapsvg-region" d="M194.7,542.2h-53.2l0.2-17.1h52.8L194.7,542.2z" />
+                                        <path id="A-215" class="st0 mapsvg-region" d="M64.5,524.8l2,0.5l2.2,0.2l1.5-0.5l2-0.8l46.8,0.2v18.5l-54.5-0.2V524.8z" />
+                                        <path id="A-214" class="st0 mapsvg-region" d="M64.5,542.7l54.5,0.2v17.4l-54.5-0.2V542.7z" />
+                                        <path id="A-213" class="st0 mapsvg-region" d="M64.5,560l54.5,0.2v17.7l-54.3-0.3L64.5,560z" />
+                                        <path id="A-212" class="st0 mapsvg-region" d="M64,577.4l54.3,0.5v17.3L63.9,595L64,577.4z" />
+                                        <path id="A-211" class="st0 mapsvg-region" d="M64.5,594.8l54.5,0.3v17.7l-54.5-0.5V594.8z" />
+                                        <path id="A-210" class="st0 mapsvg-region" d="M64.5,612.4l54.3,0.5V630l-54.5-0.2L64.5,612.4z" />
+                                        <path id="A-209" class="st0 mapsvg-region" d="M64.5,629.8l54.5,0.3v17.4l-54.5,0.2V629.8z" />
+                                        <path id="A-208" class="st0 mapsvg-region" d="M119,647.4l0.2,17.9l-54.7-0.2v-17.6L119,647.4z" />
+                                        <path id="A-207" class="st0 mapsvg-region" d="M119,664.8v17.6l-54.3,0.2L64.5,665L119,664.8z" />
+                                        <path id="A-206" class="st0 mapsvg-region" d="M119,682.7v9.2l-0.5,2.3l-1,1.8l-1.2,1.4l-2.2,1.4l-1.8,0.6l-48,0.2l0.2-16.8H119z" />
+                                        <rect class="cls-48" x="700" y="650" width="27.04" height="27.04"></rect>
+                                        <rect class="cls-49" x="700" y="685" width="27.04" height="27.04"></rect>
+                                        <rect class="cls-50" x="700" y="720" width="27.04" height="27.04"></rect>
+                                    </g>
+                                    <g id="Capa_3">
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 96.0001 408)" class="st1">A-01</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 102.4547 392)" class="st1">A-02</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 108.9091 375)" class="st1">A-03</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 115.3637 358)" class="st1">A-04</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 121.8183 341)" class="st1">A-05</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 128.2728 324)" class="st1">A-06</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 134.7274 306)" class="st1">A-07</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 141.1818 288)" class="st1">A-08</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 147.6364 270)" class="st1">A-09</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 154.091 254)" class="st1">A-10</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 160.5455 238)" class="st1">A-11</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 167.0001 221)" class="st1">A-12</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 200.0001 342)" class="st1">A-13</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 206.8573 324)" class="st1">A-14</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 213.7143 306)" class="st1">A-15</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 220.5715 290)" class="st1">A-16</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 227.4287 275)" class="st1">A-17</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 234.2858 256)" class="st1">A-18</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 241.1428 238)" class="st1">A-19</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 248 223)" class="st1">A-20</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 268 328)" class="st1">A-21</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 273.3335 309)" class="st1">A-22</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 278.6667 293)" class="st1">A-23</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 284 276)" class="st1">A-24</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 289.3335 260)" class="st1">A-25</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 294.6667 242)" class="st1">A-26</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 300 224)" class="st1">A-27</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 348 316)" class="st1">A-28</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 354 298)" class="st1">A-29</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 360 280)" class="st1">A-30</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 366 264)" class="st1">A-31</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 372 246)" class="st1">A-32</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 378 230)" class="st1">A-33</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 396 318)" class="st1">A-34</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 402 300)" class="st1">A-35</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 408 284)" class="st1">A-36</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 416 266)" class="st1">A-37</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 420 248)" class="st1">A-38</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 424 232)" class="st1">A-39</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 460 344)" class="st1">A-40</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 466 326.725)" class="st1">A-41</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 472 309.4498)" class="st1">A-42</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 479 292.1747)" class="st1">A-43</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 486 274.8997)" class="st1">A-44</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 492 257.6246)" class="st1">A-45</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 498 240.3497)" class="st1">A-46</text>
+                                        <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 504.9743 222.8961)" class="st1 st3">A-47</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 510.5999 205.7996)" class="st1">A-48</text>
+                                        <text transform="matrix(1 0 0 1 540 577)" class="st1">A-128</text>
+                                        <text transform="matrix(1 0 0 1 540 595)" class="st1">A-129</text>
+                                        <text transform="matrix(1 0 0 1 540 613)" class="st1">A-130</text>
+                                        <text transform="matrix(1 0 0 1 540 629)" class="st1">A-131</text>
+                                        <text transform="matrix(1 0 0 1 540 647)" class="st1">A-132</text>
+                                        <text transform="matrix(1 0 0 1 540 665)" class="st1">A-133</text>
+                                        <text transform="matrix(1 0 0 1 540 683)" class="st1">A-134</text>
+                                        <text transform="matrix(1 0 0 1 540 701)" class="st1">A-135</text>
+                                        <text transform="matrix(1 0 0 1 466 556)" class="st1">A-145</text>
+                                        <text transform="matrix(1 0 0 1 466 573.5)" class="st1">A-144</text>
+                                        <text transform="matrix(1 0 0 1 466 591)" class="st1">A-143</text>
+                                        <text transform="matrix(1 0 0 1 466 608.5)" class="st1">A-142</text>
+                                        <text transform="matrix(1 0 0 1 466 626)" class="st1">A-141</text>
+                                        <text transform="matrix(1 0 0 1 466 643.5)" class="st1">A-140</text>
+                                        <text transform="matrix(1 0 0 1 466 661)" class="st1">A-139</text>
+                                        <text transform="matrix(1 0 0 1 466 678.5)" class="st1">A-138</text>
+                                        <text transform="matrix(1 0 0 1 466 696)" class="st1">A-137</text>
+                                        <text transform="matrix(1 0 0 1 412 520)" class="st1">A-156</text>
+                                        <text transform="matrix(1 0 0 1 412 537.6)" class="st1">A-155</text>
+                                        <text transform="matrix(1 0 0 1 412 555.2)" class="st1">A-154</text>
+                                        <text transform="matrix(1 0 0 1 412 572.8)" class="st1">A-153</text>
+                                        <text transform="matrix(1 0 0 1 412 590.4)" class="st1">A-152</text>
+                                        <text transform="matrix(1 0 0 1 412 608)" class="st1">A-151</text>
+                                        <text transform="matrix(1 0 0 1 412 625.6)" class="st1">A-150</text>
+                                        <text transform="matrix(1 0 0 1 412 643.2)" class="st1">A-149</text>
+                                        <text transform="matrix(1 0 0 1 412 660.8)" class="st1">A-148</text>
+                                        <text transform="matrix(1 0 0 1 412 678.4)" class="st1">A-147</text>
+                                        <text transform="matrix(1 0 0 1 412 696)" class="st1">A-146</text>
+                                        <text transform="matrix(1 0 0 1 336 485)" class="st1">A-169</text>
+                                        <text transform="matrix(1 0 0 1 336 502.5833)" class="st1">A-168</text>
+                                        <text transform="matrix(1 0 0 1 336 520.1666)" class="st1">A-167</text>
+                                        <text transform="matrix(1 0 0 1 336 537.75)" class="st1">A-166</text>
+                                        <text transform="matrix(1 0 0 1 336 555.3334)" class="st1">A-165</text>
+                                        <text transform="matrix(1 0 0 1 336 572.9166)" class="st1">A-164</text>
+                                        <text transform="matrix(1 0 0 1 336 590.5)" class="st1">A-163</text>
+                                        <text transform="matrix(1 0 0 1 336 608.0834)" class="st1">A-162</text>
+                                        <text transform="matrix(1 0 0 1 336 625.6666)" class="st1">A-161</text>
+                                        <text transform="matrix(1 0 0 1 336 643.25)" class="st1">A-160</text>
+                                        <text transform="matrix(1 0 0 1 336 660.8334)" class="st1">A-159</text>
+                                        <text transform="matrix(1 0 0 1 336 678.4166)" class="st1">A-158</text>
+                                        <text transform="matrix(1 0 0 1 336 696)" class="st1">A-157</text>
+                                        <text transform="matrix(1 0 0 1 284 467)" class="st1">A-183</text>
+                                        <text transform="matrix(1 0 0 1 284 484.6154)" class="st1">A-182</text>
+                                        <text transform="matrix(1 0 0 1 284 502.2308)" class="st1">A-181</text>
+                                        <text transform="matrix(1 0 0 1 284 519.8462)" class="st1">A-180</text>
+                                        <text transform="matrix(1 0 0 1 284 537.4615)" class="st1">A-179</text>
+                                        <text transform="matrix(1 0 0 1 284 555.0769)" class="st1">A-178</text>
+                                        <text transform="matrix(1 0 0 1 284 572.6923)" class="st1">A-177</text>
+                                        <text transform="matrix(1 0 0 1 284 590.3077)" class="st1">A-176</text>
+                                        <text transform="matrix(1 0 0 1 284 607.9231)" class="st1">A-175</text>
+                                        <text transform="matrix(1 0 0 1 284 625.5385)" class="st1">A-174</text>
+                                        <text transform="matrix(1 0 0 1 284 643.1538)" class="st1">A-173</text>
+                                        <text transform="matrix(1 0 0 1 284 660.7692)" class="st1">A-172</text>
+                                        <text transform="matrix(1 0 0 1 284 678.3846)" class="st1">A-171</text>
+                                        <text transform="matrix(1 0 0 1 284 696)" class="st1">A-170</text>
+                                        <text transform="matrix(1 0 0 1 208 503)" class="st1">A-195</text>
+                                        <text transform="matrix(1 0 0 1 208 520.5454)" class="st1">A-194</text>
+                                        <text transform="matrix(1 0 0 1 208 538.0909)" class="st1">A-193</text>
+                                        <text transform="matrix(1 0 0 1 208 555.6364)" class="st1">A-192</text>
+                                        <text transform="matrix(1 0 0 1 208 573.1818)" class="st1">A-191</text>
+                                        <text transform="matrix(1 0 0 1 208 590.7273)" class="st1">A-190</text>
+                                        <text transform="matrix(1 0 0 1 208 608.2727)" class="st1">A-189</text>
+                                        <text transform="matrix(1 0 0 1 208 625.8182)" class="st1">A-188</text>
+                                        <text transform="matrix(1 0 0 1 208 643.3636)" class="st1">A-187</text>
+                                        <text transform="matrix(1 0 0 1 208 660.9091)" class="st1">A-186</text>
+                                        <text transform="matrix(1 0 0 1 208 678.4546)" class="st1">A-185</text>
+                                        <text transform="matrix(1 0 0 1 208 696)" class="st1">A-184</text>
+                                        <text transform="matrix(1 0 0 1 154 538)" class="st1">A-205</text>
+                                        <text transform="matrix(1 0 0 1 154 555.5555)" class="st1">A-204</text>
+                                        <text transform="matrix(1 0 0 1 154 573.1111)" class="st1">A-203</text>
+                                        <text transform="matrix(1 0 0 1 154 590.6666)" class="st1">A-202</text>
+                                        <text transform="matrix(1 0 0 1 154 608.2222)" class="st1">A-201</text>
+                                        <text transform="matrix(1 0 0 1 154 625.7778)" class="st1">A-200</text>
+                                        <text transform="matrix(1 0 0 1 154 643.3334)" class="st1">A-199</text>
+                                        <text transform="matrix(1 0 0 1 154 660.8889)" class="st1">A-198</text>
+                                        <text transform="matrix(1 0 0 1 154 678.4445)" class="st1">A-197</text>
+                                        <text transform="matrix(1 0 0 1 154 696)" class="st1">A-196</text>
+                                        <text transform="matrix(1 0 0 1 78 538)" class="st1">A-215</text>
+                                        <text transform="matrix(1 0 0 1 78 555.5555)" class="st1">A-214</text>
+                                        <text transform="matrix(1 0 0 1 78 573.1111)" class="st1">A-213</text>
+                                        <text transform="matrix(1 0 0 1 78 590.6666)" class="st1">A-212</text>
+                                        <text transform="matrix(1 0 0 1 78 608.2222)" class="st1">A-211</text>
+                                        <text transform="matrix(1 0 0 1 78 625.7778)" class="st1">A-210</text>
+                                        <text transform="matrix(1 0 0 1 78 643.3334)" class="st1">A-209</text>
+                                        <text transform="matrix(1 0 0 1 78 660.8889)" class="st1">A-208</text>
+                                        <text transform="matrix(1 0 0 1 78 678.4445)" class="st1">A-207</text>
+                                        <text transform="matrix(1 0 0 1 78 696)" class="st1">A-206</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 572 771)" class="st1">A-236</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 546 767)" class="st1">A-242</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 524 767)" class="st1">A-216</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 506 767)" class="st1">A-217</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 488 767)" class="st1">A-218</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 470 767)" class="st1">A-219</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 452 767)" class="st1">A-220</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 432 767)" class="st1">A-221</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 412 767)" class="st1">A-223</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 394 767)" class="st1">A-224</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 374 767)" class="st1">A-225</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 354 767)" class="st1">A-226</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 334 767)" class="st1">A-227</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 314 767)" class="st1">A-228</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 294 767)" class="st1">A-229</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 274 767)" class="st1">A-230</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 254 767)" class="st1">A-231</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 234 767)" class="st1">A-232</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 214 767)" class="st1">A-233</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 194 767)" class="st1">A-234</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 174 767)" class="st1">A-235</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 154 767)" class="st1">A-236</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 134 767)" class="st1">A-237</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 114 767)" class="st1">A-238</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 96 767)" class="st1">A-240</text>
+                                        <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 78 767)" class="st1">A-241</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 514.9999 345.7599)" class="st1">A-51</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 508 362.8799)" class="st1">A-50</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 501 380)" class="st1">A-49</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 520.9999 328.6399)" class="st1">A-52</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 526.9999 311.52)" class="st1">A-53</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 533.9999 294.3995)" class="st1">A-54</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 540.9999 277.2795)" class="st1">A-55</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 546.9999 260.1597)" class="st1">A-56</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 552.9999 243.0394)" class="st1">A-57</text>
+                                        <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 559.9737 225.7406)" class="st1 st3">A-58</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 565.5999 208.7996)" class="st1">A-59</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 592.9999 351)" class="st1">A-66</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 598.9999 333.725)" class="st1">A-67</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 604.9999 316.4498)" class="st1">A-68</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 611.9999 299.1747)" class="st1">A-69</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 618.9999 281.8997)" class="st1">A-70</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 624.9999 264.6246)" class="st1">A-71</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 630.9999 247.3497)" class="st1">A-72</text>
+                                        <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 637.9743 229.8961)" class="st1 st3">A-73</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 643.5999 212.7996)" class="st1">A-74</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 647.9999 352.7599)" class="st1">A-81</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 640.9999 369.8799)" class="st1">A-80</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 633.9999 387)" class="st1">A-79</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 653.9999 335.6399)" class="st1">A-82</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 622.9999 419.7599)" class="st1">A-77</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 615.9999 436.8799)" class="st1">A-76</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 608.9999 454)" class="st1">A-75</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 628.9999 402.6399)" class="st1">A-78</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 587.9999 366.8799)" class="st1">A-65</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 580.9999 384)" class="st1">A-64</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 569.9999 416.7599)" class="st1">A-62</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 562.9999 433.8799)" class="st1">A-61</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 555.9999 451)" class="st1">A-60</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 575.9999 399.6399)" class="st1">A-63</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 659.9999 318.52)" class="st1">A-83</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 666.9999 301.3995)" class="st1">A-84</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 673.9999 284.2795)" class="st1">A-85</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 679.9999 267.1597)" class="st1">A-86</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 685.9999 250.0394)" class="st1">A-87</text>
+                                        <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 692.9737 232.7406)" class="st1 st3">A-88</text>
+                                        <text transform="matrix(0.9962 8.715574e-02 -8.715574e-02 0.9962 698.5999 215.7996)" class="st1">A-89</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 187.2465 157.6526)" class="st1">A-90</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 248.2465 160.6526)" class="st1">A-91</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 270.2465 160.6526)" class="st1">A-92</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 462.2465 170.1526)" class="st1">A-96</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 479.2465 171.6526)" class="st1">A-97</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 504.2465 160.2952)" class="st1">A-98</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 521.2465 159.6526)" class="st1">A-99</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 540.2465 160.9387)" class="st1">A-100</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 558.2465 161.5813)" class="st1">A-101</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 576.2465 162.2239)" class="st1">A-102</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 614.2465 163.51)" class="st1">A-104</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 632.2465 164.1526)" class="st1">A-105</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 651.2465 164.7952)" class="st1">A-106</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 671.2465 165.4387)" class="st1">A-107</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 690.2465 166.0813)" class="st1">A-108</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 725.2465 166.7239)" class="st1">A-110</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 746.2465 167.3665)" class="st1">A-111</text>
+                                        <text transform="matrix(0.3681 -0.9298 0.9298 0.3681 781.6599 181.7174)" class="st1">A-113</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 763.2465 168.6526)" class="st1">A-112</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 708.2465 168.01)" class="st1">A-109</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 595.2465 162.8665)" class="st1">A-103</text>
+                                        <text transform="matrix(0.4008 -0.9162 0.9162 0.4008 443.2465 168.6526)" class="st1">A-95 </text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 706.6445 371.2744)" class="st1 st4">A-122</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 700.3107 389.0099)" class="st1 st4">A-123</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 712.9791 354.5395)" class="st1 st4">A-121</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 687.6406 422.8549)" class="st1 st4">A-125</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 681.3049 439.5901)" class="st1 st4">A-126</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 674.9717 455.3257)" class="st1 st4">A-127</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 693.9757 406.1202)" class="st1 st4">A-124</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 719.3137 337.8044)" class="st1 st4">A-120</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 725.6494 320.0689)" class="st1 st4">A-119</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 731.9846 301.3339)" class="st1 st4">A-118</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 738.3192 285.599)" class="st1 st4">A-117</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 744.6533 267.8635)" class="st1 st4">A-116</text>
+                                        <text transform="matrix(0.9949 0.1012 -0.1012 0.9949 750.9764 251.9636)" class="st1 st4">A-115</text>
+                                        <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 757.3232 236.3932)" class="st1 st4">A-114</text>
+                                        <text class="cls-46" transform="translate(740 670)">Premium</text>
+                                        <text class="cls-46" transform="translate(740 705)">Plus</text>
+                                        <text class="cls-46" transform="translate(740 740)">Estandar </text>
+                                    </g>
+                                    <g id="area_selection_1">
+                                        <path data-id="A-12" class="st2 " d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" />
+                                        <path data-id="A-11" class="st2 " d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
+                                        <path data-id="A-10" class="st2 " d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
+                                        <path data-id="A-09" class="st2 " d="M130.4,274.5l6-16.7l55.7,2.9l-6.3,17l-11.2-0.8" />
+                                        <path data-id="A-08" class="st2 " d="M130,274.5l56,2.7l-6.7,17.9l-55.8-2.9l2.3-6.2l2-5.5" />
+                                        <path data-id="A-07" class="st2 " d="M123.5,292.1l55.8,2.9l-6.3,17l-55.7-3L123.5,292.1z" />
+                                        <path data-id="A-06" class="st2 " d="M173,312.1l-6.2,17.1l-56-3l6.5-17.1L173,312.1z" />
+                                        <path data-id="A-05" class="st2 " d="M111,326.2l55.8,3l-6.3,17.1l-56.2-2.7L111,326.2z" />
+                                        <path data-id="A-04" class="st2 " d="M104.4,343.6l56.2,2.7l-6.7,17.9l-56-3L104.4,343.6z" />
+                                        <path data-id="A-03" class="st2 " d="M154,364.2l-6.2,16.7L92,377.7l6.2-16.7L154,364.2z" />
+                                        <path data-id="A-02" class="st2 " d="M147.4,381l-6.3,17.1l-56.2-3l6.7-17.4L147.4,381z" />
+                                        <path data-id="A-01" class="st2 " d="M85.4,395.1l56.2,2.9l-6.2,17l-56.3-3L85.4,395.1z" />
+                                        <path data-id="A-90" class="st2 " d="M192.2,102.6l-7.5,21.4l-23.3,61.4l20.2,0.8l30.7-82.1L192.2,102.6z" />
+                                        <path data-id="A-91" class="st2 " d="M252,105.1l22.2,0.9l-30.3,82.7l-22.3-1.1L252,105.1z" />
+                                        <path data-id="A-94" class="st2 " d="M296.5,107.2l-22.3-1.2l-30.3,82.7l22.7,1.2L296.5,107.2z" />
+                                        <path data-id="A-20" class="st2 " d="M228.9,226.3l56,3l6.7-17.9l-50.8-2.7l-2.8,1.2l-2.3,1.2l-1.7,1.7l-0.7,1.4L228.9,226.3z" />
+                                        <path data-id="A-19" class="st2 " d="M284.5,228.7l-6.7,17.1l-55.5-3l6.3-17.3L284.5,228.7z" />
+                                        <path data-id="A-18" class="st2 " d="M222.4,243.3l55.3,3l-6.3,17.4l-56-2.9L222.4,243.3z" />
+                                        <path data-id="A-17" class="st2 " d="M271.5,263.6l-6.5,17.1l-55.5-3.3l6.2-16.7L271.5,263.6z" />
+                                        <path data-id="A-16" class="st2 " d="M265,280.8l-6.3,16.5l-55.3-2.9l6-16.8L265,280.8z" />
+                                        <path data-id="A-15" class="st2 " d="M203.5,294.3l-6.5,17.9l55.3,2.6l6.5-17.6L203.5,294.3z" />
+                                        <path data-id="A-14" class="st2 " d="M197,312.2l55.3,2.6l-6.3,17.4l-55.3-2.9L197,312.2z" />
+                                        <path data-id="A-13" class="st2 " d="M190.7,329.3l55.3,2.9l-6.2,17.6l-55.5-3.6L190.7,329.3z" />
+                                        <path data-id="A-27" class="st2 " d="M291.2,211.1l-6.7,17.9l54.8,2.3l3.3-8.9l-0.8-3.8L340,216l-1.7-1.5l-3.5-1.1l-1.5-0.5L291.2,211.1z" />
+                                        <path data-id="A-26" class="st2 " d="M284.5,229.8l54.7,2.3l-6.5,17.6l-55-2.7L284.5,229.8z" />
+                                        <path data-id="A-25" class="st2 " d="M326.2,266.1L333,249l-55-2.7l-6.3,17.3L326.2,266.1z" />
+                                        <path data-id="A-24" class="st2 " d="M319.9,283.3l6.3-17.1l-54.7-2.6l-6.5,17.1L319.9,283.3z" />
+                                        <path data-id="A-23" class="st2 " d="M313.5,300.1l6.3-16.8l-54.7-2.6l-6.3,16.5L313.5,300.1z" />
+                                        <path data-id="A-22" class="st2 " d="M306.9,317.5l6.7-17.4l-54.7-2.7l-6.5,17.6L306.9,317.5z" />
+                                        <path data-id="A-21" class="st2 " d="M252,314.8l54.7,2.7l-6.2,17.3l-54.7-2.6L252,314.8z" />
+                                        <path data-id="A-33" class="st2 " d="M362,233.6l5-13.2l2.3-2l2.5-1.2l2.7-0.3l3.3-0.3l40.2,2.1l-6.3,17.6L362,233.6z" />
+                                        <path data-id="A-32" class="st2 " d="M362,233.6l49.5,2.7l-6.8,17.6l-49.2-2.4L362,233.6z" />
+                                        <path data-id="A-31" class="st2 " d="M404.4,253.9l-6.2,17.1l-49-2.3l6-17.4L404.4,253.9z" />
+                                        <path data-id="A-30" class="st2 " d="M342.9,285.4l48.8,2.6l6.7-17l-49-2.3L342.9,285.4z" />
+                                        <path data-id="A-29" class="st2 " d="M391.7,288l-6.5,17.6l-48.7-2.6l6.3-17.6L391.7,288z" />
+                                        <path data-id="A-28" class="st2 " d="M336.5,303l48.8,2.6l-6.8,17l-30.8-1.5l-0.5-2.7l-1.5-2.6l-1.7-1.8l-2.5-1.5l-2.3-0.8l-2.5-0.3l-2,0.3l-1.5,0.6L336.5,303z" />
+                                        <path data-id="A-39" class="st2 " d="M417.7,218.7l-6.3,17.6l46.8,2.3l3.2-8.6l-0.3-2.7l-1.2-2.4l-2-2l-2.2-1.2l-1.5-1.1L417.7,218.7z" />
+                                        <path data-id="A-38" class="st2 " d="M411.5,236.3l-7,17.6l47.7,2l6.2-17.3L411.5,236.3z" />
+                                        <path data-id="A-37" class="st2 " d="M404.4,253.9l-6.2,17.1l47.7,2.3l6.2-17.4L404.4,253.9z" />
+                                        <path data-id="A-36" class="st2 " d="M398.4,271.1l47.7,2.3l-6.5,17.3l-47.8-2.6L398.4,271.1z" />
+                                        <path data-id="A-35" class="st2 " d="M391.7,288l47.8,2.6l-6.5,17.3l-47.8-2.4L391.7,288z" />
+                                        <path data-id="A-34" class="st2 " d="M385.2,305.5L433,308l-6.3,17l-3.2-0.2l-1.3-0.9l-2.7-1.2l-2.2-0.3l-2.2-0.2l-1.8,0.6l-2.3,0.9l-0.8,0.6l-7.5-0.3l-2.3-0.8l-2.5-0.2l-1.3,0.3l-0.3,0.5l-17.8-1.2L385.2,305.5z" />
+                                        <path data-id="A-95" class="st2 " d="M448.5,115.5L418,198.7l18.9,0.8l31-83.2L448.5,115.5z" />
+                                        <path data-id="A-96" class="st2 " d="M468,115.7l18.9,0.5l-31,84.3l-18.9-1.7L468,115.7z" />
+                                        <path data-id="A-97" class="st2 " d="M486.9,116.4l18.4,1.2L476,195.1l-1.5,2.4l-2.3,2l-2,0.6l-1.7,0.5l-1.2,0.2l-11.4-0.3L486.9,116.4z" />
+                                        <path data-id="A-98" class="st2 " d="M505.2,117.8l18.4,1.2l-19.3,52.6l-19.1-1.7L505.2,117.8z" />
+                                        <path data-id="A-99" class="st2 " d="M523.6,119l19.1,0.9l-19.8,52.4l-18.6-0.8L523.6,119z" />
+                                        <path data-id="A-100" class="st2 " d="M542.6,120.1l18.1,0.9l-19.3,52.3l-18.4-1.1L542.6,120.1z" />
+                                        <path data-id="A-101" class="st2 " d="M579.4,121.9l-18.8-0.9l-19.3,52.3l18.8,0.8L579.4,121.9z" />
+                                        <path data-id="A-102" class="st2 " d="M579.4,122l18.8,0.9l-19.4,52l-18.6-0.9L579.4,122z" />
+                                        <path data-id="A-103" class="st2 " d="M598.2,123.1l-19.3,51.8l18.4,0.8l19.8-52.1L598.2,123.1z" />
+                                        <path data-id="A-104" class="st2 " d="M616,176.6l-18.8-0.8l19.8-52.1l18.3,0.6L616,176.6z" />
+                                        <path data-id="A-105" class="st2 " d="M616,176.6l18.8,0.6l19.1-52.3l-18.4-0.6L616,176.6z" />
+                                        <path data-id="A-106" class="st2 " d="M673,125.8l-19.1-0.9l-19.1,52.3l18.9,0.9L673,125.8z" />
+                                        <path data-id="A-107" class="st2 " d="M653.5,178.4l18.3,0.5l19.6-52.1l-18.4-0.9L653.5,178.4z" />
+                                        <path data-id="A-108" class="st2 " d="M691.2,126.9l-19.6,52l18.9,0.9l19.6-52.1L691.2,126.9z" />
+                                        <path data-id="A-109" class="st2 " d="M710.5,127.8l18.3,0.9l-19.4,52.1l-18.6-0.9L710.5,127.8z" />
+                                        <path data-id="A-110" class="st2 " d="M708.7,180.8l18.4,0.6l19.1-51.5l-18.1-1.2L708.7,180.8z" />
+                                        <path data-id="A-111" class="st2 " d="M727.8,181.4l18.8,0.8l19.3-52l-18.8-0.3L727.8,181.4z" />
+                                        <path data-id="A-112" class="st2 " d="M746.5,182.3l18.8,0.8l19.3-51.7l-18.8-1.2L746.5,182.3z" />
+                                        <path data-id="A-113" class="st2 " d="M765,183.1l4.2,1.2l7.2,2.6l4.5,3l3.4,3.8l2.3,5.9l1,5.6l0.3,1.5l16.3-42.7l-0.8-1.5l-0.7-1.4l-1.8-0.3l-2.2-1.4l-1.2-1.5l-0.7-2.1V154l0.2-1.5l0.5-1.1l0.5-0.6l-9.4-19.2l-4.2-0.2L765,183.1z" />
+                                        <path data-id="A-114" class="st2 " d="M785.5,214.5l-9.5,26.2l-23.2-1.2l4.8-13.2l13-0.8l3.3-0.8l2.8-2.3l3-2.9l5.2-5.5L785.5,214.5z" />
+                                        <path data-id="A-115" class="st2 " d="M753,239.5l-6.3,17l23.3,0.9l6.3-16.8L753,239.5z" />
+                                        <path data-id="A-116" class="st2 " d="M746.5,256.6l23.3,0.9l-6.5,17.4l-23.2-1.2L746.5,256.6z" />
+                                        <path data-id="A-117" class="st2 " d="M740,273.7l-6.3,17.1l23.5,1.2l6.2-17L740,273.7z" />
+                                        <path data-id="A-118" class="st2 " d="M733.7,290.8l23.3,1.2l-6.3,17.3l-23.5-0.9L733.7,290.8z" />
+                                        <path data-id="A-119" class="st2 " d="M750.7,309.2l-6.5,17.4l-23.3-1.4l6.3-17.1L750.7,309.2z" />
+                                        <path data-id="A-120" class="st2 " d="M721,325.4l-6.5,17.3l23.7,0.9l6.2-17L721,325.4z" />
+                                        <path data-id="A-121" class="st2 " d="M714.5,342.7l-6.3,17.1l23.7,1.1l6.3-17.1L714.5,342.7z" />
+                                        <path data-id="A-122" class="st2 " d="M708.2,359.6l-6.2,17l23.5,0.9l6.3-17L708.2,359.6z" />
+                                        <path data-id="A-123" class="st2 " d="M702,376.6l23.5,0.9l-6.3,17.7l-23.7-1.2L702,376.6z" />
+                                        <path data-id="A-124" class="st2 " d="M695.5,394.2l23.5,1.2l-6.5,17.4l-23.8-1.1L695.5,394.2z" />
+                                        <path data-id="A-125" class="st2 " d="M688.9,411.6l23.7,1.1l-6.3,17.3l-23.8-1.2L688.9,411.6z" />
+                                        <path data-id="A-126" class="st2 " d="M682.5,428.7l23.8,1.2l-6.3,17l-23.7-1.4L682.5,428.7z" />
+                                        <path data-id="A-127" class="st2 " d="M676.4,445.6l-6.3,17.1l24,0.8l6-16.7L676.4,445.6z" />
+                                        <path data-id="A-89" class="st2 " d="M689.2,200.5l-7.3,19.5l52.2,2.6l3-7.7l0.2-2.7l-0.8-2.6l-1.2-2.3l-1.5-1.8l-2.2-1.5l-3.3-1.7L689.2,200.5z" />
+                                        <path data-id="A-88" class="st2 " d="M682,220.1l52.2,2.6l-6.7,17.9l-52.3-2.9L682,220.1z" />
+                                        <path data-id="A-87" class="st2 " d="M675.4,237.5l-6.3,17.1l52.5,2.3l6-16.5L675.4,237.5z" />
+                                        <path data-id="A-86" class="st2 " d="M669.2,254.8l52.3,2.3l-6.3,17.3l-52.3-2.6L669.2,254.8z" />
+                                        <path data-id="A-85" class="st2 " d="M662.9,271.8l-6.5,17.4l52.5,2.4l6.5-17.3L662.9,271.8z" />
+                                        <path data-id="A-84" class="st2 " d="M656.5,289.2L650,306l52.8,2.4l6.2-16.7L656.5,289.2z" />
+                                        <path data-id="A-83" class="st2 " d="M650,305.8l52.7,2.4l-6.8,18.2l-52.5-2.9L650,305.8z" />
+                                        <path data-id="A-82" class="st2 " d="M643.7,323.4l52.3,2.9l-6,16.5l-52.7-2.6L643.7,323.4z" />
+                                        <path data-id="A-81" class="st2 " d="M637.4,340.4L690,343l-6.3,17.4l-53-2.7L637.4,340.4z" />
+                                        <path data-id="A-80" class="st2 " d="M630.9,357.7l52.8,2.6l-6.5,17.4l-52.8-2.7L630.9,357.7z" />
+                                        <path data-id="A-79" class="st2 " d="M624.4,374.9l-6.2,17.1l52.7,2.4l6.3-16.8L624.4,374.9z" />
+                                        <path data-id="A-243" class="st2 " d="M556.8,741.5l0.2,32.9l18.6-0.6l19.6-52h-12.2l-0.8,3l-0.8,2.6l-1.7,3.9l-3,3.8l-3.5,3l-4,1.8l-4,1.4l-6,0.5L556.8,741.5z" />
+                                        <path data-id="A-242" class="st2 " d="M528.3,722.1l0.3,52.3h28.4l-0.2-32.9l-2.9-0.3l-3.5-1.2l-3-1.8l-3.5-2.6l-3.5-4.1l-2.9-3.5l-1.8-2.6l-1-1.7l-1.3-1.5l-2-0.3L528.3,722.1z" />
+                                        <path data-id="A-216" class="st2 " d="M510.8,721.8l17.4,0.3l0.3,52.3h-17.8V721.8z" />
+                                        <path data-id="A-217" class="st2 " d="M493,722l17.8-0.2v52.6h-18L493,722z" />
+                                        <path data-id="A-218" class="st2 " d="M474.9,721.7l18,0.3l-0.2,52.4l-18-0.2L474.9,721.7z" />
+                                        <path data-id="A-78" class="st2 " d="M618.4,392.1l-6.5,17.4l52.8,2.3l6.3-17.1L618.4,392.1z" />
+                                        <path data-id="A-77" class="st2 " d="M605.5,426.3l6.3-17l52.8,2.3l-6.5,17L605.5,426.3z" />
+                                        <path data-id="A-76" class="st2 " d="M605.5,426.3l-6.5,17.4l53.2,2.3l6.2-17.3L605.5,426.3z" />
+                                        <path data-id="A-75" class="st2 " d="M599.2,443.6l-6.5,17.4l47.2,3.3l3-0.9l1.2-0.6l1.3-1.1l1.5-1.5l0.7-1.4l0.3-0.8l4.3-12.3L599.2,443.6z" />
+                                        <path data-id="A-60" class="st2 " d="M545.4,440.4l54,2.4l-6.7,18.2l-42.8-2.9l-2.8-0.9l-1.5-1.5l-0.8-0.8l-0.7-1.4l-0.7-1.7l-0.2-1.7V449v-1.5l0.2-1.5L545.4,440.4z" />
+                                        <path data-id="A-61" class="st2 " d="M551.7,423.3l-6.3,17.1l54,2.4l6.2-16.4L551.7,423.3z" />
+                                        <path data-id="A-62" class="st2 " d="M605.5,426.3l6.3-17l-54-2.9l-6.2,16.7L605.5,426.3z" />
+                                        <path data-id="A-63" class="st2 " d="M618.5,391.3l-6.7,18l-54-2.9l6.7-17.7L618.5,391.3z" />
+                                        <path data-id="A-64" class="st2 " d="M624.7,374.2l-6.2,17.1l-54.2-2.6l6-17.1L624.7,374.2z" />
+                                        <path data-id="A-65" class="st2 " d="M570.5,371.6l54.3,2.6l6.7-17.6l-31-1.4l-23.8-1.1L570.5,371.6z" />
+                                        <path data-id="A-66" class="st2 " d="M637.4,339.9l-6,16.7l-54.8-2.6l6.3-16.8L637.4,339.9z" />
+                                        <path data-id="A-67" class="st2 " d="M637.4,339.9l6.7-17.6l-54.8-2.6l-6.3,17.4L637.4,339.9z" />
+                                        <path data-id="A-68" class="st2 " d="M650.4,305.1l-6.3,17.4l-54.8-2.6l6.3-17.3L650.4,305.1z" />
+                                        <path data-id="A-69" class="st2 " d="M650.4,305.1L657,288l-55.3-2.4l-6.2,17L650.4,305.1z" />
+                                        <path data-id="A-70" class="st2 " d="M663.2,271l-6.3,17.1l-55.3-2.4l6.3-17.3L663.2,271z" />
+                                        <path data-id="A-71" class="st2 " d="M669.7,253.7l-6.5,17.3l-55.2-2.6l6.3-17.3L669.7,253.7z" />
+                                        <path data-id="A-72" class="st2 " d="M675.5,236.9l-6,16.8l-55.3-2.7l6.2-17L675.5,236.9z" />
+                                        <path data-id="A-73" class="st2 " d="M681.9,219.6l-6.7,17.6l-55-2.9l6.5-17.4L681.9,219.6z" />
+                                        <path data-id="A-74" class="st2 " d="M689.2,200.5l-7,18.6l-55.3-2.7l2.7-7.1l1.2-2.1l2.2-2.6l1.7-1.5l2.7-1.7l3.2-1.1l2.2-0.6l2.5-0.6l0.8-0.8L689.2,200.5z" />
+                                        <path data-id="A-49" class="st2 " d="M491.5,367.8l-6.5,17.7l37.3,1.7l1.3-1.7l1.2-1.1l1.7-1.1l2.7-0.9l3-0.2l2,0.3l2,0.9l1.3,0.9l1.2,1.1l0.8,1.2l0.8,1.4l6.7-17.9L491.5,367.8z" />
+                                        <path data-id="A-50" class="st2 " d="M553.7,353.1l-6.5,17.3l-55.7-2.6l6-16.8L553.7,353.1z" />
+                                        <path data-id="A-51" class="st2 " d="M560.2,335.7l-6.5,17.4l-56.3-2.1l6.7-17.9L560.2,335.7z" />
+                                        <path data-id="A-52" class="st2 " d="M510.5,316l-6.5,17.1l56,2.6l6.5-17.3L510.5,316z" />
+                                        <path data-id="A-53" class="st2 " d="M516.8,299l-6.2,17l56.2,2.4l6.2-17L516.8,299z" />
+                                        <path data-id="A-54" class="st2 " d="M523,281.6l-6.2,17.4l56.2,2.6l6.7-17.3L523,281.6z" />
+                                        <path data-id="A-55" class="st2 " d="M529.3,264.8l-6.3,16.8l56.5,2.6l6.5-16.8L529.3,264.8z" />
+                                        <path data-id="A-56" class="st2 " d="M535.8,247.2l-6.5,17.6l56.7,2.6l6.3-17.6L535.8,247.2z" />
+                                        <path data-id="A-57" class="st2 " d="M535.8,247.4l56.5,2.6l6.5-17l-56.8-2.4L535.8,247.4z" />
+                                        <path data-id="A-58" class="st2 " d="M605.2,216l-6.5,17l-56.8-2.4l6.5-17.1L605.2,216z" />
+                                        <path data-id="A-59" class="st2 " d="M555.3,194.5l-7,18.9l56.8,2.6l2.2-6.2l0.2-2.1l-0.7-2.6l-1-2.3l-2.3-2.7l-2.2-1.4l-1.2-0.8l-3.3-1.7L555.3,194.5z" />
+                                        <path data-id="A-48" class="st2 " d="M555.3,194.5l-7.2,19.7l-57-2.6l4.2-11.1l2-2.9l2.3-2.3l3.3-1.7l3-0.5l4.7,0.2l1-0.2l0.2-0.8L555.3,194.5z" />
+                                        <path data-id="A-47" class="st2 " d="M548.2,214.2l-6.5,17.1l-56.5-2.6l6.2-17.1L548.2,214.2z" />
+                                        <path data-id="A-46" class="st2 " d="M535.7,247.7l6-16.2l-56.5-2.6l-6,16.5L535.7,247.7z" />
+                                        <path data-id="A-45" class="st2 " d="M529,265.7l6.7-18l-56.5-2.3l-6.3,17.9L529,265.7z" />
+                                        <path data-id="A-44" class="st2 " d="M529,265.7l-6.3,17l-56.2-2.6l6-16.8L529,265.7z" />
+                                        <path data-id="A-43" class="st2 " d="M522.8,282.5l-6.2,17.4l-56.2-2.7l6.3-17.3L522.8,282.5z" />
+                                        <path data-id="A-42" class="st2 " d="M516.5,299.9l-6.2,17.1l-56.3-2.7l6.3-17L516.5,299.9z" />
+                                        <path data-id="A-41" class="st2 " d="M510.3,316.9l-6.5,17.4l-55.8-2.9l6-17.3L510.3,316.9z" />
+                                        <path data-id="A-40" class="st2 " d="M503.7,334.3l-6.3,16.8l-5.3,0.3l-1.2-2.3l-1.8-2l-2.2-1.4l-3-0.8h-3.2l-2.3,0.6l-2.3,1.4l-1.8,1.5l-1,1.8l-31.3-1.4l6.2-17.4L503.7,334.3z" />
+                                        <path data-id="A-128" class="st2 " d="M526.7,564.8l54.2,0.2v18.5l-54.2-0.2V564.8z" />
+                                        <path data-id="A-129" class="st2 " d="M581,583.6l0.2,17.4l-54.2-0.3v-17.1H581z" />
+                                        <path data-id="A-130" class="st2 " d="M581,601l0.2,17.6l-54.3-0.3v-17.6L581,601z" />
+                                        <path data-id="A-131" class="st2 " d="M581,635.9l0.2-17.4l-54.3-0.3v17.4L581,635.9z" />
+                                        <path data-id="A-132" class="st2 " d="M580.8,635.7v17.7l-53.8-0.2l-0.2-17.7L580.8,635.7z" />
+                                        <path data-id="A-133" class="st2 " d="M581.2,670.7l-0.2-17.3l-53.8-0.2v17.4H581.2z" />
+                                        <path data-id="A-134" class="st2 " d="M581.2,670.7l-0.2,17.7l-54.2-0.3l0.2-17.4H581.2z" />
+                                        <path data-id="A-135" class="st2 " d="M526.8,688l54.2,0.3V717l-1.2-4.5l-1.5-2.3l-2.7-2.3l-2.5-1.4l-4-0.9l-3-0.3h-33.7l-2-0.6l-1.2-0.8l-1.3-1.5l-0.5-0.9l-0.3-1.5v-12H526.8z" />
+                                        <path data-id="A-219" class="st2 " d="M475.1,721.7h-18v52.6l17.6,0.2L475.1,721.7z" />
+                                        <path data-id="A-220" class="st2 " d="M457.3,721.7l-19.6,0.2l0.3,52.6l19.1-0.2L457.3,721.7z" />
+                                        <path data-id="A-221" class="st2 " d="M437.8,721.8L418,722l-0.2,52.4l20,0.2L437.8,721.8L437.8,721.8z" />
+                                        <path data-id="A-223" class="st2 " d="M418,721.8l-20.1-0.3l0.2,52.7l19.8,0.3L418,721.8z" />
+                                        <path data-id="A-224" class="st2 " d="M398.1,722v52.4l-19.8-0.2v-52.6L398.1,722z" />
+                                        <path data-id="A-225" class="st2 " d="M358.5,722l20.1,0.2l-0.2,52.4h-20V722z" />
+                                        <path data-id="A-226" class="st2 " d="M358.8,722.1l-0.3,52.4l-19.6-0.2v-52.3H358.8z" />
+                                        <path data-id="A-227" class="st2 " d="M338.3,721.8l0.7,52.6l-20.5,0.2l0.3-52.6L338.3,721.8z" />
+                                        <path data-id="A-228" class="st2 " d="M299.4,721.5l19.5,0.3l0.3,52.6h-20.1L299.4,721.5z" />
+                                        <path data-id="A-229" class="st2 " d="M279.3,722h20.1v52.1h-20.3L279.3,722z" />
+                                        <path data-id="A-230" class="st2 " d="M259.5,721.8h19.5v52.3l-19.6,0.3L259.5,721.8z" />
+                                        <path data-id="A-231" class="st2 " d="M259.5,722l0.3,52.3h-20l-0.2-52.4L259.5,722z" />
+                                        <path data-id="A-232" class="st2 " d="M219.9,722l20.1,0.2v52.4h-20.1L219.9,722z" />
+                                        <path data-id="A-233" class="st2 " d="M219.7,722l0.5,52.6l-19.8-0.2l-0.2-52.4H219.7z" />
+                                        <path data-id="A-234" class="st2 " d="M200.1,722.1l0.2,52.3l-20.3,0.3l0.2-53L200.1,722.1z" />
+                                        <path data-id="A-235" class="st2 " d="M160.8,774.1l19.1,0.3v-53h-19.3L160.8,774.1z" />
+                                        <path data-id="A-236" class="st2 " d="M160.3,721.8l0.2,52.4l-19.8,0.2v-52.6H160.3z" />
+                                        <path data-id="A-237" class="st2 " d="M141.4,774.5h-20.6V722l20-0.2L141.4,774.5z" />
+                                        <path data-id="A-238" class="st2 " d="M120.4,722v52.6h-20l-0.2-52.9L120.4,722z" />
+                                        <path data-id="A-240" class="st2 " d="M82.6,721.8l17.4-0.2l0.2,52.9l-18,0.2L82.6,721.8z" />
+                                        <path data-id="A-241" class="st2 " d="M83,721.7H64.5l0.2,53.2l17.6-0.2L83,721.7z" />
+                                        <path data-id="A-137" class="st2 " d="M452,682.9v18.2l46-0.3l2.2-0.3l1.8-1.4l1.7-1.4l1.2-2.3l0.7-2.1v-10.6L452,682.9z" />
+                                        <path data-id="A-138" class="st2 " d="M505.3,665v17.9l-53.2-0.2v-17.6L505.3,665z" />
+                                        <path data-id="A-139" class="st2 " d="M505.3,648v17l-53.2,0.3l-0.2-17.6L505.3,648z" />
+                                        <path data-id="A-140" class="st2 " d="M452.2,630.3l-0.3,17.4l53.3,0.2l0.2-17.6H452.2z" />
+                                        <path data-id="A-141" class="st2 " d="M505.5,613v17.3h-53.2l-0.2-17.4L505.5,613z" />
+                                        <path data-id="A-142" class="st2 " d="M505.5,595.6V613l-53.3-0.2v-17.4L505.5,595.6z" />
+                                        <path data-id="A-143" class="st2 " d="M452.2,578.3v17.3l53.3,0.2V578L452.2,578.3z" />
+                                        <path data-id="A-144" class="st2 " d="M452,560.4v17.7l53.3-0.5v-17.3L452,560.4z" />
+                                        <path data-id="A-145" class="st2 " d="M452,542.2v17.6l53.3,0.2l-0.2-17.6L452,542.2z" />
+                                        <path data-id="A-156" class="st2 " d="M397.9,507.5l54.7-0.2v18.9l-54.7-0.3V507.5z" />
+                                        <path data-id="A-155" class="st2 " d="M452.2,543l0.2-16.7l-54.7-0.3v16.8L452.2,543z" />
+                                        <path data-id="A-154" class="st2 " d="M452.2,543l-0.2,17.4h-54.2v-17.6L452.2,543z" />
+                                        <path data-id="A-153" class="st2 " d="M452.2,560.6v17.7l-54.3-0.2v-17.7L452.2,560.6z" />
+                                        <path data-id="A-152" class="st2 " d="M452.2,595.6v-17.4l-54.3-0.2v17.6H452.2z" />
+                                        <path data-id="A-151" class="st2 " d="M452.2,595.7L452.2,595.7v17.1l-54.3,0.2v-17.3H452.2z" />
+                                        <path data-id="A-150" class="st2 " d="M451.4,612.9l0.2,17.4l-54.3,0.3v-17.7H451.4z" />
+                                        <path data-id="A-149" class="st2 " d="M452.5,630.4l-0.3,17.4l-54,0.2v-17.3L452.5,630.4z" />
+                                        <path data-id="A-148" class="st2 " d="M452,647.7v17.7l-54.2,0.2V648L452,647.7z" />
+                                        <path data-id="A-147" class="st2 " d="M398,665.4v18.2l54.2-0.2v-18.2L398,665.4z" />
+                                        <path data-id="A-146" class="st2 " d="M452.2,683.6l-0.2,17.6l-46.5-0.5l-1.7-0.6l-1.7-1.2l-1.8-1.7l-1.2-1.8l-0.8-2.3l-0.3-1.8v-7.6L452.2,683.6z" />
+                                        <path data-id="A-169" class="st2 " d="M323.5,472.7l53.5-0.2V491l-53.7-0.2L323.5,472.7z" />
+                                        <path data-id="A-168" class="st2 " d="M376.9,490.9l0.2,17.7l-53.7-0.2v-17.6H376.9z" />
+                                        <path data-id="A-167" class="st2 " d="M376.9,508.6v17.7l-53.2-0.6l-0.3-17.3L376.9,508.6z" />
+                                        <path data-id="A-166" class="st2 " d="M377,543.6v-17.3l-53.2-0.6l-0.3,17.9H377z" />
+                                        <path data-id="A-165" class="st2 " d="M377,543.6v17.3h-53.7v-17.3H377z" />
+                                        <path data-id="A-164" class="st2 " d="M377,578.5v-17.6h-53.7l-0.2,17.6H377z" />
+                                        <path data-id="A-163" class="st2 " d="M377,578.3v17.6l-53.5,0.2l-0.3-17.4L377,578.3z" />
+                                        <path data-id="A-162" class="st2 " d="M323.5,595.7l53.5,0.2V613l-53.7,0.2L323.5,595.7z" />
+                                        <path data-id="A-161" class="st2 " d="M376.9,630.4V613l-53.7,0.2v17.4L376.9,630.4z" />
+                                        <path data-id="A-160" class="st2 " d="M377,648.3v-17.9l-53.7,0.2v17.6L377,648.3z" />
+                                        <path data-id="A-159" class="st2 " d="M377,665.7v-17.4l-53.7-0.2v17.7H377V665.7z" />
+                                        <path data-id="A-158" class="st2 " d="M377,683.3v-17.6h-53.7v17.6H377z" />
+                                        <path data-id="A-157" class="st2 " d="M323.4,683.3H377v10.6l-0.7,2.6l-0.8,1.4l-1.2,1.4l-2,1.2l-1.5,0.5l-1.8,0.5h-45.5v-18H323.4z" />
+                                        <path data-id="A-183" class="st2 " d="M269.4,455h54.5l-0.3,17.7l-54,0.2V455H269.4z" />
+                                        <path data-id="A-182" class="st2 " d="M269.5,472.8l54-0.2l-0.2,18.2l-54.2,0.2L269.5,472.8z" />
+                                        <path data-id="A-181" class="st2 " d="M269.7,508.5l53.7-0.2v-17.6l-54.2,0.2L269.7,508.5z" />
+                                        <path data-id="A-180" class="st2 " d="M269.5,526.2l54.3-0.6l-0.3-17.3l-53.7,0.2L269.5,526.2z" />
+                                        <path data-id="A-179" class="st2 " d="M323.5,543.6l0.2-17.9l-54.3,0.6v17.1L323.5,543.6z" />
+                                        <path data-id="A-178" class="st2 " d="M269.5,543.6h54.2l-0.2,17.4l-54-0.2L269.5,543.6L269.5,543.6z" />
+                                        <path data-id="A-177" class="st2 " d="M269.5,578.3v-17.4l54,0.2l-0.2,17.6L269.5,578.3z" />
+                                        <path data-id="A-176" class="st2 " d="M269.5,595l54.2,0.2l-0.3-17.3l-53.8-0.3V595z" />
+                                        <path data-id="A-175" class="st2 " d="M269.5,595.6l54.2,0.2l-0.3,17.4h-53.8V595.6z" />
+                                        <path data-id="A-174" class="st2 " d="M269.5,613.2h53.7v17.4l-53.8,0.2v-17.6H269.5z" />
+                                        <path data-id="A-173" class="st2 " d="M269.5,647.9v-17.1l53.8-0.2v17.6L269.5,647.9z" />
+                                        <path data-id="A-172" class="st2 " d="M269.7,648l53.7,0.2v17.7h-53.8L269.7,648z" />
+                                        <path data-id="A-171" class="st2 " d="M323.4,665.7v17.6l-53.8-0.3v-17.3H323.4z" />
+                                        <path data-id="A-170" class="st2 " d="M323.4,683.3v18.2l-45-0.2l-2-0.6l-1.7-0.9l-1.2-0.8l-1.2-1.1l-0.7-0.9l-0.7-1.2l-0.7-1.2l-0.5-0.9l-0.3-1.4V683L323.4,683.3z" />
+                                        <path data-id="A-195" class="st2 " d="M194.7,489.5l54.3,0.3V508l-54.3-0.2V489.5z" />
+                                        <path data-id="A-194" class="st2 " d="M249,526.2v-18l-54.3-0.2l-0.2,18.2H249z" />
+                                        <path data-id="A-193" class="st2 " d="M249,542.9v-16.7h-54.5V543L249,542.9z" />
+                                        <path data-id="A-192" class="st2 " d="M249,542.9v17.9l-54.3-0.3V543L249,542.9z" />
+                                        <path data-id="A-191" class="st2 " d="M249,578.2v-17.6l-54.3-0.3v17.6L249,578.2z" />
+                                        <path data-id="A-190" class="st2 " d="M249,595.4v-17.3l-54.3-0.2v17.4H249z" />
+                                        <path data-id="A-189" class="st2 " d="M249.2,612.9l-0.2-17.4l-54.3-0.2v17.4L249.2,612.9z" />
+                                        <path data-id="A-188" class="st2 " d="M249.2,612.7l-0.2,17.9l-54.3-0.3v-17.6L249.2,612.7L249.2,612.7z" />
+                                        <path data-id="A-187" class="st2 " d="M194.7,630.3l54.3,0.3V648l-54.2-0.2L194.7,630.3z" />
+                                        <path data-id="A-186" class="st2 " d="M194.9,647.7l0.2,17.4l54.2-0.2v-17L194.9,647.7z" />
+                                        <path data-id="A-185" class="st2 " d="M195,665v18l53.8-0.2v-18L195,665z" />
+                                        <path data-id="A-184" class="st2 " d="M249,682.9v8.8l-0.3,2.3l-1.3,2.4l-2.2,2.3l-1.5,0.9l-2.7,0.8l-45.7,0.3l-0.2-17.4L249,682.9z" />
+                                        <path data-id="A-196" class="st2 " d="M195.4,682.3l-0.2,18.2l-45.7,0.2l-2.7-0.6l-1.5-1.1l-1.2-0.8l-0.7-0.8l-0.8-1.1l-0.5-0.9l-0.5-1.2l-0.3-1.7v-10.3H195.4z" />
+                                        <path data-id="A-197" class="st2 " d="M195,664.1l0.3,18l-54,0.2v-18H195V664.1z" />
+                                        <path data-id="A-198" class="st2 " d="M194.9,646.8l0.2,17.4h-53.5v-17.4H194.9z" />
+                                        <path data-id="A-199" class="st2 " d="M141.5,629.4l53.3-0.2v17.6h-53.3V629.4z" />
+                                        <path data-id="A-200" class="st2 " d="M141.9,612l52.8,0.8l0.2,16.7l-53.3,0.2L141.9,612z" />
+                                        <path data-id="A-201" class="st2 " d="M141.5,594.8l0.2,17.1l52.8,0.8v-18.3L141.5,594.8z" />
+                                        <path data-id="A-202" class="st2 " d="M194.9,577.2v17.1l-53.3,0.5v-17.7L194.9,577.2z" />
+                                        <path data-id="A-203" class="st2 " d="M141.5,559.5h53.2v17.7l-53.2-0.2V559.5z" />
+                                        <path data-id="A-204" class="st2 " d="M141.5,542.2v17.1h53.2v-17.4L141.5,542.2z" />
+                                        <path data-id="A-205" class="st2 " d="M194.7,542.2h-53.2l0.2-17.1h52.8L194.7,542.2z" />
+                                        <path data-id="A-215" class="st2 " d="M64.5,524.8l2,0.5l2.2,0.2l1.5-0.5l2-0.8l46.8,0.2v18.5l-54.5-0.2V524.8z" />
+                                        <path data-id="A-214" class="st2 " d="M64.5,542.7l54.5,0.2v17.4l-54.5-0.2V542.7z" />
+                                        <path data-id="A-213" class="st2 " d="M64.5,560l54.5,0.2v17.7l-54.3-0.3L64.5,560z" />
+                                        <path data-id="A-212" class="st2 " d="M64,577.4l54.3,0.5v17.3L63.9,595L64,577.4z" />
+                                        <path data-id="A-211" class="st2 " d="M64.5,594.8l54.5,0.3v17.7l-54.5-0.5V594.8z" />
+                                        <path data-id="A-210" class="st2 " d="M64.5,612.4l54.3,0.5V630l-54.5-0.2L64.5,612.4z" />
+                                        <path data-id="A-209" class="st2 " d="M64.5,629.8l54.5,0.3v17.4l-54.5,0.2V629.8z" />
+                                        <path data-id="A-208" class="st2 " d="M119,647.4l0.2,17.9l-54.7-0.2v-17.6L119,647.4z" />
+                                        <path data-id="A-207" class="st2 " d="M119,664.8v17.6l-54.3,0.2L64.5,665L119,664.8z" />
+                                        <path data-id="A-206" class="st2 " d="M119,682.7v9.2l-0.5,2.3l-1,1.8l-1.2,1.4l-2.2,1.4l-1.8,0.6l-48,0.2l0.2-16.8H119z" />
+                                    </g>
+                                    <g>
+                                        <path id="Casa_Club" class="st2" d="M400.7,384.4l2.9-5.7l9.8-19.1l16,11.6l-2.4,18.3l52.1,46.1l21.9,24.8l-20,24.8l-14.3-8.5
+                                                l-28.4-18.1l-26.6-14.1l-30.5-12l-31.6-7.8l-31.4-6.7l-29-4.9l4.6-44.6c24.2-0.9,24.2-0.9,24.2-0.9l8.2-0.8L400.7,384.4z" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="Casa Club" />
+                                        <polygon id="Entrada_distintiva" class="st2" points="592.3,494.9 619,491 637.3,555.1 612,560 " data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="Entrada_distintiva" />
+                                    </g>
+                                    <!-- </g> -->
+                                </svg>
+                            </div>
+                            <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                 <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
                                 <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
                                 <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
@@ -1169,20 +1183,20 @@
                 </div>
                 <div class="accordion-item border border-success my-4">
                     <h2 class="accordion-header border-bottom border-success" id="headingTwo">
-                        <button class="accordion-button <?php if ($projectStage == 2) {
-                                                            echo "";
-                                                        } else {
-                                                            echo "collapsed";
-                                                        } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para ver detalles y mapa">
+                        <button class="accordion-button px-4 <?php if ($projectStage == 2) {
+                                                                    echo "";
+                                                                } else {
+                                                                    echo "collapsed";
+                                                                } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
                                     <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-2</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap"></th> -->
-                                            <th scope="col" class="h5 text-center">Total de lotes</th>
-                                            <th scope="col" class="h5 text-center">Disponibles</th>
-                                            <th scope="col" class="h5 text-center">Fecha de entrega</th>
+                                            <th scope="col" class="h5 available-title text-center">Total de lotes</th>
+                                            <th scope="col" class="h5 available-title text-center">Disponibles</th>
+                                            <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -1205,9 +1219,9 @@
                                                                                 } ?>" aria-labelledby="headingTwo">
                         <div class="accordion-body">
                             <!-- Price Start -->
-                            <div class="container-xxl py-1">
-                                <div class="container">
-                                    <div class="row g-0 gx-5 align-items-center">
+                            <div class="container-xxl py-1 px-0">
+                                <!-- <div class="container"> -->
+                                <!-- <div class="row g-0 gx-5 align-items-center">
                                         <div class="col-lg-12">
                                             <div class="text-center mx-auto mb-5">
                                                 <p class="fw-bold small mb-2">Click para descargar</p>
@@ -1215,40 +1229,145 @@
                                                     <span class='mdi mdi-file-pdf-box mdi-18px text-danger me-1'></span>Brochure Lakuun Etapa-2</a>
                                             </div>
                                         </div>
+                                    </div> -->
+                                <!-- <div class="row g-0 gx-5 align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="text-center mx-auto mb-1 wow slideInLeft" data-wow-delay="0.1s">
+                                            <h3 class="fw-bold text-decoration-underline">PRECIOS DE LOTES</h3>
+                                        </div>
                                     </div>
-                                    <div class="row g-0 gx-5 align-items-center">
-                                        <div class="col-lg-12">
-                                            <div class="text-center mx-auto mb-1 wow slideInLeft" data-wow-delay="0.1s">
-                                                <h3 class="fw-bold text-decoration-underline">PRECIOS DE LOTES</h3>
+                                </div> -->
+                                <div class="row row-cols-1 row-cols-lg-1">
+                                    <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                        <div class="card border-3 h-100 shadow px-0">
+                                            <div class="card-header text-center">
+                                                <!-- <p class="h4 text-success">Lote estandar</p> -->
+                                                <h4 class="fw-bold text-success mb-0 price-header">PRECIO (MXN) DE LOTES POR M<small><sup>2</sup></small></h4>
+                                            </div>
+                                            <div class="card-body pb-0">
+                                                <div class="row d-flex justify-content-center ">
+                                                    <div class="col-12 table-responsive">
+                                                        <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                            <!-- <caption class="h1 fw-bold text-center text-success text-nowrap">ETAPA 1 PRECIO DE LOTES</caption> -->
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col" class="h5 available-title text-center">Meses</th>
+                                                                    <th scope="col" class="h5 available-title text-center">1</th>
+                                                                    <th scope="col" class="h5 available-title text-center">12</th>
+                                                                    <th scope="col" class="h5 available-title text-center">24</th>
+                                                                    <th scope="col" class="h5 available-title text-center">36</th>
+                                                                    <th scope="col" class="h5 available-title text-center">48</th>
+                                                                    <th scope="col" class="h5 available-title text-center">60</th>
+                                                                    <th scope="col" class="h5 available-title text-center">72</th>
+                                                                    <th scope="col" class="h5 available-title text-center">80</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Premium</td>
+                                                                    <td class="h5 available-title text-center">$2,050</td>
+                                                                    <td class="h5 available-title text-center">$2,135</td>
+                                                                    <td class="h5 available-title text-center">$2,120</td>
+                                                                    <td class="h5 available-title text-center">$2,310</td>
+                                                                    <td class="h5 available-title text-center">$2,400</td>
+                                                                    <td class="h5 available-title text-center">$2,500</td>
+                                                                    <td class="h5 available-title text-center">$2,600</td>
+                                                                    <td class="h5 available-title text-center">$2,700</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Plus</td>
+                                                                    <td class="h5 available-title text-center">$1,950</td>
+                                                                    <td class="h5 available-title text-center">$2,030</td>
+                                                                    <td class="h5 available-title text-center">$2,110</td>
+                                                                    <td class="h5 available-title text-center">$2,195</td>
+                                                                    <td class="h5 available-title text-center">$2,300</td>
+                                                                    <td class="h5 available-title text-center">$2,375</td>
+                                                                    <td class="h5 available-title text-center">$2,470</td>
+                                                                    <td class="h5 available-title text-center">$2,570</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Estandar</td>
+                                                                    <td class="h5 available-title text-center">$1,850</td>
+                                                                    <td class="h5 available-title text-center">$1,925</td>
+                                                                    <td class="h5 available-title text-center">$2,000</td>
+                                                                    <td class="h5 available-title text-center">$2,085</td>
+                                                                    <td class="h5 available-title text-center">$2,170</td>
+                                                                    <td class="h5 available-title text-center">$2,250</td>
+                                                                    <td class="h5 available-title text-center">$2,350</td>
+                                                                    <td class="h5 available-title text-center">$2,450</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <p class="text-center mx-auto my-1">Enganche de 10%</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row row-cols-1 row-cols-lg-1">
-                                        <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                            <div class="card border-5 h-100 shadow px-0">
-                                                <div class="card-header text-center">
-                                                    <p class="h4 text-success">Lote estandar</p>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="row text-center">
-                                                        <div class="col-6">
-                                                            <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                            <p class="h4 text-success">2,850 <span class="h4">MXN</span></p>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <p class="h6">Financiamiento hasta</p>
-                                                            <p class="h4 text-success">80 <span class="h4">MSI</span></p>
-                                                        </div>
+                                </div>
+                            </div>
+                            <div class="container-xxl py-1 px-0">
+                                <div class="row row-cols-1 row-cols-lg-1">
+                                    <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                        <div class="card border-3 h-100 shadow px-0">
+                                            <div class="card-header text-center">
+                                                <h4 class="fw-bold text-success mb-0 price-header">VALOR TOTAL (MXN) POR TERRENO</h4>
+                                            </div>
+                                            <div class="card-body pb-0">
+                                                <div class="row d-flex justify-content-center ">
+                                                    <div class="col-12 table-responsive">
+                                                        <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col" class="h5 available-title text-center">Meses</th>
+                                                                    <th scope="col" class="h5 available-title text-center">1</th>
+                                                                    <th scope="col" class="h5 available-title text-center">12</th>
+                                                                    <th scope="col" class="h5 available-title text-center">24</th>
+                                                                    <th scope="col" class="h5 available-title text-center">36</th>
+                                                                    <th scope="col" class="h5 available-title text-center">48</th>
+                                                                    <th scope="col" class="h5 available-title text-center">60</th>
+                                                                    <th scope="col" class="h5 available-title text-center">72</th>
+                                                                    <th scope="col" class="h5 available-title text-center">80</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Premium</td>
+                                                                    <td class="h5 available-title text-center">$615,000</td>
+                                                                    <td class="h5 available-title text-center">$640,500</td>
+                                                                    <td class="h5 available-title text-center">$636,000</td>
+                                                                    <td class="h5 available-title text-center">$693,000</td>
+                                                                    <td class="h5 available-title text-center">$720,000</td>
+                                                                    <td class="h5 available-title text-center">$750,000</td>
+                                                                    <td class="h5 available-title text-center">$780,000</td>
+                                                                    <td class="h5 available-title text-center">$810,000</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Plus</td>
+                                                                    <td class="h5 available-title text-center">$585,000</td>
+                                                                    <td class="h5 available-title text-center">$609,000</td>
+                                                                    <td class="h5 available-title text-center">$633,000</td>
+                                                                    <td class="h5 available-title text-center">$658,500</td>
+                                                                    <td class="h5 available-title text-center">$690,000</td>
+                                                                    <td class="h5 available-title text-center">$712,500</td>
+                                                                    <td class="h5 available-title text-center">$741,000</td>
+                                                                    <td class="h5 available-title text-center">$771,000</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="h5 available-title text-left">Lote Estandar</td>
+                                                                    <td class="h5 available-title text-center">$555,000</td>
+                                                                    <td class="h5 available-title text-center">$577,500</td>
+                                                                    <td class="h5 available-title text-center">$600,000</td>
+                                                                    <td class="h5 available-title text-center">$625,500</td>
+                                                                    <td class="h5 available-title text-center">$651,000</td>
+                                                                    <td class="h5 available-title text-center">$675,000</td>
+                                                                    <td class="h5 available-title text-center">$705,000</td>
+                                                                    <td class="h5 available-title text-center">$735,000</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                    <div class="row text-center">
-                                                        <p class="h6">Enganche de</p>
-                                                        <p class="h4 text-success">10%</h6>
-
-                                                    </div>
                                                 </div>
-                                                <!-- <div class="card-footer">
-                                                    <p class="card-title text-center h4">Entrega 2025 </p>
-                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1259,14 +1378,15 @@
                                 <span class="mdi mdi-vanish mdi-spin"></span>
                                 Loading image...
                             </div>
-                            <div class="row">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="100px" style="transform: rotate(-90deg);">
+                            <div class="d-flex justify-content-center">
+                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                             </div>
                             <div class="row mt-2">
-                                <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
+                                <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
                             </div>
-                            <div class="mapsvg-scrollpane text-center">
-                                <svg id="stage_2" viewBox="100 0 900 900" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: auto; transform: scale(0.91);">
+                            <div class="container mapsvg-scrollpane text-center" style="max-width: 900px; min-height: 300px;  ">
+                                <svg id="stage-02" viewBox="100 0 900 900" preserveAspectRatio="xMidYMid meet" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;">
+                                    <!-- <svg id="stage-02" viewBox="100 0 900 900" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: auto; transform: scale(0.91);"> -->
                                     <defs>
                                         <style>
                                             .st0 {
@@ -4442,7 +4562,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                            <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                 <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
                                 <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
                                 <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
@@ -4486,15 +4606,16 @@
 <!-- Property List End -->
 
 <div class="data">
-    <input type="hidden" name="data_propertie" id="data_propertie" value='<?= $dataProject ?>'>
+    <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/lakuun.json') ?>'>
+    <!-- <input type="hidden" name="data_propertie" id="data_propertie" value=''> -->
 </div>
 
 <!-- Modal -->
-<div class="modal fade mt-5" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl">
-        <div class="modal-content mt-5">
+<div class="modal fade" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
             <div class="modal-header py-0 border-bottom-0">
-                <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
+                <!-- <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link px-2 px-lg-5 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Fotos</button>
                     </li>
@@ -4507,8 +4628,8 @@
                     <li class="nav-item d-none" role="presentation">
                         <button class="nav-link px-2 px-lg-5" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Planos</button>
                     </li>
-                </ul>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </ul> -->
+                <button type="button" class="btn-close mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -4517,15 +4638,15 @@
                             <div class="position-relative overflow-hidden">
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                        <div id="carouselmodal" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true">
+                                        <div id="carouselmodal" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false">
                                             <div class="carousel-inner" id="modal-carousel-container">
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselmodal" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                                                 <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                                             </button>
                                             <button class="carousel-control-next" type="button" data-bs-target="#carouselmodal" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                                                 <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                                             </button>
                                         </div>
@@ -4543,825 +4664,6 @@
     </div>
 </div>
 <!-- Modal End -->
-
-
-<div class="modal fade bd-example-modal-xl mt-5 mt-lg-0" id="modalLote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="padding-top: 4em;">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-        <div id="modalLotContent" class="modal-content">
-            <!-- <script type="text/javascript">
-                    // $(document).ready(function() {
-
-                        var redireccion = 3;
-                        if (parseFloat(redireccion) == 3) {
-                            $('#apartado').show();
-                        } else {
-                            $('#apartado').hide();
-                        }
-                        'use strict';
-                        $('#wizard1').steps({
-                            headerTag: 'h3',
-                            bodyTag: 'section',
-                            autoFocus: true,
-                            titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>',
-                            labels: {
-                                cancel: "Cancelar",
-                                current: "Paso Actual:",
-                                pagination: "Paginación",
-                                finish: "Finalizar",
-                                next: "Siguiente",
-                                previous: "Anterior",
-                                loading: "Cargando ..."
-                            },
-                            enableFinishButton: false,
-                        });
-
-                        //bloquear Botones de de apartado y pdf si no hay un plan seleccionado
-                        $('#apartado').attr("disabled", true);
-                        $('#pdf').attr("disabled", true);
-
-                        $("#seleccionar_plan").on('change', function() {
-                            //console.log('hola');
-                            var id_plan = $(this).val();
-                            $("#id_plan").val(id_plan);
-                            var id_banco = $("#id_plan").val();
-                            var id_unidad = $("#id_unidad").val();
-                            var forma_pago = $("#id_forma_pago").val();
-
-                            // $.post('../Clases/Obtener_datos.php', {
-                            //     id: id_plan,
-                            //     id_unidad: id_unidad,
-                            //     operacion: 'Obtener_Plan'
-                            // }, function(data) {
-                                //ar id_plan=$(".seleccionar_plan").val(data.id_plan);
-
-                                var tipo_calculo = data.tipo_calculo;
-                                $("#tipo_calculo").val(data.tipo_calculo);
-                                $("#tipo_calculo2").val(data.tipo_calculo);
-                                var tipo_descuento = data.tipo_descuento;
-                                $("#tipo_descuento").val(data.tipo_descuento);
-                                $("#tipo_descuento2").val(data.tipo_descuento);
-                                var valor_descuento = data.valor_desc;
-                                var tipo_enganche = data.tipo_enganche;
-                                var valor_enganche = data.valor_enganche;
-                                var porcentaje_mensualidad = data.porcentaje_mensualidad;
-                                $("#porcentaje_mensualidad").val(data.porcentaje_mensualidad);
-                                $("#porcentaje_mensualidad2").val(data.porcentaje_mensualidad);
-                                var porcentaje_contraentrega = data.porcentaje_contra_entrega;
-                                $("#procentaje_contraentrega").val(data.porcentaje_contra_entrega);
-                                $("#procentaje_contraentrega2").val(data.porcentaje_contra_entrega);
-                                var num_mensualidad = data.num_pago_mensualidades;
-                                $("#num_mensualidad").val(data.num_pago_mensualidades);
-                                $("#num_mensualidad2").val(data.num_pago_mensualidades);
-                                var metros_cuadrados_totales = $("#metros_cuadrados_totales").val();
-                                $("#tipo_enganche").val(tipo_enganche);
-                                var precio_m2 = $("#precio_m2").val();
-                                $("#couta_apartura").val(parseFloat(data.valor_cuota_apertura, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                                $("#couta_apartura2").val(data.valor_cuota_apertura);
-                                $("#escrituracion").val(parseFloat(data.porcentaje_contra_entrega, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                                $("#escrituracion2").val(data.porcentaje_contra_entrega);
-                                //console.log(num_mensualidad);
-
-                                //desbloquear Botones de de apartado y pdf si no hay un plan seleccionado
-
-                                if (parseFloat(id_plan) > 0) {
-                                    Calcular(tipo_descuento, valor_descuento, tipo_calculo, tipo_enganche, valor_enganche, porcentaje_mensualidad, num_mensualidad, porcentaje_contraentrega, metros_cuadrados_totales, precio_m2);
-                                } else {
-                                    $(".limpiador").val('');
-                                }
-                            // }, 'json');
-                        });
-
-
-
-                        $("#id_banco").on('change', function() {
-                            var id_banco = $(this).val();
-                            var id_plan = $("#id_plan").val();
-
-
-                            $('#div_bank').hide();
-                            $('#loader').show();
-                            $("#valor_deposito_oculto").val('');
-                            $("#valor_deposito_convertido").val('');
-                            $("#id_forma_pago").val("0").change();
-                            $("#moneda_banco_oculto").val('');
-                            $.post('../Clases/Obtener_datos.php', {
-                                id: id_banco,
-                                operacion: 'Bancos'
-                            }, function(data) {
-                                $("#titular_cuenta").val(data.titular_cuenta);
-                                $("#num_cuenta").val(data.num_cuenta);
-                                $("#nombre_banco").val(data.nombre_banco);
-                                $("#moneda_banco_oculto").val(data.id_tipo_moneda);
-                                if (data.id_tipo_moneda == 2) {
-                                    $("#moneda_banco").val('USD');
-                                } else if (data.id_tipo_moneda == 1) {
-                                    $("#moneda_banco").val('MN');
-                                } else {
-                                    $("#moneda_banco").val('');
-                                }
-
-
-
-
-                            }, 'json').done(function() {
-                                $('#loader').hide();
-                                $('#div_bank').show("slow", function() {});
-                                calcular_valores();
-                            }).fail(function() {
-                                alert("error");
-                            });
-                        });
-
-
-                        $(".validar_botones").change(function() {
-                            validar_botones();
-                        });
-
-                        $(".Calculos").on('keyup', function() {
-                            temp = $(this).attr('id');
-
-
-                            var id_plan = $("#seleccionar_plan").val();
-                            var id_unidad = $("#id_unidad").val();
-                            var tipo_calculo = $("#tipo_calculo").val();
-                            var tipo_descuento = $("#tipo_descuento").val();
-
-                            var porcentaje_descuento = $("#porcentaje_descuento").val();
-                            var cant_descuento = $("#cant_descuento").val();
-                            var cant_descuento = cant_descuento.replace(/,/g, "");
-                            var valor_descuento = cant_descuento;
-                            if (parseFloat(tipo_descuento) == 1) {
-                                valor_descuento = porcentaje_descuento;
-                            }
-                            valor_descuento = valor_descuento.replace(/,/g, "");
-
-                            var porcentaje = $("#porcentaje_enganche").val();
-                            var cantidad = $("#cantidad_enganche").val();
-                            var cantidad = cantidad.replace(/,/g, "");
-
-
-                            var tipo_enganche = 2;
-                            var valor_enganche = cantidad;
-                            if (temp == 'porcentaje_enganche') {
-                                tipo_enganche = 1;
-                                valor_enganche = porcentaje;
-                            }
-
-                            $("#tipo_enganche").val(tipo_enganche);
-                            //var valor_enganche=valor_enganche.replace(/,/g, "");
-
-                            var porcentaje_mensualidad = $("#porcentaje_mensualidad").val();
-                            var porcentaje_contraentrega = $("#porcentaje_contraentrega").val();
-                            var num_mensualidad = $("#num_mensualidad").val();
-                            var metros_cuadrados_totales = $("#metros_cuadrados_totales").val();
-                            var precio_m2 = $("#precio_m2").val();
-
-
-                            Calcular(tipo_descuento, valor_descuento, tipo_calculo, tipo_enganche, valor_enganche, porcentaje_mensualidad, num_mensualidad, porcentaje_contraentrega, metros_cuadrados_totales, precio_m2);
-
-
-
-                        });
-
-
-                        $("#pdf").click(function() {
-                            var rt = $("#rt").val();
-                            $('#formulario_apartado').attr('action', rt + 'PDFs/PDF_CotizacionWEB.php');
-                            $('#formulario_apartado').attr('target', '_blank');
-                            $("#formulario_apartado").submit();
-                        });
-
-                        $("#apartado").click(function() {
-                            var rt = $("#rt").val();
-                            $('#formulario_apartado').removeAttr('target', '_blank');
-                            $('#formulario_apartado').attr('action', rt + 'g_apartado.php');
-                            $("#formulario_apartado").submit();
-                        });
-
-
-
-
-                    // });
-
-                    function Calcular(tipo_descuento, valor_descuento, tipo_calculo, tipo_enganche, valor_enganche, porcentaje_mensualidad, num_mensualidad, porcentaje_contraentrega, metros_cuadrados_totales, precio_m2) {
-
-
-
-                        if (parseFloat(tipo_descuento) == 1) {
-                            var precio_lista = (parseFloat(precio_m2) - (parseFloat(precio_m2) * (parseFloat(valor_descuento).toFixed(4) / 100))) * parseFloat(metros_cuadrados_totales);
-                            var cant_descuento = (parseFloat(precio_m2) * (parseFloat(valor_descuento).toFixed(4) / 100));
-                            var porcentaje_descuento = valor_descuento;
-                        } else {
-                            var precio_lista = (parseFloat(precio_m2) - parseFloat(valor_descuento).toFixed(4)) * parseFloat(metros_cuadrados_totales);
-                            var cant_descuento = valor_descuento;
-                            var porcentaje_descuento = (parseFloat(valor_descuento).toFixed(4) * 100) / parseFloat(precio_m2);
-                        }
-
-                        if (parseFloat(tipo_calculo) == 2) {
-                            var porcentaje_restante = 100 - parseFloat(porcentaje_contraentrega);
-                            var valor_contraentrega = parseFloat(precio_lista) * (parseFloat(porcentaje_contraentrega) / 100);
-                            var valor_restante = parseFloat(precio_lista) - parseFloat(valor_contraentrega);
-                        } else {
-                            var porcentaje_restante = 100;
-                            var valor_contraentrega = 0;
-                            var porcentaje_contraentrega = 0;
-                            var valor_restante = precio_lista;
-                        }
-
-                        //
-
-                        if (parseFloat(tipo_enganche) == 1) {
-                            var cantidad_enganche = parseFloat(valor_restante).toFixed(4) * (parseFloat(valor_enganche).toFixed(4) / 100);
-                            var porcentaje_mensualidad = 100 - parseFloat(valor_enganche).toFixed(4);
-
-                            var valor_mensualidades = parseFloat(valor_restante).toFixed(4) * (parseFloat(porcentaje_mensualidad).toFixed(4) / 100);
-                            // var porcentaje_enganche=parseFloat(valor_enganche).toFixed(2);
-                            $("#cantidad_enganche").val(parseFloat(cantidad_enganche, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                            $("#cantidad_enganche2").val(cantidad_enganche)
-                            $("#porcentaje_enganche").val(valor_enganche);
-                            $("#porcentaje_enganche2").val(valor_enganche);
-
-
-
-                        } else {
-                            var cantidad_enganche = valor_enganche;
-                            var porcentaje_enganche = (parseFloat(valor_enganche).toFixed(4) * 100) / parseFloat(valor_restante).toFixed(4);
-                            //var porcentaje_mensualidad=100-parseFloat(porcentaje_enganche).toFixed(4);
-
-                            var valor_mensualidades = parseFloat(valor_restante).toFixed(4) - parseFloat(cantidad_enganche).toFixed(4);
-                            var porcentaje_mensualidad = (parseFloat(valor_mensualidades).toFixed(4) * 100) / parseFloat(valor_restante).toFixed(4);
-                            $("#cantidad_enganche").val(number_format(cantidad_enganche));
-                            $("#cantidad_enganche2").val(cantidad_enganche);
-                            //console.log(cantidad_enganche);
-                            $("#porcentaje_enganche").val(porcentaje_enganche);
-                            $("#porcentaje_enganche2").val(porcentaje_enganche);
-
-                        }
-
-
-
-                        var cant_mensualidad = parseFloat(valor_mensualidades).toFixed(4) / parseFloat(num_mensualidad);
-
-
-                        // console.log(porcentaje_mensualidad);
-                        $("#porcentaje_mensualidad2").val(porcentaje_mensualidad);
-                        $("#precio_venta").val(precio_lista);
-                        $("#porcentaje_descuento").val(porcentaje_descuento);
-                        $("#porcentaje_descuento2").val(porcentaje_descuento);
-                        $("#cant_descuento").val(parseFloat(cant_descuento, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                        $("#cant_descuento2").val(cant_descuento);
-
-
-
-                        $("#porcentaje_financiar").val(porcentaje_mensualidad);
-                        $("#porcentaje_financiar2").val(porcentaje_mensualidad);
-                        $("#cantidad_financiar").val(parseFloat(valor_mensualidades, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                        $("#cantidad_financiar2").val(valor_mensualidades);
-                        $("#cant_mensualidad").val(parseFloat(cant_mensualidad, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                        $("#cant_mensualidad2").val(cant_mensualidad);
-                        $("#porcentaje_contraentrega").val(porcentaje_contraentrega);
-                        $("#porcentaje_contraentrega2").val(porcentaje_contraentrega);
-                        $("#cantidad_entrega").val(parseFloat(valor_contraentrega, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
-                        $("#cantidad_entrega2").val(valor_contraentrega);
-
-
-
-
-
-
-                    }
-
-                    function number_format(numero) {
-
-                        var resultado = "";
-
-
-                        if (numero[0] == "-") {
-
-                            nuevoNumero = numero.replace(/[^0-9\.]/g, '').substring(1);
-                        } else {
-
-                            nuevoNumero = numero.replace(/[^0-9\.]/g, '');
-                        }
-
-
-                        if (numero.indexOf(".") >= 0)
-                            nuevoNumero = nuevoNumero.substring(0, nuevoNumero.indexOf("."));
-
-
-                        for (var j, i = nuevoNumero.length - 1, j = 0; i >= 0; i--, j++)
-                            resultado = nuevoNumero.charAt(i) + ((j > 0) && (j % 3 == 0) ? "," : "") + resultado;
-
-
-                        if (numero.indexOf(".") >= 0)
-                            resultado += numero.substring(numero.indexOf("."));
-
-                        if (numero[0] == "-") {
-
-                            return "-" + resultado;
-                        } else {
-                            return resultado;
-                        }
-                    }
-
-                    function calcular_valores() {
-                        document.getElementById("div_valor_dolar").value = "";
-                        //document.getElementById("div_deposito_final").value = "";
-                        document.getElementById("div_valor_dolar").style.display = "none";
-                        // document.getElementById("div_deposito_final").style.display = "none";
-                        document.getElementById('moneda_deposito').value = '';
-                        document.getElementById('moneda_deposito_final').value = '';
-
-                        var moneda_desarrollo = document.getElementById('moneda_desarrollo').value; //1-MN 2-USD
-                        var moneda_contrato = document.getElementById('moneda_contrato').value; //1-MN 2-USD
-                        var moneda_banco = document.getElementById('moneda_banco').value;
-
-                        if (moneda_desarrollo == 1 && moneda_contrato == 1 && moneda_banco == 'MN') {
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_formateado = number_format(valor_deposito);
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado;
-
-
-                            document.getElementById('tipo_moneda_convertir').value = '1';
-                            document.getElementById('moneda_deposito').value = 'MX';
-                            document.getElementById('moneda_deposito_final').value = 'MX';
-
-
-                        } else if (moneda_desarrollo == 2 && moneda_contrato == 2 && moneda_banco == 'USD') {
-
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_formateado = number_format(valor_deposito);
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado;
-
-
-                            document.getElementById('tipo_moneda_convertir').value = '1';
-                            document.getElementById('moneda_deposito').value = 'USD';
-                            document.getElementById('moneda_deposito_final').value = 'USD';
-
-                        } else if (moneda_desarrollo == 2 && moneda_contrato == 2 && moneda_banco == 'MN') {
-
-                            document.getElementById("div_valor_dolar").style.display = "block";
-
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_dolar = document.getElementById('valor_dolar').value;
-                            valor_convertido = valor_deposito.replace(/,/g, '') / valor_dolar;
-
-                            valor_formateado = number_format(valor_deposito);
-                            valor_formateado2 = number_format(valor_convertido.toFixed(2).toString());
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_formateado2.replace(/,/g, '');
-
-                            document.getElementById('deposito_final').value = valor_formateado2;
-
-                            document.getElementById('tipo_moneda_convertir').value = '3'; // MX A USD
-                            document.getElementById('moneda_deposito').value = 'MX';
-                            document.getElementById('moneda_deposito_final').value = 'USD';
-
-                        } else if (moneda_desarrollo == 2 && moneda_contrato == 1 && moneda_banco == 'USD') {
-                            document.getElementById("div_valor_dolar").style.display = "block";
-
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_dolar = document.getElementById('valor_dolar').value;
-                            valor_convertido = valor_deposito.replace(/,/g, '') * valor_dolar;
-
-                            valor_formateado = number_format(valor_deposito);
-                            valor_formateado2 = number_format(valor_convertido.toFixed(2).toString());
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_formateado2.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado2;
-
-
-                            document.getElementById('tipo_moneda_convertir').value = '2'; // USD A MX
-                            document.getElementById('moneda_deposito').value = 'USD';
-                            document.getElementById('moneda_deposito_final').value = 'MX';
-
-                        } else if (moneda_desarrollo == 2 && moneda_contrato == 1 && moneda_banco == 'MN') {
-                            document.getElementById("div_valor_dolar").style.display = "block";
-
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_dolar = document.getElementById('valor_dolar').value;
-                            valor_convertido = valor_deposito.replace(/,/g, '') / valor_dolar;
-
-                            valor_formateado = number_format(valor_deposito);
-                            valor_formateado2 = number_format(valor_convertido.toFixed(2).toString());
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado;
-
-                            document.getElementById('tipo_moneda_convertir').value = '3'; // MX A USD
-                            document.getElementById('moneda_deposito').value = 'MX';
-                            document.getElementById('moneda_deposito_final').value = 'MX';
-
-                        } else if (moneda_desarrollo == 1 && moneda_contrato == 1 && moneda_banco == 'USD') {
-                            document.getElementById("div_valor_dolar").style.display = "block";
-
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_dolar = document.getElementById('valor_dolar').value;
-                            valor_convertido = valor_deposito.replace(/,/g, '') * valor_dolar;
-
-
-
-                            valor_formateado = number_format(valor_deposito);
-                            valor_formateado2 = number_format(valor_convertido.toFixed(2).toString());
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_formateado2.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado2;
-
-
-                            document.getElementById('tipo_moneda_convertir').value = '2'; // USD A MX
-                            document.getElementById('moneda_deposito').value = 'USD';
-                            document.getElementById('moneda_deposito_final').value = 'MX';
-
-                        } else if (moneda_desarrollo == 1 && moneda_contrato == 2 && moneda_banco == 'MN') {
-
-                            document.getElementById("div_valor_dolar").style.display = "block";
-                            // document.getElementById("div_deposito_final").style.display = "block";
-
-                            valor_deposito = document.getElementById('valor_deposito').value;
-                            valor_dolar = document.getElementById('valor_dolar').value;
-                            valor_convertido = valor_deposito.replace(/,/g, '') / valor_dolar;
-
-                            valor_formateado = number_format(valor_deposito);
-                            valor_formateado2 = number_format(valor_convertido.toFixed(2).toString());
-
-                            document.getElementById('valor_deposito').value = valor_formateado;
-                            document.getElementById('valor_deposito_oculto').value = valor_deposito.replace(/,/g, '');
-                            document.getElementById('valor_deposito_convertido').value = valor_formateado2.replace(/,/g, '');
-                            document.getElementById('deposito_final').value = valor_formateado2;
-
-                            document.getElementById('tipo_moneda_convertir').value = '3'; // MX A USD
-                            document.getElementById('moneda_deposito').value = 'MX';
-                            document.getElementById('moneda_deposito_final').value = 'USD';
-                        } else {
-
-                        }
-
-                    }
-
-                    function validar_botones() {
-
-                        var id_plan = $("#id_plan").val();
-
-                        var nombre_cliente_web = $("#nombre_cliente_web").val();
-                        var apellido_p_cliente_web = $("#apellido_p_cliente_web").val();
-                        var correo_cliente_web = $("#correo_cliente_web").val();
-                        var status_correo = '0';
-                        var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
-
-                        if (regex.test(correo_cliente_web.trim())) {
-
-                            status_correo = '1';
-                        }
-
-
-
-
-
-
-                        if (parseFloat(id_plan) > 0 && parseFloat(status_correo) > 0 && apellido_p_cliente_web != '' && nombre_cliente_web != '') {
-
-                            $('#pdf').attr("disabled", false);
-                        } else {
-
-                            $('#pdf').attr("disabled", true);
-                        }
-
-
-
-
-
-                    }
-                </script>
-                <style type="text/css">
-                    @media (min-width: 768px) {
-                        .wizard>.steps>ul>li {
-                            width: 50%;
-                        }
-
-                        .wizard>.steps a .number,
-                        .wizard>.steps a:hover .number,
-                        .wizard>.steps a:active .number {
-                            display: inline-flex !important;
-                        }
-
-                        .wizard>.steps>ul li .title {
-                            display: inline-flex;
-                        }
-
-
-
-
-                    }
-
-                    @media (min-width: 992px) {
-                        .modal-lg {
-                            max-width: 1000px;
-                            min-width: 992px;
-                        }
-                    }
-
-                    .widget-14 .card-body {
-                        padding: 10px;
-                    }
-
-                    .wizard>.content {
-                        margin: 0px;
-                    }
-
-                    .wizard>.content>.body {
-                        float: unset;
-                        position: unset;
-                        width: 100%;
-                        height: auto;
-                        padding: 5px;
-                    }
-                </style> -->
-            <input type="hidden" id="rt" value="../">
-
-            <div class="modal-content bd-0 rounded-0">
-                <div class="modal-body pd-0">
-                    <div class="row no-gutters">
-                        <div class="col-lg-4">
-                            <div class="card  shadow-sm">
-                                <div class="card-header">
-
-                                    <!-- <h5 class="text-muted mb-2">Desarrollo:</h5>
-                                        <h4 class="text-success px-2 mb-3">Marela beach</h4> -->
-
-                                    <h5 class="fw-bold mb-4">Lote: <span class="fw-normal h5 px-2" id="property_name"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Tipo: <span class="fw-normal h5 px-2" id="category_name"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Estatus: <span class="fw-normal h5 px-2" id="status_name"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Área: <span class="fw-normal h5 px-2" id="property_area"></span><span class="fw-normal h5">m<sup>2</sup></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Precio por m<sup>2</sup>: <span class="fw-normal h5 px-2" id="property_price_m2"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Precio de Lista: <span class="fw-normal h5 px-2" id="property_price_final"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Financiamiento: <span class="fw-normal h5 px-2" id="property_financing"></span></h5>
-
-                                    <h5 class="fw-bold mb-4">Enganche: <span class="fw-normal h5 px-2" id="property_hitch"></span></h5>
-                                    <!-- <h4 class="text-success tx-light px-2 mb-3"></h4> -->
-                                    <!-- <a href="../ad/Desarrollo/Chepinas/chepina_10542_2022_07_14_20_02_39.pdf" target="_blank" class="btn btn-primary btn-with-icon">
-                                            <div class="ht-40 justify-content-between">
-                                                <span class="pd-x-15">Plano Ilustrativo </span>
-                                                <span class="icon wd-40"><i class="fa fa-download"></i></span>
-                                            </div>
-                                        </a> -->
-                                </div>
-                            </div>
-                        </div><!-- col-4 -->
-                        <div class="col-lg-8">
-                            <div class="card shadow-sm mt-3 mt-lg-0">
-                                <form method="post" id="formulario_apartado" action="">
-                                    <!-- <input type="hidden" name="id_unidad" value="10542" id="id_unidad">
-                                        <input type="hidden" name="id_plan" value="112" id="id_plan" class="limpiador">
-                                        <input type="hidden" name="id_cliente" value="">
-                                        <input type="hidden" name="rd" id="rd" value="">
-                                        <input type="hidden" name="metros_cuadrados_totales" value="376.15" id="metros_cuadrados_totales">
-                                        <input type="hidden" name="precio_m2" value="839.0000" id="precio_m2">
-                                        <input type="hidden" name="precio_lista" value="315589.85">
-
-                                        <input type="hidden" name="tipo_descuento" value="1" id="tipo_descuento" class="limpiador">
-                                        <input type="hidden" name="tipo_calculo" value="1" id="tipo_calculo" class="limpiador">
-                                        <input type="hidden" name="tipo_enganche" value="1" id="tipo_enganche" class="limpiador">
-                                        <input type="hidden" name="porcentaje_mensualidad" value="80" id="porcentaje_mensualidad2" class="limpiador">
-                                        <input type="hidden" name="precio_venta" value="315589.85" id="precio_venta" class="limpiador">
-                                        <input type="hidden" name="porcentaje_descuento" value="0.00" id="porcentaje_descuento2" class="limpiador">
-                                        <input type="hidden" name="cant_descuento" value="0" id="cant_descuento2" class="limpiador">
-                                        <input type="hidden" name="porcentaje_enganche" value="20.00" id="porcentaje_enganche2" class="limpiador">
-                                        <input type="hidden" name="cantidad_enganche" value="63117.97" id="cantidad_enganche2" class="limpiador">
-                                        <input type="hidden" name="porcentaje_financiar" value="80" id="porcentaje_financiar2" class="limpiador">
-                                        <input type="hidden" name="cantidad_financiar" value="252471.88" id="cantidad_financiar2" class="limpiador">
-                                        <input type="hidden" name="num_mensualidad" value="48" id="num_mensualidad2" class="limpiador">
-                                        <input type="hidden" name="cant_mensualidad" value="5259.830833333333" id="cant_mensualidad2" class="limpiador">
-                                        <input type="hidden" name="porcentaje_contraentrega" value="0" id="porcentaje_contraentrega2" class="limpiador">
-                                        <input type="hidden" name="cantidad_entrega" value="0" id="cantidad_entrega2" class="limpiador">
-                                        <input type="hidden" name="couta_apartura" value="2000.00" id="couta_apartura2" class="limpiador">
-                                        <input type="hidden" name="escrituracion" value="0" id="escrituracion2">
-
-                                        <input type="hidden" name="moneda_desarrollo" id="moneda_desarrollo" value="1">
-                                        <input type="hidden" name="moneda_contrato" id="moneda_contrato" value="1">
-                                        <input type="hidden" name="id_desarrollo" id="id_desarrollo" value="104">
-                                        <input type="hidden" name="moneda_banco_oculto" id="moneda_banco_oculto">
-                                        <input type="hidden" name="tipo_moneda_convertir" id="tipo_moneda_convertir"> -->
-
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-between mb-3">
-                                            <h2 class="fw-bold text-muted mb-2">Cotización</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                                    <!-- <span aria-hidden="true" class="tx-50">×</span> -->
-                                                </button>
-                                        </div>
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <label class="col-sm-3 mg-t-20 form-control-label">Plazo de Financiamiento: <span class="text-danger">*</span></label>
-                                                <div class="col-sm-7 mg-t-20 ">
-                                                    <select class="form-control select2 seleccionar_plan validar_botones" id="select_plan" data-placeholder="Seleccione un Plazo">
-                                                        <option value="0">Seleccione un Plazo</option>
-                                                        <option value="12">12 Meses</option>
-                                                        <option value="24">24 Meses</option>
-                                                        <!-- <option value="36">36 Meses</option>
-                                                            <option value="48">48 Meses</option>
-                                                            <option value="60">60 Meses</option> -->
-                                                        <option value="1">CONTADO..</option>
-                                                    </select>
-                                                </div>
-                                                <!-- col -->
-                                                <div class="col-sm-2">
-
-                                                </div>
-                                                <!-- col -->
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <label class="col-sm-3 mt-1  form-control-label">Descuento m<sup>2</sup>: <span class="text-danger">*</span></label>
-
-                                                <div class="col-sm-3 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">%</span>
-                                                        <input type="text" id="porcentaje_descuento" class="form-control limpiador" readonly="" placeholder="Porcentaje">
-                                                    </div>
-                                                </div>
-
-                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp; =</label>
-
-                                                <div class="col-sm-5 mt-1 mt-sm-1 ">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">$</span>
-                                                        <input type="text" class="form-control limpiador" id="cant_descuento" readonly="" placeholder="Valor">
-                                                        <span class="input-group-text">MXN</span>
-                                                    </div>
-                                                </div>
-
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-
-                                                <label class="col-sm-3 mt-1 form-control-label">Enganche: <span class="text-danger">*</span></label>
-
-                                                <div class="col-sm-3 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">%</span>
-                                                        <input type="text" id="porcentaje_enganche" class="form-control Calculos limpiador" placeholder="Porcentaje">
-                                                    </div>
-                                                </div>
-
-                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
-
-                                                <div class="col-sm-5 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">$</span>
-                                                        <input type="text" id="cantidad_enganche" class="form-control Calculos limpiador" placeholder="Valor">
-                                                        <span class="input-group-text">MXN</span>
-                                                    </div>
-                                                </div>
-
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-
-                                                <label class="col-sm-3 mt-1 form-control-label">Total a Financiar: <span class="text-danger">*</span></label>
-
-                                                <div class="col-sm-3 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">%</span>
-                                                        <input type="text" id="porcentaje_financiar" class="form-control limpiador" readonly="" placeholder="Porcentaje">
-                                                    </div>
-                                                </div>
-
-                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;=</label>
-
-                                                <div class="col-sm-5 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">$</span>
-                                                        <input type="text" id="cantidad_financiar" class="form-control limpiador" readonly="" placeholder="Valor">
-                                                        <span class="input-group-text">MXN</span>
-                                                    </div>
-                                                </div>
-
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3 pr-3">
-
-                                                <label class="col-sm-3 mt-1 form-control-label">Mensualidades: <span class="text-danger">*</span></label>
-
-                                                <div class="col-sm-3 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">#</span>
-                                                        <input type="text" id="num_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidades">
-                                                    </div>
-                                                </div>
-
-                                                <label class="col-sm-1 mt-1 form-control-label">&nbsp;de</label>
-
-                                                <div class="col-sm-5 mt-1 mt-sm-1">
-                                                    <div class="input-group">
-                                                        <span class="input-group-text">$</span>
-                                                        <input type="text" id="cant_mensualidad" class="form-control limpiador" readonly="" placeholder="Mensualidad">
-                                                        <span class="input-group-text">MXN</span>
-                                                    </div>
-                                                </div>
-
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <div class="col-sm-4 mt-1 mt-sm-1">
-                                                    <input type="text" class="form-control limpiador validar_botones" id="nombre_cliente_web" name="nombre_cliente_web" placeholder="Nombre(s)">
-                                                </div>
-                                                <div class="col-sm-4 mt-1 mt-sm-1">
-                                                    <input type="text" class="form-control limpiador validar_botones" id="apellido_p_cliente_web" name="apellido_p_cliente_web" placeholder="Apellido Paterno">
-                                                </div>
-                                                <div class="col-sm-4 mt-1 mt-sm-1">
-                                                    <input type="text" class="form-control limpiador" name="apellido_m_cliente_web" placeholder="Apellido Materno">
-                                                </div>
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <div class="col-sm-6 mt-1 mt-sm-1">
-                                                    <input type="text" class="form-control limpiador" name="telefono_cliente_web" placeholder="Número de teléfono">
-                                                </div>
-                                                <div class="col-sm-6 mt-1 mt-sm-1">
-                                                    <input type="text" class="form-control limpiador validar_botones" id="correo_cliente_web" name="correo_cliente_web" placeholder="Correo electrónico">
-                                                </div>
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <div class="col-sm-12 mt-10 mt-sm-0">
-                                                    <textarea rows="3" class="form-control" name="comentario_cliente_web" placeholder="Escribe un comentario"></textarea>
-                                                </div>
-                                            </div><!-- row -->
-                                        </div><!-- form-group -->
-
-                                        <input type="hidden" readonly="" id="porcentaje_contraentrega" value="0">
-                                        <input type="hidden" readonly="" id="cantidad_entrega" value="0.00">
-                                        <input type="hidden" class="form-control limpiador" id="couta_apartura" value="2,000.00">
-                                        <input type="hidden" id="escrituracion" value="0.00">
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                                                    <button class="btn btn-success  active bd-0  ml-5" id="pdf" disabled="disabled">Descargar Cotización </button>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group mb-2">
-                                            <div class="row mx-1 pl-3  pr-3">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                                                    Kirkland Inmobiliaria utilizará sus datos personales recabados, puedes consultar el aviso de privacidad
-                                                    integral a través de este link <a href="#" class="text-primary" target="_blank">kirklandinmuebles.com/avisodeprivacidad </a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </form>
-                            </div>
-                        </div><!-- col-8 -->
-                    </div><!-- row -->
-                </div><!-- modal-body -->
-            </div><!-- modal-content -->
-        </div>
-    </div>
-</div>
 
 <!-- Contact Us Section -->
 <?= $sectionContact ?>
