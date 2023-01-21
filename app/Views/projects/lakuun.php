@@ -170,7 +170,7 @@
                     <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
                         <!-- <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/lakuun/17.jpg' ?>"> -->
                         <div class="text-center mx-auto">
-                            <p class="fw-bold small mb-0 not_mobile d-none">Click para ver detalles</p>
+                            <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
                         </div>
                         <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenitiesCasaClub" style="z-index: 100">
                             <div class="carousel-inner">
@@ -248,7 +248,7 @@
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="about-img position-relative overflow-hidden p-5 pe-0">
                     <div class="text-center mx-auto">
-                        <p class="fw-bold small mb-0 not_mobile d-none">Click para ver detalles</p>
+                        <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
                     </div>
                     <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                         <div class="carousel-inner">
