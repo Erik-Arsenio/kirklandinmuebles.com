@@ -33,6 +33,10 @@
 			vertical-align: -.125em;
 			fill: currentColor;
 		}
+
+		.dropdown-toggle::after {
+			color: #f8f9fa;
+		}
 	</style>
 </head>
 
@@ -58,6 +62,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link <?php if (url_is('projects*')) echo ' active'; ?>" href="#" ><?= 'Resumen' ?></a>
+					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle<?php if (url_is('projects*')) echo ' active'; ?>" href="#" data-bs-toggle="dropdown" aria-expanded="false"><?= lang('Globals.projects') ?></a>
 						<ul class="dropdown-menu">
@@ -110,4 +117,4 @@
 </body>
 
 </html>
-<?php session()->remove(['msgConfirm', 'msgError']); ?>                                                                                                                                                                                                                                                                                                                                                                       
+<?php session()->remove(['msgConfirm', 'msgError']); ?>
