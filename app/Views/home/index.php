@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 pe-md-5">
-			<div class="carousel slide carousel-fade text-center animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" id="carouselHome">
+			<div class="carousel slide carousel-fade text-center animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" alt="">
@@ -89,7 +89,7 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href=<?= base_url('investments/anthia') ?>>
+					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/anthia/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
@@ -123,7 +123,7 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href=<?= base_url('investments/lakuun') ?>>
+					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/lakuun') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
@@ -157,7 +157,7 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item  border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-bs-ride="true" data-href=<?= base_url('investments/marela_celestun') ?>>
+					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-bs-ride="true" data-href=<?= base_url('investments/marela_celestun') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
@@ -191,7 +191,7 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item  border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden">
-					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach') ?>>
+					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
