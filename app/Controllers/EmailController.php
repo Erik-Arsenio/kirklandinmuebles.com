@@ -61,7 +61,7 @@ class EmailController extends BaseController
             // return redirect()->back()->withInput()->with('errors',$validation->getErrors());
             return redirect()->to('templates/contactForm')->withInput()->with('errors',$validation->getErrors());
         } else {
-            if($this->isOnline()){
+            if(isOnline()){
                 // echo 'Connected a internet';
                 $to = "erikgonzalez55@gmail.com";
                 $name = $this->request->getVar('name');
@@ -122,18 +122,5 @@ class EmailController extends BaseController
                 return redirect()->to('templates/contactForm')->with('error', 'Revise su conexión a internet')->withInput();
             }
         }   
-    }
-
-    public function isOnLine($site = "https://youtube.com")
-    {
-        $onLine = @fopen($site,"r");
-
-        if($onLine){
-            @fclose($onLine);
-            return true;
-        }else{
-            @fclose($onLine);
-            return false;
-        }
     }
 }
