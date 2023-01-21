@@ -1256,7 +1256,7 @@
         <!-- Property List End -->
 
         <div class="data">
-            <input type="hidden" name="data_propertie" id="data_propertie" value='<?= $dataProject ?>'>
+                <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_beach.json') ?>'>
         </div>
 
 
@@ -1288,7 +1288,7 @@
                                     <div class="position-relative overflow-hidden">
                                         <div class="tab-content" id="myTabContent">
                                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                                <div id="carouselmodal" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="true">
+                                                <div id="carouselmodal" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false">
                                                     <div class="carousel-inner" id="modal-carousel-container">
                                                     </div>
                                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselmodal" data-bs-slide="prev">
