@@ -36,8 +36,8 @@
                             </div>
                             <div class="col">
                                 <div class="input-group">
-                                    <span class="input-group-text text-success mdi mdi-whatsapp mdi-18px"><span class=''></span></span>
-                                    <input type="tel" onkeypress="return event.charCode>=48 && event.charCode<=57 || event.charCode == 32 || event.charCode == 43" class="form-control" name="phone" id="phone" placeholder="Número de WhatsApp" aria-label="phone" aria-describedby="phone" value="<?= old('phone') ?>">
+                                    <span class="input-group-text text-success mdi mdi-phone mdi-18px"><span class=''></span></span>
+                                    <input type="tel" onkeypress="return event.charCode>=48 && event.charCode<=57 || event.charCode == 32 || event.charCode == 43" class="form-control" name="phone" id="phone" placeholder="Número de Teléfono" aria-label="phone" aria-describedby="phone" value="<?= old('phone') ?>">
                                 </div>
                                 <span class="text-danger small">
                                     <?= session('errors.phone') ?>
@@ -46,7 +46,10 @@
                             </div>
                             <div class="col ">
                                 <!-- <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label> -->
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" value="<?= old('email') ?>">
+                                <div class="input-group">
+                                    <span class="input-group-text text-success mdi mdi-email-outline mdi-18px"><span class=''></span></span>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" value="<?= old('email') ?>">
+                                </div>
                                 <span class="text-danger small">
                                     <?= session('errors.email') ?>
                                     <!-- <?= (session('errors.email') ? 'Este campo es obligatorio' : ''); ?> -->
