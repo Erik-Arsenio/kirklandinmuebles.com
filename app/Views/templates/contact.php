@@ -14,8 +14,8 @@
 							<div class="col-md-7">
 								<div class="card-body text-center">
 									<h5 class="card-title">Carmen Palay Herrera</h5>
-									<p class="card-text">Asesor</p>
-									<p class="card-text">Especialista de ACD desarrollo</p>
+									<p class="card-text">Asesora Inmobiliaria</p>
+									<!-- <p class="card-text">Especialista de ACD desarrollo</p> -->
 									<p class="mb-2"><span class='mdi mdi-phone mdi-18px me-3'></span>+52 999 449 7599</p>
 									<p class="mb-2 text-nowrap"><span class='mdi mdi-email-outline mdi-18px me-3'></span>carmen@kirklandinmobiliaria.com</p>
 								</div>
