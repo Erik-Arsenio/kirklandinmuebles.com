@@ -3581,16 +3581,16 @@
                         <div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="true">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="<?= STATIC_URL . 'img/anthia/14.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
+                                    <img src="<?= STATIC_URL . 'img/anthia/promo/14.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/15.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
+                                    <img src="<?= STATIC_URL . 'img/anthia/promo/15.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/16.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
+                                    <img src="<?= STATIC_URL . 'img/anthia/promo/16.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/17.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
+                                    <img src="<?= STATIC_URL . 'img/anthia/promo/17.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnthia" data-bs-slide="prev">
