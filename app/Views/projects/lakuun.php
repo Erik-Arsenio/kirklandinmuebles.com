@@ -296,10 +296,10 @@
             <span class="mdi mdi-vanish mdi-spin"></span>
             Loading image...
         </div>
-        <div class="lots d-none" id="image_site">
+        <div class="lots" id="image_site">
             <div class="accordion" id="accordionExample">
-                <div class="accordion-item border border-success my-4">
-                    <h2 class="accordion-header border-bottom border-success" id="headingOne">
+                <div class="accordion-item border border-success my-4" id="header1">
+                    <h2 class="accordion-header border-bottom border-success" id="heading-1">
                         <button class="accordion-button px-4 <?php if ($projectStage == 1) {
                                                                     echo "";
                                                                 } else {
@@ -336,7 +336,7 @@
                                                                                     echo "show";
                                                                                 } else {
                                                                                     echo "";
-                                                                                } ?>" aria-labelledby="headingOne">
+                                                                                } ?>" aria-labelledby="heading-1">
                         <div class="accordion-body">
                             <!-- Price Start -->
                             <div class="container-xxl py-1 px-0">
@@ -1181,8 +1181,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item border border-success my-4">
-                    <h2 class="accordion-header border-bottom border-success" id="headingTwo">
+                <div class="accordion-item border border-success my-4" id="header2">
+                    <h2 class="accordion-header border-bottom border-success" id="heading-2">
                         <button class="accordion-button px-4 <?php if ($projectStage == 2) {
                                                                     echo "";
                                                                 } else {
@@ -1216,7 +1216,7 @@
                                                                                     echo "show";
                                                                                 } else {
                                                                                     echo "";
-                                                                                } ?>" aria-labelledby="headingTwo">
+                                                                                } ?>" aria-labelledby="heading-2">
                         <div class="accordion-body">
                             <!-- Price Start -->
                             <div class="container-xxl py-1 px-0">
