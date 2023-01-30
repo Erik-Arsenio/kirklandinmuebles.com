@@ -925,7 +925,7 @@
                                         <text class="cls-46" transform="translate(740 705)">Plus</text>
                                         <text class="cls-46" transform="translate(740 740)">Estandar </text>
                                     </g>
-                                    <g id="area_selection_1">
+                                    <g id="area_selection_1"  data-id="stage_1">
                                         <path data-id="A-12" class="st2 " d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" />
                                         <path data-id="A-11" class="st2 " d="M148.7,223.4l27,1.4l28.5,1.5l-6.2,17.1l-55.7-3.2l2.2-5.2l2.7-7.7" />
                                         <path data-id="A-10" class="st2 " d="M142.7,240.2l55.5,3.2l-6.2,17.1l-55.7-2.9l3.2-8.2" />
@@ -4373,7 +4373,7 @@
                                         <rect class="cls-49" x="788.22" y="818.97" width="27.04" height="27.04"></rect>
                                         <rect class="cls-50" x="788.22" y="854.85" width="27.04" height="27.04"></rect>
                                     </g>
-                                    <g id="area_selection_2">
+                                    <g id="area_selection_2"  data-id="stage_2">
                                         <rect class="st2 " x="724.76" y="822.15" width="23.26" height="65.94" title="299.46 m2" data-id="B-140"></rect>
                                         <rect class="st2 " x="702.83" y="822.15" width="21.93" height="65.94" title="299.41 m2" data-id="B-141"></rect>
                                         <rect class="st2 " x="679.57" y="822.15" width="23.26" height="65.94" title="299.36 m2" data-id="B-142"></rect>
