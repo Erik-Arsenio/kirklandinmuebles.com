@@ -15,10 +15,10 @@
 			<div class="carousel slide carousel-fade text-center animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01-es.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/05.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/09-es.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>" alt="">
@@ -27,10 +27,10 @@
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/06.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/06.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/01-es.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
-						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/07.jpg' ?>" alt="">
+						<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/07-es.jpg' ?>" alt="">
 					</div>
 					<div class="carousel-item">
 						<img class="img-fluid" src="<?= STATIC_URL . 'img/lakuun/01.jpg' ?>" alt="">
@@ -92,13 +92,13 @@
 					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/anthia/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/01-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/anthia/07.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/13-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/anthia/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/anthia/07-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselAnthia" data-bs-slide="prev">
@@ -194,13 +194,13 @@
 					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach') ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/01-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/09-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
+								<img src="<?= STATIC_URL . 'img/marela_beach/10-es.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="...">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaBeach" data-bs-slide="prev">
