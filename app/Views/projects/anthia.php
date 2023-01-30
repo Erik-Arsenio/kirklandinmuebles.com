@@ -792,7 +792,7 @@
 
 <!-- Property List Start -->
 <div class="container-xxl pt-5">
-    <div class="container">
+    <div class="container px-0 px-lg-2">
         <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
             <h1 class="fw-bold">Disponiblidad de lotes patrimoniales de inversión</h1>
             <h5 class="my-2 fw-lighter text-decoration-underline small">(Click en Etapa para ver detalles y mapa)</h5>
@@ -865,7 +865,7 @@
                                                         <p class="h4 text-success">315 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6">Financiamiento hasta</p>
+                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                         <p class="h4 text-success">48 <span class="h4">MSI</p>
                                                     </div>
                                                 </div>
@@ -1774,7 +1774,7 @@
                                                         <p class="h4 text-success">418 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6">Financiamiento hasta</p>
+                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                         <p class="h4 text-success">60 <span class="h4">MSI</p>
                                                     </div>
                                                 </div>
@@ -2855,7 +2855,7 @@
                                                         <p class="h4 text-success">418 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6">Financiamiento hasta</p>
+                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                         <p class="h4 text-success">60 <span class="h4">MSI</p>
                                                     </div>
                                                 </div>
