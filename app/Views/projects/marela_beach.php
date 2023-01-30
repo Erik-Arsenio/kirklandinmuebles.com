@@ -1,53 +1,67 @@
 <!-- Header Start -->
-<div class="container-xxl bg-white p-0 mt-4">
-    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-        <div class="col-md-6 p-5 mt-0 mt-xxl-5">
+<div class="container-xxl bg-white p-0 mt-4 mb-5">
+    <div class="row g-0 align-items-center flex-md-row">
+        <div class="col-lg-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
             <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
-                <h1>Marela Beach</h1>
+                <h3>Marela Beach</h3>
                 <h6>CELESTÚN YUCATÁN</h6>
             </div>
-            <h1 class="display-6 animated fadeInLeft fw-bold my-4">Lotes residenciales en la playa</h1>
-            <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</p>
+            <p class="h2 animated fadeInLeft fw-bold my-2">Lotes residenciales en la playa</p>
+            <!-- <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</p> -->
+            <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 11em">
+            </div>
+            <div class="m-2">
+                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                    <span class="fadeinout">Quiero que me contacten</span>
+                </a>
+            </div>
         </div>
-        <div class="col-md-6 pe-md-5">
-            <div class="carousel slide text-center  animated fadeInRight " data-bs-ride="false" data-bs-touch="false" id="carouselHome" title="Click para zoom">
+        <div class="col-lg-6 pe-lg-5">
+            <div class="text-center mx-auto">
+                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+            </div>
+            <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/01.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/01-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Lotes frente al mar">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/04.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/02-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Patrimonio Mundial de la reserva especial de la biosfera">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/06.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/03-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/04-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Desarrollos en Celestún">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/09.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/05-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/06-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/15.jpg' ?>" class="card-img-top img-fluid" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/07-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Imágenes del Club de Playa">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/16.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/17.jpg' ?>" class="card-img-top img-fluid" alt="...">
-                    </div>
+                        <img src="<?= STATIC_URL . 'img/marela_beach/08-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Precio Total por lotes">
+                    </div>                                  
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                     <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                     <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                 </button>
+            </div>
+            <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 11em">
+            </div>
+            <div class="m-2 text-center mt-3">
+                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                    <span class="fadeinout">Quiero que me contacten</span>
+                </a>
             </div>
         </div>
     </div>
@@ -58,8 +72,21 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
+                    <!-- <div class="loader-container-img text-center mb-2">
+                        <span class="mdi mdi-vanish mdi-spin"></span>
+                        Loading image...
+                    </div> -->
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/08.jpg' ?>">
+                        <div class="text-center mx-auto">
+                            <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                        </div>
+                        <div class="carousel carousel-fade slide animated fadeIn text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselLocation" style="z-index: 100">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/09-es.jpg' ?>" alt="Ubicación del desarrollo">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
@@ -82,7 +109,7 @@
             <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
                 <h1 class="fw-bold text-decoration-underline">Características</h1>
             </div>
-            <div class="row g-5 align-items-center">
+            <div class="row g-0 g-lg-5 align-items-center">
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                     <ul>
                         <li class="h4">Lotes a la orilla de la playa</li>
@@ -103,7 +130,7 @@
                         <li class="h4">Listos para escriturar</li>
                     </ul>
                 </div>
-                <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
+                <div class="text-center wow slideInLeft mt-1" data-wow-delay="0.1s">
                     <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span>Club de playa</p>
 
                 </div>
@@ -124,7 +151,16 @@
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
                         <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/13.jpg' ?>">
+                            <div class="text-center mx-auto">
+                                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                            </div>
+                            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/07-es.jpg' ?>" alt="Imágenes del Club de Playa">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,7 +171,7 @@
         <!-- Caracteristicas Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-5 align-items-center">
+                <div class="row g-0 g-lg-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                         <ul>
                             <li class="h4">Spot icónico</li>
@@ -169,14 +205,24 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/07.jpg' ?>">
+                            <div class="text-center mx-auto">
+                                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                            </div>
+                            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselMasterPlan" style="z-index: 100">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/10-es.jpg' ?>" alt="Master Plan del desarrollo">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                         <h2 class="mb-3">El desarrollo cuenta con:</h2>
-                        <p class="h5 mb-4">Etapas: <span class="h3">2</span></p>
+                        <p class="h5 mb-4">Etapas: <span class="h3">1</span></p>
                         <p class="h5 mb-4">Hectáreas: <span class="h3">2</span></p>
                         <p class="h5 mb-4">Lotes: <span class="h3">77</span></p>
+                        <p class="h5 mb-4">Entrega: <span class="h3">Diciembre 2025</span></p>
                         <!-- <p class="h5 mb-4">Areas verdes: <span class="h3">28,414.38 m<sup>2</sup></span></p> -->
                     </div>
                 </div>
@@ -185,8 +231,8 @@
         <!-- About End -->
 
         <!-- Property List Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
+        <div class="container-xxl py-5 px-0 px-lg-2">
+            <div class="container px-0 px-lg-2">
                 <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
                     <h1 class="fw-bold">Disponiblidad de lotes residenciales en la playa</h1>
                     <h5 class="my-2 fw-lighter text-decoration-underline">(Click en Etapa para ver detalles y mapa)</h5>
@@ -206,9 +252,9 @@
                                             <thead>
                                                 <tr>
                                                     <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                                    <th scope="col" class="h5 text-center">Total de lotes</th>
-                                                    <th scope="col" class="h5 text-center">Disponibles</th>
-                                                    <th scope="col" class="h5 text-center">Fecha de entrega</th>
+                                                    <th scope="col" class="h5 available-title text-center">Total de lotes</th>
+                                                    <th scope="col" class="h5 available-title text-center">Disponibles</th>
+                                                    <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -228,7 +274,7 @@
                                 <div class="accordion-body">
                                     <!-- Price Start -->
                                     <!-- <div class="container-xxl py-5"> -->
-                                    <div class="container">
+                                    <div class="container px-0 px-lg-2">
                                         <div class="row g-0 gx-5 align-items-center">
                                             <div class="col-lg-12">
                                                 <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
@@ -237,10 +283,10 @@
                                             </div>
                                         </div>
                                         <div class="row row-cols-1 row-cols-lg-3">
-                                            <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                                <div class="card border-5 h-100 shadow px-0">
+                                            <div class="col wow fadeInUp mb-5 " data-wow-delay="0.1s">
+                                                <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h2 text-success">Lote Frente al mar</p>
+                                                        <p class="h3 text-success">Lote Frente al mar</p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
@@ -249,7 +295,7 @@
                                                                 <p class="h4 text-success">13,580 <span class="h4">MXN</span></p>
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6">Financiamiento hasta</p>
+                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                                 <p class="h4 text-success">24 <span class="h4">MSI</span></p>
                                                             </div>
                                                         </div>
@@ -259,15 +305,15 @@
 
                                                         </div>
                                                     </div>
-                                                    <div class="card-footer">
+                                                    <!-- <div class="card-footer">
                                                         <p class="card-title text-center h4">Entrega Diciembre 2025 </p>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                                <div class="card border-5 h-100 shadow px-0">
+                                                <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h2 text-success">Lote segunda fila</p>
+                                                        <p class="h3 text-success">Lote segunda fila</p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
@@ -276,7 +322,7 @@
                                                                 <p class="h4 text-success">5,065 <span class="h4">MXN</span></p>
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6">Financiamiento hasta</p>
+                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                                 <p class="h4 text-success">48 <span class="h4">MSI</span></p>
                                                             </div>
                                                         </div>
@@ -285,15 +331,15 @@
                                                             <p class="h4 text-success">10%</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="card-footer">
+                                                    <!-- <div class="card-footer">
                                                         <p class="card-title text-center h4">Entrega Diciembre 2025 </p>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                             <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                                <div class="card border-5 h-100 shadow px-0">
+                                                <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h2 text-success">Lote segunda fila plus</p>
+                                                        <p class="h3 text-success">Lote segunda fila plus</p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
@@ -302,7 +348,7 @@
                                                                 <p class="h4 text-success">5,620 <span class="h4">MXN</span></p>
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6">Financiamiento hasta</p>
+                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
                                                                 <p class="h4 text-success">48 <span class="h4">MSI</span></p>
                                                             </div>
                                                         </div>
@@ -311,9 +357,9 @@
                                                             <p class="h4 text-success">10%</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="card-footer">
+                                                    <!-- <div class="card-footer">
                                                         <p class="card-title text-center h4">Entrega Diciembre 2025 </p>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -325,12 +371,12 @@
                                         Loading image...
                                     </div>
                                     <div class="row">
-                                        <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="100px" style="transform: rotate(0deg);">
+                                        <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" style="transform: rotate(0deg);">
                                     </div>
                                     <div class="row mt-2">
-                                        <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
+                                    <p class="small fw-bolder text-center mb-0">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
                                     </div>
-                                    <div class="row">
+                                    <div class="row m-0">
                                         <!-- SVG -->
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1100 900" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
                                             <style type="text/css">
@@ -1156,7 +1202,7 @@
                                                     </g>
                                                 </g>
                                             </g>
-                                            <g id="area_selection_1">
+                                            <g id="area_selection_1" data-id="stage_1">
                                                 <path class="st39" d="M 242.83 468.13 L 283.94 468.73 C 283.33 447.38 282.46999999999997 432.06 302.26 428.12 L 304.15999999999997 297.37 L 245.33999999999997 296.5 L 242.83 468.13 Z" title="678.8 m2" data-id="L-1"></path>
                                                 <rect x="372.2" y="349.65" transform="matrix(0.0154 -0.9999 0.9999 0.0154 66.2271 796.4282)" class="st39" width="130.58" height="29.87" title="280 m2" data-id="L-6"></rect>
                                                 <rect x="461.79" y="350.95" transform="matrix(0.0154 -0.9999 0.9999 0.0154 153.1353 887.285)" class="st39" width="130.58" height="29.87" title="280 m2" data-id="L-9"></rect>
@@ -1241,7 +1287,7 @@
                                         </svg>
                                         <!-- SVG -->
                                     </div>
-                                    <div class="d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                                    <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                         <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
                                         <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
                                         <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
@@ -1262,10 +1308,10 @@
 
         <!-- Modal -->
         <div class="modal fade" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
-            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header py-0 border-bottom-0">
-                        <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
+                        <!-- <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link px-lg-5 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Fotos</button>
                             </li>
@@ -1278,8 +1324,8 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link px-lg-5" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Planos</button>
                             </li>
-                        </ul>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </ul> -->
+                        <button type="button" class="btn-close mt-1" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -1292,11 +1338,11 @@
                                                     <div class="carousel-inner" id="modal-carousel-container">
                                                     </div>
                                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselmodal" data-bs-slide="prev">
-                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                                                         <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                                                     </button>
                                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselmodal" data-bs-slide="next">
-                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                                                         <span class="visually-hidden"><?= lang('Globals.next') ?></span>
                                                     </button>
                                                 </div>
