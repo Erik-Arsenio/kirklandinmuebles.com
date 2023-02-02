@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?php echo strtolower($languaje); ?>">
 
 <head>
 	<meta charset="utf-8">
@@ -11,6 +11,7 @@
 	<meta http-equiv="Last-Modified" content="0">
 	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
 	<meta http-equiv="Pragma" content="no-cache">
+	<meta name="google-site-verification" content="S15Mw-HJ9NoCXIvZj4VFltpy1Ut-qUz-HPdad4cdAlU" />
 	<?= load_css([
 		'bootstrap/css/bootstrap.min',
 		'lib/animate/animate.min',
@@ -18,7 +19,15 @@
 		'css/style'
 	]) ?>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCGEQ3M0D5"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
+	gtag('config', 'G-ZCGEQ3M0D5');
+</script>
 <body>
 	<div class="container-xxl bg-white p-0">
 		<!-- Spinner Start -->
@@ -40,17 +49,17 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<div class="navbar-nav ms-auto">
-						<a href="<?= base_url() ?>" class="nav-item nav-link <?= (url_is('/')) ? ' active' : '' ?>"><?= lang('Globals.home') ?></a>
+						<a href="<?= base_url('/' .$languaje) ?>" class="nav-item nav-link <?= (url_is('/')) ? ' active' : '' ?>"><?= lang('Globals.home') ?></a>
 						<div class="nav-item dropdown">
 							<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 							<div class="dropdown-menu rounded-0 m-0">
-								<a href="<?= base_url('investments/lakuun') ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">Lakuun</a>
-								<a href="<?= base_url('investments/anthia/3') ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
-								<a href="<?= base_url('investments/marela_celestun') ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">Marela Celestún</a>
-								<a href="<?= base_url('investments/marela_beach') ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">Marela Beach</a>
+								<a href="<?= base_url($languaje . '/investments/lakuun') ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">Lakuun</a>
+								<a href="<?= base_url($languaje . '/investments/anthia/3') ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
+								<a href="<?= base_url($languaje . '/investments/marela_celestun') ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">Marela Celestún</a>
+								<a href="<?= base_url($languaje . '/investments/marela_beach') ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">Marela Beach</a>
 							</div>
 						</div>
-						<a href="<?= base_url('templates/contactForm') ?>" class="nav-item nav-link <?= (url_is('templates/contactForm')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.contact') ?></a>
+						<a href="<?= base_url($languaje . '/templates/contactForm') ?>" class="nav-item nav-link <?= (url_is($languaje . '/templates/contactForm')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.contact') ?></a>
 					</div>
 				</div>
 			</nav>

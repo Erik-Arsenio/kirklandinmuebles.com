@@ -31,7 +31,7 @@
 						<!-- <a href="tel:+529994497599" class="p-2 me-2" xlink:title="LLamar"><span class='mdi mdi-phone-forward mdi-48px text-success me-3' title="Llamar al teléfono"></span></a> -->
 						<!-- <a href="https://api.whatsapp.com/send?phone=529994497599&amp;text=Hola%20quiero%20más%20Informacion%20de%20Anthia" target="_blank" class=" p-2 me-2"><span class='mdi mdi-whatsapp mdi-48px text-success me-3' title="Contactar por WhatsaApp"></span></a> -->
 					</div>
-					<div class="m-4 text-center">
+					<div class="m-4 text-center d-none">
 						<a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
 							Contactar un asesor
 						</a>
