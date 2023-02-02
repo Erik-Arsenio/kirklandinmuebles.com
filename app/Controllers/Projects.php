@@ -6,6 +6,9 @@ use App\Models\SettingsModel;
 use App\Models\ProjectsModel;
 // use Goutte\Client;
 // use Symfony\Component\HttpClient\HttpClient;
+use CodeIgniter\Cookie\Cookie;
+use CodeIgniter\Cookie\CookieStore;
+use Config\Services;
 use CodeIgniter\I18n\Time;
 use PhpParser\Node\Expr\Cast\Object_;
 use SebastianBergmann\Type\UnknownType;
@@ -28,8 +31,16 @@ class Projects extends BaseController
 	public function index($projectName, $projectStage = null )
 	{
 
-		
+		// setcookie ("lang", "es");
 
+		// If (isset ($_COOKIE["languaje"] ) ) {
+		// 	echo "La cookie contiene: ";
+		// 	echo $_COOKIE["languaje"];
+		// } else {
+		// 	setcookie ("languaje", "es");
+		// 	Echo " Parece que no pasó por la pagina inicial. Php,
+		// 	Vuelva a ella asi de crea la cookie. " ;
+		// }
 		
 		// // $updateProject = json_encode($updateProject);
 		// $dataProject = get_json_file ($projectName);
@@ -50,19 +61,29 @@ class Projects extends BaseController
 
 		$dataProject = get_json_file ($projectName);
 		$dataProject = json_encode($dataProject);
-		
+	
+		If (isset ($_COOKIE["languaje"] ) ) {
+			$languaje = $_COOKIE["languaje"];
+		} else {
+			setcookie ("languaje", "es");
+			$languaje = "es";
+			// Echo " Parece que no pasó por la pagina inicial. Php,
+			// Vuelva a ella asi de crea la cookie. " ;
+		}
 		// Set data index
 		$dataIndex = [
 			'sectionContact' => view('templates/contact'),
 			'sectionReviews' => view('templates/reviews'),
 			'projectStage' => $projectStage,
 			'dataProject' =>  $dataProject,
+			'languaje' => $languaje,
 			// 'updateProject' => $updateProject
 		];
-
+	
 		// dd($dataProject, $updateProject, $dataIndex);	
 		// Set data template
 		$data = [
+			'languaje' => $languaje,
 			'title' => ucwords($projectName,'_'),
 			'content' => view('projects/' . $projectName, $dataIndex),
 			'js' => load_js([
