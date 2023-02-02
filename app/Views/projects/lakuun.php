@@ -11,7 +11,7 @@
             <div class="text-center mt-lg-1 promo not_mobile d-none" id="" style="min-height: 9em">
             </div>
             <div class="m-2">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
@@ -74,7 +74,7 @@
             <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 7em">
             </div>
             <div class="m-2 text-center mt-3">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>

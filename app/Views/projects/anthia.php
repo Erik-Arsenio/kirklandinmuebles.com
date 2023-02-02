@@ -11,7 +11,7 @@
             <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 10em">
             </div>
             <div class="m-2">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
@@ -68,7 +68,7 @@
             <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 12em">
             </div>
             <div class="m-2 text-center mt-3">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
                 <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
@@ -89,12 +89,16 @@
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
-                <div class="row mb-0 pb-0 load-image d-none">
-                    <p class="small fw-bolder text-center mb-0 pb-0">Para más información, <span class="mouse-touche">click </span>en los marcadores</p>
+                <div class="row mb-1">
+                <h4 class="mb-0">Atractivos turísticos y comerciales cercanos al desarrollo</h4>
                 </div>
+               
                 <div class="loader-container-img text-center mb-2 ">
                     <span class="mdi mdi-vanish mdi-spin"></span>
                     Loading image...
+                </div>
+                <div class="row mb-0 pb-0 load-image d-none">
+                    <p class="small text-center mb-0 pb-0">Para más información, <span class="mouse-touche">click </span>en los marcadores</p>
                 </div>
                 <div class="about-svg position-relative overflow-hidden p-0 pe-0">
                     <!-- <img src="<?= STATIC_URL . 'img/anthia/04.jpg' ?>" class="img-fluid w-100" alt="..."> -->
@@ -689,19 +693,28 @@
                                 tPopvK7ziV3oGGcqQb8hFd1pPyUGM7SpEN6lOoVMk/Bz3Py6W+Yjw4cbCMVkWTsWRWBWBWNVgVgV
                                 gWRGBDY5lN5PzUz8Ifc/Lpb5iPDMfh37n5dLfMX/2Q==" transform="matrix(0.5449 0 0 0.5449 0 0.4545)">
                                 </image>
-                            <a type="button"  data-bs-toggle="modal" data-bs-target="#sisalModal">
+                            <a type="button" >
                                 <circle id="sisal" class="st100" cx="382" cy="181" r="37.5"/>
                             </a>
+                            <a type="button" >
+                                <circle id="hunucma" class="st100" cx="512" cy="336" r="52"></circle>
+                            </a>
                             <!-- </circle> -->
-                            <circle id="hunucma" class="st100" cx="512" cy="336" r="52" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="auto" data-bs-html="true" data-bs-content="<p class='fw-bold text-center'>A solo 5 minutos del desarrollo.</p>" aria-label="<b>Lote</b> - A-17" data-bs-title="<b>Ciudad de Hunucmá</b>"></circle>
-                            <circle id="progreso" class="st100" cx="731" cy="69" r="35.5" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="auto" data-bs-html="true" data-bs-content="<p class='fw-bold text-center'>A solo 45 minutos del desarrollo.</p>" aria-label="<b>Lote</b> - A-17" data-bs-title="<b>Ciudad Progreso</b>" />
-                            <circle id="celestum" class="st100" cx="62" cy="526" r="35.5" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="auto" data-bs-html="true" data-bs-content="<p class='fw-bold text-center'>A solo 20 minutos del desarrollo.</p>" aria-label="<b>Lote</b> - A-17" data-bs-title="<b>Ciudad de Mérida</b>" />
-                            <path id="merida" class="st100" d="M712,370c-15.9,28.8-23.8,43.2-26,46c-5.4,6.9-10.2,11.4-14,21c-2.5,6.4-1.3,6.7-4,13c-5.1,11.8-10.5,13-12,22
+                            <a type="button" >
+                                <circle id="progreso" class="st100" cx="731" cy="69" r="35.5"/>
+                            </a>
+                            <a type="button" >
+                                <circle id="celestun" class="st100" cx="62" cy="526" r="35.5"/>
+                            </a>
+                            <a type="button" >
+                                
+                            </a>
+                            <!-- <path id="merida" class="st100" d="M712,370c-15.9,28.8-23.8,43.2-26,46c-5.4,6.9-10.2,11.4-14,21c-2.5,6.4-1.3,6.7-4,13c-5.1,11.8-10.5,13-12,22
                                 c-1,5.8,0.4,10.8,1,13c2,7.3,5.1,9.3,7,17c1.4,5.7-0.1,5.6,1,11c1.6,7.7,4.6,8.5,12,22c4,7.2,8,16,8,16c0,0,0.6,7,4,11
                                 c1,1.2,2,1.8,12,5c6.1,2,9.1,3,10,3c5.8,0.3,9.4-3.3,17-9c4.9-3.7-3.9,3.3,24-16c13.2-9.1,14.1-9.9,18-12c9.8-5.2,11-3.7,18-8
                                 c6-3.7,10-8.1,18-17c3.3-3.7,6.9-8.2,14-17c9.1-11.4,13.7-17.1,15-20c1.5-3.3,2.7-7,4-27c1.1-17.3,1.7-25.9,1-32
                                 c-1.4-12.6-2.8-25-12-34c-2.9-2.9-7.6-5.6-17-11c-2.6-1.5-7.4-4-17-9c-12.8-6.7-14.1-7.3-16-8c-7.3-2.9-13.7-4.3-18-5
-                                c-8.4-1.4-12.5-2.1-18-1c-10.8,2.2-17.6,9.4-21,13C716.6,361.7,714.2,365.9,712,370z" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="auto" data-bs-html="true" data-bs-content="<p class='fw-bold text-center'>A solo 20 minutos del desarrollo.</p>" aria-label="<b>Lote</b> - A-17" data-bs-title="<b>Ciudad de Mérida</b>"></path>
+                                c-8.4-1.4-12.5-2.1-18-1c-10.8,2.2-17.6,9.4-21,13C716.6,361.7,714.2,365.9,712,370z" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="auto" data-bs-html="true" data-bs-content="<p class='fw-bold text-center'>A solo 20 minutos del desarrollo.</p>" aria-label="<b>Lote</b> - A-17" data-bs-title="<b>Ciudad de Mérida</b>"></path> -->
                         </svg>
                     </div>
                 </div>
@@ -4091,6 +4104,7 @@
 </div> -->
 <div class="data">
     <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/anthia.json') ?>'>
+    <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
 </div>
 
 <!-- Modal -->
@@ -4147,49 +4161,31 @@
     </div>
 </div>
 
-<div class="modal fade" id="sisalModal" tabindex="-1" aria-labelledby="sisalModalLabel" aria-hidden="true" style="z-index: 99999">
-    <div class="modal-dialog modal-dialog-scrollable mt-5">
+<div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true" style="z-index: 99999">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl mt-5">
         <div class="modal-content mt-5">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="sisalModalLabel">Playa Sisal</h1>
+                <p class="text-center h4 mb-3">Atractivos turísticos y comerciales cercanos al desarrollo en <span class="text-promo h4 fw-bolder" id="promoModalLabel"></span></p>
+                
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="text-center">
-                    <!-- <div class="card-body "> -->
-                        <div id="carouselAnthiSisal" class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="true">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="<?= STATIC_URL . 'img/anthia/promo/14.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/promo/15.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/promo/16.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/anthia/promo/17.jpg' ?>" class="card-img-top img-fluid w-100 " alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnthiSisal" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselAnthiSisal" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden"><?= lang('Globals.next') ?></span>
-                            </button>
-                        </div>
-                    <!-- </div> -->
-                    <!-- <div class="card-footer"> -->
-                        <p class="fw-bold text-center">A solo 25 minutos del desarrollo.</p>
-                        <p class="text-center">Sisal es un lugar muy tranquilo, que tiene una hermosa playa que te invita a la relajación.</p>
-                        <p class="text-center">Además puedes: Visitar la famosa casa de la Emperatriz Carlota, el Fuerte de Santiago, la Laguna Cocodrilos y Reserva El Palmar,
-                            disfrutar del atardecer en el Mirador Charcas, pasear por su muelle que recientemente fue remozado.</p>
-                        <p class="text-center">En los alrededores del lugar podrás encontrar variedad de restaurantes con comida típica o mariscos, también de puestos donde venden el tradicional pescado frito y otras delicias del mar.</p>
-                    <!-- </div> -->
+                <!-- <div class="row mb-1 pb-1"> -->
+                
+                <!-- </div> -->
+                <div id="carouselPromo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false">
+                    <div class="carousel-inner" id="promoModalImages" >
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromo" data-bs-slide="prev">
+                        <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
+                        <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromo" data-bs-slide="next">
+                    <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
+                        <span class="visually-hidden"><?= lang('Globals.next') ?></span>
+                    </button>
                 </div>
+                <div class="" id="promoModalContent"></div>
             </div>
             <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

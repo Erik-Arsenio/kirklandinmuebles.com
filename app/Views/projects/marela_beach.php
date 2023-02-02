@@ -11,16 +11,20 @@
             <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 11em">
             </div>
             <div class="m-2">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
         </div>
         <div class="col-lg-6 pe-lg-5">
-            <div class="text-center mx-auto">
+            <div class="loader-container-img text-center mb-2">
+                <span class="mdi mdi-vanish mdi-spin"></span>
+                Loading image...
+            </div>
+            <div class="text-center mx-auto load-image d-none">
                 <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
             </div>
-            <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome" title="Click para zoom">
+            <div class="carousel slide carousel-fade text-center  animated fadeInRight load-image d-none" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="<?= STATIC_URL . 'img/marela_beach/01-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Lotes frente al mar">
@@ -59,7 +63,7 @@
             <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 11em">
             </div>
             <div class="m-2 text-center mt-3">
-                <a href="<?= base_url('templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
@@ -72,11 +76,11 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
-                    <!-- <div class="loader-container-img text-center mb-2">
+                    <div class="loader-container-img text-center mb-2">
                         <span class="mdi mdi-vanish mdi-spin"></span>
                         Loading image...
-                    </div> -->
-                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    </div>
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0 load-image d-none">
                         <div class="text-center mx-auto">
                             <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
                         </div>
@@ -150,7 +154,7 @@
                         <p class="h4">MARELA BEACH ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.</p>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
-                        <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
+                        <div class="about-img-right position-relative overflow-hidden p-5 pe-0 load-image d-none">
                             <div class="text-center mx-auto">
                                 <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
                             </div>
@@ -204,6 +208,10 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="loader-container-img text-center mb-2">
+                            <span class="mdi mdi-vanish mdi-spin"></span>
+                            Loading image...
+                        </div>
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
                             <div class="text-center mx-auto">
                                 <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
