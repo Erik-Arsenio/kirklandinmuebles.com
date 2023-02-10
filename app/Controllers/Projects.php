@@ -59,32 +59,48 @@ class Projects extends BaseController
 
 		// dd($projectName, $dataProject);
 
-		$dataProject = get_json_file ($projectName);
-		$dataProject = json_encode($dataProject);
-	
-		If (isset ($_COOKIE["languaje"] ) ) {
-			$languaje = $_COOKIE["languaje"];
+		// $dataProject = get_json_file ($projectName);
+		// $dataProject = json_encode($dataProject);
+
+
+
+		
+		if ($this->request->getVar('lang')) {
+			$lang = $this->request->getVar('lang');
+			$this->request->setLocale($lang);
 		} else {
-			setcookie ("languaje", "es");
-			$languaje = "es";
-			// Echo " Parece que no pasó por la pagina inicial. Php,
-			// Vuelva a ella asi de crea la cookie. " ;
+			$lang = $this->request->getLocale();
 		}
+		
+		$pageTitle =[
+			"lakuun"=> ["es"=>"Venta de lotes residenciales premium","en"=>"Sale of premium residential lots"],
+			"anthia"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of investment property lots"],
+			"marela_celestun"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of estate lots on the beach"],
+			"marela_beach"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
+	];
+
+		
+		
+		// $languaje = $lang ;
+		
+		$datalang = [
+			'lang' => $lang,
+		];
+
 		// Set data index
 		$dataIndex = [
-			'sectionContact' => view('templates/contact'),
+			'sectionContact' => view('templates/contact', $datalang),
 			'sectionReviews' => view('templates/reviews'),
 			'projectStage' => $projectStage,
-			'dataProject' =>  $dataProject,
-			'languaje' => $languaje,
+			// 'dataProject' =>  $dataProject,
+			'lang' => $lang,
 			// 'updateProject' => $updateProject
 		];
 	
 		// dd($dataProject, $updateProject, $dataIndex);	
 		// Set data template
 		$data = [
-			'languaje' => $languaje,
-			'title' => ucwords($projectName,'_'),
+			'title' => ucwords($projectName . ' - ' . $pageTitle[$projectName][$lang],'_'),
 			'content' => view('projects/' . $projectName, $dataIndex),
 			'js' => load_js([
 				'js/app-properties',

@@ -7,38 +7,34 @@ class Home extends BaseController
 	// public string $defaultLocale = 'en';
 	public function index()
 	{
-		  //Creamos una función que detecte el idioma del navegador del cliente.
-		function getUserLanguage() { 
-			$idioma =substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2);
-			return $idioma; 
-		}
-	
-	   //Almacenamos dicho idioma en una variable
-		$user_language=getUserLanguage();
-		// echo "Leguaje del navegador- " . $user_language;
 
-		$locale = $this->request->getLocale();
-		// echo "Leguaje local- " . $locale;
-		If (isset ($_COOKIE["languaje"] ) ) {
-			$languaje = $_COOKIE["languaje"];
+
+		if ($this->request->getVar('lang')) {
+			$lang = $this->request->getVar('lang');
+			$this->request->setLocale($lang);
 		} else {
-			setcookie ("languaje", $locale);
-			$languaje = $locale;
-			// Echo " Parece que no pasó por la pagina inicial. Php,
-			// Vuelva a ella asi de crea la cookie. " ;
+			$lang = $this->request->getLocale();
 		}
+		// var_dump($lang);
+		// $languaje = $lang ;
+		
+		// echo "Leguaje del select- " . $lang;
+
+		$datalang = [
+			'lang' => $lang,
+		];
 		// Set data index
 		$dataIndex = [
-			'languaje' => $languaje,
-			'sectionContact' => view('templates/contact'),
+			'lang' => $lang,
+			'sectionContact' => view('templates/contact', $datalang),
 			'sectionReviews' => view('templates/reviews')
 		];
 
 
 		// Set data template
 		$data = [
-			'languaje' => $languaje,
-			'title' => 'Kirkland Inmobiliaria',
+			// 'languaje' => $languaje,
+			'title' => 'Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.',
 			'content' => view('home/index', $dataIndex),
 			'js' => load_js(['js/app-home'])
 		];

@@ -4,14 +4,14 @@
         <div class="col-lg-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
             <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
                 <h3>Marela Beach</h3>
-                <h6>CELESTÚN YUCATÁN</h6>
+                <h6>CELESTÚN, MÉRIDA, YUCATÁN, MÉXICO</h6>
             </div>
             <p class="h2 animated fadeInLeft fw-bold my-2">Lotes residenciales en la playa</p>
             <!-- <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</p> -->
             <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 11em">
             </div>
             <div class="m-2">
-                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
+                <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
@@ -63,7 +63,7 @@
             <div class="text-center px-3 px-lg-5 mt-2 promo mobile d-none" id="" style="min-height: 11em">
             </div>
             <div class="m-2 text-center mt-3">
-                <a href="<?= base_url($languaje . '/templates/contactForm') ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
+                <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
                     <span class="fadeinout">Quiero que me contacten</span>
                 </a>
             </div>
@@ -1308,6 +1308,16 @@
             </div>
         </div>
         <!-- Property List End -->
+
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-12 wow " data-wow-delay="0.1s">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=11k7mkqCvpxKLZ2kbQ5ytIKzaDzXL2t4&ehbc=2E312F" width="100%" height="100vh" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
         <div class="data">
                 <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_beach.json') ?>'>

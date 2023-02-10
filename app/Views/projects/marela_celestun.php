@@ -4,7 +4,7 @@
         <div class="col-md-6 p-5 mt-0 mt-xxl-5">
             <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
                 <h1>Marela</h1>
-                <h6>CELESTÚN YUCATÁN</h6>
+                <h6>CELESTÚN, MÉRIDA, YUCATÁN, MÉXICO</h6>
             </div>
             <h1 class="display-6 animated fadeInLeft fw-bold my-4">Lotes patrimoniales en la playa</h1>
             <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos semi-urbanizados en la hermosa playa de Celestún</p>

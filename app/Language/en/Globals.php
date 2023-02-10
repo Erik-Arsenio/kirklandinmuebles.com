@@ -76,5 +76,11 @@ return [
 	'error_3' => 'Ocurrió un error inesperado, por favor espere un momento y vuelva a intentarlo.',
 	'confirm_1' => 'Los datos fueron guardados satisfactoriamente.',
 	'confirm_2' => 'El proyecto fue desabilitado satisfactoriamente.',
-	'confirm_3' => 'El proyecto fue Habilitado satisfactoriamente.'
+	'confirm_3' => 'El proyecto fue Habilitado satisfactoriamente.',
+
+	// Header text
+	'header_1' => 'Premium residential lots',
+	'header_2' => 'Take advantage of the opportunity to acquire your residential lot with our presale prices',
+	'header_3' => 'I want you to contact me',
+	'header_4' => 'Click to zoom',
 ];
