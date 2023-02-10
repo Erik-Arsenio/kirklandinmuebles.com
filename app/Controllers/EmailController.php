@@ -31,16 +31,18 @@ class EmailController extends BaseController
             'projects' => $projects,
             // 'country_phone_prefix' => $country_phone_prefix
         ];
-        If (isset ($_COOKIE["languaje"] ) ) {
-			$languaje = $_COOKIE["languaje"];
+        if ($this->request->getVar('lang')) {
+			$lang = $this->request->getVar('lang');
+			$this->request->setLocale($lang);
 		} else {
-			setcookie ("languaje", "es");
-			$languaje = "es";
-			// Echo " Parece que no pasó por la pagina inicial. Php,
-			// Vuelva a ella asi de crea la cookie. " ;
+			$lang = $this->request->getLocale();
 		}
+		// var_dump($lang);
+		// $languaje = $lang ;
+		
+		// echo "Leguaje del select- " . $lang;
 		$data = [
-            'languaje' => $languaje,
+            'lang' => $lang,
 			'title' => 'Contacto',
             'content' => view('templates/contactForm', $dataContact),
 			'js' => load_js(['js/app-home']),
