@@ -14,7 +14,7 @@
 							<div class="col-md-7">
 								<div class="card-body text-center">
 									<h5 class="card-title">Carmen Palay Herrera</h5>
-									<p class="card-text">Asesora Inmobiliaria</p>
+									<p class="card-text"><?= lang('Globals.contact_1') ?></p>
 									<!-- <p class="card-text">Especialista de ACD desarrollo</p> -->
 									<p class="mb-2"><span class='mdi mdi-phone mdi-18px me-3'></span>+52 999 449 7599</p>
 									<p class="mb-2 text-nowrap"><span class='mdi mdi-email-outline mdi-18px me-3'></span>carmen@kirklandinmobiliaria.com</p>
@@ -25,15 +25,15 @@
 				</div>
 				<div class="col-lg-5 wow fadeIn mt-xs-5 mt-xl-0" data-wow-delay="0.5s">
 					<div class="mb-1">
-						<p class="h4 text-center">Este es el momento para invertir!</p>
-						<p>Ya sea que quieras iniciar a formar tu patrimonio o quieras aumentarlo, estamos contigo en cada etapa para ofrecerte el mejor producto que maximice tu retorno de inversión.</p>
+						<p class="h4 text-center"><?= lang('Globals.contact_2') ?></p>
+						<p><?= lang('Globals.contact_3') ?></p>
 						<!-- <p class="h3 mb-1">Contacte con Agente Certificado</p> -->
 						<!-- <a href="tel:+529994497599" class="p-2 me-2" xlink:title="LLamar"><span class='mdi mdi-phone-forward mdi-48px text-success me-3' title="Llamar al teléfono"></span></a> -->
 						<!-- <a href="https://api.whatsapp.com/send?phone=529994497599&amp;text=Hola%20quiero%20más%20Informacion%20de%20Anthia" target="_blank" class=" p-2 me-2"><span class='mdi mdi-whatsapp mdi-48px text-success me-3' title="Contactar por WhatsaApp"></span></a> -->
 					</div>
 					<div class="m-4 text-center">
 						<a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4" target="_blank">
-							Contactar un asesor
+						<?= lang('Globals.contact_4') ?>
 						</a>
 					</div>
 				</div>

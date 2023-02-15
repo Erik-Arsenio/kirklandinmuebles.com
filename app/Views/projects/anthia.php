@@ -6,19 +6,19 @@
                 <h3>Anthia</h3>
                 <h6>HUNUCMÁ, MÉRIDA, YUCATÁN, MÉXICO</h6>
             </div>
-            <p class="h2 animated slideIn fw-bold my-2">Lotes patrimoniales de inversión</p>
+            <p class="h2 animated slideIn fw-bold my-2"><?= lang('Globals.header_4') ?></p>
             <!-- <p class="h4 animated fadeIn mb-4 pb-2">Desarrollo de terrenos de inversión semiurbanizados, rodeado de desarrollos de inversión a 25 minutos de las playas de Sisal, pueblo mágico y playas Platinum</p> -->
             <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 10em">
             </div>
             <div class="m-2">
                 <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
-                    <span class="fadeinout">Quiero que me contacten</span>
+                    <span class="fadeinout"><?= lang('Globals.header_3') ?></span>
                 </a>
             </div>
         </div>
         <div class="col-lg-6 pe-lg-5">
             <div class="text-center mx-auto">
-                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
             </div>
             <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
@@ -69,7 +69,7 @@
             </div>
             <div class="m-2 text-center mt-3">
                 <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
-                    <span class="fadeinout">Quiero que me contacten</span>
+                    <span class="fadeinout"><?= lang('Globals.header_3') ?></span>
                 </a>
                 <!-- <span class='mdi mdi-volume-high mdi-volume-mute mdi-24px text-success me-3'>
                 <audio autoplay loop preload="auto" >
@@ -90,7 +90,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="row mb-1">
-                <h4 class="mb-0">Atractivos turísticos y comerciales cercanos al desarrollo</h4>
+                <h5 class="mb-0"><?= lang('Globals.location_7') ?></h5>
                 </div>
                
                 <div class="loader-container-img text-center mb-2 ">
@@ -98,7 +98,7 @@
                     Loading image...
                 </div>
                 <div class="row mb-0 pb-0 load-image d-none">
-                    <p class="small text-center mb-0 pb-0">Para más información, <span class="mouse-touche">click </span>en los marcadores</p>
+                    <p class="small text-center mb-0 pb-0"><?= lang('Globals.for_information') ?> <span class="mouse-touche">click </span><?= lang('Globals.location_8') ?></p>
                 </div>
                 <div class="about-svg position-relative overflow-hidden p-0 pe-0">
                     <div class="row load-image d-none" style="max-width: 700px; min-height: 200px;  ">
@@ -2852,12 +2852,12 @@
                 </div>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                <h2 class="mb-3">¿Por qué comprar un lote patrimonial de inversión en Anthia?</h2>
-                <p class="h5 mb-4">Nuestro desarrollo está pensado en un retorno de inversión a mediano plazo</p>
-                <p class="h4"><span class='mdi mdi-map mdi-24px text-success me-3'></span>Terrenos listos para escriturar</p>
-                <p class="h4"><span class='mdi mdi-finance mdi-24px text-success me-3'></span>Financiamiento directamente con la empresa</p>
-                <p class="h4"><span class='mdi mdi-handshake mdi-24px text-success me-3'></span>No revisamos buró de crédito</p>
-                <p class="h4"><span class='mdi mdi-account-check-outline mdi-24px text-success me-3'></span>Terrenos en propiedad privada</p>
+                <h2 class="mb-3"><?= lang('Globals.location_9') ?></h2>
+                <p class="h5 mb-4"><?= lang('Globals.location_10') ?></p>
+                <p class="h4"><span class='mdi mdi-map mdi-24px text-success me-3'></span><?= lang('Globals.location_11') ?></p>
+                <p class="h4"><span class='mdi mdi-finance mdi-24px text-success me-3'></span><?= lang('Globals.location_12') ?></p>
+                <p class="h4"><span class='mdi mdi-handshake mdi-24px text-success me-3'></span><?= lang('Globals.location_13') ?></p>
+                <p class="h4"><span class='mdi mdi-account-check-outline mdi-24px text-success me-3'></span><?= lang('Globals.location_14') ?></p>
             </div>
         </div>
     </div>
@@ -2867,32 +2867,32 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold text-decoration-underline">Características</h1>
+            <h1 class="fw-bold text-decoration-underline"><?= lang('Globals.characteristic') ?></h1>
         </div>
         <div class="row g-0 g-lg-5 align-items-center">
             <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
                 <ul>
-                    <li class="h4">Calles blancas</li>
-                    <li class="h4">Delimitado por mojoneras</li>
-                    <li class="h4">Estela distintiva</li>
-                    <li class="h4">Áreas verdes</li>
-                    <li class="h4">Listo para escritura</li>
-                    <li class="h4">Certeza jurídica</li>
-                    <li class="h4">Vías de acceso rápido y amplias</li>
-                    <li class="h4">Incluye una amplia avenida interna</li>
-                    <li class="h4">Banquetas incluídas</li>
+                    <li class="h4"><?= lang('Globals.characteristic_12') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_13') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_14') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_15') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_16') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_17') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_18') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_19') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_20') ?></li>
                 </ul>
             </div>
             <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
                 <ul>
-                    <li class="h4">Avenida principal con energía eléctrica</li>
-                    <li class="h4">Excelente geometría y orientación</li>
-                    <li class="h4"> A 25 minutos de la playa Sisal</li>
-                    <li class="h4">A 5 minutos del pueblo de Hunucmá</li>
-                    <li class="h4">A 25 minutos de Mérida</li>
-                    <li class="h4">A 8 minutos del nuevo Central Busines Park</li>
-                    <li class="h4">Lotes desde 300 m<small><sup>2</sup></small></li>
-                    <li class="h4">Dimensiones desde 12 x 25 m</li>
+                    <li class="h4"><?= lang('Globals.characteristic_21') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_22') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_23') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_24') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_25') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_26') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_27') ?></li>
+                    <li class="h4"><?= lang('Globals.characteristic_28') ?> 12 x 25 m</li>
                 </ul>
             </div>
         </div>
@@ -2908,11 +2908,11 @@
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="loader-container-img text-center mb-2">
                     <span class="mdi mdi-vanish mdi-spin"></span>
-                    Loading image...
+                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                 </div>
                 <div class="about-img position-relative overflow-hidden p-5 pe-0 load-image d-none">
                     <div class="text-center mx-auto">
-                        <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                        <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                     </div>
                     <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                         <div class="carousel-inner">
@@ -2924,11 +2924,11 @@
                 </div>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                <h2 class="mb-3">El desarrollo cuenta con:</h2>
-                <p class="h5 mb-4">Etapas: <span class="h3">5</span></p>
-                <p class="h5 mb-4">Hectáreas: <span class="h3">47</span></p>
-                <p class="h5 mb-4">Lotes: <span class="h3">927</span></p>
-                <p class="h5 mb-4">Áreas verdes: <span class="h3">28,414.38 m<sup>2</sup></span></p>
+                <h2 class="mb-3"><?= lang('Globals.about_inv_1') ?>:</h2>
+                <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">5</span></p>
+                <p class="h5 mb-4"><?= lang('Globals.hectares') ?>: <span class="h3">47</span></p>
+                <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">927</span></p>
+                <p class="h5 mb-4"><?= lang('Globals.green_areas') ?>: <span class="h3">28,414.38 m<sup>2</sup></span></p>
             </div>
         </div>
     </div>
@@ -2939,12 +2939,12 @@
 <div class="container-xxl pt-5">
     <div class="container px-0 px-lg-2">
         <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
-            <h1 class="fw-bold">Disponiblidad de lotes patrimoniales de inversión</h1>
-            <h5 class="my-2 fw-lighter text-decoration-underline small">(Click en Etapa para ver detalles y mapa)</h5>
+            <h1 class="fw-bold"><?= lang('Globals.property_list_3') ?></h1>
+            <h5 class="my-2 fw-lighter text-decoration-underline small"><?= lang('Globals.property_list_2') ?></h5>
         </div>
         <div class="loader-container text-center mb-2">
             <span class="mdi mdi-vanish mdi-spin"></span>
-            Loading image...
+            <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
         </div>
         <div class="lots" id="image_site">
             <div class="accordion" id="accordionStage">
@@ -2957,13 +2957,13 @@
                                                             } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStage-1" aria-expanded="false" aria-controls="collapseStage-1" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
-                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-1</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                            <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                            <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                            <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -2992,7 +2992,7 @@
                                 <div class="row g-0 gx-5 align-items-center">
                                     <div class="col-lg-12">
                                         <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                                            <h1 class="fw-bold text-decoration-underline">PRECIO DE LOTES</h1>
+                                            <h1 class="fw-bold text-uppercase text-decoration-underline"><?= lang('Globals.lot_price') ?></h1>
                                         </div>
                                     </div>
                                 </div>
@@ -3001,26 +3001,26 @@
                                         <div class="card border-5 h-100 shadow px-0">
                                             <div class="card-header text-center">
                                                 <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
-                                                <p class="h2 text-success">Lote tipo</p>
+                                                <p class="h2 text-success"><?= lang('Globals.type_lot') ?></p>
                                             </div>
                                             <div class="card-body">
                                                 <div class="row text-center">
                                                     <div class="col-6">
-                                                        <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                                        <p class="h6"><?= lang('Globals.price') ?> <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
                                                         <p class="h4 text-success">315 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
-                                                        <p class="h4 text-success">48 <span class="h4">MSI</p>
+                                                        <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <?= lang('Globals.upto') ?></p>
+                                                        <p class="h4 text-success">48 <span class="h4"><?= lang('Globals.msi') ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="row text-center">
-                                                    <p class="h6">Enganche de</p>
+                                                    <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                     <p class="h4 text-success">10%</h6>
                                                 </div>
                                             </div>
                                             <div class="card-footer">
-                                                <p class="card-title text-center h4">Entrega Diciembre 2024</p>
+                                                <p class="card-title text-center h4"><?= lang('Globals.delivered_only') ?> <?= lang('Globals.december') ?> 2024</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3030,13 +3030,13 @@
                             <!-- Price End -->
                             <div class="loader-container text-center mb-2">
                                 <span class="mdi mdi-vanish mdi-spin"></span>
-                                Loading image...
+                                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="d-flex justify-content-center">
                                 <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
-                                <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                            <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
                             <div class="row mapsvg-scrollpane text-center" style="max-width: 700px; min-height: 200px;  ">
                                 <!-- SVG -->
@@ -3844,16 +3844,16 @@
                                     <g id="legend">
                                         <text class="st1-37" transform="translate(1370 715)">Premium</text>
                                         <rect class="st2-36" x="1330" y="690" width="28" height="28"></rect>
-                                        <text class="st1-37" transform="translate(1370 765)">Estandar</text>
+                                        <text class="st1-37" transform="translate(1370 765)"><?= lang('Globals.standard') ?></text>
                                         <rect class="st2-35" x="1330" y="740" width="28" height="28"></rect>
                                     </g>
                                 </svg>
                                 <!-- SVG -->
                             </div>
                             <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                <div class="small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                <div class="small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                <div class="small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                             </div>
                         </div>
                     </div>
@@ -3867,13 +3867,13 @@
                                                         } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStage-2" aria-expanded="false" aria-controls="collapseStage-2" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
-                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-2</caption>
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-2</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                            <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                            <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                            <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -3901,7 +3901,7 @@
                                 <div class="row g-0 gx-5 align-items-center">
                                     <div class="col-lg-12">
                                         <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                                            <h1 class="fw-bold text-decoration-underline">PRECIO DE LOTES</h1>
+                                            <h1 class="fw-bold text-uppercase text-decoration-underline"><?= lang('Globals.lot_price') ?></h1>
                                         </div>
                                     </div>
                                 </div>
@@ -3910,21 +3910,21 @@
                                         <div class="card border-5 h-100 shadow px-0">
                                             <div class="card-header text-center">
                                                 <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
-                                                <p class="h2 text-success">Lote tipo</p>
+                                                <p class="h2 text-success"><?= lang('Globals.type_lot') ?></p>
                                             </div>
                                             <div class="card-body">
                                                 <div class="row text-center">
                                                     <div class="col-6">
-                                                        <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                                        <p class="h6"><?= lang('Globals.price') ?> <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
                                                         <p class="h4 text-success">418 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
-                                                        <p class="h4 text-success">60 <span class="h4">MSI</p>
+                                                        <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <?= lang('Globals.upto') ?></p>
+                                                        <p class="h4 text-success">60 <span class="h4"><?= lang('Globals.msi') ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="row text-center">
-                                                    <p class="h6">Enganche de</p>
+                                                    <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                     <p class="h4 text-success">10%</h6>
                                                 </div>
                                             </div>
@@ -3939,13 +3939,13 @@
                             <!-- Price End -->
                             <div class="loader-container text-center mb-2">
                                 <span class="mdi mdi-vanish mdi-spin"></span>
-                                Loading image...
+                                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="d-flex justify-content-center">
                                 <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
-                                <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                            <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
                             <div class="row">
                                 <!-- SVG -->
@@ -4916,16 +4916,16 @@
                                     <g id="legend">
                                         <text class="st2-37" transform="translate(1170 715)">Premium</text>
                                         <rect class="st2-36" x="1120" y="690" width="28" height="28"></rect>
-                                        <text class="st2-37" transform="translate(1170 765)">Estandar</text>
+                                        <text class="st2-37" transform="translate(1170 765)"><?= lang('Globals.standard') ?></text>
                                         <rect class="st2-35" x="1120" y="740" width="28" height="28"></rect>
                                     </g>
                                 </svg>
                                 <!-- SVG -->
                             </div>
                             <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                <div class="small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                <div class="small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                <div class="small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                             </div>
                         </div>
                     </div>
@@ -4939,13 +4939,13 @@
                                                         } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStage-3" aria-expanded="false" aria-controls="collapseStage-3" title="Click para ver detalles y mapa">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
-                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-3</caption>
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-3</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                            <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                            <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                            <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                            <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -4982,7 +4982,7 @@
                                 <div class="row g-0 gx-5 align-items-center">
                                     <div class="col-lg-12">
                                         <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                                            <h1 class="fw-bold text-decoration-underline">PRECIO DE LOTES</h1>
+                                            <h1 class="fw-bold text-uppercase text-decoration-underline"><?= lang('Globals.lot_price') ?></h1>
                                         </div>
                                     </div>
                                 </div>
@@ -4991,21 +4991,21 @@
                                         <div class="card border-5 h-100 shadow px-0">
                                             <div class="card-header text-center">
                                                 <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
-                                                <p class="h2 text-success">Lote tipo</p>
+                                                <p class="h2 text-success"><?= lang('Globals.type_lot') ?></p>
                                             </div>
                                             <div class="card-body">
                                                 <div class="row text-center">
                                                     <div class="col-6">
-                                                        <p class="h6">Precio por m<small><sup>2</sup></small></p>
+                                                        <p class="h6"><?= lang('Globals.price') ?> <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
                                                         <p class="h4 text-success">418 <span class="h4">MXN</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
+                                                        <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <?= lang('Globals.upto') ?></p>
                                                         <p class="h4 text-success">60 <span class="h4">MSI</p>
                                                     </div>
                                                 </div>
                                                 <div class="row text-center">
-                                                    <p class="h6">Enganche de</p>
+                                                    <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                     <p class="h4 text-success">10%</h6>
                                                 </div>
                                             </div>
@@ -5020,13 +5020,13 @@
                             <!-- Price End -->
                             <div class="loader-container text-center mb-2">
                                 <span class="mdi mdi-vanish mdi-spin"></span>
-                                Loading image...
+                                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="row">
                                 <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
-                                <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                            <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
                             <div class="row text-center" style="max-width: 800px; min-height: 200px;  ">
                                 <!-- SVG -->
@@ -5834,7 +5834,7 @@
                                     <g id="LEYENDA">
                                         <text class="st-26" transform="translate(3970 1950)">Premium</text>
                                         <rect class="st-25" x="3850" y="1900" width="80" height="80"></rect>
-                                        <text class="st-26" transform="translate(3970 2080)">Estandar</text>
+                                        <text class="st-26" transform="translate(3970 2080)"><?= lang('Globals.standard') ?></text>
                                         <rect class="st-24" x="3850" y="2018" width="80" height="80"></rect>
                                     </g>
                                     <g class="area_selection"  data-id="stage_3">
@@ -6034,9 +6034,9 @@
                                 <!-- SVG -->
                             </div>
                             <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                <div class="small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                <div class="small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                <div class="small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                             </div>
                         </div>
                     </div>
@@ -6046,7 +6046,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="" data-bs-target="#collapseStage-4" aria-expanded="false" aria-controls="collapseStage-4" title="">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
-                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-4</caption>
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-4</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
@@ -6058,7 +6058,7 @@
                                     <tbody>
                                         <tr>
                                             <!-- <th class="h2"></th> -->
-                                            <td class="h2 fw-bold text-center">NO DISPONIBLE</td>
+                                            <td class="h2 fw-bold text-uppercase text-center"><?= lang('Globals.not') ?> <?= lang('Globals.available') ?></td>
                                             <!-- <td class="display-4 fw-bold text-center">42</td> -->
                                             <!-- <td class="display-4 fw-bold text-center">2024</td> -->
                                         </tr>
@@ -6136,7 +6136,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="" data-bs-target="#collapseStage-5" aria-expanded="false" aria-controls="collapseStage-5" title="">
                             <div class="container table-responsive-md">
                                 <table class="table table-sm table-borderless caption-top">
-                                    <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-5</caption>
+                                    <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-5</caption>
                                     <thead>
                                         <tr>
                                             <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
@@ -6148,7 +6148,7 @@
                                     <tbody>
                                         <tr>
                                             <!-- <th class="h2"></th> -->
-                                            <td class="h2 fw-bold text-center">DISPONIBLE PRÓXIMAMENTE</td>
+                                            <td class="h2 fw-bold text-uppercase text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></td>
                                             <!-- <td class="display-4 fw-bold text-center">42</td> -->
                                             <!-- <td class="display-4 fw-bold text-center">2024</td> -->
                                         </tr>
@@ -6237,6 +6237,7 @@
 <div class="data">
     <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/anthia.json') ?>'>
     <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
+    <input type="hidden" name="language" id="language" value='<?= $lang ?>'>
 </div>
 
 <!-- Modal -->
@@ -6297,7 +6298,7 @@
     <div class="modal-dialog modal-dialog-scrollable modal-xl mt-5">
         <div class="modal-content mt-5">
             <div class="modal-header">
-                <p class="text-center h4 mb-3">Atractivos turísticos y comerciales cercanos al desarrollo en <span class="text-promo h4 fw-bolder" id="promoModalLabel"></span></p>
+                <p class="text-center h4 mb-3"><span class="text-promo h4 fw-bolder" id="promoModalLabel"></span>. <?= lang('Globals.location_7') ?> </p>
                 
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>

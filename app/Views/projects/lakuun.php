@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6 pe-lg-5">
                 <div class="text-center mx-auto">
-                    <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.header_4') ?></p>
+                    <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                 </div>
                 <div class="carousel carousel-fade slide  text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselHome">
                     <div class="carousel-inner">
@@ -89,7 +89,7 @@
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
                         <div class="carousel carousel-fade slide animated fadeInLeft text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselLocation" style="z-index: 100">
-                            <p class="small fw-bolder text-center mb-0 pb-0 not_mobile d-none"><?= lang('Globals.header_4') ?></p>
+                            <p class="small fw-bolder text-center mb-0 pb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                             <div class="carousel-inner" >
                                 <div class="carousel-item active">
                                     <img src="<?= STATIC_URL . 'img/lakuun/03-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Atractivos turísticos cercanos a Lakuun, Mérida, Yucatán, México.">
@@ -110,12 +110,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                    <h2 class="mb-3">¿Por qué comprar un lote residencial en Lakuun?</h2>
-                    <p class="h5 mb-4">Nuestros lotes residenciales se encuentran estratégicamente ubicados al norte de la ciudad de Mérida (a tan solo 10 minutos) cercano a las principales plazas comerciales como Galerías Mérida, Plaza la Isla, Plaza Harbor, Centro de Convenciones Siglo XXI y Universidades</p>
-                    <p class="h5 mb-4">El desarrollo premium ofrece un alto índice de calidad de vida y se encuentra rodeado de:</p>
-                    <p class="h4"><span class='mdi mdi-hospital-box-outline mdi-24px text-success me-1'></span>Servicios médicos de vanguardia</p>
-                    <p class="h4"><span class='mdi mdi-school-outline mdi-24px text-success me-1'></span>Escuelas y universidades de la más alta calidad educativa y deportiva</p>
-                    <p class="h4"><span class='mdi mdi-beach mdi-24px text-success me-1'></span></i>Muy cerca de la hermosa playa Progreso</p>
+                    <h2 class="mb-3"><?= lang('Globals.location_1') ?></h2>
+                    <p class="h5 mb-4"><?= lang('Globals.location_2') ?></p>
+                    <p class="h5 mb-4"><?= lang('Globals.location_3') ?></p>
+                    <p class="h4"><span class='mdi mdi-hospital-box-outline mdi-24px text-success me-1'></span><?= lang('Globals.location_4') ?></p>
+                    <p class="h4"><span class='mdi mdi-school-outline mdi-24px text-success me-1'></span><?= lang('Globals.location_5') ?></p>
+                    <p class="h4"><span class='mdi mdi-beach mdi-24px text-success me-1'></span></i><?= lang('Globals.location_6') ?></p>
                 </div>
             </div>
     </div>
@@ -124,29 +124,29 @@
     <!-- Caracteristicas Start -->
     <div class="container-xxl py-5">
             <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                <h1 class="fw-bold text-decoration-underline">Características</h1>
+                <h1 class="fw-bold text-decoration-underline"><?= lang('Globals.characteristic') ?></h1>
             </div>
             <div class="row g-0 g-lg-5 align-items-center">
                 <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Barda perimetral</li>
-                        <li class="h4">Caseta de vigilancia</li>
-                        <li class="h4">Entrada distintiva</li>
-                        <li class="h4">Canchas</li>
-                        <li class="h4">Ciclovía</li>
+                        <li class="h4"><?= lang('Globals.characteristic_1') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_2') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_3') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_4') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_5') ?></li>
                     </ul>
                 </div>
                 <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Jardines de lectura</li>
-                        <li class="h4">Área de picnic</li>
-                        <li class="h4">Pista de jogging</li>
-                        <li class="h4">Área de recreación infantil</li>
-                        <li class="h4">Pet park</li>
+                        <li class="h4"><?= lang('Globals.characteristic_6') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_7') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_8') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_9') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_10') ?></li>
                     </ul>
                 </div>
                 <div class="text-center wow slideInLeft mt-0" data-wow-delay="0.1s">
-                    <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span>Casa Club</p>
+                    <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span><?= lang('Globals.characteristic_11') ?></p>
                 </div>
             </div>
     </div>
@@ -155,16 +155,16 @@
     <!-- Club Start -->
     <div class="container-xxl py-5">
             <div class="text-center mx-auto mb-1 wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mt-2 mb-2 text-success">Casa Club</h1>
+                <h1 class="mt-2 mb-2 text-success"><?= lang('Globals.characteristic') ?></h1>
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
-                        <p class="h4 mb-4">Tu única preocupación en Lakuun será elegir la opción para relajarte</p>
-                        <p class="h4">Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.</p>
+                        <p class="h4 mb-4"><?= lang('Globals.club_1') ?></p>
+                        <p class="h4"><?= lang('Globals.club_2') ?></p>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
                         <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
                             <div class="text-center mx-auto">
-                                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                             </div>
                             <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenitiesCasaClub" style="z-index: 100">
                                 <div class="carousel-inner">
@@ -214,20 +214,20 @@
             <div class="row g-0 g-lg-5 align-items-center">
                 <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Entrada distintiva</li>
-                        <li class="h4">Canal de nado</li>
-                        <li class="h4">Motor lobby</li>
-                        <li class="h4">Alberca</li>
-                        <li class="h4">Gimnasio</li>
+                        <li class="h4"><?= lang('Globals.clubhouse_1') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_2') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_3') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_4') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_5') ?></li>
                     </ul>
                 </div>
                 <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Oficinas/coworking</li>
-                        <li class="h4">Salón de eventos</li>
-                        <li class="h4">Área grill</li>
-                        <li class="h4">Sala de juntas</li>
-                        <li class="h4">Área infantil</li>
+                        <li class="h4"><?= lang('Globals.clubhouse_6') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_7') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_8') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_9') ?></li>
+                        <li class="h4"><?= lang('Globals.clubhouse_10') ?></li>
                     </ul>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
                         <div class="text-center mx-auto">
-                            <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                            <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                         </div>
                         <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                             <div class="carousel-inner">
@@ -266,11 +266,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                    <h2 class="mb-3">El desarrollo cuenta con:</h2>
-                    <p class="h5 mb-4">Etapas: <span class="h3">3</span></p>
-                    <p class="h5 mb-4">Amenidades: <span class="h3">19</span></p>
-                    <p class="h5 mb-4">Lotes: <span class="h3">561</span></p>
-                    <p class="h5 mb-4">Areas verdes: <span class="h3">32,780 m<sup>2</sup></span></p>
+                    <h2 class="mb-3"><?= lang('Globals.about_inv_1') ?>:</h2>
+                    <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">3</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.amenities') ?>: <span class="h3">19</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">561</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.green_areas') ?>: <span class="h3">32,780 m<sup>2</sup></span></p>
                 </div>
             </div>
     </div>
@@ -279,12 +279,12 @@
     <!-- Property List Start -->
     <div class="container-xxl py-5">
             <div class="text-center mb-1 wow slideInLeft" data-wow-delay="0.1s">
-                <h1 class="fw-bold">Disponiblidad de lotes residenciales.</h1>
-                <h5 class="my-2 fw-lighter text-decoration-underline small">(Click en Etapa para ver detalles y mapa)</h5>
+                <h1 class="fw-bold"><?= lang('Globals.property_list_1') ?></h1>
+                <h5 class="my-2 fw-lighter text-decoration-underline small"><?= lang('Globals.property_list_2') ?></h5>
             </div>
             <div class="loader-container text-center mb-2">
                 <span class="mdi mdi-vanish mdi-spin"></span>
-                Loading image...
+                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
             </div>
             <div class="lots" id="image_site">
                 <div class="accordion" id="accordionExample">
@@ -297,12 +297,12 @@
                                                                     } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
                                 <div class="container table-responsive-md">
                                     <table class="table table-sm table-borderless caption-top">
-                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-1</caption>
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                                <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                                <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -331,7 +331,7 @@
                                         <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
                                             <div class="card border-3 h-100 shadow px-0">
                                                 <div class="card-header text-center">
-                                                    <h4 class="fw-bold text-success mb-0 price-header">PRECIO DE LOTES</h4>
+                                                    <h4 class="fw-bold text-uppercase text-success mb-0 price-header"><?= lang('Globals.lot_price') ?></h4>
                                                 </div>
                                                 <div class="card-body pb-0">
                                                     <div class="row d-flex justify-content-center ">
@@ -339,23 +339,23 @@
                                                             <table class="table table-sm table-bordered border-2 text-left">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Desde</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.from') ?></td>
                                                                         <td class="h5 available-title text-left">300 m<small><sup>2</sup></small></td>
                                                                     </tr>
                                                                 <tr>
-                                                                        <td class="h5 available-title text-left">Precio (MXN) por m<small><sup>2</sup></small> desde</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.price') ?> (MXN) <?= lang('Globals.per') ?> m<small><sup>2</sup></small> <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
                                                                         <td class="h5 available-title text-left">$2,450.00</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title  text-left">Enganche del</td>
+                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.down_payment') ?></td>
                                                                         <td class="h5 available-title  text-left">10%</td>
                                                                         </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title  text-left">Financiamento hasta</td>
-                                                                        <td class="h5 available-title  text-left">80 meses</td>
+                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> <?= lang('Globals.upto') ?></td>
+                                                                        <td class="h5 available-title  text-left">80 <?= lang('Globals.months') ?></td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title  text-left">Mensualidades (MXN) desde</td>
+                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> (MXN) <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
                                                                         <td class="h5 available-title  text-left">$8,268.80</td>
                                                                     </tr>
                                                                 </tbody>
@@ -370,13 +370,13 @@
                                 <!-- Price End -->
                                 <div class="loader-container text-center mb-2">
                                     <span class="mdi mdi-vanish mdi-spin"></span>
-                                    Loading image...
+                                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                                 </div>
                                 <div class="row mt-2">
-                                    <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                                <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                                 </div>
                                 <div id="tiger-container" class="container mapsvg-scrollpane text-center" style="max-width: 900px; min-height: 300px;  ">
                                     <svg id="stage-01" viewBox="-10 100 1000 700" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;">
@@ -888,7 +888,7 @@
                                             <text transform="matrix(0.9962 8.715528e-02 -8.715528e-02 0.9962 757.3232 236.3932)" class="st1 st4">A-114</text>
                                             <text class="cls-46" transform="translate(740 670)">Premium</text>
                                             <text class="cls-46" transform="translate(740 705)">Plus</text>
-                                            <text class="cls-46" transform="translate(740 740)">Estandar </text>
+                                            <text class="cls-46" transform="translate(740 740)"><?= lang('Globals.standard') ?></text>
                                         </g>
                                         <g id="area_selection_1"  data-id="stage_1">
                                             <path data-id="A-12" class="st2 " d="M154.9,205.8l-6.5,17.9l55.7,2.9l3.2-8.2l0.2-3l-0.5-2.6l-1.3-2l-2-1.5l-2.8-1.2" />
@@ -1138,9 +1138,9 @@
                                     </svg>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                    <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                    <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                    <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                    <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                    <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                    <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                                 </div>
                             </div>
                         </div>
@@ -1154,12 +1154,12 @@
                                                                     } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para ver detalles y mapa">
                                 <div class="container table-responsive-md">
                                     <table class="table table-sm table-borderless caption-top">
-                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-2</caption>
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-2</caption>
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                                <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                                <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1186,7 +1186,7 @@
                                         <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
                                             <div class="card border-3 h-100 shadow px-0">
                                                 <div class="card-header text-center">
-                                                    <h4 class="fw-bold text-success mb-0 price-header">PRECIO (MXN) DE LOTES POR M<small><sup>2</sup></small></h4>
+                                                    <h4 class="fw-bold text-success mb-0 price-header"><?= lang('Globals.price_per_m') ?> M<small><sup>2</sup></small></h4>
                                                 </div>
                                                 <div class="card-body pb-0">
                                                     <div class="row d-flex justify-content-center ">
@@ -1194,7 +1194,7 @@
                                                             <table class="table table-sm table-bordered text-nowrap border-2 text-left">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th scope="col" class="h5 available-title text-center">Meses</th>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
                                                                         <th scope="col" class="h5 available-title text-center">1</th>
                                                                         <th scope="col" class="h5 available-title text-center">12</th>
                                                                         <th scope="col" class="h5 available-title text-center">24</th>
@@ -1207,7 +1207,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Premium</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$2,050</td>
                                                                         <td class="h5 available-title text-center">$2,135</td>
                                                                         <td class="h5 available-title text-center">$2,120</td>
@@ -1218,7 +1218,7 @@
                                                                         <td class="h5 available-title text-center">$2,700</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Plus</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$1,950</td>
                                                                         <td class="h5 available-title text-center">$2,030</td>
                                                                         <td class="h5 available-title text-center">$2,110</td>
@@ -1229,7 +1229,7 @@
                                                                         <td class="h5 available-title text-center">$2,570</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Estandar</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$1,850</td>
                                                                         <td class="h5 available-title text-center">$1,925</td>
                                                                         <td class="h5 available-title text-center">$2,000</td>
@@ -1243,7 +1243,7 @@
                                                             </table>
                                                         </div>
                                                     </div>
-                                                    <p class="text-center mx-auto my-1">Enganche de 10%</p>
+                                                    <p class="text-center mx-auto my-1"><?= lang('Globals.enganche') ?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1254,7 +1254,7 @@
                                         <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
                                             <div class="card border-3 h-100 shadow px-0">
                                                 <div class="card-header text-center">
-                                                    <h4 class="fw-bold text-success mb-0 price-header">VALOR TOTAL (MXN) POR TERRENO</h4>
+                                                    <h4 class="fw-bold text-success mb-0 price-header"><?= lang('Globals.total_value_per_land') ?></h4>
                                                 </div>
                                                 <div class="card-body pb-0">
                                                     <div class="row d-flex justify-content-center ">
@@ -1262,7 +1262,7 @@
                                                             <table class="table table-sm table-bordered text-nowrap border-2 text-left">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th scope="col" class="h5 available-title text-center">Meses</th>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
                                                                         <th scope="col" class="h5 available-title text-center">1</th>
                                                                         <th scope="col" class="h5 available-title text-center">12</th>
                                                                         <th scope="col" class="h5 available-title text-center">24</th>
@@ -1275,7 +1275,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Premium</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$615,000</td>
                                                                         <td class="h5 available-title text-center">$640,500</td>
                                                                         <td class="h5 available-title text-center">$636,000</td>
@@ -1286,7 +1286,7 @@
                                                                         <td class="h5 available-title text-center">$810,000</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Plus</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$585,000</td>
                                                                         <td class="h5 available-title text-center">$609,000</td>
                                                                         <td class="h5 available-title text-center">$633,000</td>
@@ -1297,7 +1297,7 @@
                                                                         <td class="h5 available-title text-center">$771,000</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left">Lote Estandar</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$555,000</td>
                                                                         <td class="h5 available-title text-center">$577,500</td>
                                                                         <td class="h5 available-title text-center">$600,000</td>
@@ -1319,13 +1319,13 @@
                                 <!-- Price End -->
                                 <div class="loader-container text-center mb-2">
                                     <span class="mdi mdi-vanish mdi-spin"></span>
-                                    Loading image...
+                                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                                 </div>
                                 <div class="row mt-2">
-                                    <p class="small fw-bolder text-center">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                                    <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                                 </div>
                                 <div class="container mapsvg-scrollpane text-center" style="max-width: 900px; min-height: 300px;  ">
                                     <svg id="stage-02" viewBox="100 0 900 900" preserveAspectRatio="xMidYMid meet" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;">
@@ -3782,7 +3782,7 @@
                                                 <tspan class="cls-28" x="9.84" y="0">8</tspan>
                                                 <tspan x="15.14" y="0">5</tspan>
                                             </text>
-                                            <text class="cls-46" transform="translate(819.04 804.16)">Premium</text><text class="cls-46" transform="translate(818.81 838.51)">Plus</text><text class="cls-46" transform="translate(818.8 876.14)">Estandar </text>
+                                            <text class="cls-46" transform="translate(819.04 804.16)">Premium</text><text class="cls-46" transform="translate(818.81 838.51)">Plus</text><text class="cls-46" transform="translate(818.8 876.14)"><?= lang('Globals.standard') ?> </text>
                                             <polygon class="cls-1" points="602.7 752.8 663.3 752.8 663.3 767.93 602.7 767.93 602.7 752.8 602.7 752.8">
                                             </polygon>
                                             <polygon class="cls-1" points="616.69 752.8 677.28 752.8 677.28 767.93 616.69 767.93 616.69 752.8 616.69 752.8">
@@ -4505,9 +4505,9 @@
                                     </svg>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                    <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                    <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                    <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                    <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                    <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                    <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                                 </div>
                             </div>
                         </div>
@@ -4517,10 +4517,10 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <div class="container table-responsive-md">
                                     <table class="table table-sm table-borderless caption-top">
-                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-3</caption>
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-3</caption>
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="h4 text-center">Disponible Próximamente</th>
+                                                <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
                                             </tr>
                                         </thead>
                                         <tbody>
