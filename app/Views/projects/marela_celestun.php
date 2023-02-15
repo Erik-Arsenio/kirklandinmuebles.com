@@ -1,5 +1,5 @@
 <!-- Header Start -->
-<div class="container-fluid header bg-white p-0 mt-0 mt-4">
+<div class="container-xxl bg-white p-0 mt-0 mt-4">
     <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
         <div class="col-md-6 p-5 mt-0 mt-xxl-5">
             <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
