@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\SettingsModel;
-// use CodeIgniter\Validation\Validation;
+use CodeIgniter\Validation\Validation;
 // use Config\Services;
 
 
@@ -27,10 +27,7 @@ class EmailController extends BaseController
         // $phone_prefix = array_column($builder, 'country_phone_prefix');
         // $country_phone_prefix = array_unique($phone_prefix); // Filter unique values for phone_prefix
         // var_dump($builder);
-        $dataContact = [
-            'projects' => $projects,
-            // 'country_phone_prefix' => $country_phone_prefix
-        ];
+
         if ($this->request->getVar('lang')) {
 			$lang = $this->request->getVar('lang');
 			$this->request->setLocale($lang);
@@ -41,8 +38,13 @@ class EmailController extends BaseController
 		// $languaje = $lang ;
 		
 		// echo "Leguaje del select- " . $lang;
+        $dataContact = [
+            'projects' => $projects,
+            'lang' => $lang
+            // 'country_phone_prefix' => $country_phone_prefix
+        ];
 		$data = [
-            'lang' => $lang,
+
 			'title' => 'Contacto',
             'content' => view('templates/contactForm', $dataContact),
 			'js' => load_js(['js/app-home']),
@@ -53,7 +55,7 @@ class EmailController extends BaseController
 	}
 
     
-    public function send(){
+    public function send(){ 
         // Validate form
         $validation = \Config\Services::validation();
         $validation->setRules([
@@ -66,11 +68,12 @@ class EmailController extends BaseController
             'project[]'=>'permit_empty'
             
         ]);
+        $lang = $this->request->getVar('lang');
         if (!$validation->withRequest($this->request)->run()){
             // dd($this->request->getPost());
             // dd($validation->getErrors());
-            // return redirect()->back()->withInput()->with('errors',$validation->getErrors());
-            return redirect()->to('templates/contactForm')->withInput()->with('errors',$validation->getErrors());
+            return redirect()->back()->withInput()->with('errors',$validation->getErrors());
+            // return redirect()->to('templates/contactForm')->withInput()->with('errors',$validation->getErrors());
         } else {
             if(isOnline()){
                 // echo 'Connected a internet';
@@ -80,11 +83,11 @@ class EmailController extends BaseController
                 // $phone_prefix = $this->request->getVar('country_phone_prefix');
                 $phone = $this->request->getVar('phone');
                 $mail = $this->request->getVar('email');
-                $subject = 'Quiero que me contacten';
-                $message = '<b>Mi nombre:</b> '.$name. ' '.$last_name.'<br>'.'<b>Mi WhatsApp:</b> '.$phone.'<br>'.'<b>Mi correo:</b> '.$mail;
+                $subject = lang('Globals.subject', [], $lang) ; 
+                $message = '<b>' . lang('Globals.contactform_4', [], $lang) . ':</b> '.$name. ' '.$last_name.'<br>'.'<b>' . lang('Globals.contactform_6', [], $lang) . ':</b> '.$phone.'<br>'.'<b>' . lang('Globals.contactform_7', [], $lang) . ':</b> '.$mail;
                 $doubts = $this->request->getVar('message');
                 if($doubts != ''){
-                    $message = $message.'<br><br>'.'<b>Mis dudas e inquietudes son:</b> '.'<br>'.$doubts;
+                    $message = $message.'<br><br>'.'<b>' . lang('Globals.doubts', [], $lang) . ':</b> '.'<br>'.$doubts;
                 }
 
                 if (isset($_POST['project']) && is_array($_POST['project'])) {
@@ -99,9 +102,31 @@ class EmailController extends BaseController
                         $current++;
                     }
                     if($num_projects >= 1){
-                        $message = $message.'<br><br>'."<b>Estoy interesado en recibir información de:</b> ".$selected_projects;
+                        $message = $message.'<br><br>'.'<b>' . lang('Globals.receiving_info', [], $lang) . ':</b> '.$selected_projects;
                     }
                 }
+
+
+                // Las comunicaciones prefiero recibirlas en
+                //  I prefer to receive communications in
+
+                $spanish = $this->request->getVar('spanish');
+                $english = $this->request->getVar('english');
+                $either = $this->request->getVar('either');
+
+                if (isset($_POST['spanish']) || isset($_POST['english']) || isset($_POST['either'])) {
+                    $language = 'Si';
+                    $message = $message.'<br><br>'.'<b>' . lang('Globals.language_info', [], $lang) . ':</b> ';
+                    if (isset($_POST['either'])) {
+                        $message = $message. $either . ' ' . strtolower(lang('Globals.language', [], $lang)) ;
+                    } else if (isset($_POST['spanish']) || isset($_POST['english']) ) {
+                        isset($_POST['spanish']) ? $message = $message. $spanish . ", " : '';
+                        isset($_POST['english']) ? $message = $message. $english : '';
+                    }
+                } 
+                // else {
+                //     $language = 'No';
+                // }
 
                 $email = \Config\Services::email();
                 // $view = \Config\Services::renderer();
@@ -113,24 +138,25 @@ class EmailController extends BaseController
                 $email->setTo('carmen@kirklandinmobiliaria.com');
                 $email->setCC('contact@kirklandinmobiliaria.com');
                 // $email->setBCC('carmenphasesorainmobiliaria@gmail.com');
-                $email->setBCC('erikgonzalez55@kirklandinmobiliaria.com');
+                $email->setTo('erikgonzalez55@kirklandinmobiliaria.com');
                 $email->setFrom($this->request->getVar('email'), $this->request->getVar('name'));
                 $email->setSubject($subject);
                 $email->setMessage($message);
             
-                // $email->setMessage($new_message);
-
-
+                // var_dump($spanish);
+                // die;
                 if($email->send()){
-                    return redirect()->to('templates/contactForm')->with('success','Email send successfully');
+                    return redirect()->to('templates/contactForm?lang=' . $lang)->with('success', lang('Globals.send_success', [], $lang));
 
                 }else{
-                    return redirect()->to('templates/contactForm')->with('error','Failed')->withInput();
+                    return redirect()->to('templates/contactForm?lang=' . $lang)->with('error',lang('Globals.send_failed', [], $lang))->withInput();
+                    // return redirect()->back()->with('error','Failed')->withInput();
                 }
 
-            }else{
-                // echo 'Not Connected';
-                return redirect()->to('templates/contactForm')->with('error', 'Revise su conexión a internet')->withInput();
+            }
+            else{
+                // $lang = $this->request->getVar('lang');
+                return redirect()->to('templates/contactForm?lang=' . $lang)->with('error', lang('Globals.not_conection', [], $lang))->withInput();
             }
         }   
     }
