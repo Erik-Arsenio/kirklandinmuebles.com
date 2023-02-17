@@ -69,15 +69,15 @@
 								</div>
 							</div>
 							<a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" class="nav-item nav-link <?= (url_is($lang . '/templates/contactForm')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.contact') ?></a>
-							<div class="nav-item dropdown mx-2 d-none">
+							<div class="nav-item dropdown mx-2">
 								<a class="nav-link dropdown-toggle" href="#" id="language-menu" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									<span class="flag-icon flag-icon-<?php echo (strtolower($lang) == 'en') ? 'us' : strtolower($lang); ?>"></span>
-									<span class="ml-2">IDIOMA</span>
+									<span class="ml-2 text-uppercase"><?= lang('Globals.language') ?></span>
 								</a>
 								<form action="" method="get"> 
 									<div class="dropdown-menu rounded-0 m-0" aria-labelledby="language-menu">
-										<a class="dropdown-item <?= (strtolower($lang) == 'es') ? ' active' : '' ?>" href="<?php echo (current_url() . '?lang=es'); ?>"><span class="flag-icon flag-icon-<?php echo 'es'; ?> me-2"></span>Español </a>
-										<a class="dropdown-item <?= (strtolower($lang) == 'en') ? ' active' : '' ?>" href="<?php echo (current_url() . '?lang=en'); ?>"><span class="flag-icon flag-icon-<?php echo 'us'; ?> me-2"></span>English </a>
+										<a class="dropdown-item <?= (strtolower($lang) == 'es') ? ' active' : '' ?>" href="<?php echo (current_url() . '?lang=es'); ?>"><span class="flag-icon flag-icon-<?php echo 'es'; ?> me-2"></span><?= lang('Globals.contactform_11') ?> </a>
+										<a class="dropdown-item <?= (strtolower($lang) == 'en') ? ' active' : '' ?>" href="<?php echo (current_url() . '?lang=en'); ?>"><span class="flag-icon flag-icon-<?php echo 'us'; ?> me-2"></span><?= lang('Globals.contactform_12') ?> </a>
 									</div>
 								</form>
 							</div> 
