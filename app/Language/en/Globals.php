@@ -9,7 +9,7 @@ return [
 	'loading' => 'Loading',
 	'home' => 'Home',
 	'investments' => 'Investments',
-	'contact_us' => 'Contáctenos',
+	'contact_us' => 'Contact us',
 	'contact' => 'Contact',
 	'news' => 'Noticias',
 	'send' => 'Enviar',
@@ -68,6 +68,7 @@ return [
 	'stage' => 'Etapa',
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
+	'language' => 'Language',
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'All rights reserved',
 	'text_3' => 'No existen registros para mostrar.',
@@ -227,7 +228,31 @@ return [
 	'review_2'  => 'The first step to be an investor is the mentality.',
 	'review_3'  => 'When you change your way of thinking, you totally change your life; the way of speaking, the way of seeing life, the way of addressing others, the way of spending time.',
 
+	// Page Contact Form
+	'contactform_1' => 'Do you need help about how to invest?',
+	'contactform_2' => 'Our investment advisers will help you to know which are the best options for you so you can begin to solidify your real estate investment in Yucatan, Mexico.',
+	'contactform_3' => 'Please fill out the following form so that one of our consultants can contact you.',
+	'contactform_4' => 'Name',
+	'contactform_5' => 'Last Name',
+	'contactform_6' => 'Phone number',
+	'contactform_7' => 'Email',
+	'contactform_8' => 'Tell us about any doubts or concerns you may have.',
+	'contactform_9' => 'Select the development(s) in which you are interested in receiving information.',
+	'contactform_10' => 'In which language would you prefer to receive communications from us?',
+	'contactform_11' => 'Spanish',
+	'contactform_12' => 'English',
+	'contactform_13' => 'Either',
+	'contactform_14' => 'Send',
+	'contactform_15' => 'This field is required',
 
+	// Email Controller
+	'not_conection' => 'Check your internet connection',
+	'subject' => 'I want you to contact Contact us now',
+	'doubts' => 'My doubts and concerns are',
+	'receiving_info' => "I'am interested in receiving information about",
+	'language_info' => 'I prefer to receive commuinications in ',
+	'send_success' => 'Email send successfully',
+	'send_failed' => 'Failed email send ',
 
 
 ];

@@ -68,6 +68,8 @@ return [
 	'stage' => 'Etapa',
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
+	'language' => 'Idioma',
+
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
 	'text_3' => 'No existen registros para mostrar.',
@@ -232,6 +234,30 @@ return [
 	'review_2'  => 'El primer paso para ser inversionista es la mentalidad.',
 	'review_3'  => 'Cuando cambias tu forma de pensar, cambias totalmente tu vida; la forma de hablar, la forma de ver la vida, la forma de dirigirte a los demás, la forma de pasar el tiempo.',
 
-
+	// Page Contact Form
+	'contactform_1' => '¿Tienes dudas de como invertir?',
+	'contactform_2' => 'Nuestros asesores patrimoniales te ayudarán a saber cual es la opción que más te conviene para que empieces a cimentar tu patrimonio.',
+	'contactform_3' => 'Responde el siguiente formulario, para que uno de nuestros asesores inmobiliarios te contacte.',
+	'contactform_4' => 'Nombre',
+	'contactform_5' => 'Apellidos',
+	'contactform_6' => 'Número de Teléfono',
+	'contactform_7' => 'Correo electrónico',
+	'contactform_8' => '¿Cuáles son tus dudas e inquietudes?',
+	'contactform_9' => 'Seleccione el(los) desarrollos en los que está interesado en recibir información.',
+	'contactform_10' => '¿En qué idioma preferiría recibir nuestras comunicaciones?',
+	'contactform_11' => 'Español',
+	'contactform_12' => 'Ingles',
+	'contactform_13' => 'Cualquiera',
+	'contactform_14' => 'Enviar',
+	'contactform_15' => 'Este campo es obligatorio',
+	
+	// Email Controller
+	'not_conection' => 'Revise Chequee su conexión a internet',
+	'subject' => 'Quiero que me contacten',
+	'doubts' => 'Mis dudas e inquietudes son',
+	'receiving_info' => 'Estoy interesado en recibir información de',
+	'language_info' => 'El idioma para recibir las comunicaciones lo prefiero en',
+	'send_success' => 'Correo envíado correctamente',
+	'send_failed' => 'Fallo en el envío del correo, vuelva  a intentarlo mas tarde',
 
 ];
