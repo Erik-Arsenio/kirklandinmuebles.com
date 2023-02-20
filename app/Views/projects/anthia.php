@@ -23,7 +23,7 @@
             <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/anthia/01-es.jpg' ?>" class="img-fluid w-100" alt="Lotes de Inversión en Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/01-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Lotes de Inversión en Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/anthia/02-es.jpg' ?>" class="img-fluid w-100" alt="Enganche desde $ 2,000 MXN en Anthia, Hunucmá, Mérida, Yucatán, México.">
@@ -41,7 +41,7 @@
                         <img src="<?= STATIC_URL . 'img/anthia/06-es.jpg' ?>" class="img-fluid w-100" alt="Empresas NACIONALES Y INTERNACIONALES apuestan en la zona del desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/07-es.jpg' ?>" class="img-fluid w-100" alt="Desarrollo a FUTURO de Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/07-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Desarrollo a FUTURO de Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/anthia/08-es.jpg' ?>" class="img-fluid w-100" alt="Características del desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
@@ -2917,7 +2917,7 @@
                     <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/anthia/13-es.jpg' ?>" class="card-img-top img-fluid" alt="Amenidades y Master Plan de Anthia Hunucmá, Mérida, Yucatán, México.">
+                                <img src="<?= STATIC_URL . 'img/anthia/13-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Amenidades y Master Plan de Anthia Hunucmá, Mérida, Yucatán, México.">
                             </div>
                         </div>
                     </div>
