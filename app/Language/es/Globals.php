@@ -80,6 +80,30 @@ return [
 	'confirm_2' => 'El proyecto fue desabilitado satisfactoriamente.',
 	'confirm_3' => 'El proyecto fue Habilitado satisfactoriamente.',
 
+	// Home page text
+	'homepage_1' => 'Venta de Terrenos residenciales y lotes patrimoniales en Yucatán, México.',
+	'homepage_2' => 'Inversión en desarrollos residenciales.',
+	'homepage_3' => 'Invierte en lotes y terrenos residenciales con alta plusvalía',
+	'homepage_4' => '¿Por qué comprar lotes residenciales o lotes de inversión con nosotros?',
+	'homepage_5' => 'Ya sea que quieras mudarte o para vacacionar, nuestros terrenos de inversión te proporcionarán un excelente retorno de inversión y una diversificación de tu cartera.',
+	'homepage_6' => 'Este es el momento para invertir en el estado más seguro en México.',
+	'homepage_7' => 'Recuerda todo comienza con un sí.',
+	'homepage_8' => 'Conoce nuestros desarrollos e inicia tu nuevo estilo de vida con nosotros.',
+	'homepage_9' => 'NUESTRAS PROPIEDADES',
+	
+	'homepage_10' => 'Desarrollo de terrenos de inversión semi-urbanizados.',
+	'homepage_11' => 'Desarrollo residencial inspirado en exclusividad, balance y elegancia.',
+	'homepage_12' => 'Terrenos semi-urbanizados en la hermosa playa de Celestún.',
+	'homepage_13' => 'Terrenos residenciales semi-urbanizados en la hermosa playa de Celestún.',
+	
+	//  Home page Locations in Developments cards text
+	'homepage_40' => '<span name="city_name">Mérida, </span>Yucatán, México.',
+	'homepage_41' => '<span name="municipality_name">Hunucmá, </span>',
+	'homepage_42' => '<span name="municipality_name">Komchen, </span>',
+	'homepage_43' => '<span name="municipality_name">Celestún, </span>',
+
+
+
 	// Header text in Lakuun
 	'header_1' => 'Lotes residenciales premium',
 	'header_2' => 'Aprovecha la oportunidad de adquirir tu lote residencial con nuestros precios de preventa',
@@ -88,6 +112,13 @@ return [
 	
 	// Header text in Anthia
 	'header_4' => 'Lotes patrimoniales de inversión',
+	
+	// Header text in Marela Beach
+	'header_5' => 'Lotes residenciales en la playa',
+	
+	// Header text in Marela Celestún
+	'header_6' => 'Lotes patrimoniales en la Playa',
+	'header_7' => '100% VENDIDO',
 
 	'click_zoom' => 'Click para zoom',
 

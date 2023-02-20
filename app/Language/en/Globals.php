@@ -79,6 +79,29 @@ return [
 	'confirm_2' => 'El proyecto fue desabilitado satisfactoriamente.',
 	'confirm_3' => 'El proyecto fue Habilitado satisfactoriamente.',
 
+	// Home page text
+	'homepage_1' => 'Sale of residential land in Yucatan, Mexico.',
+	'homepage_2' => 'Investment in residential developments.',
+	'homepage_3' => 'Invest in residential lots and land with high capital appreciation.',
+	'homepage_4' => 'Why buy residential lots or investment lots from us?',
+	'homepage_5' => 'Whether you want to move to or vacation in Yucatan, Mexico, our investment land will provide you with an excellent return on investment and diversification of your portfolio.',
+	'homepage_6' => 'This is the time to invest in the safest state in Mexico.',
+	'homepage_7' => 'Remember everything starts with a “yes”.',
+	'homepage_8' => 'Get to know our development project and start your new lifestyle with us.',
+	'homepage_9' => 'OUR PROPERTIES',
+
+	'homepage_10' => 'Development of semi-urbanized investment land.',
+	'homepage_11' => 'Residential development inspired by exclusivity, balance and elegance.',
+	'homepage_12' => 'Semi-developed lots on the beautiful beach of Celestún.',
+	'homepage_13' => 'Semi-developed residential lots on the beautiful beach of Celestún.',
+
+	//  Home page Locations in Developments cards text
+	'homepage_40' => '<span name="city_name">Merida, </span>Yucatan, Mexico.',
+	'homepage_41' => '<span name="municipality_name">Hunucma, </span>',
+	'homepage_42' => '<span name="municipality_name">Komchen, </span>',
+	'homepage_43' => '<span name="municipality_name">Celestun, </span>',
+
+
 	// Header text  in Lakuun
 	'header_1' => 'Premium residential lots',
 	'header_2' => 'Take advantage of the opportunity to acquire your residential lot with our presale prices',
@@ -86,9 +109,18 @@ return [
 
 		
 	// Header text in Anthia
-	'header_4' => 'Investment lots',
+	'header_4' => 'Investment property lots',
+		
+	// Header text in Marela Beach
+	'header_5' => 'Residential lots on the beach',
+	
+	// Header text in Marela Celestún
+	'header_6' => 'Residential lots on the beach',
+	'header_7' => '100% SOLD',
 	
 	'click_zoom' => 'Click to zoom',
+
+
 
 	// text in Lakuun
 	'location_1'  => 'Why buy a residential lot in Lakuun?',
