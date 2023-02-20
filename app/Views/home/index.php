@@ -127,7 +127,7 @@
 					<h6 class="card-text text-center" name="project_description"><?= lang('Globals.homepage_13') ?></h6>
 				</div>
 				<div class="card-footer" title="" data-href="">
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?><?= lang('Globals.homepage_40') ?></small>
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?>, <?= lang('Globals.homepage_40') ?></small>
 				</div>
 			</div>
 		</div>
@@ -229,7 +229,7 @@
 					<h6 class="card-title text-center" name="project_description"><?= lang('Globals.homepage_13') ?></h6>
 				</div>
 				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?><?= lang('Globals.homepage_40') ?></small>
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?>, <?= lang('Globals.homepage_40') ?></small>
 				</div>
 			</div>
 		</div>
@@ -272,7 +272,7 @@
 					<h6 class="card-title text-center" name="project_description"><?= lang('Globals.homepage_12') ?></h6>
 				</div>
 				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_celestun?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?><?= lang('Globals.homepage_40') ?></small>
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?>, <?= lang('Globals.homepage_40') ?></small>
 				</div>
 			</div>
 		</div>

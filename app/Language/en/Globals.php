@@ -99,7 +99,7 @@ return [
 	'homepage_40' => '<span name="city_name">Merida, </span>Yucatan, Mexico.',
 	'homepage_41' => '<span name="municipality_name">Hunucma, </span>',
 	'homepage_42' => '<span name="municipality_name">Komchen, </span>',
-	'homepage_43' => '<span name="municipality_name">Celestun, </span>',
+	'homepage_43' => '<span name="municipality_name">Celestun</span>',
 
 
 	// Header text  in Lakuun
