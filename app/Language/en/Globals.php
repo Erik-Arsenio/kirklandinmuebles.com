@@ -122,7 +122,7 @@ return [
 
 
 
-	// text in Lakuun
+	// location text in Lakuun
 	'location_1'  => 'Why buy a residential lot in Lakuun?',
 	'location_2'  => 'Our residential lots are strategically located north of the city of Mérida ( just 10 minutes away) close to the main shopping malls such as Galerías Mérida, Plaza la Isla, Plaza Harbor, Siglo XXI, Convention Center and Universities',
 	'location_3'  => 'The premium development offers a high quality of life index and is surrounded by:',
@@ -130,7 +130,7 @@ return [
 	'location_5'  => 'Schools and universities of the highest educational and sports quality',
 	'location_6'  => 'Very close to the beautiful Progreso beach',
 
-	// Header text in Anthia
+	// location text in Anthia
 	'location_7' => 'Tourist and commercial attractions near the development',
 	'location_8' => 'on the circular buttons',
 	'location_9' => 'Why buy an investment lot in Anthia?',
@@ -139,6 +139,11 @@ return [
 	'location_12' => 'Direct financing with the company',
 	'location_13' => 'We do not check credit history',
 	'location_14' => 'Private property lots',
+
+	// location text in Marela Beach
+	'location_15' => 'Why buy a residential lot in MARELA BEACH CELESTÚN?',
+	'location_16' => 'Our development is designed for a short-term return on investment',
+	'location_17' => 'Only 45 minutes away from Merida',
 	
 
 	// text in Lakuun
@@ -174,12 +179,27 @@ return [
 	'characteristic_27'  => 'Lots starting at 300 sqm',
 	'characteristic_28'  => 'Dimmensions from',
 
-	// text in Lakuun
+	// characteristic text in Marela Beach
+	'characteristic_30'  => 'Lots on the beachfront',
+	'characteristic_31'  => 'Lots with area from 160m',
+	'characteristic_32'  => 'White sand streets',
+	'characteristic_33'  => 'Guard booth with distinctive entranceway',
+	'characteristic_34'  => 'Lot boundaries marked by boundary stones',
+	'characteristic_35'  => 'Environmentally friendly development',
+	'characteristic_36'  => 'Green areas',
+	'characteristic_37'  => 'Electricity within the development',
+	'characteristic_38'  => 'Private access to the beach',
+	'characteristic_39'  => 'Lots starting at $3.5 MDP on the beachfront',
+	'characteristic_40'  => '24/7 security',
+	'characteristic_41'  => 'Ready for title transfer',
+	'characteristic_42'  => 'Beach Club',
+
+	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
 	'club_2'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
 	
 
-	// text in Laku
+	// Club House text in Laku
 	'clubhouse_1'  => 'Distinctive entranceway',
 	'clubhouse_2'  => 'Swimming channel',
 	'clubhouse_3'  => 'Motor lobby',
@@ -190,6 +210,24 @@ return [
 	'clubhouse_8'  => 'Grill area',
 	'clubhouse_9'  => 'Boardroom',
 	'clubhouse_10'  => 'Child area',
+
+	// Club House text in Marela Beach
+	'club_3'  => 'Reconnect with nature and enjoy a beach club in the company of your loved ones. ',
+	'club_4'  => 'MARELA BEACH offers a place to enjoy with its innovative design created to have direct contact with the beautiful waters of Celestun. The perfect balance between the beach and the safest city in the state.',
+	'clubhouse_11'  => 'Iconic Spot',
+	'clubhouse_12'  => 'Restricted security Access booth with a distinctive style',
+	'clubhouse_13'  => 'Reception',
+	'clubhouse_14'  => 'Lobby',
+	'clubhouse_15'  => 'Service Bar and 40-person dining area',
+	'clubhouse_16'  => 'Terrace',
+	'clubhouse_17'  => 'Outdoor Showers',
+	'clubhouse_18'  => 'Adult Pool',
+	'clubhouse_19'  => "Children's Pool",
+	'clubhouse_20'  => 'Hammock and Lounge Chair Area',
+	'clubhouse_21'  => 'Area with Umbrellas and Lounge Chairs',
+	'clubhouse_22'  => 'Bathrooms with Dressing Rooms',
+	'clubhouse_23'  => 'Storage Room',
+	'clubhouse_24'  => '24/7 Surveillance',
 	
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
@@ -205,6 +243,12 @@ return [
 
 	// property_list text in Anthia
 	'property_list_3'  => 'Availability of investment lots.',
+
+	// property_list text in Marela Beach
+	'property_list_4'  => 'Availability of residential lots on the beach.',
+	'property_list_5'  => 'Beachfront lots',
+	'property_list_6'  => '2<small><sup>nd</sup></small> row lots',
+	'property_list_7'  => '2<small><sup>nd</sup></small> row plus lots',
 
 
 	'image'  => 'image',

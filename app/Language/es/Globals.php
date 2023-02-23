@@ -130,7 +130,7 @@ return [
 	'location_5'  => 'Escuelas y universidades de la más alta calidad educativa y deportiva',
 	'location_6'  => 'Muy cerca de la hermosa playa Progreso',
 
-	// Header text in Anthia
+	// text in Anthia
 	'location_7' => 'Atractivos turísticos y comerciales cercanos al desarrollo',
 	'location_8' => 'en los marcadores',
 	'location_9' => '¿Por qué comprar un lote patrimonial de inversión en Anthia?',
@@ -139,6 +139,12 @@ return [
 	'location_12' => 'Financiamiento directamente con la empresa',
 	'location_13' => 'No revisamos buró de crédito',
 	'location_14' => 'Terrenos en propiedad privada',
+	
+	// text in Marela Beach
+	'location_15' => '¿Por qué comprar un lote residencial en MARELA BEACH CELESTÚN?',
+	'location_16' => 'Nuestro desarrollo está pensado en un retorno de inversión a corto plazo',
+	'location_17' => 'Solo a 45 minutos de Mérida',
+
 	
 
 	// characteristic text in Lakuun
@@ -173,6 +179,21 @@ return [
 	'characteristic_26'  => 'A 8 minutos del nuevo Central Busines Park',
 	'characteristic_27'  => 'Lotes desde 300 m<small><sup>2</sup></small>',
 	'characteristic_28'  => 'Dimensiones desde',
+	
+	// characteristic text in Marela Beach
+	'characteristic_30'  => 'Lotes a la orilla de la playa',
+	'characteristic_31'  => 'Lotes con consuperficies desde 160m',
+	'characteristic_32'  => 'Calles blancas de arena',
+	'characteristic_33'  => 'Caseta de vigilancia con estela distintiva',
+	'characteristic_34'  => 'Lotes delimitadores por mojoneras',
+	'characteristic_35'  => 'Desarrollo amigable con el medio ambiente',
+	'characteristic_36'  => 'Áreas verdes',
+	'characteristic_37'  => 'Energía elérctrica dentro del desarrollo',
+	'characteristic_38'  => 'Acceso privado a la playa',
+	'characteristic_39'  => 'Lotes desde $3.5 MDP frente a la playa',
+	'characteristic_40'  => 'Vigilancia 24/7',
+	'characteristic_41'  => 'Listos para escriturar',
+	'characteristic_42'  => 'Club de playa',
 
 
 	// text in Lakuun
@@ -180,7 +201,7 @@ return [
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
 	
 
-	// text in Lakuun
+	// Club House text in Lakuun
 	'clubhouse_1'  => 'Entrada distintiva',
 	'clubhouse_2'  => 'Canal de nado',
 	'clubhouse_3'  => 'Motor lobby',
@@ -191,6 +212,24 @@ return [
 	'clubhouse_8'  => 'Área grill',
 	'clubhouse_9'  => 'Sala de juntas',
 	'clubhouse_10'  => 'Área infantil',
+	
+	// Club House text in Marela Beach
+	'club_3'  => 'Reconéctate con la naturaleza y disfruta de un club de playa en campañía de los tuyos.',
+	'club_4'  => 'MARELA BEACH ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
+	'clubhouse_11'  => 'Spot icónico',
+	'clubhouse_12'  => 'Caseta con acceso restringido y estela distintiva',
+	'clubhouse_13'  => 'Recepción',
+	'clubhouse_14'  => 'Lobby',
+	'clubhouse_15'  => 'Barra de servicios y área de 40 comensales',
+	'clubhouse_16'  => 'Terraza',
+	'clubhouse_17'  => 'Regaderas exteriores',
+	'clubhouse_18'  => 'Alberca de adultos',
+	'clubhouse_19'  => 'Alberca de niños',
+	'clubhouse_20'  => 'Área de hamacas y camastros',
+	'clubhouse_21'  => 'Área de palapas con sombrillas y camastros',
+	'clubhouse_22'  => 'Baños con vestidores',
+	'clubhouse_23'  => 'Bodega',
+	'clubhouse_24'  => 'Vigilancia 24/7',
 	
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
@@ -206,7 +245,12 @@ return [
 	
 	// property_list text in Anthia
 	'property_list_3'  => 'Disponiblidad de lotes patrimoniales de inversión.',
-
+	
+	// property_list text in Marela Beach
+	'property_list_4'  => 'Disponiblidad de lotes residenciales en la playa.',
+	'property_list_5'  => 'Lote Frente al mar',
+	'property_list_6'  => 'Lote 2<small><sup>da</sup></small> fila ',
+	'property_list_7'  => 'Lote 2<small><sup>da</sup></small> fila plus ',
 
 	'image'  => 'imagen',
 	'total_lots'  => 'Total de lotes',
