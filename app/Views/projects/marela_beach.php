@@ -6,49 +6,48 @@
                 <h3>Marela Beach</h3>
                 <h6>CELESTÚN, MÉRIDA, YUCATÁN, MÉXICO</h6>
             </div>
-            <p class="h2 animated fadeInLeft fw-bold my-2">Lotes residenciales en la playa</p>
-            <!-- <p class="text-center animated fadeInLeft h4 mb-4 pb-2">Desarrollo de terrenos residenciales semi-urbanizados en la hermosa playa de Celestún</p> -->
+            <p class="h2 animated fadeInLeft fw-bold my-2"><?= lang('Globals.header_5') ?></p>
             <div class="text-center mt-lg-5 promo not_mobile d-none" id="" style="min-height: 11em">
             </div>
             <div class="m-2">
                 <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success btn-contact text-decoration-none mt-0 not_mobile d-none" target="_blank">
-                    <span class="fadeinout">Quiero que me contacten</span>
+                    <span class="fadeinout"><?= lang('Globals.header_3') ?></span>
                 </a>
             </div>
         </div>
         <div class="col-lg-6 pe-lg-5">
             <div class="loader-container-img text-center mb-2">
                 <span class="mdi mdi-vanish mdi-spin"></span>
-                Loading image...
+                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
             </div>
             <div class="text-center mx-auto load-image d-none">
-                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
             </div>
             <div class="carousel slide carousel-fade text-center  animated fadeInRight load-image d-none" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/01-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Lotes frente al mar">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="Lotes frente al mar">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_beach/02-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Patrimonio Mundial de la reserva especial de la biosfera">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/03-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/03-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/04-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Desarrollos en Celestún">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/04-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="Desarrollos en Celestún">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/05-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/05-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/06-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/06-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/07-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Imágenes del Club de Playa">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="Imágenes del Club de Playa">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_beach/08-es.jpg' ?>" class="card-img-top img-fluid w-100" alt="Precio Total por lotes">
+                        <img src="<?= STATIC_URL . 'img/marela_beach/08-' . $lang . '.jpg' ?>" class="card-img-top img-fluid w-100" alt="Precio Total por lotes">
                     </div>                                  
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
@@ -64,7 +63,7 @@
             </div>
             <div class="m-2 text-center mt-3">
                 <a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-0 mobile d-none" target="_blank">
-                    <span class="fadeinout">Quiero que me contacten</span>
+                    <span class="fadeinout"><?= lang('Globals.header_3') ?></span>
                 </a>
             </div>
         </div>
@@ -78,29 +77,29 @@
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                     <div class="loader-container-img text-center mb-2">
                         <span class="mdi mdi-vanish mdi-spin"></span>
-                        Loading image...
+                        <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                     </div>
                     <div class="about-img position-relative overflow-hidden p-5 pe-0 load-image d-none">
                         <div class="text-center mx-auto">
-                            <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                            <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                         </div>
                         <div class="carousel carousel-fade slide animated fadeIn text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselLocation" style="z-index: 100">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/09-es.jpg' ?>" alt="Ubicación del desarrollo">
+                                    <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/09-' . $lang . '.jpg' ?>" alt="Ubicación del desarrollo">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                    <h2 class="mb-3">¿Por qué comprar un lote residencial en MARELA BEACH CELESTÚN?</h2>
-                    <p class="h5 mb-4">Nuestro desarrollo está pensado en un retorno de inversión a corto plazo</p>
-                    <p class="h4"><span class='mdi mdi-map mdi-24px text-success me-3'></span>Terrenos listos para escriturar</p>
-                    <p class="h4"><span class='mdi mdi-finance mdi-24px text-success me-3'></span>Financiamiento directamente con la empresa</p>
-                    <p class="h4"><span class='mdi mdi-handshake mdi-24px text-success me-3'></span>No revisamos buró de crédito</p>
-                    <p class="h4"><span class='mdi mdi-account-check-outline mdi-24px text-success me-3'></span>Terrenos en propiedad privada</p>
-                    <p class="h4"><span class='mdi mdi-car-clock mdi-24px text-success me-3'></span>Solo a 45 minutos de Mérida</p>
+                    <h2 class="mb-3"><?= lang('Globals.location_15') ?></h2>
+                    <p class="h5 mb-4"><?= lang('Globals.location_16') ?></p>
+                    <p class="h4"><span class='mdi mdi-map mdi-24px text-success me-3'></span><?= lang('Globals.location_11') ?></p>
+                    <p class="h4"><span class='mdi mdi-finance mdi-24px text-success me-3'></span><?= lang('Globals.location_12') ?></p>
+                    <p class="h4"><span class='mdi mdi-handshake mdi-24px text-success me-3'></span><?= lang('Globals.location_13') ?></p>
+                    <p class="h4"><span class='mdi mdi-account-check-outline mdi-24px text-success me-3'></span><?= lang('Globals.location_14') ?></p>
+                    <p class="h4"><span class='mdi mdi-car-clock mdi-24px text-success me-3'></span><?= lang('Globals.location_17') ?></p>
                 </div>
             </div>
         </div>
@@ -111,31 +110,31 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                <h1 class="fw-bold text-decoration-underline">Características</h1>
+                <h1 class="fw-bold text-decoration-underline"><?= lang('Globals.characteristic') ?></h1>
             </div>
             <div class="row g-0 g-lg-5 align-items-center">
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Lotes a la orilla de la playa</li>
-                        <li class="h4">Lotes con consuperficies desde 160m<sup>2</sup></li>
-                        <li class="h4">Calles blancas de arena</li>
-                        <li class="h4">Caseta de vigilancia con estela distintiva</li>
-                        <li class="h4">Lotes delimitadores por mojoneras</li>
-                        <li class="h4">Desarrollo amigable con el medio ambiente</li>
+                        <li class="h4"><?= lang('Globals.characteristic_30') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_31') ?><sup>2</sup></li>
+                        <li class="h4"><?= lang('Globals.characteristic_32') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_33') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_34') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_35') ?></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                     <ul>
-                        <li class="h4">Áreas verdes</li>
-                        <li class="h4">Energía elérctrica dentro del desarrollo</li>
-                        <li class="h4">Acceso privado a la playa</li>
-                        <li class="h4">Lotes desde $3.5 MDP frente a la playa</li>
-                        <li class="h4">Vigilancia 24/7</li>
-                        <li class="h4">Listos para escriturar</li>
+                        <li class="h4"><?= lang('Globals.characteristic_36') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_37') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_38') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_39') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_40') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_41') ?></li>
                     </ul>
                 </div>
                 <div class="text-center wow slideInLeft mt-1" data-wow-delay="0.1s">
-                    <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span>Club de playa</p>
+                    <p class="h4"><span class='mdi mdi-umbrella-beach mdi-24px text-success me-3'></span><?= lang('Globals.characteristic_42') ?></p>
 
                 </div>
             </div>
@@ -147,21 +146,25 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-1 wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mt-2 mb-2 text-success">CLUB DE PLAYA</h1>
+                <h1 class="mt-2 mb-2 text-uppercase text-success"><?= lang('Globals.characteristic_42') ?></h1>
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
-                        <p class="h4 mb-4">Reconéctate con la naturaleza y disfruta de un club de playa en campañía de los tuyos.</p>
-                        <p class="h4">MARELA BEACH ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.</p>
+                        <p class="h4 mb-4"><?= lang('Globals.club_3') ?></p>
+                        <p class="h4"><?= lang('Globals.club_4') ?></p>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
+                        <div class="loader-container-img text-center mb-2">
+                            <span class="mdi mdi-vanish mdi-spin"></span>
+                            <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+                        </div>
                         <div class="about-img-right position-relative overflow-hidden p-5 pe-0 load-image d-none">
                             <div class="text-center mx-auto">
-                                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                             </div>
                             <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/07-es.jpg' ?>" alt="Imágenes del Club de Playa">
+                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/07-' . $lang . '.jpg' ?>" alt="Imágenes del Club de Playa">
                                     </div>
                                 </div>
                             </div>
@@ -178,24 +181,24 @@
                 <div class="row g-0 g-lg-5 align-items-center">
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                         <ul>
-                            <li class="h4">Spot icónico</li>
-                            <li class="h4">Caseta con acceso restringido y estela distintiva</li>
-                            <li class="h4">Recepción</li>
-                            <li class="h4">Lobby</li>
-                            <li class="h4">Barra de servicios y área de 40 comensales</li>
-                            <li class="h4">Terraza</li>
-                            <li class="h4">Regaderas exteriores</li>
+                            <li class="h4"><?= lang('Globals.clubhouse_11') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_12') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_13') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_14') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_15') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_16') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_17') ?></li>
                         </ul>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                         <ul>
-                            <li class="h4">Alberca de adultos</li>
-                            <li class="h4">Alberca de niños</li>
-                            <li class="h4">Área de hamacas y camastros</li>
-                            <li class="h4">Área de palapas con sombrillas y camastros</li>
-                            <li class="h4">Baños con vestidores</li>
-                            <li class="h4">Bodega</li>
-                            <li class="h4">Vigilancia 24/7</li>
+                            <li class="h4"><?= lang('Globals.clubhouse_18') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_19') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_20') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_21') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_22') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_23') ?></li>
+                            <li class="h4"><?= lang('Globals.clubhouse_24') ?></li>
                         </ul>
                     </div>
                 </div>
@@ -210,27 +213,27 @@
                     <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                         <div class="loader-container-img text-center mb-2">
                             <span class="mdi mdi-vanish mdi-spin"></span>
-                            Loading image...
+                            <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                         </div>
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
                             <div class="text-center mx-auto">
-                                <p class="fw-bold small mb-0 not_mobile d-none">Click para zoom</p>
+                                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
                             </div>
                             <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselMasterPlan" style="z-index: 100">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/10-es.jpg' ?>" alt="Master Plan del desarrollo">
+                                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_beach/10-' . $lang . '.jpg' ?>" alt="Master Plan del desarrollo">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
-                        <h2 class="mb-3">El desarrollo cuenta con:</h2>
-                        <p class="h5 mb-4">Etapas: <span class="h3">1</span></p>
-                        <p class="h5 mb-4">Hectáreas: <span class="h3">2</span></p>
-                        <p class="h5 mb-4">Lotes: <span class="h3">77</span></p>
-                        <p class="h5 mb-4">Entrega: <span class="h3">Diciembre 2025</span></p>
+                        <h2 class="mb-3"><?= lang('Globals.about_inv_1') ?>:</h2>
+                        <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">1</span></p>
+                        <p class="h5 mb-4"><?= lang('Globals.hectares') ?>: <span class="h3">2</span></p>
+                        <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">77</span></p>
+                        <p class="h5 mb-4"><?= lang('Globals.delivered_only') ?>: <span class="h3"><?= lang('Globals.december') ?> 2025</span></p>
                         <!-- <p class="h5 mb-4">Areas verdes: <span class="h3">28,414.38 m<sup>2</sup></span></p> -->
                     </div>
                 </div>
@@ -242,12 +245,12 @@
         <div class="container-xxl py-5 px-0 px-lg-2">
             <div class="container px-0 px-lg-2">
                 <div class="text-center wow slideInLeft" data-wow-delay="0.1s">
-                    <h1 class="fw-bold">Disponiblidad de lotes residenciales en la playa</h1>
-                    <h5 class="my-2 fw-lighter text-decoration-underline">(Click en Etapa para ver detalles y mapa)</h5>
+                    <h1 class="fw-bold"><?= lang('Globals.property_list_4') ?></h1>
+                    <h5 class="my-2 fw-lighter text-decoration-underline"><?= lang('Globals.property_list_2') ?></h5>
                 </div>
                 <div class="loader-container text-center mb-2">
                     <span class="mdi mdi-vanish mdi-spin"></span>
-                    Loading image...
+                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                 </div>
                 <div class="lots d-none" id="image_site">
                     <div class="accordion" id="accordionStage">
@@ -256,13 +259,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStage-1" aria-expanded="false" aria-controls="collapseStage-1" title="Click para ver detalles y mapa">
                                     <div class="container table-responsive-md">
                                         <table class="table table-sm table-borderless caption-top">
-                                            <caption class="h1 fw-bold text-center text-success text-nowrap">Etapa-1</caption>
+                                            <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-1</caption>
                                             <thead>
                                                 <tr>
                                                     <!-- <th scope="col" class="h1 fw-bold text-success text-nowrap">Etapa-1</th> -->
-                                                    <th scope="col" class="h5 available-title text-center">Total de lotes</th>
-                                                    <th scope="col" class="h5 available-title text-center">Disponibles</th>
-                                                    <th scope="col" class="h5 available-title text-center">Fecha de entrega</th>
+                                                    <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                                    <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                                    <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -285,30 +288,30 @@
                                     <div class="container px-0 px-lg-2">
                                         <div class="row g-0 gx-5 align-items-center">
                                             <div class="col-lg-12">
-                                                <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                                                    <h1 class="fw-bold text-decoration-underline">PRECIO DE LOTES</h1>
+                                                <div class="text-center mx-auto mb-2 wow slideInLeft" data-wow-delay="0.1s">
+                                                    <h4 class="fw-bold text-uppercase text-success mb-0"><?= lang('Globals.lot_price') ?></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row row-cols-1 row-cols-lg-3">
-                                            <div class="col wow fadeInUp mb-5 " data-wow-delay="0.1s">
+                                            <div class="col wow fadeInUp mb-3 " data-wow-delay="0.1s">
                                                 <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h3 text-success">Lote Frente al mar</p>
+                                                        <p class="h3 text-success"><?= lang('Globals.property_list_5') ?></p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
                                                             <div class="col-6">
-                                                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                                <p class="h4 text-success">13,580 <span class="h4">MXN</span></p>
+                                                                <p class="h6"><?= lang('Globals.price') ?> (MXN)  <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
+                                                                <p class="h4 text-success">13,580</p> <!-- <span class="h4">MXN</span> -->
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
-                                                                <p class="h4 text-success">24 <span class="h4">MSI</span></p>
+                                                                <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <span class="text-nowrap"><?= lang('Globals.upto') ?></span></p>
+                                                                <p class="h4 text-success">24 <span class="h5"><?= lang('Globals.msi') ?></span></p>
                                                             </div>
                                                         </div>
                                                         <div class="row text-center">
-                                                            <p class="h6">Enganche de</p>
+                                                            <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                             <p class="h4 text-success">20%</h6>
 
                                                         </div>
@@ -318,24 +321,24 @@
                                                     </div> -->
                                                 </div>
                                             </div>
-                                            <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+                                            <div class="col wow fadeInUp mb-3" data-wow-delay="0.1s">
                                                 <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h3 text-success">Lote segunda fila</p>
+                                                        <p class="h3 text-success"><?= lang('Globals.property_list_6') ?></p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
                                                             <div class="col-6">
-                                                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                                <p class="h4 text-success">5,065 <span class="h4">MXN</span></p>
+                                                                <p class="h6"><?= lang('Globals.price') ?> (MXN)  <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
+                                                                <p class="h4 text-success">5,065</p> <!-- <span class="h4">MXN</span> -->
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
-                                                                <p class="h4 text-success">48 <span class="h4">MSI</span></p>
+                                                                <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <span class="text-nowrap"><?= lang('Globals.upto') ?></span></p>
+                                                                <p class="h4 text-success">48 <span class="h5"><?= lang('Globals.msi') ?></span></p>
                                                             </div>
                                                         </div>
                                                         <div class="row text-center">
-                                                            <p class="h6">Enganche de</p>
+                                                            <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                             <p class="h4 text-success">10%</h6>
                                                         </div>
                                                     </div>
@@ -344,24 +347,24 @@
                                                     </div> -->
                                                 </div>
                                             </div>
-                                            <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+                                            <div class="col wow fadeInUp mb-3" data-wow-delay="0.1s">
                                                 <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
-                                                        <p class="h3 text-success">Lote segunda fila plus</p>
+                                                        <p class="h3 text-success"><?= lang('Globals.property_list_7') ?></p>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="row text-center">
                                                             <div class="col-6">
-                                                                <p class="h6">Precio por m<small><sup>2</sup></small></p>
-                                                                <p class="h4 text-success">5,620 <span class="h4">MXN</span></p>
+                                                                <p class="h6"><?= lang('Globals.price') ?> (MXN)  <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
+                                                                <p class="h4 text-success">5,620</p><!-- <span class="h4">MXN</span> -->
                                                             </div>
                                                             <div class="col-6">
-                                                                <p class="h6"><span class="text-nowrap">Financiamiento</span> hasta</p>
-                                                                <p class="h4 text-success">48 <span class="h4">MSI</span></p>
+                                                                <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <span class="text-nowrap"><?= lang('Globals.upto') ?></span></p>
+                                                                <p class="h4 text-success">48 <span class="h5"><?= lang('Globals.msi') ?></span></p>
                                                             </div>
                                                         </div>
                                                         <div class="row text-center">
-                                                            <p class="h6">Enganche de</p>
+                                                            <p class="h6"><?= lang('Globals.down_payment') ?></p>
                                                             <p class="h4 text-success">10%</h6>
                                                         </div>
                                                     </div>
@@ -376,13 +379,13 @@
                                     <!-- Price End -->
                                     <div class="loader-container text-center mb-2">
                                         <span class="mdi mdi-vanish mdi-spin"></span>
-                                        Loading image...
+                                        <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                     </div>
                                     <div class="row">
                                         <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" style="transform: rotate(0deg);">
                                     </div>
                                     <div class="row mt-2">
-                                    <p class="small fw-bolder text-center mb-0">Para más información, <span class="mouse-touche">pase el mouse </span>sobre el lote</p>
+                                    <p class="small fw-bolder text-center mb-0"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                                     </div>
                                     <div class="row m-0">
                                         <!-- SVG -->
@@ -1296,9 +1299,9 @@
                                         <!-- SVG -->
                                     </div>
                                     <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                        <div class="small bg-sold rounded-pill px-2">VENDIDO</div>
-                                        <div class="small bg-available rounded-pill px-2">DISPONIBLE</div>
-                                        <div class="small bg-reserved rounded-pill px-2">RESERVADO</div>
+                                        <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                        <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                        <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
                                     </div>
                                 </div>
                             </div>
@@ -1321,6 +1324,7 @@
 
         <div class="data">
                 <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_beach.json') ?>'>
+                <input type="hidden" name="language" id="language" value='<?= $lang ?>'>
         </div>
 
 
