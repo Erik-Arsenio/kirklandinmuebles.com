@@ -19,6 +19,10 @@ class Home extends BaseController
 		// $languaje = $lang ;
 		
 		// echo "Leguaje del select- " . $lang;
+		$pageTitle =[
+			"es"=>"Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.",
+			"en"=>"Sale of residential land and residential lots in Yucatan, Mexico.",
+		];
 
 		$datalang = [
 			'lang' => $lang,
@@ -34,7 +38,7 @@ class Home extends BaseController
 		// Set data template
 		$data = [
 			// 'languaje' => $languaje,
-			'title' => 'Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.',
+			'title' => $pageTitle[$lang],
 			'content' => view('home/index', $dataIndex),
 			'js' => load_js(['js/app-home'])
 		];
