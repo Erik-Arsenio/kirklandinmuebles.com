@@ -17,25 +17,29 @@
             </div>
         </div>
         <div class="col-lg-6 pe-lg-5">
+            <div class="loader-container-img text-center mb-2 ">
+                <span class="mdi mdi-vanish mdi-spin"></span>
+                <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+            </div>
             <div class="text-center mx-auto">
                 <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
             </div>
-            <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome" title="Click para zoom">
+            <div class="carousel slide carousel-fade text-center  animated fadeInRight" data-bs-ride="false" data-bs-touch="false" data-bs-pause="hover" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="<?= STATIC_URL . 'img/anthia/01-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Lotes de Inversión en Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/02-es.jpg' ?>" class="img-fluid w-100" alt="Enganche desde $ 2,000 MXN en Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/02-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Enganche desde $ 2,000 MXN en Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/anthia/03-es.jpg' ?>" class="img-fluid w-100" alt="Imagen de Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/04-es.jpg' ?>" class="img-fluid w-100" alt="Anthia te obsequia una oportunidad en Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/04-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Anthia te obsequia una oportunidad en Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/05-es.jpg' ?>" class="img-fluid w-100" alt="Desarrollo de terrenos de inversión semiurbanizados en Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/05-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Desarrollo de terrenos de inversión semiurbanizados en Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/anthia/06-es.jpg' ?>" class="img-fluid w-100" alt="Empresas NACIONALES Y INTERNACIONALES apuestan en la zona del desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
@@ -44,16 +48,16 @@
                         <img src="<?= STATIC_URL . 'img/anthia/07-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Desarrollo a FUTURO de Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/08-es.jpg' ?>" class="img-fluid w-100" alt="Características del desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/08-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Características del desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/09-es.jpg' ?>" class="img-fluid w-100" alt="Plan de finaciemiento en el Desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/09-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Plan de finaciemiento en el Desarrollo de Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/10-es.jpg' ?>" class="img-fluid w-100" alt="Promoción comparativa de invertir en Anthia, Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/10-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Promoción comparativa de invertir en Anthia, Hunucmá, Mérida, Yucatán, México.">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/anthia/11-es.jpg' ?>" class="img-fluid w-100" alt="Crecimiento de la Plusvalía de las 5 etapas de Anthia Hunucmá, Mérida, Yucatán, México.">
+                        <img src="<?= STATIC_URL . 'img/anthia/11-' . $lang . '.jpg' ?>" class="img-fluid w-100" alt="Crecimiento de la Plusvalía de las 5 etapas de Anthia Hunucmá, Mérida, Yucatán, México.">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
@@ -92,10 +96,9 @@
                 <div class="row mb-1">
                 <h5 class="mb-0"><?= lang('Globals.location_7') ?></h5>
                 </div>
-               
                 <div class="loader-container-img text-center mb-2 ">
                     <span class="mdi mdi-vanish mdi-spin"></span>
-                    Loading image...
+                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                 </div>
                 <div class="row mb-0 pb-0 load-image d-none">
                     <p class="small text-center mb-0 pb-0"><?= lang('Globals.for_information') ?> <span class="mouse-touche">click </span><?= lang('Globals.location_8') ?></p>
@@ -111,15 +114,16 @@
                                     fill: rgba(0, 0, 0, 0.1);
                                     stroke: #000000;
                                     stroke-miterlimit: 10;
-                                }
+                                }  -->
                                 .st101 {
-                                    fill: rgba(0, 0, 0, 0.1);
+                                    fill: rgba(0, 185, 42, 0.5);
                                     stroke: #000;
-                                    stroke-width: 3;
-                                    stroke-dasharray: 15, 7;
-                                } -->
-
+                                }
+                                
                             </style>
+                            <!-- stroke: #000;
+                            stroke-width: 3;
+                            stroke-dasharray: 15, 7; -->
                             <image style="overflow:visible;" width="825" height="588" 
                             xlink:href="data:image/jpeg;base64,/9j/4RF0RXhpZgAATU0AKgAAAAgADAEAAAMAAAABAu4AAAEBAAMAAAABAfQAAAECAAMAAAADAAAA
                             ngEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEVAAMAAAABAAMAAAEaAAUAAAABAAAApAEbAAUAAAAB
@@ -2825,6 +2829,7 @@
                             /de697917r3v3Xuve/de697917r3v3Xuve/de697917r3v3Xuve/de697917r3v3Xuve/de69791
                             7r3v3Xuv/9k=" transform="matrix(1.0286 0 0 1.0286 1.427351e-02 8.387280e-03)">
                             </image>
+                            <!-- data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="A solo 25 minutos del desarrollo.<br><br> <span class='text-dark'><b>Click para mas informacion</b></span>" data-bs-original-title="Pueblo de Sisal" -->
                             <a type="button" >
                                 <circle id="sisal" class="st100" cx="385" cy="176" r="50"/>
                             </a>
@@ -3033,7 +3038,7 @@
                                 <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="d-flex justify-content-center">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+                                <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
@@ -3942,7 +3947,7 @@
                                 <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="d-flex justify-content-center">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+                                <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
@@ -5023,7 +5028,7 @@
                                 <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                             </div>
                             <div class="row">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+                                <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
@@ -6242,7 +6247,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="modal-img" tabindex="-1" aria-labelledby="modal-imgLabel" aria-hidden="true" style="z-index: 99999">
-    <div class="modal-dialog modal-fullscreen">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header py-0 border-bottom-0">
                 <!-- <ul class="nav nav-tabs pt-2" id="myTab" role="tablist">
@@ -6264,6 +6269,10 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col p-0 p-md-2">
+                    <div class="loader-container-img text-center mb-2 ">
+                        <span class="mdi mdi-vanish mdi-spin"></span>
+                        <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+                    </div>
                         <div class=" rounded overflow-hidden border-5 shadow">
                             <div class="position-relative overflow-hidden">
                                 <div class="tab-content" id="myTabContent">
@@ -6295,8 +6304,8 @@
 </div>
 
 <div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true" style="z-index: 99999">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl mt-5">
-        <div class="modal-content mt-5">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+        <div class="modal-content">
             <div class="modal-header">
                 <p class="text-center h4 mb-3"><span class="text-promo h4 fw-bolder" id="promoModalLabel"></span>. <?= lang('Globals.location_7') ?> </p>
                 
@@ -6304,6 +6313,10 @@
             </div>
             <div class="modal-body">
                 <!-- <div class="row mb-1 pb-1"> -->
+                <div class="loader-container-img text-center mb-2 ">
+                    <span class="mdi mdi-vanish mdi-spin"></span>
+                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+                </div>
                 
                 <!-- </div> -->
                 <div id="carouselPromo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false">
