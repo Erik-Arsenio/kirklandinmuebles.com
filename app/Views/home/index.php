@@ -23,9 +23,15 @@
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" width="1754 px" height="1240 px" alt="Playa de Marela Beach">
+							<div class="carousel-caption">
+								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/09-' . $lang . '.jpg' ?>"  width="1754 px" height="1240 px" alt="Ubicación del Desarrollo de Marela Beach">
+							<div class="carousel-caption">
+								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>"  width="1754 px" height="1240 px" alt="Marela Celestún en la hermosa playa de esmeralda">
@@ -206,12 +212,21 @@
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Playa de Marela Beach en Mérida, Yucatán, México.">
+								<div class="carousel-caption">
+									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_beach/09-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Ubicación del Desarrollo de Marela Beach en Mérida, Yucatán, México.">
+								<div class="carousel-caption">
+									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_beach/10-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Master Plan de Marela Beach, Mérida, Yucatán, México.">
+								<div class="carousel-caption">
+									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								</div>
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselMarelaBeach" data-bs-slide="prev">
