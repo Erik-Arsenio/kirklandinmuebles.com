@@ -100,7 +100,7 @@ return [
 	'homepage_40' => '<span name="city_name">Mérida, </span>Yucatán, México.',
 	'homepage_41' => '<span name="municipality_name">Hunucmá, </span>',
 	'homepage_42' => '<span name="municipality_name">Komchen, </span>',
-	'homepage_43' => '<span name="municipality_name">Celestún, </span>',
+	'homepage_43' => '<span name="municipality_name">Celestún</span>',
 
 
 
