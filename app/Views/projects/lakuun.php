@@ -23,7 +23,7 @@
                 <div class="carousel carousel-fade slide  text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselHome">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="<?= STATIC_URL . 'img/lakuun/01-' . $lang . '.jpg' ?>" class= img-fluid w-100" width="1754 px" height="1240 px" alt="Entrada a Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                            <img src="<?= STATIC_URL . 'img/lakuun/01-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Entrada a Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/lakuun/02-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Vive en Tierra Dorada Lakuun, Mérida, Yucatán, México.">
@@ -373,7 +373,7 @@
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
+                                    <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                                 </div>
                                 <div class="row mt-2">
                                 <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
@@ -1322,7 +1322,7 @@
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
+                                    <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(-90deg);">
                                 </div>
                                 <div class="row mt-2">
                                     <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
