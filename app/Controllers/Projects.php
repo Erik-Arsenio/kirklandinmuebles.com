@@ -57,7 +57,7 @@ class Projects extends BaseController
 		// 	}
 		// }
 
-		// dd($projectName, $dataProject);
+		// dd($projectName);
 
 		// $dataProject = get_json_file ($projectName);
 		// $dataProject = json_encode($dataProject);
@@ -77,6 +77,7 @@ class Projects extends BaseController
 			"anthia"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of investment property lots"],
 			"marela_celestun"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of estate lots on the beach"],
 			"marela_beach"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
+			"marela_life"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
 	];
 
 		
