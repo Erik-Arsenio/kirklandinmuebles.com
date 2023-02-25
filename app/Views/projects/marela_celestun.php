@@ -95,7 +95,7 @@
                 <ul>
                     <li class="h4">Energía elérctrica sobre carretera</li>
                     <li class="h4">Vías de acceso rápido y amplias</li>
-                    <li class="h4">Desde 576.160,00 MXN</li>
+                    <li class="h4">Desde 576,160 MXN</li>
                     <li class="h4">A 5 minutos de Celestún y a 45 de Mérida</li>
                     <li class="h4">Club de playa privada</li>
                     <li class="h4">Casa club</li>
