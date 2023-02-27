@@ -117,7 +117,7 @@
                 <p class="h4">El mar y la tranquilidad que el estado más seguro del país puede ofrecerte.</p>
             </div>
             <div class="col-lg-6 wow slideInRight" data-wow-delay="0.1s">
-                <div class="about-img-right position-relative overflow-hidden p-5 pe-0">
+                <div class="about-img-right position-relative overflow-hidden p-5 pe-0" id="carouselAmenities">
                     <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_celestun/11.jpg' ?>" loading="lazy">
                 </div>
             </div>
@@ -1810,7 +1810,9 @@
 <!-- Property List End -->
 
 <div class="data">
-<input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_celestun.json') ?>'>
+    <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_celestun.json') ?>'>
+    <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
+    <input type="hidden" name="language" id="language" value='<?= $lang ?>'>
 </div>
 
 <!-- Modal -->
