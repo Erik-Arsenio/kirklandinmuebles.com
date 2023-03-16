@@ -30,6 +30,7 @@ class Home extends BaseController
 		// Set data index
 		$dataIndex = [
 			'lang' => $lang,
+			'sectionAttractions' => view('templates/attractions'),
 			'sectionContact' => view('templates/contact', $datalang),
 			'sectionReviews' => view('templates/reviews')
 		];

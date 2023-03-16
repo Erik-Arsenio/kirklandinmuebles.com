@@ -90,6 +90,7 @@ class Projects extends BaseController
 
 		// Set data index
 		$dataIndex = [
+			'sectionAttractions' => view('templates/attractions'),
 			'sectionContact' => view('templates/contact', $datalang),
 			'sectionReviews' => view('templates/reviews'),
 			'projectStage' => $projectStage,

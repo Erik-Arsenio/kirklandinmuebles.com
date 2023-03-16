@@ -1840,6 +1840,7 @@
     <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/marela_life.json') ?>'>
     <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
     <input type="hidden" name="language" id="language" value='<?= $lang ?>'>
+    <input type="hidden" name="investment" id="investment" value=''>
 </div>
 
 <!-- Modal -->

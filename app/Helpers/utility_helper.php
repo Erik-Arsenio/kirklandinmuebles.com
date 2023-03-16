@@ -41,10 +41,17 @@ if (!function_exists('load_js')) {
 	{
 		$staticUrl = STATIC_URL;
 		$buffer = "";
-
+		// $type = "";
+		// var_dump($jsFiles);
 		foreach ($jsFiles as $jsFile) {
+			// if ($jsFile == 'js/main' or $jsFile == 'js/app-home') {
+			// 	# code...
+			// 	$type = " type='module'";
+			// } 
+				// $buffer .= "<script src='{$staticUrl}{$jsFile}.js' {$type}></script>" . PHP_EOL;
 			$buffer .= "<script src='{$staticUrl}{$jsFile}.js'></script>" . PHP_EOL;
 		}
+		// dd($buffer);
 
 		return $buffer . (PHP_EOL);
 	}
