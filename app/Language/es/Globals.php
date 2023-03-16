@@ -132,7 +132,7 @@ return [
 
 	// text in Anthia
 	'location_7' => 'Atractivos turísticos y comerciales cercanos al desarrollo',
-	'location_8' => 'en los marcadores',
+	'location_8' => 'en los botones circulares ó en los nombres de los desarrollos',
 	'location_9' => '¿Por qué comprar un lote patrimonial de inversión en Anthia?',
 	'location_10' => 'Nuestro desarrollo está pensado en un retorno de inversión a mediano plazo',
 	'location_11' => 'Terrenos listos para escriturar',

@@ -132,7 +132,7 @@ return [
 
 	// location text in Anthia
 	'location_7' => 'Tourist and commercial attractions near the development',
-	'location_8' => 'on the circular buttons',
+	'location_8' => 'on the circular buttons or in the names of the developments',
 	'location_9' => 'Why buy an investment lot in Anthia?',
 	'location_10' => 'Our development is designed for a medium-term return on investment',
 	'location_11' => 'Land ready for title tranfer',
