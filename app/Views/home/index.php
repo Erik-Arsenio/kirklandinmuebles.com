@@ -18,7 +18,7 @@
 							<img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 						</div>
 						<div class="carousel-item">
-							<img src="<?= STATIC_URL . 'img/marela_life/02-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+							<img src="<?= STATIC_URL . 'img/marela_life/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" width="1754 px" height="1240 px" alt="Playa de Marela Beach">
@@ -4396,7 +4396,10 @@
 								<img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_life/02-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/marela_life/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+							</div>
+							<div class="carousel-item">
+								<img src="<?= STATIC_URL . 'img/marela_life/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselLife" data-bs-slide="prev">
