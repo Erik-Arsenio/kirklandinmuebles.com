@@ -8,6 +8,12 @@
             "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/master-plan-lakuun-"}, { "url_scrap":"https://www.desarrollosacd.com/master-plan-lakuun-etapa-"}]
         },
         {
+            "project_name": "marela_life",
+            "project_id": [{"id": 15222}],
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://www.desarrollosacd.com/master-plan-marela-life"}]
+        },
+        {
             "project_name": "marela_beach",
             "project_id": [{"id": 15202}],
             "numbers_stage": 1,
