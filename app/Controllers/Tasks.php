@@ -188,7 +188,9 @@ class Tasks extends BaseController
 
                             $updateProject1 = get_json_file($projectName .$url_stage. '_update');
                             $updateProject2 = $updateProject1->data_regions->regions;
-                            // if ($projectName == "anthia" && $url_stage == "-1") {
+                            if ($projectName == "anthia" && $url_stage == "3") {
+                                dd($dataProject, $updateProject2);
+                            }
                                 $updateProject2 = json_decode(json_encode($updateProject2), true);
                                 echo "Cantidad- " . count( $updateProject2) . "<br>";
                                 for ($i=0; $i < count($updateProject2); $i++) { 
@@ -217,7 +219,19 @@ class Tasks extends BaseController
                             // Call search and pass the array and
                             // the search list
                             $res = search($updateProject, $search_items);
+                            // if ($projectName == "anthia") {
+                            //     dd($projectName, $dataProject, $updateProject, $res);
+                            // }
                             if ($res) {
+                                if ($projectName == "anthia" && $res[0]['status'] == null) {
+                                    // var_dump($res[0]);
+                                    $res[0]['status'] = 1;
+                                    $res[0]['status_text'] = "Disponible";
+                                    // var_dump($res[0]);
+                                    echo "Error en datos de scrap en " . $projectName. " en Etapa- " . $url_stage . " en estado del lote- " . $res[0]['id']. ' con estatus: Status NULL' . '<br>';
+                                    log_message('debug',  "Error en datos de scrap en " . $projectName. " en Etapa- " . $url_stage . " en estado del lote- " . $res[0]['id']. ' con estatus: Status NULL' );
+                                    // dd($projectName, $dataProject, $updateProject, $res);
+                                }
                                 // echo "Status Update de ". $res[0]['status_text'] .  "<br>";
                                 // echo "Etapa- " . $dataProject['properties'][$key]['stage'] . " --> " .$dataProject['properties'][$key]['name']. ' : Status '.$dataProject['properties'][$key]['status_name']. ' => '. $res[0]['id'].' : Status '. $res[0]['status_text'].'<br>';
                                 if ($dataProject['properties'][$key]['status_id'] !=  $res[0]['status']) {
