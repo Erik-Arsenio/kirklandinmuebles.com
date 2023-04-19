@@ -63,7 +63,7 @@
 								<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 								<div class="dropdown-menu rounded-0 m-0">
 									<a href="<?= base_url('investments/lakuun/?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">Lakuun</a>
-									<a href="<?= base_url('investments/anthia/3?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
+									<a href="<?= base_url('investments/anthia/4?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
 									<!-- <a href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_life')) ? ' active' : '' ?>" target="_blank">Marela Life</a> -->
 									<a href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">Marela <?= lang('Globals.homepage_43') ?></a>
 									<a href="<?= base_url('investments/marela_beach?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">Marela Beach</a>
