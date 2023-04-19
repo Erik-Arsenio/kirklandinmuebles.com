@@ -8608,7 +8608,7 @@
                                 Loading image...
                             </div>
                             <div class="row">
-                                <img src="<?= STATIC_URL . 'img/wind-rose_ES.svg' ?>" alt="Brujula" height="100px" style="transform: rotate(0deg);">
+                            <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                             </div>
                             <div class="row mt-2">
                                 <p class="small fw-bolder text-center">Para más información, pase el mouse sobre el mapa</p>
