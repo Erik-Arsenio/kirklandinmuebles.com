@@ -7494,12 +7494,39 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row row-cols-1 row-cols-lg-1">
+                                <div class="row row-cols-1 row-cols-lg-2">
+                                    <div class="col wow fadeInUp mb-5 " data-wow-delay="0.1s">
+                                        <div class="card border-3 h-100 shadow px-0">
+                                            <div class="card-header text-center">
+                                                <p class="h3 text-success"><?= lang('Globals.premiun_lot') ?></p>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row text-center">
+                                                    <div class="col-6">
+                                                        <p class="h6"><?= lang('Globals.price') ?> <?= lang('Globals.per') ?> m<small><sup>2</sup></small></p>
+                                                        <p class="h4 text-success">482 <span class="h4">MXN</span></p> 
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p class="h6"><span class="text-nowrap"><?= lang('Globals.financing') ?></span> <span class="text-nowrap"><?= lang('Globals.upto') ?></span></p>
+                                                        <p class="h4 text-success">60 <span class="h5"><?= lang('Globals.msi') ?></span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="row text-center">
+                                                    <p class="h6"><?= lang('Globals.down_payment') ?></p>
+                                                    <p class="h4 text-success">10%</h6>
+
+                                                </div>
+                                            </div>
+                                            <!-- <div class="card-footer">
+                                                <p class="card-title text-center h4">Entrega Diciembre 2025 </p>
+                                                        </div> -->
+                                        </div>  
+                                    </div>                 
                                     <div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-                                        <div class="card border-5 h-100 shadow px-0">
+                                        <div class="card border-3 h-100 shadow px-0">
                                             <div class="card-header text-center">
                                                 <!-- <p class="h2">Precio por m<small><sup>2</sup></small></p> -->
-                                                <p class="h2 text-success"><?= lang('Globals.type_lot') ?></p>
+                                                <p class="h3 text-success"><?= lang('Globals.standard_lot') ?></p>
                                             </div>
                                             <div class="card-body">
                                                 <div class="row text-center">
