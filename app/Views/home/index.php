@@ -4390,16 +4390,16 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselLife" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="" data-href="">
+					<div id="carouselLife" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_life/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/marela_life/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/marela_life/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/marela_life/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
 							</div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselLife" data-bs-slide="prev">
@@ -4412,11 +4412,11 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body " title="" data-href="" >
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?> >
 					<h4 class="card-text text-center" name="project_heading"><?= lang('Globals.header_5') ?></h4>
 					<h6 class="card-text text-center" name="project_description"><?= lang('Globals.homepage_13') ?></h6>
 				</div>
-				<div class="card-footer" title="" data-href="">
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?>>
 					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_43') ?>, <?= lang('Globals.homepage_40') ?></small>
 				</div>
 			</div>
@@ -4424,7 +4424,7 @@
 		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/3?lang='. $lang) ?>>
+					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/4?lang='. $lang) ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/anthia/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" alt="Anthia, Mérida, Yucatán, México. Desarrollo de terrenos de inversión semiurbanizados">
@@ -4455,11 +4455,11 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body  btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/3?lang='. $lang) ?>>
+				<div class="card-body  btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/4?lang='. $lang) ?>>
 					<h4 class="card-text text-center" name="project_heading"><?= lang('Globals.header_4') ?></h4>
 					<h6 class="card-text text-center" name="project_description"><?= lang('Globals.homepage_10') ?></h6>
 				</div>
-				<div class="card-footer  btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/3?lang='. $lang) ?>>
+				<div class="card-footer  btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/4?lang='. $lang) ?>>
 					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span><?= lang('Globals.homepage_41') ?><?= lang('Globals.homepage_40') ?></small>
 				</div>
 			</div>
