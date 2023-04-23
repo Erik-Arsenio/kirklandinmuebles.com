@@ -144,6 +144,9 @@ return [
 	'location_15' => 'Why buy a residential lot in MARELA BEACH CELESTÚN?',
 	'location_16' => 'Our development is designed for a short-term return on investment',
 	'location_17' => 'Only 45 minutes away from Merida',
+
+	// text in Marela Life
+	'location_18' => 'Why buy a residential lot in MARELA LIFE?',
 	
 
 	// text in Lakuun
@@ -194,6 +197,16 @@ return [
 	'characteristic_41'  => 'Ready for title transfer',
 	'characteristic_42'  => 'Beach Club',
 
+	// characteristic text in Marela Life
+	'characteristic_43'  => 'Private residential to a corner of the beach',
+	'characteristic_44'  => '100% urbanized lots',
+	'characteristic_45'  => 'Lots one block from the beach',
+	'characteristic_46'  => 'Visitor parking',
+	'characteristic_47'  => 'Lots with area from 176m<sup>2</sup> (8x22)',
+	'characteristic_48'  => 'Guard booth',
+	'characteristic_49'  => 'White sand streets',
+	'characteristic_50'  => 'Only 5 minutes away from Celestun and 45 Merida',
+
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
 	'club_2'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
@@ -228,6 +241,51 @@ return [
 	'clubhouse_22'  => 'Bathrooms with Dressing Rooms',
 	'clubhouse_23'  => 'Storage Room',
 	'clubhouse_24'  => '24/7 Surveillance',
+
+	// Club House text in Marela Life
+	'clubhouse_25'  => 'Front area',
+	'clubhouse_26'  => 'Iconic Entrance',
+	'clubhouse_27'  => 'Multipurpose terrace (yoga, small meetings)',
+	'clubhouse_28'  => 'Lobby with light cube',
+	'clubhouse_29'  => '2 accesses for people with disabilities',
+	'clubhouse_30'  => '3 entrances distributed throughout the clubhouse',
+	'clubhouse_31'  => 'Bathroom area',
+	'clubhouse_32'  => 'Outdoor areas',
+	'clubhouse_33'  => 'Path that takes you to the outdoor areas',
+	'clubhouse_34'  => 'Sandbox with children\'s games',
+	'clubhouse_35'  => 'Outside ping pong',
+	'clubhouse_36'  => 'Petanque',
+	'clubhouse_37'  => 'Sand cornhole',
+	'clubhouse_38'  => '1st Living Area',
+	'clubhouse_39'  => 'Reception for diners',
+	'clubhouse_40'  => 'Adult private area',
+	'clubhouse_41'  => 'Island with a reflecting pool',
+	'clubhouse_42'  => '2nd Living Area',
+	'clubhouse_43'  => 'Family sitting area',
+	'clubhouse_44'  => 'Lounge area with reflecting pool',
+	'clubhouse_45'  => 'Adult pool with infinity pool',
+	'clubhouse_46'  => '3rd Living Area',
+	'clubhouse_47'  => 'Restaurant service',
+	'clubhouse_48'  => '<span class="mdi mdi-checkbox-blank-circle text-danger"></span>  1st and  <span class="mdi mdi-checkbox-blank-circle text-success"></span>  2nd Living Area',
+	'clubhouse_49'  => 'Top view of the Club House',
+	'clubhouse_50'  => 'Reference image',
+	'clubhouse_60'  => '<span class="mdi mdi-checkbox-blank-circle text-danger"></span>  3rd Living Area y <span class="mdi mdi-checkbox-blank-circle text-primary"></span>  Green areas',
+	
+	'clubhouse_51'  => 'Your only concern in Marela Life will be choosing the option to relax.',
+	'clubhouse_52'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
+	'clubhouse_53'  => 'Side entrance to Club House',
+	'clubhouse_54'  => 'View from the lobby of the lounge area with reflecting pool',
+	'clubhouse_55'  => 'View of the island with a reflecting pool',
+	'clubhouse_56'  => 'View of the lounge area with reflecting pool',
+	'clubhouse_57'  => 'View of private adult sitting area',
+	'clubhouse_58'  => 'View from the lounge area to the reflecting pool and lobby',
+	'clubhouse_59'  => 'View of the reflecting pool and looby',
+
+
+	// text Beach Club
+	'club_5'  => 'Enjoy the Club House within the development.',
+	'club_6'  => 'BEACH CLUB offers a place to enjoy with its innovative design created to have direct contact with the beautiful waters of Celestun. The perfect balance between the beach and the safest city in the state.',
+
 	
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',

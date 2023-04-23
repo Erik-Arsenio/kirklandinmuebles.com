@@ -144,8 +144,10 @@ return [
 	'location_15' => '¿Por qué comprar un lote residencial en MARELA BEACH CELESTÚN?',
 	'location_16' => 'Nuestro desarrollo está pensado en un retorno de inversión a corto plazo',
 	'location_17' => 'Solo a 45 minutos de Mérida',
-
 	
+	// text in Marela Life
+	'location_18' => '¿Por qué comprar un lote residencial en MARELA LIFE?',
+
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -195,11 +197,22 @@ return [
 	'characteristic_41'  => 'Listos para escriturar',
 	'characteristic_42'  => 'Club de playa',
 
+	// characteristic text in Marela Life
+	'characteristic_43'  => 'Privada residenciales a una esquina de la playa',
+	'characteristic_44'  => 'Lotes 100% urbanizados',
+	'characteristic_45'  => 'Lotes a una cuadra de la playa',
+	'characteristic_46'  => 'Estacionamiento de visitas',
+	'characteristic_47'  => 'Lotes con superficies desde 176m<sup>2</sup> (8x22)',
+	'characteristic_48'  => 'Caseta de acceso y vigilancia',
+	'characteristic_49'  => 'Calles blancas y de arena',
+	'characteristic_50'  => 'A 5 minutos de Celestún y a 45 de Mérida',
+
+
 
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
-	
+
 
 	// Club House text in Lakuun
 	'clubhouse_1'  => 'Entrada distintiva',
@@ -230,7 +243,51 @@ return [
 	'clubhouse_22'  => 'Baños con vestidores',
 	'clubhouse_23'  => 'Bodega',
 	'clubhouse_24'  => 'Vigilancia 24/7',
-	
+
+	// Club House text in Marela Life
+	'clubhouse_25'  => 'Área delantera',
+	'clubhouse_26'  => 'Entrada Icónica',
+	'clubhouse_27'  => 'Terraza de usos múltiples (yoga, pequeñas reuniones)',
+	'clubhouse_28'  => 'Lobby con cubo de luz',
+	'clubhouse_29'  => '2 accesos para personas con discapacidad',
+	'clubhouse_30'  => '3 accesos distribuidos a los largo de la casa club',
+	'clubhouse_31'  => 'Área de baño',
+	'clubhouse_32'  => 'Áreas exteriores',
+	'clubhouse_33'  => 'Sendero que te lleva a las áreas exteriores',
+	'clubhouse_34'  => 'Arenero con juegos para niños',
+	'clubhouse_35'  => 'Ping pong exterior',
+	'clubhouse_36'  => 'Petanca',
+	'clubhouse_37'  => 'Cornhole de arena',
+	'clubhouse_38'  => '1ra Área de estar',
+	'clubhouse_39'  => 'Recepción para comensales',
+	'clubhouse_40'  => 'Área privada adultos',
+	'clubhouse_41'  => 'Isla con espejo de agua',
+	'clubhouse_42'  => '2da Área de estar',
+	'clubhouse_43'  => 'Área de estar familiar',
+	'clubhouse_44'  => 'Área de camastros con espejo de agua',
+	'clubhouse_45'  => 'Alberca de adultos con infinity pool',
+	'clubhouse_46'  => '3ra Área de estar',
+	'clubhouse_47'  => 'Servicio de restaurante',
+	'clubhouse_48'  => '<span class="mdi mdi-checkbox-blank-circle text-danger"></span>  1ra y <span class="mdi mdi-checkbox-blank-circle text-success"></span>  2da Áreas de estar',
+	'clubhouse_49'  => 'Vista superior de la Casa Club',
+	'clubhouse_50'  => 'Imagen de referencia',
+	'clubhouse_60'  => '<span class="mdi mdi-checkbox-blank-circle text-danger"></span>  3ra Área de estar y <span class="mdi mdi-checkbox-blank-circle text-primary"></span>  Áreas verdes',
+
+	'clubhouse_51'  => 'Tu única preocupación en Marela Life será elegir la opción para relajarte',
+	'clubhouse_52'  => 'Reconéctate con la naturaleza, entre la diversidad del entorno de nuestro desarrollo, sus características únicas, el mar y la tranquilidad que el estado más seguro del país puede ofrecerte.',
+	'clubhouse_53'  => 'Entrada lateral a la Casa Club',
+	'clubhouse_54'  => 'Vista desde el lobby del área de camastros con espejo de agua',
+	'clubhouse_55'  => 'Vista de la isla con espejo de agua',
+	'clubhouse_56'  => 'Vista del área de camastros con espejo de agua',
+	'clubhouse_57'  => 'Vista de área de estar privada de adultos',
+	'clubhouse_58'  => 'Vista desde el área de camastros al espejo de agua y lobby',
+	'clubhouse_59'  => 'Vista del espejo de agua y looby',
+
+
+	// text Beach Club
+	'club_5'  => 'Cuenta con una Casa Club dentro del desarrollo.',
+	'club_6'  => 'El Club de playa te ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
+
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
 	'stages'  => 'Etapas',
