@@ -285,7 +285,7 @@ return [
 
 
 	// text Beach Club
-	'club_5'  => 'Cuenta con una Casa Club dentro del desarrollo.',
+	'club_5'  => 'Disfruta del CLUB de PLAYA con que cuenta el desarrollo.',
 	'club_6'  => 'El Club de playa te ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
 
 	// text in Lakuun

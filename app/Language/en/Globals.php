@@ -283,7 +283,7 @@ return [
 
 
 	// text Beach Club
-	'club_5'  => 'Enjoy the Club House within the development.',
+	'club_5'  => 'Enjoy the BEACH CLUB with which the development counts.',
 	'club_6'  => 'BEACH CLUB offers a place to enjoy with its innovative design created to have direct contact with the beautiful waters of Celestun. The perfect balance between the beach and the safest city in the state.',
 
 	
