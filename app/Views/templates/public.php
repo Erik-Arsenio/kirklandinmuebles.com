@@ -18,21 +18,21 @@
 	<meta name="google-site-verification" content="S15Mw-HJ9NoCXIvZj4VFltpy1Ut-qUz-HPdad4cdAlU" />
 	<?= load_css([
 		'bootstrap/css/bootstrap.min',
-		'lib/animate/animate.min',
-		'material_design_webfont/css/materialdesignicons.min',
+		// 'lib/animate/animate.min',
+		'material_design_webfont/css/materialdesignicons',
 		'css/flag-icon.min',
 		'css/style'
 	]) ?>
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCGEQ3M0D5"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCGEQ3M0D5"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'G-ZCGEQ3M0D5');
-</script>
+</script> -->
 <body>
 	<!-- <div class="container-fluid bg-white p-0 mx-0"> -->
 		<!-- Spinner Start -->
@@ -82,7 +82,6 @@
 									</div>
 								</form>
 							</div> 
-
 						</div>
 					</div>
 				</nav>
@@ -152,10 +151,10 @@
 	<?= load_js([
 		'js/jquery-3.6.0.min',
 		'bootstrap/js/bootstrap.bundle.min',
-		'lib/wow/wow.min',
 		'lib/easing/easing.min',
+		// 'lib/wow/wow.min',
 		'js/main',
-	]) ?>
+		]) ?>
 
 	<!-- Custom JavaScript Libraries -->
 	<?= isset($js) ? $js : null ?>
