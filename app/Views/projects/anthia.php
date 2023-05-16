@@ -4540,7 +4540,7 @@
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
-                            <div class="row mapsvg-scrollpane text-center" style="max-width: 700px; min-height: 200px;  ">
+                            <div class="row mapsvg-region text-center map-svg" style="max-width: 700px; min-height: 200px;  " id="stage-1">
                                 <!-- SVG -->
                                 <svg version="1.1" x="0px" y="0px" viewBox="-50 0 1570 1230" style="width: 700px; transform: scale(1);" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
                                     <defs>
@@ -5449,7 +5449,7 @@
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
-                            <div class="row">
+                            <div class="row text-center map-svg" id="stage-2">
                                 <!-- SVG -->
                                 <svg version="1.1" x="0px" y="0px" viewBox="0 0 1300 900" style="width: 1100px; transform: scale(1);" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
                                     <style type="text/css">
@@ -6530,7 +6530,7 @@
                             <div class="row mt-2">
                             <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                             </div>
-                            <div class="row text-center" style="max-width: 1200px; min-height: 200px;  ">
+                            <div class="row text-center map-svg" style="max-width: 1200px; min-height: 200px;  " id="stage-3">
                                 <!-- SVG -->
                                 <svg x="0px" y="0px" viewBox="-50 0 4500 3000" style="transform: scale(1.1);" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
                                     <defs>
@@ -7563,7 +7563,7 @@
                                 <div class="row mt-2">
                                     <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
                                 </div>
-                                <div class="row text-center image_map d-none" style="max-width: 1300px; min-height: 200px;  ">
+                                <div class="row text-center image_map map-svg d-none" style="max-width: 1300px; min-height: 200px;  " id="stage-4">
                                     <!-- SVG -->
                                     <svg x="0px" y="0px" viewBox="0 0 1300 900" style="transform: scale(1);" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
                                         <style type="text/css">
