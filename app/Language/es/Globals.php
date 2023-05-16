@@ -382,6 +382,7 @@ return [
 	'contactform_13' => 'Cualquiera',
 	'contactform_14' => 'Enviar',
 	'contactform_15' => 'Este campo es obligatorio',
+	'contactform_16' => 'Código de promoción',
 	
 	// Email Controller
 	'not_conection' => 'Revise Chequee su conexión a internet',

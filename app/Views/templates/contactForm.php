@@ -3,7 +3,7 @@
     <form id="form_contact" action="<?= route_to('send.email') ?>" method="post">
         <?= csrf_field() ?>
         <div class="row d-flex justify-content-center">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-8">
                 <div class="card border-success mb-3">
                     <div class="card-header bg-transparent border-success">
                         <h1 class="card-title fs-5 text-center text-success"><?= lang('Globals.contact_us') ?></h1>
@@ -55,13 +55,18 @@
                                     <?= (session('errors.email') ? lang('Globals.contactform_15') : ''); ?>
                                 </span>
                             </div>
+                            <div class="col">
+                                    <input type="email" class="form-control" name="code_promo" id="code_promo" placeholder="<?= lang('Globals.contactform_16') ?>" value="<?= old('code_promo') ?>">
+                                    <!-- <input type="email" class="form-control" name="email" id="email" placeholder="<?= lang('Globals.contactform_7') ?>" value="<?= old('email') ?>"> -->
+
+                            </div>
                         </div>
                         <div class="row mx-1 my-3">
                             <label for="message" class="form-label h6 text-center"><?= lang('Globals.contactform_8') ?></label>
                             <textarea class="form-control" name="message" id="message" rows="6"><?= old('message') ?></textarea>
                         </div>
-                        <div class="row mx-1 my-3">
-                            <p class="h6 mb-4"><?= lang('Globals.contactform_9') ?></p>
+                        <div class="row mx-1 mb-3">
+                            <p class="h6 mb-1"><?= lang('Globals.contactform_9') ?></p>
                         </div>
                         <div class="form-check form-check-inline mb-3">
                             <?php //var_dump($projects) ?>
