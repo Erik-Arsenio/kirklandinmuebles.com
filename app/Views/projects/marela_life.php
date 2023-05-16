@@ -28,13 +28,13 @@
             <div class="carousel slide text-center" data-bs-touch="false" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="img-fluid w-100"  width="1754 px" height="1240 px"  width="1754 px" height="1240 px" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="img-fluid w-100"  width="1754 px" height="1240 px" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_life/06-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px"  width="1754 px" height="1240 px" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_life/06-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= STATIC_URL . 'img/marela_life/03-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px"  width="1754 px" height="1240 px" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_life/03-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_life/02-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px" alt="...">
