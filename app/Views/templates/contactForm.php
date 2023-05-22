@@ -1,5 +1,5 @@
 <!-- Content ContactForm Start -->
-<div class="container-xxl text-center py-3">
+<div class="container-xxl text-center py-3" id="image_site">
     <form id="form_contact" action="<?= route_to('send.email') ?>" method="post">
         <?= csrf_field() ?>
         <div class="row d-flex justify-content-center">
@@ -56,7 +56,7 @@
                                 </span>
                             </div>
                             <div class="col">
-                                    <input type="email" class="form-control" name="code_promo" id="code_promo" placeholder="<?= lang('Globals.contactform_16') ?>" value="<?= old('code_promo') ?>">
+                                    <input type="text" class="form-control" name="code_promo" id="code_promo" placeholder="<?= lang('Globals.contactform_16') ?>" value="<?= old('code_promo') ?>">
                                     <!-- <input type="email" class="form-control" name="email" id="email" placeholder="<?= lang('Globals.contactform_7') ?>" value="<?= old('email') ?>"> -->
 
                             </div>
@@ -87,7 +87,22 @@
                         </div>
                         <div class="form-check form-check-inline mb-3">
                             <p class="h6 mb-4"><?= lang('Globals.contactform_10') ?></p>
-                            <div class="form-check-inline px-2">
+                            <!-- <?php var_dump($lang_return) ?> -->
+                            <?php foreach ($lang_return as $lr) : ?>
+                                <div class="form-check-inline px-2">
+                                    <input class="form-check-input" type="checkbox" name="lang_return[]" id="<?= lcfirst($lr) ?>" value="<?= $lr ?>" 
+                                        <?=
+                                            old("lang_return")
+                                                ?
+                                                (in_array($lr, old('lang_return'))
+                                                    ? 'checked'
+                                                    : '')
+                                                : ''
+                                        ?>>
+                                    <label class="form-check-label"><?= lang("Globals." . $lr ."") ?></label>
+                                </div>
+                            <?php endforeach; ?>
+                            <!-- <div class="form-check-inline px-2">
                                 <input class="form-check-input" type="checkbox" name="spanish" value="<?= lang('Globals.contactform_11') ?>">
                                     <label class="form-check-label"><?= lang('Globals.contactform_11') ?></label>
                             </div>
@@ -98,7 +113,7 @@
                             <div class="form-check-inline px-2">
                                 <input class="form-check-input" type="checkbox" name="either" value="<?= lang('Globals.contactform_13') ?>">
                                 <label class="form-check-label"><?= lang('Globals.contactform_13') ?></label>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="card-footer bg-transparent border-success">
