@@ -41,7 +41,7 @@ class Home extends BaseController
 			// 'languaje' => $languaje,
 			'title' => $pageTitle[$lang],
 			'content' => view('home/index', $dataIndex),
-			'js' => load_js([])
+			'js' => load_js(['js/app-home'])
 		];
 		// Output the view
 		echo view('templates/public', $data);
