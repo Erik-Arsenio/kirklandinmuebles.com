@@ -3,8 +3,8 @@
 		<div class="row g-0 text-center">
 			<div class="col-md-6 p-3 mt-0 mt-xxl-5">
 				<h1 class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_1') ?></h1>
-				<p class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_2') ?></p>
-				<p class="animated slideInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></p>
+				<h2 class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_2') ?></h2>
+				<h3 class="animated slideInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></h3>
 				<div class="m-4 text-center">
 					<a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4 not_mobile d-none" target="_blank">
 					<?= lang('Globals.header_3') ?>
@@ -23,49 +23,49 @@
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" loading="lazy" width="877 px" height="620 px" alt="Playa de Marela Beach">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_beach/09-' . $lang . '.jpg' ?>"  loading="lazy" width="877 px" height="620 px" alt="Ubicación del Desarrollo de Marela Beach">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/04.jpg' ?>"  loading="lazy" width="825 px" height="588 px" alt="Marela Celestún en la hermosa playa de esmeralda">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_celestun/06.jpg' ?>"  loading="lazy" width="825 px" height="588 px" alt="Ubicación del Desarrollo de Marela Celestún">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/01-' . $lang . '.jpg' ?>"  loading="lazy" width="1754 px" height="1240 px" alt="Anthia,Mérida, Yucatán, México. Desarrollo de terrenos de inversión semiurbanizados">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/anthia/07-' . $lang . '.jpg' ?>"  loading="lazy" width="1754 px" height="1240 px" alt="Master Plan de 5 etapas del Desarrollo de inversión semiurbanizados en Anthia">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/lakuun/01-' . $lang . '.jpg' ?>"  loading="lazy" width="1754 px" height="1240 px" alt="Entrada distintiva del Desarrollo de Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/lakuun/07-' . $lang . '.jpg' ?>"  loading="lazy" width="1754 px" height="1240 px" alt="Master Plan de Lakuun, Mérida, Yucatán, México. Con 3 etapas del Desarrollo de lotes residenciales 100% semiurbanizados">
 							<div class="carousel-caption d-none">
-								<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+								<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 							</div>
 						</div>
 					</div>
@@ -4429,19 +4429,19 @@
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/anthia/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Anthia, Mérida, Yucatán, México. Desarrollo de terrenos de inversión semiurbanizados">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/anthia/13-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan de 5 etapas del Desarrollo de inversión semiurbanizados en Anthia">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/anthia/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Imagen de lotes de la 3ra etapa del Desarrollo de Anthia">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 						</div>
@@ -4472,19 +4472,19 @@
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/lakuun/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Entrada distintiva del Desarrollo de Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/lakuun/06-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Desarrollo de Lakuun, Mérida,Yucatán. Conformado por 3 etapas y 19 amenidades">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/lakuun/07-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan de Lakuun, Mérida, Yucatán, México. Con 3 etapas del Desarrollo de lotes residenciales 100% semiurbanizados">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 						</div>
@@ -4515,19 +4515,19 @@
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/marela_beach/01-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="877 px" height="620 px" alt="Playa de Marela Beach en Mérida, Yucatán, México.">
 								<div class="carousel-caption sold d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_beach/09-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="877 px" height="620 px" alt="Ubicación del Desarrollo de Marela Beach en Mérida, Yucatán, México.">
 								<div class="carousel-caption sold d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_beach/10-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="877 px" height="620 px" alt="Master Plan de Marela Beach, Mérida, Yucatán, México.">
 								<div class="carousel-caption sold d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 						</div>
@@ -4558,19 +4558,19 @@
 							<div class="carousel-item active">
 								<img src="<?= STATIC_URL . 'img/marela_celestun/01.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="825 px" height="588 px" alt="Marela Celestún, Mérida, Yucatán, México">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_celestun/05.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="825 px" height="588 px" alt="Master Plan de Marela Celestún, Mérida, Yucatán, México.">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_celestun/06.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="825 px" height="588 px" alt="Ubicación del Desarrollo de Marela Celestún">
 								<div class="carousel-caption d-none">
-									<h3 class="fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></h3>
+									<p class="h3 fs-1 text-uppercase text-danger bg-dark-subtle"><?= lang('Globals.header_7') ?></p>
 								</div>
 							</div>
 						</div>
