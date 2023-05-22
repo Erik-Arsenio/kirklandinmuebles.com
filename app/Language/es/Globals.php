@@ -383,6 +383,9 @@ return [
 	'contactform_14' => 'Enviar',
 	'contactform_15' => 'Este campo es obligatorio',
 	'contactform_16' => 'Código de promoción',
+	'Spanish' => 'Español',
+	'English' => 'Ingles',
+	'Either' => 'Cualquiera',
 	
 	// Email Controller
 	'not_conection' => 'Revise Chequee su conexión a internet',

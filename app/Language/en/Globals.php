@@ -379,6 +379,9 @@ return [
 	'contactform_14' => 'Send',
 	'contactform_15' => 'This field is required',
 	'contactform_16' => 'Promotion code',
+	'Spanish' => 'Spanish',
+	'English' => 'English',
+	'Either' => 'Either',
 
 	// Email Controller
 	'not_conection' => 'Check your internet connection',
