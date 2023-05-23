@@ -4,7 +4,7 @@
 			<div class="col-md-6 p-3 mt-0 mt-xxl-5">
 				<h1 class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_1') ?></h1>
 				<p class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_2') ?></p>
-				<p class="animated slideInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></p>
+				<h2 class="animated slideInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></h2>
 				<div class="m-4 text-center">
 					<a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4 not_mobile d-none" target="_blank">
 					<?= lang('Globals.header_3') ?>
