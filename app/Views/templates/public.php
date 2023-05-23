@@ -5,13 +5,14 @@
 	<meta charset="utf-8">
 	<title><?= $title ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="Inmuebles, Venta de terrenos residenciales en Mérida Yucatán,Venta de lotes residenciales en Mérida Yucatán, Venta de lotes en Mérida Yucatán, Venta de terrenos en Mérida Yucatán,
-	venta de terrenos en yucatán cerca de la playa, venta de terrenos en la playa yucatán, venta de terrenos en yucatán economicos " >
-	<meta name="description" content="Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.">
+	<meta name="keywords" content="Venta de terrenos en Yucatán, Venta de terrenos residenciales en Mérida Yucatán, Venta de lotes residenciales en Mérida Yucatán, Venta de lotes en Mérida Yucatán, Venta de terrenos en Mérida Yucatán,
+	Venta de terrenos en yucatán cerca de la playa, Venta de terrenos en la playa Yucatán, Venta de terrenos economicos en Yucatán" >
+	<meta name="description" content="Venta de terrenos en Yucatán, Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.">
 	<link rel="canonical" href="https://kirklandinmobiliaria.com/">
 	<meta property="og:locale" content="es_ES">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?= $title ?>">
+	<meta property="og:description" content="Venta de terrenos en Yucatán, Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.">
 	<meta property="og:url" content="https://kirklandinmobiliaria.com/">
 	<meta property="og:site_name" content="Kirkland Inmobiliaria">
 
