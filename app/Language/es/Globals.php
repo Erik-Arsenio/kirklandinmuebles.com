@@ -81,9 +81,9 @@ return [
 	'confirm_3' => 'El proyecto fue Habilitado satisfactoriamente.',
 
 	// Home page text
-	'homepage_1' => 'Venta de Terrenos residenciales y lotes patrimoniales en Yucatán, México.',
-	'homepage_2' => 'Inversión en desarrollos residenciales.',
-	'homepage_3' => 'Invierte en lotes y terrenos residenciales con alta plusvalía',
+	'homepage_1' => 'Terrenos en venta en Yucatán, México.',
+	'homepage_2' => 'Inversión en desarrollos residenciales en Mérida, Yucatán.',
+	'homepage_3' => 'Invierte en lotes y terrenos residenciales con alta plusvalía en Mérida.',
 	'homepage_4' => '¿Por qué comprar lotes residenciales o lotes de inversión con nosotros?',
 	'homepage_5' => 'Ya sea que quieras mudarte o para vacacionar, nuestros terrenos de inversión te proporcionarán un excelente retorno de inversión y una diversificación de tu cartera.',
 	'homepage_6' => 'Este es el momento para invertir en el estado más seguro en México.',
