@@ -20,7 +20,7 @@ class Home extends BaseController
 		
 		// echo "Leguaje del select- " . $lang;
 		$pageTitle =[
-			"es"=>"Venta de Terrenos residenciales y lotes patrimoniales en Mérida, Yucatán, México.",
+			"es"=>"Terrenos en venta en Yucatán, México.",
 			"en"=>"Sale of residential land and residential lots in Yucatan, Mexico.",
 		];
 
