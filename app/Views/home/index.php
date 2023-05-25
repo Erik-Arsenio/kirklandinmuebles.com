@@ -2,9 +2,9 @@
 	<div class="container-xxl bg-white p-0 mt-2">
 		<div class="row g-0 text-center">
 			<div class="col-md-6 p-3 mt-0 mt-xxl-5">
-				<h1 class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_1') ?></h1>
-				<p class="animated slideInLeft h2 fw-bold mb-4"><?= lang('Globals.homepage_2') ?></p>
-				<h2 class="animated slideInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></h2>
+				<h1 class="h2 fw-bold mb-4"><?= lang('Globals.homepage_1') ?></h1>
+				<p class="h2 fw-bold mb-4"><?= lang('Globals.homepage_2') ?></p>
+				<h2 class="h4 mb-4 pb-2"><?= lang('Globals.homepage_3') ?></h2>
 				<div class="m-4 text-center">
 					<a href="<?= base_url('templates/contactForm/?lang='. $lang) ?>" type="button" class="btn btn-lg btn-outline-success text-decoration-none mt-4 not_mobile d-none" target="_blank">
 					<?= lang('Globals.header_3') ?>
@@ -12,7 +12,7 @@
 				</div>
 			</div>
 			<div class="col-md-6 pe-md-5">
-				<div class="carousel slide carousel-fade text-center animated fadeInRight" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" id="carouselHome">
+				<div class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" width="1754 px" height="1240 px" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
@@ -94,7 +94,7 @@
 	<!-- <div class="container"> -->
 		
 		<div class="row g-5 align-items-center" id="image_site">
-			<div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+			<div class="col-lg-6" >
 				<div class="row text-center mb-1">
 					<p class="h5 mb-0"><?= lang('Globals.location_7') ?></p>
 				</div>
@@ -4342,9 +4342,9 @@
                             <a type="button" href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
                             <rect x="100" y="425" class="st100" width="200" height="50"/>
                             </a>
-                            <!-- <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                            <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="70" y="515" class="st100" width="150" height="50"/>
-                            </a> -->
+                            </a>
                             <a type="button" href="<?= base_url('investments/anthia?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
                             <rect x="367" y="373" class="st100" width="100" height="50"/>
                             </a>
@@ -4363,8 +4363,8 @@
 					<!-- <img class="img-fluid w-100 shadow-lg border border-dark" src="<?= STATIC_URL . 'img/mapa_desarrollos.jpg' ?>" alt="Mapa de desarrollos en Mérida, Yucatán, México."> -->
 				</div>
 			</div>
-			<div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-				<div class="text-center mx-auto py-1" data-wow-delay="0.1s">
+			<div class="col-lg-6" >
+				<div class="text-center mx-auto py-1">
 					<p class="h3 mb-3"><?= lang('Globals.homepage_4') ?></p>
 				</div>
 				<p class="h4"><?= lang('Globals.homepage_5') ?></p>
@@ -4381,13 +4381,13 @@
 <div class="container-xxl">
 	<div class="row g-0 gx-5 align-items-center">
 		<div class="col-lg-12">
-			<div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+			<div class="text-center mx-auto mb-5">
 				<h1 class="text-uppercase mt-5 mb-2"><?= lang('Globals.homepage_9') ?></h1>
 			</div>
 		</div>
 	</div>
 	<div class="row row-cols-1 row-cols-lg-3 g-4">
-		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+		<div class="col mb-5">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselLife" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?>>
@@ -4412,7 +4412,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?> >
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?>>
 					<h4 class="card-text text-center" name="project_heading"><?= lang('Globals.header_5') ?></h4>
 					<h6 class="card-text text-center" name="project_description"><?= lang('Globals.homepage_13') ?></h6>
 				</div>
@@ -4421,7 +4421,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+		<div class="col mb-5">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/4?lang='. $lang) ?>>
@@ -4464,7 +4464,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+		<div class="col mb-5">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/lakuun/?lang='. $lang) ?>>
@@ -4507,7 +4507,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
+		<div class="col mb-5">
 			<div class="card property-item  border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden">
 					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach?lang='. $lang) ?>>
@@ -4550,8 +4550,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col wow fadeInUp mb-5" data-wow-delay="0.1s">
-			<div class="card property-item  border-5 h-100 shadow">
+		<div class="col mb-5">
+			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-bs-ride="true" data-href=<?= base_url('investments/marela_celestun?lang='. $lang) ?>>
 						<div class="carousel-inner">
