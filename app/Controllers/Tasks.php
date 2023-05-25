@@ -208,6 +208,7 @@ class Tasks extends BaseController
 
 					$dataProject = get_json_file ($projectName);
 					$dataProject = json_decode(json_encode($dataProject), true);
+                    // dd($dataProject);
 					$updateProject = json_decode(json_encode($updateProject), true);
 
 
@@ -257,7 +258,18 @@ class Tasks extends BaseController
 
                         $dataProject = updateAvailable($dataProject);
 
-                        // dd($dataProject);
+                        $dataAvailable = get_json_file ('available_lots');
+                        $dataAvailable = json_decode(json_encode($dataAvailable), true);
+                        // $dataAvailable = json_encode($dataAvailable);
+                        // var_dump($dataAvailable[$projectName]);
+                        $dataAvailable[$projectName] = $dataProject['available'];
+                        // var_dump($dataAvailable[$projectName]);
+                        $dataAvailable = json_encode($dataAvailable);
+                        $fAvailable = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'available_lots.json', "w+");
+                        fwrite($fAvailable, $dataAvailable);
+                        fclose($fAvailable);
+
+                        // dd($dataProject, $dataProject['available'], $projectName, $dataAvailable);
 
 
                         $dataProject = json_encode($dataProject);
