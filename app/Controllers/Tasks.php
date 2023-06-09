@@ -31,9 +31,8 @@ class Tasks extends BaseController
             // $message = '<b>Cambios en los Desarrollos:</b> ';
 
             $email = \Config\Services::email();
-            $email->setTo('carmen@kirklandinmobiliaria.com');
-            // $email->setCC('carmenphasesorainmobiliaria@gmail.com');
-            $email->setCC('erikgonzalez55@kirklandinmobiliaria.com');
+            // $email->setTo('carmen@kirklandinmobiliaria.com');
+            $email->setTo('erikgonzalez55@kirklandinmobiliaria.com');
             $email->setFrom('contact@kirklandinmobiliaria.com');
             $email->setSubject($subject);
             $email->setMessage($message);
