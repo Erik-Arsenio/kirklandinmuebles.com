@@ -34,7 +34,31 @@
 
 	gtag('config', 'G-ZCGEQ3M0D5');
 </script> -->
+
 <body>
+
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script>
+	window.botpressWebChat.init({
+		"composerPlaceholder": "Chat con Kirkland Bot",
+		"botConversationDescription": "Responde todas las preguntas que hagas",
+		"botId": "4ab3d4e7-6079-4718-8be0-f2f577b537c1",
+		"hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+		"messagingUrl": "https://messaging.botpress.cloud",
+		"clientId": "4ab3d4e7-6079-4718-8be0-f2f577b537c1",
+		"botName": "Kirkland bot",
+		"avatarUrl": "https://cdn.imgbin.com/10/20/11/imgbin-avatar-user-profile-icon-women-wear-frock-GNLBV4N6qanFpjEYMEqxEgcCd.jpg",
+		"stylesheet": "https://webchat-styler-css.botpress.app/prod/32168ded-34e6-4e32-a87f-f8feb1ba9d6b/v86316/style.css",
+		"useSessionStorage": false,
+		"showPoweredBy": false,
+		"locale": "browser",
+		"enableConversationDeletion": true,
+		"showConversationsButton": false,
+		"enableTranscriptDownload": false
+	});
+</script>
+<!-- "containerWidth": "75%25",
+        "layoutWidth": "75%25", -->
 	<!-- <div class="container-fluid bg-white p-0 mx-0"> -->
 		<!-- Spinner Start -->
 		<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -90,6 +114,7 @@
 			</div>
 			<!-- Navbar End -->
 		<main>
+	
 			<!-- Content Start -->
 			<?= $content ?>
 			<!-- Content End -->
@@ -145,7 +170,7 @@
 		</footer>
 
 		<!-- Back to Top -->
-		<a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><span class='mdi mdi-arrow-up mdi-24px'></span></a>
+		<a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top d-none"><span class='mdi mdi-arrow-up mdi-24px'></span></a>
 	<!-- </div> -->
 
 	<!-- Global JavaScript Libraries -->
