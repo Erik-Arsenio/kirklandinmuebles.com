@@ -3,12 +3,11 @@
     <div class="row g-0 align-items-center flex-md-row">
         <div class="col-lg-6 text-center px-3 px-lg-5  mt-0 mt-xxl-5">
             <!-- <h1 class="text-danger text-uppercase my-2"><?= lang('Globals.available_soon') ?></h1> -->
-            <div class="animated fadeInLeft bg-success text-center text-white rounded-5 pb-2">
+            <div class="bg-success text-center text-white rounded-5 pb-2">
                 <h1>Marela Life</h1>
-                <h6>CELESTÚN, MÉRIDA, YUCATÁN, MÉXICO</h6>
+                <p class="h6">CELESTÚN, MÉRIDA, YUCATÁN, MÉXICO</p>
             </div>
-            <p class="h2 animated fadeInLeft fw-bold my-2"><?= lang('Globals.header_5') ?></p>
-            <!-- <p class="text-center animated fadeInLeft h4 mb-4 pb-2"><?= lang('Globals.homepage_12') ?></p> -->
+            <p class="h2 fw-bold my-2"><?= lang('Globals.header_5') ?></p>
             <div class="text-center mt-lg-3 promo not_mobile d-none" id="" style="min-height: 14em">
             </div>
             <div class="m-2">
@@ -28,7 +27,7 @@
             <div class="carousel slide text-center" data-bs-touch="false" id="carouselHome" title="Click para zoom">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="img-fluid w-100"  width="1754 px" height="1240 px" alt="...">
+                        <img src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="<?= STATIC_URL . 'img/marela_life/06-' . $lang . '.jpg' ?>" class="img-fluid w-100" loading="lazy"  width="1754 px" height="1240 px" alt="...">
@@ -79,7 +78,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                 <div class="row mb-1">
-                        <h5 class="mb-0 text-center"><?= lang('Globals.location_7') ?></h5>
+                        <p class="h5 mb-0 text-center"><?= lang('Globals.location_7') ?></p>
                 </div>
                 <div class="loader-container-img text-center mb-2 " id="carouselLocation">
                     <span class="mdi mdi-vanish mdi-spin"></span>
@@ -112,7 +111,7 @@
                             stroke-width: 3;
                             stroke-dasharray: 15, 7; -->
                             
-                            <image style="overflow:visible;" width="1754" height="1240" xlink:href="data:image/jpeg;base64,/9j/4RZeRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
+                            <image style="overflow:visible;" width="1754" height="1240" transform="matrix(0.4838 0 0 0.4878 0 -3.600740e-02)" xlink:href="data:image/jpeg;base64,/9j/4RZeRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUAAAABAAAAYgEbAAUAAAABAAAA
                                 agEoAAMAAAABAAIAAAExAAIAAAAiAAAAcgEyAAIAAAAUAAAAlIdpAAQAAAABAAAAqAAAANQAFuNg
                                 AAAnEAAW42AAACcQQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpADIwMjM6MDM6MDgg
                                 MTA6NTE6MzEAAAOgAQADAAAAAf//AACgAgAEAAAAAQAABtqgAwAEAAAAAQAABNgAAAAAAAAABgED
@@ -4298,11 +4297,8 @@
                                 rsVdirsVad1QcmNBiqFN60p4261/yj0xVtbEvvcNyPh2xVEqoUUUUGKt4q7FXYq7FXYq7FXYq7FX
                                 Yq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FUNqDfuuA6uaDFVaOJUAAAqBiq/F
                                 XYq7FXYq7FXYq7FXYq7FXYqhb9eIWZeqGvzxVEq3IBh3xVvFXYq7FXYq7FXYq7FXYq7FXYq7FXYq
-                                7FX/2Q==" transform="matrix(0.4838 0 0 0.4878 0 -3.600740e-02)">
+                                7FX/2Q==">
                                 </image>
-
-                            
-                                <!-- data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="A solo 25 minutos del desarrollo.<br><br> <span class='text-dark'><b>Click para mas informacion</b></span>" data-bs-original-title="Pueblo de Sisal" -->
                             <a type="button" >
                                 <circle id="sisal" class="st100" cx="310" cy="350" r="50"/>
                             </a>
@@ -4677,7 +4673,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-3 pe-0" id="carouselMasterPlan">
-                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_life/07-' . $lang . '.jpg' ?>" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan Marela Life">
+                        <img class="img-fluid w-100" src="<?= STATIC_URL . 'img/marela_life/07-' . $lang . '.jpg' ?>" loading="lazy"  width="1754 px" height="1240 px" alt="Master Plan Marela Life">
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
@@ -4693,7 +4689,7 @@
     <!-- About End -->
 
     <!-- Property List Start -->
-    <div class="container-xxl pt-5">
+    <div class="container-xxl pt-5a" id="map_area-1">
         <div class="container">
             <div class="text-center mb-1 wow slideInLeft" data-wow-delay="0.1s">
                 <p class="h1 fw-bold"><?= lang('Globals.property_list_3') ?></p>
@@ -4705,8 +4701,8 @@
             </div> -->
             <div class="lots" id="image_site">
                 <div class="accordion" id="accordionStage">
-                    <div class="accordion-item border border-success my-4">
-                        <h2 class="accordion-header border-bottom border-success" id="headingStage-1">
+                    <div class="accordion-item border border-success my-4 map_area" id="headerStage-1">
+                        <p class="h2 accordion-header border-bottom border-success" id="headingStage-1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStage-1" aria-expanded="false" aria-controls="collapseStage-1" title="Click para ver detalles y mapa">
                                 <div class="container table-responsive-md">
                                     <table class="table table-sm table-borderless caption-top">
@@ -4721,15 +4717,15 @@
                                         <tbody>
                                             <tr>
                                                 <td class="display-4 fw-bold text-center">239</td>
-                                                <td class="display-4 fw-bold text-center" id="available-1"></td>
-                                                <td class="display-4 fw-bold text-center">202X</td>
+                                                <td class="display-4 fw-bold text-center" id="available-1"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
+                                                <td class="display-4 fw-bold text-center">2027</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </button>
-                        </h2>
-                        <div id="collapseStage-1" class="accordion-collapse collapse show" aria-labelledby="headingStage-1" data-bs-parent="#accordionExample">
+                        </p>
+                        <div id="collapseStage-1" class="accordion-collapse collapse" aria-labelledby="headingStage-1" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <!-- Price Start -->
                                 <!-- <div class="container-xxl py-5"> -->
