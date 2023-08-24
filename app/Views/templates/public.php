@@ -20,7 +20,7 @@
 	<?= load_css([
 		'bootstrap/css/bootstrap.min',
 		// 'lib/animate/animate.min',
-		'material_design_webfont/css/materialdesignicons',
+		'material_design_webfont/css/materialdesignicons.min',
 		'css/flag-icon.min',
 		'css/style'
 	]) ?>
@@ -56,7 +56,13 @@
 		"showConversationsButton": false,
 		"enableTranscriptDownload": false
 	});
+	window.onload = function() { 
+		setTimeout(() => {
+			window.botpressWebChat.sendEvent({type:'trigger'})
+		}, "10000");
+	};
 </script>
+
 <!-- "containerWidth": "75%25",
         "layoutWidth": "75%25", -->
 	<!-- <div class="container-fluid bg-white p-0 mx-0"> -->
@@ -90,6 +96,7 @@
 									<a href="<?= base_url('investments/lakuun/?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">Lakuun</a>
 									<a href="<?= base_url('investments/anthia/4?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">Anthia</a>
 									<a href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_life')) ? ' active' : '' ?>" target="_blank">Marela Life</a>
+									<a href="<?= base_url('investments/wayuum?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*wayuum')) ? ' active' : '' ?>" target="_blank">Wayúum</a>
 									<a href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">Marela <?= lang('Globals.homepage_43') ?></a>
 									<a href="<?= base_url('investments/marela_beach?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">Marela Beach</a>
 								</div>
@@ -122,28 +129,28 @@
 
 		<!-- Footer Start -->
 		<footer>
-			<div class="container-fluid bg-dark text-white-50 footer mt-5 wow fadeIn" data-wow-delay="0.1s">
-				<div class="container py-3 d-none">
-					<div class="row g-4">
-						<div class="col-lg-6 col-md-6 ">
-							<h5 class="text-white mb-4"><?= lang('Globals.contact_us') ?></h5>
-							<p class="mb-2"><span class='mdi mdi-home-map-marker mdi-24px me-3'></span></i>Mérida, Yucatán, México.</p>
+			<div class="container-fluid bg-dark text-white-50 footer mt-5" >
+				<div class="container py-2">
+					<div class="row g-1 ">
+							<p class="h5 mb-2 text-white"><?= lang('Globals.contact_us') ?></p>
+						<div class="col-lg-6 col-md-6 mt-1 mt-lg-0">
+							<!-- <p class="mb-1"><span class='mdi mdi-home-map-marker mdi-24px me-3'></span></i>Mérida, Yucatán, México.</p> -->
 							<!-- <p class="mb-2"><span class='mdi mdi-phone mdi-24px me-3'></span>+52 999 449 7599</p>
 							<p class="mb-2"><span class='mdi mdi-email-outline mdi-24px me-3'></span>carmen@kirklandinmobiliaria.com</p> -->
-							<div class="d-flex pt-2 d-none">
-								<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-twitter mdi-24px'></span></a>
-								<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-facebook mdi-24px'></span></a>
-								<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-youtube mdi-24px'></span></a>
-								<a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-linkedin mdi-24px'></span></a>
-							</div>
+							<!-- <div class="d-flex pt-2"> -->
+								<a class="text-white d-flex align-items-center" href="https://instagram.com/carmen_inversionesmerida?igshid=MmU2YjMzNjRlOQ==" target="_blank">
+									<span class='mdi mdi-instagram mdi-24px'></span>
+									<span class='mx-2'>Carmen Inversiones Mérida</span>
+								</a>
+								<!-- <a class="btn btn-outline-light btn-social" href=""><span class='mdi mdi-youtube mdi-24px'></span></a> -->
+								<!-- <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=+53534549774&text=Mensaje%20de%20prueba"><span class='mdi mdi-linkedin mdi-24px'></span> Enviar mensaje de WhatsApp</a> -->
+								<!-- </div> -->
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<h5 class="text-white mb-4"><?= lang('Globals.news') ?></h5>
-							<p><?= lang('Globals.text_1') ?></p>
-							<div class="position-relative mx-auto" style="max-width: 400px;">
-								<input class="form-control bg-transparent text-white w-100 py-3 ps-4 pe-5" type="text" placeholder="<?= lang('Globals.your_email') ?>">
-								<button type="button" class="btn btn-success py-2 position-absolute top-0 end-0 mt-2 me-2"><?= lang('Globals.send') ?></button>
-							</div>
+						<div class="col-lg-6 col-md-6 mt-1 mt-lg-0">
+							<a class="text-white d-flex align-items-center" href="https://www.facebook.com/profile.php?id=100077365106779" target="_blank">
+								<span class='mdi mdi-facebook mdi-24px'></span>
+								<span class='mx-2'>Carmen Palay. Asesora Inmobiliaria</span>
+							</a>
 						</div>
 					</div>
 				</div>
