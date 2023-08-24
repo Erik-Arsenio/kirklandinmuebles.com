@@ -21,7 +21,7 @@ class EmailController extends BaseController
 
 	public function index()
 	{
-        $projects = array('Anthia', 'Lakuun', 'Marela Life', 'Marela Beach');
+        $projects = array('Anthia', 'Lakuun', 'Marela Life', 'Marela Beach','Wayuum');
         $lang_return = array('Spanish', 'English', 'Either');
         // $getSort = 'country_phone_prefix ASC';
         // $builder = $this->settings->getCountries(null, true, 'country_phone_prefix ASC');

@@ -78,6 +78,7 @@ class Projects extends BaseController
 			"marela_celestun"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of estate lots on the beach"],
 			"marela_beach"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
 			"marela_life"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
+			"wayuum"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 	];
 
 		
