@@ -9,7 +9,7 @@
 					<div class="card border border-2 border-success" style="max-width: 640px;">
 						<div class="row d-flex align-items-center g-0">
 							<div class="col-md-5">
-								<img class="img-fluid border border-5 rounded-circle w-100" src="<?= STATIC_URL . 'img/yenny.jpg' ?>" loading="lazy" width="350 px" height="350 px"  alt="Yenny">
+								<img class="img-fluid border border-0 rounded-circle w-100" src="<?= STATIC_URL . 'img/carmen.png' ?>" loading="lazy" width="140 px" height="140 px"  alt="Carmen Palay">
 							</div>
 							<div class="col-md-7">
 								<div class="card-body text-center">
