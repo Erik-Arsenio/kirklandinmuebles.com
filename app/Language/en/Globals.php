@@ -117,7 +117,12 @@ return [
 	// Header text in Marela Celestún
 	'header_6' => 'Residential lots on the beach',
 	'header_7' => '100% SOLD',
-	
+
+	// Header text in Wayuum
+	'header_8' => 'Lots and Private Residential',
+	'header_9' => 'Great Residential Community located in Chicxulub. A modern and lively center that offers a calm and safe environment.',
+
+
 	'click_zoom' => 'Click to zoom',
 
 
@@ -147,6 +152,15 @@ return [
 
 	// text in Marela Life
 	'location_18' => 'Why buy a residential lot in MARELA LIFE?',
+
+	// text in Wayuum
+	'location_19' => 'Why buy a residential lot in Wayuum?',
+	'location_20'  => 'Our residential lots are ideally located.',
+	'location_21'  => 'Located in Progreso, Yucatán, an area of high demand and growing surplus value.',
+	'location_22'  => '- Just 8 minutes from the coast of Chicxulub, a large residential community with 170 hectares of land north of Mérida.',
+	'location_23'  => '- Family and urbanized lots with mixed land use and commercial lots on the main avenue.',
+	'location_24'  => '- Located 4 km from the road to Chicxulub Puerto by the access road. ',
+	'location_25'  => '- Located 25 km from Plaza Altabrisa.',
 	
 
 	// text in Lakuun
@@ -206,6 +220,26 @@ return [
 	'characteristic_48'  => 'Guard booth',
 	'characteristic_49'  => 'White sand streets',
 	'characteristic_50'  => 'Only 5 minutes away from Celestun and 45 Merida',
+
+	// characteristic text in Wayuum
+	'characteristic_51'  => 'Security',
+	'characteristic_52'  => 'High Surplus Value',
+	'characteristic_53'  => 'Condominium Property Regime',
+	'characteristic_54'  => 'Access booth with 24/7 security',
+	'characteristic_55'  => 'Green areas with landscaping',
+	'characteristic_56'  => 'Paving',
+	'characteristic_57'  => 'Storm drainage',
+	'characteristic_58'  => 'Public lighting/electricity',
+	'characteristic_59'  => '4 lanes of roads + 2 of parking',
+	'characteristic_60'  => 'Lots with surfaces from 160m<sup>2</sup>',
+	'characteristic_61'  => 'Monthly payments of $2,330',
+	'characteristic_62'  => 'Financing of up to 10 years',
+	'characteristic_63'  => 'Own clubhouse',
+	'characteristic_64'  => '7 residential privates',
+	'characteristic_65'  => 'Private inspired by the Mayan cities, whose design and planning will offer cozy spaces to enjoy with the family.',
+	'characteristic_66'  => 'Currently for sale Balam.',
+	'characteristic_67'  => 'All of them will have urbanization amenities and services: ',
+	'characteristic_68'  => 'Contemplation park',
 
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
@@ -286,7 +320,14 @@ return [
 	'club_5'  => 'Enjoy the BEACH CLUB with which the development counts.',
 	'club_6'  => 'BEACH CLUB offers a place to enjoy with its innovative design created to have direct contact with the beautiful waters of Celestun. The perfect balance between the beach and the safest city in the state.',
 
-	
+	// Club House text in Wayuum
+	'club_7'  => 'Your only concern in Wayuum will be choosing the option to relax',
+	'clubhouse_61'  => 'Multipurpose hall',
+	'clubhouse_62'  => 'paddle tennis court',
+	'clubhouse_63'  => 'Gym',
+	'clubhouse_64'  => 'Green areas',
+	'clubhouse_65'  => 'Green parking',
+
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
 	'stages'  => 'Stages',

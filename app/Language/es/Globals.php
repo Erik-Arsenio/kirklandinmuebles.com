@@ -119,6 +119,12 @@ return [
 	// Header text in Marela Celestún
 	'header_6' => 'Lotes patrimoniales en la Playa',
 	'header_7' => '100% VENDIDO',
+	
+	// Header text in Wayuum
+	'header_8' => 'Lotes y Privadas residenciales',
+	'header_9' => 'Gran Comunidad Residencial ubicada en Chicxulub. Un centro moderno y lleno de vida que ofrece un ambiente tranquilo y seguro.',
+
+
 
 	'click_zoom' => 'Click para zoom',
 
@@ -129,7 +135,7 @@ return [
 	'location_4'  => 'Servicios médicos de vanguardia',
 	'location_5'  => 'Escuelas y universidades de la más alta calidad educativa y deportiva',
 	'location_6'  => 'Muy cerca de la hermosa playa Progreso',
-
+	
 	// text in Anthia
 	'location_7' => 'Atractivos turísticos y comerciales cercanos al desarrollo',
 	'location_8' => 'en los botones circulares ó en los nombres de los desarrollos',
@@ -147,6 +153,16 @@ return [
 	
 	// text in Marela Life
 	'location_18' => '¿Por qué comprar un lote residencial en MARELA LIFE?',
+	
+	
+	// text in Wayuum
+	'location_19' => '¿Por qué comprar un lote residencial en Wayúum?',
+	'location_20'  => 'Nuestros lotes residenciales tienen una ubicación ideal.',
+	'location_21'  => 'Situado en Progreso, Yucatán, una zona de alta demanda y creciente plusvalía.',
+	'location_22'  => '- A solo 8 minutos de la costa de Chicxulub, una gran comunidad residencial con terrenos de 170 hectáreas al norte de Mérida.',
+	'location_23'  => '- Lotes familiares y urbanizados con uso de suelo mixto y lotes comerciales en la avenida principal.',
+	'location_24'  => '- Ubicado a 4 km de la carretera a Chicxulub Puerto por el camino de acceso. ',
+	'location_25'  => '- Ubicado a 25 km de Plaza Altabrisa.',
 
 
 	// characteristic text in Lakuun
@@ -206,12 +222,33 @@ return [
 	'characteristic_48'  => 'Caseta de acceso y vigilancia',
 	'characteristic_49'  => 'Calles blancas y de arena',
 	'characteristic_50'  => 'A 5 minutos de Celestún y a 45 de Mérida',
-
+	
+	// characteristic text in Wayuum
+	'characteristic_51'  => 'Seguridad',
+	'characteristic_52'  => 'Alta Plusvalía',
+	'characteristic_53'  => 'Régimen de Propiedad en Condominio',
+	'characteristic_54'  => 'Caseta de acceso con seguridad 24/7',
+	'characteristic_55'  => 'Áreas verdes con paisajismo',
+	'characteristic_56'  => 'Pavimentación',
+	'characteristic_57'  => 'Drenaje pluvial',
+	'characteristic_58'  => 'Alumbrado público/electricidad',
+	'characteristic_59'  => '4 Carriles de vialidad + 2 de estacionamiento',
+	'characteristic_60'  => 'Lotes con superficies desde 160m<sup>2</sup>',
+	'characteristic_61'  => 'Mensualidades de $2,330',
+	'characteristic_62'  => 'Financiamiento de hasta 10 años',
+	'characteristic_63'  => 'Casa club propia',
+	'characteristic_64'  => '7 privadas residenciales',
+	'characteristic_65'  => 'Privadas inspiradas en las ciudades mayas, cuyo diseño y planeación ofrecerán espacios acogedores para disfrutar con la familia. ',
+	'characteristic_66'  => 'Actualmente a la venta Balam.',
+	'characteristic_67'  => 'Todas contarán con comodidades y servicios de urbanización: ',
+	'characteristic_68'  => 'Parque de contemplación',
 
 
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
+	
+
 
 
 	// Club House text in Lakuun
@@ -283,10 +320,20 @@ return [
 	'clubhouse_58'  => 'Vista desde el área de camastros al espejo de agua y lobby',
 	'clubhouse_59'  => 'Vista del espejo de agua y looby',
 
+	// text in Lakuun
 
+	
 	// text Beach Club
 	'club_5'  => 'Disfruta del CLUB de PLAYA con que cuenta el desarrollo.',
 	'club_6'  => 'El Club de playa te ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
+	
+	// Club House text in Wayuum
+	'club_7'  => 'Tu única preocupación en Wayúum será elegir la opción para relajarte',
+	'clubhouse_61'  => 'Salón de usos multiples',
+	'clubhouse_62'  => 'Cancha de Pádel',
+	'clubhouse_63'  => 'Gimnasio',
+	'clubhouse_64'  => 'Área verdes',
+	'clubhouse_65'  => 'Estacionamiento verde',
 
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
