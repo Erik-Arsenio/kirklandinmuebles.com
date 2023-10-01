@@ -40,7 +40,7 @@
 <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
 <script>
 	window.botpressWebChat.init({
-		"composerPlaceholder": "Chat con Kirkland Bot",
+		"composerPlaceholder": "Chat Kirkland Bot",
 		"botConversationDescription": "Responde todas las preguntas que hagas",
 		"botId": "4ab3d4e7-6079-4718-8be0-f2f577b537c1",
 		"hostUrl": "https://cdn.botpress.cloud/webchat/v0",
@@ -163,10 +163,10 @@
 							</div>
 							<div class="col-md-4 text-center text-md-end">
 								<div class="footer-menu d-none">
-									<a href="">Home</a>
+									<!-- <a href="">Home</a>
 									<a href="">Cookies</a>
 									<a href="">Help</a>
-									<a href="">FQAs</a>
+									<a href="">FQAs</a> -->
 								</div>
 							</div>
 						</div>
