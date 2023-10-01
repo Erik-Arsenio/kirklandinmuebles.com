@@ -70,6 +70,7 @@ $routes->get('templates/contactForm', 'EmailController::index/$1');
 $routes->post('templates/contactForm', 'EmailController::send/$1',['as'=>'send.email']);
 $routes->post('projects/delete_listing', 'Projects::delete_listing');
 $routes->get('tasks/scrap', 'Tasks::scrap');
+$routes->get('tasks/scrap2', 'Tasks::scrap2');
 $routes->post('tasks/scrap', 'Tasks::send',['as'=>'send.email']);
 
 
