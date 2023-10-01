@@ -23,65 +23,65 @@
                 <div class="carousel carousel-fade slide  text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselHome">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Acceso Principal a Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Acceso Principal a Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Accseso principal a Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle">Acceso principal a Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/area_comercial_wayuum.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
+                            <div class="carousel-caption bottom-0 py-0 ">
+                                <p class="h6 text-black bg-dark-subtle subtle">7 Privadas residenciales</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?= STATIC_URL . 'img/wayuum/area_comercial_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
                                 <p class="h6 text-black bg-dark-subtle subtle">Área Comercial Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/area_multiple.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Área multiple de Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/area_multiple.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Área multiple de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
                                 <p class="h6 text-black bg-dark-subtle subtle">Área multiple Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/comercial_wayuum.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Comercial de Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/comercial_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Comercial de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
                                 <p class="h6 text-black bg-dark-subtle subtle">Comercial Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/departamentos_wayuum.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Departamentos de Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/departamentos_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Departamentos de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
                                 <p class="h6 text-black bg-dark-subtle subtle">Departamentos Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/parque_wayuum.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Parque de Wayúum Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/parque_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
                                 <p class="h6 text-black bg-dark-subtle subtle">Parque Wayúum</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/parque_balam.jpg' ?>" class="img-fluid w-100" width="2204 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                            <img src="<?= STATIC_URL . 'img/wayuum/isla_norte_vista_area.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Parque Balam</p>
+                                <p class="h6 text-black bg-dark-subtle subtle">Vista aerea de la Isla Norte</p>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/12-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Amenidades Casa Club Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                        <div class="carousel-item">
+                            <img src="<?= STATIC_URL . 'img/wayuum/parrque_contemplacion_lago.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                            <div class="carousel-caption bottom-0 py-0 ">
+                                <p class="h6 text-black bg-dark-subtle subtle">Parque de contemplación y lago</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/22-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Área Grill Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                            <img src="<?= STATIC_URL . 'img/wayuum/parque_pet.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                            <div class="carousel-caption bottom-0 py-0 ">
+                                <p class="h6 text-black bg-dark-subtle subtle">Parque Peek</p>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/23-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Área infantilLakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/24-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Pet park Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/25-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Área deportiva con ciclovías Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/lakuun/26-' . $lang . '.jpg' ?>" class="img-fluid w-100" width="1754 px" height="1240 px" alt="Área deportiva Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
                         <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
@@ -2482,39 +2482,39 @@
                                 </image>
 
                                 
-                                    <!-- data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="A solo 25 minutos del desarrollo.<br><br> <span class='text-dark'><b>Click para mas informacion</b></span>" data-bs-original-title="Pueblo de Sisal" -->
-                                <a type="button" >
-                                    <circle id="sisal" class="st100" cx="310" cy="350" r="50"/>
+                                    <!-- data-bs-content="A solo 25 minutos del desarrollo.<br><br> <span class='text-dark'><b>Click para mas informacion</b></span>" data-bs-original-title="Pueblo de Sisal" -->
+                                <a type="button" href="javascript:void()" id="sisal" >
+                                    <circle class="st100" cx="310" cy="350" r="50"/>
                                 </a>
-                                <a type="button" >
-                                    <circle id="hunucma" class="st100" cx="508" cy="490" r="50"></circle>
+                                <a type="button" href="javascript:void()" id="hunucma">
+                                    <circle class="st100" cx="508" cy="490" r="50"></circle>
                                 </a>
                                 <!-- </circle> -->
-                                <a type="button" >
-                                    <circle id="progreso" class="st100" cx="690" cy="100" r="50"/>
+                                <a type="button" href="javascript:void()" id="progreso">
+                                    <circle class="st100" cx="690" cy="100" r="50"/>
                                 </a>
-                                <a type="button" >
-                                    <circle id="celestun" class="st100" cx="266" cy="525" r="45"/>
+                                <a type="button" href="javascript:void()" id="celestun">
+                                    <circle class="st100" cx="266" cy="525" r="45"/>
                                 </a>
-                                <a type="button" >
-                                <circle id="merida" class="st100" cx="628" cy="388" r="50"></circle>
+                                <a type="button" href="javascript:void()" id="merida">
+                                <circle class="st100" cx="628" cy="388" r="50"></circle>
                                 </a>
-                                <a type="button" href="<?= base_url('investments/marela_beach?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                                <a type="button" href="<?= base_url('investments/marela_beach?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_beach')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="26" y="363" class="st100" width="180" height="50"/>
                                 </a>
                                 <a type="button" href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="100" y="425" class="st100" width="200" height="50"/>
                                 </a>
-                                <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                                <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_life')) ? ' active' : '' ?>" target="_blank">
                                     <rect x="70" y="515" class="st100" width="150" height="50"/>
                                 </a>
-                                <a type="button" href="<?= base_url('investments/anthia?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                                <a type="button" href="<?= base_url('investments/anthia?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*anthia')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="367" y="373" class="st100" width="100" height="50"/>
                                 </a>
-                                <a type="button" href="<?= base_url('investments/lakuun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                                <a type="button" href="<?= base_url('investments/lakuun?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*lakuun')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="536" y="297" class="st100" width="102" height="50"/>
                                 </a>
-                                <a type="button" href="<?= base_url('investments/wayuum?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                                <a type="button" href="<?= base_url('investments/wayuum?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*wayuum')) ? ' active' : '' ?>" target="_blank">
                                 <rect x="660" y="200" class="st100" width="102" height="50"/>
                                 </a>
                                 <!-- <text transform="matrix(1 0 0 1 41 35)" class="st2 st3">Leyenda</text> -->
@@ -2626,25 +2626,25 @@
                             <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenitiesCasaClub" style="z-index: 100">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="<?= STATIC_URL . 'img/wayuum/exterior_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="2204 px" height="1240 px" alt="Exterior Casa Club de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                                        <img src="<?= STATIC_URL . 'img/wayuum/exterior_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Exterior Casa Club de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
                                             <p class="h6 text-black bg-dark-subtle subtle">Exterior Casa Club Balam</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="<?= STATIC_URL . 'img/wayuum/cancha_de_padel_balam.jpg' ?>" class="card-img-top img-fluid" width="2204 px" height="1240 px" alt="Cancha de Pádel de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                                        <img src="<?= STATIC_URL . 'img/wayuum/cancha_de_padel_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Cancha de Pádel de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
                                             <p class="h6 text-black bg-dark-subtle subtle">Cancha de Pádel Balam</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="<?= STATIC_URL . 'img/wayuum/canchas_balam.jpg' ?>" class="card-img-top img-fluid" width="2204 px" height="1240 px" alt="Canchas de Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                                        <img src="<?= STATIC_URL . 'img/wayuum/canchas_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Canchas de Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
                                             <p class="h6 text-black bg-dark-subtle subtle">Canchas Balam</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="<?= STATIC_URL . 'img/wayuum/piscina_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="2204 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                                        <img src="<?= STATIC_URL . 'img/wayuum/piscina_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
                                             <p class="h6 text-black bg-dark-subtle subtle">Alberca Casa Club Balam</p>
                                         </div>
@@ -2714,32 +2714,47 @@
                         <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="card-img-top img-fluid" width="2204 px" height="1240 px" alt="Master Plan Wayúum">
-                                </div>
-                                <!-- <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/lakuun/10-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Amenidades Etapa 2: Familar de Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
+                                    <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Wayúum">
+                                    <div class="carousel-caption bottom-0 py-0 ">
+                                        <p class="h6 subtle">Master Plan Wayúum</p>
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= STATIC_URL . 'img/lakuun/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Amenidades Etapa 2: Deportiva de Lakuun, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                                </div> -->
+                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Balam ">
+                                    <div class="carousel-caption bottom-0 py-0 ">
+                                        <p class="h6 subtle">Lotes Balam</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-1.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Turix Etapa-1 ">
+                                    <div class="carousel-caption bottom-0 py-0 ">
+                                        <p class="h6 subtle">Lotes Turix Etapa-1</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-2.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Turix Etapa-2 ">
+                                    <div class="carousel-caption bottom-0 py-0 ">
+                                        <p class="h6 subtle">Lotes Turix Etapa-2</p>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselAmenities" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAmenities" data-bs-slide="prev">
                                 <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
                                 <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselAmenities" data-bs-slide="next">
                                 <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
                                 <span class="visually-hidden"><?= lang('Globals.next') ?></span>
-                            </button> -->
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                     <h2 class="mb-3"><?= lang('Globals.about_inv_1') ?>:</h2>
-                    <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">2</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">7</span></p>
                     <p class="h5 mb-4"><?= lang('Globals.amenities') ?>: <span class="h3">19</span></p>
-                    <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">663</span></p>
-                    <p class="h5 mb-4"><?= lang('Globals.green_areas') ?>: <span class="h3">32,780 m<sup>2</sup></span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">1396</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.area') ?>: <span class="h3">170 <?= lang('Globals.hectares') ?></span></p>
                 </div>
             </div>
     </div>
@@ -2757,8 +2772,8 @@
             </div> -->
             <div class="lots" id="image_site">
                 <div class="accordion" id="accordionExample">
-                <div class="accordion-item border border-success my-4 map_area" id="header0">
-                        <h2 class="accordion-header border-bottom border-success" id="heading-0">
+                    <div class="accordion-item border border-success my-4 map_area" id="header1">
+                        <h2 class="accordion-header border-bottom border-success" id="heading-1">
                             <button class="accordion-button px-4 <?php if ($projectStage == 1) {
                                                                         echo "";
                                                                     } else {
@@ -2778,7 +2793,7 @@
                                             <tr>
                                                 <td class="display-4 fw-bold text-center">733</td>
                                                 <td class="display-4 fw-bold text-center" id="available-1"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
-                                                <td class="display-4 fw-bold text-center">202X</td>
+                                                <td class="display-4 fw-bold text-center">2026</td>
                                             </tr>
 
                                         </tbody>
@@ -2789,110 +2804,6 @@
                             </button>
                         </h2>
                         <div id="collapseCero" class="accordion-collapse collapse <?php if ($projectStage == 1) {
-                                                                                        echo "show";
-                                                                                    } else {
-                                                                                        echo "";
-                                                                                    } ?>" aria-labelledby="heading-0">
-                            <div class="accordion-body">
-                                <!-- Price Start -->
-                                <div class="container-xxl py-1 px-0">
-                                    <div class="row row-cols-1 row-cols-lg-1">
-                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
-                                            <div class="card border-3 h-100 shadow px-0">
-                                                <div class="card-header text-center">
-                                                    <h4 class="fw-bold text-uppercase text-success mb-0 price-header"><?= lang('Globals.lot_price') ?></h4>
-                                                </div>
-                                                <div class="card-body pb-0">
-                                                    <div class="row d-flex justify-content-center ">
-                                                        <div class="col-12 col-lg-6 table-responsive-sm ">
-                                                            <table class="table table-sm table-bordered border-2 text-left">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.from') ?></td>
-                                                                        <td class="h5 available-title text-left">160 m<small><sup>2</sup></small></td>
-                                                                    </tr>
-                                                                <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.price') ?> (MXN) <?= lang('Globals.per') ?> m<small><sup>2</sup></small> <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
-                                                                        <td class="h5 available-title text-left">$2,450.00</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.down_payment') ?></td>
-                                                                        <td class="h5 available-title  text-left">10%</td>
-                                                                        </tr>
-                                                                    <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> <?= lang('Globals.upto') ?></td>
-                                                                        <td class="h5 available-title  text-left">120 <?= lang('Globals.months') ?></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> (MXN) <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
-                                                                        <td class="h5 available-title  text-left">$8,268.80</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Price End -->
-                                <div class="d-flex justify-content-center">
-                                    <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
-                                </div>
-                                <!-- <div class="row mt-2">
-                                    <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
-                                </div> -->
-                                <!-- <div class="loader-container text-center mb-2">
-                                    <span class="mdi mdi-vanish mdi-spin"></span>
-                                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
-                                </div> -->
-                                <div id="stage-1" class="row text-center">
-                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes_balam.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Wayúum">
-                                </div>
-                                <!-- <div id="stage-1" class="row text-center map-svg d-none" style="max-width: 900px; min-height: 300px;  ">
-                                </div> -->
-                                <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
-                                    <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
-                                    <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
-                                    <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item border border-success my-4 map_area" id="header1">
-                        <h2 class="accordion-header border-bottom border-success" id="heading-1">
-                            <button class="accordion-button px-4 <?php if ($projectStage == 1) {
-                                                                        echo "";
-                                                                    } else {
-                                                                        echo "collapsed";
-                                                                    } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
-                                <div class="container table-responsive-md">
-                                    <table class="table table-sm table-borderless caption-top">
-                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Privada Turix <?= lang('Globals.stage') ?>-1</caption>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
-                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
-                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="display-4 fw-bold text-center">246</td>
-                                                <td class="display-4 fw-bold text-center" id="available-2"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
-                                                <td class="display-4 fw-bold text-center">202X</td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                    <!-- </div> -->
-                                </div>
-                        
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 1) {
                                                                                         echo "show";
                                                                                     } else {
                                                                                         echo "";
@@ -2944,18 +2855,23 @@
                                 <div class="d-flex justify-content-center">
                                     <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
                                 </div>
-                                <!-- <div class="row mt-2">
+                                <div class="row mt-2">
                                     <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
-                                </div> -->
-                                <!-- <div class="loader-container text-center mb-2">
+                                </div>
+                                <div class="loader-container text-center mb-2">
                                     <span class="mdi mdi-vanish mdi-spin"></span>
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
-                                </div> -->
-                                <div id="stage-1" class="row text-center">
-                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-1.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Wayúum">
                                 </div>
-                                <!-- <div id="stage-1" class="row text-center map-svg d-none" style="max-width: 900px; min-height: 300px;  ">
+                                <!-- Direccion para Scrap de Balam: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=xAfC7KhpcyP92&rd=&rg=&clvde=ACNGoAQSZ8D35 -->
+                                <!-- <div id="stage-1" class="row text-center">
+                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes_balam.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Wayúum">
                                 </div> -->
+                                <div id="stage-1" class="row text-center map-svg d-none"></div>
+                                <div class="leyend-status d-flex justify-content-around text-center fw-bold mt-n5">
+                                <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
+                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
+                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
+                                </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                     <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
                                     <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
@@ -2964,9 +2880,228 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item border border-success my-4 map_area" id="header2">
                         <h2 class="accordion-header border-bottom border-success" id="heading-2">
                             <button class="accordion-button px-4 <?php if ($projectStage == 2) {
+                                                                        echo "";
+                                                                    } else {
+                                                                        echo "collapsed";
+                                                                    } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" title="Click para ver detalles y mapa">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Privada Turix <?= lang('Globals.stage') ?>-1</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center">246</td>
+                                                <td class="display-4 fw-bold text-center" id="available-2"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
+                                                <td class="display-4 fw-bold text-center">2028</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                    <!-- </div> -->
+                                </div>
+                        
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse <?php if ($projectStage == 2) {
+                                                                                        echo "show";
+                                                                                    } else {
+                                                                                        echo "";
+                                                                                    } ?>" aria-labelledby="heading-2">
+                            <div class="accordion-body">
+                                <!-- Price Start -->
+                                <div class="container-xxl py-1 px-0">
+                                    <div class="row row-cols-1 row-cols-lg-1">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                            <div class="card border-3 h-100 shadow px-0">
+                                                <div class="card-header text-center">
+                                                    <h4 class="fw-bold text-uppercase text-success mb-0 price-header"><?= lang('Globals.lot_price') ?></h4>
+                                                </div>
+                                                <div class="card-body pb-0">
+                                                    <div class="row d-flex justify-content-center ">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,050</td>
+                                                                        <td class="h5 available-title text-center">$2,112</td>
+                                                                        <td class="h5 available-title text-center">$2,173</td>
+                                                                        <td class="h5 available-title text-center">$2,235</td>
+                                                                        <td class="h5 available-title text-center">$2,296</td>
+                                                                        <td class="h5 available-title text-center">$2,337</td>
+                                                                        <td class="h5 available-title text-center">$2,399</td>
+                                                                        <td class="h5 available-title text-center">$2,850</td>
+                                                                        <td class="h5 available-title text-center">$3,219</td>
+                                                                        <td class="h5 available-title text-center">$3,465</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,000</td>
+                                                                        <td class="h5 available-title text-center">$2,060</td>
+                                                                        <td class="h5 available-title text-center">$2,120</td>
+                                                                        <td class="h5 available-title text-center">$2,180</td>
+                                                                        <td class="h5 available-title text-center">$2,240</td>
+                                                                        <td class="h5 available-title text-center">$2,280</td>
+                                                                        <td class="h5 available-title text-center">$2,340</td>
+                                                                        <td class="h5 available-title text-center">$2,780</td>
+                                                                        <td class="h5 available-title text-center">$3,140</td>
+                                                                        <td class="h5 available-title text-center">$3,380</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$1,900</td>
+                                                                        <td class="h5 available-title text-center">$1,957</td>
+                                                                        <td class="h5 available-title text-center">$2,014</td>
+                                                                        <td class="h5 available-title text-center">$2,071</td>
+                                                                        <td class="h5 available-title text-center">$2,128</td>
+                                                                        <td class="h5 available-title text-center">$2,166</td>
+                                                                        <td class="h5 available-title text-center">$2,223</td>
+                                                                        <td class="h5 available-title text-center">$2,641</td>
+                                                                        <td class="h5 available-title text-center">$2,983</td>
+                                                                        <td class="h5 available-title text-center">$3,211</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-xxl py-1 px-0">
+                                    <div class="row row-cols-1 row-cols-lg-1">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                            <div class="card border-3 h-100 shadow px-0">
+                                                <div class="card-header text-center">
+                                                    <h4 class="fw-bold text-success mb-0 price-header"><?= lang('Globals.total_value_per_land') ?></h4>
+                                                </div>
+                                                <div class="card-body pb-0">
+                                                    <div class="row d-flex justify-content-center ">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$512,500</td>
+                                                                        <td class="h5 available-title text-center">$527,875</td>
+                                                                        <td class="h5 available-title text-center">$543,250</td>
+                                                                        <td class="h5 available-title text-center">$558,625</td>
+                                                                        <td class="h5 available-title text-center">$574,000</td>
+                                                                        <td class="h5 available-title text-center">$584,250</td>
+                                                                        <td class="h5 available-title text-center">$599,625</td>
+                                                                        <td class="h5 available-title text-center">$712,375</td>
+                                                                        <td class="h5 available-title text-center">$804,625</td>
+                                                                        <td class="h5 available-title text-center">$866,125</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$400,000</td>
+                                                                        <td class="h5 available-title text-center">$412,000</td>
+                                                                        <td class="h5 available-title text-center">$424,000</td>
+                                                                        <td class="h5 available-title text-center">$436,000</td>
+                                                                        <td class="h5 available-title text-center">$448,000</td>
+                                                                        <td class="h5 available-title text-center">$456,000</td>
+                                                                        <td class="h5 available-title text-center">$468,000</td>
+                                                                        <td class="h5 available-title text-center">$556,000</td>
+                                                                        <td class="h5 available-title text-center">$628,000</td>
+                                                                        <td class="h5 available-title text-center">$676,000</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$304,000</td>
+                                                                        <td class="h5 available-title text-center">$313,120</td>
+                                                                        <td class="h5 available-title text-center">$322,240</td>
+                                                                        <td class="h5 available-title text-center">$331,360</td>
+                                                                        <td class="h5 available-title text-center">$340,480</td>
+                                                                        <td class="h5 available-title text-center">$346,560</td>
+                                                                        <td class="h5 available-title text-center">$355,680</td>
+                                                                        <td class="h5 available-title text-center">$422,560</td>
+                                                                        <td class="h5 available-title text-center">$477,280</td>
+                                                                        <td class="h5 available-title text-center">$513,760</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Price End -->
+                                <div class="d-flex justify-content-center">
+                                    <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+                                </div>
+                                <div class="row mt-2">
+                                    <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
+                                </div>
+                                <div class="loader-container text-center mb-2">
+                                    <span class="mdi mdi-vanish mdi-spin"></span>
+                                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+                                </div>
+                                <!-- Direccion para Scrapde Privada Turix Etapa 1: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=8A9Bk35KfDP122&rd=&rg=&clvde=ACNGoAQSZ8D35 -->
+                                
+                                <!-- <div id="stage-2" class="row text-center"> -->
+                                    <!-- <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-1.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Wayúum"> -->
+                                <!-- </div> -->
+                                <div id="stage-2" class="row text-center map-svg d-none"></div>
+                                <div class="leyend-status d-flex justify-content-around text-center fw-bold mt-n5">
+                                <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
+                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
+                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
+                                </div>
+                                <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                                    <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                    <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                    <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4 map_area" id="header3">
+                        <h2 class="accordion-header border-bottom border-success" id="heading-3">
+                            <button class="accordion-button px-4 <?php if ($projectStage == 3) {
                                                                         echo "";
                                                                     } else {
                                                                         echo "collapsed";
@@ -2985,7 +3120,7 @@
                                             <tr>
                                                 <td class="display-4 fw-bold text-center">417</td>
                                                 <td class="display-4 fw-bold text-center" id="available-3"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
-                                                <td class="display-4 fw-bold text-center">202X</td>
+                                                <td class="display-4 fw-bold text-center">2028</td>
                                             </tr>
 
                                         </tbody>
@@ -2993,11 +3128,11 @@
                                 </div>
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 2) {
+                        <div id="collapseTwo" class="accordion-collapse collapse <?php if ($projectStage == 3) {
                                                                                         echo "show";
                                                                                     } else {
                                                                                         echo "";
-                                                                                    } ?>" aria-labelledby="heading-2">
+                                                                                    } ?>" aria-labelledby="heading-3">
                             <div class="accordion-body">
                                 <!-- Price Start -->
                                 <div class="container-xxl py-1 px-0">
@@ -3009,28 +3144,137 @@
                                                 </div>
                                                 <div class="card-body pb-0">
                                                     <div class="row d-flex justify-content-center ">
-                                                        <div class="col-12 col-lg-6 table-responsive-sm ">
-                                                            <table class="table table-sm table-bordered border-2 text-left">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.from') ?></td>
-                                                                        <td class="h5 available-title text-left">160 m<small><sup>2</sup></small></td>
-                                                                    </tr>
-                                                                <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.price') ?> (MXN) <?= lang('Globals.per') ?> m<small><sup>2</sup></small> <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
-                                                                        <td class="h5 available-title text-left">$2,450.00</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.down_payment') ?></td>
-                                                                        <td class="h5 available-title  text-left">10%</td>
-                                                                        </tr>
-                                                                    <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> <?= lang('Globals.upto') ?></td>
-                                                                        <td class="h5 available-title  text-left">120 <?= lang('Globals.months') ?></td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,100</td>
+                                                                        <td class="h5 available-title text-center">$2,163</td>
+                                                                        <td class="h5 available-title text-center">$2,226</td>
+                                                                        <td class="h5 available-title text-center">$2,289</td>
+                                                                        <td class="h5 available-title text-center">$2,352</td>
+                                                                        <td class="h5 available-title text-center">$2,394</td>
+                                                                        <td class="h5 available-title text-center">$2,457</td>
+                                                                        <td class="h5 available-title text-center">$2,919</td>
+                                                                        <td class="h5 available-title text-center">$3,297</td>
+                                                                        <td class="h5 available-title text-center">$3,549</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title  text-left"><?= lang('Globals.financing') ?> (MXN) <span class="text-lowercase"><?= lang('Globals.from') ?></span></td>
-                                                                        <td class="h5 available-title  text-left">$8,268.80</td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,050</td>
+                                                                        <td class="h5 available-title text-center">$2,112</td>
+                                                                        <td class="h5 available-title text-center">$2,173</td>
+                                                                        <td class="h5 available-title text-center">$2,235</td>
+                                                                        <td class="h5 available-title text-center">$2,296</td>
+                                                                        <td class="h5 available-title text-center">$2,337</td>
+                                                                        <td class="h5 available-title text-center">$2,399</td>
+                                                                        <td class="h5 available-title text-center">$2,850</td>
+                                                                        <td class="h5 available-title text-center">$3,219</td>
+                                                                        <td class="h5 available-title text-center">$3,465</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$1,950</td>
+                                                                        <td class="h5 available-title text-center">$2,009</td>
+                                                                        <td class="h5 available-title text-center">$2,067</td>
+                                                                        <td class="h5 available-title text-center">$2,126</td>
+                                                                        <td class="h5 available-title text-center">$2,184</td>
+                                                                        <td class="h5 available-title text-center">$2,223</td>
+                                                                        <td class="h5 available-title text-center">$2,282</td>
+                                                                        <td class="h5 available-title text-center">$2,711</td>
+                                                                        <td class="h5 available-title text-center">$3,062</td>
+                                                                        <td class="h5 available-title text-center">$3,296</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-xxl py-1 px-0">
+                                    <div class="row row-cols-1 row-cols-lg-1">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                            <div class="card border-3 h-100 shadow px-0">
+                                                <div class="card-header text-center">
+                                                    <h4 class="fw-bold text-success mb-0 price-header"><?= lang('Globals.total_value_per_land') ?></h4>
+                                                </div>
+                                                <div class="card-body pb-0">
+                                                    <div class="row d-flex justify-content-center ">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$525,000</td>
+                                                                        <td class="h5 available-title text-center">$540,750</td>
+                                                                        <td class="h5 available-title text-center">$556,500</td>
+                                                                        <td class="h5 available-title text-center">$572,250</td>
+                                                                        <td class="h5 available-title text-center">$588,000</td>
+                                                                        <td class="h5 available-title text-center">$598,500</td>
+                                                                        <td class="h5 available-title text-center">$614,250</td>
+                                                                        <td class="h5 available-title text-center">$729,750</td>
+                                                                        <td class="h5 available-title text-center">$824,250</td>
+                                                                        <td class="h5 available-title text-center">$887,250</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$410,000</td>
+                                                                        <td class="h5 available-title text-center">$422,300</td>
+                                                                        <td class="h5 available-title text-center">$434,600</td>
+                                                                        <td class="h5 available-title text-center">$446,900</td>
+                                                                        <td class="h5 available-title text-center">$459,200</td>
+                                                                        <td class="h5 available-title text-center">$467,400</td>
+                                                                        <td class="h5 available-title text-center">$479,700</td>
+                                                                        <td class="h5 available-title text-center">$569,900</td>
+                                                                        <td class="h5 available-title text-center">$643,700</td>
+                                                                        <td class="h5 available-title text-center">$692,900</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$312,000</td>
+                                                                        <td class="h5 available-title text-center">$321,360</td>
+                                                                        <td class="h5 available-title text-center">$330,720</td>
+                                                                        <td class="h5 available-title text-center">$340,080</td>
+                                                                        <td class="h5 available-title text-center">$349,440</td>
+                                                                        <td class="h5 available-title text-center">$355,680</td>
+                                                                        <td class="h5 available-title text-center">$365,040</td>
+                                                                        <td class="h5 available-title text-center">$433,680</td>
+                                                                        <td class="h5 available-title text-center">$489,840</td>
+                                                                        <td class="h5 available-title text-center">$527,280</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -3044,19 +3288,21 @@
                                 <!-- Price End -->
                                 <div class="d-flex justify-content-center">
                                     <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+
                                 </div>
-                                <!-- <div class="row mt-2">
+                                <div class="row mt-2">
                                     <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
-                                </div> -->
-                                <!-- <div class="loader-container text-center mb-2">
+                                </div>
+                                <div class="loader-container text-center mb-2">
                                     <span class="mdi mdi-vanish mdi-spin"></span>
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
-                                <div id="stage-2" class="row text-center map-svg d-none" style="max-width: 900px; min-height: 300px;  ">
-
-                                </div> -->
-                                <div id="stage-2" class="row text-center">
-                                    <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-2.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Wayúum">
+                                <!-- Direccion para Scrapde Privada Turix Etapa 2: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=iVhvc0NQb3P125&rd=&rg=&clvde=ACNGoAQSZ8D35 -->
+                                <div id="stage-3" class="row text-center map-svg d-none"></div>
+                                <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold mt-n5">
+                                    <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
+                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
+                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                     <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
@@ -3066,12 +3312,124 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item border border-success my-4 d-none">
+                    <div class="accordion-item border border-success my-4">
                         <h2 class="accordion-header border-bottom border-success" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <div class="container table-responsive-md">
                                     <table class="table table-sm table-borderless caption-top">
-                                        <caption class="h1 fw-bold text-center text-success text-nowrap"><?= lang('Globals.stage') ?>-3</caption>
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Weech</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse d-none" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4">
+                        <h2 class="accordion-header border-bottom border-success" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Maax</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse d-none" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4">
+                        <h2 class="accordion-header border-bottom border-success" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Toh</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse d-none" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4">
+                        <h2 class="accordion-header border-bottom border-success" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Haleb</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                                <td class="display-4 fw-bold text-center"></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse d-none" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4">
+                        <h2 class="accordion-header border-bottom border-success" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Kaab</caption>
                                         <thead>
                                             <tr>
                                                 <th scope="col" class="h4 text-center"><?= lang('Globals.available') ?> <?= lang('Globals.available_soon') ?></th>
