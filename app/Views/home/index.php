@@ -2474,37 +2474,39 @@
                                 </image>
                             
                                 <!-- data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-html="true" data-bs-content="A solo 25 minutos del desarrollo.<br><br> <span class='text-dark'><b>Click para mas informacion</b></span>" data-bs-original-title="Pueblo de Sisal" -->
-                            <a type="button" >
-                                <circle id="sisal" class="st100" cx="310" cy="350" r="50"/>
+                            
+                            <a type="button" href="javascript:void()" id="sisal" >
+                                <circle class="st100" cx="310" cy="350" r="50"/>
                             </a>
-                            <a type="button" >
-                                <circle id="hunucma" class="st100" cx="508" cy="490" r="50"></circle>
+                            <a type="button" href="javascript:void()" id="hunucma">
+                                <circle class="st100" cx="508" cy="490" r="50"></circle>
                             </a>
-                            <a type="button" >
-                                <circle id="progreso" class="st100" cx="706" cy="218" r="50"/>
+                            <!-- </circle> -->
+                            <a type="button" href="javascript:void()" id="progreso">
+                                <circle class="st100" cx="690" cy="100" r="50"/>
                             </a>
-                            <a type="button" >
-                                <circle id="celestun" class="st100" cx="266" cy="525" r="45"/>
+                            <a type="button" href="javascript:void()" id="celestun">
+                                <circle class="st100" cx="266" cy="525" r="45"/>
                             </a>
-                            <a type="button" >
-                            <circle id="merida" class="st100" cx="628" cy="388" r="50"></circle>
+                            <a type="button" href="javascript:void()" id="merida">
+                            <circle class="st100" cx="628" cy="388" r="50"></circle>
                             </a>
-                            <a type="button" href="<?= base_url('investments/marela_beach?lang='. $lang) ?>"  target="_blank">
+                            <a type="button" href="<?= base_url('investments/marela_beach?lang='. $lang) ?>" target="_blank">
                             <rect x="26" y="363" class="st100" width="180" height="50"/>
                             </a>
-                            <a type="button" href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>"  target="_blank">
+                            <a type="button" href="<?= base_url('investments/marela_celestun?lang='. $lang) ?>" target="_blank">
                             <rect x="100" y="425" class="st100" width="200" height="50"/>
                             </a>
-                            <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>"  target="_blank">
+                            <a type="button" href="<?= base_url('investments/marela_life?lang='. $lang) ?>" target="_blank">
                                 <rect x="70" y="515" class="st100" width="150" height="50"/>
                             </a>
-                            <a type="button" href="<?= base_url('investments/anthia?lang='. $lang) ?>"  target="_blank">
+                            <a type="button" href="<?= base_url('investments/anthia?lang='. $lang) ?>" target="_blank">
                             <rect x="367" y="373" class="st100" width="100" height="50"/>
                             </a>
-                            <a type="button" href="<?= base_url('investments/lakuun?lang='. $lang) ?>"  target="_blank">
+                            <a type="button" href="<?= base_url('investments/lakuun?lang='. $lang) ?>" target="_blank">
                             <rect x="536" y="297" class="st100" width="102" height="50"/>
                             </a>
-                            <a type="button" href="<?= base_url('investments/wayuum?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*marela_celestun')) ? ' active' : '' ?>" target="_blank">
+                            <a type="button" href="<?= base_url('investments/wayuum?lang='. $lang) ?>" target="_blank">
                                 <rect x="660" y="200" class="st100" width="102" height="50"/>
                             </a>
                         </svg>
