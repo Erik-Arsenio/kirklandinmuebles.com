@@ -233,11 +233,11 @@ return [
 	'characteristic_59'  => '4 lanes of roads + 2 of parking',
 	'characteristic_60'  => 'Lots with surfaces from 160m<sup>2</sup>',
 	'characteristic_61'  => 'Monthly payments of $2,330',
-	'characteristic_62'  => 'Financing of up to 10 years',
+	'characteristic_62'  => 'Financing of up to 15 years',
 	'characteristic_63'  => 'Own clubhouse',
 	'characteristic_64'  => '7 residential privates',
 	'characteristic_65'  => 'Private inspired by the Mayan cities, whose design and planning will offer cozy spaces to enjoy with the family.',
-	'characteristic_66'  => 'Currently for sale Balam.',
+	'characteristic_66'  => 'Currently for sale Turix.',
 	'characteristic_67'  => 'All of them will have urbanization amenities and services: ',
 	'characteristic_68'  => 'Contemplation park',
 

@@ -235,11 +235,11 @@ return [
 	'characteristic_59'  => '4 Carriles de vialidad + 2 de estacionamiento',
 	'characteristic_60'  => 'Lotes con superficies desde 160m<sup>2</sup>',
 	'characteristic_61'  => 'Mensualidades de $2,330',
-	'characteristic_62'  => 'Financiamiento de hasta 10 años',
+	'characteristic_62'  => 'Financiamiento de hasta 15 años',
 	'characteristic_63'  => 'Casa club propia',
 	'characteristic_64'  => '7 privadas residenciales',
 	'characteristic_65'  => 'Privadas inspiradas en las ciudades mayas, cuyo diseño y planeación ofrecerán espacios acogedores para disfrutar con la familia. ',
-	'characteristic_66'  => 'Actualmente a la venta Balam.',
+	'characteristic_66'  => 'Actualmente a la venta Turix.',
 	'characteristic_67'  => 'Todas contarán con comodidades y servicios de urbanización: ',
 	'characteristic_68'  => 'Parque de contemplación',
 
