@@ -5,8 +5,10 @@ namespace App\Controllers;
 use App\Models\SettingsModel;
 use App\Models\ProjectsModel;
 use Goutte\Client;
+// use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpClient\HttpClient;
 use App\Controllers\BaseController;
+
 
 class Tasks extends BaseController
 {
@@ -302,5 +304,64 @@ class Tasks extends BaseController
                     $change_project = false;
                 }
         }
+    }
+
+    public function scrap2($projectName = "wayuum", $projectStage = null )
+    {
+
+            // $texto = file_get_contents("https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=iVhvc0NQb3P125&rd=&rg=&clvde=ACNGoAQSZ8D35");
+            // var_dump($texto);
+            // $texto = nl2br($texto);
+            // echo $texto ;
+
+
+            $url = FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '_data-3.txt';
+            echo "Link= " . $url .  "<br>";
+            $texto = fopen($url, "r+");
+
+            $wayuum = [];
+            while(! feof($texto)) {
+                $line = fgets($texto);
+                $position = strpos($line, 'data-lot');
+                // echo strpos($line, '<a class="batch"') . "<br>";
+                // print_r($position);
+                // echo $position . "<br>";
+                if ($position != '') {
+                    # code...
+                    // echo substr($line, $position, 14).  " / ";
+                    $dataLot = rtrim(substr($line, $position + 9 , 5));
+                    echo "data-lot: " . $dataLot .  " / ";
+                    $status = substr($line, strpos($line, 'status-') + 7 , 3);
+                    echo "Status: " . $status .  " / ";
+                    $area = substr($line, strpos($line, '<span>') + 6 , 6);
+                    echo "Area: " . $area .  " / ";
+                    $lot = substr($line, strpos($line, 'Unidad:') + 9 , 5);
+                    echo "Lote: " . $lot .  "<br> ";
+
+                    if (substr($lot, strpos($lot, 'A') , 1) == "A") {
+                        $lot = rtrim(substr_replace($lot, "_",2,1));
+                        // $lot = rtrim($lot);
+                        // $lot = trim($lot, " ");
+                    } else {
+                        $lot = trim(substr_replace($lot, "", -1), " ");
+                        // $lot = trim($lot, " ");
+                        if (strpos($lot, '-') > 0) {
+                            # code...
+                            $lot = substr_replace($lot, "", -2);
+                        }
+                    }
+
+
+                    
+                    array_push( $wayuum, array("area" => $area, "lot" => $lot , "data-lot" => $dataLot, "status" => $status));
+                }
+            }
+            echo json_encode($wayuum, true);
+
+            
+            $fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . "-3_update.json", "w+");
+            fwrite($fp, json_encode($wayuum, true));
+            fclose($fp);
+
     }
 }
