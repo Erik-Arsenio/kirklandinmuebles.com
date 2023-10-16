@@ -120,6 +120,13 @@ class EmailController extends BaseController
                 if (isset($_POST['lang_return']) && is_array($_POST['lang_return'])) {
                     $selected_lang_return = '';
                     $num_lang_return = count($_POST['lang_return']);
+                    
+                    if ($num_lang_return == 3) {
+                        log_message('debug',  "Error de envio email, por ser de origen desconocido." );
+                        return redirect()->to('templates/contactForm?lang=' . $lang)->with('error',lang('Globals.send_canceled', [], $lang))->withInput();
+                    }
+                    // var_dump($_POST['lang_return']);
+                    // dd($num_lang_return);
                     $current = 0;
                     foreach ($_POST['lang_return'] as $key => $value) {
                         if ($current != $num_lang_return-1)
