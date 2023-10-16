@@ -442,5 +442,5 @@ return [
 	'language_info' => 'El idioma para recibir las comunicaciones lo prefiero en',
 	'send_success' => 'Correo envíado correctamente',
 	'send_failed' => 'Fallo en el envío del correo, vuelva  a intentarlo mas tarde',
-
+	'send_canceled' => 'Envío cancelado por inapropiado',
 ];

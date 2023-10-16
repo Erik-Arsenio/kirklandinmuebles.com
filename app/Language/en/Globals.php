@@ -432,6 +432,7 @@ return [
 	'language_info' => 'I prefer to receive commuinications in ',
 	'send_success' => 'Email send successfully',
 	'send_failed' => 'Failed email send ',
+	'send_canceled' => 'Shipping canceled due to inappropriate',
 
 
 ];
