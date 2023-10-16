@@ -15,10 +15,10 @@
 				<div class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome">
 					<div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum_portada.jpg' ?>" class="card-img-top img-fluid btn-investments" width="1754 px" height="1240 px" alt="Desarrollo de Wayúum en Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum.jpg' ?>" class="card-img-top img-fluid btn-investments" width="1754 px" height="1240 px" alt="Desarrollo de Wayúum en Mérida, Yucatán, México.">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum_portada.jpg' ?>" class="card-img-top img-fluid btn-investments" width="1754 px" height="1240 px" alt="Master Plan Desarrollo de Wayúum Life en Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="card-img-top img-fluid btn-investments" width="1754 px" height="1240 px" alt="Master Plan Desarrollo de Wayúum Life en Mérida, Yucatán, México.">
                         </div>
 						<div class="carousel-item">
 							<img class="img-fluid" src="<?= STATIC_URL . 'img/marela_life/01-' . $lang . '.jpg' ?>"  width="1754 px" height="1240 px" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
@@ -2543,10 +2543,10 @@
 					<div id="carouselWayuum" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/wayuum?lang='. $lang) ?>>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum_portada.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Desarrollo de Wayúum en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Desarrollo de Wayúum en Mérida, Yucatán, México.">
 							</div>
 							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum_portada.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan Desarrollo de Wayúum Life en Mérida, Yucatán, México.">
+								<img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan Desarrollo de Wayúum Life en Mérida, Yucatán, México.">
 							</div>
 							<!-- <div class="carousel-item">
 								<img src="<?= STATIC_URL . 'img/marela_life/11-' . $lang . '.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Desarrollo de Marela Life en Mérida, Yucatán, México.">
