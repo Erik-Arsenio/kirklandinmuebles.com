@@ -53,6 +53,7 @@ return [
 	'title' => 'Título',
 	'offer' => 'Oferta',
 	'lot' => 'Lote',
+	'lots' => 'Lotes',
 	'price' => 'Precio',
 	'description' => 'Descripción',
 	'area' => 'Área',
@@ -66,9 +67,12 @@ return [
 	'down_payment' => 'Enganche',
 	'category' => 'Categoría',
 	'stage' => 'Etapa',
+	'stages' => 'Etapas',
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
 	'language' => 'Idioma',
+	'block' => 'Bloque',
+	'blocks' => 'Bloques',
 
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
@@ -123,6 +127,10 @@ return [
 	// Header text in Wayuum
 	'header_8' => 'Lotes y Privadas residenciales',
 	'header_9' => 'Gran Comunidad Residencial ubicada en Chicxulub. Un centro moderno y lleno de vida que ofrece un ambiente tranquilo y seguro.',
+	
+	// Header text in Sorenna
+	'header_10' => 'Lotes urbanizados y semi urbanizados',
+
 
 
 
@@ -163,6 +171,16 @@ return [
 	'location_23'  => '- Lotes familiares y urbanizados con uso de suelo mixto y lotes comerciales en la avenida principal.',
 	'location_24'  => '- Ubicado a 4 km de la carretera a Chicxulub Puerto por el camino de acceso. ',
 	'location_25'  => '- Ubicado a 25 km de Plaza Altabrisa.',
+	
+	// text in Sorenna
+	'location_26' => '¿Por qué comprar un lote residencial o comercial en Sorenna?',
+	'location_27'  => 'Nuestros lotes residenciales tienen una ubicación ideal, con la mejor orientación Norte - Sur',
+	'location_28'  => 'Se encuentra en la zona de mayor plusvalía del estado, toda la infraestructura y urbanización del proyecto incrementa el valor de la propiedad.',
+	'location_29'  => '- A solo 10 minutos de la costa Esmeralda, con la posibilidad de desarrollar proyectos comerciales y residenciales.',
+	'location_30'  => '- Plusvalía compuesta por su cercanía con Wayúum.',
+	'location_31'  => '- A 8 minutos de Chicxulub Puerto, así como a minutos de centros comerciales, hospitales y universidades del norte de la ciudad. ',
+	'location_32'  => '- Ubicado a 25 km de Plaza Altabrisa.',
+
 
 
 	// characteristic text in Lakuun
@@ -242,6 +260,10 @@ return [
 	'characteristic_66'  => 'Actualmente a la venta Turix.',
 	'characteristic_67'  => 'Todas contarán con comodidades y servicios de urbanización: ',
 	'characteristic_68'  => 'Parque de contemplación',
+
+
+// characteristic text in Sorenna
+
 
 
 	// text in Lakuun
@@ -334,6 +356,23 @@ return [
 	'clubhouse_63'  => 'Gimnasio',
 	'clubhouse_64'  => 'Área verdes',
 	'clubhouse_65'  => 'Estacionamiento verde',
+	
+	// Casa Club Ponttho
+	
+	'club_8'  => 'Casa Pontthó - Jungle Amenities',
+	'club_9'  => 'Será el epicentro de las actividades en esta comunidad, una casa club que está habilitada con control de acceso y recepción, asegurando la tranquilidad y seguridad de los miembros de las comunidades GEA que lo visiten.',
+	'club_10'  => 'Planta Baja',
+	'club_11'  => 'Planta Alta',
+	'clubhouse_66'  => 'Área administrativa',
+	'clubhouse_67'  => 'Piscina',
+	'clubhouse_68'  => 'Rooftop bar con balcón',
+	'clubhouse_69'  => 'Área de servicios ',
+	'clubhouse_70'  => 'Área de asadores ',
+	'clubhouse_71'  => 'Cocina ',
+	'clubhouse_72'  => 'Estacionamiento',
+	'clubhouse_73'  => 'Salón de estar/usos múltiples',
+	'clubhouse_74'  => 'Baños',
+	'clubhouse_75'  => 'Terraza techada',
 
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
@@ -394,6 +433,13 @@ return [
 	'standard' => 'Estandar',
 	'enganche' => 'Enganche de 10%',
 	'total_value_per_land' => 'VALOR TOTAL (MXN) POR TERRENO',
+	
+	'regular_lot' => 'Lote Regular',
+	'corner_lot' => 'Lote Esquina',
+	'avenue_lot' => 'Lote Avenida',
+	'corner_avenue_lot' => 'Lote Avenida Esquina',
+	'counted' => 'Contado',
+
 	
 	'december' => 'Diciembre',
 

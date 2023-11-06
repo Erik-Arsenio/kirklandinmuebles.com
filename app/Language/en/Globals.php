@@ -53,6 +53,7 @@ return [
 	'title' => 'Título',
 	'offer' => 'Oferta',
 	'lot' => 'Lot',
+	'lots' => 'Lots',
 	'price' => 'Price',
 	'description' => 'Descripción',
 	'area' => 'Área',
@@ -69,6 +70,9 @@ return [
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
 	'language' => 'Language',
+	'block' => 'Block',
+	'blocks' => 'Blocks',
+
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'All rights reserved',
 	'text_3' => 'No existen registros para mostrar.',
@@ -122,6 +126,8 @@ return [
 	'header_8' => 'Lots and Private Residential',
 	'header_9' => 'Great Residential Community located in Chicxulub. A modern and lively center that offers a calm and safe environment.',
 
+	// Header text in Sorenna
+	'header_10' => 'Urbanized and Semi-urbanized lots',
 
 	'click_zoom' => 'Click to zoom',
 
@@ -161,6 +167,15 @@ return [
 	'location_23'  => '- Family and urbanized lots with mixed land use and commercial lots on the main avenue.',
 	'location_24'  => '- Located 4 km from the road to Chicxulub Puerto by the access road. ',
 	'location_25'  => '- Located 25 km from Plaza Altabrisa.',
+
+	// text in Sorenna
+	'location_26' => 'Why buy a residential or comercial lot in Sorenna?',
+	'location_27'  => 'Nuestros lotes residenciales tienen una ubicación ideal, con la mejor orientación Norte - Sur',
+	'location_28'  => 'Se encuentra en la zona de mayor plusvalía del estado, toda la infraestructura y urbanización del proyecto incrementa el valor de la propiedad.',
+	'location_29'  => '- A solo 10 minutos de la costa Esmeralda, con la posibilidad de desarrollar proyectos comerciales y residenciales.',
+	'location_30'  => '- Plusvalía compuesta por su cercanía con Wayúum.',
+	'location_31'  => '- Ubicado a 15 km de la carretera a Chicxulub Puerto. ',
+	'location_32'  => '- Located 25 km from Plaza Altabrisa.',
 	
 
 	// text in Lakuun
@@ -328,6 +343,21 @@ return [
 	'clubhouse_64'  => 'Green areas',
 	'clubhouse_65'  => 'Green parking',
 
+	'club_8'  => 'Casa Pontthó - Jungle Amenities',
+	'club_9'  => 'Será el epicentro de las actividades en esta comunidad, una casa club que está habilitada con control de acceso y recepción, asegurando la tranquilidad y seguridad de los miembros de las comunidades GEA que lo visiten.',
+	'club_10'  => 'Planta Baja',
+	'club_11'  => 'Planta Alta',
+	'clubhouse_66'  => 'Área administrativa',
+	'clubhouse_67'  => 'Piscina',
+	'clubhouse_68'  => 'Rooftop bar con balcón',
+	'clubhouse_69'  => 'Área de servicios ',
+	'clubhouse_70'  => 'Área de asadores ',
+	'clubhouse_71'  => 'Cocina ',
+	'clubhouse_72'  => 'Estacionamiento',
+	'clubhouse_73'  => 'Salón de estar/usos múltiples',
+	'clubhouse_74'  => 'Baños',
+	'clubhouse_75'  => 'Terraza techada',
+
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
 	'stages'  => 'Stages',
@@ -387,7 +417,12 @@ return [
 	'enganche' => '10% Down payment',
 	'total_value_per_land' => 'TOTAL VALUE (MXN) PER LAND',
 
-		
+	'regular_lot' => 'Regular Lot',
+	'corner_lot' => 'Corner  Lot',
+	'avenue_lot' => 'Avenue Lot',
+	'corner_avenue_lot' => 'Corner Avenue Lot',
+	'counted' => 'Counted',
+
 	'december' => 'December',
 
 
