@@ -371,15 +371,16 @@ class Tasks extends BaseController
 
                 for ($stage = 0; $stage < count($projects['project'][$key_proj]['url_project']); $stage++  ) {
                     $url_data_text = $projects['project'][$key_proj]['url_project'][$stage]['url_scrap'];
-                    echo "Url por etapa -".$stage ." - " . "<br>";
-                    // $updateProject = array();
+                    echo "<br>" . "Url por etapa -".$stage + 1 ." - " . "<br>";
+                    $updateProjectStage = array();
                     // echo "Url por etapa -".$stage ." - ".$url_data_text."<br>";
 
+                    // set_time_limit(0);
                     // $texto = file_get_contents($url_data_text);
                     // $texto = nl2br($texto);
 
 
-                    $url = FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '_data-'. ($stage + 1) .'.txt';
+                    $url = FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '_data-'. ($stage+1) .'.txt';
                     // echo "Link= " . $url .  "<br>";
                     // $fp = fopen($url, "w+");
                     // fwrite($fp, $texto);
@@ -411,8 +412,6 @@ class Tasks extends BaseController
                                 case "res":
                                     $status = 2;
                                     break;
-                                // default:
-                                //     echo "Your favorite color is neither red, blue, nor green!";
                             }
                             // echo "Status: " . $status .  " / ";
                             $area = substr($line, strpos($line, '<span>') + 6 , 6);
@@ -432,61 +431,31 @@ class Tasks extends BaseController
                                 }
                             }
                             
-                            // echo "Lote: " . $lot .  "<br> ";
-        
-                            
-                            array_push( $updateProject, array("data-lot" => $dataLot, "lot" => $lot ,  "status" => $status, "area" => $area));
+                            array_push( $updateProjectStage, array("data-lot" => $dataLot, "lot" => $lot ,  "status" => $status, "area" => $area));
                         }
                     }
-                    // echo "<br>  <br> " . json_encode($wayuum, true);
-                    // var_dump($wayuum);
-                    // echo "<br>  <br> ";
-                    // fclose($url);
 
                     
-                    $fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . "-". ($stage + 1) . "_update.json", "w+");
-                    fwrite($fp, json_encode($updateProject, true));
+                    $fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . "-". ($stage+1) . "_update.json", "w+");
+                    fwrite($fp, json_encode($updateProjectStage, true));
                     fclose($fp);
-                    // var_dump($updateProject);
+                    $updateProject = array_merge($updateProject, $updateProjectStage );
+                    // var_dump($updateProjectStage);
                 }
 
                 $dataProject = get_json_file ($projectName);
                 $dataProject = json_decode(json_encode($dataProject), true);
                 $updateProject = json_decode(json_encode($updateProject), true);
-                // dd($dataProject, $updateProject);
 
                 for ($key = 0; $key < count($dataProject['properties']); $key++  ) {
-                    // $search_items = array('data-lot' => $dataProject['properties'][$key]['data-lot'], 'status' => $dataProject['properties'][$key]['status_id']);
-                    $search_items = array('data-lot' => $dataProject['properties'][$key]['data-lot'], 'lot' => $dataProject['properties'][$key]['name']);
-                    // $search_items = array('data-lot' => $dataProject['properties'][$key]['data-lot']);
+                    $search_items = array('lot' => $dataProject['properties'][$key]['name']);
                     $res = search( $updateProject, $search_items);
-
-                    if ($res) {
-                        // if ($res[0]['status'] == null) {
-                        //     // var_dump($res[0]);
-                        //     $res[0]['status'] = 1;
-                        //     $res[0]['status_text'] = "Disponible";
-                        //     // var_dump($res[0]);
-                        //     echo "Error en datos de scrap en " . $projectName. " en Etapa- " . $url_stage . " en estado del lote- " . $res[0]['id']. ' con status: Status NULL' . '<br>';
-                        //     // log_message('debug',  "Error en datos de scrap en " . $projectName. " en Etapa- " . $url_stage . " en estado del lote- " . $res[0]['id']. ' con estatus: Status NULL' );
-                        //     // dd($projectName, $dataProject, $updateProject, $res);
-                            // echo "data-lot JSON- " . $dataProject['properties'][$key]['data-lot'] . " status- " . $dataProject['properties'][$key]['status_id'] . "  Data-lot Search- " . $res[0]['data-lot'] . " status- " . $res[0]['status'] . "<br>" ;
-                        // }
-                        // echo "Status Update de ". $res[0]['status_text'] .  "<br>";
-                        // echo "Etapa- " . $dataProject['properties'][$key]['stage'] . " --> " .$dataProject['properties'][$key]['name']. ' : Status '.$dataProject['properties'][$key]['status_name']. ' => '. $res[0]['id'].' : Status '. $res[0]['status_text'].'<br>';
-                        if ($dataProject['properties'][$key]['status_id'] !=  $res[0]['status']) {
+                    if ($res == true && $dataProject['properties'][$key]['status_id'] !=  $res[0]['status']) {
                             echo "Cambio de estado de " . $dataProject['properties'][$key]['name']. ' : Status '.$dataProject['properties'][$key]['status_id']. ' => '. $res[0]['data-lot'].' : Status '. $res[0]['status'].'<br>';
                             $dataProject['properties'][$key]['status_id'] = intval($res[0]['status']);
-                            // echo "Estado Final " . $dataProject['properties'][$key]['name']. ' : Status '.$dataProject['properties'][$key]['status_id']. ' => '. $res[0]['data-lot'].' : Status '. $res[0]['status'].'<br>';
-                            // $dataProject['properties'][$key]['status_name'] = ucfirst(strtolower($res[0]['status_text']));
                             log_message('debug',  "Project Availability Changes ". ucwords(str_replace("_", " ", $projectName)) );
                             $change_project = true;
-                            // dd($dataProject, $wayuum, $updateProject);
                             // $message .= "<b>Desarrollo " . ucwords(str_replace("_", " ", $projectName)) . "</b> ==> <b>Etapa - " . $dataProject['properties'][$key]['stage']  . "</b> ==> Lote - " . $dataProject['properties'][$key]['name'] . " cambia su estado a: " . ucfirst(strtolower($dataProject['properties'][$key]['status_name'])) . ".<br>" ;
-                            echo "data-lot= ". $dataProject['properties'][$key]['data-lot'];
-                            // var_dump($updateProject);
-                            // dd($dataProject, $updateProject, $search_items, $res);
-                        }
                     } else {
                         // echo "No existe array" .  "<br>";
 
