@@ -25,61 +25,61 @@
                         <div class="carousel-item active">
                             <img src="<?= STATIC_URL . 'img/wayuum/acceso_principal_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Acceso Principal a Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Acceso principal a Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_1') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">7 Privadas residenciales</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_2') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/area_comercial_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Área Comercial Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_3') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/area_multiple.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Área multiple de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Área multiple Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_4') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/comercial_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Comercial de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Comercial Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_5') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/departamentos_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Departamentos de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Departamentos Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_6') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/parque_wayuum.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Parque Wayúum</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_7') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/isla_norte_vista_area.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Vista aerea de la Isla Norte</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_8') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/parrque_contemplacion_lago.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Parque de contemplación y lago</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_9') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/wayuum/parque_pet.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque de Balam en Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Parque Peek</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_10') ?></p>
                             </div>
                         </div>
                     </div>
