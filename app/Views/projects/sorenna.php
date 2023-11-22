@@ -25,31 +25,31 @@
                         <div class="carousel-item active">
                             <img src="<?= STATIC_URL . 'img/sorenna/motivo_de_acceso.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Acceso Principal a Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Acceso principal a Sorenna</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_11') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/sorenna/sorenna_mapa.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Ubicación de Sorenna</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_12') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/sorenna/vista_area.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Vista aérea del desarrollo</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_13') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/sorenna/calles_alumbrado.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Áea comercial Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Calles con alumbrado público</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_14') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/sorenna/glorieta.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Área multiple de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Glorieta</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_15') ?></p>
                             </div>
                         </div>
                         <!-- <div class="carousel-item">
@@ -61,7 +61,7 @@
                         <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/sorenna/plusvalia.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Departamentos de Wayúum Progreso, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle">Plusvalía</p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_16') ?></p>
                             </div>
                         </div>
                         <!-- <div class="carousel-item">
@@ -2848,24 +2848,24 @@
                 <div class="col-md-6 " >
                     <ul>
                         <li class="h4"><?= lang('Globals.characteristic_51') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_52') ?> compuesta por su cercanía con Wayúum</li>
-                        <li class="h4"><?= lang('Globals.characteristic_17') ?> necesaria para poder escriturar de manera inmediata.</li>
+                        <li class="h4"><?= lang('Globals.characteristic_52') ?> <?= lang('Globals.characteristic_69') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_17') ?> <?= lang('Globals.characteristic_70') ?></li>
                         <li class="h4"><?= lang('Globals.characteristic_57') ?></li>
-                        <li class="h4">Orientación privilegiada de Norte a Sur.</li>
-                        <li class="h4">Parque lineal de 12m de ancho con andador de 1.5m de ancho o ciclovía.</li>
-                        <li class="h4">Vegetación en áreas verdes y motivo de acceso e hitos en glorietas.</li>
-                        <li class="h4">Calles secundarias pavimentadas menos en el bloque-1</li>
+                        <li class="h4"><?= lang('Globals.characteristic_71') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_72') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_73') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_74') ?></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul>
-                        <li class="h4">Avenida principal pavimentada de 15m de ancho (incluye camellón con vegetación) + alumbrado público + acometida + luz eléctrica y colindancia con parque lineal.</li>
-                        <li class="h4">Energía eléctrica subterránea en avenida principal</li>
-                        <li class="h4">Doble guarnición y espacio para banqueta con gravilla</li>
-                        <li class="h4">Lotes con superficies desde 250 m2</li>
-                        <li class="h4">Mensualidades de $16,065</li>
-                        <li class="h4">Financiamiento de hasta 5 años</li>
-                        <li class="h4">Sin pagos de cuotas de mantenimiento.</li>
+                        <li class="h4"><?= lang('Globals.characteristic_75') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_76') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_77') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_78') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_79') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_80') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_81') ?></li>
                     </ul>
                 </div>
             </div>
@@ -2905,17 +2905,17 @@
                                     <li class="h5"><?= lang('Globals.clubhouse_72') ?></li>
                                     <li class="h5"><?= lang('Globals.clubhouse_22') ?></li>
                                         <ul style="list-style-type:circle;">
-                                            <li class="h6">Sanitarios para mujeres con 3 módulos y 3 regaderas</li>
-                                            <li class="h6">Sanitarios para hombres con 2 módulos, 2 mingitorios y 2 regaderas</li>
+                                            <li class="h6"><?= lang('Globals.clubhouse_84') ?></li>
+                                            <li class="h6"><?= lang('Globals.clubhouse_85') ?></li>
                                         </ul>
                                     <li class="h5"><?= lang('Globals.clubhouse_67') ?></li>
                                         <ul style="list-style-type:circle;">
-                                            <li class="h6">112 m2 con profundidad de 0.90m para el área de niños y 1.50m para el área de adultos</li>
+                                            <li class="h6"><?= lang('Globals.clubhouse_86') ?></li>
                                         </ul>
                                     <li class="h5"><?= lang('Globals.clubhouse_64') ?></li>
                                         <ul style="list-style-type:circle;">
-                                            <li class="h6">Área de camastros</li>
-                                            <li class="h6">Jardínes</li>
+                                            <li class="h6"><?= lang('Globals.clubhouse_87') ?></li>
+                                            <li class="h6"><?= lang('Globals.clubhouse_88') ?></li>
                                         </ul>
                                 </ul>
                             </div>
@@ -2948,49 +2948,49 @@
                                     <div class="carousel-item active">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_fachada_principal.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Exterior Casa Club de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó entrada principal</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_76') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_acceso.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Cancha de Pádel de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó acceso interior</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_77') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_recepcion.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Canchas de Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó recepción</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_78') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_terraza_planta_baja.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó terreza planta baja</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_79') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_terraza_planta_alta.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó terreza planta alta</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_80') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_piscina.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó vista de la piscina</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_81') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_piscina_2.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó vista de la piscina</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_82') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/sorenna/casa_club_cocina.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Casa Pontthó vista de la cocina</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_83') ?></p>
                                         </div>
                                     </div>
                                     <!-- <div class="carousel-item">
@@ -3719,12 +3719,12 @@
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
                                 <!-- Direccion para Scrapde Privada Sorenna Bloque 3: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=y8TPAoSds9D32&rd=&rg=&clvde=y8TPAoSds9D32 -->
-                                <!-- <div id="stage-3" class="row text-center">
+                                <!-- <div id="" class="row text-center">
                                     <img src="<?= STATIC_URL . 'img/sorenna/bloque-3.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Sorenna Bloque 3">
                                 </div> -->
                                 <div id="stage-3" class="row text-center map-svg d-none"></div>
                                 <div class="leyend-status d-flex justify-content-around text-center fw-bold mt-n5">
-                                <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_avenue_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_avenue_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.avenue_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
@@ -3923,11 +3923,11 @@
                                 </div>
                                 <!-- Direccion para Scrapde Privada Sorenna Bloque 4: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=og7K5zHIiyD39&rd=&rg=&clvde=og7K5zHIiyD39 -->
                                 <div id="stage-4" class="row text-center map-svg d-none"></div>
-                                <!-- <div id="stage-4" class="row text-center">
+                                <!-- <div id="" class="row text-center">
                                     <img src="<?= STATIC_URL . 'img/sorenna/bloque-4.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Sorenna Bloque 4">
                                 </div> -->
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold mt-n5">
-                                <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_avenue_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_avenue_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.avenue_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase"><?= lang('Globals.corner_lot') ?></span></div>
                                     <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
