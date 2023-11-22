@@ -2628,25 +2628,25 @@
                                     <div class="carousel-item active">
                                         <img src="<?= STATIC_URL . 'img/wayuum/exterior_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Exterior Casa Club de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Exterior Casa Club Balam</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_90') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/wayuum/cancha_de_padel_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Cancha de Pádel de Wayúum en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Cancha de Pádel Balam</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_91') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/wayuum/canchas_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Canchas de Wayúum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Canchas Balam</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_92') ?></p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="<?= STATIC_URL . 'img/wayuum/piscina_casa_club_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Piscina Casa Clubd de Balam en Wayuum Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
                                         <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle">Alberca Casa Club Balam</p>
+                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_93') ?></p>
                                         </div>
                                     </div>
                                     <!-- <div class="carousel-item">
@@ -2716,25 +2716,25 @@
                                 <div class="carousel-item active">
                                     <img src="<?= STATIC_URL . 'img/wayuum/master_plan_wayuum.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Wayúum">
                                     <div class="carousel-caption bottom-0 py-0 ">
-                                        <p class="h6 subtle">Master Plan Wayúum</p>
+                                        <p class="h6 subtle"><?= lang('Globals.property_list_8') ?></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="<?= STATIC_URL . 'img/wayuum/lotes_balam.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Balam ">
                                     <div class="carousel-caption bottom-0 py-0 ">
-                                        <p class="h6 subtle">Lotes Balam</p>
+                                        <p class="h6 subtle"><?= lang('Globals.property_list_9') ?></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-1.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Turix Etapa-1 ">
                                     <div class="carousel-caption bottom-0 py-0 ">
-                                        <p class="h6 subtle">Lotes Turix Etapa-1</p>
+                                        <p class="h6 subtle"><?= lang('Globals.property_list_10') ?></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="<?= STATIC_URL . 'img/wayuum/lotes-turix-2.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Lotes Turix Etapa-2 ">
                                     <div class="carousel-caption bottom-0 py-0 ">
-                                        <p class="h6 subtle">Lotes Turix Etapa-2</p>
+                                        <p class="h6 subtle"><?= lang('Globals.property_list_11') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -2868,9 +2868,9 @@
                                 </div> -->
                                 <div id="stage-1" class="row text-center map-svg d-none"></div>
                                 <div class="leyend-status d-flex justify-content-around text-center fw-bold mt-n5">
-                                <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
-                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
-                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.club_house_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.greenarea_corner_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                     <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
@@ -3087,9 +3087,9 @@
                                 <!-- </div> -->
                                 <div id="stage-2" class="row text-center map-svg d-none"></div>
                                 <div class="leyend-status d-flex justify-content-around text-center fw-bold mt-n5">
-                                <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
-                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
-                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.club_house_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.greenarea_corner_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                     <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
@@ -3300,9 +3300,9 @@
                                 <!-- Direccion para Scrapde Privada Turix Etapa 2: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=iVhvc0NQb3P125&rd=&rg=&clvde=ACNGoAQSZ8D35 -->
                                 <div id="stage-3" class="row text-center map-svg d-none"></div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold mt-n5">
-                                    <div class="px-2 d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Premium" data-bs-content="Lotes cercanos a Casa Club"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase">Lotes Premium</span></div>
-                                    <div class="px-2d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lotes Plus" data-bs-content="Lotes frente a áreas verdes o esquinas"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase">Lotes Plus</span></div>
-                                    <div class="px-2"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(136, 194, 117);"></span><span class="text-black text-uppercase">Lotes Estandar</span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.club_house_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.greenarea_corner_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
                                 </div>
                                 <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
                                     <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
