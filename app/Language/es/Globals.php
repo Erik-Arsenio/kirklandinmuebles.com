@@ -131,6 +131,26 @@ return [
 	// Header text in Sorenna
 	'header_10' => 'Lotes urbanizados y semi urbanizados',
 
+	// carousel Wayuum
+	'carousel_1' => 'Acceso principal a Wayúum',
+	'carousel_2' => '7 Privadas residenciales',
+	'carousel_3' => 'Área Comercial Wayúum',
+	'carousel_4' => 'Área multiple Wayúum',
+	'carousel_5' => 'Comercial Wayúum',
+	'carousel_6' => 'Departamentos Wayúum',
+	'carousel_7' => 'Parque Wayúum',
+	'carousel_8' => 'Vista aerea de la Isla Norte',
+	'carousel_9' => 'Parque de contemplación y lago',
+	'carousel_10' => 'Parque Peek',
+
+	// carousel Sorenna
+	'carousel_11' => 'Acceso principal a Sorenna',
+	'carousel_12' => 'Ubicación de Sorenna',
+	'carousel_13' => 'Vista aérea del desarrollo',
+	'carousel_14' => 'Calles con alumbrado público',
+	'carousel_15' => 'Glorieta',
+	'carousel_16' => 'Plusvalía',
+
 
 
 
@@ -164,7 +184,7 @@ return [
 	
 	
 	// text in Wayuum
-	'location_19' => '¿Por qué comprar un lote residencial en Wayúum?',
+	'location_19'  => '¿Por qué comprar un lote residencial en Wayúum?',
 	'location_20'  => 'Nuestros lotes residenciales tienen una ubicación ideal.',
 	'location_21'  => 'Situado en Progreso, Yucatán, una zona de alta demanda y creciente plusvalía.',
 	'location_22'  => '- A solo 8 minutos de la costa de Chicxulub, una gran comunidad residencial con terrenos de 170 hectáreas al norte de Mérida.',
@@ -173,7 +193,7 @@ return [
 	'location_25'  => '- Ubicado a 25 km de Plaza Altabrisa.',
 	
 	// text in Sorenna
-	'location_26' => '¿Por qué comprar un lote residencial o comercial en Sorenna?',
+	'location_26'  => '¿Por qué comprar un lote residencial o comercial en Sorenna?',
 	'location_27'  => 'Nuestros lotes residenciales tienen una ubicación ideal, con la mejor orientación Norte - Sur',
 	'location_28'  => 'Se encuentra en la zona de mayor plusvalía del estado, toda la infraestructura y urbanización del proyecto incrementa el valor de la propiedad.',
 	'location_29'  => '- A solo 10 minutos de la costa Esmeralda, con la posibilidad de desarrollar proyectos comerciales y residenciales.',
@@ -262,7 +282,20 @@ return [
 	'characteristic_68'  => 'Parque de contemplación',
 
 
-// characteristic text in Sorenna
+	// characteristic text in Sorenna
+	'characteristic_69'  => 'compuesta por su cercanía con Wayúum',
+	'characteristic_70'  => 'necesaria para poder escriturar de manera inmediata.',
+	'characteristic_71'  => 'Orientación privilegiada de Norte a Sur.',
+	'characteristic_72'  => 'Parque lineal de 12m de ancho con andador de 1.5m de ancho o ciclovía.',
+	'characteristic_73'  => 'Vegetación en áreas verdes y motivo de acceso e hitos en glorietas.',
+	'characteristic_74'  => 'Calles secundarias pavimentadas menos en el bloque-1',
+	'characteristic_75'  => 'Avenida principal pavimentada de 15m de ancho (incluye camellón con vegetación) + alumbrado público + acometida + luz eléctrica y colindancia con parque lineal.',
+	'characteristic_76'  => 'Energía eléctrica subterránea en avenida principal',
+	'characteristic_77'  => 'Doble guarnición y espacio para banqueta con gravilla',
+	'characteristic_78'  => 'Lotes con superficies desde 250 m2',
+	'characteristic_79'  => 'Mensualidades de $16,065',
+	'characteristic_80'  => 'Financiamiento de hasta 5 años',
+	'characteristic_81'  => 'Sin pagos de cuotas de mantenimiento.',
 
 
 
@@ -350,22 +383,29 @@ return [
 	'club_6'  => 'El Club de playa te ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
 	
 	// Club House text in Wayuum
-	'club_7'  => 'Tu única preocupación en Wayúum será elegir la opción para relajarte',
+	'club_7'        => 'Tu única preocupación en Wayúum será elegir la opción para relajarte',
 	'clubhouse_61'  => 'Salón de usos multiples',
 	'clubhouse_62'  => 'Cancha de Pádel',
 	'clubhouse_63'  => 'Gimnasio',
 	'clubhouse_64'  => 'Área verdes',
 	'clubhouse_65'  => 'Estacionamiento verde',
+
+
+	// Club House carousel in Wayuum
+	'clubhouse_90'  => 'Exterior Casa Club Balam',
+	'clubhouse_91'  => 'Cancha de Pádel Balam',
+	'clubhouse_92'  => 'Canchas Balam',
+	'clubhouse_93'  => 'Alberca Casa Club Balam',
 	
 	// Casa Club Ponttho
 	
-	'club_8'  => 'Casa Pontthó - Jungle Amenities',
-	'club_9'  => 'Será el epicentro de las actividades en esta comunidad, una casa club que está habilitada con control de acceso y recepción, asegurando la tranquilidad y seguridad de los miembros de las comunidades GEA que lo visiten.',
-	'club_10'  => 'Planta Baja',
-	'club_11'  => 'Planta Alta',
+	'club_8'        => 'Casa Pontthó - Jungle Amenities',
+	'club_9'        => 'Será el epicentro de las actividades en esta comunidad, una casa club que está habilitada con control de acceso y recepción, asegurando la tranquilidad y seguridad de los miembros de las comunidades GEA que lo visiten.',
+	'club_10'       => 'Planta Baja',
+	'club_11'       => 'Planta Alta',
 	'clubhouse_66'  => 'Área administrativa',
 	'clubhouse_67'  => 'Piscina',
-	'clubhouse_68'  => 'Rooftop bar con balcón',
+	'clubhouse_68'  => 'Terraza bar con balcón',
 	'clubhouse_69'  => 'Área de servicios ',
 	'clubhouse_70'  => 'Área de asadores ',
 	'clubhouse_71'  => 'Cocina ',
@@ -373,6 +413,23 @@ return [
 	'clubhouse_73'  => 'Salón de estar/usos múltiples',
 	'clubhouse_74'  => 'Baños',
 	'clubhouse_75'  => 'Terraza techada',
+
+	'clubhouse_84'  => 'Sanitarios para mujeres con 3 módulos y 3 regaderas',
+	'clubhouse_85'  => 'Sanitarios para hombres con 2 módulos, 2 mingitorios y 2 regaderas',
+	'clubhouse_86'  => '112 m2 con profundidad de 0.90m para el área de niños y 1.50m para el área de adultos',
+	'clubhouse_87'  => 'Área de camastros',
+	'clubhouse_88'  => 'Jardínes',
+
+
+	// Club House carousel in Sorenna
+	'clubhouse_76' => 'Casa Pontthó entrada principal',
+	'clubhouse_77' => 'Casa Pontthó acceso interior',
+	'clubhouse_78' => 'Casa Pontthó recepción',
+	'clubhouse_79' => 'Casa Pontthó terraza planta baja',
+	'clubhouse_80' => 'Casa Pontthó terraza planta alta',
+	'clubhouse_81' => 'Casa Pontthó vista de la piscina',
+	'clubhouse_82' => 'Casa Pontthó otra vista de la piscina',
+	'clubhouse_83' => 'Casa Pontthó vista de la cocina',
 
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
@@ -394,6 +451,13 @@ return [
 	'property_list_5'  => 'Lote Frente al mar',
 	'property_list_6'  => 'Lote 2<small><sup>da</sup></small> fila ',
 	'property_list_7'  => 'Lote 2<small><sup>da</sup></small> fila plus ',
+	
+	// property_list text in Wayuum
+	'property_list_8'  => 'Master Plan Wayúum',
+	'property_list_9'  => 'Lotes Balam',
+	'property_list_10'  => 'Lotes Turix Etapa-1',
+	'property_list_11'  => 'Lotes Turix Etapa-2',
+
 
 	'image'  => 'imagen',
 	'total_lots'  => 'Total de lotes',
@@ -439,7 +503,8 @@ return [
 	'avenue_lot' => 'Lote Avenida',
 	'corner_avenue_lot' => 'Lote Avenida Esquina',
 	'counted' => 'Contado',
-
+	'club_house_lot' => 'Lote Casa Club',
+	'greenarea_corner_lot' => 'Lote área verde/esquina',
 	
 	'december' => 'Diciembre',
 

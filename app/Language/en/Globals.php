@@ -106,6 +106,8 @@ return [
 	'homepage_43' => '<span name="municipality_name">Celestun</span>',
 
 
+
+
 	// Header text  in Lakuun
 	'header_1' => 'Premium residential lots',
 	'header_2' => 'Take advantage of the opportunity to acquire your residential lot with our presale prices',
@@ -129,9 +131,30 @@ return [
 	// Header text in Sorenna
 	'header_10' => 'Urbanized and Semi-urbanized lots',
 
-	'click_zoom' => 'Click to zoom',
+	// carousel Wayuum
+	'carousel_1' => 'Main access to Wayúum',
+	'carousel_2' => '7 Private residential',
+	'carousel_3' => 'Wayúum Commercial area',
+	'carousel_4' => 'Wayúum multiple area',
+	'carousel_5' => 'Wayúum commercial',
+	'carousel_6' => 'Wayúum departments',
+	'carousel_7' => 'Wayúum park',
+	'carousel_8' => 'View of the North Island area',
+	'carousel_9' => 'Comtemplation park and lake',
+	'carousel_10' => 'Peek park',
+
+	// carousel Sorenna
+	'carousel_11' => 'Main access to Sorenna',
+	'carousel_12' => 'Sorenna Location',
+	'carousel_13' => 'Aerial view of the development',
+	'carousel_14' => 'Streets with public lighting',
+	'carousel_15' => 'Roundabout',
+	'carousel_16' => 'Capital gain',
 
 
+
+
+		'click_zoom' => 'Click to zoom',
 
 	// location text in Lakuun
 	'location_1'  => 'Why buy a residential lot in Lakuun?',
@@ -160,7 +183,7 @@ return [
 	'location_18' => 'Why buy a residential lot in MARELA LIFE?',
 
 	// text in Wayuum
-	'location_19' => 'Why buy a residential lot in Wayuum?',
+	'location_19'  => 'Why buy a residential lot in Wayuum?',
 	'location_20'  => 'Our residential lots are ideally located.',
 	'location_21'  => 'Located in Progreso, Yucatán, an area of high demand and growing surplus value.',
 	'location_22'  => '- Just 8 minutes from the coast of Chicxulub, a large residential community with 170 hectares of land north of Mérida.',
@@ -169,12 +192,12 @@ return [
 	'location_25'  => '- Located 25 km from Plaza Altabrisa.',
 
 	// text in Sorenna
-	'location_26' => 'Why buy a residential or comercial lot in Sorenna?',
-	'location_27'  => 'Nuestros lotes residenciales tienen una ubicación ideal, con la mejor orientación Norte - Sur',
-	'location_28'  => 'Se encuentra en la zona de mayor plusvalía del estado, toda la infraestructura y urbanización del proyecto incrementa el valor de la propiedad.',
-	'location_29'  => '- A solo 10 minutos de la costa Esmeralda, con la posibilidad de desarrollar proyectos comerciales y residenciales.',
-	'location_30'  => '- Plusvalía compuesta por su cercanía con Wayúum.',
-	'location_31'  => '- Ubicado a 15 km de la carretera a Chicxulub Puerto. ',
+	'location_26'  => 'Why buy a residential or comercial lot in Sorenna?',
+	'location_27'  => 'Our residential lots have an ideal location, with the best North - South orientation',
+	'location_28'  => 'It is located in the area with the highest capital gains in the state, all the infrastructure and urbanization of the project increases the value of the property.',
+	'location_29'  => '- Just 10 minutes from the Emerald Coast, with the possibility of developing commercial and residential projects.',
+	'location_30'  => '- Capital gain compounded by its proximity to Wayúum.',
+	'location_31'  => '- 8 minutes from Chicxulub Puerto, as well as minutes from shopping centers, hospitals and universities in the north of the city.',
 	'location_32'  => '- Located 25 km from Plaza Altabrisa.',
 	
 
@@ -256,6 +279,22 @@ return [
 	'characteristic_67'  => 'All of them will have urbanization amenities and services: ',
 	'characteristic_68'  => 'Contemplation park',
 
+	// characteristic text in Sorenna
+	'characteristic_69'  => 'composed by its proximity to Wayúum',
+	'characteristic_70'  => 'necessary to be able to write immediately.',
+	'characteristic_71'  => 'Privileged orientation from North to South.',
+	'characteristic_72'  => '12m wide linear park with 1.5m wide walkway or cycle path.',
+	'characteristic_73'  => 'Vegetation in green areas and access reason and milestones in roundabouts.',
+	'characteristic_74'  => 'Paved secondary streets less in block-1',
+	'characteristic_75'  => 'Main paved avenue 15m wide (includes median with vegetation) + public lighting + connection + electric light and border with linear park.',
+	'characteristic_76'  => 'Underground electricity on main avenue',
+	'characteristic_77'  => 'Double lining and space for a gravel bench',
+	'characteristic_78'  => 'Lots with surfaces from 250 m2',
+	'characteristic_79'  => 'Monthly payments of $16,065',
+	'characteristic_80'  => 'Financing for up to 5 years',
+	'characteristic_81'  => 'No maintenance fee payments.',
+
+
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
 	'club_2'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
@@ -336,27 +375,53 @@ return [
 	'club_6'  => 'BEACH CLUB offers a place to enjoy with its innovative design created to have direct contact with the beautiful waters of Celestun. The perfect balance between the beach and the safest city in the state.',
 
 	// Club House text in Wayuum
-	'club_7'  => 'Your only concern in Wayuum will be choosing the option to relax',
+	'club_7'        => 'Your only concern in Wayuum will be choosing the option to relax',
 	'clubhouse_61'  => 'Multipurpose hall',
 	'clubhouse_62'  => 'paddle tennis court',
 	'clubhouse_63'  => 'Gym',
 	'clubhouse_64'  => 'Green areas',
 	'clubhouse_65'  => 'Green parking',
 
-	'club_8'  => 'Casa Pontthó - Jungle Amenities',
-	'club_9'  => 'Será el epicentro de las actividades en esta comunidad, una casa club que está habilitada con control de acceso y recepción, asegurando la tranquilidad y seguridad de los miembros de las comunidades GEA que lo visiten.',
-	'club_10'  => 'Planta Baja',
-	'club_11'  => 'Planta Alta',
-	'clubhouse_66'  => 'Área administrativa',
-	'clubhouse_67'  => 'Piscina',
-	'clubhouse_68'  => 'Rooftop bar con balcón',
-	'clubhouse_69'  => 'Área de servicios ',
-	'clubhouse_70'  => 'Área de asadores ',
-	'clubhouse_71'  => 'Cocina ',
-	'clubhouse_72'  => 'Estacionamiento',
-	'clubhouse_73'  => 'Salón de estar/usos múltiples',
-	'clubhouse_74'  => 'Baños',
-	'clubhouse_75'  => 'Terraza techada',
+	// Club House carousel in Wayuum
+	'clubhouse_90'  => 'Exterior Balam Club House',
+	'clubhouse_91'  => 'Balam Padel Court',
+	'clubhouse_92'  => 'Balam Courts',
+	'clubhouse_93'  => 'Balam Club House Pool',
+
+
+	// Casa Club Ponttho
+
+	'club_8'        => 'Ponttho House - Jungle Amenities',
+	'club_9'        => 'It will be the epicenter of activities in this community, a clubhouse that is enabled with access control and reception, ensuring the tranquility and safety of the members of the GEA communities who visit it.',
+	'club_10'       => 'Low level',
+	'club_11'       => 'Top floor',
+	'clubhouse_66'  => 'Administrative area',
+	'clubhouse_67'  => 'Pool',
+	'clubhouse_68'  => 'Rooftop bar with balcony',
+	'clubhouse_69'  => 'Service area',
+	'clubhouse_70'  => 'Grill area',
+	'clubhouse_71'  => 'Kitchen',
+	'clubhouse_72'  => 'Parking lot',
+	'clubhouse_73'  => 'Living room/multipurpose',
+	'clubhouse_74'  => 'Bathrooms',
+	'clubhouse_75'  => 'Covered terrace',
+
+	'clubhouse_84'  => 'Toilets for women with 3 modules and 3 showers',
+	'clubhouse_85'  => 'Toilets for men with 2 modules, 2 urinals and 2 showers',
+	'clubhouse_86'  => "112 m2 with a depth of 0.90m for the children's area and 1.50m for the adults' area",
+	'clubhouse_87'  => 'Lounge area',
+	'clubhouse_88'  => 'Gardens',
+
+	// Club House carousel in Sorenna
+	'clubhouse_76' => 'Ponttho House main entrance',
+	'clubhouse_77' => 'Ponttho House interior access',
+	'clubhouse_78' => 'Ponttho House reception',
+	'clubhouse_79' => 'Ponttho House ground floor terrace',
+	'clubhouse_80' => 'Ponttho House upper floor terrace',
+	'clubhouse_81' => 'Ponttho House view of the pool',
+	'clubhouse_82' => 'Ponttho House another view of the pool',
+	'clubhouse_83' => 'Ponttho House kitchen view',
+	
 
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
@@ -378,6 +443,12 @@ return [
 	'property_list_5'  => 'Beachfront lots',
 	'property_list_6'  => '2<small><sup>nd</sup></small> row lots',
 	'property_list_7'  => '2<small><sup>nd</sup></small> row plus lots',
+
+	// property_list text in Wayuum
+	'property_list_8'  => 'Wayúum Master Plan',
+	'property_list_9'  => 'Balam Lots',
+	'property_list_10'  => 'Turix Lots Stage-1',
+	'property_list_11'  => 'Turix Lots Stage-2',
 
 
 	'image'  => 'image',
@@ -422,6 +493,8 @@ return [
 	'avenue_lot' => 'Avenue Lot',
 	'corner_avenue_lot' => 'Corner Avenue Lot',
 	'counted' => 'Counted',
+	'club_house_lot' => 'Club House Lot',
+	'greenarea_corner_lot' => 'Green area/corner lot',
 
 	'december' => 'December',
 
