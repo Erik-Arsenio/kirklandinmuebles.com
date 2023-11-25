@@ -125,22 +125,22 @@ return [
 	'header_7' => '100% SOLD',
 
 	// Header text in Wayuum
-	'header_8' => 'Lots and Private Residential',
-	'header_9' => 'Great Residential Community located in Chicxulub. A modern and lively center that offers a calm and safe environment.',
+	'header_8' => 'Building lots and residential homes',
+	'header_9' => 'A Grand Residential Community located in Chicxulub, a modern and lively center that offers a calm and safe environment.',
 
 	// Header text in Sorenna
-	'header_10' => 'Urbanized and Semi-urbanized lots',
+	'header_10' => 'Building lots and residential homes',
 
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
-	'carousel_2' => '7 Private residential',
+	'carousel_2' => '7 Residential Privadas',
 	'carousel_3' => 'Wayúum Commercial area',
 	'carousel_4' => 'Wayúum multiple area',
 	'carousel_5' => 'Wayúum commercial',
-	'carousel_6' => 'Wayúum departments',
+	'carousel_6' => 'Wayúum apartments',
 	'carousel_7' => 'Wayúum park',
 	'carousel_8' => 'View of the North Island area',
-	'carousel_9' => 'Comtemplation park and lake',
+	'carousel_9' => 'Park and lake for relaxation and comtemplation',
 	'carousel_10' => 'Peek park',
 
 	// carousel Sorenna
@@ -185,10 +185,10 @@ return [
 	// text in Wayuum
 	'location_19'  => 'Why buy a residential lot in Wayuum?',
 	'location_20'  => 'Our residential lots are ideally located.',
-	'location_21'  => 'Located in Progreso, Yucatán, an area of high demand and growing surplus value.',
+	'location_21'  => 'Located in Progreso, Yucatán, an area of high demand and growing value.',
 	'location_22'  => '- Just 8 minutes from the coast of Chicxulub, a large residential community with 170 hectares of land north of Mérida.',
-	'location_23'  => '- Family and urbanized lots with mixed land use and commercial lots on the main avenue.',
-	'location_24'  => '- Located 4 km from the road to Chicxulub Puerto by the access road. ',
+	'location_23'  => '- Urbanized family and lots with mixed land use and commercial lots on the main avenue.',
+	'location_24'  => '- Located 4 km from the road to Chicxulub Puerto via the access road.',
 	'location_25'  => '- Located 25 km from Plaza Altabrisa.',
 
 	// text in Sorenna
@@ -261,8 +261,8 @@ return [
 
 	// characteristic text in Wayuum
 	'characteristic_51'  => 'Security',
-	'characteristic_52'  => 'High Surplus Value',
-	'characteristic_53'  => 'Condominium Property Regime',
+	'characteristic_52'  => 'High potential capital gain',
+	'characteristic_53'  => 'Condominium Properties',
 	'characteristic_54'  => 'Access booth with 24/7 security',
 	'characteristic_55'  => 'Green areas with landscaping',
 	'characteristic_56'  => 'Paving',
@@ -272,10 +272,10 @@ return [
 	'characteristic_60'  => 'Lots with surfaces from 160m<sup>2</sup>',
 	'characteristic_61'  => 'Monthly payments of $2,330',
 	'characteristic_62'  => 'Financing of up to 15 years',
-	'characteristic_63'  => 'Own clubhouse',
+	'characteristic_63'  => 'Clubhouse included',
 	'characteristic_64'  => '7 residential privates',
 	'characteristic_65'  => 'Private inspired by the Mayan cities, whose design and planning will offer cozy spaces to enjoy with the family.',
-	'characteristic_66'  => 'Currently for sale Turix.',
+	'characteristic_66'  => 'Turix is currently for sale.',
 	'characteristic_67'  => 'All of them will have urbanization amenities and services: ',
 	'characteristic_68'  => 'Contemplation park',
 
@@ -406,8 +406,8 @@ return [
 	'clubhouse_74'  => 'Bathrooms',
 	'clubhouse_75'  => 'Covered terrace',
 
-	'clubhouse_84'  => 'Toilets for women with 3 modules and 3 showers',
-	'clubhouse_85'  => 'Toilets for men with 2 modules, 2 urinals and 2 showers',
+	'clubhouse_84'  => 'Toilets for women with 3 units and 3 showers',
+	'clubhouse_85'  => 'Toilets for men with 2 units, 2 urinals and 2 showers',
 	'clubhouse_86'  => "112 m2 with a depth of 0.90m for the children's area and 1.50m for the adults' area",
 	'clubhouse_87'  => 'Lounge area',
 	'clubhouse_88'  => 'Gardens',
