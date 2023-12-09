@@ -106,8 +106,8 @@
             <polygon id="" class="st0 sold" points="833,437,833,449,862,442,857,432"></polygon>
         </a><a class="batch" id="8426_29__1__1" data-remote="javascript:;" data-lot="8426" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  879 -  <span>219.49m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="834,447,843,458,863,454,861,442"></polygon>
-        </a><a class="batch" id="8427_29__1__1" data-remote="javascript:;" data-lot="8427" data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  878 -  <span>352.93m²</span></p></div>" data-original-title="" title="">
-            <polygon id="" class="st0 reserved" points="843,459,841,466,871,481,863,454"></polygon>
+        </a><a class="batch" id="8427_29__1__1" data-remote="javascript:;" data-lot="8427" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  878 -  <span>352.93m²</span></p></div>" data-original-title="" title="">
+            <polygon id="" class="st0 sold" points="843,459,841,466,871,481,863,454"></polygon>
         </a><a class="batch" id="8428_29__1__1" data-remote="javascript:;" data-lot="8428" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  877 -  <span>599.70m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="833,472,840,466,869,480,872,492,837,494"></polygon>
         </a><a class="batch" id="8429_29__1__1" data-remote="javascript:;" data-lot="8429" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  828 -  <span>489.14m²</span></p></div>" data-original-title="" title="">
@@ -310,8 +310,8 @@
             <polygon id="" class="st0 sold" points="337,479,343,508,368,507,364,486,355,486,350,479"></polygon>
         </a><a class="batch" id="8528_29__1__1" data-remote="javascript:;" data-lot="8528" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  597 -  <span>513.93m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="318,508,343,508,337,481,327,480,323,485,314,489"></polygon>
-        </a><a class="batch" id="8529_29__1__1" data-remote="" data-lot="8529" data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  584 -  <span>417.41m²</span></p></div>" data-original-title="" title="">
-            <polygon id="" class="st0 available" points="303,482,289,490,300,509,318,508,315,489"></polygon>
+        </a><a class="batch" id="8529_29__1__1" data-remote="javascript:;" data-lot="8529" data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  584 -  <span>417.41m²</span></p></div>" data-original-title="" title="">
+            <polygon id="" class="st0 reserved" points="303,482,289,490,300,509,318,508,315,489"></polygon>
         </a><a class="batch" id="8530_29__1__1" data-remote="javascript:;" data-lot="8530" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  585 -  <span>383.87m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="274,472,296,458,301,468,301,481,288,491"></polygon>
         </a><a class="batch" id="8531_29__1__1" data-remote="javascript:;" data-lot="8531" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  586 -  <span>211.34m²</span></p></div>" data-original-title="" title="">
@@ -518,8 +518,8 @@
             <polygon id="" class="st0 sold" points="594,255,597,267,625,260,622,250"></polygon>
         </a><a class="batch" id="8632_29__1__1" data-remote="javascript:;" data-lot="8632" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  772 -  <span>380.70m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="623,261,627,278,600,280,596,266"></polygon>
-        </a><a class="batch" id="8633_29__1__1" data-remote="javascript:;" data-lot="8633" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  762 -  <span>310.97m²</span></p></div>" data-original-title="" title="">
-            <polygon id="" class="st0 sold" points="617,293,630,292,635,317,623,320"></polygon>
+        </a><a class="batch" id="8633_29__1__1" data-remote="javascript:;" data-lot="8633" data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  762 -  <span>310.97m²</span></p></div>" data-original-title="" title="">
+            <polygon id="" class="st0 reserved" points="617,293,630,292,635,317,623,320"></polygon>
         </a><a class="batch" id="8634_29__1__1" data-remote="javascript:;" data-lot="8634" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  761 -  <span>313.81m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="610,320,601,294,617,292,622,319"></polygon>
         </a><a class="batch" id="8635_29__1__1" data-remote="javascript:;" data-lot="8635" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  760 -  <span>313.28m²</span></p></div>" data-original-title="" title="">
@@ -739,4 +739,4 @@
 
 
 
-    </div></body></html>
+    </div><iframe id="sbox" src="chrome-extension://afhdhdllpdmajoopkogfdmdfdgmpjipp/js/sandbox.html" style="display: none;"></iframe></body></html>

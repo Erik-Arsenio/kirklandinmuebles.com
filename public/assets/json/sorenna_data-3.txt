@@ -458,8 +458,8 @@
             <polygon id="" class="st0 sold" points="836,529,863,560,874,550,853,526,846,529"></polygon>
         </a><a class="batch" id="9739_32__1__1" data-remote="javascript:;" data-lot="9739" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  559 -  <span>357.83m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="859,516,853,524,873,550,895,532"></polygon>
-        </a><a class="batch" id="9740_32__1__1" data-remote="" data-lot="9740" data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  560 -  <span>606.95m²</span></p></div>" data-original-title="" title="">
-            <polygon id="" class="st0 available" points="872,485,854,501,859,514,893,532,906,523"></polygon>
+        </a><a class="batch" id="9740_32__1__1" data-remote="javascript:;" data-lot="9740" data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  560 -  <span>606.95m²</span></p></div>" data-original-title="" title="">
+            <polygon id="" class="st0 reserved" points="872,485,854,501,859,514,893,532,906,523"></polygon>
         </a><a class="batch" id="9741_32__1__1" data-remote="javascript:;" data-lot="9741" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  561 -  <span>442.38m²</span></p></div>" data-original-title="" title="">
             <polygon id="" class="st0 sold" points="841,578,824,592,855,621,869,609"></polygon>
         </a><a class="batch" id="9742_32__1__1" data-remote="javascript:;" data-lot="9742" data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  562 -  <span>300.00m²</span></p></div>" data-original-title="" title="">
