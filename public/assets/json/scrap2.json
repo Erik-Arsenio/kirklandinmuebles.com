@@ -9,7 +9,13 @@
         {
             "project_name": "sorenna",
             "numbers_stage": 4,
-            "url_project": [{ "url_scrap":"hhttps://crmgea.com/sistemas_active/crm/if/indexBase.php?id=WaQaNOesnWD25&rd=&rg=&clvde=WaQaNOesnWD25"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=YL1exmLSE6D29&rd=&rg=&clvde=YL1exmLSE6D29"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=y8TPAoSds9D32&rd=&rg=&clvde=y8TPAoSds9D32"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=og7K5zHIiyD39&rd=&rg=&clvde=og7K5zHIiyD39"}
+            "url_project": [{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=WaQaNOesnWD25&rd=&rg=&clvde=WaQaNOesnWD25"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=YL1exmLSE6D29&rd=&rg=&clvde=YL1exmLSE6D29"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=y8TPAoSds9D32&rd=&rg=&clvde=y8TPAoSds9D32"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=og7K5zHIiyD39&rd=&rg=&clvde=og7K5zHIiyD39"}
+        ]
+        },
+        {
+            "project_name": "mahal",
+            "numbers_stage": 3,
+            "url_project": [{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=R5pUitYnIRP141&rd=&rg=&clvde=MnlaVnbg1FD36"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=yf87UqvdY2P142&rd=&rg=&clvde=MnlaVnbg1FD36"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=G6Y51XhEU2P143&rd=&rg=&clvde=MnlaVnbg1FD36"}
         ]
         }
     ]
