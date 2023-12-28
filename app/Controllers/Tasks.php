@@ -375,16 +375,16 @@ class Tasks extends BaseController
                     $updateProjectStage = array();
                     // echo "Url por etapa -".$stage ." - ".$url_data_text."<br>";
 
-                    // set_time_limit(0);
-                    // $texto = file_get_contents($url_data_text);
-                    // $texto = nl2br($texto);
+                    set_time_limit(0);
+                    $texto = file_get_contents($url_data_text);
+                    $texto = nl2br($texto);
 
 
                     $url = FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '_data-'. ($stage+1) .'.txt';
                     // echo "Link= " . $url .  "<br>";
-                    // $fp = fopen($url, "w+");
-                    // fwrite($fp, $texto);
-                    // fclose($fp);
+                    $fp = fopen($url, "w+");
+                    fwrite($fp, $texto);
+                    fclose($fp);
                     $texto = fopen($url, "r+");
         
                     // $wayuum = [];
