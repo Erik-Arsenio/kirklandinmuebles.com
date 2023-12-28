@@ -80,8 +80,8 @@ class Projects extends BaseController
 			"marela_life"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
 			"wayuum"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 			"sorenna"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
+			"mahal"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 	];
-
 		
 		
 		// $languaje = $lang ;

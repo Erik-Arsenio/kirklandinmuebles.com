@@ -130,6 +130,10 @@ return [
 	
 	// Header text in Sorenna
 	'header_10' => 'Lotes urbanizados y semi urbanizados',
+	
+	// Header text in Mahal
+	'header_11' => 'Lotes residenciales',
+	'header_12' => 'Residencial Contemporánea ubicada en Conkal, al norte de Mérida, a pocos minutos de la playa, comunidad pintoresca en la que se respira tradición y cultura. Garantiza comodidad y excelente estilo de vida.',
 
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
@@ -150,6 +154,18 @@ return [
 	'carousel_14' => 'Calles con alumbrado público',
 	'carousel_15' => 'Glorieta',
 	'carousel_16' => 'Plusvalía',
+
+		// carousel Mahal
+	'carousel_17' => 'Acceso principal a Mahal',
+	'carousel_18' => 'Master Plan Mahal',
+	'carousel_19' => 'Zona Comercial Mahal',
+	'carousel_20' => 'Tabla de pluvalia',
+	'carousel_21' => '<b>Plaza Agra</b>, área comercial',
+	'carousel_22' => 'Motivo de Acceso y salida principal de Mahal',
+	'carousel_23' => 'Parque botánico',
+	'carousel_24' => 'Parque de usos multiples',
+	'carousel_25' => 'Full Pet friendly',
+	'carousel_26' => 'Parque social',
 
 
 
@@ -201,7 +217,13 @@ return [
 	'location_31'  => '- A 8 minutos de Chicxulub Puerto, así como a minutos de centros comerciales, hospitales y universidades del norte de la ciudad. ',
 	'location_32'  => '- Ubicado a 25 km de Plaza Altabrisa.',
 
-
+	// text in Mahal
+	'location_33'  => '¿Por qué comprar un lote residencial en Mahal?',
+	'location_34'  => '- Régimen de propiedad en condominio con 477 lotes en total.',
+	'location_35'  => '- 20 hectáreas urbanizadas con: Energía eléctrica subterránea, Alumbrado público, Red hidráulica, Vialidades con concreto hidráulico y drenaje pluvial, Seguridad 24/7.',
+	'location_36'  => '- A 6.5 km de Chicxulub Pueblo, 8 km de Conkal Centro, 12 km de Periférico de Mérida y 13 km de Plaza La Isla, Mérida.',
+	'location_37'  => '- Lotes de 200 m2, 250 m2, 300 m2 y lotes irregulares de 350 m2 o más',
+	'location_38'  => 'Nuestros lotes residenciales tienen una ubicación privilegiada.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -280,8 +302,8 @@ return [
 	'characteristic_66'  => 'Actualmente a la venta Turix.',
 	'characteristic_67'  => 'Todas contarán con comodidades y servicios de urbanización: ',
 	'characteristic_68'  => 'Parque de contemplación',
-
-
+	
+	
 	// characteristic text in Sorenna
 	'characteristic_69'  => 'compuesta por su cercanía con Wayúum',
 	'characteristic_70'  => 'necesaria para poder escriturar de manera inmediata.',
@@ -296,15 +318,22 @@ return [
 	'characteristic_79'  => 'Mensualidades de $16,065',
 	'characteristic_80'  => 'Financiamiento de hasta 5 años',
 	'characteristic_81'  => 'Sin pagos de cuotas de mantenimiento.',
-
-
-
+	
+	// characteristic text in Mahal
+	'characteristic_82'  => 'Espacios contemplativos con grandes sólidos y recubrimiento de piedra.',
+	'characteristic_83'  => 'Plaza Agra, área comercial en el exterior de la privada, facilitando la comodidad y accesibilidad a todos los residentes.',
+	'characteristic_84'  => 'Motivo de acceso de piedra monumental con caseta y seguridad 24/7.',
+	'characteristic_85'  => 'Núcleos recreativos con identidad propia: pet park, botanic park, yoga park, work park y social park con juegos infantiles.',
+	'characteristic_86'  => 'Motivo de acceso de piedra monumental con caseta y seguridad 24/7.',
+	'characteristic_87'  => 'Enganche de 10% hasta con 48 meses de financiamiento',
+	'characteristic_88'  => 'Taj Casa club',
+	'characteristic_89'  => 'Full pet friendly.',
+	'characteristic_90'  => 'Lotes con superficies desde 200m<sup>2</sup>',
+	
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
 	
-
-
 
 	// Club House text in Lakuun
 	'clubhouse_1'  => 'Entrada distintiva',
@@ -375,9 +404,6 @@ return [
 	'clubhouse_58'  => 'Vista desde el área de camastros al espejo de agua y lobby',
 	'clubhouse_59'  => 'Vista del espejo de agua y looby',
 
-	// text in Lakuun
-
-	
 	// text Beach Club
 	'club_5'  => 'Disfruta del CLUB de PLAYA con que cuenta el desarrollo.',
 	'club_6'  => 'El Club de playa te ofrece un lugar para disfrutar con su diseño innovador creado para tener un contacto directo con las hermosas agua de Celestún. El equilibrio perfecto entre la playa y la ciudad mas segura del estado.',
@@ -389,13 +415,25 @@ return [
 	'clubhouse_63'  => 'Gimnasio',
 	'clubhouse_64'  => 'Área verdes',
 	'clubhouse_65'  => 'Estacionamiento verde',
-
-
+	
+	
 	// Club House carousel in Wayuum
 	'clubhouse_90'  => 'Exterior Casa Club Balam',
 	'clubhouse_91'  => 'Cancha de Pádel Balam',
 	'clubhouse_92'  => 'Canchas Balam',
 	'clubhouse_93'  => 'Alberca Casa Club Balam',
+	
+	// Club House text in Mahal
+	'club_12'        => 'Taj Casa Club con muros de piedra, paisajismo y espacios semiabiertos.',
+	'clubhouse_94'   => 'Taj Casa Club con bar',
+	'clubhouse_95'   => 'Terraza exterior / Bar techada',
+	'clubhouse_96'   => 'Bar seniors',
+	'clubhouse_97'   => 'Kids club',
+	'clubhouse_98'   => 'Alberca con 4 carriles de nado',
+	'clubhouse_99'   => 'Alberca recreativa',
+	'clubhouse_100'  => '3 canchas de pádel',
+	'clubhouse_101'  => 'Sanitarios',
+	'clubhouse_102'  => 'Gimnasio',
 	
 	// Casa Club Ponttho
 	
@@ -457,7 +495,12 @@ return [
 	'property_list_9'  => 'Lotes Balam',
 	'property_list_10'  => 'Lotes Turix Etapa-1',
 	'property_list_11'  => 'Lotes Turix Etapa-2',
-
+	
+	// property_list text in Mahal
+	'property_list_12'  => 'Master Plan Mahal',
+	'property_list_13'  => 'Lotes Etapa-1',
+	'property_list_14'  => 'Lotes Etapa-2',
+	'property_list_15'  => 'Lotes Etapa-3',
 
 	'image'  => 'imagen',
 	'total_lots'  => 'Total de lotes',
@@ -467,7 +510,6 @@ return [
 	
 	'available_soon'  => ' Próximamente',
 	'not'  => 'No ',
-
 	'sold' => 'Vendido',
 	'reserved' => 'Reservado',
 
@@ -505,15 +547,12 @@ return [
 	'counted' => 'Contado',
 	'club_house_lot' => 'Lote Casa Club',
 	'greenarea_corner_lot' => 'Lote área verde/esquina',
-	
+
 	'december' => 'Diciembre',
 
 
 
 
-
-
-	
 
 	'contact_1'  => 'Asesora Inmobiliaria',
 	'contact_2'  => 'Este es el momento para invertir!',

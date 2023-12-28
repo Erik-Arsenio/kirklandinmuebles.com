@@ -67,6 +67,7 @@ return [
 	'down_payment' => 'Down payment',
 	'category' => 'Categoría',
 	'stage' => 'Etapa',
+	'stages' => 'Stages',
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
 	'language' => 'Language',
@@ -107,7 +108,6 @@ return [
 
 
 
-
 	// Header text  in Lakuun
 	'header_1' => 'Premium residential lots',
 	'header_2' => 'Take advantage of the opportunity to acquire your residential lot with our presale prices',
@@ -130,6 +130,10 @@ return [
 
 	// Header text in Sorenna
 	'header_10' => 'Building lots and residential homes',
+	
+	// Header text in Mahal
+	'header_11' => 'Building lots and residential homes',
+	'header_12' => 'Contemporary Residential located in Conkal, north of Mérida, a few minutes from the beach, a picturesque community where you can breathe tradition and culture. It guarantees comfort and excellent lifestyle.',
 
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
@@ -150,6 +154,18 @@ return [
 	'carousel_14' => 'Streets with public lighting',
 	'carousel_15' => 'Roundabout',
 	'carousel_16' => 'Capital gain',
+
+	// carousel Mahal
+	'carousel_17' => 'Main access to Mahal',
+	'carousel_18' => 'Mahal Master Plan',
+	'carousel_19' => 'Mahal Shopping Area',
+	'carousel_20' => 'Capital gains table',
+	'carousel_21' => '<b>Agra Plaza</b>, commercial area',
+	'carousel_22' => 'Reason for access and main exit of Mahal',
+	'carousel_23' => 'Botanic Park',
+	'carousel_24' => 'Multi-use park',
+	'carousel_25' => 'Full Pet friendly',
+	'carousel_26' => 'Social park',
 
 
 
@@ -199,7 +215,15 @@ return [
 	'location_30'  => '- Capital gain compounded by its proximity to Wayúum.',
 	'location_31'  => '- 8 minutes from Chicxulub Puerto, as well as minutes from shopping centers, hospitals and universities in the north of the city.',
 	'location_32'  => '- Located 25 km from Plaza Altabrisa.',
-	
+
+
+	// text in Mahal
+	'location_33'  => 'Why buy a residential lot in Mahal?',
+	'location_34'  => '- Condominium ownership regime with 477 lots in total.',
+	'location_35'  => '- 20 hectares urbanized with: Underground electrical energy, Public lighting, Hydraulic network, Roads with hydraulic concrete and storm drainage, 24/7 Security.',
+	'location_36'  => '- 6.5 km from Chicxulub Pueblo, 8 km from Conkal Centro, 12 km from Periférico de Mérida and 13 km from Plaza La Isla, Mérida.',
+	'location_37'  => '- Lots of 200 m2, 250 m2, 300 m2 and irregular lots of 350 m2 or more',
+	'location_38'  => 'Our residential lots have a privileged location.',
 
 	// text in Lakuun
 	'characteristic'  => 'Characteristics',
@@ -295,6 +319,17 @@ return [
 	'characteristic_81'  => 'No maintenance fee payments.',
 
 
+	// characteristic text in Mahal
+	'characteristic_82'  => 'Contemplative spaces with large solids and stone covering.',
+	'characteristic_83'  => 'Plaza Agra, a commercial area outside the private area, facilitating comfort and accessibility for all residents.',
+	'characteristic_84'  => 'Monumental stone access motif with booth and 24/7 security.',
+	'characteristic_85'  => "Recreational centers with their own identity: pet park, botanic park, yoga park, work park and social park with children's games.",
+	'characteristic_86'  => 'Monumental stone access motif with booth and 24/7 security.',
+	'characteristic_87'  => '10% down payment with up to 48 months of financing',
+	'characteristic_88'  => 'Taj Clubhouse',
+	'characteristic_89'  => 'Full pet friendly.',
+	'characteristic_90'  => 'Lots with surfaces from 200m<sup>2</sup>',
+
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
 	'club_2'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
@@ -388,6 +423,18 @@ return [
 	'clubhouse_92'  => 'Balam Courts',
 	'clubhouse_93'  => 'Balam Club House Pool',
 
+	// Club House text in Mahal
+	'club_12'        => 'Taj Club House with stone walls, landscaping and semi-open spaces.',
+	'clubhouse_94'   => 'Taj Club House with bar',
+	'clubhouse_95'   => 'Outdoor terrace / Covered bar',
+	'clubhouse_96'   => 'Senior Bar',
+	'clubhouse_97'   => 'Kids club',
+	'clubhouse_98'   => 'Pool with 4 swimming lanes',
+	'clubhouse_99'   => 'Recreational pool',
+	'clubhouse_100'  => '3 paddle tennis courts',
+	'clubhouse_101'  => 'Sanitary',
+	'clubhouse_102'  => 'Gym',
+	
 
 	// Casa Club Ponttho
 
@@ -422,7 +469,6 @@ return [
 	'clubhouse_82' => 'Ponttho House another view of the pool',
 	'clubhouse_83' => 'Ponttho House kitchen view',
 	
-
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
 	'stages'  => 'Stages',
@@ -450,6 +496,11 @@ return [
 	'property_list_10'  => 'Turix Lots Stage-1',
 	'property_list_11'  => 'Turix Lots Stage-2',
 
+	// property_list text in Mahal
+	'property_list_12'  => 'Mahal Master Plan',
+	'property_list_13'  => 'Lots Stage-1',
+	'property_list_14'  => 'Lots Stage-2',
+	'property_list_15'  => 'Lots Stage-3',
 
 	'image'  => 'image',
 	'stage'  => 'Stage',
@@ -476,6 +527,7 @@ return [
 	'per' => 'per',
 	'upto' => 'up to',
 	'financing' => 'Financing',
+
 	'msi' => 'months',
 	'months' => 'months',
 	'monthly_payments' => 'Monthly payments',
