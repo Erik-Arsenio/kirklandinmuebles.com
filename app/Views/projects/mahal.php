@@ -13043,7 +13043,7 @@
                                 <!-- Price Start -->
                                 <div class="container-xxl py-1 px-0">
                                     <div class="row row-cols-1 row-cols-lg-1">
-                                            <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
                                                 <div class="card border-3 h-100 shadow px-0">
                                                     <div class="card-header text-center">
                                                         <h4 class="fw-bold text-uppercase text-success mb-0 price-header"><?= lang('Globals.lot_price') ?></h4>
@@ -13093,7 +13093,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            <!-- </div> -->
                                         </div>
                                     </div>
                                     <div class="row row-cols-1 row-cols-lg-1">
@@ -13270,7 +13270,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            <!-- </div> -->
                                         </div>
                                     </div>
                                     <div class="row row-cols-1 row-cols-lg-1">
