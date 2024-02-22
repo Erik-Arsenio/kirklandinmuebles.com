@@ -135,6 +135,11 @@ return [
 	'header_11' => 'Lotes residenciales',
 	'header_12' => 'Residencial Contemporánea ubicada en Conkal, al norte de Mérida, a pocos minutos de la playa, comunidad pintoresca en la que se respira tradición y cultura. Garantiza comodidad y excelente estilo de vida.',
 
+	// Header text in Gran Telchac
+	'header_13' => 'Lotes residenciales de playa',
+	'header_14' => 'Desarrollo urbanizado con instalaciones y servicios tipo vacacionales, localizado en el poblado de Telchac, área que forma parte de la zona diamante.',
+
+
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
 	'carousel_2' => '7 Privadas residenciales',
@@ -167,7 +172,11 @@ return [
 	'carousel_25' => 'Full Pet friendly',
 	'carousel_26' => 'Parque social',
 
-
+	// carousel Gran Telchac
+	'carousel_27' => 'Acceso principal a Gran Telchac',
+	'carousel_28' => 'Master Plan Gran Telchac',
+	'carousel_29' => 'Fachada de entrada a Gran Telchac',
+	'carousel_31' => 'Casa Club de Gran Telchac',
 
 
 	'click_zoom' => 'Click para zoom',
@@ -224,6 +233,13 @@ return [
 	'location_36'  => '- A 6.5 km de Chicxulub Pueblo, 8 km de Conkal Centro, 12 km de Periférico de Mérida y 13 km de Plaza La Isla, Mérida.',
 	'location_37'  => '- Lotes de 200 m2, 250 m2, 300 m2 y lotes irregulares de 350 m2 o más',
 	'location_38'  => 'Nuestros lotes residenciales tienen una ubicación privilegiada.',
+
+	// text in Gran Telchac
+	'location_39'  => '¿Por qué comprar un lote residencial en Gran Telchac?',
+	'location_40'  => '- Régimen de propiedad en condominio con 250 hectáreas divididas en 11 macro privadas residenciales y 9 hectáreas de zona comercial con lotes desde 160 m2.',
+	'location_41'  => '- Contará con servicios que superarán las necesidades básicas, como:	energía eléctrica subterránea, alumbrado público, calles pavimentadas, circulación vial y pozos	pluviales.',
+	'location_42'  => '- Situado a 3.85 km de la carretera principal Motul-Telchac Puerto y a 7 kilómetros de la playa.',
+	'location_43'  => '- Además tendrá Áreas comerciales y 3 Islas con actividades recreativas y vacacionales.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -329,7 +345,45 @@ return [
 	'characteristic_88'  => 'Taj Casa club',
 	'characteristic_89'  => 'Full pet friendly.',
 	'characteristic_90'  => 'Lotes con superficies desde 200m<sup>2</sup>',
-	
+
+	// characteristic text in Gran Telchac
+	'characteristic_91'  => '2 Casetas de acceso con vigilancia 24/7',
+	'characteristic_92'  => 'Calles Pavimentadas',
+	'characteristic_93'  => 'Alumbrado Público',
+	'characteristic_94'  => 'Agua y energía subterránea',
+	'characteristic_95'  => 'Drenaje pluvial',
+	'characteristic_96'  => 'Circulación Vial y Ciclovía',
+	'characteristic_97'  => 'Parques temáticos',
+	'characteristic_98'  => 'Islas recreativas',
+	'characteristic_99'  => 'Pabellón turístico',
+	'characteristic_100'  => 'Casa Club',
+	'characteristic_101'  => '11 privadas residenciales',
+	'characteristic_102'  => 'Las 11 privadas residenciales contarán con 3 islas con increíbles instalaciones y servicios, el pulmón verde de 10 hectáreas, mismas que para favorecer el acceso, movilidad y ritmos de vida',
+	'characteristic_103'  => 'Todas contarán con:',
+	'characteristic_104'  => 'Motivo de acceso',
+	'characteristic_105'  => 'Parques temáticos',
+	'characteristic_106'  => 'Sub-régimen de condominio',
+
+	// Constructions characteristic text in Gran Telchac
+	'characteristic_107'  => 'Ejemplo de lo que puedes construir en 200 m2',
+	'characteristic_108'  => 'Primer nivel',
+	'characteristic_109'  => 'Garage',
+	'characteristic_110'  => 'Cocina',
+	'characteristic_111'  => 'Sala',
+	'characteristic_112'  => 'Comedor',
+	'characteristic_113'  => '1/2 baño',
+	'characteristic_114'  => 'Terraza',
+	'characteristic_115'  => 'Jardín',
+	'characteristic_116'  => 'Segundo nivel',
+	'characteristic_117'  => '2 recámaras con closet vestidor y baño completo',
+	'characteristic_118'  => 'Family room',
+	'characteristic_119'  => 'Tercer nivel',
+	'characteristic_120'  => 'Recámaras con closet vestidor y baño completo',
+	'characteristic_121'  => 'Estudio',
+	'characteristic_122'  => 'Roof top',
+	'characteristic_123'  => 'Servicio',
+
+
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
@@ -469,6 +523,23 @@ return [
 	'clubhouse_82' => 'Casa Pontthó otra vista de la piscina',
 	'clubhouse_83' => 'Casa Pontthó vista de la cocina',
 
+	// Club House text in Gran Telchac
+	'clubhouse_103'  => 'Plaza de acceso',
+	'clubhouse_104'  => 'Parque para picnic',
+	'clubhouse_105'  => 'Parque infantil',
+	'clubhouse_106'  => 'Parque para ejercicio al aire libre',
+	'clubhouse_107'  => 'Parque para perros',
+	'clubhouse_108'  => 'Andador de contemplación',
+	'clubhouse_109'  => 'Área de administración',
+	'clubhouse_110'  => 'Terraza techada y terraza no techada',
+	'clubhouse_111'  => 'Área de sanitarios de hombres y mujeres',
+
+	'clubhouse_112'  => 'Piscina bar y piscina familiar',
+	'clubhouse_113'  => 'Spa y sauna',
+	'clubhouse_114'  => 'Cancha multifuncional',
+	'clubhouse_115'  => 'Juegos infantiles en el exterior',
+	'clubhouse_116'  => 'Salón de usos múltiples con área de bar',
+
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
 	'stages'  => 'Etapas',
@@ -476,6 +547,7 @@ return [
 	'lots'  => 'Lotes',
 	'green_areas'  => 'Áreas verdes',
 	'hectares'  => 'Hectáreas',
+	'private' => 'Privadas',
 	
 	// property_list text in Lakuun
 	'property_list_1'  => 'Disponiblidad de lotes residenciales.',
@@ -503,6 +575,7 @@ return [
 	'property_list_15'  => 'Lotes Etapa-3',
 
 	'image'  => 'imagen',
+	
 	'total_lots'  => 'Total de lotes',
 	'available'  => 'Disponible',
 	'delivered'  => 'Fecha de entrega',
@@ -547,6 +620,7 @@ return [
 	'counted' => 'Contado',
 	'club_house_lot' => 'Lote Casa Club',
 	'greenarea_corner_lot' => 'Lote área verde/esquina',
+	'club_house_corner_lot' => 'Lote esquina casa club',
 
 	'december' => 'Diciembre',
 

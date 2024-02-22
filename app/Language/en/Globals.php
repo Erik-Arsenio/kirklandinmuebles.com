@@ -133,7 +133,12 @@ return [
 	
 	// Header text in Mahal
 	'header_11' => 'Building lots and residential homes',
-	'header_12' => 'Contemporary Residential located in Conkal, north of Mérida, a few minutes from the beach, a picturesque community where you can breathe tradition and culture. It guarantees comfort and excellent lifestyle.',
+	'header_12' => 'Contemporary residential development located in Conkal, north of Mérida, a few minutes from the beach, a picturesque community where you can breathe tradition and culture. It guarantees comfort and excellent lifestyle.',
+
+	// Header text in Gran Telchac
+	'header_13' => 'Residential lots on the beach',
+	'header_14' => 'Urbanized development with vacation-type facilities and services, located in the town of Telchac, an area that is part of the diamond zone.',
+
 
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
@@ -161,13 +166,17 @@ return [
 	'carousel_19' => 'Mahal Shopping Area',
 	'carousel_20' => 'Capital gains table',
 	'carousel_21' => '<b>Agra Plaza</b>, commercial area',
-	'carousel_22' => 'Reason for access and main exit of Mahal',
+	'carousel_22' => 'Entranceway and main exit of Mahal',
 	'carousel_23' => 'Botanic Park',
 	'carousel_24' => 'Multi-use park',
 	'carousel_25' => 'Full Pet friendly',
 	'carousel_26' => 'Social park',
 
-
+	// carousel Gran Telchac
+	'carousel_27' => 'Main access to Gran Telchac',
+	'carousel_28' => 'Great Telchac Master Plan',
+	'carousel_29' => 'Entrance facade to Gran Telchac',
+	'carousel_31' => 'Great Telchac Club House',
 
 
 		'click_zoom' => 'Click to zoom',
@@ -198,6 +207,7 @@ return [
 	// text in Marela Life
 	'location_18' => 'Why buy a residential lot in MARELA LIFE?',
 
+
 	// text in Wayuum
 	'location_19'  => 'Why buy a residential lot in Wayuum?',
 	'location_20'  => 'Our residential lots are ideally located.',
@@ -216,15 +226,21 @@ return [
 	'location_31'  => '- 8 minutes from Chicxulub Puerto, as well as minutes from shopping centers, hospitals and universities in the north of the city.',
 	'location_32'  => '- Located 25 km from Plaza Altabrisa.',
 
-
 	// text in Mahal
 	'location_33'  => 'Why buy a residential lot in Mahal?',
 	'location_34'  => '- Condominium ownership regime with 477 lots in total.',
-	'location_35'  => '- 20 hectares urbanized with: Underground electrical energy, Public lighting, Hydraulic network, Roads with hydraulic concrete and storm drainage, 24/7 Security.',
+	'location_35'  => '- 20 hectares urbanized with: Underground electrical energy, Public lighting, water distribution network, Roads with a concrete and storm drainage system, 24/7 Security.',
 	'location_36'  => '- 6.5 km from Chicxulub Pueblo, 8 km from Conkal Centro, 12 km from Periférico de Mérida and 13 km from Plaza La Isla, Mérida.',
 	'location_37'  => '- Lots of 200 m2, 250 m2, 300 m2 and irregular lots of 350 m2 or more',
 	'location_38'  => 'Our residential lots have a privileged location.',
 
+	// text in Gran Telchac
+	'location_39'  => 'Why buy a residential lot in Gran Telchac?',
+	'location_40'  => '- Condominium ownership regime with 250 hectares divided into 11 macro-private residential areas (privadas) and 9 hectares of commercial area with lots from 160 m2.',
+	'location_41'  => '- It will have services that will exceed basic needs, such as: underground electricity, public lighting, paved streets, road circulation and storm wells.',
+	'location_42'  => '- Located 3.85 km from the main Motul-Telchac Puerto road and 7 kilometers from the beach.',
+	'location_43'  => '- It will also have commercial areas and 3 islands with recreational and vacation activities.',
+	
 	// text in Lakuun
 	'characteristic'  => 'Characteristics',
 	'characteristic_1'  => 'Development with perimeter fence',
@@ -320,8 +336,8 @@ return [
 
 
 	// characteristic text in Mahal
-	'characteristic_82'  => 'Contemplative spaces with large solids and stone covering.',
-	'characteristic_83'  => 'Plaza Agra, a commercial area outside the private area, facilitating comfort and accessibility for all residents.',
+	'characteristic_82'  => 'Contemplative spaces with large solids and stone cladding.',
+	'characteristic_83'  => "Plaza Agra, a commercial area outside the 'privada' area, facilitating comfort and accessibility for all residents.",
 	'characteristic_84'  => 'Monumental stone access motif with booth and 24/7 security.',
 	'characteristic_85'  => "Recreational centers with their own identity: pet park, botanic park, yoga park, work park and social park with children's games.",
 	'characteristic_86'  => 'Monumental stone access motif with booth and 24/7 security.',
@@ -329,6 +345,44 @@ return [
 	'characteristic_88'  => 'Taj Clubhouse',
 	'characteristic_89'  => 'Full pet friendly.',
 	'characteristic_90'  => 'Lots with surfaces from 200m<sup>2</sup>',
+
+	// characteristic text in Gran Telchac
+	'characteristic_91'  => '2 access booths with 24/7 surveillance',
+	'characteristic_92'  => 'Paved roads',
+	'characteristic_93'  => 'Street lighting',
+	'characteristic_94'  => 'Underground water and electricity',
+	'characteristic_95'  => 'Storm drains',
+	'characteristic_96'  => 'Road Network and Cycle Path',
+	'characteristic_97'  => 'Theme parks',
+	'characteristic_98'  => 'recreational islands',
+	'characteristic_99'  => 'Tourist pavilion',
+	'characteristic_100'  => 'Club House',
+	'characteristic_101'  => '11 private residential areas',
+	'characteristic_102'  => 'The 11 private residential areas will have 3 islands with incredible facilities and services, the green larea of 10 hectares, which will promote access, mobility and rhythms of life.',
+	'characteristic_103'  => 'All will have:',
+	'characteristic_104'  => 'Entranceway',
+	'characteristic_105'  => 'Theme parks',
+	'characteristic_106'  => 'Condominium sub-regime',
+
+	// Constructions characteristic text in Gran Telchac
+	'characteristic_107'  => 'Example of what you can build in 200 m2',
+	'characteristic_108'  => 'First level',
+	'characteristic_109'  => 'Garage',
+	'characteristic_110'  => 'Kitchen',
+	'characteristic_111'  => 'Hall',
+	'characteristic_112'  => 'Dining room',
+	'characteristic_113'  => '1/2 bathroom',
+	'characteristic_114'  => 'Terrace',
+	'characteristic_115'  => 'Garden',
+	'characteristic_116'  => 'Second level',
+	'characteristic_117'  => '2 bedrooms with walk-in closet and full bathroom',
+	'characteristic_118'  => 'Family room',
+	'characteristic_119'  => 'Third level',
+	'characteristic_120'  => 'Bedrooms with walk-in closet and full bathroom',
+	'characteristic_121'  => 'Study',
+	'characteristic_122'  => 'Roof top',
+	'characteristic_123'  => 'Service',
+
 
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
@@ -468,6 +522,23 @@ return [
 	'clubhouse_81' => 'Ponttho House view of the pool',
 	'clubhouse_82' => 'Ponttho House another view of the pool',
 	'clubhouse_83' => 'Ponttho House kitchen view',
+
+	// Club House text in Gran Telchac
+	'clubhouse_103'  => 'Access square',
+	'clubhouse_104'  => 'Picnic park',
+	'clubhouse_105'  => 'Playground',
+	'clubhouse_106'  => 'Outdoor exercise park',
+	'clubhouse_107'  => 'dog park',
+	'clubhouse_108'  => 'Contemplation footpath',
+	'clubhouse_109'  => 'Administration area',
+	'clubhouse_110'  => 'Covered terrace and uncovered terrace',
+	'clubhouse_111'  => "Men's and women's toilet area",
+
+	'clubhouse_112'  => 'Pool bar and family pool',
+	'clubhouse_113'  => 'Spa and sauna',
+	'clubhouse_114'  => 'Multifunctional court',
+	'clubhouse_115'  => "Children's games outside",
+	'clubhouse_116'  => 'Multipurpose room with bar area',
 	
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
@@ -476,6 +547,7 @@ return [
 	'lots'  => 'Lots',
 	'green_areas'  => 'Green areas',
 	'hectares'  => 'Hectares',
+	'private' => 'Private',
 
 	// property_list text in Lakuun
 	'property_list_1'  => 'Availability of residential lots.',
@@ -519,7 +591,8 @@ return [
 	'over_lot' => 'over the lot.',
 
 
-		
+
+	
 	'lot_price' => 'Lot price',
 	'type_lot' => 'Type lot',
 
@@ -547,6 +620,7 @@ return [
 	'counted' => 'Counted',
 	'club_house_lot' => 'Club House Lot',
 	'greenarea_corner_lot' => 'Green area/corner lot',
+	'club_house_corner_lot' => 'Club House corner lot',
 
 	'december' => 'December',
 

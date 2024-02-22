@@ -17,6 +17,12 @@
             "numbers_stage": 3,
             "url_project": [{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=R5pUitYnIRP141&rd=&rg=&clvde=MnlaVnbg1FD36"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=yf87UqvdY2P142&rd=&rg=&clvde=MnlaVnbg1FD36"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=G6Y51XhEU2P143&rd=&rg=&clvde=MnlaVnbg1FD36"}
         ]
+        },
+        {
+            "project_name": "gran_telchac",
+            "numbers_stage": 3,
+            "url_project": [{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=hnoewpRDnlP114&rd=&rg=&clvde=NLA1daGIJTD42"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=mGMOp5ItZkP113&rd=&rg=&clvde=NLA1daGIJTD42"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=itk7gskut7P129&rd=&rg=&clvde=NLA1daGIJTD42"}
+        ]
         }
     ]
 

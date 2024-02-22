@@ -81,6 +81,7 @@ class Projects extends BaseController
 			"wayuum"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 			"sorenna"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 			"mahal"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
+			"gran_telchac"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
 	];
 		
 		
