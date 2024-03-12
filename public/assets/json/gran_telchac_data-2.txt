@@ -469,8 +469,8 @@
             <polygon id="" class="st0 sold" points="350,441,357,464,392,451,384,428"/><br />
         </a><a class="batch" id="19780_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19780 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  348 -  <span>250.00m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="376,406,341,419,350,440,385,429"/><br />
-        </a><a class="batch" id="19781_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19781 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  349 -  <span>442.13m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="321,352,341,420,376,406,370,400,369,392"/><br />
+        </a><a class="batch" id="19781_mGMOp5ItZkP113__2__1" data-remote=""  data-lot=19781 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  349 -  <span>442.13m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="321,352,341,420,376,406,370,400,369,392"/><br />
         </a><a class="batch" id="19782_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19782 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  350 -  <span>319.47m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="378,379,368,351,321,352,367,391,372,384"/><br />
         </a><a class="batch" id="19783_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19783 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  351 -  <span>281.16m&sup2;</span></p></div>"><br />
@@ -489,8 +489,8 @@
             <polygon id="" class="st0 sold" points="453,443,464,472,499,459,488,429"/><br />
         </a><a class="batch" id="19790_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19790 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  358 -  <span>250.00m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="446,420,454,443,488,429,480,406"/><br />
-        </a><a class="batch" id="19791_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19791 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  359 -  <span>443.66m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="472,392,421,352,446,422,480,408,474,401"/><br />
+        </a><a class="batch" id="19791_mGMOp5ItZkP113__2__1" data-remote=""  data-lot=19791 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  359 -  <span>443.66m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="472,392,421,352,446,422,480,408,474,401"/><br />
         </a><a class="batch" id="19792_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19792 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  360 -  <span>348.38m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="483,380,472,351,422,352,473,392,477,384"/><br />
         </a><a class="batch" id="19793_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19793 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  361 -  <span>284.63m&sup2;</span></p></div>"><br />
