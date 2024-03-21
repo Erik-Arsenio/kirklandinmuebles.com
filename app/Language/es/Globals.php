@@ -138,7 +138,10 @@ return [
 	// Header text in Gran Telchac
 	'header_13' => 'Lotes residenciales de playa',
 	'header_14' => 'Desarrollo urbanizado con instalaciones y servicios tipo vacacionales, localizado en el poblado de Telchac, área que forma parte de la zona diamante.',
-
+	
+	// Header text in Costa Flamingo
+	'header_15' => 'Lotes residenciales en la playa',
+	'header_16' => 'Terrenos únicos con acceso a club de playa sin régimen de condominio en el pueblo mágico de Sisal.',
 
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
@@ -177,6 +180,12 @@ return [
 	'carousel_28' => 'Master Plan Gran Telchac',
 	'carousel_29' => 'Fachada de entrada a Gran Telchac',
 	'carousel_31' => 'Casa Club de Gran Telchac',
+
+	// carousel Costa Flamingo
+	'carousel_32' => 'Costa Flamingo, lotes residenciales frente a la playa',
+	'carousel_33' => 'Master Plan',
+	'carousel_34' => 'Flamencos en Sisal',
+	'carousel_35' => 'Casa Club de Gran Telchac',
 
 
 	'click_zoom' => 'Click para zoom',
@@ -240,6 +249,12 @@ return [
 	'location_41'  => '- Contará con servicios que superarán las necesidades básicas, como:	energía eléctrica subterránea, alumbrado público, calles pavimentadas, circulación vial y pozos	pluviales.',
 	'location_42'  => '- Situado a 3.85 km de la carretera principal Motul-Telchac Puerto y a 7 kilómetros de la playa.',
 	'location_43'  => '- Además tendrá Áreas comerciales y 3 Islas con actividades recreativas y vacacionales.',
+
+
+	// text in Costa Flamingo
+	'location_44'  => '¿Por qué comprar un lote residencial en Costa Flamingo?',
+	'location_45'  => 'Situado en Sisal, Progreso, Yucatán, una zona de alta demanda y creciente plusvalía',
+	'location_46'  => 'Exclusivo desarrollo residencial frente al mar con terrenos premium desde 155 m2 en el pueblo mágico de Sisal, sobre la  costa Yucateca.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -383,6 +398,14 @@ return [
 	'characteristic_122'  => 'Roof top',
 	'characteristic_123'  => 'Servicio',
 
+	// Constructions characteristic text in Costa Flamingo
+	'characteristic_124'  => 'Ejemplo de lo que puedes construir',
+	'characteristic_125'  => 'Les regalamos el proyecto arquitectonico de una villa para construir en su lote',
+
+	'characteristic_126'  => 'Calle central de arena',
+	'characteristic_127'  => 'Se entregarán con acometida eléctrica a pie de cada lote',
+	'characteristic_128'  => 'Respaldo y certeza jurídica con escrituración inmediata',
+	'characteristic_129'  => 'Cuenta con un exclusivo Beach Club membresía vitalicia incluida',
 
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
@@ -539,6 +562,16 @@ return [
 	'clubhouse_114'  => 'Cancha multifuncional',
 	'clubhouse_115'  => 'Juegos infantiles en el exterior',
 	'clubhouse_116'  => 'Salón de usos múltiples con área de bar',
+	
+	// Club House text in Costa Flamingo
+	'clubhouse_117'  => 'Servicios Fron Desk',
+	'clubhouse_118'  => 'Restaurante',
+	'clubhouse_119'  => 'Áreas lounge',
+	'clubhouse_120'  => 'Terraza con vista',
+	'clubhouse_121'  => 'Piscina',
+	'clubhouse_122'  => 'Baños-lockers',
+	'clubhouse_123'  => 'Área infantil',
+	'clubhouse_124'  => 'Espacio para fogatas',
 
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',
