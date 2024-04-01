@@ -142,7 +142,12 @@ return [
 	// Header text in Costa Flamingo
 	'header_15' => 'Lotes residenciales en la playa',
 	'header_16' => 'Terrenos únicos con acceso a club de playa sin régimen de condominio en el pueblo mágico de Sisal.',
-
+	
+	// Header text in Galiana
+	'header_17' => 'Privada Residencial de primer nivel',
+	'header_18' => 'Ubicada en lo mejor del Norte de Mérida, la zona con mayor crecimiento en la Ciudad.',
+	'header_19' => 'Galiana.',
+	
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
 	'carousel_2' => '7 Privadas residenciales',
@@ -185,7 +190,17 @@ return [
 	'carousel_32' => 'Costa Flamingo, lotes residenciales frente a la playa',
 	'carousel_33' => 'Master Plan',
 	'carousel_34' => 'Flamencos en Sisal',
-	'carousel_35' => 'Casa Club de Gran Telchac',
+	'carousel_35' => 'Casa Club de Costa Flamingo',
+
+	// carousel Galiana
+	'carousel_36' => 'Entrada principal de la Privada Residencial Galiana',
+	'carousel_37' => 'Ubicacion Privilegiada, a espaldas de Plaza la Isla',
+	'carousel_38' => 'Contará con 4 clousters con parque',
+	'carousel_39' => 'Casa Club de Galiana',
+	'carousel_40' => '',
+	'carousel_41' => '',
+	'carousel_42' => '',
+	'carousel_43' => '',
 
 
 	'click_zoom' => 'Click para zoom',
@@ -255,6 +270,13 @@ return [
 	'location_44'  => '¿Por qué comprar un lote residencial en Costa Flamingo?',
 	'location_45'  => 'Situado en Sisal, Progreso, Yucatán, una zona de alta demanda y creciente plusvalía',
 	'location_46'  => 'Exclusivo desarrollo residencial frente al mar con terrenos premium desde 155 m2 en el pueblo mágico de Sisal, sobre la  costa Yucateca.',
+
+	// text in Galiana
+	'location_47'  => '¿Por qué comprar un lote residencial en Galiana, paseo norte?',
+	'location_48'  => 'Ubicacion Privilegiada, a espalda de Plaza La Isla',
+	'location_49'  => 'Una oportunidad única para desarrollar en un espacio privado, exclusivo y con una ubicación envidiable, a minutos de hermosas playas y en lo mejor del Norte de Mérida, una zona que garantiza el alto crecimiento de tu inversión.',
+	'location_50'  => 'Distribución estratégica que permite a todos los habitantes de la Privada Residencial disfrutar de un vista y ubicación preferencial, viendo siempre a espacios verdes o amenidades.',
+	'location_51'  => 'Con 141 lotes residenciales, 4 clusters con parque, Casa Club, parques y amenidades.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -401,11 +423,24 @@ return [
 	// Constructions characteristic text in Costa Flamingo
 	'characteristic_124'  => 'Ejemplo de lo que puedes construir',
 	'characteristic_125'  => 'Les regalamos el proyecto arquitectonico de una villa para construir en su lote',
-
 	'characteristic_126'  => 'Calle central de arena',
 	'characteristic_127'  => 'Se entregarán con acometida eléctrica a pie de cada lote',
 	'characteristic_128'  => 'Respaldo y certeza jurídica con escrituración inmediata',
 	'characteristic_129'  => 'Cuenta con un exclusivo Beach Club membresía vitalicia incluida',
+	
+	
+	// characteristic text in Galiana
+	'characteristic_130'  => 'Caseta de acceso con vigilancia 24/7',
+	'characteristic_131'  => 'Concreto hidráulico, más banquetas de 2 metros',
+	'characteristic_132'  => 'Instalaciones subterráneas <small>(Luz a pié de lote, Voz y Datos)</small>',
+	'characteristic_133'  => 'Agua potable y drenaje pluvial <small>(Japay)</small>',
+	'characteristic_134'  => 'Sistema de riego',
+	'characteristic_135'  => '5 Áreas de juegos infantiles',
+	'characteristic_136'  => '6 Canchas de Pádel',
+	'characteristic_137'  => '2 Canchas de Fútbol',
+	'characteristic_138'  => '2 Pet Parks',
+	'characteristic_139'  => 'Casa Club con barra de servicios',
+
 
 	// text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
@@ -572,6 +607,14 @@ return [
 	'clubhouse_122'  => 'Baños-lockers',
 	'clubhouse_123'  => 'Área infantil',
 	'clubhouse_124'  => 'Espacio para fogatas',
+	
+	// Club House text in Galiana
+	'clubhouse_125'  => 'Alberca con canal de nado',
+	'clubhouse_126'  => 'GYM equipado',
+	'clubhouse_127'  => 'Juniors Club',
+	'clubhouse_128'  => 'Kids Club',
+
+
 
 	// text in Lakuun
 	'about_inv_1'  => 'El desarrollo cuenta con',

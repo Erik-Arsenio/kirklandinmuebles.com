@@ -83,6 +83,7 @@ class Projects extends BaseController
 			"mahal"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 			"gran_telchac"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
 			"costa_flamingo"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
+			"galiana"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
 	];
 		
 		

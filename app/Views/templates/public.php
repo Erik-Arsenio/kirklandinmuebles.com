@@ -93,6 +93,7 @@
 							<div class="nav-item dropdown">
 								<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 								<div class="dropdown-menu rounded-0 m-0">
+									<a href="<?= base_url('investments/galiana?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*galiana')) ? ' active' : '' ?>" target="_blank">Galiana</a>
 									<a href="<?= base_url('investments/costa_flamingo?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*costa_flamingo')) ? ' active' : '' ?>" target="_blank">Costa Flamingo</a>
 									<a href="<?= base_url('investments/gran_telchac?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*gran_telchac')) ? ' active' : '' ?>" target="_blank">Gran Telchac</a>
 									<a href="<?= base_url('investments/mahal?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*mahal')) ? ' active' : '' ?>" target="_blank">Mahal</a>

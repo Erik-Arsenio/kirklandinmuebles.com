@@ -15,6 +15,12 @@
 				<div class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome">
 					<div class="carousel-inner">
                         <div class="carousel-item active">
+                            <img src="<?= STATIC_URL . 'img/galiana/01.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Costa Flamingo Hunucmá, Progreso, Mérida, Yucatán, México.">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?= STATIC_URL . 'img/galiana/master_plan-es.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Master Plan Costa Flamingo  Progreso, Mérida, Yucatán, México.">
+                        </div>
+                        <div class="carousel-item">
                             <img src="<?= STATIC_URL . 'img/costa_flamingo/01-es.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Costa Flamingo Hunucmá, Progreso, Mérida, Yucatán, México.">
                         </div>
                         <div class="carousel-item">
@@ -10719,13 +10725,44 @@
 		<div class="col mb-5">
 			<div class="card property-item border-5 h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
+					<div id="carouselGaliana" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
+						<div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="<?= STATIC_URL . 'img/galiana/01.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Galiana, Mérida, Yucatán, México.">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/galiana/master_plan-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Master Plan Galiana, Mérida, Yucatán, México.">
+                            </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselGaliana" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselGaliana" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
+						</button>
+					</div>
+				</div>
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
+					<p class="card-text text-center h4" name="project_heading"><?= lang('Globals.header_19') ?></p>
+					<p class="card-text text-center h6" name="project_description">Privada Residencial de primer nivel</p>
+				</div>
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span> <?= lang('Globals.homepage_40') ?></small>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-5">
+			<div class="card property-item border-5 h-100 shadow">
+				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselCostaFlamingo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
 						<div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/costa_flamingo/01-es.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Costa Flamingo Hunucmá, Progreso, Mérida, Yucatán, México.">
+                                <img src="<?= STATIC_URL . 'img/costa_flamingo/01-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Costa Flamingo Hunucmá, Progreso, Mérida, Yucatán, México.">
                             </div>
                             <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/costa_flamingo/master_plan-es.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Master Plan Costa Flamingo  Progreso, Mérida, Yucatán, México.">
+                                <img src="<?= STATIC_URL . 'img/costa_flamingo/master_plan-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Master Plan Costa Flamingo  Progreso, Mérida, Yucatán, México.">
                             </div>
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#carouselCostaFlamingo" data-bs-slide="prev">
@@ -10740,7 +10777,7 @@
 				</div>
 				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
 					<p class="card-text text-center h4" name="project_heading"><?= lang('Globals.header_15') ?></p>
-					<p class="card-text text-center h6" name="project_description">Lotes residencialesubicados en Sisal</p>
+					<p class="card-text text-center h6" name="project_description">Lotes residenciale subicados en Sisal</p>
 				</div>
 				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
 					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span>Progreso, <?= lang('Globals.homepage_40') ?></small>

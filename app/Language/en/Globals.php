@@ -140,9 +140,14 @@ return [
 	'header_14' => 'Urbanized development with vacation-type facilities and services, located in the town of Telchac, an area that is part of the diamond zone.',
 
 	// Header text in Costa Flamingo
-	'header_15' => 'Lotes residenciales en la playa.',
-	'header_16' => 'Terrenos únicos con acceso a club de playa sin régimen de condominio en el pueblo mágico de Sisal.',
+	'header_15' => 'Residential lots on the beach',
+	'header_16' => 'Unique land with access to a beach club without a condominium regime in the magical town of Sisal.',
 	
+	// Header text in Costa Galiana
+	'header_17' => 'Private First Level Residential',
+	'header_18' => 'Located in the best of North Mérida, the area with the greatest growth in the City.',
+	'header_19' => 'Galiana.',
+
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
 	'carousel_2' => '7 Residential Privadas',
@@ -182,10 +187,20 @@ return [
 	'carousel_31' => 'Great Telchac Club House',
 
 	// carousel Costa Flamingo
-	'carousel_32' => 'Costa Flamingo, lotes residenciales frente a la playa',
+	'carousel_32' => 'Costa Flamingo, beachfront residential lots',
 	'carousel_33' => 'Master Plan',
-	'carousel_34' => 'Flamencos en Sisal',
-	'carousel_35' => 'Casa Club de Gran Telchac',
+	'carousel_34' => 'Flamingos in Sisal',
+	'carousel_35' => 'Costa Flamingo Clubhouse',
+
+	// carousel Galiana
+	'carousel_36' => 'Main entrance of the Private Residencial Galiana',
+	'carousel_37' => 'Privileged Location, behind Plaza la Isla',
+	'carousel_38' => 'It will have 4 clousters with a park',
+	'carousel_39' => 'Galiana Club House',
+	'carousel_40' => '',
+	'carousel_41' => '',
+	'carousel_42' => '',
+	'carousel_43' => '',
 
 		'click_zoom' => 'Click to zoom',
 
@@ -251,17 +266,23 @@ return [
 
 	
 	// text in Costa Flamingo
-	'location_44'  => '¿Por qué comprar un lote residencial en Costa Flamingo?',
-	'location_45'  => 'Situado en Sisal, Progreso, Yucatán, una zona de alta demanda y creciente plusvalía',
-	'location_46'  => 'Exclusivo desarrollo residencial frente al mar con terrenos premium desde 155 m2 en el pueblo mágico de Sisal, sobre la  costa Yucateca.',
+	'location_44'  => 'Why buy a residential lot in Costa Flamingo?',
+	'location_45'  => 'Located in Sisal, Progreso, Yucatán, an area of high demand and growing capital gains',
+	'location_46'  => 'Exclusive beachfront residential development with premium land from 155 m2 in the magical town of Sisal, on the Yucatecan coast.',
 
-	
-	// text in Lakuun
-	'characteristic'  => 'Characteristics',
-	'characteristic_1'  => 'Development with perimeter fence',
-	'characteristic_2'  => 'Guardhouse',
-	'characteristic_3'  => 'Distinctive entranceway',
-	'characteristic_4'  => 'Tennis courts',
+	// text in Galiana
+	'location_47'  => 'Why buy a residential lot in Galiana, Paseo Norte?',
+	'location_48'  => 'Privileged Location, behind Plaza La Isla',
+	'location_49'  => 'A unique opportunity to develop in a private, exclusive space with an enviable location, minutes from beautiful beaches and in the best of North Mérida, an area that guarantees high growth of your investment.',
+	'location_50'  => 'Strategic distribution that allows all inhabitants of the Private Residential to enjoy a preferential view and location, always seeing green spaces or amenities.',
+	'location_51'  => 'With 141 residential lots, 4 clusters with park, Club House, parks and amenities.',
+
+	// characteristic text in Lakuun
+	'characteristic'  => 'Características',
+	'characteristic_1'  => 'Barda perimetral',
+	'characteristic_2'  => 'Caseta de vigilancia',
+	'characteristic_3'  => 'Entrada distintiva',
+	'characteristic_4'  => 'Canchas',
 	'characteristic_5'  => 'Ciclovía',
 	'characteristic_6'  => 'Reading area',
 	'characteristic_7'  => 'Picnic area',
@@ -398,14 +419,27 @@ return [
 	'characteristic_122'  => 'Roof top',
 	'characteristic_123'  => 'Service',
 
-	// Constructions characteristic text in Costa Flamingo
-	'characteristic_124'  => 'Ejemplo de lo que puedes construir',
-	'characteristic_125'  => 'Les regalamos el proyecto arquitectonico de una villa para construir en su lote',
 
-	'characteristic_126'  => 'Calle central de arena',
-	'characteristic_127'  => 'Se entregarán con acometida eléctrica a pie de cada lote',
-	'characteristic_128'  => 'Respaldo y certeza jurídica con escrituración inmediata',
-	'characteristic_129'  => 'Cuenta con un exclusivo Beach Club membresía vitalicia incluida',
+	// Constructions characteristic text in Costa Flamingo
+	'characteristic_124'  => 'Example of what you can build',
+	'characteristic_125'  => 'We give you the architectural project of a villa to build on your lot',
+	'characteristic_126'  => 'Sandy central street',
+	'characteristic_127'  => 'They will be delivered with an electrical connection at the foot of each lot',
+	'characteristic_128'  => 'Support and legal certainty with immediate deed',
+	'characteristic_129'  => 'Features an exclusive Beach Club lifetime membership included',
+	
+	
+	// characteristic text in Galiana
+	'characteristic_130'  => 'Access booth with 24/7 surveillance',
+	'characteristic_131'  => 'Hydraulic concrete, plus 2 meter sidewalks',
+	'characteristic_132'  => 'Underground installations <small>(Light at the foot of the lot, Voice and Data)</small>',
+	'characteristic_133'  => 'Drinking water and storm drainage <small>(Japay)</small>',
+	'characteristic_134'  => 'Irrigation system',
+	'characteristic_135'  => "5 Children's play areas",
+	'characteristic_136'  => '6 Paddle Courts',
+	'characteristic_137'  => '2 Soccer Fields',
+	'characteristic_138'  => '2 Pet Parks',
+	'characteristic_139'  => 'Clubhouse with service bar',
 
 
 	// Club House text in Lakuun
@@ -565,15 +599,23 @@ return [
 	'clubhouse_116'  => 'Multipurpose room with bar area',
 
 	// Club House text in Costa Flamingo
-	'clubhouse_117'  => 'Servicios Fron Desk',
-	'clubhouse_118'  => 'Restaurante',
-	'clubhouse_119'  => 'Áreas lounge',
-	'clubhouse_120'  => 'Terraza con vista',
-	'clubhouse_121'  => 'Piscina',
-	'clubhouse_122'  => 'Baños-lockers',
-	'clubhouse_123'  => 'Área infantil',
-	'clubhouse_124'  => 'Espacio para fogatas',
+	'clubhouse_117'  => 'Front Desk Services',
+	'clubhouse_118'  => 'Restaurant',
+	'clubhouse_119'  => 'Lounge areas',
+	'clubhouse_120'  => 'Terrace with view',
+	'clubhouse_121'  => 'Pool',
+	'clubhouse_122'  => 'Bathrooms-lockers',
+	'clubhouse_123'  => 'Children area',
+	'clubhouse_124'  => 'Campfire space',
 	
+	// Club House text in Galiana
+	'clubhouse_125'  => 'Pool with swimming channel',
+	'clubhouse_126'  => 'Equipped GYM',
+	'clubhouse_127'  => 'Juniors Club',
+	'clubhouse_128'  => 'Kids Club',
+
+
+
 	// text in Lakuun
 	'about_inv_1'  => 'The development has',
 	'stages'  => 'Stages',
