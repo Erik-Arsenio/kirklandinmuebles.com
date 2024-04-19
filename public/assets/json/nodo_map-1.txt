@@ -1,0 +1,614 @@
+<svg version="1.1" x="0px" y="0px" viewBox="0 0 1251.4 778.2" style="enable-background:new 0 0 1251.4 778.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F9FF;}
+	.st0 { fill: rgba(0, 0, 0, 0.1); stroke: #FFFFFF; stroke-width: 0.9787; }
+	.st1{fill:#EDEDEC;}
+	.st222{fill:none;stroke:#000000;stroke-width:0.3563;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2 { fill: rgba(0, 0, 0, 0.1);}
+	.st3{fill:none;stroke:#000000;stroke-width:0.3563;stroke-miterlimit:10;stroke-dasharray:2.8501;}
+	.st4{fill:none;stroke:#818080;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{opacity:0.39;fill:#3A9842;enable-background:new    ;}
+	.st6{opacity:0.39;fill:#3A9842;stroke:#000000;stroke-width:0.36;stroke-miterlimit:10;enable-background:new    ;}
+	.st7{fill:#818080;}
+	.st8{fill:none;}
+	.st9{font-family:'ArialMT';}
+	.st10{font-size:18px;}
+	.st11{font-size:18px;}
+	.st12{fill:#EFE4D0;stroke:#000000;stroke-width:0.36;stroke-miterlimit:10;}
+	.st13{font-family:'Arial-BoldMT';}
+	.st14{font-size:20px;}
+	.st15{fill:#070308;}
+	.st16{font-size:20px;}
+	.st17{font-size:20px;}
+	.st18{font-size:20px;}
+	.st19{font-size:20px;}
+	.st20{font-size:20px;}
+	.st21{font-size:20px;}
+	.st22{font-size:20px;}
+	.st23{font-size:20px;}
+</style>
+<rect class="st0" width="1251.4" height="778.2"></rect>
+<g id="fondo_1_">
+	<g id="fondo">
+		<g id="gris_y_blur_1_">
+			<g>
+				<polygon class="st1" points="1210.6,712.1 48.8,712.4 74.9,62.7 1075,62.7     "></polygon>
+			</g>
+		</g>
+		<path class="st222" d="M285.2,695.6c0-2.4-2-4.4-4.4-4.4s-4.4,2-4.4,4.4s2,4.4,4.4,4.4S285.2,698.1,285.2,695.6"></path>
+		<path class="st222" d="M285.5,79.5c0-2.5-2.1-4.6-4.6-4.6s-4.6,2.1-4.6,4.6s2.1,4.6,4.6,4.6S285.5,82,285.5,79.5"></path>
+		<path class="st222" d="M286.5,387.6c0-3.1-2.5-5.7-5.7-5.7s-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7S286.5,390.7,286.5,387.6"></path>
+		<path class="st222" d="M286.8,171c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6C284.2,177,286.8,174.3,286.8,171"></path>
+		<path class="st222" d="M286.8,604.2c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6C284.2,610.1,286.8,607.5,286.8,604.2"></path>
+		<line class="st3" x1="280.5" y1="86.9" x2="280.5" y2="150.5"></line>
+		<line class="st3" x1="280.5" y1="191.9" x2="281.4" y2="367"></line>
+		<line class="st3" x1="280.5" y1="407.4" x2="281.4" y2="582.4"></line>
+		<line class="st3" x1="280.5" y1="624.4" x2="280.9" y2="678"></line>
+		<line class="st3" x1="115" y1="386.7" x2="255.6" y2="386.7"></line>
+		<line class="st3" x1="301.1" y1="386.7" x2="1022.8" y2="386.4"></line>
+		<polyline class="st3" points="302.5,604.3 1060.1,604.7 1077.8,604.7 1086.5,597.2 1085.2,584.6 997.8,171.7 982.5,171.3     301.1,170.2   "></polyline>
+		<line class="st222" x1="51.8" y1="712.3" x2="79.1" y2="62.7"></line>
+		<line id="calle_lineas_izquierda_1_" class="st3" x1="89.9" y1="63.2" x2="64" y2="712.3"></line>
+		<polyline class="st4" points="1031.6,279.9 1006.6,161 918.1,161 870,161 821.8,161 773.7,161 725.7,161 677.4,161 629.4,161     581.3,161 533.1,161 485.1,161 437,161 388.9,161 340.7,161 294.9,161 290.8,156.9 290.8,93.2   "></polyline>
+		<path class="st4" d="M292.2,89.3c-0.9,1.1-1.4,2.4-1.4,3.8"></path>
+		<path class="st4" d="M292.2,89.3c4.7-5.7,4.6-14-0.4-19.5"></path>
+		<line class="st4" x1="291.8" y1="69.8" x2="269.4" y2="69.8"></line>
+		<path class="st4" d="M269.4,69.7c-4.9,5.5-5.1,13.8-0.4,19.5"></path>
+		<path class="st4" d="M270.3,93.2c0-1.4-0.5-2.7-1.4-3.8"></path>
+		<polyline class="st4" points="270.3,93.2 270.3,121 270.3,153.6   "></polyline>
+		<path class="st4" d="M268.1,159c1.4-1.5,2.2-3.4,2.2-5.5"></path>
+		<path class="st4" d="M268.1,159c-5.1,5.2-6.4,13-3.4,19.6"></path>
+		<path class="st4" d="M264.8,178.6c0.6,1.3,1.3,2.5,2.2,3.5"></path>
+		<path class="st4" d="M267,182.2c0.4,0.5,0.8,0.9,1.2,1.3"></path>
+		<path class="st4" d="M270.3,188.8c0-2-0.8-4-2.2-5.5"></path>
+		<polyline class="st4" points="270.3,188.9 270.3,237.7 270.3,296 270.3,354.4 270.3,373.4 266.4,377.5 111.7,377.5   "></polyline>
+		<path class="st4" d="M90.3,354.3c0.6,11.9,9.6,21.6,21.4,23.2"></path>
+		<path class="st4" d="M87.7,421.8c1.5-12.6,11.5-22.4,24-23.9"></path>
+		<polyline class="st4" points="111.7,398 266.4,398 270.3,402.1 270.3,421.8 270.3,479.8 270.3,537.9 270.3,586.6   "></polyline>
+		<path class="st4" d="M268.1,592c1.4-1.5,2.2-3.4,2.2-5.5"></path>
+		<path class="st4" d="M268.1,591.9c-1.4,1.4-2.6,3.1-3.4,4.9"></path>
+		<path class="st4" d="M264.7,596.8c-3,6.6-1.7,14.3,3.4,19.5"></path>
+		<path class="st4" d="M270.3,621.8c0-2-0.8-4-2.2-5.5"></path>
+		<polyline class="st4" points="270.3,621.9 270.3,654.2 270.3,682.2   "></polyline>
+		<path class="st4" d="M269,686c0.9-1.1,1.4-2.4,1.4-3.8"></path>
+		<path class="st4" d="M269,686.1c-4.7,5.7-4.6,14,0.4,19.5"></path>
+		<path class="st4" d="M291.8,705.6c4.9-5.5,5.1-13.8,0.4-19.5"></path>
+		<path class="st4" d="M290.8,682.2c0,1.4,0.5,2.7,1.4,3.8"></path>
+		<polyline class="st4" points="290.8,682.2 290.8,618.4 294.9,614.5 340.7,614.5 388.9,614.5 437,614.5 485.1,614.5 533.1,614.5     581.3,614.5 629.4,614.5 677.4,614.5 725.7,614.5 773.7,614.5 821.8,614.5 870,614.5 918.1,614.5 966.1,614.5 1014.2,614.5     1062.4,614.5 1074.4,614.5   "></polyline>
+		<path class="st4" d="M1074.3,614.3c10,0,19.3-5.3,24.4-13.9"></path>
+		<polyline class="st4" points="1098.8,600.6 1097.8,596.1 1077,496.4 1054.2,388 1051.7,376 1031.6,279.9   "></polyline>
+		<path class="st5" d="M96.5,407.2c4.3-3.9,9.6-6.5,15.4-7.4h153.7l3,3v19H188H87.8C87.8,421.8,90,412.7,96.5,407.2z"></path>
+		<polyline class="st6" points="268.5,67.7 292.7,67.7 292.7,62.7 268.5,62.7 268.5,67.7   "></polyline>
+		<polyline class="st6" points="268.5,707.3 292.7,707.3 292.7,712.4 268.5,712.4 268.5,707.3   "></polyline>
+		<polyline class="st6" points="1099.6,595.8 1078.6,495.9 1056,387.7 1053.6,375.7 1033.4,279.4 1008,157.9 1003.5,137 995.5,99     918.1,99 918.1,63.1 1074.1,63.1 1090.6,142 1120.5,284.3 1149.2,421.3 1177.4,556.3 1182,578.4 1099.6,595.8   "></polyline>
+		<polyline class="st4" points="294.9,398 340.7,398 387.1,398 433.4,398 479.6,398 525.9,398 572.3,398 618.6,398 664.8,398     711.2,398 757.5,398 803.7,398 850.2,398 896.4,398 942.7,398 989.1,398 1032.2,398 1036.2,401.1 1055.8,495.6 1075.5,589.4     1071.8,594 989.1,594 942.7,594 896.4,594 850.2,594 803.7,594 757.5,594 711.2,594 664.8,594 618.6,594 572.3,594 525.9,594     479.6,594 433.4,594 387.1,594 340.7,594 294.9,594 290.8,589.9 290.8,495.9 290.8,402.1 294.9,398   "></polyline>
+		<polyline class="st4" points="290.8,373.4 290.8,279.4 290.8,185.6 294.9,181.5 316.8,181.5 339.9,181.5 363,181.5 386.1,181.5     409.4,181.5 432.6,181.5 455.7,181.5 479,181.5 502.1,181.5 525.2,181.5 548.5,181.5 571.7,181.5 594.8,181.5 617.9,181.5     641.2,181.5 664.3,181.5 687.5,181.5 710.7,181.5 733.9,181.5 757,181.5 780.3,181.5 803.4,181.5 826.5,181.5 849.8,181.5     873,181.5 896.1,181.5 919.2,181.5 942.5,181.5 965.6,181.5 987,181.5 990.6,183.9 1010.6,279.1 1030.3,373.6 1027.1,377.5     966.1,377.5 918.1,377.5 870,377.5 821.8,377.5 773.7,377.5 725.7,377.5 677.4,377.5 629.4,377.5 581.3,377.5 533.1,377.5     485.1,377.5 437,377.5 388.9,377.5 340.7,377.5 294.9,377.5 290.8,373.4   "></polyline>
+		<line class="st4" x1="266.2" y1="377.5" x2="265.8" y2="377.5"></line>
+		<line class="st4" x1="266.2" y1="398" x2="265.8" y2="398"></line>
+		<polygon class="st7" points="265.8,378 265.9,378 265.8,377.5   "></polygon>
+		<polygon class="st8" points="265.8,378 265.9,378 265.8,377.5   "></polygon>
+		<polygon class="st7" points="265.8,397.5 265.9,397.5 265.8,398   "></polygon>
+		<polygon class="st8" points="265.8,397.5 265.9,397.5 265.8,398   "></polygon>
+		<line class="st4" x1="294.9" y1="377.5" x2="295.9" y2="377.5"></line>
+		<line class="st4" x1="294.9" y1="398" x2="295.9" y2="398"></line>
+		<polygon class="st7" points="295.8,378 295.9,378 295.9,377.5   "></polygon>
+		<polygon class="st8" points="295.8,378 295.9,378 295.9,377.5   "></polygon>
+		<polygon class="st7" points="295.8,397.5 295.9,397.5 295.9,398   "></polygon>
+		<polygon class="st8" points="295.8,397.5 295.9,397.5 295.9,398   "></polygon>
+		<line class="st4" x1="290.8" y1="373.4" x2="290.8" y2="372.6"></line>
+		<line class="st4" x1="270.3" y1="373.4" x2="270.3" y2="372.6"></line>
+		<polygon class="st7" points="290.4,372.6 290.4,372.7 290.8,372.6   "></polygon>
+		<polygon class="st8" points="290.4,372.6 290.4,372.7 290.8,372.6   "></polygon>
+		<polygon class="st7" points="270.8,372.6 270.8,372.7 270.3,372.6   "></polygon>
+		<polygon class="st8" points="270.8,372.6 270.8,372.7 270.3,372.6   "></polygon>
+		<line class="st4" x1="294.9" y1="161" x2="295.1" y2="161"></line>
+		<line class="st4" x1="294.9" y1="181.5" x2="295.1" y2="181.5"></line>
+		<polygon class="st7" points="294.9,181 295.1,181 295.1,181.5   "></polygon>
+		<polygon class="st8" points="294.9,181 295.1,181 295.1,181.5   "></polygon>
+		<line class="st4" x1="780.1" y1="161" x2="779.6" y2="161"></line>
+		<polygon class="st7" points="779.5,161.5 779.6,161.5 779.6,161   "></polygon>
+		<polygon class="st8" points="779.5,161.5 779.6,161.5 779.6,161   "></polygon>
+		<line class="st4" x1="869.8" y1="377.5" x2="869.2" y2="377.5"></line>
+		<line class="st4" x1="869.8" y1="398" x2="869.2" y2="398"></line>
+		<polygon class="st7" points="869,378 869.2,378 869.2,377.5   "></polygon>
+		<polygon class="st8" points="869,378 869.2,378 869.2,377.5   "></polygon>
+		<polygon class="st7" points="869,397.5 869.2,397.5 869.2,398   "></polygon>
+		<polygon class="st8" points="869,397.5 869.2,397.5 869.2,398   "></polygon>
+		<line class="st4" x1="526.1" y1="377.5" x2="526.1" y2="377.5"></line>
+		<line class="st4" x1="526.1" y1="398" x2="526.1" y2="398"></line>
+		<polygon class="st7" points="526.1,397.5 526.2,397.5 526.1,398   "></polygon>
+		<polygon class="st8" points="526.1,397.5 526.2,397.5 526.1,398   "></polygon>
+		<polygon class="st7" points="526.1,378 526.2,378 526.1,377.5   "></polygon>
+		<polygon class="st8" points="526.1,378 526.2,378 526.1,377.5   "></polygon>
+		<line class="st4" x1="290.8" y1="537.9" x2="290.8" y2="537.9"></line>
+		<line class="st4" x1="270.3" y1="537.9" x2="270.3" y2="537.9"></line>
+		<polygon class="st7" points="270.8,537.9 270.8,538.1 270.3,537.9   "></polygon>
+		<polygon class="st8" points="270.8,537.9 270.8,538.1 270.3,537.9   "></polygon>
+		<polygon class="st7" points="290.4,537.9 290.4,538.1 290.8,537.9   "></polygon>
+		<polygon class="st8" points="290.4,537.9 290.4,538.1 290.8,537.9   "></polygon>
+		<line class="st4" x1="294.9" y1="594" x2="295.6" y2="594"></line>
+		<line class="st4" x1="294.9" y1="614.5" x2="295.6" y2="614.5"></line>
+		<polygon class="st7" points="295.4,614 295.6,614 295.6,614.5   "></polygon>
+		<polygon class="st8" points="295.4,614 295.6,614 295.6,614.5   "></polygon>
+		<line class="st4" x1="485.2" y1="614.5" x2="485.1" y2="614.5"></line>
+		<line class="st4" x1="485.2" y1="594" x2="485.1" y2="594"></line>
+		<polygon class="st7" points="485.1,614 485.2,614 485.1,614.5   "></polygon>
+		<polygon class="st8" points="485.1,614 485.2,614 485.1,614.5   "></polygon>
+		<polygon class="st7" points="485.1,594.5 485.2,594.5 485.1,594   "></polygon>
+		<polygon class="st8" points="485.1,594.5 485.2,594.5 485.1,594   "></polygon>
+		<line class="st4" x1="664.8" y1="594" x2="662.7" y2="594"></line>
+		<line class="st4" x1="664.8" y1="614.5" x2="662.7" y2="614.5"></line>
+		<polygon class="st7" points="662.7,594.5 662.9,594.5 662.7,594   "></polygon>
+		<polygon class="st8" points="662.7,594.5 662.9,594.5 662.7,594   "></polygon>
+		<polygon class="st7" points="662.7,614 662.9,614 662.7,614.5   "></polygon>
+		<polygon class="st8" points="662.7,614 662.9,614 662.7,614.5   "></polygon>
+		<polygon class="st6" points="1209.8,712.1 1061.5,712.3 1061.5,676.2 1115.6,676.2 1099.6,595.8 1099.6,595.8 1182,578.4   "></polygon>
+		<path class="st5" d="M111.8,375.2c-11-1.8-19.6-10.2-21.6-20.9l97.8,0.1h80.5v18l-3,2.9H113.3L111.8,375.2z"></path>
+	</g>
+	<g>
+		<text transform="matrix(0.2046 0.9788 -0.9788 0.2046 1065.1937 257.5898)" class="st9 st10">ÁREA DE EQUIPAMIENTO</text>
+	</g>
+	<g>
+		<text transform="matrix(0.2322 0.9727 -0.9727 0.2322 1140.2753 595)" class="st9 st11">ÁREA VERDE</text>
+	</g>
+</g>
+<g id="stage_1">
+	<polygon id="12"  class="st0 mapsvg-region" points="268.8,421.7 268.8,491.8 188.3,491.4 188.3,421.7 264.7,421.7  "></polygon>
+	<polygon id="73"  class="st0 mapsvg-region" points="965.6,183.5 965.6,279.6 942.1,279.6 942.1,183.5 962.9,183.5  "></polygon>
+	<polygon id="8"   class="st0 mapsvg-region" points="268.5,230.2 188,230.2 188,285 268.5,285 268.5,243.9  "></polygon>
+	<polygon id="7"   class="st0 mapsvg-region" points="187.7,251.2 94.2,251.2 92.2,297.9 187.7,297.9 187.7,264.9  "></polygon>
+	<path    id="3"   class="st0 mapsvg-region" d="M261.7,174.6H188v-55.9h80.5v34c0,0,0.3,2.4-1.8,5C264.7,160.3,260.9,162.9,261.7,174.6z"></path>
+	<path    id="2"   class="st0 mapsvg-region" d="M268.5,92.8c0-1-0.3-1.9-1-2.7c-10-12.5,1-22.5,1-22.5v-4.9H188v55.8h80.5v-11.9V92.8z"></path>
+	<polygon id="1"   class="st0 mapsvg-region" points="188,62.7 188,127 99.3,127 101.9,62.7 183.9,62.7  " ></polygon>
+	<path    id="20"  class="st0 mapsvg-region" d="M268.8,682.4v-28l-80.5,0.2v58.1h80.5v-5.1c0,0-5-3.1-5-12.6   C264.3,687.1,268.3,686.7,268.8,682.4z" ></path>
+	<polygon id="21"  class="st0 mapsvg-region" points="188.2,664.4 188.2,712.8 76.3,712.8 76.6,703.6 78.1,664.4 174.5,664.4  " ></polygon>
+	<polygon id="19"  class="st0 mapsvg-region" points="188.1,616.1 188.1,664 78,664 80,616.1 174.4,616.1  "></polygon>
+	<path    id="18"  class="st0 mapsvg-region" d="M268.5,622.2v32.3l-80.5,0.2v-58.1l75.1-0.2c0,0-5.1,7.7,1.7,18.6c0,0,0.6,1.2,2.1,2.6   S268.5,622.2,268.5,622.2z" m2="3141.87" preciototal="634783.41" costom2="202.04" largo1="62.46" largo2="67.00" fondo="48.21" frente="26.88" nombre="18"></path>
+	<polygon id="17"  class="st0 mapsvg-region" points="188.3,568.7 188.3,616.1 80.2,616.1 82.1,568.7 185.5,568.7  " m2="3510.35" preciototal="791724.33" costom2="225.54" largo1="88.30" largo2="89.87" fondo="39.40" frente="39.44" nombre="17"></polygon>
+	<polygon id="14"  class="st0 mapsvg-region" points="268.8,492.3 268.8,538.4 188.3,538.2 188.3,492 263.3,492.3  " m2="2572.02" preciototal="592724.65" costom2="230.45" largo1="67.00" largo2="67.00" fondo="38.56" frente="38.22" nombre="14"></polygon>
+	<polygon id="13"  class="st0 mapsvg-region" points="188.2,478.2 85.5,478.2 83.9,520.7 188.2,520.7 188.2,482.3  " m2="3038.09" preciototal="1090978.11" costom2="359.10" largo1="85.31" largo2="86.71" fondo="35.29" frente="35.35" nombre="13"></polygon>
+	<path    id="5"   class="st0 mapsvg-region" d="M265.6,183.3c0.4,0.5,0.8,1,1.3,1.4c1.3,1.4,1.7,4.1,1.7,4.1v41.3H188v-55.4h73.6   c0,0,0.8,3.2,1.5,4.6C263.8,180.8,264.6,182.1,265.6,183.3" m2="3051.78" preciototal="1007087.40" costom2="330.00" largo1="61.28" largo2="67.00" fondo="46.08" frente="34.33" nombre="5"></path>
+	<path    id="16"  class="st0 mapsvg-region" d="M263,596.5c0,0,1.4-3.7,3.8-5.9c1.7-1.3,1.6-3.7,1.6-3.7v-48.7l-80.5-0.2v58.6L263,596.5" m2="3238.21" preciototal="710268.98" costom2="219.34" largo1="67.00" largo2="62.46" fondo="48.64" frente="40.47" nombre="16"></path>
+	<path    id="22"  class="st0 mapsvg-region" d="M292.7,63.1V68c0,0,4.7,3.9,4.8,11.5c0,9.3-4.5,9.4-4.5,13.6v63l3,3h45V62.9h-48.1" m2="3142.72" preciototal="2042768.00" costom2="650.00" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="22"></path>
+	<polygon id="46"  class="st0 mapsvg-region" points="295.6,183.6 292.7,186.5 292.7,279.7 317.2,279.8 317.2,183.4  " m2="1596.88" preciototal="526970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="20.00" frente="17.50" nombre="46"></polygon>
+	<polygon id="74"  class="st0 mapsvg-region" points="965.6,279.2 965.6,183.1 986.5,183.1 988.9,184.8 1008.8,279.2 969.7,279.2  " m2="2198.76" preciototal="552570.37" costom2="251.31" largo1="80.00" largo2="80.26" fondo="35.88" frente="17.27" nombre="74"></polygon>
+	<polygon id="76"  class="st0 mapsvg-region" points="389.1,279.5 389.1,375.6 340.9,375.6 340.9,279.5 385,279.5  " m2="3200.00" preciototal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="76"></polygon>
+	<polygon id="124" class="st0 mapsvg-region" points="437.5,616.3 437.5,712.4 389.2,712.4 389.2,616.3 433.4,616.3  " m2="3200.00" preciototal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="124"></polygon>
+	<polygon id="123" class="st0 mapsvg-region" points="389.1,616.3 389.1,712.4 340.9,712.4 340.9,616.3 385,616.3  " m2="3200.00" preciototal="754464.00" costom2="235.77" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="123"></polygon>
+	<polygon id="91"  class="st0 mapsvg-region" points="388.9,399.6 388.9,495.8 340.7,495.8 340.7,399.6 384.8,399.6  " m2="3200.00" preciototal="1276800.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="91"></polygon>
+	<polygon id="75"  class="st0 mapsvg-region" points="340.7,279.4 340.7,375.7 295.6,375.7 292.7,372.7 292.7,279.4 316.8,279.4    336.6,279.4  " m2="3196.88" preciototal="1054970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="75"></polygon>
+	<polygon id="11"  class="st0 mapsvg-region" points="187.8,421.8 187.8,478.2 85.2,478.2 87.5,421.8 174.2,421.8  " m2="3958.47" preciototal="900000.00" costom2="227.36" largo1="83.45" largo2="85.31" fondo="46.91" frente="46.95" nombre="11"></polygon>
+	<polygon id="9"   class="st0 mapsvg-region" points="187.7,297.9 187.7,354.4 89.9,354.4 92.2,297.9 174,297.9  " m2="3794.20" preciototal="1252086.00" costom2="330.00" largo1="79.33" largo2="81.21" fondo="47.27" frente="47.31" nombre="9"></polygon>
+	<polygon id="10"  class="st0 mapsvg-region" points="268.5,285 268.5,354.4 188,354.4 188,285 263.7,285  " m2="3863.89" preciototal="1275083.70" costom2="330.00" largo1="67.00" largo2="67.00" fondo="57.67" frente="57.67" nombre="10"></polygon>
+	<path    id="151" class="st0 mapsvg-region" d="M1115.9,676.3l-54.4-0.1v-43v-16.7l12.3-0.2c0,0,19.8-0.7,26.9-15.8L1115.9,676.3z" m2="2085.23" preciototal="750682.80" costom2="360.00" largo1="63.14" largo2="50.00" fondo="44.98" frente="10.00" nombre="151"></path>
+	<polygon id="23"  class="st0 mapsvg-region" points="389.3,63.2 389.3,159.3 341.1,159.3 341.1,63.2 385.2,63.2  " m2="3200.00" preciototal="2080000.00" costom2="650.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="23"></polygon>
+	<polygon id="77"  class="st0 mapsvg-region" points="437.5,279.5 437.5,375.6 389.3,375.6 389.3,279.5 433.4,279.5  " m2="3200.00" preciototal="1916800.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="77"></polygon>
+	<polygon id="78"  class="st0 mapsvg-region" points="485.1,279.5 485.1,375.6 436.9,375.6 436.9,279.5 481,279.5  " m2="3200.00" preciototal="2236800.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="78"></polygon>
+	<polygon id="93"  class="st0 mapsvg-region" points="479.6,399.6 479.6,495.8 434.7,495.8 434.7,399.6 475.8,399.6  " m2="3020.00" preciototal="2110980.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="93"></polygon>
+	<polygon id="92"  class="st0 mapsvg-region" points="434.6,399.6 434.6,495.9 388.9,496 388.9,399.6 430.3,399.6  " m2="3020.00" preciototal="3016980.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="92"></polygon>
+	<polygon id="79"  class="st0 mapsvg-region" points="533.4,279.5 533.4,375.6 485.2,375.6 485.2,279.5 529.3,279.5  " m2="3200.00" preciototal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="79"></polygon>
+	<polygon id="80"  class="st0 mapsvg-region" points="581.6,279.5 581.6,375.6 533.4,375.6 533.4,279.5 577.5,279.5  " m2="3200.00" preciototal="1596800.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="80"></polygon>
+	<polygon id="81"  class="st0 mapsvg-region" points="629.5,279.5 629.5,375.6 581.3,375.6 581.3,279.5 625.4,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="81"></polygon>
+	<polygon id="82"  class="st0 mapsvg-region" points="677.7,279.5 677.7,375.6 629.4,375.6 629.4,279.5 673.6,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="82"></polygon>
+	<polygon id="83"  class="st0 mapsvg-region" points="725.9,279.5 725.9,375.6 677.7,375.6 677.7,279.5 721.8,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="83"></polygon>
+	<polygon id="84"  class="st0 mapsvg-region" points="773.5,279.5 773.5,375.6 725.3,375.6 725.3,279.5 769.4,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="84"></polygon>
+	<polygon id="85"  class="st0 mapsvg-region" points="822.1,279.5 822.1,375.6 773.9,375.6 773.9,279.5 818,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="85"></polygon>
+	<polygon id="86"  class="st0 mapsvg-region" points="869.7,279.5 869.7,375.6 821.5,375.6 821.5,279.5 865.6,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="86"></polygon>
+	<polygon id="87"  class="st0 mapsvg-region" points="918.3,279.5 918.3,375.6 870.1,375.6 870.1,279.5 914.2,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="87"></polygon>
+	<polygon id="88"  class="st0 mapsvg-region" points="966,279.5 966,375.6 917.7,375.6 917.7,279.5 961.9,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="88"></polygon>
+	<polygon id="24"  class="st0 mapsvg-region" points="437.5,62.9 437.5,159 389.3,159 389.3,62.9 433.4,62.9  " m2="3200.00" preciototal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="24"></polygon>
+	<polygon id="90"  class="st0 mapsvg-region" points="340.7,399.6 340.7,495.8 292.7,495.8 292.7,402.6 295.6,399.6 336.6,399.6  " m2="3196.87" preciototal="1054967.10" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="90"></polygon>
+	<polygon id="94"  class="st0 mapsvg-region" points="525.9,399.6 525.9,495.8 479.6,495.8 479.6,399.6 521.8,399.6  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="94"></polygon>
+	<polygon id="95"  class="st0 mapsvg-region" points="572.2,399.8 572.2,495.9 526,495.9 526,399.8 568.1,399.8  " m2="3080.00" preciototal="3076920.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="95"></polygon>
+	<polygon id="98"  class="st0 mapsvg-region" points="711.2,399.8 711.2,495.9 664.9,495.9 664.9,399.8 707.1,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="98"></polygon>
+	<polygon id="96"  class="st0 mapsvg-region" points="618.5,399.7 618.5,495.8 572.3,495.8 572.3,399.7 614.4,399.7  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="96"></polygon>
+	<polygon id="97"  class="st0 mapsvg-region" points="664.9,399.9 664.9,496 618.6,496 618.6,399.9 660.8,399.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="97"></polygon>
+	<polygon id="99"  class="st0 mapsvg-region" points="757.5,399.7 757.5,495.8 711.2,495.8 711.2,399.7 753.4,399.7  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="99"></polygon>
+	<polygon id="100" class="st0 mapsvg-region" points="803.8,399.8 803.8,496 757.5,496 757.5,399.8 799.7,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="100"></polygon>
+	<polygon id="103" class="st0 mapsvg-region" points="942.7,399.8 942.7,496 896.5,496 896.5,399.8 938.6,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="103"></polygon>
+	<polygon id="104" class="st0 mapsvg-region" points="989.1,399.6 989.1,495.8 942.8,495.8 942.8,399.6 985,399.6  " m2="3080.00" preciototal="2152920.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="104"></polygon>
+	<polygon id="101" class="st0 mapsvg-region" points="850.1,399.8 850.1,495.9 803.8,495.9 803.8,399.8 846,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="101"></polygon>
+	<polygon id="102" class="st0 mapsvg-region" points="896.4,399.9 896.4,496 850.2,496 850.2,399.9 892.3,399.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="102"></polygon>
+	<polygon id="110" class="st0 mapsvg-region" points="525.9,495.8 525.9,591.9 479.6,591.9 479.6,495.8 521.8,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="110"></polygon>
+	<polygon id="111" class="st0 mapsvg-region" points="572.2,495.9 572.2,592.1 526,592.1 526,495.9 568.1,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="111"></polygon>
+	<polygon id="114" class="st0 mapsvg-region" points="711.2,495.9 711.2,592.1 664.9,592.1 664.9,495.9 707.1,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="114"></polygon>
+	<polygon id="112" class="st0 mapsvg-region" points="618.5,495.9 618.5,592 572.3,592 572.3,495.9 614.4,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="112"></polygon>
+	<polygon id="107" class="st0 mapsvg-region" points="387.6,496 387.6,592.1 340.4,592.1 340.4,496 383.5,496  " m2="3080.00" preciototal="1844920.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="107"></polygon>
+	<polygon id="108" class="st0 mapsvg-region" points="434,496.1 434,592.3 387.7,592.3 387.7,496.1 429.9,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="108"></polygon>
+	<polygon id="109" class="st0 mapsvg-region" points="480.3,496.1 480.3,592.2 434,592.2 434,496.1 476.2,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="109"></polygon>
+	<polygon id="113" class="st0 mapsvg-region" points="664.9,496 664.9,592.1 618.6,592.1 618.6,496 660.8,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="113"></polygon>
+	<polygon id="115" class="st0 mapsvg-region" points="757.5,495.8 757.5,591.9 711.2,591.9 711.2,495.8 753.4,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="115"></polygon>
+	<polygon id="116" class="st0 mapsvg-region" points="803.8,496 803.8,592.1 757.5,592.1 757.5,496 799.7,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="116"></polygon>
+	<polygon id="119" class="st0 mapsvg-region" points="942.7,496 942.7,592.1 896.5,592.1 896.5,496 938.6,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="119"></polygon>
+	<polygon id="120" class="st0 mapsvg-region" points="989.1,495.8 989.1,591.9 942.8,591.9 942.8,495.8 985,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="120"></polygon>
+	<polygon id="117" class="st0 mapsvg-region" points="850.1,495.9 850.1,592 803.8,592 803.8,495.9 846,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="117"></polygon>
+	<polygon id="118" class="st0 mapsvg-region" points="896.4,496.1 896.4,592.2 850.2,592.2 850.2,496.1 892.3,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="118"></polygon>
+	<polygon id="106" class="st0 mapsvg-region" points="340.7,495.7 340.7,592 295.6,592 292.7,589 292.7,495.7 336.6,495.7  " m2="3196.87" preciototal="1914925.13" costom2="599.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="106"></polygon>
+	<path    id="122" class="st0 mapsvg-region" d="M292.5,619.3l3-3.1h45.1v96.1h-48.1v-5.1c0,0,4.7-3.2,4.8-12.4c0-7.9-4.9-8.1-4.8-13.2   C292.7,676.5,292.5,619.3,292.5,619.3z" m2="3142.72" preciototal="804002.05" costom2="255.83" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="122"></path>
+	<polygon id="45"  class="st0 mapsvg-region" points="918.2,158.6 918.2,98.4 995.6,98.4 1008.2,158.6 920.9,158.6  " m2="3488.47" preciototal="1151195.10" costom2="330.00" largo1="50.08" largo2="51.12" fondo="64.45" frente="74.93" nombre="45"></polygon>
+	<polygon id="25"  class="st0 mapsvg-region" points="460.9,62.9 460.9,159.3 436.9,159.3 436.9,62.9 459.6,62.9  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="25"></polygon>
+	<polygon id="26"  class="st0 mapsvg-region" points="485,62.9 485,159.3 461,159.3 461,62.9 483.6,62.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="26"></polygon>
+	<polygon id="27"  class="st0 mapsvg-region" points="509,62.8 509,159.2 485,159.2 485,62.8 507.7,62.8  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="27"></polygon>
+	<polygon id="28"  class="st0 mapsvg-region" points="533.1,62.8 533.1,159.2 509.1,159.2 509.1,62.8 531.7,62.8  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="28"></polygon>
+	<polygon id="29"  class="st0 mapsvg-region" points="557.1,62.8 557.1,159.2 533.1,159.2 533.1,62.8 555.8,62.8  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="29"></polygon>
+	<polygon id="30"  class="st0 mapsvg-region" points="581.2,62.8 581.2,159.2 557.2,159.2 557.2,62.8 579.8,62.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="30"></polygon>
+	<polygon id="31"  class="st0 mapsvg-region" points="605.2,62.7 605.2,159.1 581.2,159.1 581.2,62.7 603.9,62.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="31"></polygon>
+	<polygon id="32"  class="st0 mapsvg-region" points="629.3,62.7 629.3,159.1 605.3,159.1 605.3,62.7 627.9,62.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="32"></polygon>
+	<polygon id="33"  class="st0 mapsvg-region" points="653.5,62.5 653.5,158.9 629.5,158.9 629.5,62.5 652.1,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="33"></polygon>
+	<polygon id="34"  class="st0 mapsvg-region" points="677.6,62.5 677.6,158.9 653.5,158.9 653.5,62.5 676.2,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="34"></polygon>
+	<polygon id="35"  class="st0 mapsvg-region" points="701.6,62.4 701.6,158.8 677.6,158.8 677.6,62.4 700.2,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="35"></polygon>
+	<polygon id="36"  class="st0 mapsvg-region" points="725.7,62.4 725.7,158.8 701.6,158.8 701.6,62.4 724.3,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="36"></polygon>
+	<polygon id="37"  class="st0 mapsvg-region" points="749.7,62.5 749.7,158.9 725.7,158.9 725.7,62.5 748.3,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="37"></polygon>
+	<polygon id="38"  class="st0 mapsvg-region" points="773.8,62.5 773.8,158.9 749.7,158.9 749.7,62.5 772.4,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="38"></polygon>
+	<polygon id="41"  class="st0 mapsvg-region" points="845.8,62.4 845.8,158.8 821.7,158.8 821.7,62.4 844.4,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="41"></polygon>
+	<polygon id="42"  class="st0 mapsvg-region" points="869.8,62.4 869.8,158.8 845.8,158.8 845.8,62.4 868.5,62.4  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="42"></polygon>
+	<polygon id="43"  class="st0 mapsvg-region" points="893.9,62.4 893.9,158.8 869.8,158.8 869.8,62.4 892.5,62.4  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="43"></polygon>
+	<polygon id="44"  class="st0 mapsvg-region" points="917.9,62.4 917.9,158.8 893.9,158.8 893.9,62.4 916.6,62.4  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="44"></polygon>
+	<polygon id="39"  class="st0 mapsvg-region" points="797.8,62.3 797.8,158.7 773.8,158.7 773.8,62.3 796.4,62.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="39"></polygon>
+	<polygon id="40"  class="st0 mapsvg-region" points="821.9,62.3 821.9,158.7 797.8,158.7 797.8,62.3 820.5,62.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="40"></polygon>
+	<polygon id="69"  class="st0 mapsvg-region" points="869.9,183.3 869.9,279.7 845.9,279.7 845.9,183.3 868.6,183.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="69"></polygon>
+	<polygon id="70"  class="st0 mapsvg-region" points="894,183.3 894,279.7 870,279.7 870,183.3 892.6,183.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="70"></polygon>
+	<polygon id="71"  class="st0 mapsvg-region" points="918,183.3 918,279.8 894,279.8 894,183.3 916.7,183.3  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="71"></polygon>
+	<polygon id="72"  class="st0 mapsvg-region" points="942.1,183.3 942.1,279.8 918.1,279.8 918.1,183.3 940.7,183.3  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="72"></polygon>
+	<polygon id="67"  class="st0 mapsvg-region" points="822,183.2 822,279.6 797.9,279.6 797.9,183.2 820.6,183.2  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="67"></polygon>
+	<polygon id="68"  class="st0 mapsvg-region" points="846,183.2 846,279.6 822,279.6 822,183.2 844.7,183.2  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="68"></polygon>
+	<polygon id="47"  class="st0 mapsvg-region" points="341.2,183.4 341.2,279.8 317.2,279.8 317.2,183.4 339.9,183.4  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="47"></polygon>
+	<polygon id="48"  class="st0 mapsvg-region" points="365.3,183.4 365.3,279.8 341.3,279.8 341.3,183.4 363.9,183.4  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="48"></polygon>
+	<polygon id="49"  class="st0 mapsvg-region" points="389.3,183.3 389.3,279.7 365.3,279.7 365.3,183.3 388,183.3  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="49"></polygon>
+	<polygon id="50"  class="st0 mapsvg-region" points="413.4,183.3 413.4,279.7 389.4,279.7 389.4,183.3 412,183.3  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="50"></polygon>
+	<polygon id="51"  class="st0 mapsvg-region" points="437.4,183.4 437.4,279.8 413.4,279.8 413.4,183.4 436.1,183.4  " m2="1600.00" preciototal="520000.00" costom2="325.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="51"></polygon>
+	<polygon id="52"  class="st0 mapsvg-region" points="461.5,183.4 461.5,279.8 437.5,279.8 437.5,183.4 460.1,183.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="52"></polygon>
+	<polygon id="53"  class="st0 mapsvg-region" points="485.5,183.2 485.5,279.6 461.5,279.6 461.5,183.2 484.2,183.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="53"></polygon>
+	<polygon id="54"  class="st0 mapsvg-region" points="509.6,183.2 509.6,279.6 485.6,279.6 485.6,183.2 508.2,183.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="54"></polygon>
+	<polygon id="55"  class="st0 mapsvg-region" points="533.8,183.1 533.8,279.5 509.8,279.5 509.8,183.1 532.4,183.1  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="55"></polygon>
+	<polygon id="56"  class="st0 mapsvg-region" points="557.9,183.1 557.9,279.5 533.8,279.5 533.8,183.1 556.5,183.1  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="56"></polygon>
+	<polygon id="57"  class="st0 mapsvg-region" points="581.9,182.9 581.9,279.3 557.9,279.3 557.9,182.9 580.5,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="57"></polygon>
+	<polygon id="58"  class="st0 mapsvg-region" points="606,182.9 606,279.3 581.9,279.3 581.9,182.9 604.6,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="58"></polygon>
+	<polygon id="59"  class="st0 mapsvg-region" points="630,183 630,279.4 606,279.4 606,183 628.6,183  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="59"></polygon>
+	<polygon id="60"  class="st0 mapsvg-region" points="654.1,183 654.1,279.4 630,279.4 630,183 652.7,183  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="60"></polygon>
+	<polygon id="63"  class="st0 mapsvg-region" points="726.1,182.9 726.1,279.3 702,279.3 702,182.9 724.7,182.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="63"></polygon>
+	<polygon id="64"  class="st0 mapsvg-region" points="750.1,182.9 750.1,279.3 726.1,279.3 726.1,182.9 748.8,182.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="64"></polygon>
+	<polygon id="65"  class="st0 mapsvg-region" points="774.2,183 774.2,279.4 750.1,279.4 750.1,183 772.8,183  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="65"></polygon>
+	<polygon id="66"  class="st0 mapsvg-region" points="798.2,183 798.2,279.4 774.2,279.4 774.2,183 796.9,183  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="66"></polygon>
+	<polygon id="61"  class="st0 mapsvg-region" points="678.1,182.9 678.1,279.3 654.1,279.3 654.1,182.9 676.7,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="61"></polygon>
+	<polygon id="62"  class="st0 mapsvg-region" points="702.2,182.9 702.2,279.3 678.1,279.3 678.1,182.9 700.8,182.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="62"></polygon>
+	<polygon id="4"   class="st0 mapsvg-region" points="188,126.8 189,190.2 96.5,190.2 99.3,126.8 174.3,126.8  " m2="3885.80" preciototal="1006888.49" costom2="259.12" largo1="73.72" largo2="75.78" fondo="51.98" frente="52.02" nombre="4"></polygon>
+	<polygon id="6"   class="st0 mapsvg-region" points="188,190.2 188,251 94.2,251 96.5,190.2 174.3,190.2  " m2="3885.80" preciototal="1550434.20" costom2="399.00" largo1="75.78" largo2="77.79" fondo="50.61" frente="50.64" nombre="6"></polygon>
+	<polygon id="15"  class="st0 mapsvg-region" points="188.1,520.7 188.1,568.8 82,568.8 83.8,520.7 182.6,520.7  " m2="3497.58" preciototal="769957.26" costom2="220.14" largo1="86.71" largo2="88.30" fondo="39.97" frente="40.00" nombre="15"></polygon>
+	<polygon id="89"  class="st0 mapsvg-region" points="1008.4,279.4 989.9,279.4 965.8,279.4 965.8,375.7 1026,375.7 1028.1,373.1    1009.6,284.9  " m2="3503.17" preciototal="630570.60" costom2="180.00" largo1="80.00" largo2="75.35" fondo="35.88" frente="50.00" nombre="89"></polygon>
+	<polygon id="105" class="st0 mapsvg-region" points="1034.5,401.9 1054,495.8 989.1,495.8 989.1,399.6 1031.6,399.6  " m2="3658.74" preciototal="1459837.26" costom2="399.00" largo1="80.00" largo2="79.74" fondo="54.13" frente="35.38" nombre="105"></polygon>
+	<polygon id="121" class="st0 mapsvg-region" points="1054.3,495.8 989.3,495.8 989.3,592.1 1071.2,592.1 1073.8,588.8 1055.7,502.7     " m2="4996.92" preciototal="1993771.08" costom2="399.00" largo1="80.00" largo2="78.99" fondo="54.13" frente="68.14" nombre="121"></polygon>
+	<polygon id="146" class="st0 mapsvg-region" points="965.5,616.2 965.5,712.3 942,712.3 942,616.2 962.8,616.2  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="146"></polygon>
+	<polygon id="142" class="st0 mapsvg-region" points="869.8,616 869.8,712.4 845.8,712.4 845.8,616 868.5,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="142"></polygon>
+	<polygon id="143" class="st0 mapsvg-region" points="893.9,616 893.9,712.4 869.9,712.4 869.9,616 892.5,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="143"></polygon>
+	<polygon id="144" class="st0 mapsvg-region" points="917.9,616 917.9,712.5 893.9,712.5 893.9,616 916.6,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="144"></polygon>
+	<polygon id="145" class="st0 mapsvg-region" points="942,616 942,712.5 918,712.5 918,616 940.6,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="145"></polygon>
+	<polygon id="140" class="st0 mapsvg-region" points="821.9,615.9 821.9,712.3 797.8,712.3 797.8,615.9 820.5,615.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="140"></polygon>
+	<polygon id="141" class="st0 mapsvg-region" points="845.9,615.9 845.9,712.3 821.9,712.3 821.9,615.9 844.6,615.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="141"></polygon>
+	<polygon id="125" class="st0 mapsvg-region" points="461.4,616.1 461.4,712.5 437.4,712.5 437.4,616.1 460,616.1  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="125"></polygon>
+	<polygon id="126" class="st0 mapsvg-region" points="485.4,615.9 485.4,712.3 461.4,712.3 461.4,615.9 484.1,615.9  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="126"></polygon>
+	<polygon id="127" class="st0 mapsvg-region" points="509.5,615.9 509.5,712.3 485.5,712.3 485.5,615.9 508.1,615.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="127"></polygon>
+	<polygon id="128" class="st0 mapsvg-region" points="533.7,615.8 533.7,712.2 509.7,712.2 509.7,615.8 532.3,615.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="128"></polygon>
+	<polygon id="129" class="st0 mapsvg-region" points="557.8,615.8 557.8,712.2 533.7,712.2 533.7,615.8 556.4,615.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="129"></polygon>
+	<polygon id="130" class="st0 mapsvg-region" points="581.8,615.6 581.8,712 557.8,712 557.8,615.6 580.4,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="130"></polygon>
+	<polygon id="131" class="st0 mapsvg-region" points="605.9,615.6 605.9,712 581.8,712 581.8,615.6 604.5,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="131"></polygon>
+	<polygon id="132" class="st0 mapsvg-region" points="629.9,615.7 629.9,712.1 605.9,712.1 605.9,615.7 628.5,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="132"></polygon>
+	<polygon id="133" class="st0 mapsvg-region" points="654,615.7 654,712.1 629.9,712.1 629.9,615.7 652.6,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="133"></polygon>
+	<polygon id="136" class="st0 mapsvg-region" points="726,615.6 726,712 701.9,712 701.9,615.6 724.6,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="136"></polygon>
+	<polygon id="137" class="st0 mapsvg-region" points="750,615.6 750,712 726,712 726,615.6 748.7,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="137"></polygon>
+	<polygon id="138" class="st0 mapsvg-region" points="774.1,615.7 774.1,712.1 750,712.1 750,615.7 772.7,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="138"></polygon>
+	<polygon id="139" class="st0 mapsvg-region" points="798.1,615.7 798.1,712.1 774.1,712.1 774.1,615.7 796.8,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="139"></polygon>
+	<polygon id="134" class="st0 mapsvg-region" points="678,615.6 678,712 654,712 654,615.6 676.6,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="134"></polygon>
+	<polygon id="135" class="st0 mapsvg-region" points="702.1,615.6 702.1,712 678,712 678,615.6 700.7,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="135"></polygon>
+	<polygon id="150" class="st0 mapsvg-region" points="1061,616.2 1061,712.3 1037.5,712.3 1037.5,616.2 1058.3,616.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="150"></polygon>
+	<polygon id="147" class="st0 mapsvg-region" points="989.4,616 989.4,712.4 965.4,712.4 965.4,616 988,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="147"></polygon>
+	<polygon id="148" class="st0 mapsvg-region" points="1013.4,616 1013.4,712.5 989.4,712.5 989.4,616 1012.1,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="148"></polygon>
+	<polygon id="149" class="st0 mapsvg-region" points="1037.5,616 1037.5,712.5 1013.5,712.5 1013.5,616 1036.1,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="149"></polygon>
+</g>
+<g id="Texto">
+	<text transform="matrix(0 -1 1 0 1055.3412 682.5508)" class="st13 st14">150 </text>
+	<text transform="matrix(0 -1 1 0 1030.6164 682.5508)" class="st13 st14">149 </text>
+	<text transform="matrix(0 -1 1 0 1007.669 682.5508)" class="st13 st14">148 </text>
+	<text transform="matrix(0 -1 1 0 982.6551 682.5508)" class="st13 st14">147</text>
+	<text transform="matrix(0 -1 1 0 863.1503 682.5508)" class="st13 st14">142 </text>
+	<text transform="matrix(0 -1 1 0 839.2373 682.5508)" class="st13 st14">141 </text>
+	<text transform="matrix(0 -1 1 0 815.29 682.5508)" class="st13 st14">140 </text>
+	<text transform="matrix(0 -1 1 0 792.6462 682.5508)" class="st13 st14">139</text>
+	<text transform="matrix(0 -1 1 0 768.6989 682.5508)" class="st13 st14">138 </text>
+	<text transform="matrix(0 -1 1 0 744.6848 682.5508)" class="st13 st14">137 </text>
+	<text transform="matrix(0 -1 1 0 720.7373 682.5508)" class="st13 st14">136 </text>
+	<text transform="matrix(0 -1 1 0 696.8243 682.5508)" class="st13 st14">135 </text>
+	<text transform="matrix(0 -1 1 0 672.877 682.5508)" class="st13 st14">134 </text>
+	<text transform="matrix(0 -1 1 0 648.863 682.5508)" class="st13 st14">133 </text>
+	<text transform="matrix(0 -1 1 0 624.9156 682.5508)" class="st13 st14">132 </text>
+	<text transform="matrix(0 -1 1 0 600.2485 682.5508)" class="st13 st14">131 </text>
+	<text transform="matrix(0 -1 1 0 576.3011 682.5508)" class="st13 st14">130 </text>
+	<text transform="matrix(0 -1 1 0 552.2871 682.5508)" class="st13 st14">129 </text>
+	<text transform="matrix(0 -1 1 0 528.3398 682.5508)" class="st13 st14">128 </text>
+	<text transform="matrix(0 -1 1 0 504.5237 682.5508)" class="st13 st14">127 </text>
+	<text transform="matrix(0 -1 1 0 480.5762 682.5508)" class="st13 st14">126 </text>
+	<text transform="matrix(0 -1 1 0 456.5623 682.5508)" class="st13 st14">125 </text>
+	<text transform="matrix(0 -1 1 0 433.2786 248.5605)" class="st13 st14">51</text>
+	<text transform="matrix(0 -1 1 0 408.6113 248.5605)" class="st13 st14">50</text>
+	<text transform="matrix(0 -1 1 0 382.6641 248.5605)" class="st13 st14">49</text>
+	<text transform="matrix(0 -1 1 0 360.6501 248.5605)" class="st13 st14">48</text>
+	<text transform="matrix(0 -1 1 0 336.7026 248.5605)" class="st13 st14">47</text>
+	<text transform="matrix(0 -1 1 0 311.4586 248.5605)" class="st13 st14">46</text>
+	<text transform="matrix(1 0 0 1 941.22 127.1465)" class="st13 st17">45</text>
+	<text transform="matrix(0 -1 1 0 912.1943 126.5693)" class="st13 st14">44</text>
+	<text transform="matrix(0 -1 1 0 888.2469 126.5693)" class="st13 st14">43</text>
+	<text transform="matrix(0 -1 1 0 864.233 126.5693)" class="st13 st14">42</text>
+	<text transform="matrix(0 -1 1 0 840.2856 126.5693)" class="st13 st14">41</text>
+	<text transform="matrix(0 -1 1 0 816.3726 126.5693)" class="st13 st14">40</text>
+	<text transform="matrix(0 -1 1 0 792.4252 126.5693)" class="st13 st14">39</text>
+	<text transform="matrix(0 -1 1 0 768.4113 126.5693)" class="st13 st14">38</text>
+	<text transform="matrix(0 -1 1 0 744 126.5693)" class="st13 st14">37</text>
+	<text transform="matrix(0 -1 1 0 719 126.5693)" class="st13 st14">36</text>
+	<text transform="matrix(0 -1 1 0 695 126.5693)" class="st13 st14">35</text>
+	<text transform="matrix(0 -1 1 0 671 126.5693)" class="st13 st14">34</text>
+	<text transform="matrix(0 -1 1 0 647 126.5693)" class="st13 st14">33</text>
+	<text transform="matrix(0 -1 1 0 624 126.5693)" class="st13 st14">32</text>
+	<text transform="matrix(0 -1 1 0 600 126.5693)" class="st13 st14">31</text>
+	<text transform="matrix(0 -1 1 0 576 126.5693)" class="st13 st14">30</text>
+	<text transform="matrix(0 -1 1 0 553 126.5693)" class="st13 st14">29</text>
+	<text transform="matrix(0 -1 1 0 527 126.5693)" class="st13 st14">28</text>
+	<text transform="matrix(0 -1 1 0 502 126.5693)" class="st13 st14">27</text>
+	<text transform="matrix(0 -1 1 0 479.5347 126.5693)" class="st13 st14">26</text>
+	<text transform="matrix(0 -1 1 0 455 126.5693)" class="st13 st14">25</text>
+	<text transform="matrix(1 0 0 1 404.6866 117)" class="st13 st17">24</text>
+	<text transform="matrix(1 0 0 1 355.0475 117)" class="st13 st17">23</text>
+	<text transform="matrix(1 0 0 1 307.0745 117)" class="st13 st17">22</text>
+	<text transform="matrix(1 0 0 1 121.3627 694)" class="st13 st20">21</text>
+	<text transform="matrix(1 0 0 1 214.5428 687.5247)" class="st13 st20">20</text>
+	<text transform="matrix(1 0 0 1 121.3625 643.3525)" class="st13 st20">19</text>
+	<text transform="matrix(1 0 0 1 214.5429 631.7249)" class="st13 st20">18</text>
+	<text transform="matrix(1 0 0 1 121.3623 597.2501)" class="st13 st20">17</text>
+	<text transform="matrix(1 0 0 1 214.5428 572.2831)" class="st13 st20">16</text>
+	<text transform="matrix(1 0 0 1 121.3626 548.3855)" class="st13 st20">15</text>
+	<text transform="matrix(1 0 0 1 214.5426 517.9028)" class="st13 st20">14</text>
+	<text transform="matrix(1 0 0 1 121.3623 502.9001)" class="st13 st20">13</text>
+	<text transform="matrix(1 0 0 1 214.5427 45361.0397)" class="st13 st20">12</text>
+	<text transform="matrix(1 0 0 1 121.3622 456.1749)" class="st13 st20">11</text>
+	<text transform="matrix(1 0 0 1 214.4404 324.6157)" class="st13 st20">10</text>
+	<text transform="matrix(1 0 0 1 129.2974 332.866)" class="st13 st20">9</text>
+	<text transform="matrix(1 0 0 1 217.2211 263.9315)" class="st13 st20">8</text>
+	<text transform="matrix(1 0 0 1 129.2977 280.9155)" class="st13 st20">7</text>
+	<text transform="matrix(1 0 0 1 128.2976 226.5371)" class="st13 st20">6</text>
+	<text transform="matrix(1 0 0 1 218.7977 207.653)" class="st13 st20">5</text>
+	<text transform="matrix(1 0 0 1 131.5976 164.4998)" class="st13 st20">4</text>
+	<text transform="matrix(1 0 0 1 217.2214 151.2401)" class="st13 st20">3</text>
+	<text transform="matrix(1 0 0 1 217.2213 96.9001)" class="st13 st20">2</text>
+	<text transform="matrix(1 0 0 1 114.2477 101.2002)" class="st13 st20">1</text>
+	<text transform="matrix(0 -1 1 0 959.7838 682.5508)" class="st13 st14">146 </text>
+	<text transform="matrix(0 -1 1 0 935.059 682.5508)" class="st13 st14">145 </text>
+	<text transform="matrix(0 -1 1 0 911.1116 682.5508)" class="st13 st14">144 </text>
+	<text transform="matrix(0 -1 1 0 887.0977 682.5508)" class="st13 st14">143 </text>
+	<text transform="matrix(1 0 0 1 1067.9668 648.3738)" class="st13 st19">151</text>
+	<text transform="matrix(1 0 0 1 392.3878 662.0947)" class="st13 st22">124</text>
+	<text transform="matrix(1 0 0 1 344.6474 662.4272)" class="st13 st22">123</text>
+	<text transform="matrix(1 0 0 1 295.3365 662.4756)" class="st13 st22">122</text>
+	<text transform="matrix(1 0 0 1 1004.1556 539.2935)" class="st13 st22">121</text>
+	<text transform="matrix(1 0 0 1 945.9526 539.3765)" class="st13 st22">120</text>
+	<text transform="matrix(1 0 0 1 899.8282 539.3765)" class="st13 st22">119</text>
+	<text transform="matrix(1 0 0 1 852.7307 539.376)" class="st13 st22">118</text>
+	<text transform="matrix(1 0 0 1 806.5132 539.3757)" class="st13 st22">117</text>
+	<text transform="matrix(1 0 0 1 760.0256 539.3762)" class="st13 st22">116</text>
+	<text transform="matrix(1 0 0 1 713.9012 539.3762)" class="st13 st22">115</text>
+	<text transform="matrix(1 0 0 1 667.8033 539.376)" class="st13 st22">114</text>
+	<text transform="matrix(1 0 0 1 621.5859 539.3766)" class="st13 st22">113</text>
+	<text transform="matrix(1 0 0 1 574.4883 539.3762)" class="st13 st22">112</text>
+	<text transform="matrix(1 0 0 1 529.1548 539.3762)" class="st13 st22">111</text>
+	<text transform="matrix(1 0 0 1 483.0305 539.3762)" class="st13 st22">110</text>
+	<text transform="matrix(1 0 0 1 436.9328 539.376)" class="st13 st22">109</text>
+	<text transform="matrix(1 0 0 1 390.7151 539.3766)" class="st13 st22">108</text>
+	<text transform="matrix(1 0 0 1 343.6175 539.3762)" class="st13 st22">107</text>
+	<text transform="matrix(1 0 0 1 297.0865 540.3856)" class="st13 st22">106</text>
+	<text transform="matrix(1 0 0 1 995.5287 447.3231)" class="st13 st22">105</text>
+	<text transform="matrix(1 0 0 1 944.2213 447.323)" class="st13 st22">104</text>
+	<text transform="matrix(1 0 0 1 898.0967 447.323)" class="st13 st22">103</text>
+	<text transform="matrix(1 0 0 1 851.9991 447.3236)" class="st13 st22">102</text>
+	<text transform="matrix(1 0 0 1 805.7817 447.3234)" class="st13 st22">101</text>
+	<text transform="matrix(1 0 0 1 759.6838 447.324)" class="st13 st22">100</text>
+	<text transform="matrix(1 0 0 1 715.516 447.3237)" class="st13 st22">99</text>
+	<text transform="matrix(1 0 0 1 669.8851 447.3236)" class="st13 st22">98</text>
+	<text transform="matrix(1 0 0 1 623.5999 447.3234)" class="st13 st22">97</text>
+	<text transform="matrix(1 0 0 1 576.969 447.3232)" class="st13 st22">96</text>
+	<text transform="matrix(1 0 0 1 530.8363 447.9919)" class="st13 st22">95</text>
+	<text transform="matrix(1 0 0 1 485.2054 447.9919)" class="st13 st22">94</text>
+	<text transform="matrix(1 0 0 1 439.4568 447.9918)" class="st13 st22">93</text>
+	<text transform="matrix(1 0 0 1 394.0969 447.9915)" class="st13 st22">92</text>
+	<text transform="matrix(1 0 0 1 346.131 447.9905)" class="st13 st22">91</text>
+	<text transform="matrix(1 0 0 1 298.6652 447.9905)" class="st13 st22">90</text>
+	<text transform="matrix(1 0 0 1 974.3201 324.866)" class="st13 st17">89</text>
+	<text transform="matrix(1 0 0 1 924.5557 325.5939)" class="st13 st17">88</text>
+	<text transform="matrix(1 0 0 1 876.1733 325.5942)" class="st13 st17">87</text>
+	<text transform="matrix(1 0 0 1 827.0938 325.5941)" class="st13 st17">86</text>
+	<text transform="matrix(1 0 0 1 779.6123 325.5939)" class="st13 st17">85</text>
+	<text transform="matrix(1 0 0 1 731.5327 325.5939)" class="st13 st17">84</text>
+	<text transform="matrix(1 0 0 1 683.1519 325.5939)" class="st13 st17">83</text>
+	<text transform="matrix(1 0 0 1 636.0724 325.5939)" class="st13 st17">82</text>
+	<text transform="matrix(1 0 0 1 587.5908 325.5938)" class="st13 st17">81</text>
+	<text transform="matrix(1 0 0 1 539.5113 325.5938)" class="st13 st17">80</text>
+	<text transform="matrix(1 0 0 1 491.0481 325.5938)" class="st13 st17">79</text>
+	<text transform="matrix(1 0 0 1 442.9685 325.5938)" class="st13 st17">78</text>
+	<text transform="matrix(1 0 0 1 395.487 325.5934)" class="st13 st17">77</text>
+	<text transform="matrix(1 0 0 1 347.4074 325.5934)" class="st13 st17">76</text>
+	<text transform="matrix(1 0 0 1 298.7131 325.5936)" class="st13 st17">75</text>
+	<text transform="matrix(0 -1 1 0 987.3559 248.5605)" class="st13 st14">74</text>
+	<text transform="matrix(0 -1 1 0 960.4474 248.5605)" class="st13 st14">73</text>
+	<text transform="matrix(0 -1 1 0 935.7226 248.5605)" class="st13 st14">72</text>
+	<text transform="matrix(0 -1 1 0 911.7752 248.5605)" class="st13 st14">71</text>
+	<text transform="matrix(0 -1 1 0 887.7613 248.5605)" class="st13 st14">70</text>
+	<text transform="matrix(0 -1 1 0 863.8139 248.5605)" class="st13 st14">69</text>
+	<text transform="matrix(0 -1 1 0 839.9009 248.5605)" class="st13 st14">68</text>
+	<text transform="matrix(0 -1 1 0 815.9536 248.5605)" class="st13 st14">67</text>
+	<text transform="matrix(0 -1 1 0 793.3098 248.5605)" class="st13 st14">66</text>
+	<text transform="matrix(0 -1 1 0 769.3624 248.5605)" class="st13 st14">65</text>
+	<text transform="matrix(0 -1 1 0 745.3484 248.5605)" class="st13 st14">64</text>
+	<text transform="matrix(0 -1 1 0 721.4009 248.5605)" class="st13 st14">63</text>
+	<text transform="matrix(0 -1 1 0 697.4879 248.5605)" class="st13 st14">62</text>
+	<text transform="matrix(0 -1 1 0 673.5405 248.5605)" class="st13 st14">61</text>
+	<text transform="matrix(0 -1 1 0 649.5266 248.5605)" class="st13 st14">60</text>
+	<text transform="matrix(0 -1 1 0 625.5792 248.5605)" class="st13 st14">59</text>
+	<text transform="matrix(0 -1 1 0 600.9121 248.5605)" class="st13 st14">58</text>
+	<text transform="matrix(0 -1 1 0 576.9647 248.5605)" class="st13 st14">57</text>
+	<text transform="matrix(0 -1 1 0 552.9508 248.5605)" class="st13 st14">56</text>
+	<text transform="matrix(0 -1 1 0 529.0034 248.5605)" class="st13 st14">55</text>
+	<text transform="matrix(0 -1 1 0 505.1873 248.5605)" class="st13 st14">54</text>
+	<text transform="matrix(0 -1 1 0 481.2397 248.5605)" class="st13 st14">53</text>
+	<text transform="matrix(0 -1 1 0 457.2258 248.5605)" class="st13 st14">52</text>
+</g>
+<g id="area_selection_1" data-id="stage_1">
+	<polygon data-id="12"  class="st2" points="268.8,421.7 268.8,491.8 188.3,491.4 188.3,421.7 264.7,421.7  "></polygon>
+	<polygon data-id="73"  class="st2" points="965.6,183.5 965.6,279.6 942.1,279.6 942.1,183.5 962.9,183.5  "></polygon>
+	<polygon data-id="8"   class="st2" points="268.5,230.2 188,230.2 188,285 268.5,285 268.5,243.9  "></polygon>
+	<polygon data-id="7"   class="st2" points="187.7,251.2 94.2,251.2 92.2,297.9 187.7,297.9 187.7,264.9  "></polygon>
+	<path 	 data-id="3"   class="st2" d="M261.7,174.6H188v-55.9h80.5v34c0,0,0.3,2.4-1.8,5C264.7,160.3,260.9,162.9,261.7,174.6z"></path>
+	<path 	 data-id="2"   class="st2" d="M268.5,92.8c0-1-0.3-1.9-1-2.7c-10-12.5,1-22.5,1-22.5v-4.9H188v55.8h80.5v-11.9V92.8z"></path>
+	<polygon data-id="1"   class="st2" points="188,62.7 188,127 99.3,127 101.9,62.7 183.9,62.7  " ></polygon>
+	<path 	 data-id="20"  class="st2" d="M268.8,682.4v-28l-80.5,0.2v58.1h80.5v-5.1c0,0-5-3.1-5-12.6   C264.3,687.1,268.3,686.7,268.8,682.4z" ></path>
+	<polygon data-id="21"  class="st2" points="188.2,664.4 188.2,712.8 76.3,712.8 76.6,703.6 78.1,664.4 174.5,664.4  " ></polygon>
+	<polygon data-id="19"  class="st2" points="188.1,616.1 188.1,664 78,664 80,616.1 174.4,616.1  "></polygon>
+	<path 	 data-id="18"  class="st2" d="M268.5,622.2v32.3l-80.5,0.2v-58.1l75.1-0.2c0,0-5.1,7.7,1.7,18.6c0,0,0.6,1.2,2.1,2.6   S268.5,622.2,268.5,622.2z" m2="3141.87" preciototal="634783.41" costom2="202.04" largo1="62.46" largo2="67.00" fondo="48.21" frente="26.88" nombre="18"></path>
+	<polygon data-id="17"  class="st2" points="188.3,568.7 188.3,616.1 80.2,616.1 82.1,568.7 185.5,568.7  " m2="3510.35" preciototal="791724.33" costom2="225.54" largo1="88.30" largo2="89.87" fondo="39.40" frente="39.44" nombre="17"></polygon>
+	<polygon data-id="14"  class="st2" points="268.8,492.3 268.8,538.4 188.3,538.2 188.3,492 263.3,492.3  " m2="2572.02" preciototal="592724.65" costom2="230.45" largo1="67.00" largo2="67.00" fondo="38.56" frente="38.22" nombre="14"></polygon>
+	<polygon data-id="13"  class="st2" points="188.2,478.2 85.5,478.2 83.9,520.7 188.2,520.7 188.2,482.3  " m2="3038.09" preciototal="1090978.11" costom2="359.10" largo1="85.31" largo2="86.71" fondo="35.29" frente="35.35" nombre="13"></polygon>
+	<path 	 data-id="5"   class="st2" d="M265.6,183.3c0.4,0.5,0.8,1,1.3,1.4c1.3,1.4,1.7,4.1,1.7,4.1v41.3H188v-55.4h73.6   c0,0,0.8,3.2,1.5,4.6C263.8,180.8,264.6,182.1,265.6,183.3" m2="3051.78" preciototal="1007087.40" costom2="330.00" largo1="61.28" largo2="67.00" fondo="46.08" frente="34.33" nombre="5"></path>
+	<path 	 data-id="16"  class="st2" d="M263,596.5c0,0,1.4-3.7,3.8-5.9c1.7-1.3,1.6-3.7,1.6-3.7v-48.7l-80.5-0.2v58.6L263,596.5" m2="3238.21" preciototal="710268.98" costom2="219.34" largo1="67.00" largo2="62.46" fondo="48.64" frente="40.47" nombre="16"></path>
+	<path 	 data-id="22"  class="st2" d="M292.7,63.1V68c0,0,4.7,3.9,4.8,11.5c0,9.3-4.5,9.4-4.5,13.6v63l3,3h45V62.9h-48.1" m2="3142.72" preciototal="2042768.00" costom2="650.00" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="22"></path>
+	<polygon data-id="46"  class="st2" points="295.6,183.6 292.7,186.5 292.7,279.7 317.2,279.8 317.2,183.4  " m2="1596.88" preciototal="526970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="20.00" frente="17.50" nombre="46"></polygon>
+	<polygon data-id="74"  class="st2" points="965.6,279.2 965.6,183.1 986.5,183.1 988.9,184.8 1008.8,279.2 969.7,279.2  " m2="2198.76" preciototal="552570.37" costom2="251.31" largo1="80.00" largo2="80.26" fondo="35.88" frente="17.27" nombre="74"></polygon>
+	<polygon data-id="76"  class="st2" points="389.1,279.5 389.1,375.6 340.9,375.6 340.9,279.5 385,279.5  " m2="3200.00" preciototal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="76"></polygon>
+	<polygon data-id="124" class="st2" points="437.5,616.3 437.5,712.4 389.2,712.4 389.2,616.3 433.4,616.3  " m2="3200.00" preciototal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="124"></polygon>
+	<polygon data-id="123" class="st2" points="389.1,616.3 389.1,712.4 340.9,712.4 340.9,616.3 385,616.3  " m2="3200.00" preciototal="754464.00" costom2="235.77" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="123"></polygon>
+	<polygon data-id="91"  class="st2" points="388.9,399.6 388.9,495.8 340.7,495.8 340.7,399.6 384.8,399.6  " m2="3200.00" preciototal="1276800.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="91"></polygon>
+	<polygon data-id="75"  class="st2" points="340.7,279.4 340.7,375.7 295.6,375.7 292.7,372.7 292.7,279.4 316.8,279.4    336.6,279.4  " m2="3196.88" preciototal="1054970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="75"></polygon>
+	<polygon data-id="11"  class="st2" points="187.8,421.8 187.8,478.2 85.2,478.2 87.5,421.8 174.2,421.8  " m2="3958.47" preciototal="900000.00" costom2="227.36" largo1="83.45" largo2="85.31" fondo="46.91" frente="46.95" nombre="11"></polygon>
+	<polygon data-id="9"   class="st2" points="187.7,297.9 187.7,354.4 89.9,354.4 92.2,297.9 174,297.9  " m2="3794.20" preciototal="1252086.00" costom2="330.00" largo1="79.33" largo2="81.21" fondo="47.27" frente="47.31" nombre="9"></polygon>
+	<polygon data-id="10"  class="st2" points="268.5,285 268.5,354.4 188,354.4 188,285 263.7,285  " m2="3863.89" preciototal="1275083.70" costom2="330.00" largo1="67.00" largo2="67.00" fondo="57.67" frente="57.67" nombre="10"></polygon>
+	<path 	 data-id="151" class="st2" d="M1115.9,676.3l-54.4-0.1v-43v-16.7l12.3-0.2c0,0,19.8-0.7,26.9-15.8L1115.9,676.3z" m2="2085.23" preciototal="750682.80" costom2="360.00" largo1="63.14" largo2="50.00" fondo="44.98" frente="10.00" nombre="151"></path>
+	<polygon data-id="23"  class="st2" points="389.3,63.2 389.3,159.3 341.1,159.3 341.1,63.2 385.2,63.2  " m2="3200.00" preciototal="2080000.00" costom2="650.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="23"></polygon>
+	<polygon data-id="77"  class="st2" points="437.5,279.5 437.5,375.6 389.3,375.6 389.3,279.5 433.4,279.5  " m2="3200.00" preciototal="1916800.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="77"></polygon>
+	<polygon data-id="78"  class="st2" points="485.1,279.5 485.1,375.6 436.9,375.6 436.9,279.5 481,279.5  " m2="3200.00" preciototal="2236800.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="78"></polygon>
+	<polygon data-id="93"  class="st2" points="479.6,399.6 479.6,495.8 434.7,495.8 434.7,399.6 475.8,399.6  " m2="3020.00" preciototal="2110980.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="93"></polygon>
+	<polygon data-id="92"  class="st2" points="434.6,399.6 434.6,495.9 388.9,496 388.9,399.6 430.3,399.6  " m2="3020.00" preciototal="3016980.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="92"></polygon>
+	<polygon data-id="79"  class="st2" points="533.4,279.5 533.4,375.6 485.2,375.6 485.2,279.5 529.3,279.5  " m2="3200.00" preciototal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="79"></polygon>
+	<polygon data-id="80"  class="st2" points="581.6,279.5 581.6,375.6 533.4,375.6 533.4,279.5 577.5,279.5  " m2="3200.00" preciototal="1596800.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="80"></polygon>
+	<polygon data-id="81"  class="st2" points="629.5,279.5 629.5,375.6 581.3,375.6 581.3,279.5 625.4,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="81"></polygon>
+	<polygon data-id="82"  class="st2" points="677.7,279.5 677.7,375.6 629.4,375.6 629.4,279.5 673.6,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="82"></polygon>
+	<polygon data-id="83"  class="st2" points="725.9,279.5 725.9,375.6 677.7,375.6 677.7,279.5 721.8,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="83"></polygon>
+	<polygon data-id="84"  class="st2" points="773.5,279.5 773.5,375.6 725.3,375.6 725.3,279.5 769.4,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="84"></polygon>
+	<polygon data-id="85"  class="st2" points="822.1,279.5 822.1,375.6 773.9,375.6 773.9,279.5 818,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="85"></polygon>
+	<polygon data-id="86"  class="st2" points="869.7,279.5 869.7,375.6 821.5,375.6 821.5,279.5 865.6,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="86"></polygon>
+	<polygon data-id="87"  class="st2" points="918.3,279.5 918.3,375.6 870.1,375.6 870.1,279.5 914.2,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="87"></polygon>
+	<polygon data-id="88"  class="st2" points="966,279.5 966,375.6 917.7,375.6 917.7,279.5 961.9,279.5  " m2="3200.00" preciototal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="88"></polygon>
+	<polygon data-id="24"  class="st2" points="437.5,62.9 437.5,159 389.3,159 389.3,62.9 433.4,62.9  " m2="3200.00" preciototal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="24"></polygon>
+	<polygon data-id="90"  class="st2" points="340.7,399.6 340.7,495.8 292.7,495.8 292.7,402.6 295.6,399.6 336.6,399.6  " m2="3196.87" preciototal="1054967.10" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="90"></polygon>
+	<polygon data-id="94"  class="st2" points="525.9,399.6 525.9,495.8 479.6,495.8 479.6,399.6 521.8,399.6  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="94"></polygon>
+	<polygon data-id="95"  class="st2" points="572.2,399.8 572.2,495.9 526,495.9 526,399.8 568.1,399.8  " m2="3080.00" preciototal="3076920.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="95"></polygon>
+	<polygon data-id="98"  class="st2" points="711.2,399.8 711.2,495.9 664.9,495.9 664.9,399.8 707.1,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="98"></polygon>
+	<polygon data-id="96"  class="st2" points="618.5,399.7 618.5,495.8 572.3,495.8 572.3,399.7 614.4,399.7  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="96"></polygon>
+	<polygon data-id="97"  class="st2" points="664.9,399.9 664.9,496 618.6,496 618.6,399.9 660.8,399.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="97"></polygon>
+	<polygon data-id="99"  class="st2" points="757.5,399.7 757.5,495.8 711.2,495.8 711.2,399.7 753.4,399.7  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="99"></polygon>
+	<polygon data-id="100" class="st2" points="803.8,399.8 803.8,496 757.5,496 757.5,399.8 799.7,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="100"></polygon>
+	<polygon data-id="103" class="st2" points="942.7,399.8 942.7,496 896.5,496 896.5,399.8 938.6,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="103"></polygon>
+	<polygon data-id="104" class="st2" points="989.1,399.6 989.1,495.8 942.8,495.8 942.8,399.6 985,399.6  " m2="3080.00" preciototal="2152920.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="104"></polygon>
+	<polygon data-id="101" class="st2" points="850.1,399.8 850.1,495.9 803.8,495.9 803.8,399.8 846,399.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="101"></polygon>
+	<polygon data-id="102" class="st2" points="896.4,399.9 896.4,496 850.2,496 850.2,399.9 892.3,399.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="102"></polygon>
+	<polygon data-id="110" class="st2" points="525.9,495.8 525.9,591.9 479.6,591.9 479.6,495.8 521.8,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="110"></polygon>
+	<polygon data-id="111" class="st2" points="572.2,495.9 572.2,592.1 526,592.1 526,495.9 568.1,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="111"></polygon>
+	<polygon data-id="114" class="st2" points="711.2,495.9 711.2,592.1 664.9,592.1 664.9,495.9 707.1,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="114"></polygon>
+	<polygon data-id="112" class="st2" points="618.5,495.9 618.5,592 572.3,592 572.3,495.9 614.4,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="112"></polygon>
+	<polygon data-id="107" class="st2" points="387.6,496 387.6,592.1 340.4,592.1 340.4,496 383.5,496  " m2="3080.00" preciototal="1844920.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="107"></polygon>
+	<polygon data-id="108" class="st2" points="434,496.1 434,592.3 387.7,592.3 387.7,496.1 429.9,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="108"></polygon>
+	<polygon data-id="109" class="st2" points="480.3,496.1 480.3,592.2 434,592.2 434,496.1 476.2,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="109"></polygon>
+	<polygon data-id="113" class="st2" points="664.9,496 664.9,592.1 618.6,592.1 618.6,496 660.8,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="113"></polygon>
+	<polygon data-id="115" class="st2" points="757.5,495.8 757.5,591.9 711.2,591.9 711.2,495.8 753.4,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="115"></polygon>
+	<polygon data-id="116" class="st2" points="803.8,496 803.8,592.1 757.5,592.1 757.5,496 799.7,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="116"></polygon>
+	<polygon data-id="119" class="st2" points="942.7,496 942.7,592.1 896.5,592.1 896.5,496 938.6,496  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="119"></polygon>
+	<polygon data-id="120" class="st2" points="989.1,495.8 989.1,591.9 942.8,591.9 942.8,495.8 985,495.8  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="120"></polygon>
+	<polygon data-id="117" class="st2" points="850.1,495.9 850.1,592 803.8,592 803.8,495.9 846,495.9  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="117"></polygon>
+	<polygon data-id="118" class="st2" points="896.4,496.1 896.4,592.2 850.2,592.2 850.2,496.1 892.3,496.1  " m2="3080.00" preciototal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="118"></polygon>
+	<polygon data-id="106" class="st2" points="340.7,495.7 340.7,592 295.6,592 292.7,589 292.7,495.7 336.6,495.7  " m2="3196.87" preciototal="1914925.13" costom2="599.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="106"></polygon>
+	<path    data-id="122" class="st2" d="M292.5,619.3l3-3.1h45.1v96.1h-48.1v-5.1c0,0,4.7-3.2,4.8-12.4c0-7.9-4.9-8.1-4.8-13.2   C292.7,676.5,292.5,619.3,292.5,619.3z" m2="3142.72" preciototal="804002.05" costom2="255.83" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="122"></path>
+	<polygon data-id="45"  class="st2" points="918.2,158.6 918.2,98.4 995.6,98.4 1008.2,158.6 920.9,158.6  " m2="3488.47" preciototal="1151195.10" costom2="330.00" largo1="50.08" largo2="51.12" fondo="64.45" frente="74.93" nombre="45"></polygon>
+	<polygon data-id="25"  class="st2" points="460.9,62.9 460.9,159.3 436.9,159.3 436.9,62.9 459.6,62.9  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="25"></polygon>
+	<polygon data-id="26"  class="st2" points="485,62.9 485,159.3 461,159.3 461,62.9 483.6,62.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="26"></polygon>
+	<polygon data-id="27"  class="st2" points="509,62.8 509,159.2 485,159.2 485,62.8 507.7,62.8  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="27"></polygon>
+	<polygon data-id="28"  class="st2" points="533.1,62.8 533.1,159.2 509.1,159.2 509.1,62.8 531.7,62.8  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="28"></polygon>
+	<polygon data-id="29"  class="st2" points="557.1,62.8 557.1,159.2 533.1,159.2 533.1,62.8 555.8,62.8  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="29"></polygon>
+	<polygon data-id="30"  class="st2" points="581.2,62.8 581.2,159.2 557.2,159.2 557.2,62.8 579.8,62.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="30"></polygon>
+	<polygon data-id="31"  class="st2" points="605.2,62.7 605.2,159.1 581.2,159.1 581.2,62.7 603.9,62.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="31"></polygon>
+	<polygon data-id="32"  class="st2" points="629.3,62.7 629.3,159.1 605.3,159.1 605.3,62.7 627.9,62.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="32"></polygon>
+	<polygon data-id="33"  class="st2" points="653.5,62.5 653.5,158.9 629.5,158.9 629.5,62.5 652.1,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="33"></polygon>
+	<polygon data-id="34"  class="st2" points="677.6,62.5 677.6,158.9 653.5,158.9 653.5,62.5 676.2,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="34"></polygon>
+	<polygon data-id="35"  class="st2" points="701.6,62.4 701.6,158.8 677.6,158.8 677.6,62.4 700.2,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="35"></polygon>
+	<polygon data-id="36"  class="st2" points="725.7,62.4 725.7,158.8 701.6,158.8 701.6,62.4 724.3,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="36"></polygon>
+	<polygon data-id="37"  class="st2" points="749.7,62.5 749.7,158.9 725.7,158.9 725.7,62.5 748.3,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="37"></polygon>
+	<polygon data-id="38"  class="st2" points="773.8,62.5 773.8,158.9 749.7,158.9 749.7,62.5 772.4,62.5  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="38"></polygon>
+	<polygon data-id="41"  class="st2" points="845.8,62.4 845.8,158.8 821.7,158.8 821.7,62.4 844.4,62.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="41"></polygon>
+	<polygon data-id="42"  class="st2" points="869.8,62.4 869.8,158.8 845.8,158.8 845.8,62.4 868.5,62.4  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="42"></polygon>
+	<polygon data-id="43"  class="st2" points="893.9,62.4 893.9,158.8 869.8,158.8 869.8,62.4 892.5,62.4  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="43"></polygon>
+	<polygon data-id="44"  class="st2" points="917.9,62.4 917.9,158.8 893.9,158.8 893.9,62.4 916.6,62.4  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="44"></polygon>
+	<polygon data-id="39"  class="st2" points="797.8,62.3 797.8,158.7 773.8,158.7 773.8,62.3 796.4,62.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="39"></polygon>
+	<polygon data-id="40"  class="st2" points="821.9,62.3 821.9,158.7 797.8,158.7 797.8,62.3 820.5,62.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="40"></polygon>
+	<polygon data-id="69"  class="st2" points="869.9,183.3 869.9,279.7 845.9,279.7 845.9,183.3 868.6,183.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="69"></polygon>
+	<polygon data-id="70"  class="st2" points="894,183.3 894,279.7 870,279.7 870,183.3 892.6,183.3  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="70"></polygon>
+	<polygon data-id="71"  class="st2" points="918,183.3 918,279.8 894,279.8 894,183.3 916.7,183.3  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="71"></polygon>
+	<polygon data-id="72"  class="st2" points="942.1,183.3 942.1,279.8 918.1,279.8 918.1,183.3 940.7,183.3  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="72"></polygon>
+	<polygon data-id="67"  class="st2" points="822,183.2 822,279.6 797.9,279.6 797.9,183.2 820.6,183.2  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="67"></polygon>
+	<polygon data-id="68"  class="st2" points="846,183.2 846,279.6 822,279.6 822,183.2 844.7,183.2  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="68"></polygon>
+	<polygon data-id="47"  class="st2" points="341.2,183.4 341.2,279.8 317.2,279.8 317.2,183.4 339.9,183.4  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="47"></polygon>
+	<polygon data-id="48"  class="st2" points="365.3,183.4 365.3,279.8 341.3,279.8 341.3,183.4 363.9,183.4  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="48"></polygon>
+	<polygon data-id="49"  class="st2" points="389.3,183.3 389.3,279.7 365.3,279.7 365.3,183.3 388,183.3  " m2="1600.00" preciototal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="49"></polygon>
+	<polygon data-id="50"  class="st2" points="413.4,183.3 413.4,279.7 389.4,279.7 389.4,183.3 412,183.3  " m2="1600.00" preciototal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="50"></polygon>
+	<polygon data-id="51"  class="st2" points="437.4,183.4 437.4,279.8 413.4,279.8 413.4,183.4 436.1,183.4  " m2="1600.00" preciototal="520000.00" costom2="325.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="51"></polygon>
+	<polygon data-id="52"  class="st2" points="461.5,183.4 461.5,279.8 437.5,279.8 437.5,183.4 460.1,183.4  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="52"></polygon>
+	<polygon data-id="53"  class="st2" points="485.5,183.2 485.5,279.6 461.5,279.6 461.5,183.2 484.2,183.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="53"></polygon>
+	<polygon data-id="54"  class="st2" points="509.6,183.2 509.6,279.6 485.6,279.6 485.6,183.2 508.2,183.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="54"></polygon>
+	<polygon data-id="55"  class="st2" points="533.8,183.1 533.8,279.5 509.8,279.5 509.8,183.1 532.4,183.1  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="55"></polygon>
+	<polygon data-id="56"  class="st2" points="557.9,183.1 557.9,279.5 533.8,279.5 533.8,183.1 556.5,183.1  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="56"></polygon>
+	<polygon data-id="57"  class="st2" points="581.9,182.9 581.9,279.3 557.9,279.3 557.9,182.9 580.5,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="57"></polygon>
+	<polygon data-id="58"  class="st2" points="606,182.9 606,279.3 581.9,279.3 581.9,182.9 604.6,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="58"></polygon>
+	<polygon data-id="59"  class="st2" points="630,183 630,279.4 606,279.4 606,183 628.6,183  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="59"></polygon>
+	<polygon data-id="60"  class="st2" points="654.1,183 654.1,279.4 630,279.4 630,183 652.7,183  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="60"></polygon>
+	<polygon data-id="63"  class="st2" points="726.1,182.9 726.1,279.3 702,279.3 702,182.9 724.7,182.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="63"></polygon>
+	<polygon data-id="64"  class="st2" points="750.1,182.9 750.1,279.3 726.1,279.3 726.1,182.9 748.8,182.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="64"></polygon>
+	<polygon data-id="65"  class="st2" points="774.2,183 774.2,279.4 750.1,279.4 750.1,183 772.8,183  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="65"></polygon>
+	<polygon data-id="66"  class="st2" points="798.2,183 798.2,279.4 774.2,279.4 774.2,183 796.9,183  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="66"></polygon>
+	<polygon data-id="61"  class="st2" points="678.1,182.9 678.1,279.3 654.1,279.3 654.1,182.9 676.7,182.9  " m2="1600.00" preciototal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="61"></polygon>
+	<polygon data-id="62"  class="st2" points="702.2,182.9 702.2,279.3 678.1,279.3 678.1,182.9 700.8,182.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="62"></polygon>
+	<polygon data-id="4"   class="st2" points="188,126.8 189,190.2 96.5,190.2 99.3,126.8 174.3,126.8  " m2="3885.80" preciototal="1006888.49" costom2="259.12" largo1="73.72" largo2="75.78" fondo="51.98" frente="52.02" nombre="4"></polygon>
+	<polygon data-id="6"   class="st2" points="188,190.2 188,251 94.2,251 96.5,190.2 174.3,190.2  " m2="3885.80" preciototal="1550434.20" costom2="399.00" largo1="75.78" largo2="77.79" fondo="50.61" frente="50.64" nombre="6"></polygon>
+	<polygon data-id="15"  class="st2" points="188.1,520.7 188.1,568.8 82,568.8 83.8,520.7 182.6,520.7  " m2="3497.58" preciototal="769957.26" costom2="220.14" largo1="86.71" largo2="88.30" fondo="39.97" frente="40.00" nombre="15"></polygon>
+	<polygon data-id="89"  class="st2" points="1008.4,279.4 989.9,279.4 965.8,279.4 965.8,375.7 1026,375.7 1028.1,373.1    1009.6,284.9  " m2="3503.17" preciototal="630570.60" costom2="180.00" largo1="80.00" largo2="75.35" fondo="35.88" frente="50.00" nombre="89"></polygon>
+	<polygon data-id="105" class="st2" points="1034.5,401.9 1054,495.8 989.1,495.8 989.1,399.6 1031.6,399.6  " m2="3658.74" preciototal="1459837.26" costom2="399.00" largo1="80.00" largo2="79.74" fondo="54.13" frente="35.38" nombre="105"></polygon>
+	<polygon data-id="121" class="st2" points="1054.3,495.8 989.3,495.8 989.3,592.1 1071.2,592.1 1073.8,588.8 1055.7,502.7     " m2="4996.92" preciototal="1993771.08" costom2="399.00" largo1="80.00" largo2="78.99" fondo="54.13" frente="68.14" nombre="121"></polygon>
+	<polygon data-id="146" class="st2" points="965.5,616.2 965.5,712.3 942,712.3 942,616.2 962.8,616.2  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="146"></polygon>
+	<polygon data-id="142" class="st2" points="869.8,616 869.8,712.4 845.8,712.4 845.8,616 868.5,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="142"></polygon>
+	<polygon data-id="143" class="st2" points="893.9,616 893.9,712.4 869.9,712.4 869.9,616 892.5,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="143"></polygon>
+	<polygon data-id="144" class="st2" points="917.9,616 917.9,712.5 893.9,712.5 893.9,616 916.6,616  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="144"></polygon>
+	<polygon data-id="145" class="st2" points="942,616 942,712.5 918,712.5 918,616 940.6,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="145"></polygon>
+	<polygon data-id="140" class="st2" points="821.9,615.9 821.9,712.3 797.8,712.3 797.8,615.9 820.5,615.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="140"></polygon>
+	<polygon data-id="141" class="st2" points="845.9,615.9 845.9,712.3 821.9,712.3 821.9,615.9 844.6,615.9  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="141"></polygon>
+	<polygon data-id="125" class="st2" points="461.4,616.1 461.4,712.5 437.4,712.5 437.4,616.1 460,616.1  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="125"></polygon>
+	<polygon data-id="126" class="st2" points="485.4,615.9 485.4,712.3 461.4,712.3 461.4,615.9 484.1,615.9  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="126"></polygon>
+	<polygon data-id="127" class="st2" points="509.5,615.9 509.5,712.3 485.5,712.3 485.5,615.9 508.1,615.9  " m2="1600.00" preciototal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="127"></polygon>
+	<polygon data-id="128" class="st2" points="533.7,615.8 533.7,712.2 509.7,712.2 509.7,615.8 532.3,615.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="128"></polygon>
+	<polygon data-id="129" class="st2" points="557.8,615.8 557.8,712.2 533.7,712.2 533.7,615.8 556.4,615.8  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="129"></polygon>
+	<polygon data-id="130" class="st2" points="581.8,615.6 581.8,712 557.8,712 557.8,615.6 580.4,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="130"></polygon>
+	<polygon data-id="131" class="st2" points="605.9,615.6 605.9,712 581.8,712 581.8,615.6 604.5,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="131"></polygon>
+	<polygon data-id="132" class="st2" points="629.9,615.7 629.9,712.1 605.9,712.1 605.9,615.7 628.5,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="132"></polygon>
+	<polygon data-id="133" class="st2" points="654,615.7 654,712.1 629.9,712.1 629.9,615.7 652.6,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="133"></polygon>
+	<polygon data-id="136" class="st2" points="726,615.6 726,712 701.9,712 701.9,615.6 724.6,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="136"></polygon>
+	<polygon data-id="137" class="st2" points="750,615.6 750,712 726,712 726,615.6 748.7,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="137"></polygon>
+	<polygon data-id="138" class="st2" points="774.1,615.7 774.1,712.1 750,712.1 750,615.7 772.7,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="138"></polygon>
+	<polygon data-id="139" class="st2" points="798.1,615.7 798.1,712.1 774.1,712.1 774.1,615.7 796.8,615.7  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="139"></polygon>
+	<polygon data-id="134" class="st2" points="678,615.6 678,712 654,712 654,615.6 676.6,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="134"></polygon>
+	<polygon data-id="135" class="st2" points="702.1,615.6 702.1,712 678,712 678,615.6 700.7,615.6  " m2="1600.00" preciototal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="135"></polygon>
+	<polygon data-id="150" class="st2" points="1061,616.2 1061,712.3 1037.5,712.3 1037.5,616.2 1058.3,616.2  " m2="1600.00" preciototal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="150"></polygon>
+	<polygon data-id="147" class="st2" points="989.4,616 989.4,712.4 965.4,712.4 965.4,616 988,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="147"></polygon>
+	<polygon data-id="148" class="st2" points="1013.4,616 1013.4,712.5 989.4,712.5 989.4,616 1012.1,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="148"></polygon>
+	<polygon data-id="149" class="st2" points="1037.5,616 1037.5,712.5 1013.5,712.5 1013.5,616 1036.1,616  " m2="1600.00" preciototal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="149"></polygon>
+</g>
+</svg>
