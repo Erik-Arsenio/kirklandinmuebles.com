@@ -148,6 +148,10 @@ return [
 	'header_18' => 'Ubicada en lo mejor del Norte de Mérida, la zona con mayor crecimiento en la Ciudad.',
 	'header_19' => 'Galiana.',
 	
+	// Header text in Nodo
+	'header_20' => 'Lotes industriales en Yucatán',
+	'header_21' => 'Ubicado en el nuevo corredor industrial Mérida-Hunucmá.',
+
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
 	'carousel_2' => '7 Privadas residenciales',
@@ -197,10 +201,11 @@ return [
 	'carousel_37' => 'Ubicacion Privilegiada, a espaldas de Plaza la Isla',
 	'carousel_38' => 'Contará con 4 clousters con parque',
 	'carousel_39' => 'Casa Club de Galiana',
-	'carousel_40' => '',
-	'carousel_41' => '',
-	'carousel_42' => '',
-	'carousel_43' => '',
+	'carousel_40' => 'Ubicacion Estratégica',
+	'carousel_41' => 'Vista aérea de almacenes',
+	'carousel_42' => 'Interior de almacenes',
+	'carousel_43' => 'Puente al Muelle de Progreso',
+	'carousel_44' => 'Vista interior de un almacen',
 
 
 	'click_zoom' => 'Click para zoom',
@@ -230,7 +235,6 @@ return [
 	
 	// text in Marela Life
 	'location_18' => '¿Por qué comprar un lote residencial en MARELA LIFE?',
-	
 	
 	// text in Wayuum
 	'location_19'  => '¿Por qué comprar un lote residencial en Wayúum?',
@@ -277,6 +281,23 @@ return [
 	'location_49'  => 'Una oportunidad única para desarrollar en un espacio privado, exclusivo y con una ubicación envidiable, a minutos de hermosas playas y en lo mejor del Norte de Mérida, una zona que garantiza el alto crecimiento de tu inversión.',
 	'location_50'  => 'Distribución estratégica que permite a todos los habitantes de la Privada Residencial disfrutar de un vista y ubicación preferencial, viendo siempre a espacios verdes o amenidades.',
 	'location_51'  => 'Con 141 lotes residenciales, 4 clusters con parque, Casa Club, parques y amenidades.',
+	
+	// text in Nodo
+	'location_52'  => '¿Por qué comprar un lote industrial en Parque Nodo?',
+	'location_53'  => 'Conformado por 151 lotes de oportunidades y crecimiento, el Parque Industrial NODO representa el sitio idóneo para alojar tu bodega, punto de venta, oficina, estudio o taller.',
+	'location_54'  => 'Una oportunidad única para desarrollar en un espacio privado, exclusivo y con una ubicación envidiable, a minutos de hermosas playas y en lo mejor del Norte de Mérida, una zona que garantiza el alto crecimiento de tu inversión.',
+	'location_57'  => 'Ubicado en el <b>área de desarrollo yucateco con mayor potencial de crecimiento</b>, NODO se encuentra a escasos 10 minutos del periférico poniente de Mérida.',
+	'location_58'  => 'Esta ubicación permite un fácil acceso a una importante red de vías de comunicación, brindando la <b>posibilidad para establecer conexiones efectivas con otros puntos estratégicos del estado, del país y de todo el mundo</b>.',
+	'location_59'  => 'Además, la zona se encuentra en una constante expansión y desarrollo, lo que asegura un <b>futuro que es prometedor para cualquier negocio o inversión</b> que se establezca en esta región.',
+	'location_60'  => 'Por ese motivo, un considerable número de industrias optan por realizar inversiones en esta región.',
+	'location_61'  => 'Estratégica',
+	'location_62'  => 'Cada año llega un promedio de 150mil contenedores al Puerto de Altura de Progreso',
+	'location_63'  => 'Yucatán posee una infraestructura moderna y bien desarrollada que <b>proporciona a las empresas una base sólida para operar de manera eficiente</b> y satisfacer sus necesidades logísticas.',
+	'location_64'  => 'La ubicación <b>estratégica de NODO Park</b>, cercana a importantes vías de comunicación marítima, terrestre y aérea, lo convierten en un punto estratégico para concebir negocios comerciales.',
+	'location_65'  => 'Cerca de NODO se localiza el Puerto de Altura de Progreso, el cual <b>provee infraestructura y servicios necesarios para las operaciones comerciales</b>.',
+	'location_66'  => 'El puerto cuenta con muelles para el atraque de embarcaciones de diferentes tamaños y dispone de instalaciones para realizar la carga, descarga y almacenamiento de mercancías.',
+	'location_67'  => 'Su infraestructura se diseñó de manera específica para <b>satisfacer las necesidades de las empresas</b>, lo que incluye servicios como energía eléctrica, calles y accesos adecuados, sistema de drenaje, entre otros.',
+	'location_68'  => 'Su accesibilidad al desarrollo y ubicación privilegiada es un generador de conexiones de negocios, la cual lo vuelve una <b>zona estratégica de alta productividad</b> y de excelentes perspectivas de negocios.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -440,6 +461,12 @@ return [
 	'characteristic_137'  => '2 Canchas de Fútbol',
 	'characteristic_138'  => '2 Pet Parks',
 	'characteristic_139'  => 'Casa Club con barra de servicios',
+	
+	// characteristic text in Nodo
+	'characteristic_140'  => 'Alumbrado público',
+	'characteristic_141'  => 'Corriente eléctrica de media tensión a pie de lote',
+	'characteristic_142'  => 'Calles internas con carpeta asfáltica',
+	'characteristic_143'  => 'Avenida de acceso hacia NODO (25m de ancho) pavimentada e iluminada',
 
 
 	// text in Lakuun
@@ -650,8 +677,10 @@ return [
 	'property_list_14'  => 'Lotes Etapa-2',
 	'property_list_15'  => 'Lotes Etapa-3',
 
+	// property_list text in Nodo
+	'property_list_16'  => 'Disponiblidad de lotes industriales.',
+
 	'image'  => 'imagen',
-	
 	'total_lots'  => 'Total de lotes',
 	'available'  => 'Disponible',
 	'delivered'  => 'Fecha de entrega',
@@ -665,10 +694,6 @@ return [
 	'for_information' => 'Para más información,',
 	'hover_mouse' => 'pase el mouse',
 	'over_lot' => 'sobre el lote',
-
-
-
-	
 	'lot_price' => 'Precio de Lotes',
 	'type_lot' => 'Lote tipo',
 
@@ -699,10 +724,6 @@ return [
 	'club_house_corner_lot' => 'Lote esquina casa club',
 
 	'december' => 'Diciembre',
-
-
-
-
 
 	'contact_1'  => 'Asesora Inmobiliaria',
 	'contact_2'  => 'Este es el momento para invertir!',

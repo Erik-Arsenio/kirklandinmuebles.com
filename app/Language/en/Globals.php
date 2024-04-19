@@ -141,12 +141,16 @@ return [
 
 	// Header text in Costa Flamingo
 	'header_15' => 'Residential lots on the beach',
-	'header_16' => 'Unique land with access to a beach club without a condominium regime in the magical town of Sisal.',
+	'header_16' => 'Unique properties with access to a beach club without a condominium regime in the magical town of Sisal.',
 	
-	// Header text in Costa Galiana
+	// Header text in Galiana
 	'header_17' => 'Private First Level Residential',
 	'header_18' => 'Located in the best of North Mérida, the area with the greatest growth in the City.',
 	'header_19' => 'Galiana.',
+
+	// Header text in Nodo
+	'header_20' => 'Industrial lots in Yucatán',
+	'header_21' => 'Located in the new Mérida-Hunucmá industrial corridor.',
 
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
@@ -197,10 +201,12 @@ return [
 	'carousel_37' => 'Privileged Location, behind Plaza la Isla',
 	'carousel_38' => 'It will have 4 clousters with a park',
 	'carousel_39' => 'Galiana Club House',
-	'carousel_40' => '',
-	'carousel_41' => '',
-	'carousel_42' => '',
-	'carousel_43' => '',
+	'carousel_40' => 'Strategic location',
+	'carousel_41' => 'Aerial view of warehouses',
+	'carousel_42' => 'Warehouse interior',
+	'carousel_43' => 'Bridge to the Progreso Pier',
+	'carousel_44' => 'Interior view of a warehouse',
+
 
 		'click_zoom' => 'Click to zoom',
 
@@ -229,7 +235,6 @@ return [
 
 	// text in Marela Life
 	'location_18' => 'Why buy a residential lot in MARELA LIFE?',
-
 
 	// text in Wayuum
 	'location_19'  => 'Why buy a residential lot in Wayuum?',
@@ -277,13 +282,30 @@ return [
 	'location_50'  => 'Strategic distribution that allows all inhabitants of the Private Residential to enjoy a preferential view and location, always seeing green spaces or amenities.',
 	'location_51'  => 'With 141 residential lots, 4 clusters with park, Club House, parks and amenities.',
 
+	// text in Nodo
+	'location_52'  => 'Why buy an industrial lot in Parque Nodo?',
+	'location_53'  => 'Made up of 151 lots of opportunities and growth, the NODO Industrial Park represents the ideal place to house your warehouse, point of sale, office, studio or workshop.',
+	'location_54'  => 'A unique opportunity to develop in a private, exclusive space with an enviable location, minutes from beautiful beaches and in the best of North Mérida, an area that guarantees high growth of your investment.',
+	'location_57'  => 'Located in the <b>Yucatean development area with the greatest growth potential</b>, NODO is located just 10 minutes from the western outskirts of Mérida.',
+	'location_58'  => 'This location allows easy access to an important network of communication routes, providing the <b>possibility to establish effective connections with other strategic points in the state, the country and around the world</b>.',
+	'location_59'  => 'Furthermore, the area is in constant expansion and development, which ensures a <b>future that is promising for any business or investment</b> that is established in this region.',
+	'location_60'  => 'For this reason, a considerable number of industries choose to make investments in this region.',
+	'location_61'  => 'Strategic',
+	'location_62'  => 'Every year an average of 150 thousand containers arrive at the Port of Progreso',
+	'location_63'  => 'Yucatán has a modern and well-developed infrastructure that <b>provides companies with a solid foundation to operate efficiently</b> and satisfy their logistics needs.',
+	'location_64'  => 'The <b>strategic location of NODO Park</b>, close to important maritime, land and air communication routes, make it a strategic point to conceive commercial businesses.',
+	'location_65'  => 'Near NODO is the Progreso Altura Port, which <b>provides infrastructure and services necessary for commercial operations</b>.',
+	'location_66'  => 'The port has docks for docking vessels of different sizes and has facilities for loading, unloading and storing goods.',
+	'location_67'  => 'Its infrastructure was specifically designed to <b>satisfy the needs of companies</b>, which includes services such as electricity, adequate streets and accesses, drainage system, among others.',
+	'location_68'  => 'Its accessibility to development and privileged location is a generator of business connections, which makes it a <b>strategic area of high productivity</b> and excellent business prospects.',
+
 	// characteristic text in Lakuun
-	'characteristic'  => 'Características',
-	'characteristic_1'  => 'Barda perimetral',
-	'characteristic_2'  => 'Caseta de vigilancia',
-	'characteristic_3'  => 'Entrada distintiva',
-	'characteristic_4'  => 'Canchas',
-	'characteristic_5'  => 'Ciclovía',
+	'characteristic'  => 'Characteristics',
+	'characteristic_1'  => 'Perimeter fence',
+	'characteristic_2'  => 'Guardhouse',
+	'characteristic_3'  => 'Distinctive entranceway',
+	'characteristic_4'  => 'Courts',
+	'characteristic_5'  => 'Bikeway',
 	'characteristic_6'  => 'Reading area',
 	'characteristic_7'  => 'Picnic area',
 	'characteristic_8'  => 'Jogging track',
@@ -419,13 +441,12 @@ return [
 	'characteristic_122'  => 'Roof top',
 	'characteristic_123'  => 'Service',
 
-
 	// Constructions characteristic text in Costa Flamingo
 	'characteristic_124'  => 'Example of what you can build',
-	'characteristic_125'  => 'We give you the architectural project of a villa to build on your lot',
-	'characteristic_126'  => 'Sandy central street',
-	'characteristic_127'  => 'They will be delivered with an electrical connection at the foot of each lot',
-	'characteristic_128'  => 'Support and legal certainty with immediate deed',
+	'characteristic_125'  => 'We give you free of charge an architectural project of a villa to build on your lot',
+	'characteristic_126'  => 'Central street of sand',
+	'characteristic_127'  => 'An electrical connection at the foot of each lot is included.',
+	'characteristic_128'  => 'Immediate title transfer and lot deed.',
 	'characteristic_129'  => 'Features an exclusive Beach Club lifetime membership included',
 	
 	
@@ -440,6 +461,12 @@ return [
 	'characteristic_137'  => '2 Soccer Fields',
 	'characteristic_138'  => '2 Pet Parks',
 	'characteristic_139'  => 'Clubhouse with service bar',
+
+	// characteristic text in Nodo
+	'characteristic_140'  => 'Street lighting',
+	'characteristic_141'  => 'Medium voltage electric current at the foot of the lot',
+	'characteristic_142'  => 'Internal streets with asphalt surface',
+	'characteristic_143'  => 'Access avenue to NODO (25m wide) paved and illuminated',
 
 
 	// Club House text in Lakuun
@@ -650,8 +677,10 @@ return [
 	'property_list_14'  => 'Lots Stage-2',
 	'property_list_15'  => 'Lots Stage-3',
 
+	// property_list text in Nodo
+	'property_list_16'  => 'Availability of industrial lots.',
+	
 	'image'  => 'image',
-	'stage'  => 'Stage',
 	'total_lots'  => 'Total lots',
 	'available'  => 'Available',
 	'delivered'  => 'Delivered',
@@ -665,10 +694,6 @@ return [
 	'for_information' => 'For more information,',
 	'hover_mouse' => 'hover your mouse',
 	'over_lot' => 'over the lot.',
-
-
-
-	
 	'lot_price' => 'Lot price',
 	'type_lot' => 'Type lot',
 
@@ -699,10 +724,6 @@ return [
 	'club_house_corner_lot' => 'Club House corner lot',
 
 	'december' => 'December',
-
-
-
-
 
 	'contact_1'  => 'Real Estate Advisor',
 	'contact_2'  => 'This is the time to invest!',
@@ -743,6 +764,4 @@ return [
 	'send_success' => 'Email send successfully',
 	'send_failed' => 'Failed email send ',
 	'send_canceled' => 'Shipping canceled due to inappropriate',
-
-
 ];
