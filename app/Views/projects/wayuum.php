@@ -3668,42 +3668,42 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$2,100</td>
-                                                                        <td class="h5 available-title text-center">$2,163</td>
-                                                                        <td class="h5 available-title text-center">$2,226</td>
-                                                                        <td class="h5 available-title text-center">$2,289</td>
-                                                                        <td class="h5 available-title text-center">$2,352</td>
-                                                                        <td class="h5 available-title text-center">$2,394</td>
-                                                                        <td class="h5 available-title text-center">$2,457</td>
-                                                                        <td class="h5 available-title text-center">$2,919</td>
-                                                                        <td class="h5 available-title text-center">$3,297</td>
-                                                                        <td class="h5 available-title text-center">$3,549</td>
+                                                                        <td class="h5 available-title text-center">$2,215</td>
+                                                                        <td class="h5 available-title text-center">$2,281</td>
+                                                                        <td class="h5 available-title text-center">$2,370</td>
+                                                                        <td class="h5 available-title text-center">$2,481</td>
+                                                                        <td class="h5 available-title text-center">$2,592</td>
+                                                                        <td class="h5 available-title text-center">$2,680</td>
+                                                                        <td class="h5 available-title text-center">$2,747</td>
+                                                                        <td class="h5 available-title text-center">$3,234</td>
+                                                                        <td class="h5 available-title text-center">$3,633</td>
+                                                                        <td class="h5 available-title text-center">$3,898</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$2,050</td>
-                                                                        <td class="h5 available-title text-center">$2,112</td>
-                                                                        <td class="h5 available-title text-center">$2,173</td>
-                                                                        <td class="h5 available-title text-center">$2,235</td>
-                                                                        <td class="h5 available-title text-center">$2,296</td>
-                                                                        <td class="h5 available-title text-center">$2,337</td>
-                                                                        <td class="h5 available-title text-center">$2,399</td>
-                                                                        <td class="h5 available-title text-center">$2,850</td>
-                                                                        <td class="h5 available-title text-center">$3,219</td>
-                                                                        <td class="h5 available-title text-center">$3,465</td>
+                                                                        <td class="h5 available-title text-center">$2,115</td>
+                                                                        <td class="h5 available-title text-center">$2,178</td>
+                                                                        <td class="h5 available-title text-center">$2,263</td>
+                                                                        <td class="h5 available-title text-center">$2,369</td>
+                                                                        <td class="h5 available-title text-center">$2,475</td>
+                                                                        <td class="h5 available-title text-center">$2,559</td>
+                                                                        <td class="h5 available-title text-center">$2,623</td>
+                                                                        <td class="h5 available-title text-center">$3,088</td>
+                                                                        <td class="h5 available-title text-center">$3,469</td>
+                                                                        <td class="h5 available-title text-center">$3,722</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$1,950</td>
-                                                                        <td class="h5 available-title text-center">$2,009</td>
-                                                                        <td class="h5 available-title text-center">$2,067</td>
-                                                                        <td class="h5 available-title text-center">$2,126</td>
-                                                                        <td class="h5 available-title text-center">$2,184</td>
-                                                                        <td class="h5 available-title text-center">$2,223</td>
-                                                                        <td class="h5 available-title text-center">$2,282</td>
-                                                                        <td class="h5 available-title text-center">$2,711</td>
-                                                                        <td class="h5 available-title text-center">$3,062</td>
-                                                                        <td class="h5 available-title text-center">$3,296</td>
+                                                                        <td class="h5 available-title text-center">$2,065</td>
+                                                                        <td class="h5 available-title text-center">$2,148</td>
+                                                                        <td class="h5 available-title text-center">$2,251</td>
+                                                                        <td class="h5 available-title text-center">$2,354</td>
+                                                                        <td class="h5 available-title text-center">$2,457</td>
+                                                                        <td class="h5 available-title text-center">$2,519</td>
+                                                                        <td class="h5 available-title text-center">$2,581</td>
+                                                                        <td class="h5 available-title text-center">$2,953</td>
+                                                                        <td class="h5 available-title text-center">$3,263</td>
+                                                                        <td class="h5 available-title text-center">$3,469</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -3743,42 +3743,42 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$525,000</td>
-                                                                        <td class="h5 available-title text-center">$540,750</td>
-                                                                        <td class="h5 available-title text-center">$556,500</td>
-                                                                        <td class="h5 available-title text-center">$572,250</td>
-                                                                        <td class="h5 available-title text-center">$588,000</td>
-                                                                        <td class="h5 available-title text-center">$598,500</td>
-                                                                        <td class="h5 available-title text-center">$614,250</td>
-                                                                        <td class="h5 available-title text-center">$729,750</td>
-                                                                        <td class="h5 available-title text-center">$824,250</td>
-                                                                        <td class="h5 available-title text-center">$887,250</td>
+                                                                        <td class="h5 available-title text-center">$553,750</td>
+                                                                        <td class="h5 available-title text-center">$570,363</td>
+                                                                        <td class="h5 available-title text-center">$592,513</td>
+                                                                        <td class="h5 available-title text-center">$620,200</td>
+                                                                        <td class="h5 available-title text-center">$647,888</td>
+                                                                        <td class="h5 available-title text-center">$670,038</td>
+                                                                        <td class="h5 available-title text-center">$686,650</td>
+                                                                        <td class="h5 available-title text-center">$808,475</td>
+                                                                        <td class="h5 available-title text-center">$908,150</td>
+                                                                        <td class="h5 available-title text-center">$974,600</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$410,000</td>
-                                                                        <td class="h5 available-title text-center">$422,300</td>
-                                                                        <td class="h5 available-title text-center">$434,600</td>
-                                                                        <td class="h5 available-title text-center">$446,900</td>
-                                                                        <td class="h5 available-title text-center">$459,200</td>
-                                                                        <td class="h5 available-title text-center">$467,400</td>
-                                                                        <td class="h5 available-title text-center">$479,700</td>
-                                                                        <td class="h5 available-title text-center">$569,900</td>
-                                                                        <td class="h5 available-title text-center">$643,700</td>
-                                                                        <td class="h5 available-title text-center">$692,900</td>
+                                                                        <td class="h5 available-title text-center">$423,000</td>
+                                                                        <td class="h5 available-title text-center">$435,690</td>
+                                                                        <td class="h5 available-title text-center">$452,610</td>
+                                                                        <td class="h5 available-title text-center">$473,760</td>
+                                                                        <td class="h5 available-title text-center">$494,910</td>
+                                                                        <td class="h5 available-title text-center">$511,830</td>
+                                                                        <td class="h5 available-title text-center">$524,520</td>
+                                                                        <td class="h5 available-title text-center">$617,580</td>
+                                                                        <td class="h5 available-title text-center">$693,720</td>
+                                                                        <td class="h5 available-title text-center">$744,480</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
-                                                                        <td class="h5 available-title text-center">$312,000</td>
-                                                                        <td class="h5 available-title text-center">$321,360</td>
-                                                                        <td class="h5 available-title text-center">$330,720</td>
-                                                                        <td class="h5 available-title text-center">$340,080</td>
-                                                                        <td class="h5 available-title text-center">$349,440</td>
-                                                                        <td class="h5 available-title text-center">$355,680</td>
-                                                                        <td class="h5 available-title text-center">$365,040</td>
-                                                                        <td class="h5 available-title text-center">$433,680</td>
-                                                                        <td class="h5 available-title text-center">$489,840</td>
-                                                                        <td class="h5 available-title text-center">$527,280</td>
+                                                                        <td class="h5 available-title text-center">$330,400</td>
+                                                                        <td class="h5 available-title text-center">$343,616</td>
+                                                                        <td class="h5 available-title text-center">$360,136</td>
+                                                                        <td class="h5 available-title text-center">$376,656</td>
+                                                                        <td class="h5 available-title text-center">$393,176</td>
+                                                                        <td class="h5 available-title text-center">$403,088</td>
+                                                                        <td class="h5 available-title text-center">$413,000</td>
+                                                                        <td class="h5 available-title text-center">$472,472</td>
+                                                                        <td class="h5 available-title text-center">$522,032</td>
+                                                                        <td class="h5 available-title text-center">$555,072</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
