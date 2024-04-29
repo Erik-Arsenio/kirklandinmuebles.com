@@ -175,8 +175,8 @@
             <polygon id="" class="st0 available" points="155,482,154,444,62,444,62,483"/><br />
         </a><a class="batch" id="12528_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12528 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  295 -  <span>358.67m&sup2;</span></p></div>" ><br />
             <polygon id="" class="st0 available" points="154,518,63,532,64,484,154,484,154,498"/><br />
-        </a><a class="batch" id="12529_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12529 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  296 -  <span>434.12m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 sold" points="62,599,154,555,154,521,64,534"/><br />
+        </a><a class="batch" id="12529_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12529 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  296 -  <span>434.12m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="62,599,154,555,154,521,64,534"/><br />
         </a><a class="batch" id="12530_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12530 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  297 -  <span>588.17m&sup2;</span></p></div>" ><br />
             <polygon id="" class="st0 available" points="154,558,153,584,156,591,62,701,63,600"/><br />
         </a><a class="batch" id="12531_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12531 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  298 -  <span>299.25m&sup2;</span></p></div>"><br />
@@ -243,10 +243,10 @@
             <polygon id="" class="st0 sold" points="845,466,845,442,926,442,926,465"/><br />
         </a><a class="batch" id="12562_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12562 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  329 -  <span>258.56m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="845,439,845,405,918,405,926,414,926,438"/><br />
-        </a><a class="batch" id="12563_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12563 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  330 -  <span>592.60m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="64,702,158,593,163,600,169,604,178,605,186,605,158,695"/><br />
-        </a><a class="batch" id="12564_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12564 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  331 -  <span>346.08m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="161,695,189,604,220,605,210,692"/><br />
+        </a><a class="batch" id="12563_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12563 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  330 -  <span>592.60m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="64,702,158,593,163,600,169,604,178,605,186,605,158,695"/><br />
+        </a><a class="batch" id="12564_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12564 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  331 -  <span>346.08m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="161,695,189,604,220,605,210,692"/><br />
         </a><a class="batch" id="12565_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12565 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  332 -  <span>292.30m&sup2;</span></p></div>" ><br />
             <polygon id="" class="st0 available" points="252,605,222,605,212,692,253,688,253,654"/><br />
         </a><a class="batch" id="12566_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12566 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  333 -  <span>251.67m&sup2;</span></p></div>"><br />
@@ -287,8 +287,8 @@
             <polygon id="" class="st0 sold" points="825,712,854,712,854,624,825,624"/><br />
         </a><a class="batch" id="12584_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12584 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  351 -  <span>252.13m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 sold" points="886,714,857,713,858,624,888,625"/><br />
-        </a><a class="batch" id="12585_R5pUitYnIRP141__2__1" data-remote="javascript:;"  data-lot=12585 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  352 -  <span>358.91m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="888,713,890,625,922,626,941,715"/><br />
+        </a><a class="batch" id="12585_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12585 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  352 -  <span>358.91m&sup2;</span></p></div>" ><br />
+            <polygon id="" class="st0 available" points="888,713,890,625,922,626,941,715"/><br />
         </a><a class="batch" id="12586_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12586 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  353 -  <span>564.27m&sup2;</span></p></div>" ><br />
             <polygon id="" class="st0 available" points="1053,720,954,627,925,628,943,716"/><br />
         </a><a class="batch" id="12587_R5pUitYnIRP141__2__1" data-remote=""  data-lot=12587 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  354 -  <span>536.12m&sup2;</span></p></div>" ><br />
