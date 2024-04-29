@@ -3238,7 +3238,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$2,050</td>
                                                                         <td class="h5 available-title text-center">$2,112</td>
                                                                         <td class="h5 available-title text-center">$2,173</td>
@@ -3251,7 +3251,7 @@
                                                                         <td class="h5 available-title text-center">$3,465</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$2,000</td>
                                                                         <td class="h5 available-title text-center">$2,060</td>
                                                                         <td class="h5 available-title text-center">$2,120</td>
@@ -3313,7 +3313,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$512,500</td>
                                                                         <td class="h5 available-title text-center">$527,875</td>
                                                                         <td class="h5 available-title text-center">$543,250</td>
@@ -3326,7 +3326,7 @@
                                                                         <td class="h5 available-title text-center">$866,125</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$400,000</td>
                                                                         <td class="h5 available-title text-center">$412,000</td>
                                                                         <td class="h5 available-title text-center">$424,000</td>
@@ -3454,7 +3454,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$2,100</td>
                                                                         <td class="h5 available-title text-center">$2,163</td>
                                                                         <td class="h5 available-title text-center">$2,226</td>
@@ -3467,7 +3467,7 @@
                                                                         <td class="h5 available-title text-center">$3,549</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$2,050</td>
                                                                         <td class="h5 available-title text-center">$2,112</td>
                                                                         <td class="h5 available-title text-center">$2,173</td>
@@ -3529,7 +3529,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.premiun_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$525,000</td>
                                                                         <td class="h5 available-title text-center">$540,750</td>
                                                                         <td class="h5 available-title text-center">$556,500</td>
@@ -3542,7 +3542,7 @@
                                                                         <td class="h5 available-title text-center">$887,250</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="h5 available-title text-left"><?= lang('Globals.plus_lot') ?></td>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
                                                                         <td class="h5 available-title text-center">$410,000</td>
                                                                         <td class="h5 available-title text-center">$422,300</td>
                                                                         <td class="h5 available-title text-center">$434,600</td>
@@ -3603,7 +3603,220 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item border border-success my-4">
+                    <div class="accordion-item border border-success my-4 map_area" id="header4">
+                        <h2 class="accordion-header border-bottom border-success" id="heading-4">
+                            <button class="accordion-button px-4 <?php if ($projectStage == 4) {
+                                                                        echo "";
+                                                                    } else {
+                                                                        echo "collapsed";
+                                                                    } ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" title="Click para ver detalles y mapa">
+                                <div class="container table-responsive-md">
+                                    <table class="table table-sm table-borderless caption-top">
+                                        <caption class="h1 fw-bold text-center text-success text-nowrap">Privada Weech <?= lang('Globals.stage') ?>-1</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.total_lots') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.available') ?></th>
+                                                <th scope="col" class="h5 available-title text-center"><?= lang('Globals.delivered') ?></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="display-4 fw-bold text-center">269</td>
+                                                <td class="display-4 fw-bold text-center" id="available-4"><span class="mdi mdi-vanish mdi-spin text-success-emphasis"></span></td>
+                                                <td class="display-4 fw-bold text-center">2028</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse <?php if ($projectStage == 4) {
+                                                                                        echo "show";
+                                                                                    } else {
+                                                                                        echo "";
+                                                                                    } ?>" aria-labelledby="heading-4">
+                            <div class="accordion-body">
+                                <!-- Price Start -->
+                                <div class="container-xxl py-1 px-0">
+                                    <div class="row row-cols-1 row-cols-lg-1">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                            <div class="card border-3 h-100 shadow px-0">
+                                                <div class="card-header text-center">
+                                                    <h4 class="fw-bold text-uppercase text-success mb-0 price-header"><?= lang('Globals.lot_price') ?></h4>
+                                                </div>
+                                                <div class="card-body pb-0">
+                                                    <div class="row d-flex justify-content-center ">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,100</td>
+                                                                        <td class="h5 available-title text-center">$2,163</td>
+                                                                        <td class="h5 available-title text-center">$2,226</td>
+                                                                        <td class="h5 available-title text-center">$2,289</td>
+                                                                        <td class="h5 available-title text-center">$2,352</td>
+                                                                        <td class="h5 available-title text-center">$2,394</td>
+                                                                        <td class="h5 available-title text-center">$2,457</td>
+                                                                        <td class="h5 available-title text-center">$2,919</td>
+                                                                        <td class="h5 available-title text-center">$3,297</td>
+                                                                        <td class="h5 available-title text-center">$3,549</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$2,050</td>
+                                                                        <td class="h5 available-title text-center">$2,112</td>
+                                                                        <td class="h5 available-title text-center">$2,173</td>
+                                                                        <td class="h5 available-title text-center">$2,235</td>
+                                                                        <td class="h5 available-title text-center">$2,296</td>
+                                                                        <td class="h5 available-title text-center">$2,337</td>
+                                                                        <td class="h5 available-title text-center">$2,399</td>
+                                                                        <td class="h5 available-title text-center">$2,850</td>
+                                                                        <td class="h5 available-title text-center">$3,219</td>
+                                                                        <td class="h5 available-title text-center">$3,465</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$1,950</td>
+                                                                        <td class="h5 available-title text-center">$2,009</td>
+                                                                        <td class="h5 available-title text-center">$2,067</td>
+                                                                        <td class="h5 available-title text-center">$2,126</td>
+                                                                        <td class="h5 available-title text-center">$2,184</td>
+                                                                        <td class="h5 available-title text-center">$2,223</td>
+                                                                        <td class="h5 available-title text-center">$2,282</td>
+                                                                        <td class="h5 available-title text-center">$2,711</td>
+                                                                        <td class="h5 available-title text-center">$3,062</td>
+                                                                        <td class="h5 available-title text-center">$3,296</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-xxl py-1 px-0">
+                                    <div class="row row-cols-1 row-cols-lg-1">
+                                        <div class="col wow fadeInUp mx-0 px-0" data-wow-delay="0.1s">
+                                            <div class="card border-3 h-100 shadow px-0">
+                                                <div class="card-header text-center">
+                                                    <h4 class="fw-bold text-success mb-0 price-header"><?= lang('Globals.total_value_per_land') ?></h4>
+                                                </div>
+                                                <div class="card-body pb-0">
+                                                    <div class="row d-flex justify-content-center ">
+                                                        <div class="col-12 table-responsive">
+                                                            <table class="table table-sm table-bordered text-nowrap border-2 text-left">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col" class="h5 available-title text-center"><?= ucwords(lang('Globals.months')) ?></th>
+                                                                        <th scope="col" class="h5 available-title text-center"></th>
+                                                                        <th scope="col" class="h5 available-title text-center">12</th>
+                                                                        <th scope="col" class="h5 available-title text-center">24</th>
+                                                                        <th scope="col" class="h5 available-title text-center">36</th>
+                                                                        <th scope="col" class="h5 available-title text-center">48</th>
+                                                                        <th scope="col" class="h5 available-title text-center">60</th>
+                                                                        <th scope="col" class="h5 available-title text-center">72</th>
+                                                                        <th scope="col" class="h5 available-title text-center">120</th>
+                                                                        <th scope="col" class="h5 available-title text-center">156</th>
+                                                                        <th scope="col" class="h5 available-title text-center">180</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"> <?= lang('Globals.club_house_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$525,000</td>
+                                                                        <td class="h5 available-title text-center">$540,750</td>
+                                                                        <td class="h5 available-title text-center">$556,500</td>
+                                                                        <td class="h5 available-title text-center">$572,250</td>
+                                                                        <td class="h5 available-title text-center">$588,000</td>
+                                                                        <td class="h5 available-title text-center">$598,500</td>
+                                                                        <td class="h5 available-title text-center">$614,250</td>
+                                                                        <td class="h5 available-title text-center">$729,750</td>
+                                                                        <td class="h5 available-title text-center">$824,250</td>
+                                                                        <td class="h5 available-title text-center">$887,250</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.greenarea_corner_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$410,000</td>
+                                                                        <td class="h5 available-title text-center">$422,300</td>
+                                                                        <td class="h5 available-title text-center">$434,600</td>
+                                                                        <td class="h5 available-title text-center">$446,900</td>
+                                                                        <td class="h5 available-title text-center">$459,200</td>
+                                                                        <td class="h5 available-title text-center">$467,400</td>
+                                                                        <td class="h5 available-title text-center">$479,700</td>
+                                                                        <td class="h5 available-title text-center">$569,900</td>
+                                                                        <td class="h5 available-title text-center">$643,700</td>
+                                                                        <td class="h5 available-title text-center">$692,900</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="h5 available-title text-left"><?= lang('Globals.standard_lot') ?></td>
+                                                                        <td class="h5 available-title text-center">$312,000</td>
+                                                                        <td class="h5 available-title text-center">$321,360</td>
+                                                                        <td class="h5 available-title text-center">$330,720</td>
+                                                                        <td class="h5 available-title text-center">$340,080</td>
+                                                                        <td class="h5 available-title text-center">$349,440</td>
+                                                                        <td class="h5 available-title text-center">$355,680</td>
+                                                                        <td class="h5 available-title text-center">$365,040</td>
+                                                                        <td class="h5 available-title text-center">$433,680</td>
+                                                                        <td class="h5 available-title text-center">$489,840</td>
+                                                                        <td class="h5 available-title text-center">$527,280</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Price End -->
+                                <div class="d-flex justify-content-center">
+                                    <img src="<?= STATIC_URL . 'img/wind-rose_' . $lang . '.svg' ?>" alt="Brujula" height="80px" width="80px" style="transform: rotate(0deg);">
+
+                                </div>
+                                <div class="row mt-2">
+                                    <p class="small fw-bolder text-center"><?= lang('Globals.for_information') ?> <span class="mouse-touche"><?= lang('Globals.hover_mouse') ?> </span><?= lang('Globals.over_lot') ?></p>
+                                </div>
+                                <div class="loader-container text-center mb-2">
+                                    <span class="mdi mdi-vanish mdi-spin"></span>
+                                    <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
+                                </div>
+                                <!-- Direccion para Scrapde Privada Turix Etapa 4: https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=S1yg2Sy8xhP148&rd=&rg=&clvde=ACNGoAQSZ8D35 -->
+                                <div id="stage-4" class="row text-center map-svg d-none"></div>
+                                <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold mt-n5">
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(0, 102, 51);"></span><span class="text-black text-uppercase"><?= lang('Globals.club_house_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(47, 172, 102);"></span><span class="text-black text-uppercase"><?= lang('Globals.greenarea_corner_lot') ?></span></div>
+                                    <div class="px-2 d-inline-block"><span class="mdi mdi-checkbox-blank mdi-18px mr-2" style="color:rgb(183 245 162);"></span><span class="text-black text-uppercase"><?= lang('Globals.regular_lot') ?></span></div>
+                                </div>
+                                <div class="leyend-status d-flex flex-row justify-content-around text-center fw-bold text-white mt-3">
+                                    <div class="text-uppercase small bg-sold rounded-pill px-2"><?= lang('Globals.sold') ?></div>
+                                    <div class="text-uppercase small bg-available rounded-pill px-2"><?= lang('Globals.available') ?></div>
+                                    <div class="text-uppercase small bg-reserved rounded-pill px-2"><?= lang('Globals.reserved') ?></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border border-success my-4 d-none">
                         <h2 class="accordion-header border-bottom border-success" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <div class="container table-responsive-md">
