@@ -4,7 +4,7 @@
             <div class="col-lg-6 text-center px-3 px-lg-5 mt-0 mt-xxl-5">
                 <div class="animated fadeInLeft bg-success text-white rounded-5 pb-2">
                     <h3>Caoba</h3>
-                    <h6>PROGRESO, MÉRIDA, YUCATÁN, MÉXICO</h6>
+                    <h6>MÉRIDA, YUCATÁN, MÉXICO</h6>
                 </div>
                 <h1 class="h2 animated fadeIn fw-bold my-2"><?= lang('Globals.header_17') ?></h1>
                 <p class="h4 animated fadeIn mb-2 py-1"><?= lang('Globals.header_18') ?></p>
