@@ -8,6 +8,7 @@
 return [
 	'loading' => 'Loading',
 	'home' => 'Home',
+	'all' => 'All investments',
 	'investments' => 'Investments',
 	'contact_us' => 'Contact us',
 	'contact' => 'Contact',
@@ -93,7 +94,8 @@ return [
 	'homepage_6' => 'This is the time to invest in the safest state in Mexico.',
 	'homepage_7' => 'Remember everything starts with a “yes”.',
 	'homepage_8' => 'Get to know our development project and start your new lifestyle with us.',
-	'homepage_9' => 'OUR PROPERTIES',
+	'homepage_9' => 'OUR INVESTMENTS',
+	'homepage_09' => 'OUR PROPERTIES',
 
 	'homepage_10' => 'Development of semi-urbanized investment land.',
 	'homepage_11' => 'Residential development inspired by exclusivity, balance and elegance.',

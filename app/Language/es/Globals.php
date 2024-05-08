@@ -8,6 +8,7 @@
 return [
 	'loading' => 'Cargando',
 	'home' => 'Inicio',
+	'all' => 'Todos los desarrollos',
 	'investments' => 'Desarrollos',
 	'contact_us' => 'Contáctenos',
 	'contact' => 'Contacto',
@@ -93,7 +94,8 @@ return [
 	'homepage_6' => 'Este es el momento para invertir en el estado más seguro en México.',
 	'homepage_7' => 'Recuerda todo comienza con un sí.',
 	'homepage_8' => 'Conoce nuestros desarrollos e inicia tu nuevo estilo de vida con nosotros.',
-	'homepage_9' => 'NUESTRAS PROPIEDADES',
+	'homepage_9' => 'NUESTROS DESARROLLOS',
+	'homepage_09' => 'NUESTRAS PROPIEDADES',
 	
 	'homepage_10' => 'Desarrollo de terrenos de inversión semi-urbanizados.',
 	'homepage_11' => 'Desarrollo residencial inspirado en exclusividad, balance y elegancia.',
