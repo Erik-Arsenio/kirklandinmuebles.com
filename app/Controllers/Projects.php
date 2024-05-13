@@ -72,47 +72,71 @@ class Projects extends BaseController
 			$lang = $this->request->getLocale();
 		}
 		
-		$pageTitle =[
-			"lakuun"=> ["es"=>"Venta de lotes residenciales premium","en"=>"Sale of premium residential lots"],
-			"anthia"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of investment property lots"],
-			"marela_celestun"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of estate lots on the beach"],
-			"marela_beach"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
-			"marela_life"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
-			"wayuum"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
-			"sorenna"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
-			"mahal"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
-			"gran_telchac"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
-			"costa_flamingo"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
-			"galiana"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
-			"nodo"=> ["es"=>"Venta de lotes industriales", "en"=>"Sale of industrial lots"],
-	];
-		
-		
-		// $languaje = $lang ;
-		
 		$datalang = [
 			'lang' => $lang,
 		];
 
-		// Set data index
-		$dataIndex = [
-			'sectionAttractions' => view('templates/attractions'),
-			'sectionContact' => view('templates/contact', $datalang),
-			'sectionReviews' => view('templates/reviews'),
-			'projectStage' => $projectStage,
-			// 'dataProject' =>  $dataProject,
-			'lang' => $lang,
-			// 'updateProject' => $updateProject
+
+		if ($projectName == 'all') {
+			$pageTitle =[
+				"es"=>"Terrenos en venta en Yucatán, México.",
+				"en"=>"Sale of residential land and residential lots in Yucatan, Mexico.",
+			];
+
+			$dataIndex = [
+				'lang' => $lang,
+				'sectionAttractions' => view('templates/attractions'),
+				'sectionContact' => view('templates/contact', $datalang),
+				'sectionReviews' => view('templates/reviews')
+			];
+			$title = $pageTitle[$lang];
+			$url_content = 'home/index';
+			$js = [];
+			// $content = $dataIndex;
+		} else {
+
+			$pageTitle =[
+				"lakuun"=> ["es"=>"Venta de lotes residenciales premium","en"=>"Sale of premium residential lots"],
+				"anthia"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of investment property lots"],
+				"marela_celestun"=> ["es"=>"Venta de lotes patrimoniales de inversión", "en"=>"Sale of estate lots on the beach"],
+				"marela_beach"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
+				"marela_life"=> ["es"=>"Venta de lotes residenciales en la playa", "en"=>"Sale of residential lots on the beach"],
+				"wayuum"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
+				"sorenna"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
+				"mahal"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
+				"gran_telchac"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
+				"costa_flamingo"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
+				"galiana"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
+				"nodo"=> ["es"=>"Venta de lotes industriales", "en"=>"Sale of industrial lots"],
 		];
 	
+			// Set data index
+			$dataIndex = [
+				'sectionAttractions' => view('templates/attractions'),
+				'sectionContact' => view('templates/contact', $datalang),
+				'sectionReviews' => view('templates/reviews'),
+				'projectStage' => $projectStage,
+				// 'dataProject' =>  $dataProject,
+				'lang' => $lang,
+				// 'updateProject' => $updateProject
+			];
+	
+			$title = ucwords($projectName . ' - ' . $pageTitle[$projectName][$lang],'_');
+			$url_content = 'projects/' . $projectName;
+			$js = ['js/app-properties'];
+				
+			// $content = $dataIndex;
+		}
+	
+
 		// dd($dataProject, $updateProject, $dataIndex);	
 		// Set data template
 		$data = [
-			'title' => ucwords($projectName . ' - ' . $pageTitle[$projectName][$lang],'_'),
-			'content' => view('projects/' . $projectName, $dataIndex),
-			'js' => load_js([
-				'js/app-properties',
-				])
+			'title' => $title,
+			'content' => view($url_content, $dataIndex),
+			'js' => load_js(
+				$js,
+				)
 		];
 
 		// Output the view
