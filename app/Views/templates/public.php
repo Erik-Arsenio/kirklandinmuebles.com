@@ -90,9 +90,12 @@
 					<div class="collapse navbar-collapse align-self-end" id="navbarCollapse">
 						<div class="navbar-nav ms-auto">
 							<a href="<?= base_url('/?lang=' .$lang) ?>" class="nav-item nav-link <?= (url_is('/')) ? ' active' : '' ?>"><?= lang('Globals.home') ?></a>
+							<a href="<?= base_url('properties/all?lang=' .$lang) ?>" class="nav-item nav-link <?= (url_is('properties/all')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.properties') ?></a>
 							<div class="nav-item dropdown">
 								<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 								<div class="dropdown-menu rounded-0 m-0">
+									<a href="<?= base_url('investments/all?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*all')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.all') ?></a>
+									<hr class="mt-2 mb-3 border-bottom"/>
 									<a href="<?= base_url('investments/nodo?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*nodo')) ? ' active' : '' ?>" target="_blank">Nodo</a>
 									<a href="<?= base_url('investments/galiana?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*galiana')) ? ' active' : '' ?>" target="_blank">Galiana</a>
 									<a href="<?= base_url('investments/costa_flamingo?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*costa_flamingo')) ? ' active' : '' ?>" target="_blank">Costa Flamingo</a>
