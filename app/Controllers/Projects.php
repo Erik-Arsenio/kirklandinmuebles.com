@@ -108,6 +108,7 @@ class Projects extends BaseController
 				"costa_flamingo"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
 				"galiana"=> ["es"=>"Venta de lotes residenciales de playa", "en"=>"Sale of residential lots"],
 				"nodo"=> ["es"=>"Venta de lotes industriales", "en"=>"Sale of industrial lots"],
+				"caoba"=> ["es"=>"Venta de lotes residenciales", "en"=>"Sale of residential lots"],
 		];
 	
 			// Set data index
