@@ -23,6 +23,12 @@
             "numbers_stage": 3,
             "url_project": [{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=hnoewpRDnlP114&rd=&rg=&clvde=NLA1daGIJTD42"},{ "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=mGMOp5ItZkP113&rd=&rg=&clvde=NLA1daGIJTD42"}, { "url_scrap":"https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=itk7gskut7P129&rd=&rg=&clvde=NLA1daGIJTD42"}
         ]
+        },
+        {
+            "project_name": "costa_flamingo",
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://crmvalte.com///sistemas_active/crm/if/indexBase.php?clvde=38KMqOBuiD2"}
+        ]
         }
     ]
 

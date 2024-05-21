@@ -1,0 +1,24 @@
+{
+    "url_json": "FCPATH . 'assets' . DIRECTORY_SEPARATOR . 'json' . DIRECTORY_SEPARATOR ",
+    "project":[
+        {
+            "project_name": "galiana",
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=GPN"}
+        ]
+        },
+        {
+            "project_name": "nodo",
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=NODOC"}
+        ]
+        },
+        {
+            "project_name": "caoba",
+            "numbers_stage": 1,
+            "url_project": [{ "url_scrap":"https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=RC"}
+        ]
+        }
+    ]
+
+}
