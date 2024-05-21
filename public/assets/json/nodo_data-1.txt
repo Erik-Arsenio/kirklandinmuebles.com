@@ -1,319 +1,791 @@
-<html data-wf-page="64e28b3b169fcb7118d48518" data-wf-site="64e28b3b169fcb7118d48567" class="w-mod-js w-mod-ix wf-montserrat-n1-inactive wf-montserrat-i1-inactive wf-montserrat-n2-inactive wf-montserrat-i2-inactive wf-montserrat-n3-inactive wf-montserrat-i3-inactive wf-montserrat-n4-inactive wf-montserrat-i4-inactive wf-montserrat-n5-inactive wf-montserrat-i5-inactive wf-montserrat-n6-inactive wf-montserrat-i6-inactive wf-montserrat-n7-inactive wf-montserrat-i7-inactive wf-montserrat-n8-inactive wf-montserrat-i8-inactive wf-montserrat-n9-inactive wf-montserrat-i9-inactive wf-poppins-n1-inactive wf-poppins-i1-inactive wf-poppins-n2-inactive wf-poppins-i2-inactive wf-poppins-n3-inactive wf-poppins-i3-inactive wf-poppins-n4-inactive wf-poppins-i4-inactive wf-poppins-n5-inactive wf-poppins-i5-inactive wf-poppins-n6-inactive wf-poppins-i6-inactive wf-poppins-n7-inactive wf-poppins-i7-inactive wf-poppins-n8-inactive wf-poppins-i8-inactive wf-poppins-n9-inactive wf-poppins-i9-inactive wf-inactive"><head><style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
-    <!-- Google Tag Manager -->
-    <script src="https://connect.facebook.net/signals/config/736738431192015?v=2.9.152&amp;r=stable&amp;domain=www.nodopark.mx&amp;hme=c3a545c63044e8e9102d4f32d84a1137594d024f28e801d670bc76dc5c075575&amp;ex_m=67%2C112%2C99%2C103%2C58%2C3%2C93%2C66%2C15%2C91%2C84%2C49%2C51%2C158%2C161%2C172%2C168%2C169%2C171%2C28%2C94%2C50%2C73%2C170%2C153%2C156%2C165%2C166%2C173%2C121%2C14%2C48%2C178%2C177%2C123%2C17%2C33%2C38%2C1%2C41%2C62%2C63%2C64%2C68%2C88%2C16%2C13%2C90%2C87%2C86%2C100%2C102%2C37%2C101%2C29%2C25%2C154%2C157%2C130%2C27%2C10%2C11%2C12%2C5%2C6%2C24%2C21%2C22%2C54%2C59%2C61%2C71%2C95%2C26%2C72%2C8%2C7%2C76%2C46%2C20%2C97%2C96%2C9%2C19%2C18%2C81%2C53%2C79%2C32%2C70%2C0%2C89%2C31%2C78%2C83%2C45%2C44%2C82%2C36%2C4%2C85%2C77%2C42%2C39%2C34%2C80%2C2%2C35%2C60%2C40%2C98%2C43%2C75%2C65%2C104%2C57%2C56%2C30%2C92%2C55%2C52%2C47%2C74%2C69%2C23%2C105" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-N3ZQKYXZWT&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WRHC4SN"></script><script>
-    (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WRHC4SN');</script>
-    <!-- End Google Tag Manager -->
-    <meta property="og:title" content="Desarrollo NODOPARK">
-    <meta property="og:description" content="NODOPARK, Desarrollo de lotes para uso industrial, comercial y logístico">
-    <meta property="og:url" content="https://www.nodopark.mx">
-    <meta property="og:locale" content="es_Mx">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://cdnquantico.tpmex.com.mx/THA/DES/nodo/logo_oscuro.png">
-    <meta property="og:image:type" content="image/png">
-    <link rel="apple-touch-icon" href="https://cdnquantico.tpmex.com.mx/THA/DES/nodo/logo_oscuro.png">
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="NODOPARK, Desarrollo de lotes para uso industrial, comercial y logístico">
-    <meta name="author" content="TP-Mex Programación y Tecnología">
-    <meta name="copyright" content="TP-Mex Programación y Tecnología">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=-1">
-    <meta name="keywords" content="NODO, nodo, NODOPARK, NODOPARK LOTES, NODO TAHA,TAHA Agencia Inmobiliaria,TAHA,TP-Mex">
-
-    <title>NODO</title>
-    
-    <link rel="shortcut icon" href="/img/nodo-e8b2e29c.ico">
-
-
-    <meta content="Webflow" name="generator">
-    <link href="css/normalize.css?v=070424" rel="stylesheet" type="text/css">
-    <link href="css/webflow.css?v=070424" rel="stylesheet" type="text/css">
-    <link href="css/nodogrupotaha.webflow.css?v=070424" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CPoppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" media="all"><script type="text/javascript">WebFont.load({ google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"] } });</script>
-    <script type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-    <script src="https://cdn.tpmex.com.mx/scripts/Ajax.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var navbar = document.querySelector('.stickynavbar');
-            window.addEventListener('scroll', function () {
-                if (window.scrollY > 80) {  // Change '10' to the number of pixels you want the user to scroll before the navbar becomes sticky.
-                    navbar.style.position = 'sticky';
-                    navbar.style.top = '0';
-                } else {
-                    navbar.style.position = 'absolute';
-                    navbar.style.top = '0';
-                }
-            });
-        });
-    </script>
-</head>
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRHC4SN"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="stickynavbar w-nav" style="will-change: background; background-color: rgba(22, 23, 46, 0.957); position: sticky; top: 0px;">
-        <a href="index.html" aria-current="page" class="link-block-2 w-inline-block w--current"></a>
-        <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="#inicio" class="navigation-item w-nav-link w--current">Inicio</a>
-            <a href="#nodopark" class="navigation-item w-nav-link">NODO</a>
-            <a href="#ubicacion" class="navigation-item w-nav-link">UBICACIÓN</a>
-            <a href="#caracteristicas" class="navigation-item w-nav-link">CARACTERÍSTICAS</a>
-            <a href="#masterplan" class="navigation-item w-nav-link">MASTERPLAN</a>
-            <div class="column contactonav">
-                <a href="#contacto" class="navigation-item w-nav-link">CONTACTO</a>
-                <div class="row spacearound">
-                    <a href="https://www.facebook.com/nodoparque?mibextid=2JQ9oc" target="_blank" class="w-inline-block"><img src="images/icono-fb-70-porciento-opacidad.png" loading="lazy" alt="" class="socialicon"></a>
-                    <a href="https://www.instagram.com/nodo_park/" target="_blank" class="w-inline-block"><img src="images/icono-ig-70-porciento-opacidad.png" loading="lazy" sizes="(max-width: 991px) 100vw, 32px" srcset="images/icono-ig-70-porciento-opacidad-p-500.png 500w, images/icono-ig-70-porciento-opacidad.png 512w" alt="" class="socialicon"></a>
-                </div>
-            </div>
-        </nav>
-        <div class="w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
-            <div class="navbarburgermenu w-icon-nav-menu"></div>
-        </div>
-    <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div></div>
-    <a href="https://wa.me/5219992719170?text=¡Hola!%20Me%20interesa%20información%20de%20Nodo" target="_blank" class="whatsappbutton w-inline-block"><img src="images/whatsappButton.png" loading="lazy" sizes="80px" srcset="images/whatsappButton-p-500.png 500w, images/whatsappButton-p-800.png 800w, images/whatsappButton.png 1000w" alt="" class="image-5"></a>
-    <section id="inicio" class="section">
-        <div class="w-layout-blockcontainer container-2 w-container">
-            <div class="carouselwrapper">
-                <div data-delay="4000" data-animation="slide" class="fullsizecarousel w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="10" data-duration="500" data-infinite="true" role="region" aria-label="carousel">
-                    <div class="w-slider-mask" id="w-slider-mask-0"><div class="imagecarouselslide w-slide" aria-label="1 of 4" role="group" aria-hidden="true" style="transform: translateX(-2405.34px); opacity: 1; transition: transform 500ms ease 0s;"></div><div class="imagecarouselslide slide2 w-slide" aria-label="2 of 4" role="group" aria-hidden="true" style="transform: translateX(-2405.34px); opacity: 1; transition: transform 500ms ease 0s;"></div><div class="imagecarouselslide slide3 w-slide" aria-label="3 of 4" role="group" style="transform: translateX(-2405.34px); opacity: 1; transition: transform 500ms ease 0s;"></div><div class="imagecarouselslide slide4 w-slide" aria-label="4 of 4" role="group" aria-hidden="true" style="transform: translateX(-2405.34px); opacity: 1; transition: transform 500ms ease 0s;"></div><div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 4.</div></div>
-                    <div class="left-arrow w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                        <div class="flechacarrusel w-icon-slider-left"></div>
-                    </div>
-                    <div class="right-arrow w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                        <div class="flechacarrusel w-icon-slider-right"></div>
-                    </div>
-                    <div class="w-slider-nav"><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 4" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 10px; margin-right: 10px;"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 2 of 4" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 10px; margin-right: 10px;"></div><div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 4" aria-pressed="true" role="button" tabindex="0" style="margin-left: 10px; margin-right: 10px;"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 4" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 10px; margin-right: 10px;"></div></div>
-                </div>
-                <div class="carouseltextcontainer">
-                    <h1 class="carruseltitletext">LOTES INDUSTRIALES EN YUCATÁN<br></h1>
-                    <h1 class="carruselsubtitletext">INDUSTRIAL &nbsp;+ &nbsp;COMERCIAL&nbsp; + &nbsp;LOGÍSTICO</h1>
-                    <a href="https://wa.me/5219992719170?text=¡Hola!%20Me%20interesa%20información%20de%20Nodo" class="botonnodo w-button">CONTÁCTANOS</a>
-                </div>
-                <div class="estampagrupotaha"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div><img src="images/Qué-Es-Caoba.png" loading="lazy" alt="" class="queescaoba">
-            </div>
-        </div>
-    </section>
-    <section id="nodopark" class="section start">
-        <div class="splitsectiontextdiv nodopark">
-            <h1 class="sectionheadertext nodopark">NODO<br>PARK</h1>
-            <p class="splitsectionparagraph">Conformado por 151 lotes de oportunidades y crecimiento, el Parque Industrial NODO representa el sitio idóneo para alojar tu bodega, punto de venta, oficina, estudio o taller, <strong>ubicado en el nuevo corredor industrial Mérida-Hunucmá.</strong><br><br>Su infraestructura se diseñó de manera específica para <strong>satisfacer las necesidades de las empresas</strong>, lo que incluye servicios como energía eléctrica, calles y accesos adecuados, sistema de drenaje, entre otros.<br><br>Su accesibilidad al desarrollo y ubicación privilegiada es un generador de conexiones de negocios, la cual lo vuelve una <strong>zona estratégica de alta productividad</strong> y de excelentes perspectivas de negocios.</p>
-        </div>
-        <div class="splitsectionimagediv nodopark">
-            <div class="estampagrupotaha nodopark"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div>
-        </div>
-    </section>
-    <section id="ubicacion" class="section ubicacion">
-        <div class="splitsectiontextdiv ubicacion">
-            <h1 class="sectionheadertext ubicacion">UBICACIÓN</h1>
-            <p class="splitsectionparagraph ubicacion">Ubicado en el <strong>área de desarrollo yucateco con mayor potencial de crecimiento</strong>, NODO se encuentra a escasos 10 minutos del periférico poniente de Mérida.<br><br>Esta ubicación permite un fácil acceso a una importante red de vías de comunicación, brindando la <strong>posibilidad para establecer conexiones efectivas con otros puntos estratégicos del estado, del país y de todo el mundo</strong>.<br><br>Además, la zona se encuentra en una constante expansión y desarrollo, lo que asegura un <strong>futuro que es prometedor para cualquier negocio o inversión</strong> que se establezca en esta región.<br><br>Por ese motivo, un considerable número de industrias optan por realizar inversiones en esta región.</p>
-        </div>
-        <div class="splitsectionimagediv">
-            <div class="estampagrupotaha ubicacion"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div><img src="/images/mapa-nodo-tama%c3%b1o-ajustado.jpg">
-        </div>
-    </section>
-    <section class="section start">
-        <div class="splitsectionimagediv ubicacionestrategica">
-            <div class="estampagrupotaha ubicacionestrategica"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div>
-            <div class="posicionabsoluta">
-                <div class="textimageoverlay">Cada año llega un promedio de 150mil<br>contenedores al Puerto de Altura de Progreso</div>
-            </div>
-        </div>
-        <div class="splitsectiontextdiv ubicacionestrategica">
-            <h1 class="sectionheadertext ubicacionestrategica">UBICACIÓN<br>ESTRATÉGICA</h1>
-            <p class="splitsectionparagraph">Yucatán posee una infraestructura moderna y bien desarrollada que <strong>proporciona a las empresas una base sólida para operar de manera eficiente</strong> y satisfacer sus necesidades logísticas.<br><br>La <strong>ubicación estratégica de NODO Park</strong>, cercana a importantes vías de comunicación marítima, terrestre y aérea, lo convierten en un punto estratégico para concebir negocios comerciales.<br><br>Cerca de NODO se localiza el Puerto de Altura de Progreso, el cual <strong>provee infraestructura y servicios necesarios para las operaciones comerciales.</strong><br><br>El puerto cuenta con muelles para el atraque de embarcaciones de diferentes tamaños y dispone de instalaciones para realizar la carga, descarga y almacenamiento de mercancías</p>
-        </div>
-    </section>
-    <section class="section conexioninternacional">
-        <div class="splitsectionimagediv conexioninternacional"><img src="images/MAPA-MÉXICO-AJUSTADO.png" loading="lazy" alt="" srcset="images/MAPA-MÉXICO-AJUSTADO-p-500.png 500w, images/MAPA-MÉXICO-AJUSTADO-p-800.png 800w, images/MAPA-MÉXICO-AJUSTADO.png 1194w" sizes="100vw" class="mapamovil"></div>
-        <div class="splitsectiontextdiv conexioninternacional">
-            <h1 class="sectionheadertext conexioninternacional">CONEXIÓN<br>INTERNACIONAL</h1>
-            <div class="divider"></div>
-            <div id="w-node-f731d631-ef4f-1a2e-3c52-058a13800574-18d48518" class="w-layout-layout quick-stack wf-layout-layout">
-                <div id="w-node-f731d631-ef4f-1a2e-3c52-058a13800575-18d48518" class="w-layout-cell cell">
-                    <p class="splitsectionparagraph conexioninternacionalleft"><strong>COMUNICACIÓN<br>AÉREA</strong></p>
-                </div>
-                <div id="w-node-f731d631-ef4f-1a2e-3c52-058a13800576-18d48518" class="w-layout-cell">
-                    <p class="splitsectionparagraph conexioninternacional">USA<br>CANADÁ<br>MÉXICO</p>
-                </div>
-                <div id="w-node-_3932d9ce-93fd-1bec-1b24-9a4a248f0e76-18d48518" class="w-layout-cell cell">
-                    <p class="splitsectionparagraph conexioninternacionalleft"><strong>COMUNICACIÓN<br>NAVAL</strong></p>
-                </div>
-                <div id="w-node-_5b467020-0daa-78d4-9b6b-37d786d29a20-18d48518" class="w-layout-cell">
-                    <p class="splitsectionparagraph conexioninternacional">USA<br>EUROPA<br>ASIA<br>SUDAMÉRICA<br>MÉXICO</p>
-                </div>
-                <div id="w-node-c0158f87-dc2e-44ea-199c-dbed64858469-18d48518" class="w-layout-cell cell">
-                    <p class="splitsectionparagraph conexioninternacionalleft"><strong>EXPORTACIONES<br>MARINAS</strong></p>
-                </div>
-                <div id="w-node-c7403013-cb33-25b3-fe68-5d72a5d587e5-18d48518" class="w-layout-cell">
-                    <p class="splitsectionparagraph conexioninternacional">390,000 TONELADAS<br>DE CARGA TRIMESTRAL</p>
-                </div>
-                <div id="w-node-b9a5e371-7a8b-14f4-29db-40b67cbe689c-18d48518" class="w-layout-cell cell">
-                    <p class="splitsectionparagraph conexioninternacionalleft"><strong>TRÁFICO<br>AÉREO</strong></p>
-                </div>
-                <div id="w-node-_32ac4f2b-10fc-a5ec-7421-a45f3f0eba25-18d48518" class="w-layout-cell">
-                    <p class="splitsectionparagraph conexioninternacional">3 MILLONES DE PASAJEROS<br>AL AÑO</p>
-                </div>
-            </div>
-            <div class="divider"></div>
-        </div>
-        <div class="estampagrupotaha conexioninternacional"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div>
-    </section>
-    <section class="halfscreensection generales">
-        <div class="w-layout-blockcontainer nodoparkgeneralescontainer w-container">
-            <h1 class="sectionheadertext nodoparkgenerales">NODO PARK<br>GENERALES</h1>
-        </div>
-        <div class="w-layout-blockcontainer nodoparkgeneralescontainer righttext w-container">
-            <div class="w-layout-grid gridnodoparkgenerales">
-                <h1 id="w-node-_36b39d8b-9243-f591-19c0-76457f6672b3-18d48518" class="splitsectionparagraph nodoparkgenerales">ÁREA TOTAL DE DESARROLLO</h1>
-                <h1 id="w-node-bf645fad-ddcc-f13b-89af-f1318409b175-18d48518" class="splitsectionparagraph nodoparkgenerales"><strong class="bold-text-8">47 HECTÁREAS</strong></h1>
-                <h1 class="splitsectionparagraph nodoparkgenerales">NÚMERO TOTAL DE LOTES</h1>
-                <h1 id="w-node-ec7d744b-4bbb-4deb-432e-9f85414fa58b-18d48518" class="splitsectionparagraph nodoparkgenerales"><strong>151</strong></h1>
-                <h1 class="splitsectionparagraph nodoparkgenerales">CASETA DE ENTRADA</h1>
-                <h1 id="w-node-d609494a-d506-3392-60d5-4f4bf8b7c79f-18d48518" class="splitsectionparagraph nodoparkgenerales"><strong>ACCESO 24/7</strong></h1>
-            </div>
-        </div>
-        <div class="estampagrupotaha nodoparkgenerales"><img src="images/un-desarrollo-de-grupo-taha.png" loading="lazy" alt="" class="imagenestampa"></div>
-    </section>
-    <section id="caracteristicas" class="section start">
-        <div class="splitsectionimagediv caracteristicas">
-            <div class="estampagrupotaha ubicacionestrategica"><img src="images/un-desarrollo-grupo-taha-2-lineas.png" loading="lazy" alt="" class="imagenestampa caracteristicas"></div>
-        </div>
-        <div class="splitsectiontextdiv caracteristicas">
-            <h1 class="sectionheadertext caracteristicas">CARACTERÍSTICAS</h1>
-            <div id="w-node-_390d2b47-083f-5a07-6cdc-adf624a01c23-18d48518" class="w-layout-layout wf-layout-layout">
-                <div id="w-node-_27c5f78d-66d8-52a6-b951-1dcecae80912-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/relampago.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-ee4987a5-97ca-2259-d444-a446ec85fbd2-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Corriente eléctrica de media tensión a pie de lote</div>
-                </div>
-                <div id="w-node-_61d63260-3a51-1ed0-d5fc-67a836c38589-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/poste-luz.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-_2d5d16e7-cbfb-fdcf-222b-92c57a57d5b9-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Alumbrado público</div>
-                </div>
-                <div id="w-node-_83570faa-cdf7-a2b0-a8ca-6368122e10fc-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/cales.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-_3e8f451c-e4b9-d869-979e-e9abf2e8052b-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Calles internas con carpeta asfáltica</div>
-                </div>
-                <div id="w-node-_2fcc5dc4-7700-fc27-2d82-bc02e469ea51-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/drenaje.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-_52de699b-1e15-f214-73c8-805dd9dd57ac-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Drenaje pluvial</div>
-                </div>
-                <div id="w-node-a86fcb69-0e46-e0c8-3512-243dac722f12-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/barda-perimetral.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-_07c18e24-0001-4695-05ae-b5813634b6c2-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Barda perimetral</div>
-                </div>
-                <div id="w-node-_06d39d93-46f7-775f-567b-480632cf852a-18d48518" class="w-layout-cell columnaiconocaracteristica"><img src="images/autopista.png" loading="lazy" alt="" class="iconocaracteristicas"></div>
-                <div id="w-node-_877da374-538a-d535-d6bd-d2bca1620515-18d48518" class="w-layout-cell">
-                    <div class="splitsectionparagraph caracteristicas">Avenida de acceso hacia NODO (25m de ancho) pavimentada e iluminada</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="masterplan" class="seccionmasterplan">
-        <div class="splitsectiontextdiv masterplan">
-            <h1 class="titulomasterplan">MASTERPLAN</h1>
-            <div class="textomasterplan">Lotes industriales desde <span class="enfasistexto">1,600m<sup>2</sup></span> a sólo <span class="enfasistexto">$1,049.00</span> el m<sup>2</sup><br><br>¡Aparte con el <span class="enfasistexto">12% de enganche</span> y con mensualidades de hasta <span class="enfasistexto">36 meses</span> sin intereses!</div>
-            <div class="divider masterplan"></div>
-            <div class="textomasterplan"><strong class="bold-text-7">57%</strong> DE LOTES VENDIDOS</div>
-            <div class="w-layout-grid griddisponibilidad">
-                <div id="w-node-_36bdaf32-c5df-d4cb-f379-2f16132121d3-18d48518" class="indicadormasterplan vendido"></div>
-                <div id="w-node-_4de3ec55-e930-cf66-0296-26b7fea64e04-18d48518" class="textomasterplan">VENDIDO</div>
-                <div id="w-node-_5e9032d6-65b1-7a85-acaa-cb9f03cd5172-18d48518" class="indicadormasterplan apartado"></div>
-                <div id="w-node-b628272f-b533-daad-733a-2db8abd03746-18d48518" class="textomasterplan">APARTADO</div>
-                <div class="indicadormasterplan disponible"></div>
-                <div class="textomasterplan">DISPONIBLE</div>
-            </div>
-            <div class="estampagrupotaha masterplan"><img src="images/grupo-taha-color-negro.png" loading="lazy" alt="" class="imagenestampa"></div>
-        </div>
-        <div class="masterplansection">
-            <div class="responsiveiframe w-embed w-iframe">
-                <iframe width="100%" height="100%" src="https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=NODOC">
-                </iframe>
-            </div>
-        </div>
-    </section>
-    <section class="divisor imagen"></section>
-    <section id="contacto" class="contactsection">
-        <div class="column contacto">
-            <h1 class="titulocontacto">CONTACTO</h1>
-            <div class="row _90vw">
-                <div class="contactoizquierda">
-                    <div class="row _100-width">
-                        <div class="column">
-                            <h1 class="titulooficinasdeventas">OFICINAS DE VENTAS</h1>
-                            <div class="textooficinas">Plaza de la Construcción | (999) 4811 354 <br><br>Asesor de Venta | (999) 2719 170<br><br>ventas@grupotaha.mx <br><br>Calle 11 #245 Local 38 x 18 y 22,<br>Plaza de la Construcción, Santa Gertrudis Copó,<br>C.P.97305 Mérida, Yucatán, México.<br></div>
-                        </div>
-                        <div class="w-layout-hflex flex-block contacto">
-                            <div class="textooficinas">Síguenos en:</div>
-                            <div class="w-layout-hflex row spacearound">
-                                <a href="https://www.facebook.com/nodoparque?mibextid=2JQ9oc" target="_blank" class="w-inline-block"><img src="images/facebook-para-contacto.png" loading="lazy" sizes="(max-width: 479px) 60px, (max-width: 991px) 80px, 3vw" srcset="images/facebook-para-contacto-p-500.png 500w, images/facebook-para-contacto.png 512w" alt="" class="socialicon contacto"></a>
-                                <a href="https://www.instagram.com/nodo_park/" target="_blank" class="w-inline-block"><img src="images/ig-para-contacto.png" loading="lazy" alt="" class="socialicon contacto"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="verticalbar"></div>
-                <div class="contactform">
-                    <div class="form-block w-form">
-                        <form id="formContact" name="wf-form-ContactForm" data-name="ContactForm" method="post" data-wf-page-id="64e28b3b169fcb7118d48518" data-wf-element-id="ef2e61b9-3c86-7e7f-59e4-5ea5e14e0137" aria-label="ContactForm">
-                            <label for="Nombre" class="contactformlabel">Nombre</label>
-                            <input type="text" class="contactforminput w-input" maxlength="256" name="nombre" data-name="Nombre" placeholder="" id="Nombre" required="">
-                            <label for="Apellido" class="contactformlabel">Apellido</label>
-                            <input type="text" class="contactforminput w-input" maxlength="256" name="apellido" data-name="Apellido" placeholder="" id="Apellido" required="">
-                            <label for="email" class="contactformlabel">E-mail</label>
-                            <input type="email" class="contactforminput w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="Email" required="">
-                            <label for="Tel-fono" class="contactformlabel">Teléfono</label>
-                            <input type="email" class="contactforminput w-input" maxlength="256" name="telefono" data-name="Teléfono" placeholder="" id="Telefono" required="">
-                            <label for="Mensaje" class="contactformlabel">Mensaje</label>
-                            <input type="email" class="contactforminput w-input" maxlength="256" name="mensaje" data-name="Mensaje" placeholder="" id="Mensaje" required="">
-                            <div class="div-block-3 div-block-4 submitformdiv">
-                                <label class="w-checkbox">
-                                    <input type="checkbox" id="PrivacyPolicy" name="PrivacyPolicy" data-name="PrivacyPolicy" required="" class="w-checkbox-input">
-                                    <span class="checkbox-label-2 w-form-label" for="PrivacyPolicy">He leido y aceptado los términos de la política de privacidad</span>
-                                </label><input type="button" value="ENVIAR" data-wait="Espere por favor..." class="botonnodo botoncontacto w-button" onclick="EnvioCorreoContact();">
-                            </div>
-                        </form>
-                        <div class="w-form-done" tabindex="-1" role="region" aria-label="ContactForm success">
-                            <div>Thank you! Your submission has been received!</div>
-                        </div>
-                        <div class="w-form-fail" tabindex="-1" role="region" aria-label="ContactForm failure">
-                            <div>Oops! Something went wrong while submitting the form.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="divider"></div>
-    <aside class="divisor footer">
-        <a href="index.html" aria-current="page" class="footerlogobutton w-inline-block w--current"></a>
-        <div class="textooficinas"><br><br><span class="enfasistexto">©NODO® 2023.</span> Todos los derechos reservados / Aviso de privacidad</div>
-        <div class="estampagrupotaha footer"><img src="images/grupo-taha-color-negro.png" loading="lazy" alt="" class="imagenestampa footer"></div>
-    </aside>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64e28b3b169fcb7118d48567" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64cc471b5e8a2f42649f300c" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script src="/Scripts/webflow.js?v=070424" type="text/javascript"></script>
-<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","736738431192015");fbq("set","agent","tmgoogletagmanager","736738431192015");fbq("track","PageView");</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=736738431192015&amp;ev=PageView&amp;noscript=1"></noscript>
-
-    <script src="/Scripts/js_index.js?v=070424"></script>
-    <div id="ajxScpt"></div>
-
-</body></html>
+<br />
+<!DOCTYPE html><br />
+<html><br />
+<head><br />
+        <title>MasterPlan NODO PARK</title><br />
+        <style type="text/css"><br />
+        .stDisponible{<br />
+            background-color: #eee4d0 ;<br />
+            fill: #eee4d0 !important;<br />
+            opacity:50%;<br />
+            cursor:pointer;<br />
+        }<br />
+<br />
+            .stItem.stDisponible:hover, .stItem.stDisponible.selected {<br />
+                fill: #1569AB !important;<br />
+            }<br />
+<br />
+            .stDisponibleRenta {<br />
+                background-color: #000000;<br />
+                fill: #000000 !important;<br />
+                opacity: 50%;<br />
+                cursor: pointer;<br />
+            }<br />
+<br />
+            .stRentado {<br />
+                background-color: #000000;<br />
+                fill: #000000 !important;<br />
+                opacity: 50%;<br />
+                cursor: pointer;<br />
+            }<br />
+<br />
+            .stApartado {<br />
+                background-color: #ebc68c;<br />
+                fill: #ebc68c !important;<br />
+                opacity: 50%;<br />
+            }<br />
+<br />
+            .stVendido {<br />
+                background-color: #c37755;<br />
+                fill: #c37755 !important;<br />
+                opacity: 50%;<br />
+            }<br />
+        </style><br />
+    <link rel="stylesheet" href="/Content/styles/site.css?v=200524"><br />
+<br />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><br />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script><br />
+<br />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?v=200524"></script><br />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js?v=200524"></script><br />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js?v=200524"></script><br />
+    <br />
+    <script src="https://cdn.tpmex.com.mx/scripts/notify.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.unobtrusive-ajax.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.unobtrusive.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/General.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/Ajax.min.js?v=200524"></script><br />
+</head><br />
+<body id="bodyMaster"><br />
+<?xml version="1.0" encoding="utf-8"?><br />
+<!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><br />
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1251.4 778.2" style="enable-background:new 0 0 1251.4 778.2;" xml:space="preserve"><br />
+<style type="text/css"><br />
+	.st0{fill:#F2F9FF;}<br />
+	.st1{fill:#EDEDEC;}<br />
+	.st2{fill:none;stroke:#000000;stroke-width:0.3563;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}<br />
+	.st3{fill:none;stroke:#000000;stroke-width:0.3563;stroke-miterlimit:10;stroke-dasharray:2.8501;}<br />
+	.st4{fill:none;stroke:#818080;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}<br />
+	.st5{opacity:0.39;fill:#3A9842;enable-background:new    ;}<br />
+	.st6{opacity:0.39;fill:#3A9842;stroke:#000000;stroke-width:0.36;stroke-miterlimit:10;enable-background:new    ;}<br />
+	.st7{fill:#818080;}<br />
+	.st8{fill:none;}<br />
+	.st9{font-family:'ArialMT';}<br />
+	.st10{font-size:10.9308px;}<br />
+	.st11{font-size:10.9372px;}<br />
+	.st12{fill:#EFE4D0;stroke:#000000;stroke-width:0.36;stroke-miterlimit:10;}<br />
+	.st13{font-family:'Arial-BoldMT';}<br />
+	.st14{font-size:7px;}<br />
+	.st15{fill:#070308;}<br />
+	.st16{font-size:6.8451px;}<br />
+	.st17{font-size:9.0777px;}<br />
+	.st18{font-size:8.6985px;}<br />
+	.st19{font-size:8px;}<br />
+	.st20{font-size:10px;}<br />
+	.st21{font-size:10.5923px;}<br />
+	.st22{font-size:8.9255px;}<br />
+	.st23{font-size:8.5527px;}<br />
+</style><br />
+<rect class="st0" width="1251.4" height="778.2" /><br />
+<g id="fondo_1_"><br />
+	<g id="fondo"><br />
+		<g id="gris_y_blur_1_"><br />
+			<g><br />
+				<polygon class="st1" points="1210.6,712.1 48.8,712.4 74.9,62.7 1075,62.7     " /><br />
+			</g><br />
+		</g><br />
+		<path class="st2" d="M285.2,695.6c0-2.4-2-4.4-4.4-4.4s-4.4,2-4.4,4.4s2,4.4,4.4,4.4S285.2,698.1,285.2,695.6" /><br />
+		<path class="st2" d="M285.5,79.5c0-2.5-2.1-4.6-4.6-4.6s-4.6,2.1-4.6,4.6s2.1,4.6,4.6,4.6S285.5,82,285.5,79.5" /><br />
+		<path class="st2" d="M286.5,387.6c0-3.1-2.5-5.7-5.7-5.7s-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7S286.5,390.7,286.5,387.6" /><br />
+		<path class="st2" d="M286.8,171c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6C284.2,177,286.8,174.3,286.8,171" /><br />
+		<path class="st2" d="M286.8,604.2c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6C284.2,610.1,286.8,607.5,286.8,604.2" /><br />
+		<line class="st3" x1="280.5" y1="86.9" x2="280.5" y2="150.5" /><br />
+		<line class="st3" x1="280.5" y1="191.9" x2="281.4" y2="367" /><br />
+		<line class="st3" x1="280.5" y1="407.4" x2="281.4" y2="582.4" /><br />
+		<line class="st3" x1="280.5" y1="624.4" x2="280.9" y2="678" /><br />
+		<line class="st3" x1="115" y1="386.7" x2="255.6" y2="386.7" /><br />
+		<line class="st3" x1="301.1" y1="386.7" x2="1022.8" y2="386.4" /><br />
+		<polyline class="st3" points="302.5,604.3 1060.1,604.7 1077.8,604.7 1086.5,597.2 1085.2,584.6 997.8,171.7 982.5,171.3     301.1,170.2   " /><br />
+		<line class="st2" x1="51.8" y1="712.3" x2="79.1" y2="62.7" /><br />
+		<line id="calle_lineas_izquierda_1_" class="st3" x1="89.9" y1="63.2" x2="64" y2="712.3" /><br />
+		<polyline class="st4" points="1031.6,279.9 1006.6,161 918.1,161 870,161 821.8,161 773.7,161 725.7,161 677.4,161 629.4,161     581.3,161 533.1,161 485.1,161 437,161 388.9,161 340.7,161 294.9,161 290.8,156.9 290.8,93.2   " /><br />
+		<path class="st4" d="M292.2,89.3c-0.9,1.1-1.4,2.4-1.4,3.8" /><br />
+		<path class="st4" d="M292.2,89.3c4.7-5.7,4.6-14-0.4-19.5" /><br />
+		<line class="st4" x1="291.8" y1="69.8" x2="269.4" y2="69.8" /><br />
+		<path class="st4" d="M269.4,69.7c-4.9,5.5-5.1,13.8-0.4,19.5" /><br />
+		<path class="st4" d="M270.3,93.2c0-1.4-0.5-2.7-1.4-3.8" /><br />
+		<polyline class="st4" points="270.3,93.2 270.3,121 270.3,153.6   " /><br />
+		<path class="st4" d="M268.1,159c1.4-1.5,2.2-3.4,2.2-5.5" /><br />
+		<path class="st4" d="M268.1,159c-5.1,5.2-6.4,13-3.4,19.6" /><br />
+		<path class="st4" d="M264.8,178.6c0.6,1.3,1.3,2.5,2.2,3.5" /><br />
+		<path class="st4" d="M267,182.2c0.4,0.5,0.8,0.9,1.2,1.3" /><br />
+		<path class="st4" d="M270.3,188.8c0-2-0.8-4-2.2-5.5" /><br />
+		<polyline class="st4" points="270.3,188.9 270.3,237.7 270.3,296 270.3,354.4 270.3,373.4 266.4,377.5 111.7,377.5   " /><br />
+		<path class="st4" d="M90.3,354.3c0.6,11.9,9.6,21.6,21.4,23.2" /><br />
+		<path class="st4" d="M87.7,421.8c1.5-12.6,11.5-22.4,24-23.9" /><br />
+		<polyline class="st4" points="111.7,398 266.4,398 270.3,402.1 270.3,421.8 270.3,479.8 270.3,537.9 270.3,586.6   " /><br />
+		<path class="st4" d="M268.1,592c1.4-1.5,2.2-3.4,2.2-5.5" /><br />
+		<path class="st4" d="M268.1,591.9c-1.4,1.4-2.6,3.1-3.4,4.9" /><br />
+		<path class="st4" d="M264.7,596.8c-3,6.6-1.7,14.3,3.4,19.5" /><br />
+		<path class="st4" d="M270.3,621.8c0-2-0.8-4-2.2-5.5" /><br />
+		<polyline class="st4" points="270.3,621.9 270.3,654.2 270.3,682.2   " /><br />
+		<path class="st4" d="M269,686c0.9-1.1,1.4-2.4,1.4-3.8" /><br />
+		<path class="st4" d="M269,686.1c-4.7,5.7-4.6,14,0.4,19.5" /><br />
+		<path class="st4" d="M291.8,705.6c4.9-5.5,5.1-13.8,0.4-19.5" /><br />
+		<path class="st4" d="M290.8,682.2c0,1.4,0.5,2.7,1.4,3.8" /><br />
+		<polyline class="st4" points="290.8,682.2 290.8,618.4 294.9,614.5 340.7,614.5 388.9,614.5 437,614.5 485.1,614.5 533.1,614.5     581.3,614.5 629.4,614.5 677.4,614.5 725.7,614.5 773.7,614.5 821.8,614.5 870,614.5 918.1,614.5 966.1,614.5 1014.2,614.5     1062.4,614.5 1074.4,614.5   " /><br />
+		<path class="st4" d="M1074.3,614.3c10,0,19.3-5.3,24.4-13.9" /><br />
+		<polyline class="st4" points="1098.8,600.6 1097.8,596.1 1077,496.4 1054.2,388 1051.7,376 1031.6,279.9   " /><br />
+		<path class="st5" d="M96.5,407.2c4.3-3.9,9.6-6.5,15.4-7.4h153.7l3,3v19H188H87.8C87.8,421.8,90,412.7,96.5,407.2z" /><br />
+		<polyline class="st6" points="268.5,67.7 292.7,67.7 292.7,62.7 268.5,62.7 268.5,67.7   " /><br />
+		<polyline class="st6" points="268.5,707.3 292.7,707.3 292.7,712.4 268.5,712.4 268.5,707.3   " /><br />
+		<polyline class="st6" points="1099.6,595.8 1078.6,495.9 1056,387.7 1053.6,375.7 1033.4,279.4 1008,157.9 1003.5,137 995.5,99     918.1,99 918.1,63.1 1074.1,63.1 1090.6,142 1120.5,284.3 1149.2,421.3 1177.4,556.3 1182,578.4 1099.6,595.8   " /><br />
+		<polyline class="st4" points="294.9,398 340.7,398 387.1,398 433.4,398 479.6,398 525.9,398 572.3,398 618.6,398 664.8,398     711.2,398 757.5,398 803.7,398 850.2,398 896.4,398 942.7,398 989.1,398 1032.2,398 1036.2,401.1 1055.8,495.6 1075.5,589.4     1071.8,594 989.1,594 942.7,594 896.4,594 850.2,594 803.7,594 757.5,594 711.2,594 664.8,594 618.6,594 572.3,594 525.9,594     479.6,594 433.4,594 387.1,594 340.7,594 294.9,594 290.8,589.9 290.8,495.9 290.8,402.1 294.9,398   " /><br />
+		<polyline class="st4" points="290.8,373.4 290.8,279.4 290.8,185.6 294.9,181.5 316.8,181.5 339.9,181.5 363,181.5 386.1,181.5     409.4,181.5 432.6,181.5 455.7,181.5 479,181.5 502.1,181.5 525.2,181.5 548.5,181.5 571.7,181.5 594.8,181.5 617.9,181.5     641.2,181.5 664.3,181.5 687.5,181.5 710.7,181.5 733.9,181.5 757,181.5 780.3,181.5 803.4,181.5 826.5,181.5 849.8,181.5     873,181.5 896.1,181.5 919.2,181.5 942.5,181.5 965.6,181.5 987,181.5 990.6,183.9 1010.6,279.1 1030.3,373.6 1027.1,377.5     966.1,377.5 918.1,377.5 870,377.5 821.8,377.5 773.7,377.5 725.7,377.5 677.4,377.5 629.4,377.5 581.3,377.5 533.1,377.5     485.1,377.5 437,377.5 388.9,377.5 340.7,377.5 294.9,377.5 290.8,373.4   " /><br />
+		<line class="st4" x1="266.2" y1="377.5" x2="265.8" y2="377.5" /><br />
+		<line class="st4" x1="266.2" y1="398" x2="265.8" y2="398" /><br />
+		<polygon class="st7" points="265.8,378 265.9,378 265.8,377.5   " /><br />
+		<polygon class="st8" points="265.8,378 265.9,378 265.8,377.5   " /><br />
+		<polygon class="st7" points="265.8,397.5 265.9,397.5 265.8,398   " /><br />
+		<polygon class="st8" points="265.8,397.5 265.9,397.5 265.8,398   " /><br />
+		<line class="st4" x1="294.9" y1="377.5" x2="295.9" y2="377.5" /><br />
+		<line class="st4" x1="294.9" y1="398" x2="295.9" y2="398" /><br />
+		<polygon class="st7" points="295.8,378 295.9,378 295.9,377.5   " /><br />
+		<polygon class="st8" points="295.8,378 295.9,378 295.9,377.5   " /><br />
+		<polygon class="st7" points="295.8,397.5 295.9,397.5 295.9,398   " /><br />
+		<polygon class="st8" points="295.8,397.5 295.9,397.5 295.9,398   " /><br />
+		<line class="st4" x1="290.8" y1="373.4" x2="290.8" y2="372.6" /><br />
+		<line class="st4" x1="270.3" y1="373.4" x2="270.3" y2="372.6" /><br />
+		<polygon class="st7" points="290.4,372.6 290.4,372.7 290.8,372.6   " /><br />
+		<polygon class="st8" points="290.4,372.6 290.4,372.7 290.8,372.6   " /><br />
+		<polygon class="st7" points="270.8,372.6 270.8,372.7 270.3,372.6   " /><br />
+		<polygon class="st8" points="270.8,372.6 270.8,372.7 270.3,372.6   " /><br />
+		<line class="st4" x1="294.9" y1="161" x2="295.1" y2="161" /><br />
+		<line class="st4" x1="294.9" y1="181.5" x2="295.1" y2="181.5" /><br />
+		<polygon class="st7" points="294.9,181 295.1,181 295.1,181.5   " /><br />
+		<polygon class="st8" points="294.9,181 295.1,181 295.1,181.5   " /><br />
+		<line class="st4" x1="780.1" y1="161" x2="779.6" y2="161" /><br />
+		<polygon class="st7" points="779.5,161.5 779.6,161.5 779.6,161   " /><br />
+		<polygon class="st8" points="779.5,161.5 779.6,161.5 779.6,161   " /><br />
+		<line class="st4" x1="869.8" y1="377.5" x2="869.2" y2="377.5" /><br />
+		<line class="st4" x1="869.8" y1="398" x2="869.2" y2="398" /><br />
+		<polygon class="st7" points="869,378 869.2,378 869.2,377.5   " /><br />
+		<polygon class="st8" points="869,378 869.2,378 869.2,377.5   " /><br />
+		<polygon class="st7" points="869,397.5 869.2,397.5 869.2,398   " /><br />
+		<polygon class="st8" points="869,397.5 869.2,397.5 869.2,398   " /><br />
+		<line class="st4" x1="526.1" y1="377.5" x2="526.1" y2="377.5" /><br />
+		<line class="st4" x1="526.1" y1="398" x2="526.1" y2="398" /><br />
+		<polygon class="st7" points="526.1,397.5 526.2,397.5 526.1,398   " /><br />
+		<polygon class="st8" points="526.1,397.5 526.2,397.5 526.1,398   " /><br />
+		<polygon class="st7" points="526.1,378 526.2,378 526.1,377.5   " /><br />
+		<polygon class="st8" points="526.1,378 526.2,378 526.1,377.5   " /><br />
+		<line class="st4" x1="290.8" y1="537.9" x2="290.8" y2="537.9" /><br />
+		<line class="st4" x1="270.3" y1="537.9" x2="270.3" y2="537.9" /><br />
+		<polygon class="st7" points="270.8,537.9 270.8,538.1 270.3,537.9   " /><br />
+		<polygon class="st8" points="270.8,537.9 270.8,538.1 270.3,537.9   " /><br />
+		<polygon class="st7" points="290.4,537.9 290.4,538.1 290.8,537.9   " /><br />
+		<polygon class="st8" points="290.4,537.9 290.4,538.1 290.8,537.9   " /><br />
+		<line class="st4" x1="294.9" y1="594" x2="295.6" y2="594" /><br />
+		<line class="st4" x1="294.9" y1="614.5" x2="295.6" y2="614.5" /><br />
+		<polygon class="st7" points="295.4,614 295.6,614 295.6,614.5   " /><br />
+		<polygon class="st8" points="295.4,614 295.6,614 295.6,614.5   " /><br />
+		<line class="st4" x1="485.2" y1="614.5" x2="485.1" y2="614.5" /><br />
+		<line class="st4" x1="485.2" y1="594" x2="485.1" y2="594" /><br />
+		<polygon class="st7" points="485.1,614 485.2,614 485.1,614.5   " /><br />
+		<polygon class="st8" points="485.1,614 485.2,614 485.1,614.5   " /><br />
+		<polygon class="st7" points="485.1,594.5 485.2,594.5 485.1,594   " /><br />
+		<polygon class="st8" points="485.1,594.5 485.2,594.5 485.1,594   " /><br />
+		<line class="st4" x1="664.8" y1="594" x2="662.7" y2="594" /><br />
+		<line class="st4" x1="664.8" y1="614.5" x2="662.7" y2="614.5" /><br />
+		<polygon class="st7" points="662.7,594.5 662.9,594.5 662.7,594   " /><br />
+		<polygon class="st8" points="662.7,594.5 662.9,594.5 662.7,594   " /><br />
+		<polygon class="st7" points="662.7,614 662.9,614 662.7,614.5   " /><br />
+		<polygon class="st8" points="662.7,614 662.9,614 662.7,614.5   " /><br />
+		<polygon class="st6" points="1209.8,712.1 1061.5,712.3 1061.5,676.2 1115.6,676.2 1099.6,595.8 1099.6,595.8 1182,578.4   " /><br />
+		<path class="st5" d="M111.8,375.2c-11-1.8-19.6-10.2-21.6-20.9l97.8,0.1h80.5v18l-3,2.9H113.3L111.8,375.2z" /><br />
+	</g><br />
+	<g><br />
+		<text transform="matrix(0.2046 0.9788 -0.9788 0.2046 1065.1937 257.5898)" class="st9 st10">ÁREA DE EQUIPAMIENTO</text><br />
+	</g><br />
+	<g><br />
+		<text transform="matrix(0.2322 0.9727 -0.9727 0.2322 1140.2753 613.7252)" class="st9 st11">ÁREA VERDE</text><br />
+	</g><br />
+</g><br />
+<g id="lotes"><br />
+	<polygon id="DS_72_LOTE_12" class="st12 stItem stVendido" points="268.8,421.7 268.8,491.8 188.3,491.4 188.3,421.7 264.7,421.7  " m2="3889.51" precioTotal="962342.56" costom2="247.42" largo1="67.00" largo2="67.00" fondo="57.86" frente="58.25" nombre="LOTE 12" /><br />
+	<polygon id="DS_72_LOTE_73" class="st12 stItem stVendido" points="965.6,183.5 965.6,279.6 942.1,279.6 942.1,183.5 962.9,183.5  " m2="1565.30" precioTotal="937614.70" costom2="599.00" largo1="80.00" largo2="80.00" fondo="19.57" frente="19.57" nombre="LOTE 73" /><br />
+	<polygon id="DS_72_LOTE_8" class="st12 stItem stVendido" points="268.5,230.2 188,230.2 188,285 268.5,285 268.5,243.9  " m2="3051.78" precioTotal="1828016.22" costom2="599.00" largo1="67.00" largo2="67.00" fondo="45.55" frente="45.55" nombre="LOTE 8" /><br />
+	<polygon id="DS_72_LOTE_7" class="st12 stItem stVendido" points="187.7,251.2 94.2,251.2 92.2,297.9 187.7,297.9 187.7,264.9  " m2="3057.39" precioTotal="700906.65" costom2="229.25" largo1="77.79" largo2="79.33" fondo="38.92" frente="38.95" nombre="LOTE 7" /><br />
+	<path id="DS_72_LOTE_3" class="st12 stItem stVendido" d="M261.7,174.6H188v-55.9h80.5v34c0,0,0.3,2.4-1.8,5C264.7,160.3,260.9,162.9,261.7,174.6z" m2="3051.78" precioTotal="1007087.40" costom2="330.00" largo1="67.00" largo2="61.28" fondo="46.60" frente="28.95" nombre="LOTE 3" /><br />
+	<path id="DS_72_LOTE_2" class="st12 stItem stVendido" d="M268.5,92.8c0-1-0.3-1.9-1-2.7c-10-12.5,1-22.5,1-22.5v-4.9H188v55.8h80.5v-11.9V92.8z" m2="3051.78" precioTotal="1007087.40" costom2="330.00" largo1="67.00" largo2="67.00" fondo="46.36" frente="21.22" nombre="LOTE 2" /><br />
+	<polygon id="DS_72_LOTE_1" class="st12 stItem stVendido" points="188,62.7 188,127 99.3,127 101.9,62.7 183.9,62.7  " m2="3885.80" precioTotal="1282314.00" costom2="330.00" largo1="71.60" largo2="73.72" fondo="53.48" frente="53.52" nombre="LOTE 1" /><br />
+	<path id="DS_72_LOTE_20" class="st12 stItem stVendido" d="M268.8,682.4v-28l-80.5,0.2v58.1h80.5v-5.1c0,0-5-3.1-5-12.6   C264.3,687.1,268.3,686.7,268.8,682.4z" m2="3188.23" precioTotal="1909749.77" costom2="599.00" largo1="67.00" largo2="67.00" fondo="48.37" frente="23.29" nombre="LOTE 20" /><br />
+	<polygon id="DS_72_LOTE_21" class="st12 stItem stVendido" points="188.2,664.4 188.2,712.8 76.3,712.8 76.6,703.6 78.1,664.4 174.5,664.4  " m2="3709.20" precioTotal="1479970.80" costom2="399.00" largo1="91.45" largo2="93.05" fondo="40.21" frente="32.58" nombre="LOTE 21" /><br />
+	<polygon id="DS_72_LOTE_19" class="st12 stItem stVendido" points="188.1,616.1 188.1,664 78,664 80,616.1 174.4,616.1  " m2="3610.02" precioTotal="920555.10" costom2="255.00" largo1="89.87" largo2="91.45" fondo="39.82" frente="39.85" nombre="LOTE 19" /><br />
+	<path id="DS_72_LOTE_18" class="st12 stItem stVendido" d="M268.5,622.2v32.3l-80.5,0.2v-58.1l75.1-0.2c0,0-5.1,7.7,1.7,18.6c0,0,0.6,1.2,2.1,2.6   S268.5,622.2,268.5,622.2z" m2="3141.87" precioTotal="634783.41" costom2="202.04" largo1="62.46" largo2="67.00" fondo="48.21" frente="26.88" nombre="LOTE 18" /><br />
+	<polygon id="DS_72_LOTE_17" class="st12 stItem stVendido" points="188.3,568.7 188.3,616.1 80.2,616.1 82.1,568.7 185.5,568.7  " m2="3510.35" precioTotal="791724.33" costom2="225.54" largo1="88.30" largo2="89.87" fondo="39.40" frente="39.44" nombre="LOTE 17" /><br />
+	<polygon id="DS_72_LOTE_14" class="st12 stItem stVendido" points="268.8,492.3 268.8,538.4 188.3,538.2 188.3,492 263.3,492.3  " m2="2572.02" precioTotal="592724.65" costom2="230.45" largo1="67.00" largo2="67.00" fondo="38.56" frente="38.22" nombre="LOTE 14" /><br />
+	<polygon id="DS_72_LOTE_13" class="st12 stItem stVendido" points="188.2,478.2 85.5,478.2 83.9,520.7 188.2,520.7 188.2,482.3  " m2="3038.09" precioTotal="1090978.11" costom2="359.10" largo1="85.31" largo2="86.71" fondo="35.29" frente="35.35" nombre="LOTE 13" /><br />
+	<path id="DS_72_LOTE_5" class="st12 stItem stVendido" d="M265.6,183.3c0.4,0.5,0.8,1,1.3,1.4c1.3,1.4,1.7,4.1,1.7,4.1v41.3H188v-55.4h73.6   c0,0,0.8,3.2,1.5,4.6C263.8,180.8,264.6,182.1,265.6,183.3" m2="3051.78" precioTotal="1007087.40" costom2="330.00" largo1="61.28" largo2="67.00" fondo="46.08" frente="34.33" nombre="LOTE 5" /><br />
+	<path id="DS_72_LOTE_16" class="st12 stItem stVendido" d="M263,596.5c0,0,1.4-3.7,3.8-5.9c1.7-1.3,1.6-3.7,1.6-3.7v-48.7l-80.5-0.2v58.6L263,596.5" m2="3238.21" precioTotal="710268.98" costom2="219.34" largo1="67.00" largo2="62.46" fondo="48.64" frente="40.47" nombre="LOTE 16" /><br />
+	<path id="DS_72_LOTE_22" class="st12 stItem stVendido" d="M292.7,63.1V68c0,0,4.7,3.9,4.8,11.5c0,9.3-4.5,9.4-4.5,13.6v63l3,3h45V62.9h-48.1" m2="3142.72" precioTotal="2042768.00" costom2="650.00" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="LOTE 22" /><br />
+	<polygon id="DS_72_LOTE_46" class="st12 stItem stVendido" points="295.6,183.6 292.7,186.5 292.7,279.7 317.2,279.8 317.2,183.4  " m2="1596.88" precioTotal="526970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="20.00" frente="17.50" nombre="LOTE 46" /><br />
+	<polygon id="DS_72_LOTE_74" class="st12 stItem stVendido" points="965.6,279.2 965.6,183.1 986.5,183.1 988.9,184.8 1008.8,279.2 969.7,279.2  " m2="2198.76" precioTotal="552570.37" costom2="251.31" largo1="80.00" largo2="80.26" fondo="35.88" frente="17.27" nombre="LOTE 74" /><br />
+	<polygon id="DS_72_LOTE_76" class="st12 stItem stVendido" points="389.1,279.5 389.1,375.6 340.9,375.6 340.9,279.5 385,279.5  " m2="3200.00" precioTotal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 76" /><br />
+	<polygon id="DS_72_LOTE_124" class="st12 stItem stApartado" points="437.5,616.3 437.5,712.4 389.2,712.4 389.2,616.3 433.4,616.3  " m2="3200.00" precioTotal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 124" /><br />
+	<polygon id="DS_72_LOTE_123" class="st12 stItem stVendido" points="389.1,616.3 389.1,712.4 340.9,712.4 340.9,616.3 385,616.3  " m2="3200.00" precioTotal="754464.00" costom2="235.77" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 123" /><br />
+	<polygon id="DS_72_LOTE_91" class="st12 stItem stVendido" points="388.9,399.6 388.9,495.8 340.7,495.8 340.7,399.6 384.8,399.6  " m2="3200.00" precioTotal="1276800.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 91" /><br />
+	<polygon id="DS_72_LOTE_75" class="st12 stItem stVendido" points="340.7,279.4 340.7,375.7 295.6,375.7 292.7,372.7 292.7,279.4 316.8,279.4    336.6,279.4  " m2="3196.88" precioTotal="1054970.40" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="LOTE 75" /><br />
+	<polygon id="DS_72_LOTE_11" class="st12 stItem stVendido" points="187.8,421.8 187.8,478.2 85.2,478.2 87.5,421.8 174.2,421.8  " m2="3958.47" precioTotal="900000.00" costom2="227.36" largo1="83.45" largo2="85.31" fondo="46.91" frente="46.95" nombre="LOTE 11" /><br />
+	<polygon id="DS_72_LOTE_9" class="st12 stItem stVendido" points="187.7,297.9 187.7,354.4 89.9,354.4 92.2,297.9 174,297.9  " m2="3794.20" precioTotal="1252086.00" costom2="330.00" largo1="79.33" largo2="81.21" fondo="47.27" frente="47.31" nombre="LOTE 9" /><br />
+	<polygon id="DS_72_LOTE_10" class="st12 stItem stVendido" points="268.5,285 268.5,354.4 188,354.4 188,285 263.7,285  " m2="3863.89" precioTotal="1275083.70" costom2="330.00" largo1="67.00" largo2="67.00" fondo="57.67" frente="57.67" nombre="LOTE 10" /><br />
+	<path id="DS_72_LOTE_151" class="st12 stItem stVendido" d="M1115.9,676.3l-54.4-0.1v-43v-16.7l12.3-0.2c0,0,19.8-0.7,26.9-15.8L1115.9,676.3z" m2="2085.23" precioTotal="750682.80" costom2="360.00" largo1="63.14" largo2="50.00" fondo="44.98" frente="10.00" nombre="LOTE 151" /><br />
+	<polygon id="DS_72_LOTE_23" class="st12 stItem stVendido" points="389.3,63.2 389.3,159.3 341.1,159.3 341.1,63.2 385.2,63.2  " m2="3200.00" precioTotal="2080000.00" costom2="650.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 23" /><br />
+	<polygon id="DS_72_LOTE_77" class="st12 stItem stVendido" points="437.5,279.5 437.5,375.6 389.3,375.6 389.3,279.5 433.4,279.5  " m2="3200.00" precioTotal="1916800.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 77" /><br />
+	<polygon id="DS_72_LOTE_78" class="st12 stItem stVendido" points="485.1,279.5 485.1,375.6 436.9,375.6 436.9,279.5 481,279.5  " m2="3200.00" precioTotal="2236800.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 78" /><br />
+	<polygon id="DS_72_LOTE_93" class="st12 stItem stVendido" points="479.6,399.6 479.6,495.8 434.7,495.8 434.7,399.6 475.8,399.6  " m2="3020.00" precioTotal="2110980.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="LOTE 93" /><br />
+	<polygon id="DS_72_LOTE_92" class="st12 stItem stVendido" points="434.6,399.6 434.6,495.9 388.9,496 388.9,399.6 430.3,399.6  " m2="3020.00" precioTotal="3016980.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="37.75" frente="37.75" nombre="LOTE 92" /><br />
+	<polygon id="DS_72_LOTE_79" class="st12 stItem stDisponible" points="533.4,279.5 533.4,375.6 485.2,375.6 485.2,279.5 529.3,279.5  " m2="3200.00" precioTotal="3356800.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 79" /><br />
+	<polygon id="DS_72_LOTE_80" class="st12 stItem stVendido" points="581.6,279.5 581.6,375.6 533.4,375.6 533.4,279.5 577.5,279.5  " m2="3200.00" precioTotal="1596800.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 80" /><br />
+	<polygon id="DS_72_LOTE_81" class="st12 stItem stVendido" points="629.5,279.5 629.5,375.6 581.3,375.6 581.3,279.5 625.4,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 81" /><br />
+	<polygon id="DS_72_LOTE_82" class="st12 stItem stVendido" points="677.7,279.5 677.7,375.6 629.4,375.6 629.4,279.5 673.6,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 82" /><br />
+	<polygon id="DS_72_LOTE_83" class="st12 stItem stVendido" points="725.9,279.5 725.9,375.6 677.7,375.6 677.7,279.5 721.8,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 83" /><br />
+	<polygon id="DS_72_LOTE_84" class="st12 stItem stVendido" points="773.5,279.5 773.5,375.6 725.3,375.6 725.3,279.5 769.4,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 84" /><br />
+	<polygon id="DS_72_LOTE_85" class="st12 stItem stVendido" points="822.1,279.5 822.1,375.6 773.9,375.6 773.9,279.5 818,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 85" /><br />
+	<polygon id="DS_72_LOTE_86" class="st12 stItem stVendido" points="869.7,279.5 869.7,375.6 821.5,375.6 821.5,279.5 865.6,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 86" /><br />
+	<polygon id="DS_72_LOTE_87" class="st12 stItem stVendido" points="918.3,279.5 918.3,375.6 870.1,375.6 870.1,279.5 914.2,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 87" /><br />
+	<polygon id="DS_72_LOTE_88" class="st12 stItem stVendido" points="966,279.5 966,375.6 917.7,375.6 917.7,279.5 961.9,279.5  " m2="3200.00" precioTotal="576000.00" costom2="180.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 88" /><br />
+	<polygon id="DS_72_LOTE_24" class="st12 stItem stVendido" points="437.5,62.9 437.5,159 389.3,159 389.3,62.9 433.4,62.9  " m2="3200.00" precioTotal="1056000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="40.00" frente="40.00" nombre="LOTE 24" /><br />
+	<polygon id="DS_72_LOTE_90" class="st12 stItem stVendido" points="340.7,399.6 340.7,495.8 292.7,495.8 292.7,402.6 295.6,399.6 336.6,399.6  " m2="3196.87" precioTotal="1054967.10" costom2="330.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="LOTE 90" /><br />
+	<polygon id="DS_72_LOTE_94" class="st12 stItem stDisponible" points="525.9,399.6 525.9,495.8 479.6,495.8 479.6,399.6 521.8,399.6  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 94" /><br />
+	<polygon id="DS_72_LOTE_95" class="st12 stItem stVendido" points="572.2,399.8 572.2,495.9 526,495.9 526,399.8 568.1,399.8  " m2="3080.00" precioTotal="3076920.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 95" /><br />
+	<polygon id="DS_72_LOTE_98" class="st12 stItem stDisponible" points="711.2,399.8 711.2,495.9 664.9,495.9 664.9,399.8 707.1,399.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 98" /><br />
+	<polygon id="DS_72_LOTE_96" class="st12 stItem stDisponible" points="618.5,399.7 618.5,495.8 572.3,495.8 572.3,399.7 614.4,399.7  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 96" /><br />
+	<polygon id="DS_72_LOTE_97" class="st12 stItem stDisponible" points="664.9,399.9 664.9,496 618.6,496 618.6,399.9 660.8,399.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 97" /><br />
+	<polygon id="DS_72_LOTE_99" class="st12 stItem stDisponible" points="757.5,399.7 757.5,495.8 711.2,495.8 711.2,399.7 753.4,399.7  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 99" /><br />
+	<polygon id="DS_72_LOTE_100" class="st12 stItem stDisponible" points="803.8,399.8 803.8,496 757.5,496 757.5,399.8 799.7,399.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 100" /><br />
+	<polygon id="DS_72_LOTE_103" class="st12 stItem stDisponible" points="942.7,399.8 942.7,496 896.5,496 896.5,399.8 938.6,399.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 103" /><br />
+	<polygon id="DS_72_LOTE_104" class="st12 stItem stVendido" points="989.1,399.6 989.1,495.8 942.8,495.8 942.8,399.6 985,399.6  " m2="3080.00" precioTotal="2152920.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 104" /><br />
+	<polygon id="DS_72_LOTE_101" class="st12 stItem stDisponible" points="850.1,399.8 850.1,495.9 803.8,495.9 803.8,399.8 846,399.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 101" /><br />
+	<polygon id="DS_72_LOTE_102" class="st12 stItem stDisponible" points="896.4,399.9 896.4,496 850.2,496 850.2,399.9 892.3,399.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 102" /><br />
+	<polygon id="DS_72_LOTE_110" class="st12 stItem stDisponible" points="525.9,495.8 525.9,591.9 479.6,591.9 479.6,495.8 521.8,495.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 110" /><br />
+	<polygon id="DS_72_LOTE_111" class="st12 stItem stDisponible" points="572.2,495.9 572.2,592.1 526,592.1 526,495.9 568.1,495.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 111" /><br />
+	<polygon id="DS_72_LOTE_114" class="st12 stItem stDisponible" points="711.2,495.9 711.2,592.1 664.9,592.1 664.9,495.9 707.1,495.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 114" /><br />
+	<polygon id="DS_72_LOTE_112" class="st12 stItem stDisponible" points="618.5,495.9 618.5,592 572.3,592 572.3,495.9 614.4,495.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 112" /><br />
+	<polygon id="DS_72_LOTE_107" class="st12 stItem stVendido" points="387.6,496 387.6,592.1 340.4,592.1 340.4,496 383.5,496  " m2="3080.00" precioTotal="1844920.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 107" /><br />
+	<polygon id="DS_72_LOTE_108" class="st12 stItem stDisponible" points="434,496.1 434,592.3 387.7,592.3 387.7,496.1 429.9,496.1  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 108" /><br />
+	<polygon id="DS_72_LOTE_109" class="st12 stItem stDisponible" points="480.3,496.1 480.3,592.2 434,592.2 434,496.1 476.2,496.1  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 109" /><br />
+	<polygon id="DS_72_LOTE_113" class="st12 stItem stDisponible" points="664.9,496 664.9,592.1 618.6,592.1 618.6,496 660.8,496  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 113" /><br />
+	<polygon id="DS_72_LOTE_115" class="st12 stItem stDisponible" points="757.5,495.8 757.5,591.9 711.2,591.9 711.2,495.8 753.4,495.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 115" /><br />
+	<polygon id="DS_72_LOTE_116" class="st12 stItem stDisponible" points="803.8,496 803.8,592.1 757.5,592.1 757.5,496 799.7,496  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 116" /><br />
+	<polygon id="DS_72_LOTE_119" class="st12 stItem stDisponible" points="942.7,496 942.7,592.1 896.5,592.1 896.5,496 938.6,496  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 119" /><br />
+	<polygon id="DS_72_LOTE_120" class="st12 stItem stDisponible" points="989.1,495.8 989.1,591.9 942.8,591.9 942.8,495.8 985,495.8  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 120" /><br />
+	<polygon id="DS_72_LOTE_117" class="st12 stItem stDisponible" points="850.1,495.9 850.1,592 803.8,592 803.8,495.9 846,495.9  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 117" /><br />
+	<polygon id="DS_72_LOTE_118" class="st12 stItem stDisponible" points="896.4,496.1 896.4,592.2 850.2,592.2 850.2,496.1 892.3,496.1  " m2="3080.00" precioTotal="3230920.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="38.50" frente="38.50" nombre="LOTE 118" /><br />
+	<polygon id="DS_72_LOTE_106" class="st12 stItem stVendido" points="340.7,495.7 340.7,592 295.6,592 292.7,589 292.7,495.7 336.6,495.7  " m2="3196.87" precioTotal="1914925.13" costom2="599.00" largo1="77.50" largo2="80.00" fondo="40.00" frente="37.50" nombre="LOTE 106" /><br />
+	<path id="DS_72_LOTE_122" class="st12 stItem stVendido" d="M292.5,619.3l3-3.1h45.1v96.1h-48.1v-5.1c0,0,4.7-3.2,4.8-12.4c0-7.9-4.9-8.1-4.8-13.2   C292.7,676.5,292.5,619.3,292.5,619.3z" m2="3142.72" precioTotal="804002.05" costom2="255.83" largo1="80.00" largo2="52.36" fondo="40.00" frente="37.50" nombre="LOTE 122" /><br />
+	<polygon id="DS_72_LOTE_45" class="st12 stItem stVendido" points="918.2,158.6 918.2,98.4 995.6,98.4 1008.2,158.6 920.9,158.6  " m2="3488.47" precioTotal="1151195.10" costom2="330.00" largo1="50.08" largo2="51.12" fondo="64.45" frente="74.93" nombre="LOTE 45" /><br />
+	<polygon id="DS_72_LOTE_25" class="st12 stItem stVendido" points="460.9,62.9 460.9,159.3 436.9,159.3 436.9,62.9 459.6,62.9  " m2="1600.00" precioTotal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 25" /><br />
+	<polygon id="DS_72_LOTE_26" class="st12 stItem stVendido" points="485,62.9 485,159.3 461,159.3 461,62.9 483.6,62.9  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 26" /><br />
+	<polygon id="DS_72_LOTE_27" class="st12 stItem stVendido" points="509,62.8 509,159.2 485,159.2 485,62.8 507.7,62.8  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 27" /><br />
+	<polygon id="DS_72_LOTE_28" class="st12 stItem stVendido" points="533.1,62.8 533.1,159.2 509.1,159.2 509.1,62.8 531.7,62.8  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 28" /><br />
+	<polygon id="DS_72_LOTE_29" class="st12 stItem stVendido" points="557.1,62.8 557.1,159.2 533.1,159.2 533.1,62.8 555.8,62.8  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 29" /><br />
+	<polygon id="DS_72_LOTE_30" class="st12 stItem stDisponible" points="581.2,62.8 581.2,159.2 557.2,159.2 557.2,62.8 579.8,62.8  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 30" /><br />
+	<polygon id="DS_72_LOTE_31" class="st12 stItem stDisponible" points="605.2,62.7 605.2,159.1 581.2,159.1 581.2,62.7 603.9,62.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 31" /><br />
+	<polygon id="DS_72_LOTE_32" class="st12 stItem stDisponible" points="629.3,62.7 629.3,159.1 605.3,159.1 605.3,62.7 627.9,62.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 32" /><br />
+	<polygon id="DS_72_LOTE_33" class="st12 stItem stDisponible" points="653.5,62.5 653.5,158.9 629.5,158.9 629.5,62.5 652.1,62.5  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 33" /><br />
+	<polygon id="DS_72_LOTE_34" class="st12 stItem stDisponible" points="677.6,62.5 677.6,158.9 653.5,158.9 653.5,62.5 676.2,62.5  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 34" /><br />
+	<polygon id="DS_72_LOTE_35" class="st12 stItem stDisponible" points="701.6,62.4 701.6,158.8 677.6,158.8 677.6,62.4 700.2,62.4  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 35" /><br />
+	<polygon id="DS_72_LOTE_36" class="st12 stItem stDisponible" points="725.7,62.4 725.7,158.8 701.6,158.8 701.6,62.4 724.3,62.4  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 36" /><br />
+	<polygon id="DS_72_LOTE_37" class="st12 stItem stDisponible" points="749.7,62.5 749.7,158.9 725.7,158.9 725.7,62.5 748.3,62.5  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 37" /><br />
+	<polygon id="DS_72_LOTE_38" class="st12 stItem stDisponible" points="773.8,62.5 773.8,158.9 749.7,158.9 749.7,62.5 772.4,62.5  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 38" /><br />
+	<polygon id="DS_72_LOTE_41" class="st12 stItem stDisponible" points="845.8,62.4 845.8,158.8 821.7,158.8 821.7,62.4 844.4,62.4  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 41" /><br />
+	<polygon id="DS_72_LOTE_42" class="st12 stItem stVendido" points="869.8,62.4 869.8,158.8 845.8,158.8 845.8,62.4 868.5,62.4  " m2="1600.00" precioTotal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 42" /><br />
+	<polygon id="DS_72_LOTE_43" class="st12 stItem stVendido" points="893.9,62.4 893.9,158.8 869.8,158.8 869.8,62.4 892.5,62.4  " m2="1600.00" precioTotal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 43" /><br />
+	<polygon id="DS_72_LOTE_44" class="st12 stItem stVendido" points="917.9,62.4 917.9,158.8 893.9,158.8 893.9,62.4 916.6,62.4  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 44" /><br />
+	<polygon id="DS_72_LOTE_39" class="st12 stItem stDisponible" points="797.8,62.3 797.8,158.7 773.8,158.7 773.8,62.3 796.4,62.3  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 39" /><br />
+	<polygon id="DS_72_LOTE_40" class="st12 stItem stDisponible" points="821.9,62.3 821.9,158.7 797.8,158.7 797.8,62.3 820.5,62.3  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 40" /><br />
+	<polygon id="DS_72_LOTE_69" class="st12 stItem stDisponible" points="869.9,183.3 869.9,279.7 845.9,279.7 845.9,183.3 868.6,183.3  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 69" /><br />
+	<polygon id="DS_72_LOTE_70" class="st12 stItem stVendido" points="894,183.3 894,279.7 870,279.7 870,183.3 892.6,183.3  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 70" /><br />
+	<polygon id="DS_72_LOTE_71" class="st12 stItem stVendido" points="918,183.3 918,279.8 894,279.8 894,183.3 916.7,183.3  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 71" /><br />
+	<polygon id="DS_72_LOTE_72" class="st12 stItem stVendido" points="942.1,183.3 942.1,279.8 918.1,279.8 918.1,183.3 940.7,183.3  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 72" /><br />
+	<polygon id="DS_72_LOTE_67" class="st12 stItem stDisponible" points="822,183.2 822,279.6 797.9,279.6 797.9,183.2 820.6,183.2  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 67" /><br />
+	<polygon id="DS_72_LOTE_68" class="st12 stItem stDisponible" points="846,183.2 846,279.6 822,279.6 822,183.2 844.7,183.2  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 68" /><br />
+	<polygon id="DS_72_LOTE_47" class="st12 stItem stVendido" points="341.2,183.4 341.2,279.8 317.2,279.8 317.2,183.4 339.9,183.4  " m2="1600.00" precioTotal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 47" /><br />
+	<polygon id="DS_72_LOTE_48" class="st12 stItem stVendido" points="365.3,183.4 365.3,279.8 341.3,279.8 341.3,183.4 363.9,183.4  " m2="1600.00" precioTotal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 48" /><br />
+	<polygon id="DS_72_LOTE_49" class="st12 stItem stVendido" points="389.3,183.3 389.3,279.7 365.3,279.7 365.3,183.3 388,183.3  " m2="1600.00" precioTotal="528000.00" costom2="330.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 49" /><br />
+	<polygon id="DS_72_LOTE_50" class="st12 stItem stVendido" points="413.4,183.3 413.4,279.7 389.4,279.7 389.4,183.3 412,183.3  " m2="1600.00" precioTotal="1598400.00" costom2="999.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 50" /><br />
+	<polygon id="DS_72_LOTE_51" class="st12 stItem stVendido" points="437.4,183.4 437.4,279.8 413.4,279.8 413.4,183.4 436.1,183.4  " m2="1600.00" precioTotal="520000.00" costom2="325.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 51" /><br />
+	<polygon id="DS_72_LOTE_52" class="st12 stItem stVendido" points="461.5,183.4 461.5,279.8 437.5,279.8 437.5,183.4 460.1,183.4  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 52" /><br />
+	<polygon id="DS_72_LOTE_53" class="st12 stItem stVendido" points="485.5,183.2 485.5,279.6 461.5,279.6 461.5,183.2 484.2,183.2  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 53" /><br />
+	<polygon id="DS_72_LOTE_54" class="st12 stItem stVendido" points="509.6,183.2 509.6,279.6 485.6,279.6 485.6,183.2 508.2,183.2  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 54" /><br />
+	<polygon id="DS_72_LOTE_55" class="st12 stItem stVendido" points="533.8,183.1 533.8,279.5 509.8,279.5 509.8,183.1 532.4,183.1  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 55" /><br />
+	<polygon id="DS_72_LOTE_56" class="st12 stItem stVendido" points="557.9,183.1 557.9,279.5 533.8,279.5 533.8,183.1 556.5,183.1  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 56" /><br />
+	<polygon id="DS_72_LOTE_57" class="st12 stItem stVendido" points="581.9,182.9 581.9,279.3 557.9,279.3 557.9,182.9 580.5,182.9  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 57" /><br />
+	<polygon id="DS_72_LOTE_58" class="st12 stItem stVendido" points="606,182.9 606,279.3 581.9,279.3 581.9,182.9 604.6,182.9  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 58" /><br />
+	<polygon id="DS_72_LOTE_59" class="st12 stItem stVendido" points="630,183 630,279.4 606,279.4 606,183 628.6,183  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 59" /><br />
+	<polygon id="DS_72_LOTE_60" class="st12 stItem stVendido" points="654.1,183 654.1,279.4 630,279.4 630,183 652.7,183  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 60" /><br />
+	<polygon id="DS_72_LOTE_63" class="st12 stItem stVendido" points="726.1,182.9 726.1,279.3 702,279.3 702,182.9 724.7,182.9  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 63" /><br />
+	<polygon id="DS_72_LOTE_64" class="st12 stItem stVendido" points="750.1,182.9 750.1,279.3 726.1,279.3 726.1,182.9 748.8,182.9  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 64" /><br />
+	<polygon id="DS_72_LOTE_65" class="st12 stItem stVendido" points="774.2,183 774.2,279.4 750.1,279.4 750.1,183 772.8,183  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 65" /><br />
+	<polygon id="DS_72_LOTE_66" class="st12 stItem stDisponible" points="798.2,183 798.2,279.4 774.2,279.4 774.2,183 796.9,183  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 66" /><br />
+	<polygon id="DS_72_LOTE_61" class="st12 stItem stVendido" points="678.1,182.9 678.1,279.3 654.1,279.3 654.1,182.9 676.7,182.9  " m2="1600.00" precioTotal="638400.00" costom2="399.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 61" /><br />
+	<polygon id="DS_72_LOTE_62" class="st12 stItem stDisponible" points="702.2,182.9 702.2,279.3 678.1,279.3 678.1,182.9 700.8,182.9  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 62" /><br />
+	<polygon id="DS_72_LOTE_4" class="st12 stItem stVendido" points="188,126.8 189,190.2 96.5,190.2 99.3,126.8 174.3,126.8  " m2="3885.80" precioTotal="1006888.49" costom2="259.12" largo1="73.72" largo2="75.78" fondo="51.98" frente="52.02" nombre="LOTE 4" /><br />
+	<polygon id="DS_72_LOTE_6" class="st12 stItem stVendido" points="188,190.2 188,251 94.2,251 96.5,190.2 174.3,190.2  " m2="3885.80" precioTotal="1550434.20" costom2="399.00" largo1="75.78" largo2="77.79" fondo="50.61" frente="50.64" nombre="LOTE 6" /><br />
+	<polygon id="DS_72_LOTE_15" class="st12 stItem stVendido" points="188.1,520.7 188.1,568.8 82,568.8 83.8,520.7 182.6,520.7  " m2="3497.58" precioTotal="769957.26" costom2="220.14" largo1="86.71" largo2="88.30" fondo="39.97" frente="40.00" nombre="LOTE 15" /><br />
+	<polygon id="DS_72_LOTE_89" class="st12 stItem stVendido" points="1008.4,279.4 989.9,279.4 965.8,279.4 965.8,375.7 1026,375.7 1028.1,373.1    1009.6,284.9  " m2="3503.17" precioTotal="630570.60" costom2="180.00" largo1="80.00" largo2="75.35" fondo="35.88" frente="50.00" nombre="LOTE 89" /><br />
+	<polygon id="DS_72_LOTE_105" class="st12 stItem stVendido" points="1034.5,401.9 1054,495.8 989.1,495.8 989.1,399.6 1031.6,399.6  " m2="3658.74" precioTotal="1459837.26" costom2="399.00" largo1="80.00" largo2="79.74" fondo="54.13" frente="35.38" nombre="LOTE 105" /><br />
+	<polygon id="DS_72_LOTE_121" class="st12 stItem stVendido" points="1054.3,495.8 989.3,495.8 989.3,592.1 1071.2,592.1 1073.8,588.8 1055.7,502.7     " m2="4996.92" precioTotal="1993771.08" costom2="399.00" largo1="80.00" largo2="78.99" fondo="54.13" frente="68.14" nombre="LOTE 121" /><br />
+	<polygon id="DS_72_LOTE_146" class="st12 stItem stVendido" points="965.5,616.2 965.5,712.3 942,712.3 942,616.2 962.8,616.2  " m2="1600.00" precioTotal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 146" /><br />
+	<polygon id="DS_72_LOTE_142" class="st12 stItem stDisponible" points="869.8,616 869.8,712.4 845.8,712.4 845.8,616 868.5,616  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 142" /><br />
+	<polygon id="DS_72_LOTE_143" class="st12 stItem stDisponible" points="893.9,616 893.9,712.4 869.9,712.4 869.9,616 892.5,616  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 143" /><br />
+	<polygon id="DS_72_LOTE_144" class="st12 stItem stDisponible" points="917.9,616 917.9,712.5 893.9,712.5 893.9,616 916.6,616  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 144" /><br />
+	<polygon id="DS_72_LOTE_145" class="st12 stItem stVendido" points="942,616 942,712.5 918,712.5 918,616 940.6,616  " m2="1600.00" precioTotal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 145" /><br />
+	<polygon id="DS_72_LOTE_140" class="st12 stItem stDisponible" points="821.9,615.9 821.9,712.3 797.8,712.3 797.8,615.9 820.5,615.9  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 140" /><br />
+	<polygon id="DS_72_LOTE_141" class="st12 stItem stDisponible" points="845.9,615.9 845.9,712.3 821.9,712.3 821.9,615.9 844.6,615.9  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 141" /><br />
+	<polygon id="DS_72_LOTE_125" class="st12 stItem stVendido" points="461.4,616.1 461.4,712.5 437.4,712.5 437.4,616.1 460,616.1  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 125" /><br />
+	<polygon id="DS_72_LOTE_126" class="st12 stItem stVendido" points="485.4,615.9 485.4,712.3 461.4,712.3 461.4,615.9 484.1,615.9  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 126" /><br />
+	<polygon id="DS_72_LOTE_127" class="st12 stItem stVendido" points="509.5,615.9 509.5,712.3 485.5,712.3 485.5,615.9 508.1,615.9  " m2="1600.00" precioTotal="1118400.00" costom2="699.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 127" /><br />
+	<polygon id="DS_72_LOTE_128" class="st12 stItem stDisponible" points="533.7,615.8 533.7,712.2 509.7,712.2 509.7,615.8 532.3,615.8  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 128" /><br />
+	<polygon id="DS_72_LOTE_129" class="st12 stItem stDisponible" points="557.8,615.8 557.8,712.2 533.7,712.2 533.7,615.8 556.4,615.8  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 129" /><br />
+	<polygon id="DS_72_LOTE_130" class="st12 stItem stDisponible" points="581.8,615.6 581.8,712 557.8,712 557.8,615.6 580.4,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 130" /><br />
+	<polygon id="DS_72_LOTE_131" class="st12 stItem stDisponible" points="605.9,615.6 605.9,712 581.8,712 581.8,615.6 604.5,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 131" /><br />
+	<polygon id="DS_72_LOTE_132" class="st12 stItem stDisponible" points="629.9,615.7 629.9,712.1 605.9,712.1 605.9,615.7 628.5,615.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 132" /><br />
+	<polygon id="DS_72_LOTE_133" class="st12 stItem stDisponible" points="654,615.7 654,712.1 629.9,712.1 629.9,615.7 652.6,615.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 133" /><br />
+	<polygon id="DS_72_LOTE_136" class="st12 stItem stDisponible" points="726,615.6 726,712 701.9,712 701.9,615.6 724.6,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 136" /><br />
+	<polygon id="DS_72_LOTE_137" class="st12 stItem stDisponible" points="750,615.6 750,712 726,712 726,615.6 748.7,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 137" /><br />
+	<polygon id="DS_72_LOTE_138" class="st12 stItem stDisponible" points="774.1,615.7 774.1,712.1 750,712.1 750,615.7 772.7,615.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 138" /><br />
+	<polygon id="DS_72_LOTE_139" class="st12 stItem stDisponible" points="798.1,615.7 798.1,712.1 774.1,712.1 774.1,615.7 796.8,615.7  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 139" /><br />
+	<polygon id="DS_72_LOTE_134" class="st12 stItem stDisponible" points="678,615.6 678,712 654,712 654,615.6 676.6,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 134" /><br />
+	<polygon id="DS_72_LOTE_135" class="st12 stItem stDisponible" points="702.1,615.6 702.1,712 678,712 678,615.6 700.7,615.6  " m2="1600.00" precioTotal="1678400.00" costom2="1049.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 135" /><br />
+	<polygon id="DS_72_LOTE_150" class="st12 stItem stVendido" points="1061,616.2 1061,712.3 1037.5,712.3 1037.5,616.2 1058.3,616.2  " m2="1600.00" precioTotal="958400.00" costom2="599.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 150" /><br />
+	<polygon id="DS_72_LOTE_147" class="st12 stItem stVendido" points="989.4,616 989.4,712.4 965.4,712.4 965.4,616 988,616  " m2="1600.00" precioTotal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 147" /><br />
+	<polygon id="DS_72_LOTE_148" class="st12 stItem stVendido" points="1013.4,616 1013.4,712.5 989.4,712.5 989.4,616 1012.1,616  " m2="1600.00" precioTotal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 148" /><br />
+	<polygon id="DS_72_LOTE_149" class="st12 stItem stVendido" points="1037.5,616 1037.5,712.5 1013.5,712.5 1013.5,616 1036.1,616  " m2="1600.00" precioTotal="798400.00" costom2="499.00" largo1="80.00" largo2="80.00" fondo="20.00" frente="20.00" nombre="LOTE 149" /><br />
+</g><br />
+<g id="texto"><br />
+	<text transform="matrix(0 -1 1 0 1047.3412 682.5508)" class="st13 st14">LOTE 150 </text><br />
+	<text transform="matrix(0 -1 1 0 1055.5413 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 1022.6164 682.5508)" class="st13 st14">LOTE 149 </text><br />
+	<text transform="matrix(0 -1 1 0 1030.8164 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 998.669 682.5508)" class="st13 st14">LOTE 148 </text><br />
+	<text transform="matrix(0 -1 1 0 1006.869 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 974.6551 682.5508)" class="st13 st14">LOTE 147</text><br />
+	<text transform="matrix(0 -1 1 0 982.8551 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 855.1503 682.5508)" class="st13 st14">LOTE 142 </text><br />
+	<text transform="matrix(0 -1 1 0 863.3503 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 831.2373 682.5508)" class="st13 st14">LOTE 141 </text><br />
+	<text transform="matrix(0 -1 1 0 839.4373 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 807.29 682.5508)" class="st13 st14">LOTE 140 </text><br />
+	<text transform="matrix(0 -1 1 0 815.49 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 784.6462 682.5508)" class="st13 st14">LOTE139 </text><br />
+	<text transform="matrix(0 -1 1 0 792.8462 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 760.6989 682.5508)" class="st13 st14">LOTE 138 </text><br />
+	<text transform="matrix(0 -1 1 0 768.8988 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 736.6848 682.5508)" class="st13 st14">LOTE 137 </text><br />
+	<text transform="matrix(0 -1 1 0 744.8848 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 712.7373 682.5508)" class="st13 st14">LOTE 136 </text><br />
+	<text transform="matrix(0 -1 1 0 720.9373 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 688.8243 682.5508)" class="st13 st14">LOTE 135 </text><br />
+	<text transform="matrix(0 -1 1 0 697.0243 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 664.877 682.5508)" class="st13 st14">LOTE 134 </text><br />
+	<text transform="matrix(0 -1 1 0 673.0769 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 640.863 682.5508)" class="st13 st14">LOTE 133 </text><br />
+	<text transform="matrix(0 -1 1 0 649.063 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 616.9156 682.5508)" class="st13 st14">LOTE 132 </text><br />
+	<text transform="matrix(0 -1 1 0 625.1156 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 592.2485 682.5508)" class="st13 st14">LOTE 131 </text><br />
+	<text transform="matrix(0 -1 1 0 600.4485 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 568.3011 682.5508)" class="st13 st14">LOTE 130 </text><br />
+	<text transform="matrix(0 -1 1 0 576.5011 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 544.2871 682.5508)" class="st13 st14">LOTE 129 </text><br />
+	<text transform="matrix(0 -1 1 0 552.4872 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 520.3398 682.5508)" class="st13 st14">LOTE 128 </text><br />
+	<text transform="matrix(0 -1 1 0 528.5398 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 496.5237 682.5508)" class="st13 st14">LOTE 127 </text><br />
+	<text transform="matrix(0 -1 1 0 504.7238 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 472.5762 682.5508)" class="st13 st14">LOTE 126 </text><br />
+	<text transform="matrix(0 -1 1 0 480.7761 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 448.5623 682.5508)" class="st13 st14">LOTE 125 </text><br />
+	<text transform="matrix(0 -1 1 0 456.7622 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 425.2786 248.5605)" class="st13 st14">LOTE 51</text><br />
+	<text transform="matrix(0 -1 1 0 433.4786 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 400.6113 248.5605)" class="st13 st14">LOTE 50</text><br />
+	<text transform="matrix(0 -1 1 0 408.8113 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 376.6641 248.5605)" class="st13 st14">LOTE 49</text><br />
+	<text transform="matrix(0 -1 1 0 384.8641 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 352.6501 248.5605)" class="st13 st14">LOTE 48</text><br />
+	<text transform="matrix(0 -1 1 0 360.8501 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 328.7026 248.5605)" class="st13 st14">LOTE 47</text><br />
+	<text transform="matrix(0 -1 1 0 336.9026 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 303.4586 248.5605)" class="st13 st14">LOTE 46</text><br />
+	<text transform="matrix(0 -1 1 0 311.6586 253.3604)" class="st15 st9 st16">1,596.88 M2</text><br />
+	<text transform="matrix(1 0 0 1 941.22 127.1465)" class="st13 st17">LOTE 45</text><br />
+	<text transform="matrix(1 0 0 1 935.42 137.5465)" class="st9 st18">3,488.47 M2</text><br />
+	<text transform="matrix(0 -1 1 0 904.1943 126.5693)" class="st13 st14">LOTE 44</text><br />
+	<text transform="matrix(0 -1 1 0 912.3943 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 880.2469 126.5693)" class="st13 st14">LOTE 43</text><br />
+	<text transform="matrix(0 -1 1 0 888.4469 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 856.233 126.5693)" class="st13 st14">LOTE 42</text><br />
+	<text transform="matrix(0 -1 1 0 864.433 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 832.2856 126.5693)" class="st13 st14">LOTE 41</text><br />
+	<text transform="matrix(0 -1 1 0 840.4856 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 808.3726 126.5693)" class="st13 st14">LOTE 40</text><br />
+	<text transform="matrix(0 -1 1 0 816.5726 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 784.4252 126.5693)" class="st13 st14">LOTE 39</text><br />
+	<text transform="matrix(0 -1 1 0 792.6252 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 760.4113 126.5693)" class="st13 st14">LOTE 38</text><br />
+	<text transform="matrix(0 -1 1 0 768.6113 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 736.4639 126.5693)" class="st13 st14">LOTE 37</text><br />
+	<text transform="matrix(0 -1 1 0 744.6639 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 711.7966 126.5693)" class="st13 st14">LOTE 36</text><br />
+	<text transform="matrix(0 -1 1 0 719.9966 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 687.8492 126.5693)" class="st13 st14">LOTE 35</text><br />
+	<text transform="matrix(0 -1 1 0 696.0492 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 663.8353 126.5693)" class="st13 st14">LOTE 34</text><br />
+	<text transform="matrix(0 -1 1 0 672.0353 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 639.8879 126.5693)" class="st13 st14">LOTE 33</text><br />
+	<text transform="matrix(0 -1 1 0 648.0879 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 616.0718 126.5693)" class="st13 st14">LOTE 32</text><br />
+	<text transform="matrix(0 -1 1 0 624.2718 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 592.1244 126.5693)" class="st13 st14">LOTE 31</text><br />
+	<text transform="matrix(0 -1 1 0 600.3244 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 568.1105 126.5693)" class="st13 st14">LOTE 30</text><br />
+	<text transform="matrix(0 -1 1 0 576.3105 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 544.1631 126.5693)" class="st13 st14">LOTE 29</text><br />
+	<text transform="matrix(0 -1 1 0 552.363 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 519.4958 126.5693)" class="st13 st14">LOTE 28</text><br />
+	<text transform="matrix(0 -1 1 0 527.6958 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 495.5485 126.5693)" class="st13 st14">LOTE 27</text><br />
+	<text transform="matrix(0 -1 1 0 503.7485 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 471.5347 126.5693)" class="st13 st14">LOTE 26</text><br />
+	<text transform="matrix(0 -1 1 0 479.7347 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 447.7872 126.5693)" class="st13 st14">LOTE 25</text><br />
+	<text transform="matrix(0 -1 1 0 455.9872 131.3691)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 394.6866 109.8701)" class="st13 st17">LOTE 24</text><br />
+	<text transform="matrix(1 0 0 1 390.8866 119.4701)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 347.0475 109.87)" class="st13 st17">LOTE 23</text><br />
+	<text transform="matrix(1 0 0 1 343.2475 119.47)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 299.0745 109.87)" class="st13 st17">LOTE 22</text><br />
+	<text transform="matrix(1 0 0 1 295.2745 119.47)" class="st9 st19">3,142.72 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3627 686)" class="st13 st20">LOTE 21</text><br />
+	<text transform="matrix(1 0 0 1 104.1627 698.7)" class="st9 st21">3,709.20 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.5428 679.5247)" class="st13 st20">LOTE 20</text><br />
+	<text transform="matrix(1 0 0 1 197.3428 692.2246)" class="st9 st21">3,188.23 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3625 635.3525)" class="st13 st20">LOTE 19</text><br />
+	<text transform="matrix(1 0 0 1 104.1625 648.0525)" class="st9 st21">3,610.02 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.5429 623.7249)" class="st13 st20">LOTE 18</text><br />
+	<text transform="matrix(1 0 0 1 197.3429 636.4249)" class="st9 st21">3,141.87 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3623 589.2501)" class="st13 st20">LOTE 17</text><br />
+	<text transform="matrix(1 0 0 1 104.1623 601.9501)" class="st9 st21">3,510.35 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.5428 564.2831)" class="st13 st20">LOTE 16</text><br />
+	<text transform="matrix(1 0 0 1 197.3428 576.9832)" class="st9 st21">3,238.21 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3626 540.3855)" class="st13 st20">LOTE 15</text><br />
+	<text transform="matrix(1 0 0 1 104.1626 553.0854)" class="st9 st21">3,497.58 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.5426 509.9028)" class="st13 st20">LOTE 14</text><br />
+	<text transform="matrix(1 0 0 1 197.3426 522.6028)" class="st9 st21">2,572.02 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3623 494.9001)" class="st13 st20">LOTE 13</text><br />
+	<text transform="matrix(1 0 0 1 104.1623 507.6001)" class="st9 st21">3,038.09 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.5427 453.0397)" class="st13 st20">LOTE 12</text><br />
+	<text transform="matrix(1 0 0 1 197.3427 465.7397)" class="st9 st21">3,889.51 M2</text><br />
+	<text transform="matrix(1 0 0 1 113.3622 448.1749)" class="st13 st20">LOTE 11</text><br />
+	<text transform="matrix(1 0 0 1 104.1622 460.8749)" class="st9 st21">3,958.47 M2</text><br />
+	<text transform="matrix(1 0 0 1 206.4404 316.6157)" class="st13 st20">LOTE 10</text><br />
+	<text transform="matrix(1 0 0 1 197.2404 329.3157)" class="st9 st21">3,863.89 M2</text><br />
+	<text transform="matrix(1 0 0 1 121.2974 324.866)" class="st13 st20">LOTE 9</text><br />
+	<text transform="matrix(1 0 0 1 109.3974 337.566)" class="st9 st21">3,794.20 M2</text><br />
+	<text transform="matrix(1 0 0 1 209.2211 255.9315)" class="st13 st20">LOTE 8</text><br />
+	<text transform="matrix(1 0 0 1 197.3211 268.6315)" class="st9 st21">3,051.78 M2</text><br />
+	<text transform="matrix(1 0 0 1 121.2977 272.9155)" class="st13 st20">LOTE 7</text><br />
+	<text transform="matrix(1 0 0 1 109.3977 285.6155)" class="st9 st21">3,057.39 M2</text><br />
+	<text transform="matrix(1 0 0 1 121.2976 218.5371)" class="st13 st20">LOTE 6</text><br />
+	<text transform="matrix(1 0 0 1 109.3976 231.2371)" class="st9 st21">3,885.80 M2</text><br />
+	<text transform="matrix(1 0 0 1 210.7977 199.653)" class="st13 st20">LOTE 5</text><br />
+	<text transform="matrix(1 0 0 1 198.8977 212.353)" class="st9 st21">3,051.78 M2</text><br />
+	<text transform="matrix(1 0 0 1 123.5976 156.4998)" class="st13 st20">LOTE 4</text><br />
+	<text transform="matrix(1 0 0 1 111.6976 169.1998)" class="st9 st21">3,885.80 M2</text><br />
+	<text transform="matrix(1 0 0 1 209.2214 143.2401)" class="st13 st20">LOTE 3</text><br />
+	<text transform="matrix(1 0 0 1 197.3214 155.9401)" class="st9 st21">3,051.78 M2</text><br />
+	<text transform="matrix(1 0 0 1 209.2213 88.9001)" class="st13 st20">LOTE 2</text><br />
+	<text transform="matrix(1 0 0 1 197.3213 101.6001)" class="st9 st21">3,051.78 M2</text><br />
+	<text transform="matrix(1 0 0 1 126.2477 93.2002)" class="st13 st20">LOTE 1</text><br />
+	<text transform="matrix(1 0 0 1 114.3477 105.9001)" class="st9 st21">3,885.80 M2</text><br />
+	<text transform="matrix(0 -1 1 0 951.7838 682.5508)" class="st13 st14">LOTE 146 </text><br />
+	<text transform="matrix(0 -1 1 0 959.9838 687.3506)" class="st15 st9 st16">1,565.30 M2</text><br />
+	<text transform="matrix(0 -1 1 0 927.059 682.5508)" class="st13 st14">LOTE 145 </text><br />
+	<text transform="matrix(0 -1 1 0 935.259 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 903.1116 682.5508)" class="st13 st14">LOTE 144 </text><br />
+	<text transform="matrix(0 -1 1 0 911.3116 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 879.0977 682.5508)" class="st13 st14">LOTE 143 </text><br />
+	<text transform="matrix(0 -1 1 0 887.2977 687.3506)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 1067.9668 648.3738)" class="st13 st19">LOTE 151</text><br />
+	<text transform="matrix(1 0 0 1 1064.1667 657.9739)" class="st9 st19">2,085.23 M2</text><br />
+	<text transform="matrix(1 0 0 1 392.3878 662.0947)" class="st13 st22">LOTE 124</text><br />
+	<text transform="matrix(1 0 0 1 390.6878 671.6947)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 344.6474 662.4272)" class="st13 st22">LOTE 123</text><br />
+	<text transform="matrix(1 0 0 1 342.9474 672.0272)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 295.3365 662.4756)" class="st13 st22">LOTE 122</text><br />
+	<text transform="matrix(1 0 0 1 293.6365 672.0757)" class="st9 st19">3,142.72 M2</text><br />
+	<text transform="matrix(1 0 0 1 1004.1556 539.2935)" class="st13 st22">LOTE 121</text><br />
+	<text transform="matrix(1 0 0 1 1000.9556 549.5935)" class="st9 st23">4,996.92 M2</text><br />
+	<text transform="matrix(1 0 0 1 945.9526 539.3765)" class="st13 st22">LOTE 120</text><br />
+	<text transform="matrix(1 0 0 1 944.2526 548.9766)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 899.8282 539.3765)" class="st13 st22">LOTE 119</text><br />
+	<text transform="matrix(1 0 0 1 898.1282 548.9766)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 852.7307 539.376)" class="st13 st22">LOTE 118</text><br />
+	<text transform="matrix(1 0 0 1 851.0307 548.9761)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 806.5132 539.3757)" class="st13 st22">LOTE 117</text><br />
+	<text transform="matrix(1 0 0 1 804.8132 548.9757)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 760.0256 539.3762)" class="st13 st22">LOTE 116</text><br />
+	<text transform="matrix(1 0 0 1 758.3256 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 713.9012 539.3762)" class="st13 st22">LOTE 115</text><br />
+	<text transform="matrix(1 0 0 1 712.2012 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 667.8033 539.376)" class="st13 st22">LOTE 114</text><br />
+	<text transform="matrix(1 0 0 1 666.1033 548.9761)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 621.5859 539.3766)" class="st13 st22">LOTE 113</text><br />
+	<text transform="matrix(1 0 0 1 619.8859 548.9766)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 574.4883 539.3762)" class="st13 st22">LOTE 112</text><br />
+	<text transform="matrix(1 0 0 1 572.7883 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 529.1548 539.3762)" class="st13 st22">LOTE 111</text><br />
+	<text transform="matrix(1 0 0 1 527.4548 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 483.0305 539.3762)" class="st13 st22">LOTE 110</text><br />
+	<text transform="matrix(1 0 0 1 481.3305 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 436.9328 539.376)" class="st13 st22">LOTE 109</text><br />
+	<text transform="matrix(1 0 0 1 435.2328 548.9761)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 390.7151 539.3766)" class="st13 st22">LOTE 108</text><br />
+	<text transform="matrix(1 0 0 1 389.0151 548.9766)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 343.6175 539.3762)" class="st13 st22">LOTE 107</text><br />
+	<text transform="matrix(1 0 0 1 341.9175 548.9762)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 297.0865 540.3856)" class="st13 st22">LOTE 106</text><br />
+	<text transform="matrix(1 0 0 1 295.3865 549.9856)" class="st9 st19">3,196.87 M2</text><br />
+	<text transform="matrix(1 0 0 1 995.5287 447.3231)" class="st13 st22">LOTE 105</text><br />
+	<text transform="matrix(1 0 0 1 992.3287 457.623)" class="st9 st23">3,658.74 M2</text><br />
+	<text transform="matrix(1 0 0 1 944.2213 447.323)" class="st13 st22">LOTE 104</text><br />
+	<text transform="matrix(1 0 0 1 942.5213 456.923)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 898.0967 447.323)" class="st13 st22">LOTE 103</text><br />
+	<text transform="matrix(1 0 0 1 896.3967 456.923)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 851.9991 447.3236)" class="st13 st22">LOTE 102</text><br />
+	<text transform="matrix(1 0 0 1 850.2991 456.9236)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 805.7817 447.3234)" class="st13 st22">LOTE 101</text><br />
+	<text transform="matrix(1 0 0 1 804.0817 456.9233)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 759.6838 447.324)" class="st13 st22">LOTE 100</text><br />
+	<text transform="matrix(1 0 0 1 757.9838 456.9241)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 715.516 447.3237)" class="st13 st22">LOTE 99</text><br />
+	<text transform="matrix(1 0 0 1 711.416 456.9237)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 669.8851 447.3236)" class="st13 st22">LOTE 98</text><br />
+	<text transform="matrix(1 0 0 1 665.7851 456.9236)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 623.5999 447.3234)" class="st13 st22">LOTE 97</text><br />
+	<text transform="matrix(1 0 0 1 619.4999 456.9233)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 576.969 447.3232)" class="st13 st22">LOTE 96</text><br />
+	<text transform="matrix(1 0 0 1 572.869 456.9232)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 530.8363 447.9919)" class="st13 st22">LOTE 95</text><br />
+	<text transform="matrix(1 0 0 1 526.7363 457.5919)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 485.2054 447.9919)" class="st13 st22">LOTE 94</text><br />
+	<text transform="matrix(1 0 0 1 481.1054 457.5919)" class="st9 st19">3,080.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 439.4568 447.9918)" class="st13 st22">LOTE 93</text><br />
+	<text transform="matrix(1 0 0 1 435.3568 457.5918)" class="st9 st19">3,020.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 394.0969 447.9915)" class="st13 st22">LOTE 92</text><br />
+	<text transform="matrix(1 0 0 1 389.9969 457.5916)" class="st9 st19">3,020.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 346.131 447.9905)" class="st13 st22">LOTE 91</text><br />
+	<text transform="matrix(1 0 0 1 342.031 457.5906)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 298.6652 447.9905)" class="st13 st22">LOTE 90</text><br />
+	<text transform="matrix(1 0 0 1 294.5652 457.5906)" class="st9 st19">3,196.87 M2</text><br />
+	<text transform="matrix(1 0 0 1 974.3201 324.866)" class="st13 st17">LOTE 89</text><br />
+	<text transform="matrix(1 0 0 1 970.5201 334.4661)" class="st9 st19">3,503.17 M2</text><br />
+	<text transform="matrix(1 0 0 1 924.5557 325.5939)" class="st13 st17">LOTE 88</text><br />
+	<text transform="matrix(1 0 0 1 920.7557 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 876.1733 325.5942)" class="st13 st17">LOTE 87</text><br />
+	<text transform="matrix(1 0 0 1 872.3733 335.1942)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 827.0938 325.5941)" class="st13 st17">LOTE 86</text><br />
+	<text transform="matrix(1 0 0 1 823.2938 335.1941)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 779.6123 325.5939)" class="st13 st17">LOTE 85</text><br />
+	<text transform="matrix(1 0 0 1 775.8123 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 731.5327 325.5939)" class="st13 st17">LOTE 84</text><br />
+	<text transform="matrix(1 0 0 1 727.7327 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 683.1519 325.5939)" class="st13 st17">LOTE 83</text><br />
+	<text transform="matrix(1 0 0 1 679.3519 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 636.0724 325.5939)" class="st13 st17">LOTE 82</text><br />
+	<text transform="matrix(1 0 0 1 632.2724 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 587.5908 325.5938)" class="st13 st17">LOTE 81</text><br />
+	<text transform="matrix(1 0 0 1 583.7908 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 539.5113 325.5938)" class="st13 st17">LOTE 80</text><br />
+	<text transform="matrix(1 0 0 1 535.7113 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 491.0481 325.5938)" class="st13 st17">LOTE 79</text><br />
+	<text transform="matrix(1 0 0 1 487.2481 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 442.9685 325.5938)" class="st13 st17">LOTE 78</text><br />
+	<text transform="matrix(1 0 0 1 439.1685 335.1938)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 395.487 325.5934)" class="st13 st17">LOTE 77</text><br />
+	<text transform="matrix(1 0 0 1 391.687 335.1934)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 347.4074 325.5934)" class="st13 st17">LOTE 76</text><br />
+	<text transform="matrix(1 0 0 1 343.6074 335.1934)" class="st9 st19">3,200.00 M2</text><br />
+	<text transform="matrix(1 0 0 1 298.7131 325.5936)" class="st13 st17">LOTE 75</text><br />
+	<text transform="matrix(1 0 0 1 294.9131 335.1936)" class="st9 st19">3,196.88 M2</text><br />
+	<text transform="matrix(0 -1 1 0 978.3559 248.5605)" class="st13 st14">LOTE 74</text><br />
+	<text transform="matrix(0 -1 1 0 986.5559 253.3604)" class="st15 st9 st16">2,198.76 M2</text><br />
+	<text transform="matrix(0 -1 1 0 952.4474 248.5605)" class="st13 st14">LOTE 73</text><br />
+	<text transform="matrix(0 -1 1 0 960.6474 253.3604)" class="st15 st9 st16">1,565.30 M2</text><br />
+	<text transform="matrix(0 -1 1 0 927.7226 248.5605)" class="st13 st14">LOTE 72</text><br />
+	<text transform="matrix(0 -1 1 0 935.9226 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 903.7752 248.5605)" class="st13 st14">LOTE 71</text><br />
+	<text transform="matrix(0 -1 1 0 911.9752 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 879.7613 248.5605)" class="st13 st14">LOTE 70</text><br />
+	<text transform="matrix(0 -1 1 0 887.9613 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 855.8139 248.5605)" class="st13 st14">LOTE 69</text><br />
+	<text transform="matrix(0 -1 1 0 864.0139 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 831.9009 248.5605)" class="st13 st14">LOTE 68</text><br />
+	<text transform="matrix(0 -1 1 0 840.1009 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 807.9536 248.5605)" class="st13 st14">LOTE 67</text><br />
+	<text transform="matrix(0 -1 1 0 816.1536 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 785.3098 248.5605)" class="st13 st14">LOTE 66</text><br />
+	<text transform="matrix(0 -1 1 0 793.5098 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 761.3624 248.5605)" class="st13 st14">LOTE 65</text><br />
+	<text transform="matrix(0 -1 1 0 769.5624 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 737.3484 248.5605)" class="st13 st14">LOTE 64</text><br />
+	<text transform="matrix(0 -1 1 0 745.5484 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 713.4009 248.5605)" class="st13 st14">LOTE 63</text><br />
+	<text transform="matrix(0 -1 1 0 721.6009 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 689.4879 248.5605)" class="st13 st14">LOTE 62</text><br />
+	<text transform="matrix(0 -1 1 0 697.6879 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 665.5405 248.5605)" class="st13 st14">LOTE 61</text><br />
+	<text transform="matrix(0 -1 1 0 673.7405 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 641.5266 248.5605)" class="st13 st14">LOTE 60</text><br />
+	<text transform="matrix(0 -1 1 0 649.7266 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 617.5792 248.5605)" class="st13 st14">LOTE 59</text><br />
+	<text transform="matrix(0 -1 1 0 625.7792 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 592.9121 248.5605)" class="st13 st14">LOTE 58</text><br />
+	<text transform="matrix(0 -1 1 0 601.1121 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 568.9647 248.5605)" class="st13 st14">LOTE 57</text><br />
+	<text transform="matrix(0 -1 1 0 577.1647 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 544.9508 248.5605)" class="st13 st14">LOTE 56</text><br />
+	<text transform="matrix(0 -1 1 0 553.1509 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 521.0034 248.5605)" class="st13 st14">LOTE 55</text><br />
+	<text transform="matrix(0 -1 1 0 529.2034 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 497.1873 248.5605)" class="st13 st14">LOTE 54</text><br />
+	<text transform="matrix(0 -1 1 0 505.3873 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 473.2397 248.5605)" class="st13 st14">LOTE 53</text><br />
+	<text transform="matrix(0 -1 1 0 481.4397 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+	<text transform="matrix(0 -1 1 0 449.2258 248.5605)" class="st13 st14">LOTE 52</text><br />
+	<text transform="matrix(0 -1 1 0 457.4258 253.3604)" class="st15 st9 st16">1,600.00 M2</text><br />
+</g><br />
+</svg>    <div id="info"><br />
+<br />
+    </div><br />
+    <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false"><br />
+        <div class="modal-dialog modal-lg"><br />
+            <div class="modal-content"><br />
+                <div class="modal-header"><br />
+                    <div class="row w100p"><br />
+                        <div class="col-11 offset-sm-1 col-sm-10"><br />
+                            <h4 class="modal-tittle">DETALLES DEL LOTE</h4><br />
+                        </div><br />
+                        <div class="col-1"><br />
+                            <button type="button" class="btn-close" id="btnClose" data-bs-dismiss="modal" aria-label="Close"></button><br />
+                        </div><br />
+                    </div><br />
+                </div><br />
+                <div class="modal-body"><br />
+                    <form id="frmMdlMaster"><br />
+                        <div class="row"><br />
+                            <div class="col-12 offset-sm-1 col-sm-5"><br />
+                                <div class="row"><br />
+                                    <div class="col-12" id="numLote"></div><br />
+                                </div><br />
+                                <div class="row"><br />
+                                    <div class="col-12" id="areaLote"></div><br />
+                                    <input type="hidden" id="codigoLote" name="datosCotz.codigo" /><br />
+                                    <input type="hidden" id="desarrolloId" name="prospecto.desarrolloId" value="72" /><br />
+                                    <input type="hidden" id="hTotalm2" name="hTotalm2" value="" /><br />
+                                    <input type="hidden" id="h" name="hTotalm2" value="" /><br />
+                                </div><br />
+                                <div class="row"><br />
+                                    <div class="col-12" id="precioM2"></div><br />
+                                    <input type="hidden" id="hPrecioM2" name="datosCotz.precioM2" /><br />
+                                </div><br />
+                                <div class="row"><br />
+                                    <div class="col-12" id="precioLote"></div><br />
+                                    <input type="hidden" id="hPrecioLote" name="datosCotz.importeTotal" /><br />
+                                </div><br />
+                                <div class="row rowDato"><br />
+                                    <div class="col-12"><br />
+                                        <select class="form-select calc" id="SelectMeses" name="datosCotz.meses" onchange="js_getPrecioXModal();" required="required"><option value="">Seleccione uno...</option><br />
+<option value="6">6 meses</option><br />
+<option value="12">12 meses</option><br />
+<option value="18">18 meses</option><br />
+<option value="24">24 meses</option><br />
+<option value="30">30 meses</option><br />
+<option value="36">36 meses</option><br />
+</select><br />
+                                        <label for="" class="error"></label><br />
+                                    </div><br />
+                                </div><br />
+                                <div class="row rowDato"><br />
+                                    <div class="col-12"><br />
+                                        <select class="form-select calc" id="SelectPorciento" name="datosCotz.enganche" onchange="js_calcPagMensual()" required="required"><option value="">Elija % de Enganche</option><br />
+<option value="12">12%</option><br />
+</select><br />
+                                        <label for="" class="error"></label><br />
+                                    </div><br />
+                                </div><br />
+                                <div class="row"><br />
+                                    <div class="col-12"><br />
+                                        <label class="text-pag-m">Pago Mensual: $<label class="text-detalle-lt" id="lblMensualidad">0.00</label></label><br />
+                                        <input type="hidden" id="hideMensualidad" name="datosCotz.pagoMensual" /><br />
+                                    </div><br />
+                                </div><br />
+                            </div><br />
+                            <div class="col-12 col-sm-5 text-center"><br />
+                                <div id="imagenModal"></div><br />
+                                <div id="loadingImg" class="progress hidden"><br />
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div><br />
+                                </div><br />
+                            </div><br />
+<br />
+                        </div><br />
+                        <div class="row"><br />
+                            <div class="offset-1 col-10"><br />
+                                <p><br />
+                                    Para mayor información llene el siguiente formulario y uno de nuestros asesores se pondrá en contacto a la brevedad posible. ¡Gracias!<br />
+                                </p><br />
+                            </div><br />
+                        </div><br />
+                        <div class="row rowDato"><br />
+                            <div class="col-12 offset-sm-1 col-sm-5"><br />
+                                <input type="text" class="form-control calc" id="nombreCtz" name="prospecto.nombre" placeholder="Nombre" minlength="2" required><br />
+                                <label for="nombreCtz" class="error"></label><br />
+                            </div><br />
+                            <div class="col-12 col-sm-5"><br />
+                                <input type="text" class="form-control calc" id="apellidoCtz" name="prospecto.apellido" placeholder="Apellido" minlength="2" required><br />
+                                <label for="apellidoCtz" class="error"></label><br />
+                            </div><br />
+                        </div><br />
+                        <div class="row rowDato"><br />
+                            <div class="col-12 offset-sm-1 col-sm-5"><br />
+                                <input type="email" class="form-control calc" id="emailCtz" name="prospecto.email" placeholder="Email" required><br />
+                                <label for="emailCtz" class="error"></label><br />
+                            </div><br />
+                            <div class="col-12 col-sm-5"><br />
+                                <input type="tel" class="form-control calc" id="telefonoCtz" maxlength="10" name="prospecto.telefono" placeholder="Teléfono" required><br />
+                                <label for="telefonoCtz" class="error"></label><br />
+                            </div><br />
+                        </div>                       <br />
+                        <div class="row"><br />
+                            <div class="offset-2 col-8 text-center"><br />
+                                <input type="button" class="btn btn-success" onclick="js_SendDatos()"  value="Enviar" id="btnSend"><br />
+                                <div id="loadingSnd" class="progress hidden"><br />
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div><br />
+                                </div><br />
+                            </div><br />
+                        </div><br />
+                        <br /><br />
+                    </form><br />
+                </div><br />
+            </div><br />
+        </div><br />
+    </div><br />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script><br />
+    <script src="/Content/js_funciones.js?v=200524"></script><br />
+    <div id="resultDiv" class="hidden"></div><br />
+</body><br />
+</html><br />

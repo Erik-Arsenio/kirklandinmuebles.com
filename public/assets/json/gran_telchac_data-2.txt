@@ -439,8 +439,8 @@
             <polygon id="" class="st0 reserved" points="153,472,173,520,206,508,201,501,199,493"/><br />
         </a><a class="batch" id="19765_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19765 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  333 -  <span>296.86m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 reserved" points="201,455,209,483,202,486,199,493,154,473"/><br />
-        </a><a class="batch" id="19766_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19766 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  334 -  <span>289.90m&sup2;</span></p></div>"><br />
-            <polygon id="" class="st0 reserved" points="244,438,201,455,209,481,217,480,226,484"/><br />
+        </a><a class="batch" id="19766_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19766 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  334 -  <span>289.90m&sup2;</span></p></div>"><br />
+            <polygon id="" class="st0 sold" points="244,438,201,455,209,481,217,480,226,484"/><br />
         </a><a class="batch" id="19767_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19767 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  335 -  <span>330.39m&sup2;</span></p></div>"><br />
             <polygon id="" class="st0 reserved" points="244,437,264,484,228,498,227,490,224,483"/><br />
         </a><a class="batch" id="19768_mGMOp5ItZkP113__2__1" data-remote="javascript:;"  data-lot=19768 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  336 -  <span>249.96m&sup2;</span></p></div>"><br />
