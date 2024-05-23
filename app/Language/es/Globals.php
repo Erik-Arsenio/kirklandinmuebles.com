@@ -8,6 +8,7 @@
 return [
 	'loading' => 'Cargando',
 	'home' => 'Inicio',
+	'all' => 'Todos los desarrollos',
 	'investments' => 'Desarrollos',
 	'contact_us' => 'Contáctenos',
 	'contact' => 'Contacto',
@@ -93,7 +94,8 @@ return [
 	'homepage_6' => 'Este es el momento para invertir en el estado más seguro en México.',
 	'homepage_7' => 'Recuerda todo comienza con un sí.',
 	'homepage_8' => 'Conoce nuestros desarrollos e inicia tu nuevo estilo de vida con nosotros.',
-	'homepage_9' => 'NUESTRAS PROPIEDADES',
+	'homepage_9' => 'NUESTROS DESARROLLOS',
+	'homepage_09' => 'NUESTRAS PROPIEDADES',
 	
 	'homepage_10' => 'Desarrollo de terrenos de inversión semi-urbanizados.',
 	'homepage_11' => 'Desarrollo residencial inspirado en exclusividad, balance y elegancia.',
@@ -152,6 +154,11 @@ return [
 	'header_20' => 'Lotes industriales en Yucatán',
 	'header_21' => 'Ubicado en el nuevo corredor industrial Mérida-Hunucmá.',
 
+	// Header text in Caoba
+	'header_22' => 'Desarrollo habitacional',
+	'header_23' => 'Planeado para el crecimiento y vida familiar en un entorno seguro y con múltiples espacios verdes y amenidades dedicadas al bienestar.',
+	'header_24' => 'Lotes de desarrollo habitacional',
+
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
 	'carousel_2' => '7 Privadas residenciales',
@@ -202,11 +209,19 @@ return [
 	'carousel_38' => 'Contará con 4 clousters con parque',
 	'carousel_39' => 'Casa Club de Galiana',
 	'carousel_40' => 'Ubicacion Estratégica',
+
+	// carousel Nodo
 	'carousel_41' => 'Vista aérea de almacenes',
 	'carousel_42' => 'Interior de almacenes',
 	'carousel_43' => 'Puente al Muelle de Progreso',
 	'carousel_44' => 'Vista interior de un almacen',
 
+	// carousel Caoba
+	'carousel_45' => 'Vista aérea de lotes en Caoba',
+	'carousel_46' => 'Área de ejercicios',
+	'carousel_47' => 'Parque infantil',
+	'carousel_48' => 'Parque infantil',
+	'carousel_49' => 'Ubicación de Caoba',
 
 	'click_zoom' => 'Click para zoom',
 
@@ -299,6 +314,12 @@ return [
 	'location_67'  => 'Su infraestructura se diseñó de manera específica para <b>satisfacer las necesidades de las empresas</b>, lo que incluye servicios como energía eléctrica, calles y accesos adecuados, sistema de drenaje, entre otros.',
 	'location_68'  => 'Su accesibilidad al desarrollo y ubicación privilegiada es un generador de conexiones de negocios, la cual lo vuelve una <b>zona estratégica de alta productividad</b> y de excelentes perspectivas de negocios.',
 
+	// text in Caoba
+	'location_69'  => '¿Por qué comprar un lote residencial en Caoba?',
+	'location_70'  => 'El crecimiento económico de Mérida la ha convertido en una Ciudad que está revolucionando el concepto de vivienda Residencial tranquila y exclusiva.',
+	'location_71'  => 'Una zona natural creciente conectada con un sinfín de recursos que impulsan una plusvalía como nunca antes vista y dan plena seguridad a tu inversión.',
+	'location_72'  => 'Ubicado en una zona creciente en el Estado, con conexión directa a la Zona Industrial y alta conectividad a servicios municipales, escuelas y universidades; supermercados, zonas de entretenimiento, parques y transporte urbano.',
+	
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
 	'characteristic_1'  => 'Barda perimetral',
@@ -468,8 +489,21 @@ return [
 	'characteristic_142'  => 'Calles internas con carpeta asfáltica',
 	'characteristic_143'  => 'Avenida de acceso hacia NODO (25m de ancho) pavimentada e iluminada',
 
+	// characteristic text in Caoba
+	'characteristic_144'  => 'Urbanización de primer nivel',
+	'characteristic_145'  => 'Avenidas y calles pavimentadas',
+	'characteristic_146'  => 'Amplias banquetas',
+	'characteristic_147'  => 'Luz a pié de lote',
+	'characteristic_148'  => 'Planeación y seguridad',
+	'characteristic_149'  => 'Cercanía a transporte urbano',
+	'characteristic_150'  => 'Áreas verdes y amenidades',
+	'characteristic_151'  => 'Diversos parques en el desarrollo',
+	'characteristic_152'  => 'Canchas de usos multiples',
+	'characteristic_153'  => 'Zonas de esparcimiento',
+	'characteristic_154'  => 'Espacios para zonas comerciales',
+	'characteristic_155'  => 'Amplios espacios creativos',
 
-	// text in Lakuun
+	// Club House text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
 	

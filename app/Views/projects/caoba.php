@@ -6,8 +6,8 @@
                     <h3>Caoba</h3>
                     <h6>MÉRIDA, YUCATÁN, MÉXICO</h6>
                 </div>
-                <h1 class="h2 animated fadeIn fw-bold my-2"><?= lang('Globals.header_17') ?></h1>
-                <p class="h4 animated fadeIn mb-2 py-1"><?= lang('Globals.header_18') ?></p>
+                <h1 class="h2 animated fadeIn fw-bold my-2"><?= lang('Globals.header_22') ?></h1>
+                <p class="h4 animated fadeIn mb-2 py-1"><?= lang('Globals.header_23') ?></p>
                 <div class="text-center mt-lg-1 promo not_mobile d-none" id="" style="min-height: 9em">
                 </div>
                 <div class="m-2">
@@ -23,51 +23,33 @@
                 <div class="carousel carousel-fade slide  text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselHome">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="<?= STATIC_URL . 'img/galiana/01.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Galiana Privada Residencial de primer nivel, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/caoba/01.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Vista aérea de lotes en Caoba, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_36') ?></p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_45') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/ubicacion_galiana.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Ubicacion de Galiana en Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/caoba/02.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Área de ejercicios en Caoba, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_37') ?></p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_46') ?></p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/02.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque en Galiana, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/caoba/03.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque infantil en Caoba, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_38') ?></p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_47') ?></p>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/03.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Club de playa de Costa Flamingo Progreso, Mérida, Yucatán, México.">
-                            <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_39') ?></p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/04.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Club de playa de Costa Flamingo Progreso, Mérida, Yucatán, México.">
-                            <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_40') ?></p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/05.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Club de playa de Costa Flamingo Progreso, Mérida, Yucatán, México.">
-                            <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_41') ?></p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/06.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Club de playa de Costa Flamingo Progreso, Mérida, Yucatán, México.">
-                            <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_42') ?></p>
-                            </div>
-                        </div> -->
                         <div class="carousel-item">
-                            <img src="<?= STATIC_URL . 'img/galiana/casa_club-01.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Casa Club de Galiana Progreso, Mérida, Yucatán, México.">
+                            <img src="<?= STATIC_URL . 'img/caoba/04.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Parque infantil en Caoba, Mérida, Yucatán, México.">
                             <div class="carousel-caption bottom-0 py-0 ">
-                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_39') ?></p>
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_48') ?></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?= STATIC_URL . 'img/caoba/05.jpg' ?>" class="img-fluid h-100" width="1754 px" height="1240 px" alt="Ubicación de Caoba, Mérida, Yucatán, México.">
+                            <div class="carousel-caption bottom-0 py-0 ">
+                                <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.carousel_49') ?></p>
                             </div>
                         </div>
                     </div>
@@ -10671,11 +10653,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <p class="h2 mb-3"><?= lang('Globals.location_47') ?></p>
-                    <p class="h4 mb-4"><?= lang('Globals.location_48') ?></p>
-                    <p class="h5"><?= lang('Globals.location_49') ?></p>
-                    <p class="h5"><?= lang('Globals.location_50') ?></p>
-                    <p class="h5"><?= lang('Globals.location_51') ?></p>
+                    <p class="h2 mb-3"><?= lang('Globals.location_69') ?></p>
+                    <p class="h4 mb-4"><?= lang('Globals.location_70') ?></p>
+                    <p class="h5"><?= lang('Globals.location_71') ?></p>
+                    <p class="h5"><?= lang('Globals.location_72') ?></p>
                 </div>
             </div>
     </div>
@@ -10686,92 +10667,31 @@
             <div class="text-center">
                 <p class="h1 mb-3 fw-bold text-decoration-underline"><?= lang('Globals.characteristic') ?></p>
             </div>
-            <p class="h2 text-center mb-2"><?= lang('Globals.header_17') ?></p>
+            <p class="h2 text-center mb-2"><?= lang('Globals.header_24') ?></p>
             <div class="row g-0 g-lg-5 align-items-center">
                 <div class="col-md-6 " >
                     <ul>
-                        <li class="h4"><?= lang('Globals.characteristic_1') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_130') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_131') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_132') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_133') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_134') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_144') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_145') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_146') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_147') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_148') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_149') ?></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul>
-                        <li class="h4"><?= lang('Globals.characteristic_135') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_136') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_137') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_138') ?></li>
-                        <li class="h4"><?= lang('Globals.characteristic_139') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_150') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_151') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_152') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_153') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_154') ?></li>
+                        <li class="h4"><?= lang('Globals.characteristic_155') ?></li>
                     </ul>
                 </div>
             </div>
     </div>
     <!-- Caracteristicas  End -->
-
-    <!-- Club Start -->
-    <div class="container-xxl py-5">
-            <div class="mx-auto mb-1">
-                <p class="h1 mt-2 mb-2 text-center text-success"><?= lang('Globals.characteristic') ?> <?= lang('Globals.characteristic_11') ?></p>
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 ">
-                        <!-- <p class="h4 mb-4 text-center"><?= lang('Globals.club_12') ?></p> -->
-                        <!-- <p class="h4"><?= lang('Globals.club_2') ?></p> -->
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 ">
-                                <ul class="">
-                                    <li class="h5"><?= lang('Globals.clubhouse_125') ?></li>
-                                    <li class="h5"><?= lang('Globals.clubhouse_126') ?></li>
-                                    <!-- <li class="h5"><?= lang('Globals.clubhouse_119') ?></li>
-                                    <li class="h5"><?= lang('Globals.clubhouse_120') ?></li> -->
-                                </ul>
-                            </div>
-                            <div class="col-lg-6 ">
-                                <ul class="">
-                                    <li class="h5"><?= lang('Globals.clubhouse_127') ?></li>
-                                    <li class="h5"><?= lang('Globals.clubhouse_128') ?></li>
-                                    <!-- <li class="h5"><?= lang('Globals.clubhouse_123') ?></li>
-                                    <li class="h5"><?= lang('Globals.clubhouse_124') ?></li> -->
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6" >
-                        <div class="about-img-right position-relative overflow-hidden p-3 pe-0">
-                            <div class="text-center mx-auto">
-                                <p class="fw-bold small mb-0 not_mobile d-none"><?= lang('Globals.click_zoom') ?></p>
-                            </div>
-                            <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenitiesCasaClub" style="z-index: 100">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="<?= STATIC_URL . 'img/galiana/casa_club-01.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Exterior Casa Club de Mahal en Progreso, Mérida, Yucatán, México.(Imagen ilustrativa)">
-                                        <!-- <div class="carousel-caption bottom-0 py-0 ">
-                                            <p class="h6 text-black bg-dark-subtle subtle"><?= lang('Globals.clubhouse_90') ?></p>
-                                        </div> -->
-                                    </div>
-                                
-
-                                </div>
-                                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselAmenitiesCasaClub" data-bs-slide="prev">
-                                    <span class="mdi mdi-chevron-left mdi-72px" aria-hidden="true"></span>
-                                    <span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselAmenitiesCasaClub" data-bs-slide="next">
-                                    <span class="mdi mdi-chevron-right mdi-72px" aria-hidden="true"></span>
-                                    <span class="visually-hidden"><?= lang('Globals.next') ?></span>
-                                </button> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- </div> -->
-        <!-- Club End -->
-
-    </div>
 
     <!-- About Investment Start -->
     <div class="container-xxl py-5">
@@ -10784,7 +10704,7 @@
                         <div class="carousel carousel-fade slide animated fadeInRight text-center" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="false" id="carouselAmenities" style="z-index: 100">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="<?= STATIC_URL . 'img/galiana/master_plan-es.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Mahal">
+                                    <img src="<?= STATIC_URL . 'img/caoba/06.jpg' ?>" class="card-img-top img-fluid" width="1754 px" height="1240 px" alt="Master Plan Mahal">
                                     <!-- <div class="carousel-caption bottom-0 py-0 ">
                                         <p class="h6 subtle"><?= lang('Globals.property_list_12') ?></p>
                                     </div> -->
@@ -10796,8 +10716,8 @@
                 <div class="col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                     <h2 class="mb-3"><?= lang('Globals.about_inv_1') ?>:</h2>
                     <p class="h5 mb-4"><?= lang('Globals.stages') ?>: <span class="h3">1</span></p>
-                    <p class="h5 mb-4"><?= lang('Globals.amenities') ?>: <span class="h3">16</span></p>
-                    <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">141</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.amenities') ?>: <span class="h3">12</span></p>
+                    <p class="h5 mb-4"><?= lang('Globals.lots') ?>: <span class="h3">820</span></p>
                     <!-- <p class="h5 mb-4"><?= lang('Globals.area') ?>: <span class="h3">108.2 <?= lang('Globals.hectares') ?></span></p> -->
                 </div>
             </div>
@@ -10835,7 +10755,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="display-4 fw-bold text-center">141</td>
+                                                <td class="display-4 fw-bold text-center">820</td>
                                                 <td class="display-4 fw-bold text-center" id="available-1"><span class="mdi mdi-vanish mdi-spin text-success-emphasis d-none"></span></td>
                                                 <td class="display-4 fw-bold text-center">2028</td>
                                             </tr>
@@ -11039,7 +10959,7 @@
                                     <span class="mdi mdi-vanish mdi-spin"></span>
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
-                                <!-- Direccion para Scrap de Privada 1 Etapa 1:https://crmvalte.com///sistemas_active/crm/if/indexBase.php?clvde=38KMqOBuiD2 -->
+                                <!-- Direccion para Scrap de Privada 1 Etapa 1:https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=RC -->
                                 <!-- <div id="" class="row text-center">
                                     <img src="<?= STATIC_URL . 'img/gran_telchac/lotes-telchac-1.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Mahal">
                                 </div> -->
@@ -11062,7 +10982,7 @@
     </div>
     <!-- Property List End -->
 <div class="data">
-    <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/galiana.json') ?>'>
+    <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/caoba.json') ?>'>
     <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
     <input type="hidden" name="language" id="language" value='<?= $lang ?>'>
     <input type="hidden" name="investment" id="investment" value=''>

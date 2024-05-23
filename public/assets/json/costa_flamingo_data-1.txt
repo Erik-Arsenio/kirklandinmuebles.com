@@ -1,0 +1,236 @@
+<br />
+<br />
+<!-- vendor css --><br />
+<link href="../../../../../Themes/Brackets/lib/font-awesome/css/font-awesome.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/Ionicons/css/ionicons.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/highlightjs/github.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/select2/css/select2.min.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/medium-editor/medium-editor.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/medium-editor/default.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/summernote/summernote-bs4.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/rickshaw/rickshaw.min.css" rel="stylesheet"><br />
+<link href="../../../../../Themes/Brackets/lib/jt.timepicker/jquery.timepicker.css" rel="stylesheet"><br />
+<script type="text/javascript" src="../../../../../Themes/Brackets/js/livevalidation_standalone.compressed.js"></script><br />
+<br />
+<br />
+<!-- Bracket CSS --><br />
+<link rel="stylesheet" href="../../../../../Themes/Brackets/css/bracket.css"><br />
+<link rel="stylesheet" href="../../../../../Themes/Brackets/css/bracket.oreo.css"><br />
+<link rel="stylesheet" href="../../../css/wil.css"><br />
+<link rel="stylesheet" href="../../../css/Style.css"><br />
+<script src="../../../../../Themes/Brackets/lib/jquery/jquery.js"></script><br />
+<br />
+<br />
+<br />
+<br />
+    <!-- Custom CSS --><br />
+    <link href="../css/default.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'"><br />
+    <link href="../css/responsive.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'"><br />
+    <link href="../css/masterplan.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'"><br />
+<br />
+    <link href="../../../../../Themes/Brackets/lib/jquery.steps/jquery.steps.css" rel="stylesheet"><br />
+    <style type="text/css"><br />
+    @media (min-width: 992px){<br />
+.modal-lg {<br />
+    max-width: 1000px;<br />
+}<br />
+   </style><br />
+<br />
+<br />
+<br />
+<div class="card bd-0"><br />
+<br />
+    <div class="card-body bd bd-t-0 rounded-bottom"><br />
+<br />
+<br />
+        <div class="table-responsive" id="lst_desarrollo" style=""><br />
+<br />
+<br />
+                <div class="row"><br />
+                    <div class="col-sm-12 col-md-12 col-lg-12"><br />
+                        <br />
+<br />
+<br />
+<br />
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"<br />
+     viewBox="0 0 1100.00 900.00" style="enable-background:new 0 0 1100.00 900.00;" xml:space="preserve"><br />
+<g id="Layer_1"><br />
+    <g><br />
+        <g><br />
+          <image style="overflow:visible;" width="1100.00" height="900.00"  xlink:href="../ad/Desarrollo/imagenes_planos/P_2023_02_23_08-47-17.jpg"   transform="matrix(1 0 0 1 1 -1)"><br />
+            </image><br />
+        </g><br />
+    </g><br />
+</g><br />
+    <g id="general"><br />
+<br />
+ <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+		<a class="batch" id="2_2_0_1__1" data-remote="javascript:;"  data-lot=2 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  1 -  <span>157.11m&sup2;</span></p><p class='content-text texto-mapa'>$1,649,655.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="530,103,491,124,497,145,537,123"/><br />
+        </a><a class="batch" id="3_2_0_1__1" data-remote="javascript:;"  data-lot=3 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  2 -  <span>157.06m&sup2;</span></p><p class='content-text texto-mapa'>$1,649,130.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="538,124,545,143,504,166,498,147"/><br />
+        </a><a class="batch" id="4_2_0_1__1" data-remote="javascript:;"  data-lot=4 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  3 -  <span>157.00m&sup2;</span></p><p class='content-text texto-mapa'>$1,648,500.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="545,145,551,165,511,188,504,168"/><br />
+        </a><a class="batch" id="5_2_0_1__1" data-remote="javascript:;"  data-lot=5 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  4 -  <span>156.95m&sup2;</span></p><p class='content-text texto-mapa'>$1,647,975.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="552,167,511,189,518,212,561,189"/><br />
+        </a><a class="batch" id="6_2_0_1__1" data-remote="javascript:;"  data-lot=6 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  5 -  <span>156.89m&sup2;</span></p><p class='content-text texto-mapa'>$1,647,345.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="518,211,561,187,567,209,524,234"/><br />
+        </a><a class="batch" id="7_2_0_1__1" data-remote="javascript:;"  data-lot=7 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  6 -  <span>156.84m&sup2;</span></p><p class='content-text texto-mapa'>$1,646,820.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="524,235,531,259,575,231,569,209"/><br />
+        </a><a class="batch" id="8_2_0_1__1" data-remote="javascript:;"  data-lot=8 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  7 -  <span>156.78m&sup2;</span></p><p class='content-text texto-mapa'>$1,646,190.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="531,259,575,233,583,253,538,282"/><br />
+        </a><a class="batch" id="9_2_0_1__1" data-remote="javascript:;"  data-lot=9 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  8 -  <span>156.73m&sup2;</span></p><p class='content-text texto-mapa'>$1,645,665.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="582,258,589,279,548,304,539,283"/><br />
+        </a><a class="batch" id="10_2_0_1__1" data-remote="javascript:;"  data-lot=10 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  9 -  <span>156.67m&sup2;</span></p><p class='content-text texto-mapa'>$1,645,035.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="590,281,597,305,554,328,546,306"/><br />
+        </a><a class="batch" id="11_2_0_1__1" data-remote="javascript:;"  data-lot=11 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  10 -  <span>156.62m&sup2;</span></p><p class='content-text texto-mapa'>$1,644,510.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="598,305,605,328,564,354,555,331"/><br />
+        </a><a class="batch" id="12_2_0_1__1" data-remote="javascript:;"  data-lot=12 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  11 -  <span>156.57m&sup2;</span></p><p class='content-text texto-mapa'>$1,643,985.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="604,331,612,353,571,378,564,356"/><br />
+        </a><a class="batch" id="13_2_0_1__1" data-remote="javascript:;"  data-lot=13 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  12 -  <span>156.51m&sup2;</span></p><p class='content-text texto-mapa'>$1,643,355.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="615,354,622,379,580,405,572,382"/><br />
+        </a><a class="batch" id="14_2_0_1__1" data-remote="javascript:;"  data-lot=14 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  13 -  <span>156.46m&sup2;</span></p><p class='content-text texto-mapa'>$1,642,830.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="621,380,630,404,587,429,579,406"/><br />
+        </a><a class="batch" id="15_2_0_1__1" data-remote="javascript:;"  data-lot=15 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  14 -  <span>156.40m&sup2;</span></p><p class='content-text texto-mapa'>$1,642,200.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="630,406,639,431,595,458,587,434"/><br />
+        </a><a class="batch" id="16_2_0_1__1" data-remote="javascript:;"  data-lot=16 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  15 -  <span>156.35m&sup2;</span></p><p class='content-text texto-mapa'>$1,641,675.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="640,433,647,457,604,485,595,460"/><br />
+        </a><a class="batch" id="17_2_0_1__1" data-remote="javascript:;"  data-lot=17 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  16 -  <span>156.29m&sup2;</span></p><p class='content-text texto-mapa'>$1,641,045.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="648,460,657,485,612,512,603,487"/><br />
+        </a><a class="batch" id="18_2_0_1__1" data-remote="modal.php?id=18"  data-lot=18 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  17 -  <span>156.24m&sup2;</span></p><p class='content-text texto-mapa'>Precio lista: $1,640,520.00</p></div>" rel="popover" data-toggle="modal" data-target="#modalLote"><br />
+            <polygon id="" class="st0 available" points="657,485,666,512,622,543,612,516"/><br />
+        </a><a class="batch" id="19_2_0_1__1" data-remote="javascript:;"  data-lot=19 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  18 -  <span>156.18m&sup2;</span></p><p class='content-text texto-mapa'>$1,639,890.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="667,515,675,541,630,570,622,545"/><br />
+        </a><a class="batch" id="20_2_0_1__1" data-remote="javascript:;"  data-lot=20 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  19 -  <span>156.13m&sup2;</span></p><p class='content-text texto-mapa'>$1,639,365.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="675,543,685,570,640,600,630,572"/><br />
+        </a><a class="batch" id="21_2_0_1__1" data-remote="modal.php?id=21"  data-lot=21 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  20 -  <span>156.07m&sup2;</span></p><p class='content-text texto-mapa'>Precio lista: $1,638,735.00</p></div>" rel="popover" data-toggle="modal" data-target="#modalLote"><br />
+            <polygon id="" class="st0 available" points="685,573,694,598,649,629,641,604"/><br />
+        </a><a class="batch" id="22_2_0_1__1" data-remote="javascript:;"  data-lot=22 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  21 -  <span>156.02m&sup2;</span></p><p class='content-text texto-mapa'>$1,638,210.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="694,601,704,628,659,660,650,633"/><br />
+        </a><a class="batch" id="23_2_0_1__1" data-remote="javascript:;"  data-lot=23 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  22 -  <span>155.96m&sup2;</span></p><p class='content-text texto-mapa'>$1,637,580.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="705,631,714,660,667,692,657,663"/><br />
+        </a><a class="batch" id="24_2_0_1__1" data-remote="javascript:;"  data-lot=24 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  23 -  <span>155.91m&sup2;</span></p><p class='content-text texto-mapa'>$1,637,055.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="714,661,724,690,678,723,668,694"/><br />
+        </a><a class="batch" id="25_2_0_1__1" data-remote="modal.php?id=25"  data-lot=25 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  24 -  <span>155.86m&sup2;</span></p><p class='content-text texto-mapa'>Precio lista: $1,636,530.00</p></div>" rel="popover" data-toggle="modal" data-target="#modalLote"><br />
+            <polygon id="" class="st0 available" points="725,694,734,722,687,756,678,725"/><br />
+        </a><a class="batch" id="26_2_0_1__1" data-remote="javascript:;"  data-lot=26 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  25 -  <span>155.80m&sup2;</span></p><p class='content-text texto-mapa'>$1,635,900.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="735,725,744,754,698,786,688,759"/><br />
+        </a><a class="batch" id="27_2_0_1__1" data-remote="javascript:;"  data-lot=27 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  26 -  <span>155.75m&sup2;</span></p><p class='content-text texto-mapa'>$1,635,375.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="745,757,755,788,708,821,699,791"/><br />
+        </a><a class="batch" id="30_2_0_1__1" data-remote="javascript:;"  data-lot=30 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  29 -  <span>155.75m&sup2;</span></p><p class='content-text texto-mapa'>$1,635,375.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="679,805,689,833,642,868,632,839"/><br />
+        </a><a class="batch" id="31_2_0_1__1" data-remote="javascript:;"  data-lot=31 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  30 -  <span>155.81m&sup2;</span></p><p class='content-text texto-mapa'>$1,636,005.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="669,772,677,801,633,835,624,804"/><br />
+        </a><a class="batch" id="32_2_0_1__1" data-remote="javascript:;"  data-lot=32 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  31 -  <span>155.86m&sup2;</span></p><p class='content-text texto-mapa'>$1,636,530.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="658,738,667,768,623,801,613,771"/><br />
+        </a><a class="batch" id="33_2_0_1__1" data-remote="javascript:;"  data-lot=33 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  32 -  <span>155.92m&sup2;</span></p><p class='content-text texto-mapa'>$1,637,160.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="649,707,658,736,614,766,604,738"/><br />
+        </a><a class="batch" id="34_2_0_1__1" data-remote="modal.php?id=34"  data-lot=34 data-content="<h3 class='popover-title status-disponible'>Disponible</h3><div class='content-popover'><p class='content-text title-status-aviable'>Unidad:  33 -  <span>155.97m&sup2;</span></p><p class='content-text texto-mapa'>Precio lista: $1,637,685.00</p></div>" rel="popover" data-toggle="modal" data-target="#modalLote"><br />
+            <polygon id="" class="st0 available" points="640,676,648,704,603,733,594,706"/><br />
+        </a><a class="batch" id="35_2_0_1__1" data-remote="javascript:;"  data-lot=35 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  34 -  <span>156.02m&sup2;</span></p><p class='content-text texto-mapa'>$1,638,210.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="630,645,638,672,593,703,585,676"/><br />
+        </a><a class="batch" id="36_2_0_1__1" data-remote="javascript:;"  data-lot=36 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  35 -  <span>156.08m&sup2;</span></p><p class='content-text texto-mapa'>$1,638,840.00</p></div>"><br />
+            <polygon id="" class="st0 sold" points="620,615,629,641,585,672,575,645"/><br />
+        </a><a class="batch" id="37_2_0_1__1" data-remote="javascript:;"  data-lot=37 data-content="<h3 class='popover-title status-vendido'>Vendido</h3><div class='content-popover'><p class='content-text title-status-sold'>Unidad:  36 -  <span>156.13m&sup2;</span></p><p class='content-text texto-mapa'>$1,639,365.00</p></div>"><br />
+            <polygon id="" class="st0 sold" points="610,586,619,613,575,642,567,615"/><br />
+        </a><a class="batch" id="38_2_0_1__1" data-remote="javascript:;"  data-lot=38 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  37 -  <span>156.18m&sup2;</span></p><p class='content-text texto-mapa'>$1,663,200.01</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="603,557,611,584,567,612,560,585"/><br />
+        </a><a class="batch" id="39_2_0_1__1" data-remote="javascript:;"  data-lot=39 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  38 -  <span>156.24m&sup2;</span></p><p class='content-text texto-mapa'>$1,663,200.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="594,528,603,554,560,582,551,557"/><br />
+        </a><a class="batch" id="40_2_0_1__1" data-remote="javascript:;"  data-lot=40 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  39 -  <span>156.29m&sup2;</span></p><p class='content-text texto-mapa'>$1,641,045.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="586,500,594,524,551,553,544,529"/><br />
+        </a><a class="batch" id="41_2_0_1__1" data-remote="javascript:;"  data-lot=41 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  40 -  <span>156.35m&sup2;</span></p><p class='content-text texto-mapa'>$1,641,675.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="578,473,586,497,543,524,535,499"/><br />
+        </a><a class="batch" id="42_2_0_1__1" data-remote="javascript:;"  data-lot=42 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  41 -  <span>156.40m&sup2;</span></p><p class='content-text texto-mapa'>$1,642,200.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="569,445,577,470,535,496,527,473"/><br />
+        </a><a class="batch" id="43_2_0_1__1" data-remote="javascript:;"  data-lot=43 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  42 -  <span>156.45m&sup2;</span></p><p class='content-text texto-mapa'>$1,642,725.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="562,418,569,442,527,469,520,445"/><br />
+        </a><a class="batch" id="44_2_0_1__1" data-remote="javascript:;"  data-lot=44 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  43 -  <span>156.51m&sup2;</span></p><p class='content-text texto-mapa'>$1,643,355.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="554,392,561,415,519,441,511,418"/><br />
+        </a><a class="batch" id="45_2_0_1__1" data-remote="javascript:;"  data-lot=45 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  44 -  <span>156.56m&sup2;</span></p><p class='content-text texto-mapa'>$1,643,880.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="546,368,504,394,512,415,553,389"/><br />
+        </a><a class="batch" id="46_2_0_1__1" data-remote="javascript:;"  data-lot=46 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  45 -  <span>156.71m&sup2;</span></p><p class='content-text texto-mapa'>$1,645,455.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="539,341,546,363,504,389,497,367"/><br />
+        </a><a class="batch" id="47_2_0_1__1" data-remote="javascript:;"  data-lot=47 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  46 -  <span>156.67m&sup2;</span></p><p class='content-text texto-mapa'>$1,645,035.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="491,340,498,363,538,339,532,316"/><br />
+        </a><a class="batch" id="48_2_0_1__1" data-remote="javascript:;"  data-lot=48 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  47 -  <span>156.72m&sup2;</span></p><p class='content-text texto-mapa'>$1,645,560.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="523,292,531,313,489,338,481,315"/><br />
+        </a><a class="batch" id="49_2_0_1__1" data-remote="javascript:;"  data-lot=49 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  48 -  <span>156.77m&sup2;</span></p><p class='content-text texto-mapa'>$1,646,085.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="516,270,522,289,482,313,475,293"/><br />
+        </a><a class="batch" id="50_2_0_1__1" data-remote="javascript:;"  data-lot=50 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  49 -  <span>156.83m&sup2;</span></p><p class='content-text texto-mapa'>$1,646,715.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="508,245,516,265,475,291,468,269"/><br />
+        </a><a class="batch" id="51_2_0_1__1" data-remote="javascript:;"  data-lot=51 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  50 -  <span>156.88m&sup2;</span></p><p class='content-text texto-mapa'>$1,647,240.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="502,222,509,241,468,266,462,245"/><br />
+        </a><a class="batch" id="52_2_0_1__1" data-remote="javascript:;"  data-lot=52 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  51 -  <span>156.94m&sup2;</span></p><p class='content-text texto-mapa'>$1,647,870.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="456,222,461,242,503,218,497,199"/><br />
+        </a><a class="batch" id="53_2_0_1__1" data-remote="javascript:;"  data-lot=53 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  52 -  <span>156.99m&sup2;</span></p><p class='content-text texto-mapa'>$1,648,395.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="490,176,496,195,455,219,448,200"/><br />
+        </a><a class="batch" id="54_2_0_1__1" data-remote="javascript:;"  data-lot=54 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  53 -  <span>157.04m&sup2;</span></p><p class='content-text texto-mapa'>$1,648,920.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="443,177,448,197,488,175,482,155"/><br />
+        </a><a class="batch" id="55_2_0_1__1" data-remote="javascript:;"  data-lot=55 data-content="<h3 class='popover-title status-reservado'>Reservado</h3><div class='content-popover'><p class='content-text title-status-reserved'>Unidad:  54 -  <span>157.10m&sup2;</span></p><p class='content-text texto-mapa'>$1,649,550.00</p></div>"><br />
+            <polygon id="" class="st0 reserved" points="436,156,443,176,482,153,475,134"/><br />
+        </a><br />
+<br />
+    </g><br />
+</svg><br />
+<br />
+                    </div><br />
+                </div><br />
+<br />
+<br />
+        </div><br />
+    </div><br />
+</div><!-- card --><br />
+<!-- Aqui irian los Modales Especificos de la Seccion --><br />
+<br />
+<div id="desarrollo"><!-- Modal Form --><br />
+<br />
+    <input type="hidden" name="txt_id_desarrollo" id="txt_id_desarrollo" value=""><br />
+<br />
+<br />
+<br />
+    <!-- Modal --><br />
+<div class="modal fade bd-example-modal-xl" id="modalLote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><br />
+    <div class="modal-dialog modal-lg" role="document"><br />
+        <div id="modalLotContent" class="modal-content"><br />
+<br />
+<br />
+<br />
+<br />
+        </div><br />
+    </div><br />
+</div><br />
+<br />
+<br />
+<br />
+<br />
+<!-- fin de los Modales Especificos de la Seccion --><br />
+<script src="../../../../../Themes/Brackets/lib/popper.js/popper.js"></script><br />
+    <script src="../../../../../Themes/Brackets/lib/bootstrap/bootstrap.js"></script><br />
+    <script src="../../../../../Themes/Brackets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script><br />
+<br />
+    <script src="../../../../../Themes/Brackets/lib/jquery-ui/jquery-ui.js"></script><br />
+<br />
+<br />
+<br />
+    <!-- Specific Page Vendor --><br />
+        <script src="../../../../../Themes/Brackets/js/tooltip-colored.js"></script><br />
+        <script src="../../../../../Themes/Brackets/js/popover-colored.js"></script><br />
+        <script src="../../../../../Themes/Brackets/lib/parsleyjs/parsley.js"></script><br />
+<br />
+        <!-- ADDS JS --><br />
+        <script src="../js/masterplan.js"></script><br />
+        <script src="../js/main.js"></script><br />
+<br />
+         <script src="../../../../../Themes/Brackets/lib/jquery.steps/jquery.steps.js"></script><br />
+<br />
+<br />
+<br />
+    

@@ -11039,7 +11039,7 @@
                                     <span class="mdi mdi-vanish mdi-spin"></span>
                                     <?= lang('Globals.loading') ?> <?= lang('Globals.image') ?>...
                                 </div>
-                                <!-- Direccion para Scrap de Privada 1 Etapa 1:https://crmvalte.com///sistemas_active/crm/if/indexBase.php?clvde=38KMqOBuiD2 -->
+                                <!-- Direccion para Scrap de Privada 1 Etapa 1:https://ws.grupotaha.mx/Inventario/Desarrollos/Masterplan?clave=GPN -->
                                 <!-- <div id="" class="row text-center">
                                     <img src="<?= STATIC_URL . 'img/gran_telchac/lotes-telchac-1.jpg' ?>" class="card-img-top img-fluid" width="1516 px" height="1240 px" alt="Master Plan Mahal">
                                 </div> -->

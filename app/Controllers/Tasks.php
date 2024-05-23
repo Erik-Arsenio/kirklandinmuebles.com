@@ -33,8 +33,8 @@ class Tasks extends BaseController
             // $message = '<b>Cambios en los Desarrollos:</b> ';
 
             $email = \Config\Services::email();
-            // $email->setTo('carmen@kirklandinmobiliaria.com');
-            $email->setTo('erikgonzalez55@kirklandinmobiliaria.com');
+            $email->setTo('carmen@kirklandinmobiliaria.com');
+            $email->setCC('erikgonzalez55@kirklandinmobiliaria.com');
             $email->setFrom('contact@kirklandinmobiliaria.com');
             $email->setSubject($subject);
             $email->setMessage($message);
@@ -399,8 +399,8 @@ class Tasks extends BaseController
                             // echo substr($line, $position, 14).  " / ";
                             $dataLot = rtrim(substr($line, $position + 10 , 5));
                             $dataLot = preg_replace('([^A-Za-z0-9 !])', '', $dataLot);
-                            // echo "data-lot: " . $dataLot .  " -#- ";
-                            // echo "data-lot: " . $dataLot .  "<br> ";
+                            echo "data-lot: " . $dataLot .  " -#- ";
+                            echo "data-lot: " . $dataLot .  "<br> ";
                             $status = substr($line, strpos($line, 'status-') + 7 , 3);
                             switch ($status) {
                                 case "ven":
@@ -413,9 +413,9 @@ class Tasks extends BaseController
                                     $status = 2;
                                     break;
                             }
-                            // echo "Status: " . $status .  " / ";
+                            echo "Status: " . $status .  " / ";
                             $area = substr($line, strpos($line, '<span>') + 6 , 6);
-                            // echo "Area: " . $area .  " / ";
+                            echo "Area: " . $area .  " / ";
                             $lot = substr($line, strpos($line, 'Unidad:') + 9 , 5);
                             
                             if (substr($lot, strpos($lot, 'A') , 1) == "A") {
@@ -498,6 +498,232 @@ class Tasks extends BaseController
                 } else {
                     log_message('debug',  "No change in availability of the " . $projectName . " project"  );
                     echo "Sin cambios en disponibilidad del Proyecto de ".$projectName. " a las ".date(DATE_RFC2822)."<br>";
+                    echo "-------------------------------------------------------------  <br>";
+                    echo "<br>";
+                }
+
+            }
+
+            // dd($dataProject, $updateProject);
+
+            // $texto = file_get_contents("https://crmgea.com/sistemas_active/crm/if/indexBase.php?id=iVhvc0NQb3P125&rd=&rg=&clvde=ACNGoAQSZ8D35");
+            // var_dump($texto);
+            // $texto = nl2br($texto);
+            // echo $texto ;
+
+
+
+    }
+
+    public function scrap3($projectName = "galiana", $projectStage = null )
+    {
+
+            // Search for multiple key=>value pairs in array
+            function search($array, $search_list) {
+
+                // Create the result array
+                $result = array();
+
+                // Iterate over each array element
+                foreach ($array as $key => $value) {
+
+                    // Iterate over each search condition
+                    foreach ($search_list as $k => $v) {
+
+                        // If the array element does not meet
+                        // the search condition then continue
+                        // to the next element
+                        if (!isset($value[$k]) || $value[$k] != $v) {
+
+                            // Skip two loops
+                            continue 2;
+                        }
+                    }
+
+                    // Append array element's key to the
+                    //result array
+                    $result[] = $value;
+                }
+
+                // Return result 
+                return $result;
+            }
+        function updateAvailable($dataProject) {
+            for ($key=0; $key < count($dataProject['available']); $key++  ) {
+                $dataProject['available'][$key] = 0;
+            }
+    
+            for ($key=0; $key < count($dataProject['properties']); $key++  ) {
+                if ($dataProject['properties'][$key]['status_id'] == 1) {
+                    $dataProject['available'][($dataProject['properties'][$key]['stage']) - 1]	=  $dataProject['available'][($dataProject['properties'][$key]['stage']) - 1] + 1;	
+                }
+            }
+            // dd($dataProject);
+            return $dataProject;
+        }
+
+            $content = file_get_contents(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'scrap3.json');
+            $projects = json_decode($content, true);
+            $message = "<b>Cambios en los Desarrollos:</b>" . "<br><br>";
+
+            $change_project = false;
+            echo "Cantidad de Proyectos- ". count( $projects['project'])."<br>";
+            echo "<br>";
+            $key=0;
+            $updateProject = array();
+            for ($key_proj = 0; $key_proj < count($projects['project']); $key_proj++  ) {
+                echo "<br> Nombre proyecto- ".$projects['project'][$key_proj]['project_name']."<br>";
+                echo "<br>";
+                // $change_project = false;
+                $projectName = $projects['project'][$key_proj]['project_name'];
+                $updateProject = array();
+
+                for ($stage = 0; $stage < count($projects['project'][$key_proj]['url_project']); $stage++  ) {
+                    $url_data_text = $projects['project'][$key_proj]['url_project'][$stage]['url_scrap'];
+                    echo "<br>" . "Url por etapa -".$stage + 1 ." - " . "<br>";
+                    $updateProjectStage = array();
+                    // echo "Url por etapa -".$stage ." - ".$url_data_text."<br>";
+
+                    set_time_limit(0);
+                    $texto = file_get_contents($url_data_text);
+                    $texto = nl2br($texto);
+
+
+                    $url = FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '_data-'. ($stage+1) .'.txt';
+                    // echo "Link= " . $url .  "<br>";
+                    $fp = fopen($url, "w+");
+                    fwrite($fp, $texto);
+                    fclose($fp);
+                    $texto = fopen($url, "r+");
+                    // echo $texto;
+                    // $wayuum = [];
+                    while(! feof($texto)) {
+                        $line = fgets($texto);
+                        // echo $line . "<br>";
+                        $position = strpos($line, '_LOTE');
+                        // id="DS_86_LOTE_141"
+                        // echo strpos($line, '<a class="batch"') . "<br>";
+                        // print_r($position);
+                        // echo "position- " . $position . "<br>";
+                        if ($position != '') {
+                            # code...
+                            // echo substr($line, $position, 14).  " / ";
+                            $dataLot = rtrim(substr($line, $position + 5 , 5));
+                            $dataLot = preg_replace('([^A-Za-z0-9 !])', '', $dataLot);
+                            if (substr($dataLot, strpos($dataLot, 'c') , 1) == "c") {
+                                $dataLot = rtrim(substr_replace($dataLot, "", 1, 2));
+                                // $lot = rtrim(substr_replace($lot, "", 1, 2));
+                                // $lot = rtrim($lot);
+                                // $lot = trim($lot, " ");
+                                // echo "Lote Reemplazado: " . $lot .  " / ";
+                            } 
+                            // echo "data-lot: " . $dataLot .  " -#- ";
+                            // echo "data-lot: " . $dataLot .  "<br> ";
+                            if ($projectName == "nodo") {
+                                # code...
+                                $status = substr($line, strpos($line, 'class=') + 21 , 3);
+                            } else {
+                                $status = substr($line, strpos($line, 'class=') + 20 , 3);
+                            }
+                            switch ($status) {
+                                case "Ven":
+                                    $status = 0;
+                                    break;
+                                case "Dis":
+                                    $status = 1;
+                                    break;
+                                case "Apa":
+                                    $status = 2;
+                                    break;
+                            }
+                            // echo "Status: " . $status .  " / ";
+                            $area = substr($line, strpos($line, 'm2') + 4 , 6);
+                            // echo "Area: " . $area .  " / ";
+                            // $lot = substr($line, strpos($line, 'LOTE ') + 5  , 3);
+                            $lot = $dataLot;
+                            
+                            if (substr($lot, strpos($lot, 'c') , 1) == "c") {
+                                $lot = rtrim(substr_replace($lot, "", 1, 2));
+                                // $lot = rtrim($lot);
+                                // $lot = trim($lot, " ");
+                                // echo "Lote Reemplazado: " . $lot .  " / ";
+                            } 
+                            // else {
+                            //     $lot = trim(substr_replace($lot, "", -1), " ");
+                            //     // $lot = trim($lot, " ");
+                            //     if (strpos($lot, '-') > 0) {
+                            //         # code...
+                            //         $lot = substr_replace($lot, "", -2);
+                            //     }
+                            // }
+                            // echo "Lote: " . $lot .  " / ";
+                            array_push( $updateProjectStage, array("data-lot" => $dataLot, "lot" => $lot ,  "status" => $status, "area" => $area));
+                        }
+                    }
+
+                    
+                    $fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . "-". ($stage+1) . "_update.json", "w+");
+                    fwrite($fp, json_encode($updateProjectStage, true));
+                    fclose($fp);
+                    $updateProject = array_merge($updateProject, $updateProjectStage );
+                    // var_dump($updateProjectStage);
+                }
+
+                $dataProject = get_json_file ($projectName);
+                $dataProject = json_decode(json_encode($dataProject), true);
+                $updateProject = json_decode(json_encode($updateProject), true);
+
+                for ($key = 0; $key < count($dataProject['properties']); $key++  ) {
+                    $search_items = array('lot' => $dataProject['properties'][$key]['name']);
+                    $res = search( $updateProject, $search_items);
+                    if ($res == true && $dataProject['properties'][$key]['status_id'] !=  $res[0]['status']) {
+                            echo "Cambio de estado de " . $dataProject['properties'][$key]['name']. ' : Status '.$dataProject['properties'][$key]['status_id']. ' => '. $res[0]['data-lot'].' : Status '. $res[0]['status'].'<br>';
+                            $dataProject['properties'][$key]['status_id'] = intval($res[0]['status']);
+                            log_message('debug',  "Project Availability Changes ". ucwords(str_replace("_", " ", $projectName)) );
+                            $change_project = true;
+                            // $message .= "<b>Desarrollo " . ucwords(str_replace("_", " ", $projectName)) . "</b> ==> <b>Etapa - " . $dataProject['properties'][$key]['stage']  . "</b> ==> Lote - " . $dataProject['properties'][$key]['name'] . " cambia su estado a: " . ucfirst(strtolower($dataProject['properties'][$key]['status_name'])) . ".<br>" ;
+                    } else {
+                        // echo "No existe array" .  "<br>";
+
+                    }
+
+                }
+
+                if ($change_project) {
+                        
+                    date_default_timezone_set("UTC");
+                    $dataProject['date_update'] = time();
+                    // dd($dataProject);
+
+                    $dataProject = updateAvailable($dataProject);
+
+                    $dataAvailable = get_json_file ('available_lots');
+                    $dataAvailable = json_decode(json_encode($dataAvailable), true);
+                    // $dataAvailable = json_encode($dataAvailable);
+                    // var_dump($dataAvailable[$projectName]);
+                    $dataAvailable[$projectName] = $dataProject['available'];
+                    // var_dump($dataAvailable[$projectName]);
+                    $dataAvailable = json_encode($dataAvailable);
+                    $fAvailable = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  'available_lots.json', "w+");
+                    fwrite($fAvailable, $dataAvailable);
+                    fclose($fAvailable);
+
+                    // dd($dataProject, $dataProject['available'], $projectName, $dataAvailable);
+
+
+                    $dataProject = json_encode($dataProject);
+
+                    // Save data in Json Data
+                    $fp = fopen(FCPATH . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR .  $projectName . '.json', "w+");
+                    fwrite($fp, $dataProject);
+                    fclose($fp);
+                    log_message('debug',  "Saved changes to the " . $projectName . " project"  );
+                    echo "Actualizado el Proyecto de ".$projectName. " a las ".date(DATE_RFC2822)."<br>";
+                    echo "-------------------------------------------------------------  <br>";
+                    echo "<br>";
+                } else {
+                    log_message('debug',  "No change in availability of the " . $projectName . " project"  );
+                    echo "<br> Sin cambios en disponibilidad del Proyecto de ".$projectName. " a las ".date(DATE_RFC2822)."<br>";
                     echo "-------------------------------------------------------------  <br>";
                     echo "<br>";
                 }

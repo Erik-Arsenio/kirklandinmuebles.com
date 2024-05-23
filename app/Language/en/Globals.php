@@ -8,6 +8,7 @@
 return [
 	'loading' => 'Loading',
 	'home' => 'Home',
+	'all' => 'All investments',
 	'investments' => 'Investments',
 	'contact_us' => 'Contact us',
 	'contact' => 'Contact',
@@ -20,7 +21,7 @@ return [
 	'sign_in' => 'Entrar',
 	'authentication' => 'Autenticación',
 	'password' => 'Contraseña',
-	'properties' => 'Propiedades',
+	'properties' => 'Properties',
 	'done' => 'Hecho',
 	'sorry' => 'Lo sentimos',
 	'listing' => 'Listado',
@@ -93,7 +94,8 @@ return [
 	'homepage_6' => 'This is the time to invest in the safest state in Mexico.',
 	'homepage_7' => 'Remember everything starts with a “yes”.',
 	'homepage_8' => 'Get to know our development project and start your new lifestyle with us.',
-	'homepage_9' => 'OUR PROPERTIES',
+	'homepage_9' => 'OUR INVESTMENTS',
+	'homepage_09' => 'OUR PROPERTIES',
 
 	'homepage_10' => 'Development of semi-urbanized investment land.',
 	'homepage_11' => 'Residential development inspired by exclusivity, balance and elegance.',
@@ -151,6 +153,11 @@ return [
 	// Header text in Nodo
 	'header_20' => 'Industrial lots in Yucatán',
 	'header_21' => 'Located in the new Mérida-Hunucmá industrial corridor.',
+	
+	// Header text in Caoba
+	'header_22' => 'Housing development',
+	'header_23' => 'Planned for growth and family life in a safe environment with multiple green spaces and amenities dedicated to well-being.',
+	'header_24' => 'Housing development lots',
 
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
@@ -202,11 +209,19 @@ return [
 	'carousel_38' => 'It will have 4 clousters with a park',
 	'carousel_39' => 'Galiana Club House',
 	'carousel_40' => 'Strategic location',
+	
+	// carousel Nodo
 	'carousel_41' => 'Aerial view of warehouses',
 	'carousel_42' => 'Warehouse interior',
 	'carousel_43' => 'Bridge to the Progreso Pier',
 	'carousel_44' => 'Interior view of a warehouse',
 
+	// carousel Caoba
+	'carousel_45' => 'Aerial view of lots in Caoba',
+	'carousel_46' => 'Exercise area',
+	'carousel_47' => 'Adventure playground',
+	'carousel_48' => 'Adventure playground',
+	'carousel_49' => 'Caoba location',
 
 		'click_zoom' => 'Click to zoom',
 
@@ -298,6 +313,12 @@ return [
 	'location_66'  => 'The port has docks for docking vessels of different sizes and has facilities for loading, unloading and storing goods.',
 	'location_67'  => 'Its infrastructure was specifically designed to <b>satisfy the needs of companies</b>, which includes services such as electricity, adequate streets and accesses, drainage system, among others.',
 	'location_68'  => 'Its accessibility to development and privileged location is a generator of business connections, which makes it a <b>strategic area of high productivity</b> and excellent business prospects.',
+	
+	// text in Caoba
+	'location_69'  => 'Why buy a residential lot in Caoba?',
+	'location_70'  => 'The economic growth of Mérida has turned it into a City that is revolutionizing the concept of quiet and exclusive residential housing.',
+	'location_71'  => 'A growing natural area connected to endless resources that drive capital gains like never before seen and give full security to your investment.',
+	'location_72'  => 'Located in a growing area in the State, with direct connection to the Industrial Zone and high connectivity to municipal services, schools and universities; supermarkets, entertainment areas, parks and urban transportation.',
 
 	// characteristic text in Lakuun
 	'characteristic'  => 'Characteristics',
@@ -468,6 +489,19 @@ return [
 	'characteristic_142'  => 'Internal streets with asphalt surface',
 	'characteristic_143'  => 'Access avenue to NODO (25m wide) paved and illuminated',
 
+	// characteristic text in Caoba
+	'characteristic_144'  => 'First level urbanization',
+	'characteristic_145'  => 'Paved streets and avenues',
+	'characteristic_146'  => 'Wide benches',
+	'characteristic_147'  => 'Light at the foot of the lot',
+	'characteristic_148'  => 'Planning and security',
+	'characteristic_149'  => 'Proximity to urban transportation',
+	'characteristic_150'  => 'Green areas and amenities',
+	'characteristic_151'  => 'Various parks in development',
+	'characteristic_152'  => 'Multipurpose courts',
+	'characteristic_153'  => 'Recreation areas',
+	'characteristic_154'  => 'Spaces for commercial areas',
+	'characteristic_155'  => 'Large creative spaces',
 
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
@@ -573,7 +607,6 @@ return [
 	'clubhouse_100'  => '3 paddle tennis courts',
 	'clubhouse_101'  => 'Sanitary',
 	'clubhouse_102'  => 'Gym',
-	
 
 	// Casa Club Ponttho
 
