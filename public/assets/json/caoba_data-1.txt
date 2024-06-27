@@ -41,21 +41,21 @@
                 opacity: 50%;<br />
             }<br />
         </style><br />
-    <link rel="stylesheet" href="/Content/styles/site.css?v=200524"><br />
+    <link rel="stylesheet" href="/Content/styles/site.css?v=260624"><br />
 <br />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><br />
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script><br />
 <br />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?v=200524"></script><br />
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js?v=200524"></script><br />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js?v=200524"></script><br />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?v=260624"></script><br />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js?v=260624"></script><br />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js?v=260624"></script><br />
     <br />
-    <script src="https://cdn.tpmex.com.mx/scripts/notify.min.js?v=200524"></script><br />
-    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.unobtrusive-ajax.min.js?v=200524"></script><br />
-    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.min.js?v=200524"></script><br />
-    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.unobtrusive.min.js?v=200524"></script><br />
-    <script src="https://cdn.tpmex.com.mx/scripts/General.min.js?v=200524"></script><br />
-    <script src="https://cdn.tpmex.com.mx/scripts/Ajax.min.js?v=200524"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/notify.min.js?v=260624"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.unobtrusive-ajax.min.js?v=260624"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.min.js?v=260624"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/jquery/jquery.validate.unobtrusive.min.js?v=260624"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/General.min.js?v=260624"></script><br />
+    <script src="https://cdn.tpmex.com.mx/scripts/Ajax.min.js?v=260624"></script><br />
 </head><br />
 <body id="bodyMaster"><br />
 <?xml version="1.0" encoding="utf-8"?><br />
@@ -451,9 +451,9 @@
 	<path id="DS_40_LOTE_499" class="st1 stItem stVendido" d="M349.3,1524.6c-0.3,8.3,5.1,15.6,13.1,17.8l-0.2,35.6h-16.8L349.3,1524.6z" m2="220.66" precioTotal="110109.34" costom2="499.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 499" /><br />
 	<path id="DS_40_LOTE_498" class="st1 stItem stVendido" d="M362.3,1542.3c6.2,1.6,12.7-0.2,17.2-4.7l-0.1,40.4l-17.3-0.1L362.3,1542.3" m2="220.66" precioTotal="132175.34" costom2="599.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 498" /><br />
 	<path id="DS_40_LOTE_497" class="st1 stItem stVendido" d="M379.4,1537.6c1-1,1.9-2.2,2.6-3.5l11.7-0.1v43.9h-14.4L379.4,1537.6z" m2="220.66" precioTotal="132175.34" costom2="599.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 497" /><br />
-	<polygon id="DS_40_LOTE_496" class="st1 stItem stDisponible" points="407.9,1578 408,1534.1 393.7,1534.1 393.7,1578.1  " m2="220.66" precioTotal="220439.34" costom2="999.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 496" /><br />
-	<polygon id="DS_40_LOTE_495" class="st1 stItem stDisponible" points="422.1,1578.1 422.1,1534.2 408,1534.1 407.9,1578  " m2="220.66" precioTotal="220439.34" costom2="999.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 495" /><br />
-	<polygon id="DS_40_LOTE_494" class="st1 stItem stApartado" points="436.3,1578.1 436.4,1534.2 422.1,1534.2 422.1,1578.1  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 494" /><br />
+	<polygon id="DS_40_LOTE_496" class="st1 stItem stVendido" points="407.9,1578 408,1534.1 393.7,1534.1 393.7,1578.1  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 496" /><br />
+	<polygon id="DS_40_LOTE_495" class="st1 stItem stVendido" points="422.1,1578.1 422.1,1534.2 408,1534.1 407.9,1578  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 495" /><br />
+	<polygon id="DS_40_LOTE_494" class="st1 stItem stVendido" points="436.3,1578.1 436.4,1534.2 422.1,1534.2 422.1,1578.1  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 494" /><br />
 	<polygon id="DS_40_LOTE_493" class="st1 stItem stVendido" points="450.6,1578.2 450.7,1534.1 436.4,1534.2 436.3,1578.1  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 493" /><br />
 	<polygon id="DS_40_LOTE_492" class="st1 stItem stVendido" points="464.9,1578.2 464.8,1534.2 450.7,1534.1 450.6,1578.2  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 492" /><br />
 	<polygon id="DS_40_LOTE_491" class="st1 stItem stVendido" points="478.9,1578.1 479,1534.2 464.8,1534.2 464.9,1578.2  " m2="220.66" precioTotal="242505.34" costom2="1099.00" largo1="26.07" largo2="26.07" fondo="8.46" frente="8.46" nombre="LOTE 491" /><br />
@@ -667,8 +667,8 @@
 	<path id="DS_40_LOTE_310" class="st1 stItem stDisponible" d="M796.8,1220.4v-47c-1.8-1.4-3.3-3.1-4.4-5.1l-9.9-0.1l-0.1,52.2H796.8z" m2="259.44" precioTotal="259180.56" costom2="999.00" largo1="27.97" largo2="31.00" fondo="0.00" frente="8.51" nombre="LOTE 310" /><br />
 	<path id="DS_40_LOTE_309" class="st1 stItem stDisponible" d="M813.4,1220.3l0.1-44.1c-5.7,1.9-11.9,0.8-16.6-2.9v47H813.4z" m2="259.44" precioTotal="259180.56" costom2="999.00" largo1="26.28" largo2="27.97" fondo="0.00" frente="9.88" nombre="LOTE 309" /><br />
 	<path id="DS_40_LOTE_308" class="st1 stItem stVendido" d="M830.1,1220.3l-4.8-61c0.1,7.6-4.7,14.4-12,16.9l-0.1,44.1H830.1z" m2="259.44" precioTotal="129460.56" costom2="499.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 308" /><br />
-	<path id="DS_40_LOTE_307" class="st1 stItem stDisponible" d="M825.2,1156.9c-1.3-8.9-9-15.3-18-15.1v-43.4l13.3-0.1L825.2,1156.9z" m2="250.77" precioTotal="250519.23" costom2="999.00" largo1="34.83" largo2="25.78" fondo="7.96" frente="0.00" nombre="LOTE 307" /><br />
-	<path id="DS_40_LOTE_306" class="st1 stItem stDisponible" d="M792.5,1150.5c3.1-5.3,8.7-8.5,14.8-8.7v-43.4h-15.4l-0.1,52.1H792.5z" m2="250.77" precioTotal="250519.23" costom2="999.00" largo1="25.78" largo2="31.00" fondo="9.12" frente="0.00" nombre="LOTE 306" /><br />
+	<path id="DS_40_LOTE_307" class="st1 stItem stVendido" d="M825.2,1156.9c-1.3-8.9-9-15.3-18-15.1v-43.4l13.3-0.1L825.2,1156.9z" m2="250.77" precioTotal="275596.23" costom2="1099.00" largo1="34.83" largo2="25.78" fondo="7.96" frente="0.00" nombre="LOTE 307" /><br />
+	<path id="DS_40_LOTE_306" class="st1 stItem stVendido" d="M792.5,1150.5c3.1-5.3,8.7-8.5,14.8-8.7v-43.4h-15.4l-0.1,52.1H792.5z" m2="250.77" precioTotal="275596.23" costom2="1099.00" largo1="25.78" largo2="31.00" fondo="9.12" frente="0.00" nombre="LOTE 306" /><br />
 	<br />
 		<rect id="DS_40_LOTE_305" x="759" y="1117.5" transform="matrix(1.433093e-03 -1 1 1.433093e-03 -340.3936 1907.7576)" class="st1 stItem stDisponible" width="52.1" height="13.6" m2="250.77" precioTotal="250519.23" costom2="999.00" largo1="31.00" largo2="31.00" fondo="8.09" frente="8.09" nombre="LOTE 305" /><br />
 	<br />
@@ -848,7 +848,7 @@
 	<polygon id="DS_40_LOTE_157" class="st1 stItem stVendido" points="554.5,783.3 555,730.9 553.9,730.8 538.7,730.7 538.3,783.2  " m2="299.49" precioTotal="149445.51" costom2="499.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 157" /><br />
 	<polygon id="DS_40_LOTE_156" class="st1 stItem stVendido" points="538.3,783.2 522.1,783.1 522.6,730.7 538.7,730.7  " m2="299.56" precioTotal="299260.44" costom2="999.00" largo1="30.99" largo2="30.98" fondo="9.67" frente="9.67" nombre="LOTE 156" /><br />
 	<polygon id="DS_40_LOTE_155" class="st1 stItem stVendido" points="522.1,783.1 522.6,730.7 506.5,730.6 505.9,783  " m2="299.59" precioTotal="179454.41" costom2="599.00" largo1="30.98" largo2="30.99" fondo="9.67" frente="9.67" nombre="LOTE 155" /><br />
-	<polygon id="DS_40_LOTE_154" class="st1 stItem stDisponible" points="505.9,783 489.7,783 490.2,730.6 506.5,730.6  " m2="299.62" precioTotal="299320.38" costom2="999.00" largo1="30.99" largo2="30.99" fondo="9.67" frente="9.67" nombre="LOTE 154" /><br />
+	<polygon id="DS_40_LOTE_154" class="st1 stItem stVendido" points="505.9,783 489.7,783 490.2,730.6 506.5,730.6  " m2="299.62" precioTotal="299320.38" costom2="999.00" largo1="30.99" largo2="30.99" fondo="9.67" frente="9.67" nombre="LOTE 154" /><br />
 	<polygon id="DS_40_LOTE_153" class="st1 stItem stVendido" points="473.7,730.4 473.5,782.8 489.7,783 490.2,730.6  " m2="299.65" precioTotal="179490.35" costom2="599.00" largo1="30.99" largo2="30.99" fondo="9.67" frente="9.67" nombre="LOTE 153" /><br />
 	<polygon id="DS_40_LOTE_152" class="st1 stItem stVendido" points="473.5,782.8 457.4,782.8 458,730.4 473.7,730.4  " m2="299.68" precioTotal="329348.32" costom2="1099.00" largo1="30.99" largo2="30.99" fondo="9.67" frente="9.67" nombre="LOTE 152" /><br />
 	<polygon id="DS_40_LOTE_151" class="st1 stItem stDisponible" points="458,730.4 457.4,782.8 441.1,782.7 441.5,730.4  " m2="299.66" precioTotal="299360.34" costom2="999.00" largo1="30.99" largo2="31.00" fondo="9.67" frente="9.67" nombre="LOTE 151" /><br />
@@ -965,7 +965,7 @@
 		<rect id="DS_40_LOTE_53" x="651.6" y="454.1" transform="matrix(1.085640e-02 -0.9999 0.9999 1.085640e-02 208.9839 1133.9424)" class="st1 stItem stVendido" width="52.1" height="14.4" m2="265.69" precioTotal="238855.31" costom2="899.00" largo1="31.00" largo2="31.00" fondo="8.57" frente="8.57" nombre="LOTE 53" /><br />
 	<polygon id="DS_40_LOTE_52" class="st1 stItem stVendido" points="699.2,487.4 684.7,487.4 685.3,435.1 699.9,435.4  " m2="265.69" precioTotal="265424.31" costom2="999.00" largo1="31.00" largo2="31.00" fondo="8.57" frente="8.57" nombre="LOTE 52" /><br />
 	<polygon id="DS_40_LOTE_51" class="st1 stItem stDisponible" points="713.7,487.8 714.3,435.7 699.9,435.4 699.3,487.6  " m2="265.69" precioTotal="265424.31" costom2="999.00" largo1="31.00" largo2="31.00" fondo="8.57" frente="8.57" nombre="LOTE 51" /><br />
-	<path id="DS_40_LOTE_50" class="st1 stItem stDisponible" d="M724.2,435.6l-9.9,0.1l-0.6,52l15.1,0.1l0,0l0.7-45.9   C729.5,441.9,725.6,440,724.2,435.6z" m2="265.69" precioTotal="265424.31" costom2="999.00" largo1="31.00" largo2="27.72" fondo="8.75" frente="0.00" nombre="LOTE 50" /><br />
+	<path id="DS_40_LOTE_50" class="st1 stItem stVendido" d="M724.2,435.6l-9.9,0.1l-0.6,52l15.1,0.1l0,0l0.7-45.9   C729.5,441.9,725.6,440,724.2,435.6z" m2="265.69" precioTotal="265424.31" costom2="999.00" largo1="31.00" largo2="27.72" fondo="8.75" frente="0.00" nombre="LOTE 50" /><br />
 	<path id="DS_40_LOTE_49" class="st1 stItem stVendido" d="M728.7,488l0.7-46c4.9,3.6,11,4,16.6,1.7l-0.5,44.5L728.7,488z" m2="265.69" precioTotal="79707.00" costom2="300.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 49" /><br />
 	<path id="DS_40_LOTE_48" class="st1 stItem stVendido" d="M757.1,429.8c-0.9,6.2-5.1,11.5-10.9,13.8l-0.5,44.5l18.3,0.2L757.1,429.8z" m2="265.69" precioTotal="79707.00" costom2="300.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 48" /><br />
 	<path id="DS_40_LOTE_47" class="st1 stItem stVendido" d="M734.6,409.2v-38.9h14.7l6.3,49C755.7,419.3,753.5,406.4,734.6,409.2" m2="249.84" precioTotal="74952.00" costom2="300.00" largo1="0.00" largo2="0.00" fondo="0.00" frente="0.00" nombre="LOTE 47" /><br />
@@ -3604,7 +3604,7 @@
         </div><br />
     </div><br />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script><br />
-    <script src="/Content/js_funciones.js?v=200524"></script><br />
+    <script src="/Content/js_funciones.js?v=260624"></script><br />
     <div id="resultDiv" class="hidden"></div><br />
 </body><br />
 </html><br />
