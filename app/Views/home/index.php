@@ -1,5 +1,5 @@
 <!-- Header Start -->
-	<div class="container-xxl bg-white p-0 mt-2">
+	<div class="container-xxl bg-white p-0 mt-2 d-none">
 		<div class="row g-0 text-center">
 			<div class="col-md-6 p-3 mt-0 mt-xxl-5">
 				<h1 class="h2 fw-bold mb-4"><?= lang('Globals.homepage_1') ?></h1>
@@ -120,7 +120,7 @@
 <!-- Header End -->
 
 <!-- About Start -->
-<div class="container-xxl py-5">
+<div class="container-xxl py-5 d-none">
 	<!-- <div class="container"> -->
 		
 		<div class="row g-5 align-items-center" id="image_site">
@@ -10712,18 +10712,133 @@
 </div>
 <!-- About End -->
 
+<!-- Contact Us Section -->
+<?= $sectionContact ?>
+<!-- Reviews Section -->
+<?= $sectionReviews ?>
+
 <!-- Property List Start -->
 <div class="container-xxl">
 	<div class="row g-0 gx-5 align-items-center">
 		<div class="col-lg-12">
 			<div class="text-center mx-auto mb-5">
-				<h1 class="text-uppercase mt-5 mb-2"><?= lang('Globals.homepage_9') ?></h1>
+				<h1 class="text-uppercase mt-5 mb-2"><?= lang('Globals.homepage_14') ?></h1>
+			</div>
+		</div>
+	</div>
+
+    <?php if (!empty($propertiesList)) : ?>
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <?php foreach ($propertiesList as $p => $prop) : ?>
+                <div class="col mb-5">
+                    <div class="card property-item h-100 shadow"> 
+                        <a href="<?= base_url('properties/property/' . $propertiesList[$p]->property_code . '?lang='. $lang) ?>" class="img-info img-info-top glightbox" target="_blank">
+                            <figure class="img-info-thumbnail rounded image-hover-scale image-hover-overlay mb-0">
+                                <img src="<?= STATIC_URL . 'img/properties/' . $propertiesList[$p]->property_code . '/k01.jpg' ?>" class="img-fluid w-100"  width="1200 px" height="800 px" alt="Photo">
+                            </figure>
+                            <div class="img-info-body shadow">
+                                <div class="d-flex">
+                                    <!-- <span class="me-4 text-secondary"><i class="ti ti-map-pin"></i></span> -->
+                                    <div class="img-info-content">
+                                        <h5 class="fsm-6 text-uppercase fw-semibold mb-0">
+                                            <span class="text-left text-muted h6 pe-2"><?= strtoupper($propertiesList[$p]->investment_type->$textField) ?></span>
+                                        </h5>
+                                        <!-- <p class="fsm-6 text-secondary mb-1">110 tours</p> -->
+                                        <!-- <div class="d-flex align-items-center fsm-6 text-secondary lh-1">
+                                            <span class="star-rate-view star-rate-size-xs me-1"><span class="star-value rate-45"></span></span>
+                                            <span>(98)</span>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pe-1 mb-0" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
+                                <p class="card-text text-left text-dark h4" name="property_price">$<?= number_format($propertiesList[$p]->property_price) ?> <spam class="text-left text-muted h6 pe-2"><?= strtoupper($propertiesList[$p]->investment_type->$textField) ?></spam></p>
+                                <p class="card-text text-left h6" name="property_heading"><?= $propertiesList[$p]->property_name->$textField ?></p>
+                            </div>
+                            <div class="card-footer border-top-0 pt-0" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
+                                <p class="d-flex justify-content-between mb-1">
+                                    <small class="flex-fill text-left text-muted py-2"><span class='mdi mdi-bed mdi-18px text-success me-1'></span><?= $propertiesList[$p]->property_data->bedrooms ?> <?= lang('Globals.bedrooms') ?> 
+                                    <span class="mdi mdi-shower mdi-18px text-success me-1"></span><?= $propertiesList[$p]->property_data->bathrooms ?> <?= lang('Globals.bedrooms') ?>  
+                                    <!-- <span class="mdi mdi-bed-queen-outline mdi-18px text-success me-3"></span><span class="mdi mdi-toilet mdi-18px text-success me-3">
+                                    <span class="mdi mdi-garage mdi-18px text-success me-3"></span><span class="mdi mdi-ruler mdi-18px text-success me-3"></span> -->
+                                    <span class="mdi mdi-arrow-all mdi-18px text-success me-1"></span><?= $propertiesList[$p]->property_data->terrain_area ?> m²
+                                    </small>
+                                </p>
+                                <p><small><span class='mdi mdi-map-marker-outline mdi-18px text-success me-2'></span><?= str_replace('_', ' ', $propertiesList[$p]->zone_city_name->$textField) ?>, <?= $propertiesList[$p]->zone_municipality_name->$textField ?>, <?= $propertiesList[$p]->zone_state_name->$textField ?>, <?= lang('Globals.mexico') ?></small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <?php else: ?>
+            <div class="row text-center">
+                <p class="h2 ">No se encontraron resultados</p>
+            </div>
+        <?php endif; ?>
+        <div class="row d-none">
+            <div class="col-12">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                    <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>    
+        
+</div>
+
+<!-- Property List Start -->
+<div class="container-xxl">
+	<div class="row g-0 gx-5 align-items-center">
+		<div class="col-lg-12">
+			<div class="text-center mx-auto mb-5">
+				<h1 class="text-uppercase mt-5 mb-2"><?= lang('Globals.homepage_15') ?></h1>
 			</div>
 		</div>
 	</div>
 	<div class="row row-cols-1 row-cols-lg-3 g-4">
+        <div class="col mb-5">
+			<div class="card property-item h-100 shadow">
+				<div class="position-relative overflow-hidden text-center">
+					<div id="carouselCaoba" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/caoba?lang='. $lang) ?>>
+						<div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="<?= STATIC_URL . 'img/caoba/01.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Caoba, Mérida, Yucatán, México.">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?= STATIC_URL . 'img/caoba/05.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Ubicacion Caoba, Mérida, Yucatán, México.">
+                            </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselCaoba" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselCaoba" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
+						</button>
+					</div>
+				</div>
+				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/caoba?lang='. $lang) ?>>
+					<p class="card-text text-center h4" name="project_heading">Caoba</p>
+					<p class="card-text text-center h6" name="project_description"><?= lang('Globals.header_22') ?></p>
+				</div>
+				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/caoba?lang='. $lang) ?>>
+					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span> <?= lang('Globals.homepage_40') ?></small>
+				</div>
+			</div>
+		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselNodo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10754,7 +10869,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselGaliana" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10785,7 +10900,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselCostaFlamingo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10816,7 +10931,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselGranTelchac" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/gran_telchac?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10847,7 +10962,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselMahal" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/mahal?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10878,7 +10993,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselSorenna" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/sorenna?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10912,7 +11027,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselWayuum" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/wayuum?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10946,7 +11061,7 @@
 			</div>
 		</div>
 		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselLife" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_life?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -10979,8 +11094,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+		<div class="col mb-5 d-none">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselAnthia" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/anthia/4?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -11022,8 +11137,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+		<div class="col mb-5 d-none">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselLakuun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/lakuun/?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -11065,8 +11180,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col mb-5">
-			<div class="card property-item  border-5 h-100 shadow">
+		<div class="col mb-5 d-none">
+			<div class="card property-item  h-100 shadow">
 				<div class="position-relative overflow-hidden">
 					<div id="carouselMarelaBeach" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/marela_beach?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -11108,8 +11223,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
+		<div class="col mb-5 d-none">
+			<div class="card property-item h-100 shadow">
 				<div class="position-relative overflow-hidden text-center">
 					<div id="carouselMarelaCelestun" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-bs-ride="true" data-href=<?= base_url('investments/marela_celestun?lang='. $lang) ?>>
 						<div class="carousel-inner">
@@ -11163,8 +11278,4 @@
 <!-- Property List End -->
 
 <!-- Attractions Modal -->
-<?= $sectionAttractions ?>
-<!-- Contact Us Section -->
-<?= $sectionContact ?>
-<!-- Reviews Section -->
-<?= $sectionReviews ?>
+<?//= $sectionAttractions ?>

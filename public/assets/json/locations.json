@@ -1,0 +1,36 @@
+{
+    "Mexico":{
+        "Yucatan": {
+            "Municipios": ["Conkal","Hunucma", "Merida", "Progreso", "Telchac Puerto", "Ucu",  "Valladolid"]
+        },
+        "Pueblos": [
+            ["Bosques de Conkal", "Conkal", "Praderas del Mayab"],
+            ["Hunucma"],
+            ["Altabrisa", 
+            "Benito Juárez Nte",
+            "Chableka",
+            "Cabo Norte",
+            "Chableka",
+            "Cholul",
+            "Dzityá",
+            "Komchen",
+            "Montebello",
+            "Montes de Ame",
+            "Mérida",
+            "Mérida Centro",
+            "San Ramon Norte",
+            "Santa Gertrudis Copo",
+            "Santa María Yaxché",
+            "Tamanché",
+            "Temozón Norte",
+            "Xcanatún",
+            "Yucatán Country Club"
+                ],
+                ["Chelem","Chicxulub", "Chicxulub Puerto", "Yucalpeten"],
+                ["Pueblo San Bruno", "Pueblo Telchac Puerto"],
+                ["Ucu"],
+                ["Valladolid"]
+            
+        ]
+    }
+}

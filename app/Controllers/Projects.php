@@ -90,7 +90,7 @@ class Projects extends BaseController
 				'sectionReviews' => view('templates/reviews')
 			];
 			$title = $pageTitle[$lang];
-			$url_content = 'home/index';
+			$url_content = 'projects/index';
 			$js = [];
 			// $content = $dataIndex;
 		} else {

@@ -21,35 +21,282 @@ class Properties extends BaseController
 		$this->projects = new ProjectsModel();
 		$this->validation = \Config\Services::validation();
 		$this->pager = \Config\Services::pager();
+		$this->properties_list = remote_json_file('properties_list');
+		$this->locations_list = remote_json_file('locations');
 	}
 
-	public function index($propertieName, $propertieStage = null )
+	public function index($uriLocation, $propertieStage = null )
 	{
+		// dd($uriLocation);
 		if ($this->request->getVar('lang')) {
 			$lang = $this->request->getVar('lang');
 			$this->request->setLocale($lang);
 		} else {
 			$lang = $this->request->getLocale();
 		}
+
+		// Lista de Locaciones en Yucatan
+		$dataLocations = get_json_file ('locations');
+		$dataLocations = json_decode(json_encode($dataLocations), true);
+	
+		$state = "Yucatan"; // La ciudad que deseas buscar
+		if (isset($dataLocations["Mexico"][$state])) {
+			$locationList = $dataLocations["Mexico"][$state];
+	
+		} else {
+			echo "La ciudad $state no se encontró en el JSON.\n";
+		}
+
+		// Array de los Municipios
+		$municipios_list = $locationList["Municipios"];
+		// Array de todos los pueblos
+		$pueblos_list = $dataLocations["Mexico"]["Pueblos"];
+
+		$claves_municipios = array_keys($locationList["Municipios"]);
+		$claves_pueblos = array_keys($dataLocations["Mexico"]["Pueblos"]);
+
+		// Busca la key del municipio 
+		$valorBuscado = "Progreso";
+		$claveEncontrada = array_search($valorBuscado, $municipios_list);
+
+		// Array de los pueblos selccionados
+		$pueblos_selected =  $pueblos_list[$claveEncontrada];
+		// dd($dataLocations, $municipios_list, $valorBuscado,  $claveEncontrada,  $pueblos_selected);
+
+		if (!empty($uriLocation and $uriLocation == "$1")) {
+			// $dataProject = get_json_file ('properties_list');
+			// $dataProject = json_encode($dataProject);
+			// $dataProject = json_decode(json_encode($dataProject), true);
+			// dd($lang, $uriLocation, $dataProject);
+			$formPost = $this->request->getPost();
+
+			$sortOrder = "SORT_ASC";
+			// A form post has been submitted
+			if (!empty($formPost)) {
+				
+					// Ordenar por
+					// $sortOrder = $formPost["order_selected"];
+					
+					
+					// dd($formPost, $formPost["zone_municipality"], $formPost["state_selected"], $sortOrder);
+					
+					// $municipality_selected = $formPost["municipality_selected"];
+					$state_selected = $formPost["state_selected"];
+					
+					$valorBuscado = $formPost["municipality_selected"];
+					$claveEncontrada = array_search($valorBuscado, $municipios_list);
+					// Array de los pueblos selccionados
+					$pueblos_selected =  $pueblos_list[$claveEncontrada];
+					if (!empty($pueblos_selected)) {
+						$municipality_selected = $formPost["municipality_selected"];
+					} else {
+						$municipality_selected = " " ; $formPost["city"] != ' ' ;
+					}
+					
+					// if ($formPost["zone_municipality"] == "" and $formPost["municipality_selected"] == "all") {
+					// 	$state_selected = "Yucatan";
+					// 	$municipality_selected = "all";
+					// 	$pueblos_selected = $municipios_list;
+					// 	$propertiesList = !empty($uriLocation) ? json_search("Yucatan", 'state', $this->properties_list) : null;
+					// } else {
+					// 	// Busca la key del municipio 
+					// }
+					
+					$propertiesList = !empty($formPost["municipality_selected"]) ? json_search($formPost["municipality_selected"], 'zone_municipality', $this->properties_list) : null;
+				
+
+
+					// dd($formPost, $propertiesList, $formPost["municipality_selected"], $municipality_selected, $state_selected, $pueblos_selected);
+					if ($formPost["city"] != 'all') {
+						// dd($formPost, $propertiesList, $formPost["zone_municipality"]);
+						
+						$jsonSearchField = "zone_city";
+						$returnKeys = false;
+						$jsonResults = [];
+						foreach ($propertiesList as $key => $item) {
+							# Define search element item according to type (Array or Object)
+							// $searchItem = is_array($jsonArray) ? $item[$jsonSearchField] : $item->$jsonSearchField;
+							$searchItem = is_array($propertiesList) ? $propertiesList[$key]->$jsonSearchField : $propertiesListy[$key]->$jsonSearchField;
 		
+							if ($searchItem == $formPost["city"]) {
+								array_push($jsonResults, $returnKeys == true ? $key : $item);
+							}
+						}
+						$propertiesList = $jsonResults;
+						$city_selected = $formPost["city"];
+						$property_type_selected = "all";
+						// dd($formPost, $propertiesList, $city_selected, $property_type_selected);
+					}
+					if ($formPost["type_property"] != 'all') {
+					// if (!empty($formPost["type_property"])) {
+						# code...
+						// dd($formPost, $propertiesList, $city_selected, $property_type_selected);
+						// $propertiesList = !empty($formPost["type_property"]) ? json_search($formPost["type_property"], 'property_type', $this->properties_list) : null;
+						$jsonSearchField = "property_type";
+						$textField = "text_" . strtoupper(service('request')->getLocale());
+						$returnKeys = false;
+						$jsonResults = [];
+						foreach ($propertiesList as $key => $item) {
+							# Define search element item according to type (Array or Object)
+							// $searchItem = is_array($jsonArray) ? $item[$jsonSearchField] : $item->$jsonSearchField;
+							$searchItem = is_array($propertiesList) ? strtolower($propertiesList[$key]->$jsonSearchField->$textField) : strtolower($propertiesListy[$key]->$jsonSearchField->$textField);
+							// print_r($searchItem);
+							if ($searchItem == strtolower($formPost["type_property"])) {
+								array_push($jsonResults, $returnKeys == true ? $key : $item);
+							}
+						}
+						$propertiesList = $jsonResults;
+
+						$property_type_selected = strtolower($formPost["type_property"]);
+						if (!isset($city_selected)) {$city_selected = "all";} 
+						// dd($formPost, $propertiesList, $formPost["type_property"],  $property_type_selected);
+					}
+
+					if ( intval($formPost["num_bedroom"]) > 1) {
+						$jsonSearchField = "bedrooms";
+						$returnKeys = false;
+						$jsonResults = [];
+						foreach ($propertiesList as $key => $item) {
+							# Define search element item according to type (Array or Object)
+							// $searchItem = is_array($jsonArray) ? $item[$jsonSearchField] : $item->$jsonSearchField;
+							$searchItem = is_array($propertiesList) ? $propertiesList[$key]->property_data->$jsonSearchField : $propertiesListy[$key]->property_data->$jsonSearchField;
+		
+							if ($searchItem >= intval($formPost["num_bedroom"])) {
+								array_push($jsonResults, $returnKeys == true ? $key : $item);
+							}
+						}
+						$propertiesList = $jsonResults;
+						$num_bedroom_selected = intval($formPost["num_bedroom"]);
+						// dd($formPost, $propertiesList, $searchItem);
+					}
+					// if (!isset($municipality_selected)) {$municipality_selected = "all";
+					if ($municipality_selected != '' and  $state_selected = "") {
+						# code...
+						$state_selected = "Yucatan";
+					} else {
+						$state_selected = "";
+					}
+					if (!isset($city_selected)) {$city_selected = "all";} 
+					if (!isset($property_type_selected)) {$property_type_selected = "all";} 
+					if (!isset($num_bedroom_selected)) {$num_bedroom_selected = 1;} 
+
+					// dd($formPost, $propertiesList,  $sortOrder);
+					//Ordenar un array multidimensional ASC o DESC
+					// if ($sortOrder == "SORT_ASC") {
+					// 	// dd($formPost, $propertiesList,  $sortOrder);
+					// 	$columns = array_column( $propertiesList, 'property_price');
+					// 	array_multisort($columns, SORT_ASC, $propertiesList);
+					// } else {
+					// 	// dd($propertiesList,  $sortOrder);
+					// 	$columns = array_column( $propertiesList, 'property_price');
+					// 	array_multisort($columns, SORT_DESC, $propertiesList);
+					// }
+					
+					// dd($formPost, $propertiesList,$city_selected,$property_type_selected,$num_bedroom_selected,$state_selected,$municipality_selected);
+					// dd($formPost, $propertiesList,$city_selected,$property_type_selected,$num_bedroom_selected,$state_selected,$municipality_selected);
+					
+
+			} else {
+				// if (!isset($city_selected)) {$city_selected = "";} else {$city_selected = "all";}
+				// if (!isset($property_type_selected)) {$property_type_selected = "";}
+				$municipality_selected = "all"; 
+				$state_selected = "Yucatan";
+				$city_selected = "all";
+				$property_type_selected = "all";
+				$num_bedroom_selected = 1;
+				$propertiesList = !empty($uriLocation) ? json_search($state_selected, 'state', $this->properties_list) : null;
+
+				//Ordenar un array multidimensional ASC o DESC
+				// if ($sortOrder == "SORT_ASC") {
+				// 	// dd($formPost, $propertiesList,  $sortOrder);
+				// 	$columns = array_column( $propertiesList, 'property_price');
+				// 	array_multisort($columns, SORT_ASC, $propertiesList);
+				// } else {
+				// 	dd( $propertiesList,  $sortOrder);
+				// 	$columns = array_column( $propertiesList, 'property_price');
+				// 	array_multisort($columns, SORT_DESC, $propertiesList);
+				// }
+
+				// dd($lang, $uriLocation, $propertiesList, $city_selected, $property_type_selected, $municipality_selected,  $sortOrder);
+				// dd($lang, $uriLocation, $propertiesList, $city_selected, $property_type_selected, $municipality_selected, $ascendente, $descendente);
+			}
+		} elseif (!empty($uriLocation)) {
+			if ($uriLocation == "venta" or  $uriLocation == "renta" or $uriLocation == "sale" or  $uriLocation == "rent") {
+
+				$investmentNameType = "investment_type_" . strtoupper(service('request')->getLocale());
+				# code...
+				$propertiesList = !empty($uriLocation) ? json_search($uriLocation, $investmentNameType, $this->properties_list) : null;
+				$zoneNameField = "zone_name_" . strtoupper(service('request')->getLocale());
+				$city_selected = "all";
+				$property_type_selected = "all";
+			} 
+			// dd($lang, $uriLocation, count($propertiesList) ,$propertiesList, $investmentNameType);
+		} else {
+
+			# Globals
+			$propertiesList = !empty($uriLocation) ? json_search($uriLocation, 'zone_city', $this->properties_list) : null;
+			$zoneNameField = "zone_name_" . strtoupper(service('request')->getLocale());
+			dd($lang, $uriLocation, $propertiesList);
+		}
+		// dd($propertiesList);
+		$directoryImages = dirname(ROOTPATH, 1) . DIRECTORY_SEPARATOR . 'cdn.kirklandinmuebles.com' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'properties' . DIRECTORY_SEPARATOR ;
+
+		$directoryPhotos = array_diff(scandir($directoryImages), array('.', '..'));
+		$listPhotos =[];
+		foreach ($directoryPhotos as $key => $photo) {
+			# code...
+			$directoryImages = dirname(ROOTPATH, 1) . DIRECTORY_SEPARATOR . 'cdn.kirklandinmuebles.com' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'properties' . DIRECTORY_SEPARATOR . $photo . DIRECTORY_SEPARATOR;
+			$directoryPhotos = array_diff(scandir($directoryImages), array('.', '..'));
+			array_push($listPhotos,$directoryPhotos[2]);
+		}
+		// dd($propertiesList, $directoryImages, $directoryPhotos, $listPhotos);
+		# Define a random excursions to promote them on home page banner area
+		// $promoProperties = array_keys($propertiesList);
+		// $propertiesKeys = array_rand($promoProperties, 6);
+
+		# Randomize excursions list for carousel area
+		// $propertiesListCarousel = $promoProperties;
+		// foreach ($propertiesListCarousel as $key => $value) {
+		// 	if (in_array($key, $propertiesKeys)) {
+		// 		unset($propertiesListCarousel[$key]);
+		// 	}
+		// }
+
+		// dd($lang, $uriLocation, $dataProject, $propertiesList, $promoProperties, $propertiesKeys, $propertiesListCarousel);
+		
+		// dd($formPost, $propertiesList, $city_selected, $property_type_selected);
+
 		$datalang = [
 			'lang' => $lang,
 		];
-		// dd($lang, $propertieName);
 
 		$dataIndex = [
-			'sectionAttractions' => view('templates/attractions'),
+			// 'sectionAttractions' => view('templates/attractions'),
 			'sectionContact' => view('templates/contact', $datalang),
 			'sectionReviews' => view('templates/reviews'),
 			'projectStage' => $propertieStage,
-			// 'dataProject' =>  $dataProject,
+			'propertiesList' =>  $propertiesList,
+			'directoryPhotos' => $directoryPhotos,
+			'municipiosList' =>  $municipios_list,
+			'pueblosSelected' =>  $pueblos_selected,
+			'propertyNameField' => "property_name_" . strtoupper(service('request')->getLocale()),
+			'propertyInvesmentType' => "investment_type_" . strtoupper(service('request')->getLocale()),
+			'propertyZoneNameField' => "zone_name_" . strtoupper(service('request')->getLocale()),
+			'municipality_selected' => $municipality_selected,
+			'state_selected' => $state_selected,
+			'city_selected' => $city_selected,
+			'property_type_selected' => $property_type_selected,
+			'num_bedroom_selected' => $num_bedroom_selected,
+			'textField' => "text_" . strtoupper(service('request')->getLocale()),
+			'sortOrder' => $sortOrder,
+			'listPhotos' => $listPhotos,
 			'lang' => $lang,
 			// 'updateProject' => $updateProject
 		];
-
 		$url_content = 'properties/index';
-		$js = [];
-
+		$js = ['js/property', 'js/swiper-bundle.min'];
+		// dd($lang, $propertieName,$dataIndex, $url_content);
+		
 		$data = [
 			'title' => 'Propiedades',
 			'content' => view($url_content, $dataIndex),
@@ -62,6 +309,102 @@ class Properties extends BaseController
 		echo view('templates/public', $data);
 	}
 
+
+	public function property($uriLocation, $propertyName )
+	{
+		if ($this->request->getVar('lang')) {
+			$lang = $this->request->getVar('lang');
+			$this->request->setLocale($lang);
+		} else {
+			$lang = $this->request->getLocale();
+		}
+
+		$datalang = [
+			'lang' => $lang,
+		];
+
+		$dataProject = get_json_file ('properties_list');
+		// $dataProject = json_encode($dataProject);
+		$dataProject = json_decode(json_encode($dataProject), true);
+		
+		# Globals
+		$propertiesList = !empty($propertyName) ? json_search($propertyName, 'property_code', $this->properties_list) : null;
+		$zoneNameField = "zone_name_" . strtoupper(service('request')->getLocale());
+		$propertiesPromo = true;
+		$propertiesPromoList = !empty($propertyName) ? json_search($propertiesPromo, 'promo_offer', $this->properties_list) : null;
+
+		// dd($propertiesList, $propertyName, $propertiesPromoList);
+		$directoryImages = dirname(ROOTPATH, 1) . DIRECTORY_SEPARATOR . 'cdn.kirklandinmuebles.com' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'properties' . DIRECTORY_SEPARATOR . $propertyName . DIRECTORY_SEPARATOR;
+		// $directoryImages = STATIC_URL . 'img/properties/' . $propertiesList[0]->property_code . '/';
+		// $directoryPhotos = directory_map($directoryImages);
+		
+		$ruta_carpeta = scandir($directoryImages);
+		
+		$directoryPhotos = array_diff(scandir($directoryImages), array('.', '..'));
+
+		// dd($directoryImages, $ruta_carpeta,  $directoryPhotos, $directoryPhotos[2]);
+		sort($directoryPhotos);
+		// dd($directoryImages, $directoryPhotos);
+
+		// dd($directoryImages);
+
+		// dd($uriLocation, $propertyName, $dataProject, $propertiesList, $zoneNameField);
+		$clave = array_search($propertiesList[0]->property_code, array_keys($dataProject));
+		unset($propertiesPromoList[$clave]);
+		# Define a random excursions to promote them on home page banner area
+		$promoProperties = array_keys($propertiesPromoList);
+		$propertiesKeys = array_rand($promoProperties, 5);
+
+		# Randomize excursions list for carousel area
+		$propertiesListPromo = $promoProperties;
+		foreach ($propertiesListPromo as $key => $value) {
+
+			if ($propertiesListPromo[$key] == $clave) {
+			// if (in_array($key, $propertiesKeys)) {
+				unset($propertiesListPromo[$key]);
+			}
+		}
+		// $textField = "text_" . strtoupper(service('request')->getLocale());
+		// dd($uriLocation, $dataProject, $propertiesPromoList, $propertiesList[0]->property_code, $promoProperties, $propertiesKeys, $propertiesListPromo, $clave, count($propertiesListPromo) , $propertiesList, $propertiesList[0]->zone_municipality_name->$textField);
+
+		$dataIndex = [
+			'sectionAttractions' => view('templates/attractions'),
+			'sectionContact' => view('templates/contact', $datalang),
+			'sectionReviews' => view('templates/reviews'),
+			'directoryPhotos' => $directoryPhotos,
+			'propertiesList' =>  $propertiesList,
+			'propertiesPromoList' =>  $propertiesPromoList,
+			'propertiesListPromo' =>  $propertiesListPromo,
+			'propertyNameField' => "property_name_" . strtoupper(service('request')->getLocale()),
+			'propertyInvesmentType' => "investment_type_" . strtoupper(service('request')->getLocale()),
+			'propertyZoneNameField' => "zone_name_" . strtoupper(service('request')->getLocale()),
+			// 'propertyDescriptionField' => "property_description_" . strtoupper(service('request')->getLocale()),
+			// 'propertyCharacteristicsField' => "property_characteristics_" . strtoupper(service('request')->getLocale()),
+			// 'dataProject' =>  $dataProject,
+			'lang' => $lang,
+			// 'updateProject' => $updateProject
+			'textField' => "text_" . strtoupper(service('request')->getLocale())
+		];
+		if ($propertyName == 'AGVECA-4695') {
+			$url_content = 'properties/property';
+			# code...
+		} else {
+			$url_content = 'properties/property';
+		}
+		$js = ['js/property', 'js/swiper-bundle.min'];
+		// $js = ['js/app-properties'];
+		
+		$data = [
+			'title' => 'Propiedades',
+			'content' => view('properties/property', $dataIndex),
+			'js' => load_js($js,)
+			];
+			
+		// dd($propertieName, $lang, $url_content, $data );
+			
+		// Output the view
+		echo view('templates/public', $data);
+	}
 	// public function listing()
 	// {
 	// 	// Globals

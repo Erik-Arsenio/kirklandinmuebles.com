@@ -154,6 +154,90 @@ if (!function_exists('get_json_file')) {
 	}
 }
 
+if (!function_exists('uri_locale')) {
+	/**
+	 * Rebuild URL with corresponding locale
+	 *
+	 * @param string $locale
+	 *
+	 * @return string
+	 */
+	function uri_locale(string $locale): string
+	{
+		// Globals
+		$segments = service('uri')->getSegments();
+		$query = service('uri')->getQuery();
+
+		if (!empty($segments) and isset($segments[0]) and $segments[0] == service('request')->getLocale()) {
+			array_shift($segments);
+		}
+
+		return !empty($query) ? site_url(array_merge([$locale], $segments)) . '?' . $query : site_url(array_merge([$locale], $segments));
+	}
+}
+
+if (!function_exists('json_search')) {
+	/**
+	 * Search in a json array based on defined search criteria
+	 *
+	 * @param mixed $jsonSearchValue
+	 * @param string $jsonSearchField
+	 * @param mixed $jsonFileObject
+	 * @param string $jsonFileName
+	 * @param string $jsonArrayName
+	 * @param bool $returnKeys
+	 *
+	 * @return mixed
+	 */
+	function json_search(mixed $jsonSearchValue, string $jsonSearchField, mixed $jsonFileObject = null, string $jsonFileName = null, string $jsonArrayName = null, bool $returnKeys = false): mixed
+	{
+		# Globals
+		$jsonResults = [];
+
+		# Define how to proceed to build the array
+		if (!empty($jsonFileObject)) {
+			$jsonArray = !empty($jsonArrayName) ? $jsonFileObject->$jsonArrayName : $jsonFileObject;
+		} else {
+			$jsonArray = !empty($jsonArrayName) ? get_json_file($jsonFileName)->$jsonArrayName : get_json_file($jsonFileName);
+		}
+		
+		foreach ($jsonArray as $key => $item) {
+			# Define search element item according to type (Array or Object)
+			$searchItem = is_array($jsonArray) ? $item[$jsonSearchField] : $item->$jsonSearchField;
+
+			if ($searchItem == $jsonSearchValue) {
+				array_push($jsonResults, $returnKeys == true ? $key : $item);
+			}
+		}
+
+		return $jsonResults;
+	}
+}
+
+if (!function_exists('remote_json_file')) {
+	/**
+	 * Read a json file provided and return an object or array
+	 *
+	 * @param string $fileName
+	 * @param bool $returnType
+	 *
+	 * @return mixed
+	 */
+	function remote_json_file(string $fileName, bool $returnType = false): mixed
+	{
+		// Globals
+		$json = null;
+
+		$jsonFile = BASE_URL . "assets" . DIRECTORY_SEPARATOR . "json" . DIRECTORY_SEPARATOR . $fileName . ".json";
+		$jsonGet = file_get_contents($jsonFile);
+		if ($jsonGet !== false) {
+			$json = json_decode($jsonGet, $returnType);
+		}
+
+		return $json;
+	}
+}
+
 function isOnLine($ip_addr = "172.217.2.206")
 {
 	class CheckDevice {

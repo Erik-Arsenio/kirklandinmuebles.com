@@ -21,7 +21,6 @@
 		'bootstrap/css/bootstrap.min',
 		// 'lib/animate/animate.min',
 		'material_design_webfont/css/materialdesignicons.min',
-		'css/swiper-bundle.min',
 		'css/flag-icon.min',
 		'css/style'
 	]) ?>
@@ -75,7 +74,7 @@
 		</div>
 		<!-- Spinner End -->
 		<!-- Navbar Start -->
-		<div class="container-fluid nav-bar bg-white">
+		<div class="container-fluid nav-bar bg-transparent">
 			<?php 
 				// var_dump($lang);
 				?>
@@ -90,20 +89,10 @@
 					</button>
 					<div class="collapse navbar-collapse align-self-end" id="navbarCollapse">
 						<div class="navbar-nav ms-auto">
-								<a href="<?= base_url('/?lang=' .$lang) ?>" class="nav-link dropdown-toggle <?= (url_is('/')) ? ' active' : '' ?>" ><?= lang('Globals.home') ?></a>
+							<a href="<?= base_url('/?lang=' .$lang) ?>" class="nav-item nav-link <?= (url_is('/')) ? ' active' : '' ?>"><?= lang('Globals.home') ?></a>
+							<a href="<?= base_url('properties/?lang=' .$lang) ?>" class="nav-item nav-link <?= (url_is('properties/')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.properties') ?></a>
 							<div class="nav-item dropdown">
-								<a  class="nav-link dropdown-toggle <?= (url_is('properties*')) ? ' active' : '' ?>"  data-bs-toggle="dropdown"><?= lang('Globals.properties') ?></a>
-
-								<div class="dropdown-menu rounded-0 m-0">
-									<a href="<?= base_url('properties/?lang=' .$lang) ?>" class="dropdown-item <?= (url_is('properties/')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.all_properties') ?></a>
-									<hr class="mt-2 mb-3 border-bottom"/>
-									<a href="<?= base_url('properties/?lang=' .$lang) ?>" class="dropdown-item <?= (url_is('properties/')) ? '' : '' ?>" target="_blank"><?= lang('Globals.properties_sale') ?></a>
-									<a href="<?= base_url('properties/?lang=' .$lang) ?>" class="dropdown-item <?= (url_is('properties/')) ? '' : '' ?>" target="_blank"><?= lang('Globals.properties_rent') ?></a>
-
-								</div>
-							</div>
-							<div class="nav-item dropdown">
-								<a  class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
+								<a href="#" class="nav-link dropdown-toggle <?= (url_is('investments*')) ? ' active' : '' ?>" data-bs-toggle="dropdown"><?= lang('Globals.investments') ?></a>
 								<div class="dropdown-menu rounded-0 m-0">
 									<a href="<?= base_url('investments/all?lang='. $lang) ?>" class="dropdown-item <?= (url_is('*all')) ? ' active' : '' ?>" target="_blank"><?= lang('Globals.all') ?></a>
 									<hr class="mt-2 mb-3 border-bottom"/>
@@ -207,7 +196,6 @@
 		'bootstrap/js/bootstrap.bundle.min',
 		'lib/easing/easing.min',
 		// 'lib/wow/wow.min',
-		'js/swiper-bundle.min',
 		'js/main',
 		]) ?>
 

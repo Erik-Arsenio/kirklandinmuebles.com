@@ -1,5 +1,17 @@
+<?php 
+//     dd($lang, 
+//     $propertiesList,
+//     // $propertiesList[0]->property_name->$textField,
+//     $municipiosList,
+//     $pueblosSelected,
+//     $state_selected,
+//     $directoryPhotos,
+//     $listPhotos,
+// );
+?>
+
 <!-- Header Start -->
-	<div class="container-xxl bg-white p-0 mt-2">
+	<div class="container-xxl bg-white p-0 mt-2 d-none">
 		<div class="row g-0 text-center">
 			<div class="col-md-6 p-3 mt-0 mt-xxl-5">
 				<h1 class="h2 fw-bold mb-4"><?= lang('Globals.properties') ?></h1>
@@ -11,7 +23,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-6 pe-md-5 d-none">
+			<div class="col-md-6 pe-md-5">
 				<div class="carousel slide text-center" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="hover" data-bs-interval="12000" id="carouselHome">
 					<div class="carousel-inner">
                         <div class="carousel-item active">
@@ -10721,135 +10733,558 @@
 			</div>
 		</div>
 	</div>
-	<div class="row row-cols-1 row-cols-lg-4 g-4">
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
-				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselNodo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
-						<div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/nodo/01.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Nodo, Mérida, Yucatán, México.">
+    <div class="row filter">
+        <div class="col-12">
+            <!-- Filter -->
+            <div class="d-xl-flex align-items-center flex-row-reverse">
+                <!-- Info -->
+                <div class="mb-8 me-xl-auto d-none">
+                    <h2 class="h6 fw-normal mb-2"> There are <strong class="fw-bold">1,235</strong> tours </h2>
+                    <ul class="list-inline d-inline-block fsm-4 mb-0">
+                        <li class="list-inline-item">
+                            <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>Paris</span>
+                            </a>, <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>Marseille</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="text-secondary">|</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>Cultural &amp; Foods</span>
+                            </a>, <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>Explorer & Adventure</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="text-secondary">|</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>1 - 3 days</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="text-secondary">|</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>200 - $1000</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="text-secondary">|</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="./tour-grid.html" class="text-secondary">
+                                <i class="ti ti-x text-danger"></i><span>English</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Info -->
+                <div class="mb-8">
+                    <!-- Filter controls -->
+                    <div class="tour-filter b-block d-md-flex align-items-center">
+                        <div class="d-block d-md-flex align-items-center me-3 mb-3 flex-fill">
+                            <!-- <form method="post" action="<?= base_url($_SERVER['REQUEST_URI']) ?>" class="needs-validation" id="form-reservation" novalidate=""> -->
+                                <!-- <span class="me-2 d-none d-sm-inline text-nowrap">Ubicación en Yucatan:</span> -->
+                                <!-- <select class="form-select dropdown shadow-sm dselect w-100" name="municipality" id="municipality" >
+                                    <option selected>Ubicación en Yucatan</option>
+                                    <option value="Conkal">Conkal</option>
+                                    <option value="Hunucma">Hunucmá</option>
+                                    <option value="Merida">Mérida</option>
+                                    <option value="Progreso">Progreso</option>
+                                    <option value="Telchac Puerto">Telchac Puerto</option>
+                                </select> -->
+                                <input type="hidden" name="zone_name_ES" id="zone_name_ES" value="Yucatán">
+                                <input type="hidden" name="zone_municipality" value=<?= set_value('zone_municipality') ?>>
+                                <?= csrf_field() ?>
+                            <!-- </form> -->
+                        </div>
+                        <!-- <div class="d-block d-md-flex align-items-center me-3 mb-3 flex-fill">
+                            <span class="me-2 d-none d-sm-inline text-nowrap">Sort by:</span>
+                            <select class="form-select dropdown shadow-sm dselect w-100" id="ddSort">
+                                <option value="0">Recommended</option>
+                                <option value="1">Lowest price</option>
+                                <option value="2">Highest price</option>
+                                <option value="3">High Rating</option>
+                                <option value="4">Recently Posted</option>
+                            </select>
+                        </div> -->
+                        <div class="d-flex align-items-center">
+                            <!-- <a href="./tour-list.html" class="form-control text-nowrap shadow-sm me-3 mb-3">
+                                <i class="ti ti-list-details"></i>
+                                <span>List</span>
+                            </a> -->
+                            <button class="form-control shadow-sm text-nowrap me-3 mb-3" data-bs-toggle="modal" data-bs-target="#mdlFilter">
+                                <i class="ti ti-adjustments-horizontal"></i>
+                                <span class="me-1">Filtros</span>
+                                <span class="badge text-bg-primary fw-normal lh-sm"><small class="count_filters">0</small></span>
+                                <span class="me-1"> Seleccionados</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Filter controls -->
+                    <!-- Filter modal -->
+                    <div class="modal fade" id="mdlFilter" tabindex="1" aria-labelledby="h3Filter" aria-hidden="true">
+                        <div class="modal-dialog modal-md modal-dialog-scrollable modal-dialog-centered">
+                            <form method="post" action="<?= base_url($_SERVER['REQUEST_URI']) ?>" class="modal-content needs-validation" id="form-reservation" novalidate="">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="h3Filter">Filtros </h3> 
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Price -->
+                                    <div class="pt-2 d-none">
+                                        <h4 class="h5">Price</h4>
+                                        <div class="price-range" data-range-price="">
+                                            <div class="row">
+                                                <div class="col-24 col-lg-12">
+                                                    <div class="row price-input">
+                                                        <div class="col-12">
+                                                            <label for="txtMinPrice" class="form-label">Min price</label>
+                                                            <div class="input-group mb-6">
+                                                                <span class="input-group-text bg-white">$</span>
+                                                                <input type="number" class="form-control input-min shadow-sm" aria-label="Min price" value="50" id="txtMinPrice" readonly>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <label for="txtMaxPrice" class="form-label">Max price</label>
+                                                            <div class="input-group mb-6">
+                                                                <span class="input-group-text bg-white">$</span>
+                                                                <input type="number" class="form-control input-max shadow-sm" aria-label="Max price" value="2500" id="txtMaxPrice" readonly>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price-slider">
+                                                        <div class="slider">
+                                                            <div class="progress"></div>
+                                                        </div>
+                                                        <div class="range-input">
+                                                            <input type="range" class="range-min" min="0" max="2500" value="50" step="10">
+                                                            <input type="range" class="range-max" min="0" max="2500" value="1000" step="10">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Price -->
+                                    <!-- Order sort -->
+                                    <div class="pt-2">
+                                        <div class="row">
+                                            <h4 class="h5">Ordenar por Precio:</h4>
+                                            <select class="form-select dropdown shadow-sm dselect w-100" id="ddSort" aria-label="Disabled select example" disabled>
+                                                <!-- <option value="0">Recommended</option> -->
+                                                <option value="SORT_ASC">Precio (menor a mayor)</option>
+                                                <option value="SORT_DESC">Precio (mayor a menor)</option>
+                                                <!-- <option value="3">High Rating</option> -->
+                                                <!-- <option value="4">Recently Posted</option> -->
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <!-- /Order sort -->
+                                    <!-- <hr> -->
+                                    <!-- Property type -->
+                                    <div class="pt-2">
+                                        <?php
+                                            function convert_utf8($cadena) { $reemplazos = array('á' => 'a','é' => 'e', 'í' => 'i','ó' => 'o','ú' => 'u','ñ' => 'n'," " => '_');
+                                                return strtr($cadena, $reemplazos);}
+                                        ?>
+                                        <h4 class="h5">Ubicacion en 
+                                        <?php if ($state_selected == "Yucatan") : ?>
+                                            <?=  convert_utf8($state_selected) ?> 
+                                        <?php else: ?>
+                                            <?=  convert_utf8($municipality_selected) ?>  
+                                        <?php endif; ?>
+                                        </h4>
+                                        <div class="row">
+                                            <select class="form-select dropdown shadow-sm dselect w-100" name="city" id="city">
+                                                <option value="all">Todas las Ubicaciones <?php if ($municipality_selected != "all") : ?><?=  "en " . convert_utf8($municipality_selected) ?> <?php endif; ?> </option>
+                                                    <?php 
+                                                        if ($state_selected != "Yucatan" and $municipality_selected != " ") {
+                                                            # code...
+                                                            $pueblosSelected  = $pueblosSelected;
+                                                        } else {
+                                                            $pueblosSelected = $municipiosList;
+                                                        }
+                                                    ?>
+                                                <?php foreach ($pueblosSelected as $p => $towns) : ?>
+                                                    <option value="<?= convert_utf8($pueblosSelected[$p]) ?>"><?= ucwords($pueblosSelected[$p]) ?></option>
+                                                <?php endforeach; ?>
+                                            </select>
+                                        </div>
+                                        <div class="row d-none">
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat11">
+                                                    <label class="form-check-label" for="chkCat11">Camping</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat21">
+                                                    <label class="form-check-label" for="chkCat21">Hotel</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat31">
+                                                    <label class="form-check-label" for="chkCat31">Apartment</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat41">
+                                                    <label class="form-check-label" for="chkCat41">Hostel</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat51">
+                                                    <label class="form-check-label" for="chkCat51">Resort</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat61">
+                                                    <label class="form-check-label" for="chkCat61">Country Hotel</label>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat71">
+                                                    <label class="form-check-label" for="chkCat71">Motor &amp; Bicycles</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat81">
+                                                    <label class="form-check-label" for="chkCat81">Ships &amp; boats</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat91">
+                                                    <label class="form-check-label" for="chkCat91">Family Activities</label>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <!-- /Property type -->
+                                    <hr>
+                                    <!-- Meals plan -->
+                                    <div class="pt-2">
+                                        <h4 class="h5">Tipo de propiedad</h4>
+                                        <div class="row">
+                                            <select class="form-select dropdown shadow-sm dselect w-100" name="type_property" id="type_property" value="" aria-label="Disabled select example" disabled>
+                                                <option value="all">Todos los tipos</option>
+                                                <option value="casa">Casa</option>
+                                                <option value="departamento">Departamento</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="row d-none">
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat112">
+                                                    <label class="form-check-label" for="chkCat211">Accommodation Only</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat212">
+                                                    <label class="form-check-label" for="chkCat212">Bed and Breakfast</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat312">
+                                                    <label class="form-check-label" for="chkCat312">All-inclusive</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat412">
+                                                    <label class="form-check-label" for="chkCat412">Lunch</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat512">
+                                                    <label class="form-check-label" for="chkCat512">Dinner</label>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat612">
+                                                    <label class="form-check-label" for="chkCat612">Monaco</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat812">
+                                                    <label class="form-check-label" for="chkCat812">Lyon</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat912">
+                                                    <label class="form-check-label" for="chkCat912">Geneva</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-24 col-xl-8 col-lg-12">
+                                                <div class="form-check mb-4">
+                                                    <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat932">
+                                                    <label class="form-check-label" for="chkCat932">Saint-Émilion</label>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="pt-2">
+                                        <h4 class="h5">Cantidad de habitaciones</h4>
+                                        <div class="row">
+                                            <select class="form-select dropdown shadow-sm dselect w-100" name="num_bedroom" id="num_bedroom" aria-label="Disabled select example" disabled>
+                                                <option value= 1>1+</option>
+                                                <option value= 2>2+</option>
+                                                <option value= 3>3+</option>
+                                                <option value= 4>4+</option>
+                                                <option value= 5>5+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="order_selected" id="order_selected" value=<?= $sortOrder ?>>
+                                    <input type="hidden" name="zone_name_ES" id="zone_name_ES" value="Yucatán">
+                                    <input type="hidden" name="zone_municipality" id="zone_municipality" value="">
+                                    <input type="hidden" name="zone_city" id="zone_city" value="">
+                                    <input type="hidden" name="property_type" id="property_type" value="all">
+                                    
+                                    <input type="hidden" name="num_bedroom"  value="1"> <!-- Provicional hasta que arregle los demas filtros -->
+                                    <input type="hidden" name="type_property"  value="all"> <!-- Provicional hasta que arregle los demas filtros -->
+                                    <input type="hidden" name="municipality_selected" id="municipality_selected" value=<?= $municipality_selected ?>>
+                                    <input type="hidden" name="state_selected" id="state_selected" value=<?= $state_selected ?>>
+                                    <input type="hidden" name="city_selected" id="city_selected" value=<?= $city_selected ?>>
+                                    <input type="hidden" name="property_type_selected" id="property_type_selected" value=<?= $property_type_selected ?>>
+                                    <input type="hidden" name="num_bedroom_selected" id="num_bedroom_selected" value=<?= $num_bedroom_selected ?> >
+                                    <?= csrf_field() ?>
+                                    <!-- /Meals plan -->
+                                    <!-- <hr> -->
+
+                                    <!-- <hr> -->
+                                    <!-- Duration -->
+                                    <div class="pt-2 d-none">
+                                        <h4 class="h5">Duration</h4>
+                                        <div class="price-range" data-range-price="">
+                                            <div class="row">
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat119">
+                                                        <label class="form-check-label" for="chkCat119"> 0 - 1 Hour </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat219">
+                                                        <label class="form-check-label" for="chkCat219"> 1 - 2 Hours </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat319">
+                                                        <label class="form-check-label" for="chkCat319"> 2 - 5 Hours </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat419">
+                                                        <label class="form-check-label" for="chkCat419"> 5 Hours - 1 day </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat519" checked>
+                                                        <label class="form-check-label" for="chkCat519"> 1 - 3 days </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat619">
+                                                        <label class="form-check-label" for="chkCat619"> 3 - 5 days </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Duration -->
+                                    <!-- <hr> -->
+                                    <!-- Amenities -->
+                                    <div class="pt-2 d-none">
+                                        <h4 class="h5">Amenities</h4>
+                                        <div class="price-range" data-range-price="">
+                                            <div class="row">
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat111">
+                                                        <label class="form-check-label" for="chkCat11"> Parking </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat211">
+                                                        <label class="form-check-label" for="chkCat211"> Pets Allowed </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat311">
+                                                        <label class="form-check-label" for="chkCat311"> Casino </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat411">
+                                                        <label class="form-check-label" for="chkCat411"> Restaurant </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat511">
+                                                        <label class="form-check-label" for="chkCat511"> Wifi </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat611">
+                                                        <label class="form-check-label" for="chkCat611"> Spa </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat711">
+                                                        <label class="form-check-label" for="chkCat711"> Air-conditioning </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat811">
+                                                        <label class="form-check-label" for="chkCat811"> Swimming Pool </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat911">
+                                                        <label class="form-check-label" for="chkCat911"> Gym </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-24 col-xl-8 col-lg-12">
+                                                    <div class="form-check mb-4">
+                                                        <input class="form-check-input shadow-sm" type="checkbox" value="" id="chkCat912">
+                                                        <label class="form-check-label" for="chkCat912"> Electric Vehicle Charging Station </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Amenities -->
+                                </div>
+                                <div class="modal-footer">
+                                    <!-- Buttons -->
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="clear_filters">
+                                        <i class="ti ti-x"></i>
+                                        <a href="<?= base_url('properties/?lang=' .$lang) ?>" class="text-light" >
+                                            <span>Borrar Filtro</span>
+                                        </a>
+                                    </button>
+                                    <button type="submit" class="btn btn-primary" id="btn_filter">
+                                        <i class="ti ti-check"></i>
+                                        <span>Apply</span>
+                                    </button>
+                                    <!-- /Buttons -->
+                                </div>
+                        
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /Filter modal -->
+                </div>
+            </div>
+            <!-- /Filter -->
+        </div>
+    </div>
+    <?php if (!empty($propertiesList)) : ?>
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <?php foreach ($propertiesList as $p => $prop) : ?>
+                <div class="col mb-5">
+                    <div class="card property-item h-100 shadow"> 
+                        <a href="<?= base_url('properties/property/' . $propertiesList[$p]->property_code . '?lang='. $lang) ?>" class="img-info img-info-top glightbox" target="_blank">
+                            <figure class="img-info-thumbnail rounded image-hover-scale image-hover-overlay mb-0">
+                                <img src="<?= STATIC_URL . 'img/properties/' . $propertiesList[$p]->property_code . '/' . $listPhotos[$p] ?>" class="img-fluid w-100"  width="1200 px" height="800 px" alt="Photo">
+                            </figure>
+                            <div class="img-info-body shadow">
+                                <div class="d-flex">
+                                    <!-- <span class="me-4 text-secondary"><i class="ti ti-map-pin"></i></span> -->
+                                    <div class="img-info-content">
+                                        <h5 class="fsm-6 text-uppercase fw-semibold mb-0">
+                                            <span class="text-left text-muted h6 pe-2"><?= strtoupper($propertiesList[$p]->investment_type->$textField) ?></span>
+                                        </h5>
+                                        <!-- <p class="fsm-6 text-secondary mb-1">110 tours</p> -->
+                                        <!-- <div class="d-flex align-items-center fsm-6 text-secondary lh-1">
+                                            <span class="star-rate-view star-rate-size-xs me-1"><span class="star-value rate-45"></span></span>
+                                            <span>(98)</span>
+                                        </div> -->
+                                    </div>
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/nodo/05.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Ubicacion Nodo, Mérida, Yucatán, México.">
+                            <div class="card-body pe-1 mb-0" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
+                                <p class="card-text text-left text-dark h4" name="property_price">$<?= number_format($propertiesList[$p]->property_price) ?> <spam class="text-left text-muted h6 pe-2"><?= strtoupper($propertiesList[$p]->investment_type->$textField) ?></spam></p>
+                                <p class="card-text text-left h6" name="property_heading"><?= $propertiesList[$p]->property_name->$textField ?></p>
                             </div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselNodo" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselNodo" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
-						</button>
-					</div>
-				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
-					<p class="card-text text-center h4" name="project_heading">Nodo</p>
-					<p class="card-text text-center h6" name="project_description"><?= lang('Globals.header_20') ?></p>
-				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-bed mdi-18px text-success me-3'></span> <span class="mdi mdi-shower-head mdi-18px text-success me-3"></span>  <span class="mdi mdi-bed-queen-outline mdi-18px text-success me-3"></span><span class="mdi mdi-toilet mdi-18px text-success me-3">
-                    <span class="mdi mdi-garage mdi-18px text-success me-3"></span><span class="mdi mdi-ruler mdi-18px text-success me-3"></span>
-                    </span><?= lang('Globals.homepage_40') ?></small>
-				</div>
-			</div>
-		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
-				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselGaliana" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
-						<div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/galiana/01.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Galiana, Mérida, Yucatán, México.">
+                            <div class="card-footer border-top-0 pt-0" title="Click para ir a la página" data-href=<?= base_url('investments/nodo?lang='. $lang) ?>>
+                                <p class="d-flex justify-content-between mb-1">
+                                    <small class="flex-fill text-left text-muted py-2"><span class='mdi mdi-bed mdi-18px text-success me-1'></span><?= $propertiesList[$p]->property_data->bedrooms ?> <?= lang('Globals.bedrooms') ?> 
+                                    <span class="mdi mdi-shower mdi-18px text-success me-1"></span><?= $propertiesList[$p]->property_data->bathrooms ?> <?= lang('Globals.bedrooms') ?>  
+                                    <!-- <span class="mdi mdi-bed-queen-outline mdi-18px text-success me-3"></span><span class="mdi mdi-toilet mdi-18px text-success me-3">
+                                    <span class="mdi mdi-garage mdi-18px text-success me-3"></span><span class="mdi mdi-ruler mdi-18px text-success me-3"></span> -->
+                                    <span class="mdi mdi-arrow-all mdi-18px text-success me-1"></span><?= $propertiesList[$p]->property_data->terrain_area ?> m²
+                                    </small>
+                                </p>
+                                <p><small><span class='mdi mdi-map-marker-outline mdi-18px text-success me-2'></span><?= str_replace('_', ' ', $propertiesList[$p]->zone_city_name->$textField) ?>, <?= $propertiesList[$p]->zone_municipality_name->$textField ?>, <?= $propertiesList[$p]->zone_state_name->$textField ?>, <?= lang('Globals.mexico') ?></small></p>
                             </div>
-                            <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/galiana/master_plan-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Master Plan Galiana, Mérida, Yucatán, México.">
-                            </div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselGaliana" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselGaliana" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
-						</button>
-					</div>
-				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
-					<p class="card-text text-center h4" name="project_heading"><?= lang('Globals.header_19') ?></p>
-					<p class="card-text text-center h6" name="project_description">Privada Residencial de primer nivel</p>
-				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/galiana?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span> <?= lang('Globals.homepage_40') ?></small>
-				</div>
-			</div>
-		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
-				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselCostaFlamingo" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
-						<div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="<?= STATIC_URL . 'img/costa_flamingo/01-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Costa Flamingo Hunucmá, Progreso, Mérida, Yucatán, México.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="<?= STATIC_URL . 'img/costa_flamingo/master_plan-es.jpg' ?>" class="card-img-top img-fluid btn-investments h-100" width="1754 px" height="1240 px" alt="Master Plan Costa Flamingo  Progreso, Mérida, Yucatán, México.">
-                            </div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselCostaFlamingo" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselCostaFlamingo" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
-						</button>
-					</div>
-				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
-					<p class="card-text text-center h4" name="project_heading"><?= lang('Globals.header_15') ?></p>
-					<p class="card-text text-center h6" name="project_description">Lotes residenciale subicados en Sisal</p>
-				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/costa_flamingo?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span>Progreso, <?= lang('Globals.homepage_40') ?></small>
-				</div>
-			</div>
-		</div>
-		<div class="col mb-5">
-			<div class="card property-item border-5 h-100 shadow">
-				<div class="position-relative overflow-hidden text-center">
-					<div id="carouselGranTelchac" class="carousel slide text-center" data-bs-ride="false" data-bs-touch="false" title="Click para ir a la página" data-href=<?= base_url('investments/gran_telchac?lang='. $lang) ?>>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="<?= STATIC_URL . 'img/gran_telchac/acceso_principal.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Desarrollo de Gran Telchac en Mérida, Yucatán, México.">
-							</div>
-							<div class="carousel-item">
-								<img src="<?= STATIC_URL . 'img/gran_telchac/master_plan.jpg' ?>" class="card-img-top img-fluid btn-investments" loading="lazy" width="1754 px" height="1240 px" alt="Master Plan Desarrollo de Gran Telchac en Mérida, Yucatán, México.">
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselGranTelchac" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.previous') ?></span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselGranTelchac" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden"><?= lang('Globals.next') ?></span>
-						</button>
-					</div>
-				</div>
-				<div class="card-body btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/gran_telchac?lang='. $lang) ?>>
-					<p class="card-text text-center h4" name="project_heading"><?= lang('Globals.header_13') ?></p>
-					<p class="card-text text-center h6" name="project_description">Residencial Contemporánea ubicada en Telchac</p>
-				</div>
-				<div class="card-footer btn-investments" title="Click para ir a la página" data-href=<?= base_url('investments/gran_telchac?lang='. $lang) ?>>
-					<small class="flex-fill text-center text-muted py-2"><span class='mdi mdi-map-marker-outline mdi-18px text-success me-3'></span>Progreso, <?= lang('Globals.homepage_40') ?></small>
-				</div>
-			</div>
-		</div>
-	</div>
+                        </a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <?php else: ?>
+            <div class="row text-center">
+                <p class="h2 ">No se encontraron resultados</p>
+            </div>
+        <?php endif; ?>
+        <div class="row d-none">
+            <div class="col-12">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                    <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>    
+        
 </div>
+
 <div class="data">
     <input type="hidden" name="data_url" id="data_url" value='<?= base_url('assets/json/') ?>'>
     <input type="hidden" name="data_url" id="static_url" value='<?= STATIC_URL ?>'>
@@ -10859,7 +11294,6 @@
 <!-- Property List End -->
 
 <!-- Attractions Modal -->
-<?= $sectionAttractions ?>
 <!-- Contact Us Section -->
 <?= $sectionContact ?>
 <!-- Reviews Section -->

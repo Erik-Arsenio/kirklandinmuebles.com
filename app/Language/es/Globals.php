@@ -74,6 +74,29 @@ return [
 	'language' => 'Idioma',
 	'block' => 'Bloque',
 	'blocks' => 'Bloques',
+	'all_roperties' => 'Todas las Propiedades',
+	'properties_sale' => 'Propiedades en Venta',
+	'properties_rent' => 'Propiedades en Renta',
+	'featured_properties' => 'Propiedades destacadas',
+	'location' => 'Ubicación',
+	'bedrooms' => 'recámaras',
+	'bathrooms' => 'baños',
+	'half_bathrooms' => 'medios baños',
+	'of_construction' => 'DE CONSTRUCCIÓN',
+	'terrain_area' => 'DE TERRENO',
+	'parking_lots' => 'ESTACIONAMIENTOS',
+	'details' => 'Detalles',
+	'model' => 'Modelo',
+	'antiquity' => 'Antigüedad',
+	'plant' => 'Piso',
+	'land_length' => 'Largo del terreno',
+	'from_land' => 'Frente del terreno',
+	'maintenance' => 'Mantenimiento',
+	'photos' => 'Fotos',
+	'mexico' => 'México',
+
+
+
 
 	'text_1' => '¿Quieres recibir actualizaciones de nuestros desarrollos y promociones especiales?',
 	'text_2' => 'Todos los derechos reservados',
@@ -101,6 +124,8 @@ return [
 	'homepage_11' => 'Desarrollo residencial inspirado en exclusividad, balance y elegancia.',
 	'homepage_12' => 'Terrenos semi-urbanizados en la hermosa playa de Celestún.',
 	'homepage_13' => 'Terrenos residenciales semi-urbanizados en la hermosa playa de Celestún.',
+	'homepage_14' => 'PROPIEDADES DESTACADAS',
+	'homepage_15' => 'DESARROLLOS DESTACADOS',
 	
 	//  Home page Locations in Developments cards text
 	'homepage_40' => '<span name="city_name">Mérida, </span>Yucatán, México.',

@@ -48,8 +48,11 @@ $routes->get('projects/load_form_add_edit_amenity/(:any)', 'Projects::load_form_
 $routes->post('projects/add_edit_amenity', 'Projects::add_edit_amenity');
 $routes->get('investments/(:any)', 'Projects::index/$1');
 // $routes->get('investments/(:any)', 'Projects::index/$1');
-// $routes->get('properties/(:any)', 'Properties::index');
-$routes->get('properties/(:any)', 'Properties::index/$1');
+$routes->get('properties/', 'Properties::index/$1');
+$routes->post('properties/', 'Properties::index/$1');
+$routes->get('properties/(:segment)', 'Properties::index/$1', ['as' => 'section_place']);
+// $routes->post('properties/(:segment)', 'Properties::index/$1');
+$routes->get('properties/(:segment)/(:segment)', 'Properties::property/$1/$2', ['as' => 'section_property']);
 
 $routes->get('properties/listing', 'Properties::listing');
 $routes->get('properties/load_form_add_edit_listing/(:any)', 'Properties::load_form_add_edit_listing/$1');

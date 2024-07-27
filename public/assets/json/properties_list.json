@@ -2,21 +2,36 @@
 	"AGVECA4695": {
 		"property_id": 0,
 		"property_code": "AGVECA4695",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
 		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa",
+		"property_type": {
+			"text_ES": "casa",
+			"text_EN": "house"
+		},
 		"property_model": "Mod. B",
-		"property_name_EN": "House for Sale Noroasis Temozón Living",
-		"property_name_ES": "Casa en Venta Noroasis Temozón Living",
+		"property_name": {
+			"text_ES": "Casa en Venta Noroasis Temozon Living-1",
+			"text_EN": "House for Sale Noroasis Temozon Living"
+		},
 		"property_price": 6700000,
-		"property_description_EN": "<p class='h6 mt-4'>“Noroasis” is a project that offers something unique: 7 exclusive homes with outdoor spaces and incredible optional amenities such as a paddle tennis court, pet-friendly area, barbecue zone, executive lounge, gym, swimming pool, multipurpose room, children’s play area, and green spaces. It is located in the most valuable area of Mérida, Yucatán, at KM 11.5 on the Mérida-Progreso highway1. These homes are designed to provide a comfortable and luxurious living experience. The project includes three different models: Model A, Model B, and Model B+</p><p class='h6'>With a privileged location, to the north of the city, you will be less than 10 minutes away from the Marista, Modelo, and Anáhuac Mayab Universities. Reaching places like La Isla, The Harbor, and Altabrisa, as well as the El Faro or StarMédica Hospital, will take you about 20 minutes. Additionally, it is located a few blocks from the Periférico de Mérida, with easy access to both commercial and residential developments. From there, in less than 35 minutes, you can be enjoying the beautiful Yucatecan coasts. Definitely the best choice for your new home.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>“Noroasis” es un proyecto que ofrece algo único: 7 viviendas exclusivas con espacios al aire libre e increíbles comodidades opcionales como una cancha de pádel, una zona amigable para mascotas, una zona de barbacoa, un salón ejecutivo, un gimnasio, una piscina, una sala de usos múltiples, un área de juegos infantiles y espacios verdes. Está ubicado en la zona de mayor valor de Mérida, Yucatán, en el KM 11.5 de la carretera Mérida-Progreso. Estas viviendas están diseñadas para ofrecer una experiencia de vida cómoda y lujosa. El proyecto incluye tres modelos diferentes: Modelo A, Modelo B y Modelo B+.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>“Noroasis” es un proyecto que ofrece algo único: 7 viviendas exclusivas con espacios al aire libre e increíbles comodidades opcionales como una cancha de pádel, una zona amigable para mascotas, una zona de barbacoa, un salón ejecutivo, un gimnasio, una piscina, una sala de usos múltiples, un área de juegos infantiles y espacios verdes. Está ubicado en la zona de mayor valor de Mérida, Yucatán, en el KM 11.5 de la carretera Mérida-Progreso. Estas viviendas están diseñadas para ofrecer una experiencia de vida cómoda y lujosa. El proyecto incluye tres modelos diferentes: Modelo A, Modelo B y Modelo B+.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>“Noroasis” is a project that offers something unique: 7 exclusive homes with outdoor spaces and incredible optional amenities such as a paddle tennis court, pet-friendly area, barbecue zone, executive lounge, gym, swimming pool, multipurpose room, children’s play area, and green spaces. It is located in the most valuable area of Mérida, Yucatán, at KM 11.5 on the Mérida-Progreso highway1. These homes are designed to provide a comfortable and luxurious living experience. The project includes three different models: Model A, Model B, and Model B+</p><p class='h6'>With a privileged location, to the north of the city, you will be less than 10 minutes away from the Marista, Modelo, and Anáhuac Mayab Universities. Reaching places like La Isla, The Harbor, and Altabrisa, as well as the El Faro or StarMédica Hospital, will take you about 20 minutes. Additionally, it is located a few blocks from the Periférico de Mérida, with easy access to both commercial and residential developments. From there, in less than 35 minutes, you can be enjoying the beautiful Yucatecan coasts. Definitely the best choice for your new home.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
 		"property_data": {
-			"antiquity" : "En contrucción",
+			"antiquity" : {
+				"text_ES": "En contrucción",
+				"text_EN": "In construction"
+			},
 			"bedrooms" : 2,
 			"bathrooms" : 2,
 			"half_bathrooms" : 1,
@@ -26,53 +41,66 @@
 			"from_land" : 11,
 			"parking_lots" : 3,
 			"plant" : null,
-
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
+			"maintenance": {
+				"text_ES": "$1,500 se actualiza al momento de la escritura",
+				"text_EN": "$1,500 updated at time of writing"
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus"
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1716999738563!5m2!1sen!2sus"
+			}
+
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
 		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
+		"zone_city_name": {
+			"text_ES": "Temozón Norte",
+			"text_EN": "Temozon Norte"
+		},
+		"zone_city": "Temozon_Norte"
 	},
 	"AGVECA4696": {
 		"property_id": 1,
 		"property_code": "AGVECA4696",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type":{
+			"text_ES": "casa",
+			"text_EN": "house"
+		},
 		"property_model": "Mod. B Plus",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Casa en Venta Noroasis Temozón Living",
+		"property_name": {
+			"text_ES": "Casa en Venta Noroasis Temozón Living-2",
+			"text_EN": "House for Sale Noroasis Temozón Living-2"
+		},
 		"property_price": 6700000,
-		"property_description_EN": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><br><p class='h6'>Lote C3 - $6,700,000</p><p class='h6'>Lote C4 - Muestra - $6,800,000</p><p class='h6'>Lote C5 - $6,700,000</p><p class='h6'>Lote C6 - $6,800,000</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>“Noroasis” es un proyecto que ofrece algo único: 7 viviendas exclusivas con espacios al aire libre e increíbles comodidades opcionales como una cancha de pádel, una zona amigable para mascotas, una zona de barbacoa, un salón ejecutivo, un gimnasio, una piscina, una sala de usos múltiples, un área de juegos infantiles y espacios verdes. Está ubicado en la zona de mayor valor de Mérida, Yucatán, en el KM 11.5 de la carretera Mérida-Progreso. Estas viviendas están diseñadas para ofrecer una experiencia de vida cómoda y lujosa. El proyecto incluye tres modelos diferentes: Modelo A, Modelo B y Modelo B+.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>“Noroasis” is a project that offers something unique: 7 exclusive homes with outdoor spaces and incredible optional amenities such as a paddle tennis court, pet-friendly area, barbecue zone, executive lounge, gym, swimming pool, multipurpose room, children’s play area, and green spaces. It is located in the most valuable area of Mérida, Yucatán, at KM 11.5 on the Mérida-Progreso highway1. These homes are designed to provide a comfortable and luxurious living experience. The project includes three different models: Model A, Model B, and Model B+</p><p class='h6'>With a privileged location, to the north of the city, you will be less than 10 minutes away from the Marista, Modelo, and Anáhuac Mayab Universities. Reaching places like La Isla, The Harbor, and Altabrisa, as well as the El Faro or StarMédica Hospital, will take you about 20 minutes. Additionally, it is located a few blocks from the Periférico de Mérida, with easy access to both commercial and residential developments. From there, in less than 35 minutes, you can be enjoying the beautiful Yucatecan coasts. Definitely the best choice for your new home.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
 		"property_data": {
-			"antiquity" : "En contrucción",
+			"antiquity" : {
+				"text_ES": "En contrucción",
+				"text_EN": "In construction"
+			},
 			"bedrooms" : 4,
 			"bathrooms" : 4,
 			"half_bathrooms" : 1,
@@ -82,52 +110,63 @@
 			"from_land" : 11,
 			"parking_lots" : 3,
 			"plant" : null,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
+			"maintenance": {
+				"text_ES": "$1,500 se actualiza al momento de la escritura",
+				"text_EN": "$1,500 updated at time of writing"
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.4343862431697!2d-89.628643!3d21.055306!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1719307641782!5m2!1ses!2sus"
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.4343862431697!2d-89.628643!3d21.055306!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1719307641782!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.4343862431697!2d-89.628643!3d21.055306!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1719307641782!5m2!1sen!2sus"
+			}
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
 		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
+		"zone_city_name": {
+			"text_ES": "Temozón Norte",
+			"text_EN": "Temozon Norte"
+		},
+		"zone_city": "Temozon_Norte"
 	},
 	"AGVEDE3879": {
 		"property_id": 2,
 		"property_code": "AGVEDE3879",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
 		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
+		"property_type": {
+			"text_ES": "departamento",
+			"text_EN": "department"
+		},
 		"property_model": "Mod C",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Privada Nibana",
+		"property_name": {
+			"text_ES": "Departamento en Venta Privada Nibana",
+			"text_EN": "Apartment for Private Sale Nibana"
+		},
 		"property_price": 3100000,
-		"property_description_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>"
+		},
 		"property_data": {
-			"antiquity" : "A estrenar",
+			"antiquity" : {
+				"text_ES": "A estrenar",
+				"text_EN": "Brand new"
+			},
 			"bedrooms" : 2,
 			"bathrooms" : 2,
 			"half_bathrooms" : null,
@@ -137,529 +176,912 @@
 			"from_land" : null,
 			"parking_lots" : 1,
 			"plant" : 1,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
+			"maintenance": {
+				"text_ES": "$1,500 se actualiza al momento de la escritura",
+				"text_EN": "$1,500 updated at time of writing"
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1ses!2sus!4v1719314232381!5m2!1ses!2sus"
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1ses!2sus!4v1719314232381!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1sen!2sus!4v1719314232381!5m2!1sen!2sus"
+			}
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
 		"zone_municipality": "Merida",
-		"zone_city": "Temozon",
-		"zone_uri": "Temozon"
+		"zone_city_name": {
+			"text_ES": "Temozón Norte",
+			"text_EN": "Temozon Norte"
+		},
+		"zone_city": "Temozon_Norte"
 	},
-	"MERECA0003": {
-		"property_id": 3,
-		"property_code": "MERECA0003",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa Adosada",
-		"property_model": null,
-		"property_name_EN": "Townhouse for rent, Private Sens",
-		"property_name_ES": "Casa Adosada en renta, Privada Sens",
-		"property_price": 19000,
-		"property_description_EN": "<p class='h6 mt-4'>Hermoso townhouse residencial ubicado en un privada de alta plusvalía y exclusividad como lo es SENS, muy lujoso con acabados de primera, ubicado en Santa Gertrudis Copó. Una zona privilegiada y excelente ubicación muy cerca de la Plaza La Isla Mérida, a dos cuadras del hospital El Faro y a 2 minutos de City Center, con demás amenidades de primera ubicadas por medio de puntos de acceso con la facilidad de llegar a tiempo a tu destino o plan ideal.</p><p class='h6 mt-4'>DISTRIBUCION:</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Medio baño de visitas</p><p class='h6'>Alberca (Área social)</p><p class='h6'>Comedor</p><p class='h6'>Cocina integral c/ estufa y campana</p><p class='h6'>Bodega</p><p class='h6'>Cuarto de lavado</p><p class='h6'>Estacionamiento par 2 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recamaras con walking closet y baño c/u.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Hermoso townhouse residencial ubicado en un privada de alta plusvalía y exclusividad como lo es SENS, muy lujoso con acabados de primera, ubicado en Santa Gertrudis Copó. Una zona privilegiada y excelente ubicación muy cerca de la Plaza La Isla Mérida, a dos cuadras del hospital El Faro y a 2 minutos de City Center, con demás amenidades de primera ubicadas por medio de puntos de acceso con la facilidad de llegar a tiempo a tu destino o plan ideal.</p><p class='h6 mt-4'>DISTRIBUCION:</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Medio baño de visitas</p><p class='h6'>Alberca (Área social)</p><p class='h6'>Comedor</p><p class='h6'>Cocina integral c/ estufa y campana</p><p class='h6'>Bodega</p><p class='h6'>Cuarto de lavado</p><p class='h6'>Estacionamiento par 2 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recamaras con walking closet y baño c/u.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+	"MEVECA0028": {
+		"property_id": 2,
+		"property_code": "MEVECA0028",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type": {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": "casa-oficina",
+		"property_name": {
+			"text_ES": "Casa en Venta, #89",
+			"text_EN": "House for Sale, #89"
+		},
+		"property_price": 2300000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Casa Habitación desarrollada para uso de oficinas y producción a dos niveles con mezzanine, su ubicación es céntrica, dirigida hacia la zona sur de la ciudad en el característico centro de Mérida, donde tendrás puntos de acceso y a una distancia mínima la riqueza cultural de sus maravillas gastronómicas y turísticas de la ciudad.</p><p class='h6 mt-4'>-Terreno: 9.35m x 51.55m (452.77m2) ligeramente irregular</p><p class='h6 mt-4'>*DISTRIBUCION*:</p><p class='h6 mt-4'>*PLANTA BAJA* consta de: <ul><li>Garaje con portón eléctrico</li><li>área de recepción/sala</li><li>Baño completo</li><li>4 privados</li><li>cocina</li><li>baño de empleados</li><li>área de bodega y/o producción techado a doble altura</li><li>área común</li><li>área de exhibiciones</li></ul></p><p class='h6 mt-4'>*PLANTA ALTA* consta de oficina principal y mezzanine</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>House developed for office and production use on two levels with mezzanine, its location is central, directed towards the southern area of ​​the city in the characteristic center of Mérida, where you will have points of access and at a minimum distance the cultural wealth of its gastronomic and tourist wonders of the city.</p><p class='h6 mt-4'>-Land: 9.35m x 51.55m (452.77m2) slightly irregular</p> <p class='h6 mt-4'>*DISTRIBUTION*:</p><p class='h6 mt-4'>*GROUND FLOOR* consists of: <ul><li>Garage with electric gate</li ><li>reception/living room area</li><li>Full bathroom</li><li>4 privates</li><li>kitchen</li><li>employee bathroom</li><li>double-height roofed warehouse and/or production area</li><li>common area</li><li>exhibition area</li></ul></p><p class='h6 mt-4'>*UPLOAD FLOOR* consists of main office and mezzanine</p><p class='h6 mt-4'>*Prices and availability subject to change without prior notice.</p><p class=' h6'>*The images shown are merely for illustrative purposes.</p>"
+		},
+		"property_description_EN": "",
+		"property_description_ES": "",
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Garaje</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Garage</spam></p><p class='h6'>&#10003; <spam class='text-black'>Winery</spam></p><p class='h6'>&#10003; <spam class='text-black'>Kitchen</spam></p><p class='h6'>&#10003; <spam class='text-black'>Two floors</spam></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
 		"property_data": {
-			"antiquity" : null,
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" : 3,
+			"bathrooms" : 2,
+			"half_bathrooms" : null,
+			"terrain_area" : 453,
+			"construction_area" : 737,
+			"land_length" : null,
+			"from_land" : null,
+			"parking_lots" : null,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7451.221217824796!2d-89.629872!3d20.968147!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU4JzA1LjMiTiA4OcKwMzcnNDcuNSJX!5e0!3m2!1ses!2sus!4v1719861768617!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7451.221217824796!2d-89.629872!3d20.968147!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU4JzA1LjMiTiA4OcKwMzcnNDcuNSJX!5e0!3m2!1sen!2sus!4v1719861768617!5m2!1sen!2sus"
+			}
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Mérida Centro",
+			"text_EN": "Merida Centro"
+		},
+		"zone_city": "Merida_Centro"
+	},
+	"MEVECA0048": {
+		"property_id": 1,
+		"property_code": "MEVECA0048",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": "Histórico",
+		"property_name": {
+			"text_ES": "Casa en Venta Histórico",
+			"text_EN": "Historic House for Sale"
+		},
+		"property_price": 4100000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Casa en venta en el centro histórico a 7 cuadras del nuevo parque de la plancha y a 8 calles de la catedral propiedad en esquina. Propiedad para remodelar, ideal para comercio o para hotel boutique.</p>.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>3 cuadros dividen la propiedad</p><p class='h6'>2 niveles</p><p class='h6'>3 puertas de acceso.</p><p class='h6'>1 puerta de acceso de vehículos</p><p class='h6'>Esquina</p><p class='h6'>2 Baños.</p><p class='h6'>Techo doble altura.</p><p class='h6'>1 Ventanal de Exhibición para comercio</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>Casa en venta en el centro histórico a 7 cuadras del nuevo parque de la plancha y a 8 calles de la catedral propiedad en esquina. Propiedad para remodelar, ideal para comercio o para hotel boutique.</p>.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>3 cuadros dividen la propiedad</p><p class='h6'>2 niveles</p><p class='h6'>3 puertas de acceso.</p><p class='h6'>1 puerta de acceso de vehículos</p><p class='h6'>Esquina</p><p class='h6'>2 Baños.</p><p class='h6'>Techo doble altura.</p><p class='h6'>1 Ventanal de Exhibición para comercio</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p></p>"
+		},
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" : 3,
+			"bathrooms" : 1,
+			"half_bathrooms" : 1,
+			"terrain_area" : 202.42,
+			"construction_area" : 170.03,
+			"land_length" : null,
+			"from_land" : null,
+			"parking_lots" : 4,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": "$1,500 se actualiza al momento de la escritura",
+				"text_EN": "$1,500 updated at time of writing"
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1716999738563!5m2!1sen!2sus"
+			}
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Mérida Centro",
+			"text_EN": "Merida Centro"
+		},
+		"zone_city": "Merida_Centro"
+	},
+	"MEVECA0026": {
+		"property_id": 1,
+		"property_code": "MEVECA0026",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa en venta 'La esquina'",
+			"text_EN": "House for sale 'The corner'"
+		},
+		"property_price": 4400000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>"
+		},
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
 			"bedrooms" : 2,
 			"bathrooms" : 3,
-			"half_bathrooms" :1,
-			"terrain_area" : 175,
-			"construction_area" : null,
+			"half_bathrooms" : null,
+			"terrain_area" : 128,
+			"construction_area" : 120,
+			"land_length" :28,
+			"from_land" : 5,
+			"parking_lots" : null,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1716999738563!5m2!1sen!2sus"
+			}
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Mérida Centro",
+			"text_EN": "Merida Centro"
+		},
+		"zone_city": "Merida_Centro"
+	},
+	"MEVECA0027": {
+		"property_id": 1,
+		"property_code": "MEVECA0027",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": true,
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa en Venta Tamora",
+			"text_EN": "House for sale 'The corner'"
+		},
+		"property_price": 4450000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>"
+		},
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" : 3,
+			"bathrooms" : 3,
+			"half_bathrooms" : null,
+			"terrain_area" : 300,
+			"construction_area" : 253.7,
+			"land_length" : null,
+			"from_land" : null,
+			"parking_lots" : null,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1716999738563!5m2!1sen!2sus"
+			}
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Conkal",
+			"text_EN": "Conkal"
+		},
+		"zone_municipality": "Conkal",
+		"zone_city_name": {
+			"text_ES": "Conkal",
+			"text_EN": "Conkal"
+		},
+		"zone_city": "Conkal"
+	},
+	"MEVECA0001": {
+		"property_id": 1,
+		"property_code": "MEVECA0001",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": true,
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa en Venta Rosamora",
+			"text_EN": "House for sale 'The corner'"
+		},
+		"property_price": 3600000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>Hermosa casa en esquina totalmente remodelada.Cerca de Mejorada y la Plancha.<p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'>Cuenta con 2 habitaciones con baño propio. Sala comedor y amplia cocina con gabinetes de madera.Baño completo para visitas, alacena y área para lavado. Alberca con sistema de filtración</p><p class='h6 mt-4'>*CUENTA CON ALBERCA*</p>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>"
+		},
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" : 3,
+			"bathrooms" : 3,
+			"half_bathrooms" : 1,
+			"terrain_area" : 177.71,
+			"construction_area" : 206.68,
+			"land_length" : null,
+			"from_land" : null,
+			"parking_lots" : null,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": "$1,500 se actualiza al momento de la escritura",
+				"text_EN": "$1,500 se actualiza al momento de la escritura"
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1sen!2sus!4v1716999738563!5m2!1sen!2sus"
+			}
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Conkal",
+			"text_EN": "Conkal"
+		},
+		"zone_municipality": "Conkal",
+		"zone_city_name": {
+			"text_ES": "Conkal",
+			"text_EN": "Conkal"
+		},
+		"zone_city": "Conkal"
+	},
+	"AGVECA4649": {
+		"property_id": 1,
+		"property_code": "AGVECA4649",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa Rosa en Venta",
+			"text_EN": "Pink House for Sale"
+		},
+		"property_price": 28000000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>En 1870, las casas del centro lucían al estilo de Castilla y Andalucía, aunque éstas eran más sencillas en su aspecto interior, con muros lisos y sin adornos. Las más céntricas detentaban portones guarnecidos con chapetones y artísticos arcos de hierro, marcos de piedra labrada.Esta magnifica casa se encuentra sobre un terreno de 2112 m2 y 902.96 m2 de construcción. Se conservaron la mayoría de los tapetes de pisos de pasta antiguos. Y se lograron recuperar piezas únicas de herrería, vigas y marcos de madera que se complementaron con acabados nuevos del estilo de la época. Logrando como resultado la renovación completa de toda la propiedad con alimentación, eléctrica e hidráulica completamente nueva, así como la grifería, granito, mármol y detalles de lujo que se integraron a la arquitectura...<p class='h6 mt-4'>Cuenta con una excelente ubicación ya que estarás a menos de 20 minutos de las Universidades más importantes, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital Clínica Mérida te tomará unos 10 minutos, además se encuentra a unas cuadras del Periférico de Mérida y la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las playas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'> Casa de servicio:</p><p class='h6'>Cochera con portón eléctrico</p><p class='h6'> 2 habitaciones.</p><p class='h6'>1 Baño completo</p><p class='h6 '>Patio y terraza de servicio</p><p class='h6 mt-4'>Casa principal:</p><p class='h6'>Cochera automatizada para 4 vehiculos.</p><p class='h6'>2 recibidores</p></p><p class='h6'>Amplia sala/ recibidor</p></p><p class='h6'Comedor</p></p><p class='h6'>Antecomedor.</p></p><p class='h6'>Amplia cocina con acceso desde la casa y terraza.</p></p><p class='h6'>4 habitaciones secundarias con closet y baño</p></p><p class='h6'>Habitacion principal con baño y closet acceso del pasillo y terraza.</p></p><p class='h6'>Cuarto de lavado</p></p><p class='h6'>1/2 baño de servicio.</p></p><p class='h6'>Regadera privada.</p></p><p class='h6'>Piscina infinita con cascada.</p></p><p class='h6'>Pasillo central techado.</p></p><p class='h6'>Terraza techada.</p></p><p class='h6'>Amplio terreno con posibilidades de crecimiento.</p><p class='h6 mt-4'>Acabados:¨</p><p class='h6'>Fachada completamente restaurada.</p><p class='h6'>Puertas y ventanas en cedro con herrería de forja.</p><p class='h6'>Tapetes de piso original de pasta pulido en formato 20 x 20 cm.</p><p class='h6'>Cocina con barra de granito y carpintería completa en cedro.</p><p class='h6'>Carpintería completa en closets y baños en madera de cedro</p><p class='h6'>Piscina con mosaico veneciano, cascada y planta de tratamiento.</p><p class='h6'>Griferia marca Helvex..</p><p class='h6'>Cancelería de cristal templado en baños.</p><p class='h6'>Ventiladores en todas las habitaciones.</p><p class='h6'>Salidas para instalación de aires acondicionados.</p><p class='h6'>Pasillo central con columnas restauradas y pisos de pasta.</p><p class='h6 mt-4'>FECHA DE ENTREGA: Inmediata.</p>",
+			"text_EN": "<p class='h6 mt-4'>In 1870, the houses in the center were styled after Castile and Andalusia, although they were simpler in their interior appearance, with smooth walls and no decorations. The most central ones had gates adorned with finials and artistic iron arches, as well as stone-carved frames. This magnificent house is located on a 2112 m² plot of land with 902.96 m² of construction. Most of the original antique floor tiles were preserved, and unique ironwork pieces, beams, and wooden frames were recovered and complemented with new finishes in the style of the era. The result was a complete renovation of the entire property, including brand-new electrical, plumbing, and hydraulic systems, as well as luxury details like granite, marble, and integrated fixtures.</p><p class='h6 mt-4'>The property boasts an excellent location, as you’ll be less than 20 minutes away from major universities and just a 10-minute drive to shopping centers like La Isla, The Harbor, and Altabrisa. It’s also conveniently located a few blocks from the Periférico de Mérida (Mérida’s ring road) and the road to Progreso, where you can reach Yucatecan beaches in less than 35 minutes. Definitely a top choice for your new home</p><p class='h6 mt-4'>DISTRIBUTION-:</p><p class='h6'> Service house:</p><p class='h6'>Garage with electric gate</p><p class='h6'> 2 bedrooms. </p><p class='h6'>1 Full bathroom</p><p class='h6 '>Patio and service terrace</p><p class='h6 mt-4'>Main house: </p><p class='h6'>Automated garage for 4 vehicles.</p><p class='h6'>2 halls</p></p><p class='h6'>Large living room / hall</p></p><p class='h6'Dining room</p></p><p class='h6'>Entryway.</p></p><p class='h6 '>Large kitchen with access from the house and terrace.</p></p><p class='h6'>4 secondary bedrooms with closet and bathroom</p></p><p class='h6' >Master bedroom with bathroom and closet, access from the hallway and terrace.</p></p><p class='h6'>Laundry room</p></p><p class='h6'>1/ 2 service bathrooms.</p></p><p class='h6'>Private shower.</p></p><p class='h6'>Infinity pool with waterfall.</p><p class='h6'>Covered central hallway.</p></p><p class='h6'>Covered terrace.</p></p><p class='h6'> Large land with growth possibilities.</p><p class='h6 mt-4'>Finishes:¨</p><p class='h6'>Completely restored façade.</p><p class=' h6'>Cedar doors and windows with wrought ironwork.</p><p class='h6'>Original polished paste floor mats in 20 x 20 cm format.</p><p class='h6' >Kitchen with granite bar and complete cedar wood carpentry.</p><p class='h6'>Complete cedar wood carpentry in closets and bathrooms</p><p class='h6'>Pool with Venetian mosaic , waterfall and treatment plant.</p><p class='h6'>Helvex brand faucets..</p><p class='h6'>Tempered glass bathroom fixtures.</p><p class ='h6'>Fans in all rooms.</p><p class='h6'>Exits for installation of air conditioners.</p><p class='h6'>Central hallway with restored columns and marble floors. pasta.</p><class='h6 mt-4'>DELIVERY DATE: Immediate.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Garaje</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Patio</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Pets allowed</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Garage</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Easy parking</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Patio</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Terrace</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Pets allowed</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Kitchen</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Utility room</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Pool</spam></p></p>"
+		},
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" : 5,
+			"bathrooms" : 5,
+			"half_bathrooms" : null,
+			"terrain_area" : 2.112,
+			"construction_area" : 902,
 			"land_length" : null,
 			"from_land" : null,
 			"parking_lots" : 2,
 			"plant" : null,
-			"maintenance" : "Incluido",
+			"maintenance": {
+				"text_ES": "No aplica",
+				"text_EN": "Does not apply"
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.864525658499!2d-89.593372!3d21.038106!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzE3LjIiTiA4OcKwMzUnMzYuMSJX!5e0!3m2!1ses!2sus!4v1719334231321!5m2!1ses!2sus"
+			"map_uri": {
+				"text_ES": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3725.7737291096905!2d-89.623718!3d20.9616!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU3JzQxLjgiTiA4OcKwMzcnMjUuNCJX!5e0!3m2!1ses!2sus!4v1720290060118!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3725.7737291096905!2d-89.623718!3d20.9616!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU3JzQxLjgiTiA4OcKwMzcnMjUuNCJX!5e0!3m2!1sen!2sus!4v1720290060118!5m2!1sen!2sus"
+			}
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Santa Gertrudis Copo",
-		"zone_uri": "Santa Gertrudis Copo"
-	},
-	"MEVEDE0052": {
-		"property_id": 2,
-		"property_code": "MEVEDE0052",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
-		"property_model": "MOD A",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Maktub",
-		"property_price": 1699000,
-		"property_description_EN": "<p class='h6 mt-4'>MAKTUB es un exclusivo desarrollo residencial que ofrece 22 departamentos con amenidades diseñados con elegancia y comodidad. Cada unidad está diseñada meticulosamente para proporcionar un espacio acogedor y funcional, con acabados de alta calidad diseño contemporáneo que refleja el estilo vida sofisticado usted merece.</p><p class='h6'>Dentro de una zona de alta plusvalía y con diversas amenidades como centros comerciales, hospitales, etc.; por medio de puntos de accesos de la ciudad, sin duda alguna tu mejor inversión.</p><p class='h6 mt-4'>Distribución:</p><p class='h6'>Recamara principal con baño y closet</p><p class='h6'>Barra de cocina</p><p class='h6'>Sala-Comedor corrido</p><p class='h6'>Área de terraza, balcón, jardín interior o sencillo (depende del modelo que se escoja)</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Portón eléctrico</p><p class='h6'>Estacionamiento techado</p><p class='h6'>Áreas verdes</p><p class='h6'>Deck</p><p class='h6'>Bar</p><p class='h6'>Piscina</p><p class='h6'>Área de basureros</p><p class='h6 mt-4'>FECHA DE ENTREGA: SEPTIEMBRE 2026</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>MAKTUB es un exclusivo desarrollo residencial que ofrece 22 departamentos con amenidades diseñados con elegancia y comodidad. Cada unidad está diseñada meticulosamente para proporcionar un espacio acogedor y funcional, con acabados de alta calidad diseño contemporáneo que refleja el estilo vida sofisticado usted merece.</p><p class='h6'>Dentro de una zona de alta plusvalía y con diversas amenidades como centros comerciales, hospitales, etc.; por medio de puntos de accesos de la ciudad, sin duda alguna tu mejor inversión.</p><p class='h6 mt-4'>Distribución:</p><p class='h6'>Recamara principal con baño y closet</p><p class='h6'>Barra de cocina</p><p class='h6'>Sala-Comedor corrido</p><p class='h6'>Área de terraza, balcón, jardín interior o sencillo (depende del modelo que se escoja)</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Portón eléctrico</p><p class='h6'>Estacionamiento techado</p><p class='h6'>Áreas verdes</p><p class='h6'>Deck</p><p class='h6'>Bar</p><p class='h6'>Piscina</p><p class='h6'>Área de basureros</p><p class='h6 mt-4'>FECHA DE ENTREGA: SEPTIEMBRE 2026</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Balcón</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Una sola planta</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Balcón</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Una sola planta</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_data": {
-			"antiquity" : null,
-			"bedrooms" : 1,
-			"bathrooms" : 1,
-			"half_bathrooms" : null,
-			"terrain_area" : 45.62,
-			"construction_area" : null,
-			"land_length" : null,
-			"from_land" : null,
-			"parking_lots" : 1,
-			"plant" : 1,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.191784784818!2d-89.623987!3d21.065001!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzU0LjAiTiA4OcKwMzcnMjYuNCJX!5e0!3m2!1ses!2sus!4v1719435445035!5m2!1ses!2sus"
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
-	},
-	"AGVEDE4348": {
-		"property_id": 2,
-		"property_code": "AGVEDE4348",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
-		"property_model": "Mod. Studio",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Centro Temozón 47",
-		"property_price": 1750000,
-		"property_description_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Centro Temozón 47 consta de departamentos de 1 y 2 habitaciones, inspirados por el estilo de vida campestre que envuelve a Temozón y diseñados pensando en una experiencia comunitaria y la conexión con la naturaleza, que diferencia a Temozón del resto de la ciudad.</p><p class='h6'>Aquí disfrutarás de una ubicación que te hace parte del aún relajado estilo de vida de Temozón, manteniendo el acceso a lo mejor del norte de Mérida a través de la Av. García Lavín, el Periférico Manuel Berzunza o la carretera a Progreso.</p><p class='h6'>Las amenidades serán parte de tu nuevo hogar. Centro Temozón cuenta con diferentes modelos y en cada nivel cuenta con áreas comunes que podrás aprovechar para tus actividades diarias o al recibir visitas.</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Parrilla</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Una sola planta</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Parrilla</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Una sola planta</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p>",
-		"property_data": {
-			"antiquity" : "En contrucción",
-			"bedrooms" : 1,
-			"bathrooms" : 1,
-			"half_bathrooms" : null,
-			"terrain_area" : 41,
-			"construction_area" : null,
-			"land_length" : null,
-			"from_land" : null,
-			"parking_lots" : 1,
-			"plant" : 1,
-			"maintenance" : "$800 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.243216689465!2d-89.611026!3d21.062946!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzQ2LjYiTiA4OcKwMzYnMzkuNyJX!5e0!3m2!1ses!2sus!4v1719435989466!5m2!1ses!2sus"
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
 		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
-	},
-	"AGVECA4697": {
-		"property_id": 0,
-		"property_code": "AGVECA4695",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa",
-		"property_model": "Mod. B",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Casa en Venta Noroasis Temozón Living",
-		"property_price": 6700000,
-		"property_description_EN": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
-		"property_data": {
-			"antiquity" : "En contrucción",
-			"bedrooms" : 2,
-			"bathrooms" : 2,
-			"half_bathrooms" : 1,
-			"terrain_area" : 318,
-			"construction_area" : 342,
-			"land_length" : 30,
-			"from_land" : 11,
-			"parking_lots" : 3,
-			"plant" : null,
-
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.3927799732173!2d-89.628396!3d21.056969!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1716999738563!5m2!1ses!2sus"
+		"zone_city_name": {
+			"text_ES": "Mérida Centro",
+			"text_EN": "Merida Centro"
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
+		"zone_city": "Merida_Centro"
 	},
-	"AGVECA4698": {
+	"MEVECA0022": {
 		"property_id": 1,
-		"property_code": "AGVECA4696",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
+		"property_code": "MEVECA0022",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
 		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa",
-		"property_model": "Mod. B Plus",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Casa en Venta Noroasis Temozón Living",
-		"property_price": 6700000,
-		"property_description_EN": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Noroasis es un proyecto que nace para ofrecerte 7 exclusivas viviendas en exterior con increíbles amenidades opcionales como cancha de padel, zona pet friendly, área de asadores, salón ejecutivo, gimnasio, piscina, salón de usos múltiples, área de juegos infantiles , áreas verdes y más. Ubicado en la zona de mayor valor en Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 20 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 35 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><br><p class='h6'>Lote C3 - $6,700,000</p><p class='h6'>Lote C4 - Muestra - $6,800,000</p><p class='h6'>Lote C5 - $6,700,000</p><p class='h6'>Lote C6 - $6,800,000</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala a doble altura y comedor corridos con vista al jardín trasero</p><p class='h6'>Cocina</p><p class='h6'>1/2 Baño de visitas.</p><p class='h6'>Recámara con baño</p><p class='h6'>Alberca</p><p class='h6'>Cuarto de servicio con baño.</p><p class='h6'>Área de lavado.</p><p class='h6'>Cochera techada con espacio para 3 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con baño.</p><p class='h6'>2 Recamaras con baño</p><p class='h6'>Sala de T.V.</p><p class='h6 mt-4'>SE ENTREGA CON:</p><ul><li class='h6'>Bardas perimetrales de 2 m de altura.</li><li class='h6'>Apagadores y contactos (Distribución como en casa muestra).</li><li class='h6'>Plafones de iluminación tipo LED con disposición según casa muestra.</li><li class='h6'>Salidas de A/C y ventiladores en habitaciones y sala/comedor</li><li class='h6'>Cocina con mesetas de granito.</li><li class='h6'>Baños con mesetas de mármol.</li><li class='h6'>Fregadero doble en cocina.</li><li class='h6'>Grifería en baños.</li><li class='h6'>Abastecimiento de agua por medio de pozo con bomba sumergible e hidroneumático (presurizador de agua).</li><li class='h6'>Los patios se entregan limpios.</li><li class='h6'>Cuenta con biodigestor.</li><li class='h6'>Fumigación subterránea para termita.</li><li class='h6'>Instalación para internet de fibra óptica de TELMEX y a decisión del cliente podrá contratar el servicio por cuenta propia a partir de la escrituración.</li></ul><p class='h6 mt-4'>FECHA DE ENTREGA: 8 meses aproximadamente después de la firma de compraventa</p><p class='h6 mt-4'>AMENIDADES OPCIONALES:</p><p class='h6'>Salón de usos múltiples</p><p class='h6'>Alberca</p><p class='h6'>Cancha de Pádel</p><p class='h6'>Área de juegos infantiles</p><p class='h6'>Áreas verdes</p><p class='h6'>Salón ejecutivo</p><p class='h6'>Parque para mascotas</p><p class='h6 mt-4'>NOTA: Las casas del proyecto Noroasis (Lotes: 1, 2, 3, 4, 5, 6, y 7) no pertenecen al régimen de condominio de Noroasis, a los interesados se les ofrecerá de manera opcional una membresía anual para utilizarlas las instalaciones.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p>",
+		"property_type":  {
+			"text_ES": "casa",
+			"text_EN": "hause"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa en Venta Centro",
+			"text_EN": "House for Sale Center"
+		},
+		"property_price": 21000000
+		,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>Hermosa casa de 2 plantas, ubicada en el Centro de Mérida, un lugar cultural con un crecimiento constante pero de igual forma un lugar acogedor donde podrías conseguir tu siguiente hogar soñado. Esta casa es única y mantiene el diseño arquitectónico de un Mérida nostálgico y acogedor para su propietario, su distribución y decoración se apegan a las raíces yucatecas con un toque de modernización, todo esto y mas podrá convertirse en la próxima mejor adquisición para sentir un hogar único y relajante..</p><p class='h6 mt-4'>-DISTRIBUCION-:</p><p class='h6'> *PLANTA BAJA*</p><p class='h6'>Cocina vestida</p><p class='h6'> Sala.</p><p class='h6'>Comedor</p><p class='h6 '>Estudio</p><p class='h6'>Alacenas:</p><p class='h6'>1 recámara con baño.</p><p class='h6'>Alberca</p></p><p class='h6'>Filtro</p></p><p class='h6'Pozo</p></p><p class='h6'>Jardín.</p></p><p class='h6'>Terraza techada.</p></p><p class='h6'>4 Bodega</p><p class='h6 mt-4'>*PLANTA ALTA*:¨</p><p class='h6'>3 recámaras con closet vestidor y baño c/u.</p><p class='h6 mt-4'>-EQUIPAMIENTOS Y ACABADOS:¨</p><p class='h6'>ventilador en todas las áreas</p><p class='h6'>Minisplit en las 3 recámaras de planta alta.</p><p class='h6'>Gas estacionario</p><p class='h6'>Gas estacionario.</p><p class='h6'>Calentador.</p><p class='h6'>Tinaco</p><p class='h6'>Canceles en baños.</p><p class='h6 mt-4'>*Cuenta con servicio de agua potable*.</p><p class='h6>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6 mt-4'>*Las imágenes mostradas son solo para fines ilustrativos..</p>",
+			"text_EN": "<p class='h6 mt-4'>“Beautiful two-story house, located in the center of Mérida, a cultural place with constant growth. It’s also a cozy spot where you could find your dream home. This house is unique and maintains the architectural design of a nostalgic and welcoming Mérida for its owner. Its distribution and decoration adhere to Yucatecan roots with a touch of modernization. All of this and more could become your next best acquisition for experiencing a unique and relaxing home.” </p><p class='h6 mt-4'>-DISTRIBUTION-:</p><p class='h6'> *GROUND FLOOR*</p><p class='h6'>Kitchen dressed</p><p class='h6'> Living room.</p><p class='h6'>Dining room</p><p class='h6 '>Study</p><p class=' h6 mt-4'>Wardrobes:</p><p class='h6'>1 bedroom with bathroom.</p><p class='h6'>Pool</p></p><p class= 'h6'>Filter</p></p><p class='h6'Well</p></p><p class='h6'>Garden.</p></p><p class ='h6'>Covered terrace.</p></p><p class='h6'>4 Winery</p><p class='h6 mt-4'>*UPLOAD FLOOR*:¨</p ><p class='h6'>3 bedrooms with walk-in closet and bathroom each.</p><p class='h6 mt-4'>-EQUIPMENT AND FINISHES:¨</p><p class=' h6'>fan in all areas</p><p class='h6'>Minisplit in the 3 upstairs bedrooms.</p><p class='h6'>Stationary gas</p><p class ='h6'>Stationary gas.</p><p class='h6'>Heater.</p><p class='h6'>Tinco</p><p class='h6'>Cancels in bathrooms .</p><p class='h6 mt-4'>*It has drinking water service*.</p><p class='h6>*Prices and availability subject to change without prior notice.</p ><p class='h6 mt-4'>*The images shown are for illustrative purposes only.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Balcón</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Riego por aspersión</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Roof garden</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Aire acondicionado</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Circuito cerrado</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Estudio</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Balcony</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Garden</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Sprinkler irrigation</spam> </p></p><p class='h6'>&#10003; <spam class='text-black'>Roof garden</spam></p></p><p class='h6 '>&#10003; <spam class='text-black'>Terrace</spam></p></p><p class='h6'>&#10003; >Air conditioning</spam></p></p><p class='h6'>&#10003; <spam class='text-black'>Winery</spam></p></p> <p class='h6'>&#10003; <spam class='text-black'>Closed loop</spam></p></p><p class='h6'>&#10003; class='text-black'>Kitchen</spam></p></p><p class='h6'>&#10003 <spam class='text-black'>Study</spam></; p></p><p class='h6'>&#10003; <spam class='text-black'>Pool</spam></p></p>"
+		},
 		"property_data": {
-			"antiquity" : "En contrucción",
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
 			"bedrooms" : 4,
 			"bathrooms" : 4,
-			"half_bathrooms" : 1,
-			"terrain_area" : 316,
-			"construction_area" : 342,
-			"land_length" : 30,
-			"from_land" : 11,
-			"parking_lots" : 3,
-			"plant" : null,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.4343862431697!2d-89.628643!3d21.055306!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI1LjEiTiA4OcKwMzcnNDIuMiJX!5e0!3m2!1ses!2sus!4v1719307641782!5m2!1ses!2sus"
-		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
-	},
-	"AGVEDE3878": {
-		"property_id": 2,
-		"property_code": "AGVEDE3879",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
-		"property_model": "Mod C",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Privada Nibana",
-		"property_price": 3100000,
-		"property_description_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_data": {
-			"antiquity" : "A estrenar",
-			"bedrooms" : 2,
-			"bathrooms" : 2,
 			"half_bathrooms" : null,
-			"terrain_area" : 86,
-			"construction_area" : null,
+			"terrain_area" : 536,
+			"construction_area" : 525,
 			"land_length" : null,
 			"from_land" : null,
-			"parking_lots" : 1,
-			"plant" : 1,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
+			"parking_lots" : null,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": "No aplica",
+				"text_EN": "Does not apply"
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1ses!2sus!4v1719314232381!5m2!1ses!2sus"
+			"map_uri": {
+				"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3725.610608912398!2d-89.629872!3d20.968147!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU4JzA1LjMiTiA4OcKwMzcnNDcuNSJX!5e0!3m2!1ses!2sus!4v1720640942955!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3725.610608912398!2d-89.629872!3d20.968147!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU4JzA1LjMiTiA4OcKwMzcnNDcuNSJX!5e0!3m2!1sen!2sus!4v1720640942955!5m2!1sen!2sus"
+			}
 		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
 		"zone_municipality": "Merida",
-		"zone_city": "Temozon",
-		"zone_uri": "Temozon"
+		"zone_city_name": {
+			"text_ES": "Mérida Centro",
+			"text_EN": "Merida Centro"
+		},
+		"zone_city": "Merida_Centro"
 	},
-	"MERECA0004": {
-		"property_id": 3,
-		"property_code": "MERECA0003",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
+	"MEVECA0037": {
+		"property_id": 0,
+		"property_code": "MEVECA0037",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
 		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Casa Adosada",
-		"property_model": null,
-		"property_name_EN": "Townhouse for rent, Private Sens",
-		"property_name_ES": "Casa Adosada en renta, Privada Sens",
-		"property_price": 19000,
-		"property_description_EN": "<p class='h6 mt-4'>Hermoso townhouse residencial ubicado en un privada de alta plusvalía y exclusividad como lo es SENS, muy lujoso con acabados de primera, ubicado en Santa Gertrudis Copó. Una zona privilegiada y excelente ubicación muy cerca de la Plaza La Isla Mérida, a dos cuadras del hospital El Faro y a 2 minutos de City Center, con demás amenidades de primera ubicadas por medio de puntos de acceso con la facilidad de llegar a tiempo a tu destino o plan ideal.</p><p class='h6 mt-4'>DISTRIBUCION:</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Medio baño de visitas</p><p class='h6'>Alberca (Área social)</p><p class='h6'>Comedor</p><p class='h6'>Cocina integral c/ estufa y campana</p><p class='h6'>Bodega</p><p class='h6'>Cuarto de lavado</p><p class='h6'>Estacionamiento par 2 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recamaras con walking closet y baño c/u.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Hermoso townhouse residencial ubicado en un privada de alta plusvalía y exclusividad como lo es SENS, muy lujoso con acabados de primera, ubicado en Santa Gertrudis Copó. Una zona privilegiada y excelente ubicación muy cerca de la Plaza La Isla Mérida, a dos cuadras del hospital El Faro y a 2 minutos de City Center, con demás amenidades de primera ubicadas por medio de puntos de acceso con la facilidad de llegar a tiempo a tu destino o plan ideal.</p><p class='h6 mt-4'>DISTRIBUCION:</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Medio baño de visitas</p><p class='h6'>Alberca (Área social)</p><p class='h6'>Comedor</p><p class='h6'>Cocina integral c/ estufa y campana</p><p class='h6'>Bodega</p><p class='h6'>Cuarto de lavado</p><p class='h6'>Estacionamiento par 2 autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recamaras con walking closet y baño c/u.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina integral</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+		"property_type": {
+			"text_ES": "casa",
+			"text_EN": "house"
+		},
+		"property_model": "Mod Carmela 2.",
+		"property_name": {
+			"text_ES": "Casa en Venta Dzitya",
+			"text_EN": "House for Sale Dzitya"
+		},
+		"property_price": 4419174.43,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>“El corazón jovial de Carmela se adapta a huéspedes listos para vivir la vida al máximo, y disfrutar cada momento. Dinámica, lujosa y con una personalidad de mármol, se erige orgullosa justo en medio del bullicio citadino, y la tranquilidad de una zona en desarrollo..</p><p class='h6'>En Carmela, el aburrimiento nunca será una opción. Con su idílico jardín interior y piscina, invita a organizar las mejores reuniones, mientras mantiene la privacidad familiar. Sus amplios ventanales y espacios inspiran al disfrute y crean una espectacular sensación de libertad completa.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Cochera</p><p class='h6'>Bodega</p><p class='h6'>1/Baño de servicio.</p><p class='h6'>Hall</p><p class='h6'>Escalera</p><p class='h6'>Baño de visita.</p><p class='h6'>Salón.</p><p class='h6'>Cocina</p><p class='h6'>Comedor.</p><p class='h6'>Piscina.</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara principal con closet vestidor y baño.</p><p class='h6'>2 Recámaras con baño</p><p class='h6'>Recámara #2 con closet y baño.</p><p class='h6'>Recamara #3 con closet y baño.</p><p class='h6'>Terraza.</p><p class='h6 mt-4'>BENEFICIOS:</p><ul><li class='h6'>Alumbrado Público.</li><li class='h6'>Escrituración inmediata .</li><li class='h6'>Calles pavimentadas.</li><li class='h6'>20 minutos de la playa</li><li class='h6'>Pozos de absorción pluvial.</li><li class='h6'>Barda perimetral<p class='h6 mt-4'>UPGRADES ADICIONALES: *CON COSTO EXTRA*</p><p class='h6'> Cochera Techada</p><p class='h6'>Portón de acceso eléctrico.</p><p class='h6'>Paneles Solares.</p><p class='h6'>Domótica.</p><p class='h6'>Roof Garden.</p><p class='h6'>Cancelería (área de jacuzzi).</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>“The jovial heart of Carmela suits guests ready to live life to the fullest, and enjoy every moment. Dynamic, luxurious and with a marble personality, it stands proud right in amid the hustle and bustle of the city, and the tranquility of a developing area..</p><p class='h6'>In Carmela, boredom will never be an option. With its idyllic interior garden and pool, it invites you to organize the best ones. meetings, while maintaining family privacy. Its large windows and spaces inspire enjoyment and create a spectacular feeling of complete freedom.</p><p class='h6 mt-4'>GROUND FLOOR:</p><p class ='h6'>Garage</p><p class='h6'>Winery</p><p class='h6'>1/Service bathroom.</p><p class='h6'>Hall </p><p class='h6'>Staircase</p><p class='h6'>Guest bathroom.</p><p class='h6'>Living room.</p><p class ='h6'>Kitchen</p><p class='h6'>Dining room.</p><p class='h6'>Pool.</p><p class='h6 mt-4'>FLOOR UPPER:</p><p class='h6'>Master bedroom with walk-in closet and bathroom.</p><p class='h6'>2 bedrooms with bathroom</p><p class='h6'> Bedroom #2 with closet and bathroom.</p><p class='h6'>Bedroom #3 with closet and bathroom.</p><p class='h6'>Terrace.</p><p class= 'h6 mt-4'>BENEFITS:</p><ul><li class='h6'>Public Lighting.</li><li class='h6'>Immediate writing.</li><li class= 'h6'>Paved streets.</li><li class='h6'>20 minutes from the beach</li><li class='h6'>Rainwater absorption wells.</li><li class=' h6'>Perimeter fence<p class='h6 mt-4'>ADDITIONAL UPGRADES: *WITH EXTRA COST*</p><p class='h6'> Roofed Garage.</p><p class='h6'> Electric access gate.</p><p class='h6'>Solar Panels.</p><p class='h6'>Home Automation.</p><p class='h6'>Roof Garden.< /p><p class='h6'>Cancelería (jacuzzi area).</p><p class='h6 mt-4'>*Prices and availability subject to change without prior notice.</p><class='h6'>*The images shown are merely for illustrative purposes.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Garaje</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terrazas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jacuzzi</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Easy parking</spam></p><p class='h6'>&#10003; <spam class= 'text-black'>Garage</spam></p><p class='h6'>&#10003; <spam class='text-black'>Garden</spam></p><p class= 'h6'>&#10003; <spam class='text-black'>Terraces</spam></p><p class='h6'>&#10003; <spam class='text-black'>kitchen</spam></p><p class='h6'>&#10003; <spam class='text-black'>Utility room</spam></p><p class='h6'>&#10003; <spam class='text-black'>kitchen</spam></p><p class='h6'>&#10003; <spam class='text-black'>Service roomn</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jacuzzi</spam></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
 		"property_data": {
-			"antiquity" : null,
-			"bedrooms" : 2,
-			"bathrooms" : 3,
-			"half_bathrooms" :1,
-			"terrain_area" : 175,
-			"construction_area" : null,
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" :3,
+			"bathrooms" : 4,
+			"half_bathrooms" : null,
+			"terrain_area" : 267.35,
+			"construction_area" : 220.47,
 			"land_length" : null,
 			"from_land" : null,
 			"parking_lots" : 2,
 			"plant" : null,
-			"maintenance" : "Incluido",
+			"maintenance": {
+				"text_ES": null,
+				"text_EN": null
+			},
 			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.864525658499!2d-89.593372!3d21.038106!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzE3LjIiTiA4OcKwMzUnMzYuMSJX!5e0!3m2!1ses!2sus!4v1719334231321!5m2!1ses!2sus"
-		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Santa Gertrudis Copo",
-		"zone_uri": "Santa Gertrudis Copo"
-	},
-	"MEVEDE0053": {
-		"property_id": 2,
-		"property_code": "MEVEDE0052",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
-		"property_model": "MOD A",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Maktub",
-		"property_price": 1699000,
-		"property_description_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_data": {
-			"antiquity" : "A estrenar",
-			"bedrooms" : 1,
-			"bathrooms" : 1,
-			"half_bathrooms" : null,
-			"terrain_area" : 45.62,
-			"construction_area" : null,
-			"land_length" : null,
-			"from_land" : null,
-			"parking_lots" : 1,
-			"plant" : 1,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1ses!2sus!4v1719314232381!5m2!1ses!2sus"
-		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
-	},
-	"AGVEDE4349": {
-		"property_id": 2,
-		"property_code": "AGVEDE4348",
-		"investment_type_ES": "venta",
-		"investment_type_EN": "rent",
-		"promo_offer": true,
-		"property_uri": "tour-bay-boat",
-		"property_type": "Departamento",
-		"property_model": "Mod. Studio",
-		"property_name_EN": "Boat tour",
-		"property_name_ES": "Departamento en Venta Centro Temozón 47",
-		"property_price": 1750000,
-		"property_description_EN": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_description_ES": "<p class='h6 mt-4'>Nibana es un desarrollo condominal de 33 departamentos de 1 y 2 recámaras, equipados y con acabados de lujo.</p><p class='h6'>El proyecto cuenta con una ubicación inmejorable a solo 2 cuadras de la avenida principal de Temozón Norte y a 5 minutos de plazas como La Isla y The Harbor, cercano se encuentran las mejores escuelas, universidades, centros comerciales, hospitales, supermercados y avenidas importantes, haciendo de Nibana un proyecto con una gran plusvalía</p><p class='h6 mt-4'>UNA PLANTA:</p><p class='h6'>Sala</p><p class='h6'>Comedor</p><p class='h6'>Cocina con barra de granito</p><p class='h6'>2 Recámaras con closets vestidor</p><p class='h6'>Área de lavado.</p><p class='h6'>1 Cajón de estacionamiento techado</p><p class='h6 mt-4'>EQUIPADO CON</p><p class='h6'>Cocina vestida</p><p class='h6'>Closets semivestidos</p><p class='h6'>Calentador</p><p class='h6 mt-4'>SERVICIO: Agua potable</p><p class='h6 mt-4'>FECHA DE ENTREGA: Entrega Inmediata</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO: $1200 aprox. Se actualiza al momento de la escritura.</p><p class='h6 mt-4'>AMENIDADES</p><p class='h6'>Área social</p><p class='h6'>Alberca</p><p class='h6'>Terraza bar</p><p class='h6 mt-4'>TAMBIEN CUENTA CON</p><p class='h6'>Caseta de vigilancia 24/7</p><p class='h6'>CCTV en áreas comunes</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
-		"property_characteristics_EN": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_characteristics_ES": "<p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
-		"property_data": {
-			"antiquity" : "A estrenar",
-			"bedrooms" : 1,
-			"bathrooms" : 1,
-			"half_bathrooms" : null,
-			"terrain_area" : 41,
-			"construction_area" : null,
-			"land_length" : null,
-			"from_land" : null,
-			"parking_lots" : 1,
-			"plant" : 1,
-			"maintenance" : "$1,500 se actualiza al momento de la escritura",
-			"is_promo_offer": true,
-			"meet_up_location": {
-				"text_EN": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131",
-				"text_ES": "Bayside Marketplace - 401 Biscayne Blvd. Miami, Florida. 33131"
-			},
-			"photo_description": {
-				"e1.jpg": {
-					"text_EN": "90-minute sightseeing cruise around Biscayne Bay",
-					"text_ES": "Crucero turístico de 90 minutos por la bahía Vizcaína"
-				},
-				"e2.jpg": {
-					"text_EN": "Enjoy the best views of the downtown Miami skyline, the harbor, Fisher Island, Miami Beach and Millionaire's Row, home of the rich and famous",
-					"text_ES": "Disfruta de las mejores vistas del perfil del centro de Miami, el puerto, Fisher Island, Miami Beach y Millionaire's Row, el hogar de los ricos y famosos"
-				},
-				"e3.jpg": {
-					"text_EN": "A tour guide will tell you about the many points of interest you pass, including South Beach, Port of Miami, Key Biscayne, and Miami Beach. Keep an eye out for nearby islands, including the Venetian Islands",
-					"text_ES": "Un guía turístico le informará sobre los muchos puntos de interés que pase, incluidos South Beach, Port of Miami, Key Biscayne y Miami Beach. Esté atento a las islas cercanas, incluidas las islas venecianas"
-				}
-			},
-			"map_uri": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.364231704231!2d-89.617024!3d21.05811!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzI5LjIiTiA4OcKwMzcnMDEuMyJX!5e0!3m2!1ses!2sus!4v1719314232381!5m2!1ses!2sus"
-		},
-		"zone_name_EN": "Yucatan",
-		"zone_name_ES": "Yucatán",
-		"zone_municipality": "Merida",
-		"zone_city": "Temozon Norte",
-		"zone_uri": "Temozon Norte"
-	}
+			"map_uri": {
+				"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.6094342679753!2d-89.67806036441803!3d21.048307967536985!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzU0LjAiTiA4OcKwNDAnNDEuMCJX!5e0!3m2!1ses!2sus!4v1720989393975!5m2!1ses!2sus",
+				"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.6094342679753!2d-89.67806036441803!3d21.048307967536985!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzU0LjAiTiA4OcKwNDAnNDEuMCJX!5e0!3m2!1sen!2sus!4v1720989393975!5m2!1sen!2sus"
+			}
 
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Dzityá",
+			"text_EN": "Dzitya"
+		},
+		"zone_city": "Dzitya"
+	},
+	"AGVECA4640": {
+		"property_id": 0,
+		"property_code": "AGVECA4640",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type": {
+			"text_ES": "Villa",
+			"text_EN": "Town"
+		},
+		"property_model": "( Villa B) casa.",
+		"property_name": {
+			"text_ES": "Villa en Venta Zaguan, Residencial Montecristo",
+			"text_EN": "Villa for Sale Zaguan, Residencial Montecristo"
+		},
+		"property_price": 4734950,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>“Villas Zaguan esta formado por 3 hermosas villas las cuales se caracterizan por iluminados espacios, calidad en su estructura y el toque de naturaleza. Se ubica en Residencial Montecristo una de las zonas de mayor crecimiento en plusvalía y desarrollo inmobiliario en la ciudad de Mérida, Yucatán.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 15 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 30 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Zaguán de Acceso</p><p class='h6'>Sala</p><p class='h6'>1/Comedor.</p><p class='h6'>Cocinal</p><p class='h6'>1/2 Baño</p><p class='h6'>Terraza.</p><p class='h6'>Alberca.</p><p class='h6'>Cochera techada con espacio para 2 automóviles</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recámaras con closet vestidor.</p><p class='h6'>3 Baños</p><p class='h6'>Área de servicio con baño completo.</p><p class='h6 mt-4'>FECHA DE ENTREGA: Mayo 2024:</p><p class='h6 mt-4'>EQUIPADO CON: Puertas principales de Tzalam</p><p class='h6'> Puertas interiores de Sapelli</p><p class='h6'>Portones de Herrería pintados y automatizados.</p><p class='h6'>Pisos de mármol de travertino.</p><p class='h6'>Meseta de granito.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>“Villas Zaguan is made up of 3 beautiful villas which are characterized by illuminated spaces, quality in their structure and the touch of nature. It is located in Residencial Montecristo, one of the areas of greatest growth in capital gains and real estate development in the city of Mérida, Yucatán.</p><p class='h6'>With a privileged location, north of the city, you will be less than 10 minutes from the Universidad Marista, Modelo and Anáhuac Mayab, reaching places such as La Isla, The Harbor and Altabrisa as well as the El Faro Hospital or StarMédica will take you about 15 minutes, in addition, it is located a few blocks from the Periférico de Mérida with easy access to both commercial and residential developments and the Road to Progreso from where in less than 30 minutes you can be enjoying the beautiful Yucatecan coasts, definitely the best choice for your new home.</p><p class='h6 mt-4'>GROUND FLOOR:</p> <p class='h6'>Access Hallway</p><p class='h6'>Living room</p><p class='h6'>1/Dining room.</p><p class='h6 '>Kitchen</p><p class='h6'>1/2 Bathroom</p><p class='h6'>Terrace.</p><p class='h6'>Pool.</p ><p class='h6'>Covered garage with space for 2 cars</p><p class='h6 mt-4'>UPST FLOOR:</p><p class='h6'>3 bedrooms with closet dressing room.</p><p class='h6'>3 Bathrooms</p><p class='h6'>Service area with full bathroom.</p><p class='h6 mt-4'> DELIVERY DATE: May 2024:</p><p class='h6 mt-4'>EQUIPPED WITH:: Tzalam main doors</p><p class='h6'> Sapelli interior doors</p><p class='h6'>Painted and automated blacksmith gates.</p><p class='h6'>Travertine marble floors.</p><p class='h6'>Granite plateau.</ p><p class='h6 mt-4'>*Prices and availability subject to change without prior notice.</p><p class='h6'>*Images shown are merely for illustrative purposes.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Pool</spam></p><p class='h6'>&#10003; <spam class='text -black'>Kitchen</spam></p><p class='h6'>&#10003; <spam class='text-black'>Covered parking</spam></p><p class=' h6'>&#10003; <spam class='text-black'>Two floors</spam></p><p class='h6'>&#10003; of service</spam></p><p class='h6'>&#10003; <spam class='text-black'>Pets allowed</spam></p><p class='h6'> &#10003; <spam class='text-black'>Terrace</spam></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" :3,
+			"bathrooms" : 3,
+			"half_bathrooms" : 1,
+			"terrain_area" : null,
+			"construction_area" : 173,
+			"land_length" : null,
+			"from_land" : null,
+			"parking_lots" : 2,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3724.5906235473476!2d-89.59170300000001!3d21.009041!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAwJzMyLjYiTiA4OcKwMzUnMzAuMSJX!5e0!3m2!1ses!2sus!4v1721050931305!5m2!1ses!2sus",
+				"text_EN":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3724.5906235473476!2d-89.59170300000001!3d21.009041!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAwJzMyLjYiTiA4OcKwMzUnMzAuMSJX!5e0!3m2!1sen!2sus!4v1721050931305!5m2!1sen!2sus"
+			}
+
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Fraccionamiento Montecristo",
+			"text_EN": "Montecristo Subdivision"
+		},
+		"zone_city": "Fraccionamiento Montecristo"
+	},
+    "AGVECA4738": {
+	"property_id": 0,
+	"property_code": "AGVECA4738",
+	"investment_type": {
+		"text_ES": "venta",
+		"text_EN": "sale"
+	},
+	"promo_offer": false,
+	"property_type": {
+		"text_ES": "Casa",
+		"text_EN": "House"
+	},
+	"property_model": "Mod. 186",
+	"property_name": {
+		"text_ES": "Casa en Venta Adara",
+		"text_EN": "House for Sale Adara"
+	},
+	"property_price": 4415000,
+	"property_description": {
+		"text_ES": "<p class='h6 mt-4'>“Adara es un proyecto inmobiliario formado por 75 casas residenciales el cual está pensado para ofrecer la mejor calidad de vida a ti y a tu familia al mismo tiempo de ser una excelente inversión inmobiliaria, ya que se encuentra ubicado en una de las zonas mas exclusivas y con alta plusvalía de la ciudad de Mérida.</p><p class='h6 mt-4'>Al norte de la ciudad, estarás a menos de 15 minutos de la Universidad Marista y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital StarMédica te tomará unos 5 minutos, además se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y la Carretera a Progreso desde donde en menos de 30 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Sala comedor con vista a la terraza</p><p class='h6'>Cocina al frente con meseta de granito</p><p class='h6'>Medio baño de visitas.</p><p class='h6'>Recámara 1 con espacio para closet y baño completo</p><p class='h6'> Pasillo lateral de servicio</p><p class='h6'>Piscina.</p><p class='h6'>Lavadero.</p><p class='h6'>Cochera techada para dos autos</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recámara con espacio para closet y baño completo.</p><p class='h6'>Recámara principal con closet vestidor y baño completo</p><p class='h6 mt-4'>EQUIPAMIENTO:</p><p class='h6'> Carpintería en cocina</p><p class='h6'> Campana</p><p class='h6'> Carpintería debajo de lavabos</p><p class='h6'> Accesorios en baños</p><p class='h6'> Pisos de mármol en escaleras</p><p class='h6'> Canceles en baños</p><p class='h6'> Alberca</p><p class='h6'> Cochera techada</p><p class='h6'> Barda perimetral</p><p class='h6'> Paneles solares</p><p class='h6'> Muro interior decorativo con acabado de piedra</p><p class='h6 mt-4'>CUOTA DE MANTENIMIENTO Y FONDO DE RESERVA:</p><p class='h6'>Por definir, se actualiza al momento de la escritura.</p><p class='h6 mt-4'>FECHA DE ENTREGA: Mayo 2025:</p><p class='h6 mt-4'>AMENIDADES:Terraza social techada</p><p class='h6'> Área grill</p><p class='h6'>Zona de pet park.</p><p class='h6'>Gym.</p><p class='h6'>Área de juegos infantiles.</p><p class='h6'>Gym.</p><p class='h6'>Cancha de padel.</p><p class='h6 mt-4'>TAMBIÉN CUENTA CON:</p><p class='h6'>Caseta de vigilancia 24/7.</p><p class='h6'>Barda perimetral con cerco eléctrico.</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+		"text_EN": "<p class='h6 mt-4'>“Adara is a real estate project made up of 75 residential houses which is designed to offer the best quality of life to you and your family while being an excellent real estate investment, since which is located in one of the most exclusive areas with high capital gains in the city of Mérida.</p><p class='h6 mt-4'>To the north of the city, you will be less than 15 minutes from the Marist University and Anáhuac Mayab, reaching places such as La Isla, The Harbor and Altabrisa as well as the StarMédica Hospital will take you about 5 minutes, it is also located a few blocks from the Mérida Periférico with easy access to both commercial and residential developments and the Highway to Progreso from where in less than 30 minutes you can be enjoying the beautiful Yucatecan coasts, definitely the best choice for your new home.</p><p class='h6 mt-4'>GROUND FLOOR:</p><p class='h6'>Dining room with views of the terrace</p><p class='h6'>Kitchen at the front with granite countertop</p><p class='h6'>Half guest bathroom. </p><p class='h6'>Bedroom 1 with closet space and full bathroom</p><p class='h6'> Side service hallway</p><p class='h6'>Pool .</p><p class='h6'>Laundry room.</p><p class='h6'>Covered garage for two cars</p><p class='h6 mt-4'>UPST FLOOR: </p><p class='h6'>Bedroom with closet space and full bathroom.</p><p class='h6'>Master bedroom with walk-in closet and full bathroom</p><p class=' h6 mt-4'>EQUIPMENT:</p><p class='h6'> Kitchen carpentry</p><p class='h6'> Hood</p><p class='h6'> Below carpentry of sinks</p><p class='h6'> Accessories in bathrooms</p><p class='h6'> Marble floors in stairs</p><p class='h6'> Gates in bathrooms </p><p class='h6'> Pool</p><p class='h6'> Covered garage</p><p class='h6'> Perimeter fence</p><p class='h6 '> Solar panels</p><p class='h6'> Decorative interior wall with stone finish</p><p class='h6 mt-4'>MAINTENANCE FEE AND RESERVE FUND:</p> <p class='h6'>To be defined, updated at the time of writing.</p><p class='h6 mt-4'>DELIVERY DATE: May 2025:</p><p class=' h6 mt-4'>AMENITIES: Covered social terrace</p><p class='h6'> Grill area</p><p class='h6'>Pet park area.</p><p class= 'h6'>Gym.</p><p class='h6'>Children's play area.</p><p class='h6'>Gym.</p><p class='h6'>Court of padel.</p><p class='h6 mt-4'>IT ALSO HAS:</p><p class='h6'>24/7 security booth.</p><p class=' h6'>Perimeter fence with electric fence.</p><p class='h6 mt-4'>*Prices and availability subject to change without prior notice.</p><p class='h6'>*Images shown are merely for illustrative purposes.</p>"
+	},
+	"property_characteristics": {
+		"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Portero</spam></p><p class='h6'>&#10003; <spam class='text-black'>Seguridad 24 horas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Área de juegos infantiles</spam></p><p class='h6'>&#10003; <spam class='text-black'>Gimnasio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cancha de pádel</spam></p>",
+		"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Terrace</spam></p><p class='h6'>&#10003; <spam class='text -black'>Covered parking</spam></p><p class='h6'>&#10003; <spam class='text-black'>Kitchen</spam></p><p class=' h6'>&#10003; <spam class='text-black'>Two floors</spam></p><p class='h6'>&#10003; allowed</spam></p><p class='h6'>&#10003; <spam class='text-black'>Private subdivision</spam></p><p class='h6'>&#10003;<spam class='text-black'>Concierge</spam></p><p class='h6'>&#10003; <spam class='text-black'>24 hour security</spam></p><p class='h6'>&#10003; <spam class='text-black'>Children's play area</spam></p><p class='h6'>&#10003;<spam class='text-black'>Gym</spam></p><p class='h6'>&#10003; <spam class='text-black'>Paddle tennis court</spam></p>"
+	},
+	"property_characteristics_EN": "",
+	"property_characteristics_ES": "",
+	"property_data": {
+		"antiquity" : {
+			"text_ES": "En construcción",
+			"text_EN": "In construction"
+		},
+		"bedrooms" :3,
+		"bathrooms" : 3,
+		"half_bathrooms" : 1,
+		"terrain_area" : 224,
+		"construction_area" : 186,
+		"land_length" : null,
+		"from_land" : null,
+		"parking_lots" : 2,
+		"plant" : null,
+		"maintenance": {
+			"text_ES": "No indicado",
+			"text_EN": "Not indicated"
+		},
+		"is_promo_offer": true,
+		"map_uri": {
+			"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.5536084831165!2d-89.61256!3d21.05054!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzAyLjAiTiA4OcKwMzYnNDUuMiJX!5e0!3m2!1ses!2sus!4v1721419649597!5m2!1ses!2sus",
+			"text_EN":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.5536084831165!2d-89.61256!3d21.05054!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzAyLjAiTiA4OcKwMzYnNDUuMiJX!5e0!3m2!1sen!2sus!4v1721419649597!5m2!1sen!2sus"
+		}
+
+	},
+	"zone_state_name": {
+		"text_ES": "Yucatán",
+		"text_EN": "Yucatan"
+	},
+	"state": "Yucatan",
+	"zone_municipality_name": {
+		"text_ES": "Mérida",
+		"text_EN": "Merida"
+	},
+	"zone_municipality": "Merida",
+	"zone_city_name": {
+		"text_ES": "Temozon Norte",
+		"text_EN": "Temozon Norte"
+	},
+	"zone_city": "Temozon Norte"
+    },
+	"AGVECA4768": {
+		"property_id": 0,
+		"property_code": "AGVECA4768",
+		"investment_type": {
+			"text_ES": "venta",
+			"text_EN": "sale"
+		},
+		"promo_offer": false,
+		"property_type": {
+			"text_ES": "Casa",
+			"text_EN": "House"
+		},
+		"property_model": null,
+		"property_name": {
+			"text_ES": "Casa en Venta Remodelada, Felipe Carrillo Puerto Norte (ER) una planta",
+			"text_EN": "Remodeled House for Sale, Felipe Carrillo Puerto Norte (ER) one floor"
+		},
+		"property_price": 6500000,
+		"property_description": {
+			"text_ES": "<p class='h6 mt-4'>“Preciosa residencia sobre la Avenida Felipe Carrillo Puerto Norte con excelentes acabados y espacios iluminados la cual se encuentra en una zona llena de seguridad y tranquilidad.</p><p class='h6 mt-4'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 15 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica te tomará unos 15 minutos, además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 30 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>La casa es un rescate que se realizó sobre una superficie de 608m2 y consta de 1 sola planta con las siguientes áreas:</p><p class='h6 mt-4'>Recibidor</p><p class='h6'>Sala/Comedor amplio con pisos de pasta pulidos</p><p class='h6'>Cocina con excelentes acabados</p><p class='h6'>Pasillo lateral</p><p class='h6'>Acceso latera</p><p class='h6'>Recámara 1 con baño completo y espacio para clóset</p><p class='h6'>Recámara 2 con baño completo y espacio para clóset.</p><p class='h6'>Recámara 3 con baño completo y espacio para clóset</p><p class='h6'>Fachada distintiva con acabados en piedra tipo crema maya</p><p class='h6'>Espacio para jardín</p><p class='h6'>Terraza trasera techada (Ideal para área de asadores y descanso)</p><p class='h6'>Bodega</p><p class='h6'>Alberca amplia</p><p class='h6'>Bardas terminadas</p><p class='h6'>Cochera semitechada con espacio para 2 autos</p><p class='h6 mt-4'>Fecha de entrega: Inmediata</p><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+			"text_EN": "<p class='h6 mt-4'>“Beautiful residence on Avenida Felipe Carrillo Puerto Norte with excellent finishes and illuminated spaces which is located in an area full of security and tranquility.</p><p class=' h6 mt-4'>With a privileged location, north of the city, you will be less than 15 minutes from the Marista, Model and Anáhuac Mayab University, reach places such as La Isla, The Harbor and Altabrisa as well as the El Faro Hospital or StarMédica will take you about 15 minutes, in addition, it is located a few blocks from the Mérida Periférico with easy access to both commercial and residential developments and the Highway to Progreso from where in less than 30 minutes you can be enjoying the beautiful Yucatecan coasts, definitely the best choice for your new home.</p><p class='h6 mt-4'>The house is a rescue that was carried out on an area of ​​608m2 and consists of a single floor with the following areas:</p ><p class='h6 mt-4'>Hallway</p><p class='h6'>Large living/dining room with polished pasta floors</p><p class='h6'>Kitchen with excellent finishes </p><p class='h6'>Side hallway</p><p class='h6'>Side access</p><p class='h6'>Bedroom 1 with full bathroom and closet space </p><p class='h6'>Bedroom 2 with full bathroom and closet space.</p><p class='h6'>Bedroom 3 with full bathroom and closet space</p><p class= 'h6'>Distinctive façade with Mayan cream stone finishes</p><p class='h6'>Garden space</p><p class='h6'>Covered rear terrace (Ideal for barbecue area and rest)</p><p class='h6'>Winery</p><p class='h6'>Large pool</p><p class='h6'>Finished fences</p><p class ='h6'>Semi-covered garage with space for 2 cars</p><p class='h6 mt-4'>Delivery date: Immediate</p><p class='h6 mt-4'>*Prices and Availability subject to change without prior notice.</p><p class='h6'>*The images shown are merely for illustrative purposes.</p>"
+		},
+		"property_characteristics": {
+			"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Patio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Bodega</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Mascotas permitidas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Una sola planta</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p></p>",
+			"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Easy parking</spam></p><p class='h6'>&#10003; <spam class= 'text-black'>Garden</spam></p><p class='h6'>&#10003; <spam class='text-black'>Patio</spam></p><p class= 'h6'>&#10003; <spam class='text-black'>Terrace</spam></p><p class= 'h6'>&#10003; <spam class='text-black'>store</spam></p><p class='h6'>&#10003;<spam class='text-black'>Kitchen</spam></p><p class='h6'>&#10003 <spam class='text-black'>Pets allowed</spam></p><p class='h6'>&#10003; <spam class='text-black'>Single floor</spam> </p><p class='h6'>&#10003; <spam class='text-black'>Pool</spam></p></p>"
+		},
+		"property_characteristics_EN": "",
+		"property_characteristics_ES": "",
+		"property_data": {
+			"antiquity" : {
+				"text_ES": null,
+				"text_EN": null
+			},
+			"bedrooms" :3,
+			"bathrooms" : 3,
+			"half_bathrooms" : null,
+			"terrain_area" : 608 ,
+			"construction_area" : 251,
+			"land_length" : 50,
+			"from_land" : 13 ,
+			"parking_lots" : 2,
+			"plant" : null,
+			"maintenance": {
+				"text_ES": "No aplica",
+				"text_EN": "Not indicated"
+			},
+			"is_promo_offer": true,
+			"map_uri": {
+				"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3724.8876811047508!2d-89.59985!3d20.997139!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU5JzQ5LjciTiA4OcKwMzUnNTkuNSJX!5e0!3m2!1ses!2sus!4v1721433351912!5m2!1ses!2sus",
+				"text_EN":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3724.8876811047508!2d-89.59985!3d20.997139!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU5JzQ5LjciTiA4OcKwMzUnNTkuNSJX!5e0!3m2!1sen!2sus!4v1721433351912!5m2!1sen!2sus"
+			}
+	
+		},
+		"zone_state_name": {
+			"text_ES": "Yucatán",
+			"text_EN": "Yucatan"
+		},
+		"state": "Yucatan",
+		"zone_municipality_name": {
+			"text_ES": "Mérida",
+			"text_EN": "Merida"
+		},
+		"zone_municipality": "Merida",
+		"zone_city_name": {
+			"text_ES": "Felipe Carrillo Puerto Nte",
+			"text_EN": "Felipe Carrillo Puerto Nte"
+		},
+		"zone_city": "Felipe Carrillo Puerto Nte"
+	},
+	"MEVECA0017": {
+			"property_id": 0,
+			"property_code": "MEVECA0017",
+			"investment_type": {
+				"text_ES": "venta",
+				"text_EN": "sale"
+			},
+			"promo_offer": false,
+			"property_type": {
+				"text_ES": "casa",
+				"text_EN": "house"
+			},
+			"property_model": null,
+			"property_name": {
+				"text_ES": "Casa en venta",
+				"text_EN": "House for Sale"
+			},
+			"property_price": 6800000,
+			"property_description": {
+				"text_ES": "<p class='h6 mt-4'>Casa ideal para la siguiente elección de tu nuevo hogar, ubicada en una zona de alta plusvalía y crecimiento dentro de la cual cerca de puntos de ruta accesibles encontraras amenidades de alto valor y prestigio para satisfacer tus necesidades personales.</p><p class='h6'>Con una ubicación privilegiada, al norte de la ciudad, estarás a menos de 10 minutos de la Universidad Marista, Modelo y Anáhuac Mayab, llegar a plazas como La Isla, The Harbor y Altabrisa así como el Hospital El Faro o StarMédica. Además, se encuentra a unas cuadras del Periférico de Mérida con fácil acceso a desarrollos tanto comerciales como residenciales y a la Carretera a Progreso desde donde en menos de 30 minutos podrás estar disfrutando de las hermosas costas yucatecas, definitivamente la mejor elección para tu nuevo hogar.</p><p class='h6 mt-4'>-DISTRIBUCION-</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Cocina vestida</p><p class='h6'>Baño</p><p class='h6'>1/Sala.</p><p class='h6'>Hall</p><p class='h6'>Comedor</p><p class='h6'>Alberca.</p><p class='h6'>Terraza techada.</p><p class='h6'>Cuarto de lavado</p><p class='h6'>Cochera techada (para 2 autos y para 2 sin techado).</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>3 recámaras con baño completo y closet vestidor.</p><p class='h6 mt-4'>*NO ESTA EN PRIVADA*</p><ul><li class='h6'>También cuenta con:</li><li class='h6'>Mosquiteros.</li><li class='h6'>Gas estacionario</li><li class='h6'>Cisterna</li><li class='h6'>Bomba</li><li class='h6'>Hidroneumático<li class='h6'>Riego x aspersión</li><li class='h6'>Calentador</li><p class='h6 mt-4'>*Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6'>*Las imágenes mostradas son meramente para fines ilustrativos.</p>",
+				"text_EN": "<p class='h6 mt-4'>Ideal house for the next choice of your new home, located in an area of ​​high capital gains and growth within which, near accessible route points, you will find amenities of high value and prestige to satisfy your personal needs.</p><p class='h6'>With a privileged location, north of the city, you will be less than 10 minutes from the Marista, Model and Anáhuac Mayab University, reach places such as La Isla, The Harbor and Altabrisa as well as the El Faro Hospital or StarMédica. In addition, it is located a few blocks from the Mérida Periférico with easy access to both commercial and residential developments and the Highway to Progreso from where in less than 30 minutes you can be enjoying the beautiful Yucatecan coasts, definitely the best choice for your new home. </p><p class='h6 mt-4'>-DISTRIBUTION-</p><p class='h6 mt-4'>GROUND FLOOR:</p><p class='h6'>Dressed kitchen </p><p class='h6'>Bathroom</p><p class='h6'>1/Living room.</p><p class='h6'>Hall</p><p class= 'h6'>Dining room</p><p class='h6'>Pool.</p><p class='h6'>Covered terrace.</p><p class='h6'>Laundry room</p><p class='h6'>Covered garage (for 2 cars and for 2 without a roof).</p><p class='h6 mt-4'>UPLOAD FLOOR:</p><p class= 'h6'>3 bedrooms with full bathroom and walk-in closet.</p><p class='h6 mt-4'>*NOT PRIVATE*</p><ul><li class='h6'>Also It has:</li><li class='h6'>Mosquito nets.</li><li class='h6'>Stationary gas</li><li class='h6'>Cistern</li><li class='h6'>Pump</li><li class='h6'>Hydropneumatic<li class='h6'>Irrigation x sprinkler</li><li class='h6'>Heater</li><p class='h6 mt-4'>*Prices and availability subject to change without prior notice.</p><p class='h6'>*Images shown are merely for illustrative purposes.</p>"
+			},
+			"property_characteristics": {
+				"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Cisterna</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estacionamiento techado</spam></p><p class='h6'>&#10003; <spam class='text-black'>Facilidad para estacionarse</spam></p><p class='h6'>&#10003; <spam class='text-black'>Riego por aspersión</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Hidroneumático</spam></p><p class='h6'>&#10003; <spam class='text-black'>Alberca</spam></p>",
+				"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Tanker</spam></p><p class='h6'>&#10003; <spam class='text -black'>Covered parking</spam></p><p class='h6'>&#10003;<spam class='text-black'>Easy parking</spam></p><p class ='h6'>&#10003; <spam class='text-black'>Sprinkler irrigation</spam></p><p class ='h6'>&#10003; <spam class='text-black'>Terrace</spam></p><p class='h6'>&#10003; <spam class='text-black'>Kitchen</spam></p><p class='h6'> &#10003; <spam class='text-black'>Utility room</spam></p><p class ='h6'>&#10003; <spam class='text-black'>two plants</spam></p><p class='h6'>&#10003; <spam class='text-black'>Hydropneumatic</spam></p><p class='h6'>&#10003; <spam class='text-black'>Pool</spam></p>"
+			},
+			"property_characteristics_EN": "",
+			"property_characteristics_ES": "",
+			"property_data": {
+				"antiquity" : {
+					"text_ES": null,
+					"text_EN": null
+				},
+				"bedrooms" :3,
+				"bathrooms" : 4,
+				"half_bathrooms" : null,
+				"terrain_area" : 300,
+				"construction_area" : null,
+				"land_length" :30 ,
+				"from_land" :10,
+				"parking_lots" : 4,
+				"plant" : null,
+				"maintenance": {
+					"text_ES": null,
+					"text_EN": null
+				},
+				"is_promo_offer": true,
+				"map_uri": {
+					"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.191784784818!2d-89.623987!3d21.065001!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzU0LjAiTiA4OcKwMzcnMjYuNCJX!5e0!3m2!1ses!2sus!4v1721478442777!5m2!1ses!2sus",
+					"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.191784784818!2d-89.623987!3d21.065001!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzU0LjAiTiA4OcKwMzcnMjYuNCJX!5e0!3m2!1sen!2sus!4v1721478442777!5m2!1sen!2sus"
+				}
+	
+			},
+			"zone_state_name": {
+				"text_ES": "Yucatán",
+				"text_EN": "Yucatan"
+			},
+			"state": "Yucatan",
+			"zone_municipality_name": {
+				"text_ES": "Mérida",
+				"text_EN": "Merida"
+			},
+			"zone_municipality": "Merida",
+			"zone_city_name": {
+				"text_ES": "Temozón Norte",
+				"text_EN": "Temozon Norte"
+			},
+			"zone_city": "Temozón Norte"
+		},
+	"MEVECA0061": {
+			"property_id": 0,
+			"property_code": "MEVECA0061",
+			"investment_type": {
+				"text_ES": "venta",
+				"text_EN": "sale"
+			},
+			"promo_offer": false,
+			"property_type": {
+				"text_ES": "casa",
+				"text_EN": "house"
+			},
+			"property_model": null,
+			"property_name": {
+				"text_ES": "Casa en Venta Kinish #105",
+				"text_EN": "House for Sale  Kinish #105"
+			},
+			"property_price":6990000
+			,
+			"property_description": {
+				"text_ES": "<p class='h6 mt-4'>Hermosa residencia en la privada kinish, Kinish es una privada de lotes residenciales en Mérida ubicada en la zona de Tixcuytun.</p><p class='h6 mt-4'> La privada está pensada para desarrollar la casa de tus sueños en una zona tranquila cercana a escuelas de alto nivel, plazas comerciales premium, hospitales privados, restaurantes de todo tipo y los mejores servicios que ofrece la ciudad. </p><p class ='h6 mt-4'>*DISTRIBUCION*:</p><p class='h6 mt-4'>PLANTA BAJA:</p><p class='h6'>Cochera techada para dos vehículos</p><p class='h6'>Recibidor, sala y comedor con techo de doble altura</p><p class='h6'>Cocina con alacena totalmente equipada con isla y barra en granito.</p><p class='h6'>Medio baño de visitas</p><p class='h6'>Estudio</p><p class='h6'>Terraza techada.</p><p class='h6'>Jardín interior.</p><p class='h6'>Jardín exterior con piscina con pasto y sistema de riego automático</p><p class='h6'>Cuarto de servicio con baño completo y área de lavado.</p><p class='h6 mt-4'>PLANTA ALTA:</p><p class='h6'>Recamara principal con closet vestidor muy amplio y baño privado.</p><p class=' h6'>  2 Recamaras con closet vestidor y baño completo.</p><p class='h6 mt-4'>**Precios y disponibilidad sujetos a cambio sin previo aviso.</p><p class='h6' >*Las imágenes mostradas son solo para fines ilustrativos.</p>",
+				"text_EN": "<p class='h6 mt-4'>Beautiful residence in the private Kinish, Kinish is a private residential lot in Mérida located in the Tixcuytun area.</p><p class='h6 mt-4'> The private one is designed to develop the house of your dreams in a quiet area close to high-level schools, premium shopping malls, private hospitals, restaurants of all kinds and the best services that the city offers. </p><p class ='h6 mt-4'>*DISTRIBUTION*:</p><p class='h6 mt-4'>GROUND FLOOR:</p><p class='h6'>Covered garage for two vehicles</p ><p class='h6'>Hall, living room and dining room with double-height ceiling</p><p class='h6'>Kitchen with fully equipped pantry with island and granite bar.</p><p class='h6'>Half guest bathroom</p><p class='h6'>Study</p><p class='h6'>Covered terrace.</p><p class='h6' >Interior garden.</p><p class='h6'>Outdoor garden with swimming pool with grass and automatic irrigation system</p><p class='h6'>Utility room with full bathroom and laundry area. </p><p class='h6 mt-4'>UPST FLOOR:</p><p class='h6'>Master bedroom with very large walk-in closet and private bathroom.</p><p class=' h6'> 2 bedrooms with walk-in closet and full bathroom.</p><p class='h6 mt-4'>**Prices and availability subject to change without prior notice.</p><p class='h6' >*The images shown are merely for illustrative purposes.</p>"
+			},
+			"property_characteristics": {
+				"text_ES": "<p class='h6'>&#10003; <spam class='text-black'>Garaje</spam></p><p class='h6'>&#10003; <spam class='text-black'>Jardín</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terraza</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cocina</spam></p><p class='h6'>&#10003; <spam class='text-black'>Cuarto de servicio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Dos plantas</spam></p><p class='h6'>&#10003; <spam class='text-black'>Estudio</spam></p><p class='h6'>&#10003; <spam class='text-black'>Fraccionamiento privado</spam></p>",
+				"text_EN": "<p class='h6'>&#10003; <spam class='text-black'>Garage</spam></p><p class='h6'>&#10003; <spam class='text -black'>Garden</spam></p><p class='h6'>&#10003; <spam class='text-black'>Terrace</spam></p><p class='h6 '>&#10003; <spam class='text-black'>Kitchen</spam></p><p class='h6 '>&#10003; <spam class='text-black'>Service roomn</spam></p><p class='h6'>&#10003;<spam class='text-black'>Two floors</spam></p><p class='h6'>&#10003;<spam class='text-black'>Study</spam></p><p class='h6'>&#10003;<spam class='text-black'>Private subdivision</spam></p>"
+			},
+			"property_characteristics_EN": "",
+			"property_characteristics_ES": "",
+			"property_data": {
+				"antiquity" : {
+					"text_ES": null,
+					"text_EN": null
+				},
+				"bedrooms" :4,
+				"bathrooms" : 4,
+				"half_bathrooms" : 1,
+				"terrain_area" : 372,
+				"construction_area" : 316,
+				"land_length" :null ,
+				"from_land" :null,
+				"parking_lots" : 4,
+				"plant" : null,
+				"maintenance": {
+					"text_ES": 2000,
+					"text_EN": 2000
+				},
+				"is_promo_offer": true,
+				"map_uri": {
+					"text_ES":"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.787875384318!2d-89.555054!3d21.041172!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzI4LjIiTiA4OcKwMzMnMTguMiJX!5e0!3m2!1ses!2sus!4v1721480152980!5m2!1ses!2sus",
+					"text_EN": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3723.787875384318!2d-89.555054!3d21.041172!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzI4LjIiTiA4OcKwMzMnMTguMiJX!5e0!3m2!1sen!2sus!4v1721480152980!5m2!1sen!2sus"
+				}
+	
+			},
+			"zone_state_name": {
+				"text_ES": "Yucatán",
+				"text_EN": "Yucatan"
+			},
+			"state": "Yucatan",
+			"zone_municipality_name": {
+				"text_ES": "Mérida",
+				"text_EN": "Merida"
+			},
+			"zone_municipality": "Merida",
+			"zone_city_name": {
+				"text_ES": "Temozón Norte",
+				"text_EN": "Temozon Norte"
+			},
+			"zone_city": "Temozón Norte"
+		}
 }
