@@ -21,7 +21,8 @@ return [
 	'sign_in' => 'Entrar',
 	'authentication' => 'Autenticación',
 	'password' => 'Contraseña',
-	'properties' => 'Propiedades',
+	'properties' => 'Propiedad',
+	'properties_all' => 'Todas las Propiedades',
 	'done' => 'Hecho',
 	'sorry' => 'Lo sentimos',
 	'listing' => 'Listado',
@@ -184,6 +185,11 @@ return [
 	'header_23' => 'Planeado para el crecimiento y vida familiar en un entorno seguro y con múltiples espacios verdes y amenidades dedicadas al bienestar.',
 	'header_24' => 'Lotes de desarrollo habitacional',
 
+	// Header text in Salama
+	'header_25' => 'Lotes residenciales',
+	'header_26' => 'SALAMA, es una comunidad que se caracteriza por sus grandes áreas verdes y cuerpos de agua que crean una sensación de confort, sombra y calma a nuestros clientes ',
+	'header_27' => 'Privada Residencial',
+	
 	// carousel Wayuum
 	'carousel_1' => 'Acceso principal a Wayúum',
 	'carousel_2' => '7 Privadas residenciales',
@@ -247,6 +253,14 @@ return [
 	'carousel_47' => 'Parque infantil',
 	'carousel_48' => 'Parque infantil',
 	'carousel_49' => 'Ubicación de Caoba',
+	
+	// carousel Salama
+	'carousel_50' => 'Entrada Principal de Salama',
+	'carousel_51' => 'Salama es magia',
+	'carousel_52' => 'Vive entre la brisa del mar y la ciudad',
+	'carousel_53' => 'Disfruta de una zona de alta demanda',
+	'carousel_54' => 'Paz y tranquilidad están en Salama',
+	'carousel_55' => 'Casa club',
 
 	'click_zoom' => 'Click para zoom',
 
@@ -344,6 +358,13 @@ return [
 	'location_70'  => 'El crecimiento económico de Mérida la ha convertido en una Ciudad que está revolucionando el concepto de vivienda Residencial tranquila y exclusiva.',
 	'location_71'  => 'Una zona natural creciente conectada con un sinfín de recursos que impulsan una plusvalía como nunca antes vista y dan plena seguridad a tu inversión.',
 	'location_72'  => 'Ubicado en una zona creciente en el Estado, con conexión directa a la Zona Industrial y alta conectividad a servicios municipales, escuelas y universidades; supermercados, zonas de entretenimiento, parques y transporte urbano.',
+	
+	// text in Salama
+	'location_73'  => '¿Por qué comprar un lote residencial en Salama?',
+	'location_74'  => '- A tan solo 12 kilómetros de la fascinante costa y otros 12 kilómetros al norte de la histórica ciudad de Mérida.',
+	'location_75'  => '- SALAMA se encuentra en Tamanché que es una subcomisaria del municipio de Mérida localizado al poniente de la carretera que conduce de Mérida a Puerto Progreso.',
+	'location_76'  => '- Contará con servicios que superarán las necesidades básicas, como:	energía eléctrica subterránea, alumbrado público, calles pavimentadas, circulación vial y pozos	pluviales.',
+	'location_77'  => '- Tiene 162 terrenos residenciales distribuidos en una extensión verde de 8 hectáreas sobre la carretera Mérida-Progreso.',
 	
 	// characteristic text in Lakuun
 	'characteristic'  => 'Características',
@@ -528,6 +549,35 @@ return [
 	'characteristic_154'  => 'Espacios para zonas comerciales',
 	'characteristic_155'  => 'Amplios espacios creativos',
 
+	// characteristic text in Salama
+	'characteristic_156'  => 'Urbanización de primer nivel, con 162 terrenos residenciales distribuidos en una extensión verde de 8 hectáreas sobre la carretera Mérida-Progreso .',
+	'characteristic_157'  => 'Presenta 15 amenidades incluyendo un restaurante, cancha de padel tipo estadio y una plaza comercial. ',
+	'characteristic_158'  => 'Barda perimetral',
+	'characteristic_159'  => 'Caseta de vigilancia, Iluminación pública',
+	'characteristic_160'  => 'Infraestructura vial con señalización interna',
+	'characteristic_161'  => 'Mojoneras',
+	'characteristic_162'  => 'Banquetas',
+	'characteristic_163'  => 'Luz y agua a pie de lote',
+	'characteristic_164'  => 'Canchas de usos múltiples',
+	'characteristic_165'  => 'Zonas de esparcimiento',
+	'characteristic_166'  => 'Espacios para zonas comerciales',
+	'characteristic_167'  => 'Amplios espacios creativos',
+	'characteristic_168'  => ' Tenemos 15 amenidades pensadas para nuestros clientes con facilidad para estacionarse, accesibilidad para adultos mayores y personas discapacitadas. Con un fraccionamiento privado y seguridad 24 horas. ',
+	'characteristic_169'  => ' Amenidades',
+	'characteristic_170'  => ' Alberca',
+	'characteristic_171'  => ' Canchas de padel',
+	'characteristic_172'  => ' Cine al aire libre',
+	'characteristic_173'  => ' Cancha de futbol',
+	'characteristic_174'  => ' Kids Club',
+	'characteristic_175'  => ' Womens Club',
+	'characteristic_176'  => ' Mens Club',
+	'characteristic_177'  => ' Gym',
+	'characteristic_178'  => ' Restaurante',
+	'characteristic_179'  => ' Roof Top',
+	'characteristic_180'  => ' Bar',
+	'characteristic_181'  => ' Salón multiusos',
+	'characteristic_182'  => ' Mascotas permitidas',
+
 	// Club House text in Lakuun
 	'club_1'  => 'Tu única preocupación en Lakuun será elegir la opción para relajarte',
 	'club_2'  => 'Reconéctate con la naturaleza, entre la diversidad de nuestro desarrollo, nuestras amenidades únicas y la seguridad que el estado más seguro del país puede ofrecerte.',
@@ -683,7 +733,7 @@ return [
 	'clubhouse_114'  => 'Cancha multifuncional',
 	'clubhouse_115'  => 'Juegos infantiles en el exterior',
 	'clubhouse_116'  => 'Salón de usos múltiples con área de bar',
-	
+
 	// Club House text in Costa Flamingo
 	'clubhouse_117'  => 'Servicios Fron Desk',
 	'clubhouse_118'  => 'Restaurante',
@@ -700,6 +750,42 @@ return [
 	'clubhouse_127'  => 'Juniors Club',
 	'clubhouse_128'  => 'Kids Club',
 
+	// Club House text in Salama
+	'clubhouse_129'  => 'Vista aerea casa club',
+	'clubhouse_130'  => 'Terrazas',
+	'clubhouse_131'  => 'Centros comerciales',
+	'clubhouse_132'  => 'Sala de lecturas',
+	'clubhouse_133'  => 'Reservado',
+	'clubhouse_134'  => 'piscina',
+	'clubhouse_135'  => 'Gimnasio',
+	'clubhouse_136'  => 'Cine al aire libre',
+	'clubhouse_137'  => 'Bar/Café',
+	'clubhouse_138'  => 'Área de azadores',
+	'clubhouse_139'  => 'Área de piscina',
+	'clubhouse_139'  => 'Área de playa',
+
+	// Club House text in Salama
+	'clubhouse_140'  => 'Plaza de acceso',
+	'clubhouse_141'  => 'Parque para picnic',
+	'clubhouse_142'  => 'Parque infantil',
+	'clubhouse_143'  => 'Parque para ejercicio al aire libre',
+	'clubhouse_144'  => 'Parque para perros',
+	'clubhouse_145'  => 'Andador de contemplación',
+	'clubhouse_146'  => 'Área de administración',
+	'clubhouse_147'  => 'Terraza techada y terraza no techada',
+	'clubhouse_148'  => 'Área de sanitarios de hombres y mujeres',
+
+	'clubhouse_149'  => 'Piscina bar y piscina familiar',
+	'clubhouse_150'  => 'Cocina',
+	'clubhouse_151'  => 'Gimnasio',
+	'clubhouse_152'  => 'Spa y Sauna',
+	'clubhouse_153'  => 'Canal de nado',
+	'clubhouse_154'  => 'Cancha de Pádel',
+	'clubhouse_155'  => 'Cancha multifuncional',
+	'clubhouse_156'  => 'Juegos infantiles en el exterior',
+	'clubhouse_157'  => 'Area de asadores',	
+	'clubhouse_158'  => 'Salón de usos múltiples con área de bar',
+	'clubhouse_159'  => 'Cine al aire libre',
 
 
 	// text in Lakuun
@@ -738,6 +824,9 @@ return [
 
 	// property_list text in Nodo
 	'property_list_16'  => 'Disponiblidad de lotes industriales.',
+
+	// property_list text in Salama
+	'property_list_17'  => 'Disponiblidad de lotes industriales.',
 
 	'image'  => 'imagen',
 	'total_lots'  => 'Total de lotes',
@@ -787,7 +876,7 @@ return [
 	'contact_1'  => 'Asesora Inmobiliaria',
 	'contact_2'  => 'Este es el momento para invertir!',
 	'contact_3'  => 'Ya sea que quieras iniciar a formar tu patrimonio o quieras aumentarlo, estamos contigo en cada etapa para ofrecerte el mejor producto que maximice tu retorno de inversión.',
-	'contact_4'  => 'Contactar un asesor',
+	'contact_4'  => 'Contactarme',
 	
 	'review_1'  => 'Ser inversionista es una manera diferente de ver el mundo.',
 	'review_2'  => 'El primer paso para ser inversionista es la mentalidad.',

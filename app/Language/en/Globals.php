@@ -21,7 +21,8 @@ return [
 	'sign_in' => 'Entrar',
 	'authentication' => 'Autenticación',
 	'password' => 'Contraseña',
-	'properties' => 'Properties',
+	'properties' => 'Property',
+	'properties_all' => 'All Properties',
 	'done' => 'Hecho',
 	'sorry' => 'Lo sentimos',
 	'listing' => 'Listado',
@@ -67,7 +68,7 @@ return [
 	'availability_date' => 'Fecha de disponibilidad',
 	'down_payment' => 'Down payment',
 	'category' => 'Categoría',
-	'stage' => 'Etapa',
+	'stage' => 'Stage',
 	'stages' => 'Stages',
 	'quantity' => 'Cantidad',
 	'mode' => 'Modo',
@@ -182,6 +183,11 @@ return [
 	'header_23' => 'Planned for growth and family life in a safe environment with multiple green spaces and amenities dedicated to well-being.',
 	'header_24' => 'Housing development lots',
 
+	// Header text in Salama
+	'header_25' => 'Residential lots',
+	'header_26' => 'SALAMA is a community characterized by its large green areas and bodies of water that create a feeling of comfort, shade and calm for our clients.',
+	'header_27' => 'Private Residential',
+
 	// carousel Wayuum
 	'carousel_1' => 'Main access to Wayúum',
 	'carousel_2' => '7 Residential Privadas',
@@ -244,7 +250,17 @@ return [
 	'carousel_46' => 'Exercise area',
 	'carousel_47' => 'Adventure playground',
 	'carousel_48' => 'Adventure playground',
-	'carousel_49' => 'Caoba location',
+	'carousel_49' => 'Caoba location',	
+	
+	// carousel Salama
+	'carousel_50' => 'Main entrance of Salama',
+	'carousel_51' => 'Salama is magic',
+	'carousel_52' => 'Live between the sea breeze and the city',
+	'carousel_53' => 'Enjoy a high demand area',
+	'carousel_54' => 'Peace and tranquility are in Salama',
+	'carousel_55' => 'Club house',
+
+
 
 		'click_zoom' => 'Click to zoom',
 
@@ -343,6 +359,13 @@ return [
 	'location_71'  => 'A growing natural area connected to endless resources that drive capital gains like never before seen and give full security to your investment.',
 	'location_72'  => 'Located in a growing area in the State, with direct connection to the Industrial Zone and high connectivity to municipal services, schools and universities; supermarkets, entertainment areas, parks and urban transportation.',
 
+	// text in Salama
+	'location_73'  => 'Why buy a residential lot in Salama?',
+	'location_74'  => '- Just 12 kilometers from the fascinating coast and another 12 kilometers north of the historic city of Mérida.',
+	'location_75'  => '- SALAMA is located in Tamanché, which is a sub-police station of the municipality of Mérida located west of the highway that leads from Mérida to Puerto Progreso.',
+	'location_76'  => '- It will have services that will exceed basic needs, such as: underground electricity, public lighting, paved streets, road circulation and storm drains.',
+	'location_77'  => '- It has 162 residential plots distributed in a green area of ​​8 hectares on the Mérida-Progreso highway.',
+	
 	// characteristic text in Lakuun
 	'characteristic'  => 'Characteristics',
 	'characteristic_1'  => 'Perimeter fence',
@@ -526,6 +549,35 @@ return [
 	'characteristic_154'  => 'Spaces for commercial areas',
 	'characteristic_155'  => 'Large creative spaces',
 
+	// characteristic text in Salama
+	'characteristic_156'  => 'First-class urbanization, with 162 residential plots distributed in a green area of ​​8 hectares on the Mérida-Progreso highway.',
+	'characteristic_157'  => 'It features 15 amenities including a restaurant, a stadium-style paddle tennis court and a shopping plaza. ',
+	'characteristic_158'  => 'Perimeter fence',
+	'characteristic_159'  => 'Guardhouse, Public lighting',
+	'characteristic_160'  => 'Road infrastructure with internal signage',
+	'characteristic_161'  => 'Boundary markers',
+	'characteristic_162'  => 'Stools',
+	'characteristic_163'  => 'Electricity and water at the foot of the lot',
+	'characteristic_164'  => 'Multipurpose courts',
+	'characteristic_165'  => 'Recreation areas',
+	'characteristic_166'  => 'Spaces for commercial areas',
+	'characteristic_167'  => 'Wide creative spaces',
+	'characteristic_168'  => 'We have 15 amenities designed for our clients, with easy parking, accessibility for seniors and disabled people. With a private subdivision and 24-hour security. ',
+	'characteristic_169'  => 'Amenities',
+	'characteristic_170'  => 'Swimming pool',
+	'characteristic_171'  => 'Padel courts',
+	'characteristic_172'  => 'Open-air cinema',
+	'characteristic_173'  => 'Soccer field',
+	'characteristic_174'  => 'Kids Club',
+	'characteristic_175'  => 'Womens Club',
+	'characteristic_176'  => 'Mens Club',
+	'characteristic_177'  => 'Gym',
+	'characteristic_178'  => 'Restaurant',
+	'characteristic_179'  => 'Roof Top',
+	'characteristic_180'  => 'Bar',
+	'characteristic_181'  => 'Multipurpose room',
+	'characteristic_182'  => ' Mascotas permitidas',
+
 	// Club House text in Lakuun
 	'club_1'  => 'Your only concern in Lakuun will be choosing the option to relax',
 	'club_2'  => 'Reconnect with nature, amidst the diversity of our development, our unique amenities, and the security that the safest state in the country can offer you.',
@@ -697,6 +749,42 @@ return [
 	'clubhouse_127'  => 'Juniors Club',
 	'clubhouse_128'  => 'Kids Club',
 
+	// Club House text in Salama
+	'clubhouse_129'  => 'Aerial view of clubhouse',
+	'clubhouse_130'  => 'Terraces',
+	'clubhouse_131'  => 'Shopping malls',
+	'clubhouse_132'  => 'Reading room',
+	'clubhouse_133'  => 'Reserved',
+	'clubhouse_134'  => 'Swimming pool',
+	'clubhouse_135'  => 'Gym',
+	'clubhouse_136'  => 'Open-air cinema',
+	'clubhouse_137'  => 'Bar/Cafe',
+	'clubhouse_138'  => 'Grill area',
+	'clubhouse_139'  => 'Pool area',
+	'clubhouse_139'  => 'Beach area',
+
+	// Club House text in Salama
+	'clubhouse_140'  => 'Access square',
+	'clubhouse_141'  => 'Picnic park',
+	'clubhouse_142'  => "Children's playground",
+	'clubhouse_143'  => 'Outdoor exercise park',
+	'clubhouse_144'  => 'Dog park',
+	'clubhouse_145'  => 'Contemplation walker',
+	'clubhouse_146'  => 'Administration area',
+	'clubhouse_147'  => 'Covered terrace and uncovered terrace',
+	'clubhouse_148'  => "Men's and women's restroom area",
+
+	'clubhouse_149'  => 'Pool bar and family pool',
+	'clubhouse_150'  => 'Kitchen',
+	'clubhouse_151'  => 'Gym',
+	'clubhouse_152'  => 'Spa and Sauna',
+	'clubhouse_153'  => 'Swimming channel',
+	'clubhouse_154'  => 'Paddle tennis court',
+	'clubhouse_155'  => 'Multifunctional court',
+	'clubhouse_156'  => "Outdoor children's games",
+	'clubhouse_157'  => 'Grill area',	
+	'clubhouse_158'  => 'Multipurpose room with bar area',
+	'clubhouse_159'  => 'Open-air cinema',
 
 
 	// text in Lakuun
@@ -784,7 +872,7 @@ return [
 	'contact_1'  => 'Real Estate Advisor',
 	'contact_2'  => 'This is the time to invest!',
 	'contact_3'  => 'Whether you want to start building your wealth or want to increase it, we are with you at every stage to offer you the best product that maximizes your return on investment.',
-	'contact_4'  => 'Contact an agent',
+	'contact_4'  => 'Contact',
 
 	'review_1'  => 'Being an investor is a different way of seeing the world.',
 	'review_2'  => 'The first step to be an investor is the mentality.',
